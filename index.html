@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Tech | 实时渲染技术知识库</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'Noto Sans SC', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        'neon-blue': '#00f0ff',
+                        'neon-purple': '#b026ff',
+                        'neon-pink': '#ff006e',
+                        'neon-amber': '#ffbe0b',
+                        'neon-green': '#00ff88',
+                        'dark-900': '#0a0a0f',
+                        'dark-800': '#12121a',
+                        'dark-700': '#1a1a25',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        * { scroll-behavior: smooth; }
+        body { background: #0a0a0f; font-family: 'Inter', 'Noto Sans SC', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(135deg, #00f0ff 0%, #b026ff 50%, #ff006e 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+        }
+        .glass-panel {
+            background: rgba(18, 18, 26, 0.8); backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .card-hover { transition: all 0.3s ease; cursor: pointer; }
+        .card-hover:hover {
+            transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0, 240, 255, 0.1);
+            border-color: rgba(0, 240, 255, 0.3);
+        }
+        .tag-ue { background: rgba(0, 240, 255, 0.15); color: #00f0ff; border: 1px solid rgba(0, 240, 255, 0.3); }
+        .tag-ta { background: rgba(176, 38, 255, 0.15); color: #b026ff; border: 1px solid rgba(176, 38, 255, 0.3); }
+        .tag-render { background: rgba(255, 190, 11, 0.15); color: #ffbe0b; border: 1px solid rgba(255, 190, 11, 0.3); }
+        .tag-ai { background: rgba(255, 0, 110, 0.15); color: #ff006e; border: 1px solid rgba(255, 0, 110, 0.3); }
+        .tag-ta-render { background: rgba(0, 255, 136, 0.15); color: #00ff88; border: 1px solid rgba(0, 255, 136, 0.3); }
+        .page { display: none; }
+        .page.active { display: block; animation: fadeIn 0.3s ease; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .article-content h1 { color: #fff; font-size: 2.5rem; font-weight: 700; margin-bottom: 1.5rem; }
+        .article-content h2 { color: #00f0ff; font-size: 1.75rem; font-weight: 600; margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid rgba(0, 240, 255, 0.2); }
+        .article-content h3 { color: #b026ff; font-size: 1.4rem; font-weight: 600; margin: 2rem 0 0.75rem; }
+        .article-content h4 { color: #ffbe0b; font-size: 1.1rem; font-weight: 600; margin: 1.5rem 0 0.5rem; }
+        .article-content p { color: #b4b4b4; line-height: 1.9; margin-bottom: 1.25rem; font-size: 1.05rem; }
+        .article-content ul { list-style: disc; padding-left: 1.5rem; color: #b4b4b4; margin-bottom: 1.25rem; }
+        .article-content li { margin-bottom: 0.75rem; line-height: 1.7; }
+        .article-content code { background: rgba(0, 240, 255, 0.1); color: #00f0ff; padding: 0.2rem 0.5rem; border-radius: 4px; font-family: 'JetBrains Mono', monospace; font-size: 0.9em; }
+        .article-content pre { background: rgba(0, 0, 0, 0.4); padding: 1.25rem; border-radius: 8px; overflow-x: auto; margin: 1.5rem 0; border: 1px solid rgba(255, 255, 255, 0.1); }
+        .article-content pre code { background: none; padding: 0; }
+        .article-content blockquote { border-left: 4px solid #00f0ff; padding-left: 1rem; margin: 1.5rem 0; color: #888; font-style: italic; }
+        .article-content a { color: #00f0ff; text-decoration: none; }
+        .article-content a:hover { text-decoration: underline; }
+        .tech-analysis-box { background: linear-gradient(135deg, rgba(0, 240, 255, 0.1), rgba(176, 38, 255, 0.1)); border: 1px solid rgba(0, 240, 255, 0.3); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+        .source-box { background: rgba(255, 190, 11, 0.1); border: 1px solid rgba(255, 190, 11, 0.3); border-radius: 8px; padding: 1rem; margin: 1rem 0; }
+        .nav-link { position: relative; cursor: pointer; }
+        .nav-link:hover { color: white; }
+        .update-badge { animation: pulse 2s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
+    </style>
+</head>
+<body class="text-gray-300 min-h-screen">
+    <!-- Background -->
+    <div class="fixed inset-0 overflow-hidden pointer-events-none">
+        <div class="absolute top-0 left-1/4 w-[600px] h-[600px] bg-neon-blue/10 rounded-full filter blur-[120px]"></div>
+        <div class="absolute top-1/3 right-1/4 w-[500px] h-[500px] bg-neon-purple/10 rounded-full filter blur-[100px]"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 left-0 right-0 z-50 glass-panel border-b border-gray-800">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div onclick="showPage('home')" class="flex items-center gap-3 cursor-pointer">
+                    <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-neon-blue to-neon-purple flex items-center justify-center">
+                        <i data-lucide="cpu" class="w-5 h-5 text-white"></i>
+                    </div>
+                    <div>
+                        <span class="font-bold text-white text-lg hidden md:block">Realtime Tech</span>
+                        <span class="text-xs text-gray-500 hidden md:block">实时渲染知识库</span>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex items-center gap-6">
+                    <span onclick="showPage('home')" class="nav-link text-sm font-medium">首页</span>
+                    <span onclick="showPage('ue')" class="nav-link text-sm font-medium">Unreal Engine</span>
+                    <span onclick="showPage('ta')" class="nav-link text-sm font-medium">技术美术</span>
+                    <span onclick="showPage('render')" class="nav-link text-sm font-medium">实时渲染</span>
+                    <span onclick="showPage('ta-render')" class="nav-link text-sm font-medium text-neon-green">🔥 TA渲染专栏</span>
+                    <span onclick="showPage('ai')" class="nav-link text-sm font-medium">AI技术</span>
+                    <div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-neon-green/10 border border-neon-green/30">
+                        <div class="w-2 h-2 rounded-full bg-neon-green update-badge"></div>
+                        <span class="text-xs text-neon-green">每2h更新</span>
+                    </div>
+                </div>
+
+                <button onclick="toggleMobileMenu()" class="md:hidden p-2">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-gray-800 pt-4">
+                <div class="flex flex-col gap-3">
+                    <span onclick="showPage('home')" class="text-sm py-2 cursor-pointer">首页</span>
+                    <span onclick="showPage('ue')" class="text-sm py-2 cursor-pointer">Unreal Engine</span>
+                    <span onclick="showPage('ta')" class="text-sm py-2 cursor-pointer">技术美术</span>
+                    <span onclick="showPage('render')" class="text-sm py-2 cursor-pointer">实时渲染</span>
+                    <span onclick="showPage('ta-render')" class="text-sm py-2 cursor-pointer text-neon-green">TA渲染专栏</span>
+                    <span onclick="showPage('ai')" class="text-sm py-2 cursor-pointer">AI技术</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="pt-20">
+        
+        <!-- PAGE: HOME -->
+        <div id="page-home" class="page active">
+            <header class="py-16 px-6">
+                <div class="max-w-7xl mx-auto text-center">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-neon-blue/10 border border-neon-blue/30 mb-8">
+                        <div class="w-2 h-2 rounded-full bg-neon-blue update-badge"></div>
+                        <span class="text-sm text-neon-blue">知识库每2小时自动更新</span>
+                    </div>
+
+                    <h1 class="text-5xl md:text-7xl font-bold mb-6">
+                        <span class="gradient-text">Realtime Tech</span>
+                    </h1>
+                    
+                    <p class="text-xl text-gray-400 max-w-3xl mx-auto mb-6">
+                        实时渲染技术知识库 · 技术原文 + 深度分析 · 持续更新
+                    </p>
+                    
+                    <div class="flex items-center justify-center gap-4 text-sm text-gray-500 mb-12">
+                        <span>📚 50+ 技术文章</span>
+                        <span>•</span>
+                        <span>🔬 深度技术分析</span>
+                        <span>•</span>
+                        <span>🔗 原文链接追踪</span>
+                    </div>
+
+                    <!-- Category Cards -->
+                    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                        <div onclick="showPage('ue')" class="glass-panel rounded-2xl p-6 card-hover">
+                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center mb-4">
+                                <i data-lucide="gamepad-2" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <h3 class="font-semibold text-white mb-1">Unreal Engine</h3>
+                            <p class="text-sm text-gray-500">12 篇深度解析</p>
+                        </div>
+
+                        <div onclick="showPage('ta')" class="glass-panel rounded-2xl p-6 card-hover">
+                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center mb-4">
+                                <i data-lucide="palette" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <h3 class="font-semibold text-white mb-1">技术美术</h3>
+                            <p class="text-sm text-gray-500">8 篇实战指南</p>
+                        </div>
+
+                        <div onclick="showPage('render')" class="glass-panel rounded-2xl p-6 card-hover">
+                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center mb-4">
+                                <i data-lucide="sun" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <h3 class="font-semibold text-white mb-1">实时渲染</h3>
+                            <p class="text-sm text-gray-500">15 篇算法解析</p>
+                        </div>
+
+                        <div onclick="showPage('ta-render')" class="glass-panel rounded-2xl p-6 card-hover border border-neon-green/30">
+                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center mb-4">
+                                <i data-lucide="flame" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <h3 class="font-semibold text-neon-green mb-1">TA渲染专栏 🔥</h3>
+                            <p class="text-sm text-gray-500">12 篇深度内容</p>
+                        </div>
+
+                        <div onclick="showPage('ai')" class="glass-panel rounded-2xl p-6 card-hover">
+                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500 to-rose-600 flex items-center justify-center mb-4">
+                                <i data-lucide="brain" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <h3 class="font-semibold text-white mb-1">AI技术</h3>
+                            <p class="text-sm text-gray-500">6 篇前沿分析</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Recent Updates -->
+            <section class="py-12 px-6">
+                <div class="max-w-7xl mx-auto">
+                    <h2 class="text-2xl font-bold text-white mb-8 flex items-center gap-3">
+                        <i data-lucide="clock" class="w-6 h-6 text-neon-blue"></i>
+                        最近更新
+                    </h2>
+
+                    <div class="glass-panel rounded-2xl p-6">
+                        <div id="recent-updates-list">
+                            <!-- Updates will be loaded here -->
+                            <div class="flex items-center gap-4 p-4 border-b border-gray-800 last:border-0">
+                                <div class="w-2 h-2 rounded-full bg-neon-green"></div>
+                                <div class="flex-1">
+                                    <div class="text-white font-medium">新增文章：UE 5.7 Nanite Foliage 深度技术分析</div>
+                                    <div class="text-sm text-gray-500">包含完整的技术原理分析、性能测试数据和实现代码</div>
+                                </div>
+                                <div class="text-sm text-gray-500">2小时前</div>
+                            </div>
+
+                            <div class="flex items-center gap-4 p-4 border-b border-gray-800 last:border-0">
+                                <div class="w-2 h-2 rounded-full bg-neon-blue"></div>
+                                <div class="flex-1">
+                                    <div class="text-white font-medium">更新文章：实时水体交互渲染 - 添加HLSL代码实现</div>
+                                    <div class="text-sm text-gray-500">补充了完整的Shader代码和UE材质节点配置</div>
+                                </div>
+                                <div class="text-sm text-gray-500">4小时前</div>
+                            </div>
+
+                            <div class="flex items-center gap-4 p-4 border-b border-gray-800 last:border-0">
+                                <div class="w-2 h-2 rounded-full bg-neon-purple"></div>
+                                <div class="flex-1">
+                                    <div class="text-white font-medium">新增专栏：TA渲染专栏 - 雪地脚印与变形渲染</div>
+                                    <div class="text-sm text-gray-500">包含可变形地形实现、深度图渲染技术详解</div>
+                                </div>
+                                <div class="text-sm text-gray-500">6小时前</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Other category pages will be loaded dynamically -->
+        <div id="page-ue" class="page"></div>
+        <div id="page-ta" class="page"></div>
+        <div id="page-render" class="page"></div>
+        <div id="page-ta-render" class="page"></div>
+        <div id="page-ai" class="page"></div>
+        <div id="page-article" class="page"></div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800 py-8 px-6 mt-12">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-neon-blue to-neon-purple flex items-center justify-center">
+                    <i data-lucide="cpu" class="w-4 h-4 text-white"></i>
+                </div>
+                <span class="text-gray-400">Realtime Tech 知识库</span>
+            </div>
+            
+            <div class="text-sm text-gray-500">
+                最后更新: <span id="last-update-time">2025-02-26 20:00</span>
+                <span class="mx-2">•</span>
+                每2小时自动更新
+            </div>
+        </div>
+    </footer>
+
+    <script src="knowledge-base.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            lucide.createIcons();
+        });
+    </script>
+</body>
+</html>
