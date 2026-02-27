@@ -1,0 +1,62 @@
+{
+  "ecd8158d8037": {
+    "id": "ecd8158d8037",
+    "title": "Foundry releases Nuke 17.0, NukeX 17.0 and Nuke Studio 17.0",
+    "link": "https://www.cgchannel.com/2026/02/foundry-releases-nuke-17-0-nukex-17-0-nuke-studio-17-0/",
+    "summary": "Check out the new features in this major update to the compositing software, like support for Gaussian splats and an updated 3D system.",
+    "published": "Fri, 27 Feb 2026 11:55:11 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-02-27T20:25:32.119430"
+  },
+  "d1ea911d2758": {
+    "id": "d1ea911d2758",
+    "title": "F12 releases The Grove 2.3 for Blender and Houdini",
+    "link": "https://www.cgchannel.com/2026/02/f12-releases-the-grove-2-3-for-blender-and-houdini/",
+    "summary": "Popular 3D tree generator for VFX and games work now plays nicer with real-time engines - and now supports Houdini Indie.",
+    "published": "Fri, 27 Feb 2026 06:00:34 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-02-27T20:25:32.119453"
+  },
+  "cb7846b01d32": {
+    "id": "cb7846b01d32",
+    "title": "Check out promising new 3D texture painting app Wafer",
+    "link": "https://www.cgchannel.com/2026/02/check-out-promising-new-3d-texture-painting-app-wafer/",
+    "summary": "Sparseal's $20 iPad app includes features usually only found in more expensive desktop software, like simultaneous multichannel painting.",
+    "published": "Thu, 26 Feb 2026 14:58:42 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-02-27T20:25:32.119467"
+  },
+  "338c49bf45db": {
+    "id": "338c49bf45db",
+    "title": "(New to Niagra ue5) How would i go about recreating this slash effect",
+    "link": "https://realtimevfx.com/t/new-to-niagra-ue5-how-would-i-go-about-recreating-this-slash-effect/30490",
+    "summary": "I want to recreate this but im not sure how to or where to even start 4 posts - 3 participants Read full topic",
+    "published": "Thu, 26 Feb 2026 19:56:41 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-02-27T20:25:32.750779"
+  },
+  "c5dd7c8590d2": {
+    "id": "c5dd7c8590d2",
+    "title": "When simulating splashes for a flipbook - how do you get directionality in the fluid while keeping the fluid framed for the flipbook?",
+    "link": "https://realtimevfx.com/t/when-simulating-splashes-for-a-flipbook-how-do-you-get-directionality-in-the-fluid-while-keeping-the-fluid-framed-for-the-flipbook/30484",
+    "summary": "This is a bit of a hard question to explain, basically I’m trying to get a liquid splash with directionality. If I put forces to the liquid, naturally it pushes it in space, but then the liquid gets off frame in the flipbook or I have to zoom out and make it smaller in the render. What’s the trick? 2 posts - 2 participants Read full topic",
+    "published": "Wed, 25 Feb 2026 18:22:25 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-02-27T20:25:32.750816"
+  },
+  "514c7a61d0d8": {
+    "id": "514c7a61d0d8",
+    "title": "Unreal engine - Disable post-processing on a Niagara vfx",
+    "link": "https://realtimevfx.com/t/unreal-engine-disable-post-processing-on-a-niagara-vfx/30482",
+    "summary": "So I was making this Water effect in niagara, and in the viewport it looked amazing! However in the game it looked off, what I found out was that I had the viewport in niagara set to show it without post processing. With post processing it looks awfull, but without it looks amazing. Now I do need post processing in the game for other effects, so my question is: Is it possible to turn of post-processing for a single niagara vfx? Video of whats going on: Gyazo Gyazo Screen Video Gyazo is the easiest way to record screenshots &amp; videos you can share instantly. Save time with async visual communication that's effortless and engaging. Gyazo Gyazo Screen Video Gyazo is the easiest way to record screenshots &amp; videos you can share instantly. Save time with async visual communication that's effortless and engaging. Every tip is welcome! 3 posts - 1 participant Read full topic",
+    "published": "Wed, 25 Feb 2026 14:10:31 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-02-27T20:25:32.750874"
+  }
+}
