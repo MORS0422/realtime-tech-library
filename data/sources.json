@@ -199,6 +199,86 @@
       "url": "https://neuralrendering.com/feed/",
       "category": "ai",
       "enabled": true
+    },
+    {
+      "id": "niagara-vfx",
+      "name": "Niagara VFX Community",
+      "type": "rss",
+      "url": "https://realtimevfx.com/c/niagara/19.rss",
+      "category": "vfx",
+      "enabled": true
+    },
+    {
+      "id": "houdini-vfx",
+      "name": "SideFX Houdini",
+      "type": "rss",
+      "url": "https://www.sidefx.com/community/feed/",
+      "category": "vfx",
+      "enabled": true
+    },
+    {
+      "id": "80lv-vfx",
+      "name": "80 Level - VFX",
+      "type": "rss",
+      "url": "https://80.lv/articles/tag/vfx/rss.xml",
+      "category": "vfx",
+      "enabled": true
+    },
+    {
+      "id": "vfx-magazine",
+      "name": "VFX Magazine",
+      "type": "rss",
+      "url": "https://www.vfxmagazine.com/feed/",
+      "category": "vfx",
+      "enabled": true
+    },
+    {
+      "id": "youtube-redefinefx",
+      "name": "YouTube - RedefineFX (Niagara)",
+      "type": "youtube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtT8am2_wJ7P6-9F_cj8Dfg",
+      "category": "vfx",
+      "enabled": true
+    },
+    {
+      "id": "multiplat-gamedev",
+      "name": "GameDev.net - Multiplatform",
+      "type": "rss",
+      "url": "https://gamedev.net/rss/news/",
+      "category": "multiplat",
+      "enabled": true
+    },
+    {
+      "id": "gamasutra",
+      "name": "Gamasutra",
+      "type": "rss",
+      "url": "https://gamasutra.com/rss/news.xml",
+      "category": "multiplat",
+      "enabled": true
+    },
+    {
+      "id": "gdc-vault",
+      "name": "GDC Vault",
+      "type": "rss",
+      "url": "https://gdcvault.com/rss/",
+      "category": "multiplat",
+      "enabled": true
+    },
+    {
+      "id": "gamedeveloper",
+      "name": "Game Developer",
+      "type": "rss",
+      "url": "https://gamedeveloper.com/rss.xml",
+      "category": "multiplat",
+      "enabled": true
+    },
+    {
+      "id": "mobile-gamedev",
+      "name": "Mobile Game Development",
+      "type": "rss",
+      "url": "https://www.gamasutra.com/rss/mobile.xml",
+      "category": "multiplat",
+      "enabled": true
     }
   ],
   "settings": {
@@ -210,10 +290,12 @@
       "ta": "技术美术",
       "render": "实时渲染",
       "ta-render": "TA渲染专栏",
-      "ai": "AI技术"
+      "ai": "AI技术",
+      "vfx": "特效专栏",
+      "multiplat": "多端开发"
     },
     "preferences": {
-      "priority_categories": ["ue", "ta", "render", "ta-render", "ai"],
+      "priority_categories": ["ue", "ta", "render", "ta-render", "ai", "vfx", "multiplat"],
       "exclude_keywords": ["Unity", "unity", "Unity3D"]
     }
   }

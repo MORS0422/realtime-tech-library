@@ -21,7 +21,9 @@ CATEGORY_CONFIG = {
     "ta": {"name": "技术美术", "color": "#b026ff"},
     "render": {"name": "实时渲染", "color": "#ffbe0b"},
     "ta-render": {"name": "TA渲染专栏", "color": "#00ff88"},
-    "ai": {"name": "AI技术", "color": "#ff006e"}
+    "ai": {"name": "AI技术", "color": "#ff006e"},
+    "vfx": {"name": "特效专栏", "color": "#ff6600"},
+    "multiplat": {"name": "多端开发", "color": "#00ccff"}
 }
 
 def load_sources():

@@ -50,6 +50,8 @@
         .tag-render { background: rgba(255, 190, 11, 0.15); color: #ffbe0b; border: 1px solid rgba(255, 190, 11, 0.3); }
         .tag-ai { background: rgba(255, 0, 110, 0.15); color: #ff006e; border: 1px solid rgba(255, 0, 110, 0.3); }
         .tag-ta-render { background: rgba(0, 255, 136, 0.15); color: #00ff88; border: 1px solid rgba(0, 255, 136, 0.3); }
+        .tag-vfx { background: rgba(255, 102, 0, 0.15); color: #ff6600; border: 1px solid rgba(255, 102, 0, 0.3); }
+        .tag-multiplat { background: rgba(0, 204, 255, 0.15); color: #00ccff; border: 1px solid rgba(0, 204, 255, 0.3); }
         .page { display: none; }
         .page.active { display: block; animation: fadeIn 0.3s ease; }
         @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
@@ -100,7 +102,9 @@
                     <span onclick="showPage('ue')" class="nav-link text-sm font-medium">Unreal Engine</span>
                     <span onclick="showPage('ta')" class="nav-link text-sm font-medium">技术美术</span>
                     <span onclick="showPage('render')" class="nav-link text-sm font-medium">实时渲染</span>
-                    <span onclick="showPage('ta-render')" class="nav-link text-sm font-medium text-neon-green">🔥 TA渲染专栏</span>
+                    <span onclick="showPage('ta-render')" class="nav-link text-sm font-medium text-neon-green">🔥 TA渲染</span>
+                    <span onclick="showPage('vfx')" class="nav-link text-sm font-medium text-orange-500">✨ 特效专栏</span>
+                    <span onclick="showPage('multiplat')" class="nav-link text-sm font-medium text-cyan-400">🎮 多端开发</span>
                     <span onclick="showPage('ai')" class="nav-link text-sm font-medium">AI技术</span>
                     <div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-neon-green/10 border border-neon-green/30">
                         <div class="w-2 h-2 rounded-full bg-neon-green update-badge"></div>
@@ -120,6 +124,8 @@
                     <span onclick="showPage('ta')" class="text-sm py-2 cursor-pointer">技术美术</span>
                     <span onclick="showPage('render')" class="text-sm py-2 cursor-pointer">实时渲染</span>
                     <span onclick="showPage('ta-render')" class="text-sm py-2 cursor-pointer text-neon-green">TA渲染专栏</span>
+                    <span onclick="showPage('vfx')" class="text-sm py-2 cursor-pointer text-orange-500">✨ 特效专栏</span>
+                    <span onclick="showPage('multiplat')" class="text-sm py-2 cursor-pointer text-cyan-400">🎮 多端开发</span>
                     <span onclick="showPage('ai')" class="text-sm py-2 cursor-pointer">AI技术</span>
                 </div>
             </div>
@@ -147,7 +153,7 @@
                     </p>
                     
                     <div class="flex items-center justify-center gap-4 text-sm text-gray-500 mb-12">
-                        <span>📚 38+ 技术文章</span>
+                        <span>📚 40+ 技术文章</span>
                         <span>•</span>
                         <span>🔬 深度技术分析</span>
                         <span>•</span>
@@ -155,7 +161,7 @@
                     </div>
 
                     <!-- Category Cards -->
-                    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-7 gap-4">
                         <div onclick="showPage('ue')" class="glass-panel rounded-2xl p-6 card-hover">
                             <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center mb-4">
                                 <i data-lucide="gamepad-2" class="w-6 h-6 text-white"></i>
@@ -184,8 +190,24 @@
                             <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center mb-4">
                                 <i data-lucide="flame" class="w-6 h-6 text-white"></i>
                             </div>
-                            <h3 class="font-semibold text-neon-green mb-1">TA渲染专栏 🔥</h3>
+                            <h3 class="font-semibold text-neon-green mb-1">TA渲染 🔥</h3>
                             <p class="text-sm text-gray-500">6 篇深度内容</p>
+                        </div>
+
+                        <div onclick="showPage('vfx')" class="glass-panel rounded-2xl p-6 card-hover border border-orange-500/30">
+                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center mb-4">
+                                <i data-lucide="sparkles" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <h3 class="font-semibold text-orange-500 mb-1">特效专栏 ✨</h3>
+                            <p class="text-sm text-gray-500">Niagara/Houdini</p>
+                        </div>
+
+                        <div onclick="showPage('multiplat')" class="glass-panel rounded-2xl p-6 card-hover border border-cyan-400/30">
+                            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center mb-4">
+                                <i data-lucide="layers" class="w-6 h-6 text-white"></i>
+                            </div>
+                            <h3 class="font-semibold text-cyan-400 mb-1">多端开发 🎮</h3>
+                            <p class="text-sm text-gray-500">跨平台方案</p>
                         </div>
 
                         <div onclick="showPage('ai')" class="glass-panel rounded-2xl p-6 card-hover">
@@ -193,7 +215,7 @@
                                 <i data-lucide="brain" class="w-6 h-6 text-white"></i>
                             </div>
                             <h3 class="font-semibold text-white mb-1">AI技术</h3>
-                            <p class="text-sm text-gray-500">5 篇前沿分析</span>
+                            <p class="text-sm text-gray-500">5 篇前沿分析</p>
                         </div>
                     </div>
                 </div>
@@ -247,6 +269,8 @@
         <div id="page-ta" class="page"></div>
         <div id="page-render" class="page"></div>
         <div id="page-ta-render" class="page"></div>
+        <div id="page-vfx" class="page"></div>
+        <div id="page-multiplat" class="page"></div>
         <div id="page-ai" class="page"></div>
         <div id="page-article" class="page"></div>
 
