@@ -58,5 +58,75 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-02-27T20:25:32.750874"
+  },
+  "3afcd990447d": {
+    "id": "3afcd990447d",
+    "title": "How to fade a Decal Renderer? - Niagara emitter",
+    "link": "https://realtimevfx.com/t/how-to-fade-a-decal-renderer-niagara-emitter/30472",
+    "summary": "Hey I feel like this should be fairly simple but I cant seem to figure it out. I got a emitter with a decal renderer, near the end of its lifespan I’d love to fade it out. However that doesnt seem as easy as I expected it to be. 5 posts - 2 participants Read full topic",
+    "published": "Mon, 23 Feb 2026 17:52:12 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-02-28T11:05:21.491295"
+  },
+  "e62daf3d86bd": {
+    "id": "e62daf3d86bd",
+    "title": "Scene Group releases Cavalry 2.6",
+    "link": "https://www.cgchannel.com/2026/02/scene-group-releases-cavalry-2/",
+    "summary": "Check out the latest features in the motion design app just acquired by Canva, including a new Mesh solver for creating organic growth effects.",
+    "published": "Thu, 26 Feb 2026 04:30:17 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-02-28T11:05:19.156226"
+  },
+  "20b201b6faf6": {
+    "id": "20b201b6faf6",
+    "title": "SIGGRAPH 2021 Links",
+    "link": "https://blog.selfshadow.com/2021/08/18/siggraph-2021-links/",
+    "summary": "Open Access SIGGRAPH 2021 Conference Content Session Recordings Real-Time Live! Birds of a Feather 3D Commerce: The art and business of using 3D models in retail&hellip; An exploration of pervasive 3D in geospatial with glTF Building the Open Metaverse Ensure Correct Vulkan Synchronization by Using Synchronization Validation Global VFX Pipelines (Google slides) Hands on with glTF: Making 3D pervasive Khronos Fast Forward: Rapid-fire overview of all things Khronos&hellip; OpenXR: On an HMD near you now!",
+    "published": "Wed, 18 Aug 2021 22:43:36 -0700",
+    "source_name": "Self Shadow - Graphics Programming",
+    "category": "render",
+    "fetched_at": "2026-02-28T11:05:27.969248"
+  },
+  "ede4084dc10b": {
+    "id": "ede4084dc10b",
+    "title": "Canva acquires next-gen motion graphics tool Cavalry",
+    "link": "https://www.cgchannel.com/2026/02/canva-acquires-next-gen-motion-graphics-tool-cavalry/",
+    "summary": "Motion design app is the 'missing piece' of Canva's Affinity design software, now available free. Read our FAQs on what it means for users.",
+    "published": "Thu, 26 Feb 2026 04:00:34 +0000",
+    "source_name": "CG Channel",
+    "category": "render",
+    "fetched_at": "2026-02-28T11:05:19.156238"
+  },
+  "6238c1c9515c": {
+    "id": "6238c1c9515c",
+    "title": "SIGGRAPH 2022 Links",
+    "link": "https://blog.selfshadow.com/2022/08/13/siggraph-2022-links/",
+    "summary": "Open Access SIGGRAPH 2022 Conference Content Open Source ASWF Open Source Days Aurora MoonRay Art Papers Field of Leaves: An Interactive Installation Sprouting Leaves Out of Public Money KineCAM: An Instant Camera for Animated Photographs Three Stage Drawing Transfer Woven Behavior and Ornamentation: &hellip; Self-Shaping Woven Textiles Birds of a Feather Advanced PBR Material Parameters in glTF Dancers of VRChat Delivering Interactive Experiences with glTF How Do We Solve the Challenges of glTF Asset Creation?",
+    "published": "Sat, 13 Aug 2022 10:03:45 -0700",
+    "source_name": "Self Shadow - Graphics Programming",
+    "category": "render",
+    "fetched_at": "2026-02-28T11:05:27.969218"
+  },
+  "d06ca5be827f": {
+    "id": "d06ca5be827f",
+    "title": "SIGGRAPH 2023 Links",
+    "link": "https://blog.selfshadow.com/2023/08/12/siggraph-2023-links/",
+    "summary": "Open Access SIGGRAPH 2023 Conference Content Open Source ASWF Open Source Days Birds of a Feather ANARI: The Industry&rsquo;s First Portable Rendering Engine API glTF: Transforming 3D Asset Delivery for Real-Time Graphics OpenXR: Enabling Cross-Platform VR/AR Experiences The State of 3D Asset Interoperability using USD and glTF Vulkan, Forging Ahead Courses A Gentle Introduction to ReSTIR: Path Reuse in Real-time A Whirlwind Introduction to Computer Graphics for Total Beginners",
+    "published": "Sat, 12 Aug 2023 15:07:33 -0700",
+    "source_name": "Self Shadow - Graphics Programming",
+    "category": "render",
+    "fetched_at": "2026-02-28T11:05:27.969187"
+  },
+  "13bb073adf33": {
+    "id": "13bb073adf33",
+    "title": "Milks Game Log",
+    "link": "https://realtimevfx.com/t/milks-game-log/30464",
+    "summary": "Hello everyone, I’m gonna start documenting a game that a friend and I are gonna be working on. It’s really just for personal experience and portfolio work, but I will be spending A LOT of time working on this. The title of out game is called Rune Hook. It will be a cross between fishing and magic. The development will be all over the place, but I am going to tackle all of the realtime fx and a lot of the tech art. So far, I have established a water system, that I am gonna try to further optimize. It seems that everyone starting to tackle really nice water follows DeathReys amazing FFT setup. I was able to get it up and running in 5.4, there was a lot of weird bugs along the way but I got past them. As of right now, I am working on the buoyancy system, which is gonna be a bit challenging because I am gonna try to stick in blueprints (not really well versed in C++, only python as of right now). On that note, I am getting somewhere, I at least have a boat floating in some sort of way lol. And I also am working on a texture driven whirpool, using houdini to make some nice WPO textures. Once I kind of get all the big technical foundation layed out, I am gonna hop around more, but for now staying focused on these large water elements. 1 post - 1 participant Read full topic",
+    "published": "Sat, 21 Feb 2026 21:18:39 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-02-28T11:05:21.491346"
   }
 }

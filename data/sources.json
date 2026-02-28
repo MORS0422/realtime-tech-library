@@ -17,10 +17,34 @@
       "enabled": true
     },
     {
+      "id": "tomlooman",
+      "name": "Tom Looman",
+      "type": "rss",
+      "url": "https://www.tomlooman.com/feed/",
+      "category": "ue",
+      "enabled": true
+    },
+    {
       "id": "cgchannel",
       "name": "CG Channel",
       "type": "rss",
       "url": "https://www.cgchannel.com/feed/",
+      "category": "ta",
+      "enabled": true
+    },
+    {
+      "id": "80lv-ta",
+      "name": "80 Level - 技术美术",
+      "type": "rss",
+      "url": "https://80.lv/articles/tag/tech-art/rss.xml",
+      "category": "ta",
+      "enabled": true
+    },
+    {
+      "id": "gamedev-ta",
+      "name": "GameDev - Tech Art",
+      "type": "rss",
+      "url": "https://gamedev.net/rss/blog/tech-art/",
       "category": "ta",
       "enabled": true
     },
@@ -30,6 +54,46 @@
       "type": "rss",
       "url": "https://realtimevfx.com/latest.rss",
       "category": "ta-render",
+      "enabled": true
+    },
+    {
+      "id": "artstation-ta",
+      "name": "ArtStation Magazine",
+      "type": "rss",
+      "url": "https://magazine.artstation.com/feed/",
+      "category": "ta-render",
+      "enabled": true
+    },
+    {
+      "id": "rendering-reading",
+      "name": "Fabio Pellacini - Rendering Reading",
+      "type": "rss",
+      "url": "https://pellacini.di.uniroma1.it/reading/feed.xml",
+      "category": "render",
+      "enabled": true
+    },
+    {
+      "id": "graphics-papers",
+      "name": "Ke-Sen Huang - Graphics Papers",
+      "type": "rss",
+      "url": "https://kesen.realtimerendering.com/feed.xml",
+      "category": "render",
+      "enabled": true
+    },
+    {
+      "id": "selfshadow",
+      "name": "Self Shadow - Graphics Programming",
+      "type": "rss",
+      "url": "https://selfshadow.com/feed/",
+      "category": "render",
+      "enabled": true
+    },
+    {
+      "id": "iquilez",
+      "name": "Inigo Quilez",
+      "type": "rss",
+      "url": "https://iquilezles.org/rss.xml",
+      "category": "render",
       "enabled": true
     },
     {
@@ -103,11 +167,44 @@
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzJ8-8J-8J-8J-8J-8J8J",
       "category": "ta",
       "enabled": true
+    },
+    {
+      "id": "ai-gamedev",
+      "name": "AI in Game Dev",
+      "type": "rss",
+      "url": "https://www.aigamedev.com/rss/",
+      "category": "ai",
+      "enabled": true
+    },
+    {
+      "id": "mlforgames",
+      "name": "Machine Learning for Games",
+      "type": "rss",
+      "url": "https://mlforgames.com/feed/",
+      "category": "ai",
+      "enabled": true
+    },
+    {
+      "id": "nvidia-ai",
+      "name": "NVIDIA AI Blog",
+      "type": "rss",
+      "url": "https://blogs.nvidia.com/ai/feed/",
+      "category": "ai",
+      "enabled": true
+    },
+    {
+      "id": "neuralrendering",
+      "name": "Neural Rendering Blog",
+      "type": "rss",
+      "url": "https://neuralrendering.com/feed/",
+      "category": "ai",
+      "enabled": true
     }
   ],
   "settings": {
-    "max_articles_per_source": 3,
-    "fetch_days_back": 1,
+    "max_articles_per_source": 5,
+    "min_articles_per_category": 2,
+    "fetch_days_back": 3,
     "categories": {
       "ue": "Unreal Engine",
       "ta": "技术美术",
@@ -116,7 +213,7 @@
       "ai": "AI技术"
     },
     "preferences": {
-      "priority_categories": ["ue", "ta-render"],
+      "priority_categories": ["ue", "ta", "render", "ta-render", "ai"],
       "exclude_keywords": ["Unity", "unity", "Unity3D"]
     }
   }
