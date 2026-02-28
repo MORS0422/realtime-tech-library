@@ -1,0 +1,123 @@
+{
+  "sources": [
+    {
+      "id": "unreal-blog",
+      "name": "Unreal Engine 官方博客",
+      "type": "rss",
+      "url": "https://www.unrealengine.com/en-US/blog/rss",
+      "category": "ue",
+      "enabled": true
+    },
+    {
+      "id": "80lv-ue",
+      "name": "80 Level - UE专题",
+      "type": "rss",
+      "url": "https://80.lv/articles/tag/unreal-engine/rss.xml",
+      "category": "ue",
+      "enabled": true
+    },
+    {
+      "id": "cgchannel",
+      "name": "CG Channel",
+      "type": "rss",
+      "url": "https://www.cgchannel.com/feed/",
+      "category": "ta",
+      "enabled": true
+    },
+    {
+      "id": "realtime-vfx",
+      "name": "Realtime VFX",
+      "type": "rss",
+      "url": "https://realtimevfx.com/latest.rss",
+      "category": "ta-render",
+      "enabled": true
+    },
+    {
+      "id": "youtube-renderbucket",
+      "name": "YouTube - Renderbucket",
+      "type": "youtube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCjUg7vAHJ_skD4ds8UJD2dQ",
+      "category": "ta",
+      "enabled": true
+    },
+    {
+      "id": "youtube-williamfaucher",
+      "name": "YouTube - William Faucher",
+      "type": "youtube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzghqpYYUmB2xJtWNL-3VCQ",
+      "category": "ue",
+      "enabled": true
+    },
+    {
+      "id": "youtube-ghislaingirardot",
+      "name": "YouTube - Ghislain Girardot",
+      "type": "youtube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCdQqbH_fP8zdWkUG0q4E7Qw",
+      "category": "ta-render",
+      "enabled": true
+    },
+    {
+      "id": "youtube-unrealenginejp",
+      "name": "YouTube - Unreal Engine JP",
+      "type": "youtube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzJdj0YFH1oC9AkbKO_7O2g",
+      "category": "ue",
+      "enabled": true
+    },
+    {
+      "id": "youtube-redefinefx",
+      "name": "YouTube - RedefineFX",
+      "type": "youtube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtT8am2_wJ7P6-9F_cj8Dfg",
+      "category": "ta-render",
+      "enabled": true
+    },
+    {
+      "id": "youtube-techartonline",
+      "name": "YouTube - Tech Art Online",
+      "type": "youtube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzJ3pQb-Mq0PpLILn5t5Y9w",
+      "category": "ta",
+      "enabled": true
+    },
+    {
+      "id": "youtube-unrealengineartist",
+      "name": "YouTube - Unreal Engine Artist",
+      "type": "youtube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzJ4lJdW4j1b8XJ4-8J-8JQ",
+      "category": "ue",
+      "enabled": true
+    },
+    {
+      "id": "youtube-bencloward",
+      "name": "YouTube - Ben Cloward",
+      "type": "youtube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzJ8-8J-8J-8J-8J-8J8J",
+      "category": "ta",
+      "enabled": true
+    },
+    {
+      "id": "youtube-techartaid",
+      "name": "YouTube - Tech Art Aid",
+      "type": "youtube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCzJ8-8J-8J-8J-8J-8J8J",
+      "category": "ta",
+      "enabled": true
+    }
+  ],
+  "settings": {
+    "max_articles_per_source": 3,
+    "fetch_days_back": 1,
+    "categories": {
+      "ue": "Unreal Engine",
+      "ta": "技术美术",
+      "render": "实时渲染",
+      "ta-render": "TA渲染专栏",
+      "ai": "AI技术"
+    },
+    "preferences": {
+      "priority_categories": ["ue", "ta-render"],
+      "exclude_keywords": ["Unity", "unity", "Unity3D"]
+    }
+  }
+}
