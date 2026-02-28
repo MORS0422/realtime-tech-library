@@ -2,8 +2,8 @@ name: Auto Update Knowledge Base
 
 on:
   schedule:
-    # 每2小时运行一次
-    - cron: '0 */2 * * *'
+    # 每12小时运行一次 (上午8点和晚上8点)
+    - cron: '0 8,20 * * *'
   workflow_dispatch:  # 允许手动触发
 
 permissions:

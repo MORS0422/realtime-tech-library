@@ -2,7 +2,8 @@ name: Auto Update with Kimi AI
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    # 每12小时运行一次 (上午8点和晚上8点)
+    - cron: '0 8,20 * * *'
   workflow_dispatch:
 
 permissions:
