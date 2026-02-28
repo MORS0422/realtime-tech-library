@@ -128,5 +128,155 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-02-28T11:05:21.491346"
+  },
+  "f20f4a8fef9c": {
+    "id": "f20f4a8fef9c",
+    "title": "Pixar releases RenderMan 27.2",
+    "link": "https://www.cgchannel.com/2026/02/pixar-releases-renderman-27-2/",
+    "summary": "Check out the new features in Pixar's production renderer, including new Stylized Looks nodes for artistic lighting and hatching effects.",
+    "published": "Sat, 28 Feb 2026 06:00:59 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-02-28T08:21:56.815033"
+  },
+  "3757d9b05b00": {
+    "id": "3757d9b05b00",
+    "title": "Download the free edition of RenderMan 27.2",
+    "link": "https://www.cgchannel.com/2026/02/download-the-free-edition-of-renderman-27/",
+    "summary": "Free edition of the renderer is licensed for personal use and tools development. Compatible with Blender, Houdini, Katana and Maya.",
+    "published": "Sat, 28 Feb 2026 06:00:07 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-02-28T08:21:56.815057"
+  },
+  "cfffd6dd095e": {
+    "id": "cfffd6dd095e",
+    "title": "New tutorials: Introduction to Maya 2026",
+    "link": "https://www.cgchannel.com/2026/02/new-tutorials-introduction-to-maya-2026/",
+    "summary": "Get started with the industry-standard 3D software with The Gnomon Workshop's comprehensive three-part training series.",
+    "published": "Sat, 28 Feb 2026 05:30:39 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-02-28T08:21:56.815077"
+  },
+  "d2c29ffdc884": {
+    "id": "d2c29ffdc884",
+    "title": "Craftpix Indie Jam 2",
+    "link": "http://gamedev.net/news/craftpix-indie-jam-2-r2964",
+    "summary": "This time, we’re not just focusing on making games — we’re helping them get seen. We want as many people as possible to discover your project. Let’s jam. Let’s go viral. Let’s create big fun — together. Join now: https://itch.io/jam/craftpix-indie-jam-2-2025",
+    "published": "Sun, 03 Aug 2025 18:41:02 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-02-28T08:22:08.850977"
+  },
+  "5b15b8653a61": {
+    "id": "5b15b8653a61",
+    "title": "Virtual Dice Roller",
+    "link": "http://gamedev.net/blogs/entry/2297785-virtual-dice-roller",
+    "summary": "I’ve been doing assorted small projects that are tasks building up to a tactical RPG. One of the latest of these is a nifty dice roller I wanted to show off. Here’s a gif of a couple 6-sided dice being rolled, plus debug logging of the roll’s result: To start with I obviously needed a 3d model of a 6-sided die. That’s pretty easy to model and I could’ve whipped it up fairly quickly, but why bother when there are plenty available to download. I just downloaded this one and cleaned it up a bit in Blender. Basically I reduced …",
+    "published": "Fri, 27 Feb 2026 22:07:43 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-02-28T08:22:08.851019"
+  },
+  "615c1ab9cb30": {
+    "id": "615c1ab9cb30",
+    "title": "How to stay safe from doxxing? Are my ideas good? Foolproof?",
+    "link": "http://gamedev.net/forums/topic/719797-how-to-stay-safe-from-doxxing-are-my-ideas-good-foolproof",
+    "summary": "Is there a way to remain anonymous to the public and prevent being doxxed after publishing a game, in case it gets popular? I am aware that Steam etc will know my identity, and that's fine A few ideas I have are this: Change name Create a corporation in a different physical address than my home address Don't use my name when signing up for Steam, Unity etc Publish under a pseudoname Is this the best way to prevent being doxxed as a game dev? I've come up with these ideas myself and in conjunction with stuff I've read on …",
+    "published": "Sat, 28 Feb 2026 05:14:16 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-02-28T08:22:08.851056"
+  },
+  "12b42e50f19c": {
+    "id": "12b42e50f19c",
+    "title": "How to Build a Paper Prototype for Your Game",
+    "link": "http://gamedev.net/tutorials/game-design/game-design-and-theory/how-to-build-a-paper-prototype-for-your-game-r6159",
+    "summary": "Prototyping is one of the fastest, cheapest, and most effective ways to test your ideas. Before you write a single line of code, you can already test your game idea. Paper prototypes are one of the fastest, cheapest, and most effective ways to explore whether your concept has potential. Instead of getting lost in assets, code, and polish, you can focus on what really matters: Does the mechanic feel fun? Do players understand what to do? Is it worth developing further? The goal of every prototype is simple: find value quickly . Identify what’s worth keeping, and discard weak ideas …",
+    "published": "Tue, 09 Dec 2025 19:19:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-02-28T08:22:08.851091"
+  },
+  "a79faa3358c6": {
+    "id": "a79faa3358c6",
+    "title": "Are you interested in learning game design with a pro?",
+    "link": "http://gamedev.net/news/are-you-interested-in-learning-game-design-with-a-pro-r2948",
+    "summary": "I am a French game designer with over 29 years of XP ( Splinter Cell , Alone In The Dark , etc.), and I have just launched my first online video course, a structured and accessible introduction to the fundamentals of game design. In those three and a half hours of video, I share my 29 years of experience as a game designer. I offer: - Fundamentals to understand how to build a solid core gameplay - A step-by-step method for developing a game system like a professional - A game system example - A unique checklist that you can …",
+    "published": "Thu, 26 Jun 2025 13:52:53 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-02-28T08:22:08.851126"
+  },
+  "5d412250d44b": {
+    "id": "5d412250d44b",
+    "title": "SIGGRAPH 2025 Links",
+    "link": "https://blog.selfshadow.com/2025/08/15/siggraph-2025-links/",
+    "summary": "Open Source / Data ASWF Open Source Days Session Recordings Real-Time Live! Courses A Whirlwind Introduction to Computer Graphics An Introduction to Neural Shading Advances in Real-Time Rendering in Games GPU Work Graphs Innovating With Generative AI: A Hands-On ComfyUI Workshop Level-of-Detail for Geometry Processing and Simulation Path Guiding in Production and Recent Advancements - Path Guiding Surfaces and Volumes in Disney’s Hyperion Renderer: A Case Study (blog post)",
+    "published": "Fri, 15 Aug 2025 20:21:38 -0700",
+    "source_name": "Self Shadow - Graphics Programming",
+    "category": "render",
+    "fetched_at": "2026-02-28T08:21:59.851040"
+  },
+  "9345832a186b": {
+    "id": "9345832a186b",
+    "title": "SIGGRAPH 2024 Links",
+    "link": "https://blog.selfshadow.com/2024/08/03/siggraph-2024-links/",
+    "summary": "Open Access SIGGRAPH 2024 Conference Content Open Source / Data ASWF Open Source Days Caldera: Advances in Real-Time Rendering Session Recordings Keynote: Manu Prakash, The Microscopic Real-Time Live! Birds of a Feather Advancements in WebGL and WebGPU: Latest Updates and Innovations Exploring ANARI: Making the Future of 3D Rendering Available to Everyone glTF: Transforming 3D Asset Delivery for Real-Time Graphics Khronos Fast Forward OpenXR: Transforming the Future of Cross-Platform XR Development",
+    "published": "Sat, 03 Aug 2024 13:31:12 -0700",
+    "source_name": "Self Shadow - Graphics Programming",
+    "category": "render",
+    "fetched_at": "2026-02-28T08:21:59.851071"
+  },
+  "a9b3781e85e7": {
+    "id": "a9b3781e85e7",
+    "title": "It looks like Netflix won't be acquiring Warner Bros. Games after all",
+    "link": "https://www.gamedeveloper.com/business/it-looks-like-netflix-won-t-be-acquiring-warner-bros-games-after-all",
+    "summary": "The streamer has exited the race for entertainment giant Warner Bros. Discovery following a new bid from rival Paramount Skydance.",
+    "published": "Fri, 27 Feb 2026 11:50:56 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-02-28T08:22:12.009618"
+  },
+  "59bbb4cdd52f": {
+    "id": "59bbb4cdd52f",
+    "title": "Valve in hot water, Discord begs forgiveness, and more game media layoffs - Patch Notes #42",
+    "link": "https://www.gamedeveloper.com/business/valve-in-hot-water-discord-seeks-forgiveness-and-more-game-media-layoffs-patch-notes-42",
+    "summary": "Plus: Tencent closes Montreal studio and Krafton appoints a chief AI officer.",
+    "published": "Fri, 27 Feb 2026 10:35:06 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-02-28T08:22:12.009638"
+  },
+  "11abe04c8ace": {
+    "id": "11abe04c8ace",
+    "title": "Could pre-launch open testing have saved Highguard?",
+    "link": "https://www.gamedeveloper.com/business/-hubris-may-have-doomed-highguard",
+    "summary": "Former Wildlight Entertainment developers have shared details on what went wrong with Highguard.",
+    "published": "Thu, 26 Feb 2026 20:39:43 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-02-28T08:22:12.009649"
+  },
+  "970eeabddcaf": {
+    "id": "970eeabddcaf",
+    "title": "How publishers can do better by devs (and still profit) - Game Developer Podcast Ep. 65",
+    "link": "https://www.gamedeveloper.com/business/how-publishers-can-do-better-by-devs-and-still-profit-game-developer-podcast-ep-65",
+    "summary": "This week on the Game Developer Podcast, Hooded Horse CEO Tim Bender joins us to discuss his journey into the world of video game publishing, what he's learned, and why he feels many publishers aren't doing right by developers.",
+    "published": "Thu, 26 Feb 2026 16:30:39 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-02-28T08:22:12.009666"
+  },
+  "db42158dca70": {
+    "id": "db42158dca70",
+    "title": "Splash Damage acquires Scum developer Gamepires from Jagex",
+    "link": "https://www.gamedeveloper.com/business/splash-damage-acquires-scum-developer-gamepires-from-jagex",
+    "summary": "The two companies have combined to form Splash Damage Group with backing from investment firm Emona Capital.",
+    "published": "Thu, 26 Feb 2026 16:21:59 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-02-28T08:22:12.009678"
   }
 }
