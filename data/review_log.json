@@ -1,0 +1,264 @@
+{
+  "review_date": "2026-03-01T10:00:18.926251",
+  "total_articles": 28,
+  "quality_distribution": {
+    "优质": 6,
+    "良好": 9,
+    "一般": 11,
+    "需改进": 2
+  },
+  "results": [
+    {
+      "article_id": "ecd8158d8037",
+      "title": "Foundry releases Nuke 17.0, NukeX 17.0 and Nuke Studio 17.0",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925744"
+    },
+    {
+      "article_id": "d1ea911d2758",
+      "title": "F12 releases The Grove 2.3 for Blender and Houdini",
+      "quality_score": 50,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925758"
+    },
+    {
+      "article_id": "cb7846b01d32",
+      "title": "Check out promising new 3D texture painting app Wafer",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925770"
+    },
+    {
+      "article_id": "338c49bf45db",
+      "title": "(New to Niagra ue5) How would i go about recreating this slash effect",
+      "quality_score": 55,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925781"
+    },
+    {
+      "article_id": "c5dd7c8590d2",
+      "title": "When simulating splashes for a flipbook - how do you get directionality in the fluid while keeping the fluid framed for the flipbook?",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925807"
+    },
+    {
+      "article_id": "514c7a61d0d8",
+      "title": "Unreal engine - Disable post-processing on a Niagara vfx",
+      "quality_score": 75,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925824"
+    },
+    {
+      "article_id": "3afcd990447d",
+      "title": "How to fade a Decal Renderer? - Niagara emitter",
+      "quality_score": 65,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925844"
+    },
+    {
+      "article_id": "e62daf3d86bd",
+      "title": "Scene Group releases Cavalry 2.6",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925854"
+    },
+    {
+      "article_id": "20b201b6faf6",
+      "title": "SIGGRAPH 2021 Links",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925868"
+    },
+    {
+      "article_id": "ede4084dc10b",
+      "title": "Canva acquires next-gen motion graphics tool Cavalry",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925878"
+    },
+    {
+      "article_id": "6238c1c9515c",
+      "title": "SIGGRAPH 2022 Links",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925893"
+    },
+    {
+      "article_id": "d06ca5be827f",
+      "title": "SIGGRAPH 2023 Links",
+      "quality_score": 20,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925906"
+    },
+    {
+      "article_id": "13bb073adf33",
+      "title": "Milks Game Log",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925972"
+    },
+    {
+      "article_id": "f20f4a8fef9c",
+      "title": "Pixar releases RenderMan 27.2",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925982"
+    },
+    {
+      "article_id": "3757d9b05b00",
+      "title": "Download the free edition of RenderMan 27.2",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.925992"
+    },
+    {
+      "article_id": "cfffd6dd095e",
+      "title": "New tutorials: Introduction to Maya 2026",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.926005"
+    },
+    {
+      "article_id": "d2c29ffdc884",
+      "title": "Craftpix Indie Jam 2",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.926025"
+    },
+    {
+      "article_id": "5b15b8653a61",
+      "title": "Virtual Dice Roller",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.926057"
+    },
+    {
+      "article_id": "615c1ab9cb30",
+      "title": "How to stay safe from doxxing? Are my ideas good? Foolproof?",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.926090"
+    },
+    {
+      "article_id": "12b42e50f19c",
+      "title": "How to Build a Paper Prototype for Your Game",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.926124"
+    },
+    {
+      "article_id": "a79faa3358c6",
+      "title": "Are you interested in learning game design with a pro?",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.926157"
+    },
+    {
+      "article_id": "5d412250d44b",
+      "title": "SIGGRAPH 2025 Links",
+      "quality_score": 20,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.926185"
+    },
+    {
+      "article_id": "9345832a186b",
+      "title": "SIGGRAPH 2024 Links",
+      "quality_score": 20,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.926198"
+    },
+    {
+      "article_id": "a9b3781e85e7",
+      "title": "It looks like Netflix won't be acquiring Warner Bros. Games after all",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.926209"
+    },
+    {
+      "article_id": "59bbb4cdd52f",
+      "title": "Valve in hot water, Discord begs forgiveness, and more game media layoffs - Patch Notes #42",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.926218"
+    },
+    {
+      "article_id": "11abe04c8ace",
+      "title": "Could pre-launch open testing have saved Highguard?",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.926227"
+    },
+    {
+      "article_id": "970eeabddcaf",
+      "title": "How publishers can do better by devs (and still profit) - Game Developer Podcast Ep. 65",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.926239"
+    },
+    {
+      "article_id": "db42158dca70",
+      "title": "Splash Damage acquires Scum developer Gamepires from Jagex",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-03-01T10:00:18.926248"
+    }
+  ]
+}
