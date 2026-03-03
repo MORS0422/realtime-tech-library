@@ -233,7 +233,7 @@ const knowledgeBase = {
         "Phillips频谱",
         "GPU粒子模拟"
       ],
-      "date": "2025-02-26",
+      "date": "2026-03-03",
       "author": "Realtime Tech深度分析",
       "readTime": "20分钟",
       "difficulty": "高级",
@@ -249,7 +249,7 @@ const knowledgeBase = {
         "基于Rust的移动端GPU性能优化架构",
         "智能影响系统（Influence System）"
       ],
-      "date": "Thu, 26 Fe",
+      "date": "2026-03-03",
       "author": "CG Channel / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -265,7 +265,7 @@ const knowledgeBase = {
         "程序化动画",
         "数据驱动设计"
       ],
-      "date": "Thu, 26 Fe",
+      "date": "2026-03-03",
       "author": "CG Channel / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -281,7 +281,7 @@ const knowledgeBase = {
         "SaaS商业模式",
         "创意工具生态"
       ],
-      "date": "Thu, 26 Fe",
+      "date": "2026-03-03",
       "author": "CG Channel / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "简单",
@@ -297,7 +297,7 @@ const knowledgeBase = {
         "浏览器端视频编辑",
         "云端渲染"
       ],
-      "date": "Tue, 24 Fe",
+      "date": "2026-03-03",
       "author": "CG Channel / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "简单",
@@ -313,7 +313,7 @@ const knowledgeBase = {
         "L-systems算法",
         "物理模拟"
       ],
-      "date": "Mon, 23 Fe",
+      "date": "2026-03-03",
       "author": "CG Channel / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -329,7 +329,7 @@ const knowledgeBase = {
         "Subsurface Scattering",
         "Flipbook纹理"
       ],
-      "date": "Thu, 26 Fe",
+      "date": "2026-03-03",
       "author": "Realtime VFX / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -345,7 +345,7 @@ const knowledgeBase = {
         "Houdini流体模拟",
         "VDB体积"
       ],
-      "date": "Wed, 25 Fe",
+      "date": "2026-03-03",
       "author": "Realtime VFX / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "困难",
@@ -361,7 +361,7 @@ const knowledgeBase = {
         "后处理体积",
         "材质渲染排序"
       ],
-      "date": "Wed, 25 Fe",
+      "date": "2026-03-03",
       "author": "Realtime VFX / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -377,7 +377,7 @@ const knowledgeBase = {
         "材质透明度",
         "粒子生命周期"
       ],
-      "date": "Mon, 23 Fe",
+      "date": "2026-03-03",
       "author": "Realtime VFX / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "简单",
@@ -393,7 +393,7 @@ const knowledgeBase = {
         "实时渲染优化",
         "工具链搭建"
       ],
-      "date": "Sat, 21 Fe",
+      "date": "2026-03-03",
       "author": "Realtime VFX / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -409,7 +409,7 @@ const knowledgeBase = {
         "数字雕刻 workflow",
         "硬表面建模"
       ],
-      "date": "Sun, 29 Se",
+      "date": "2026-03-03",
       "author": "CG Channel / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -425,7 +425,7 @@ const knowledgeBase = {
         "Nuke 节点合成",
         "程序化纹理生成"
       ],
-      "date": "Sun, 29 Se",
+      "date": "2026-03-03",
       "author": "CG Channel / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -441,7 +441,7 @@ const knowledgeBase = {
         "神经渲染",
         "点云渲染"
       ],
-      "date": "Sat, 28 Se",
+      "date": "2026-03-03",
       "author": "CG Channel / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "简单",
@@ -457,7 +457,7 @@ const knowledgeBase = {
         "Shader Graph 改进",
         "ECS 实体组件系统"
       ],
-      "date": "Thu, 26 Se",
+      "date": "2026-03-03",
       "author": "CG Channel / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -473,7 +473,7 @@ const knowledgeBase = {
         "ForestIvy 藤蔓生成",
         "点云实例化"
       ],
-      "date": "Thu, 26 Se",
+      "date": "2026-03-03",
       "author": "CG Channel / AI深度分析",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -489,7 +489,7 @@ const knowledgeBase = {
         "Cluster-Based LOD",
         "GPU-Driven Rendering Pipeline"
       ],
-      "date": "2026-02-27",
+      "date": "2026-03-03",
       "author": "Realtime Tech / UE深度分析",
       "readTime": "10分钟",
       "difficulty": "困难",
@@ -505,7 +505,7 @@ const knowledgeBase = {
         "Blue Noise 抖动采样",
         "时域累积 (Temporal Accumulation)"
       ],
-      "date": "2026-02-27",
+      "date": "2026-03-03",
       "author": "Realtime Tech / UE深度分析",
       "readTime": "10分钟",
       "difficulty": "困难",
@@ -563,7 +563,7 @@ const knowledgeBase = {
         "IK (反向动力学) 解算",
         "动画曲线驱动"
       ],
-      "date": "2026-02-27",
+      "date": "2026-03-03",
       "author": "Realtime Tech / UE深度分析",
       "readTime": "10分钟",
       "difficulty": "中等",
@@ -663,7 +663,7 @@ const knowledgeBase = {
         "色调映射",
         "TAA/FSR/DLSS"
       ],
-      "date": "2026-02-27",
+      "date": "2026-03-03",
       "author": "Realtime Tech / 实时渲染",
       "readTime": "10分钟",
       "difficulty": "中等",
@@ -679,7 +679,7 @@ const knowledgeBase = {
         "GPU分析",
         "GPU Instancing"
       ],
-      "date": "2026-02-27",
+      "date": "2026-03-03",
       "author": "Realtime Tech / 实时渲染",
       "readTime": "10分钟",
       "difficulty": "困难",
@@ -715,7 +715,7 @@ const knowledgeBase = {
         "ControlNet",
         "LoRA微调"
       ],
-      "date": "2026-02-27",
+      "date": "2026-03-03",
       "author": "Realtime Tech / AI技术",
       "readTime": "10分钟",
       "difficulty": "简单",
@@ -731,7 +731,7 @@ const knowledgeBase = {
         "提示工程",
         "向量数据库"
       ],
-      "date": "2026-02-27",
+      "date": "2026-03-03",
       "author": "Realtime Tech / AI技术",
       "readTime": "10分钟",
       "difficulty": "中等",
@@ -747,7 +747,7 @@ const knowledgeBase = {
         "NavMesh",
         "RVO/ORCA"
       ],
-      "date": "2026-02-27",
+      "date": "2026-03-03",
       "author": "Realtime Tech / AI技术",
       "readTime": "10分钟",
       "difficulty": "中等",
@@ -763,7 +763,7 @@ const knowledgeBase = {
         "神经网络超采样",
         "NeRF"
       ],
-      "date": "2026-02-27",
+      "date": "2026-03-03",
       "author": "Realtime Tech / AI技术",
       "readTime": "10分钟",
       "difficulty": "困难",
@@ -779,7 +779,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Fri, 27 Fe",
+      "date": "2026-03-03",
       "author": "CG Channel / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -795,7 +795,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Fri, 27 Fe",
+      "date": "2026-03-03",
       "author": "CG Channel / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -812,7 +812,7 @@ const knowledgeBase = {
         "光线追踪",
         "PBR材质"
       ],
-      "date": "Wed, 18 Au",
+      "date": "2026-03-03",
       "author": "Self Shadow - Graphics Programming / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "困难",
@@ -829,7 +829,7 @@ const knowledgeBase = {
         "光线追踪",
         "PBR材质"
       ],
-      "date": "Sat, 13 Au",
+      "date": "2026-03-03",
       "author": "Self Shadow - Graphics Programming / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "困难",
@@ -846,7 +846,7 @@ const knowledgeBase = {
         "光线追踪",
         "PBR材质"
       ],
-      "date": "Sat, 12 Au",
+      "date": "2026-03-03",
       "author": "Self Shadow - Graphics Programming / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "困难",
@@ -864,7 +864,7 @@ const knowledgeBase = {
         "Niagara",
         "实时变形"
       ],
-      "date": "2025-02-26",
+      "date": "2026-03-03",
       "author": "Realtime Tech深度分析",
       "readTime": "25分钟",
       "difficulty": "高级",
@@ -880,7 +880,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Sat, 28 Fe",
+      "date": "2026-03-03",
       "author": "CG Channel / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -896,7 +896,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Sat, 28 Fe",
+      "date": "2026-03-03",
       "author": "CG Channel / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -912,7 +912,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Sat, 28 Fe",
+      "date": "2026-03-03",
       "author": "CG Channel / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -928,7 +928,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Sun, 03 Au",
+      "date": "2026-03-03",
       "author": "GameDev.net - Multiplatform / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -944,7 +944,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Fri, 27 Fe",
+      "date": "2026-03-03",
       "author": "GameDev.net - Multiplatform / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -960,7 +960,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Sat, 28 Fe",
+      "date": "2026-03-03",
       "author": "GameDev.net - Multiplatform / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -976,7 +976,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Tue, 09 De",
+      "date": "2026-03-03",
       "author": "GameDev.net - Multiplatform / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -992,7 +992,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Thu, 26 Ju",
+      "date": "2026-03-03",
       "author": "GameDev.net - Multiplatform / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -1008,7 +1008,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Fri, 15 Au",
+      "date": "2026-03-03",
       "author": "Self Shadow - Graphics Programming / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -1024,7 +1024,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Sat, 03 Au",
+      "date": "2026-03-03",
       "author": "Self Shadow - Graphics Programming / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -1040,7 +1040,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Fri, 27 Fe",
+      "date": "2026-03-03",
       "author": "Game Developer / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -1056,7 +1056,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Fri, 27 Fe",
+      "date": "2026-03-03",
       "author": "Game Developer / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -1072,7 +1072,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Thu, 26 Fe",
+      "date": "2026-03-03",
       "author": "Game Developer / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -1088,7 +1088,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Thu, 26 Fe",
+      "date": "2026-03-03",
       "author": "Game Developer / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -1104,7 +1104,7 @@ const knowledgeBase = {
         "Shader开发",
         "材质系统"
       ],
-      "date": "Thu, 26 Fe",
+      "date": "2026-03-03",
       "author": "Game Developer / 自动摘要",
       "readTime": "5分钟",
       "difficulty": "中等",
@@ -1122,7 +1122,7 @@ const knowledgeBase = {
         "带宽",
         "合批"
       ],
-      "date": "2025-02-28",
+      "date": "2026-03-03",
       "author": "Realtime Tech深度分析",
       "readTime": "18分钟",
       "difficulty": "高级",
@@ -1140,7 +1140,7 @@ const knowledgeBase = {
         "GLSL",
         "Metal"
       ],
-      "date": "2025-02-28",
+      "date": "2026-03-03",
       "author": "Realtime Tech深度分析",
       "readTime": "20分钟",
       "difficulty": "高级",
@@ -1158,7 +1158,7 @@ const knowledgeBase = {
         "工作流",
         "VDB"
       ],
-      "date": "2025-02-28",
+      "date": "2026-03-03",
       "author": "Realtime Tech深度分析",
       "readTime": "22分钟",
       "difficulty": "高级",
@@ -1176,7 +1176,7 @@ const knowledgeBase = {
         "电弧",
         "光束"
       ],
-      "date": "2025-02-28",
+      "date": "2026-03-03",
       "author": "Realtime Tech深度分析",
       "readTime": "18分钟",
       "difficulty": "中级",
@@ -1193,7 +1193,7 @@ const knowledgeBase = {
         "GPU粒子",
         "烟雾特效"
       ],
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "author": "Realtime Tech / VFX专栏",
       "readTime": "18分钟",
       "difficulty": "高级",
@@ -1210,7 +1210,7 @@ const knowledgeBase = {
         "粒子系统",
         "游戏VFX"
       ],
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "author": "Realtime Tech / VFX专栏",
       "readTime": "15分钟",
       "difficulty": "中级",
@@ -1227,7 +1227,7 @@ const knowledgeBase = {
         "拖尾",
         "打击感"
       ],
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "author": "Realtime Tech / VFX专栏",
       "readTime": "12分钟",
       "difficulty": "中级",
@@ -1244,7 +1244,7 @@ const knowledgeBase = {
         "天气系统",
         "氛围"
       ],
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "author": "Realtime Tech / VFX专栏",
       "readTime": "20分钟",
       "difficulty": "高级",
@@ -1261,7 +1261,7 @@ const knowledgeBase = {
         "移动端",
         "LOD"
       ],
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "author": "Realtime Tech / VFX专栏",
       "readTime": "16分钟",
       "difficulty": "高级",
@@ -1278,7 +1278,7 @@ const knowledgeBase = {
         "跨平台",
         "渲染管线"
       ],
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "author": "Realtime Tech / 多端开发",
       "readTime": "22分钟",
       "difficulty": "高级",
@@ -1295,7 +1295,7 @@ const knowledgeBase = {
         "技术迁移",
         "开放世界"
       ],
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "author": "Realtime Tech / 多端开发",
       "readTime": "25分钟",
       "difficulty": "困难",
@@ -1313,7 +1313,7 @@ const knowledgeBase = {
         "GLSL",
         "Metal"
       ],
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "author": "Realtime Tech / 多端开发",
       "readTime": "18分钟",
       "difficulty": "困难",
@@ -1330,7 +1330,7 @@ const knowledgeBase = {
         "资源管理",
         "自动化"
       ],
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "author": "Realtime Tech / 多端开发",
       "readTime": "20分钟",
       "difficulty": "中级",
@@ -1347,7 +1347,7 @@ const knowledgeBase = {
         "内存优化",
         "发热控制"
       ],
-      "date": "2026-03-02",
+      "date": "2026-03-03",
       "author": "Realtime Tech / 多端开发",
       "readTime": "19分钟",
       "difficulty": "高级",
