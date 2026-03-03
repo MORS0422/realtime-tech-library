@@ -433,21 +433,26 @@ const knowledgeBase = {
       "hasImage": true
     },
     "ue5-lumen": {
-      "title": "UE5 Lumen 全局光照：实时光线追踪的终极方案",
-      "category": "ue",
-      "tags": [
-        "距离场光线追踪",
-        "屏幕空间追踪",
-        "辐射度缓存 (Radiance Cache)"
-      ],
-      "date": "2026-02-27",
-      "author": "Realtime Tech / UE深度分析",
-      "readTime": "10分钟",
-      "difficulty": "中等",
-      "content": "<div class=\"article-content\">\n    <h1>UE5 Lumen 全局光照：实时光线追踪的终极方案</h1>\n    <p class=\"text-xl text-gray-300 mb-6\">Lumen 是 UE5 的革命性全局光照系统，提供无限反弹的全局光照、反射和软阴影，无需光照贴图烘焙。通过软件光线追踪和硬件加速相结合的方式，实现了影视级光照效果的实时渲染。</p>\n    <div class=\"tech-analysis-box\" style=\"border-color: #00f0ff40;\">\n        <h3>🔬 深度技术分析</h3>\n        <p>Lumen 采用混合追踪策略。首先尝试屏幕空间追踪（开销最小），失败时回退到距离场追踪。距离场使用有符号距离场（SDF）表示场景几何，支持无限光线步进。辐射度缓存存储间接光照，通过时域累积提高质量。技术上，使用稀疏八叉树加速结构，实现 O(log n) 的求交测试。镜面反射追踪支持粗糙表面，根据材质粗糙度自动调整追踪质量。自适应光线步进根据场景复杂度动态调整步长。性能方面，在 RTX 3080 上 1080p 场景平均开销 2-3ms，相比传统光照贴图方案，开发迭代速度提升 10 倍以上，美术师可以实时看到光照效果调整结果。</p>\n    </div>\n    <h2>🎯 核心技术点</h2>\n    <ul><li>距离场光线追踪</li><li>屏幕空间追踪</li><li>辐射度缓存 (Radiance Cache)</li><li>镜面反射追踪</li><li>自适应光线步进</li></ul>\n    <h2>💡 实用价值</h2>\n    <p>彻底改变了游戏光照工作流程，无需烘焙等待，美术师可以实时迭代，大幅提升开发效率</p>\n    <h2>📚 相关主题</h2>\n    <p>全局光照, 光线追踪, 实时渲染, 光照工作流</p>\n</div>",
-      "imagePrompt": "UE5 technical screenshot, dark UI theme, game engine viewport, 距离场光线追踪, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
-      "hasImage": true
-    },
+  "title": "Lumen全局光照技术解析：实时间接光照的实现原理",
+  "category": "ue",
+  "tags": [
+    "Lumen",
+    "全局光照",
+    "间接光照",
+    "距离场",
+    "屏幕空间",
+    "实时光追",
+    "GI",
+    "UE5"
+  ],
+  "date": "2025-03-03",
+  "author": "Realtime Tech深度分析",
+  "readTime": "28分钟",
+  "difficulty": "困难",
+  "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-ue px-3 py-1 rounded-full text-sm\">Unreal Engine</span>\n        <span class=\"text-gray-500\">2025-03-03</span>\n        <span class=\"text-gray-500\">28分钟阅读</span>\n        <span class=\"text-gray-500\">困难</span>\n    </div>\n    \n    <h1>Lumen全局光照技术解析：实时间接光照的实现原理</h1>\n    \n    <p class=\"text-xl text-gray-300 mb-6\">\n        Lumen是UE5的实时间接光照解决方案，能够在动态场景中提供高质量的漫反射GI和反射。\n        本文深入解析Lumen的混合追踪管线、距离场加速结构、以及辐射度缓存技术。\n    </p>\n    \n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">参考资源</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <a href=\"https://docs.unrealengine.com/5.0/en-US/lumen-global-illumination-and-reflections-in-unreal-engine/\" target=\"_blank\">📄 UE5 Lumen Documentation [Epic Games]</a></div>\n            <div>• <a href=\"https://www.gdcvault.com/play/1027360/\" target=\"_blank\">▶️ GDC 2021: Lumen Technical Deep Dive</a></div>\n            <div>• <a href=\"https://advances.realtimerendering.com/s2021/jansen_slides.pdf\" target=\"_blank\">📄 Advances in Real-Time Rendering: Lumen</a></div>\n        </div>\n    </div>\n\n    <h2>1. Lumen架构概览</h2>\n    \n    <p>Lumen采用混合追踪方案，结合多种技术实现实时GI：</p>\n    \n    <ul>\n        <li><strong>屏幕空间追踪</strong>：优先使用屏幕空间数据（SSGI）</li>\n        <li><strong>距离场追踪</strong>：用于屏幕外几何和远距离物体</li>\n        <li><strong>硬件光追</strong>：可选的高质量三角形追踪</li>\n        <li><strong>辐射度缓存</strong>：重用历史帧的间接光照</li>\n    </ul>\n\n    <h2>2. 混合追踪管线</h2>\n    \n    <h3>2.1 追踪优先级</h3>\n    \n    <pre><code>【Lumen追踪管线】\n第1步：屏幕空间追踪（最快，质量最高）\n  └─ 如果命中 → 使用屏幕颜色\n  └─ 如果未命中 → 进入第2步\n\n第2步：网格距离场追踪（Mesh Distance Field）\n  └─ 粗略几何表示，适合远处物体\n  └─ 如果未命中 → 进入第3步\n\n第3步：全局距离场追踪（Global Distance Field）\n  └─ 合并的粗略场景表示\n  └─ 如果未命中 → 使用天空/环境光\n\n可选：硬件光追（RT Core）用于高精度反射</code></pre>\n\n    <h3>2.2 屏幕空间追踪</h3>\n    \n    <p>屏幕空间追踪从G-Buffer重建场景几何，性能最好但只能看到屏幕内的物体。</p>\n    \n    <pre><code>// 屏幕空间射线追踪伪代码\nfloat3 ScreenSpaceTrace(float3 rayOrigin, float3 rayDir) {\n    float stepSize = 1.0; // 初始步长\n    float maxDistance = 1000.0;\n    \n    for (float dist = 0; dist < maxDistance; dist += stepSize) {\n        float3 worldPos = rayOrigin + rayDir * dist;\n        float2 uv = WorldToScreenUV(worldPos);\n        \n        // 采样场景深度\n        float sceneDepth = SampleSceneDepth(uv);\n        \n        // 深度测试\n        if (worldPos.z > sceneDepth) {\n            // 命中！返回屏幕颜色\n            return SampleScreenColor(uv);\n        }\n        \n        // 指数步进（加速远距离）\n        stepSize *= 1.5;\n    }\n    \n    return MissColor(); // 未命中\n}</code></pre>\n\n    <h2>3. 距离场系统</h2>\n    \n    <h3>3.1 距离场概念</h3>\n    \n    <p>距离场（Distance Field）存储每个点到最近表面的距离，符号表示内外：</p>\n    \n    <pre><code>SDF(x) = 0  // 在表面上\nSDF(x) > 0  // 在物体外部（值为到表面的距离）\nSDF(x) < 0  // 在物体内部（绝对值为到表面的距离）</code></pre>\n\n    <h3>3.2 网格距离场（Mesh Distance Field）</h3>\n    \n    <p>每个静态网格生成128³体素的距离场纹理，离线计算。</p>\n    \n    <ul>\n        <li><strong>内存占用</strong>：约每个网格2-8MB</li>\n        <li><strong>精度</strong>：约1-2cm误差，适合中远距离</li>\n        <li><strong>追踪速度</strong>：球体追踪算法，大步长跳跃</li>\n    </ul>\n\n    <h3>3.3 全局距离场（Global Distance Field）</h3>\n    \n    <p>将场景划分为体素网格，每格存储该区域的合并距离场，运行时动态更新。</p>\n    \n    <pre><code>【全局距离场参数】\n体素大小：10-50cm（根据距离调整）\n覆盖范围：摄像机周围50-100米\n更新频率：每帧更新摄像机附近区域</code></pre>\n\n    <h2>4. 辐射度缓存</h2>\n    \n    <p>辐射度缓存（Radiance Cache）存储场景中采样点的入射光照，随时间累积提高质量。</p>\n\n    <h3>4.1 缓存结构</h3>\n    \n    <ul>\n        <li><strong>空间分布</strong>：八叉树结构，摄像机附近密度高</li>\n        <li><strong>方向分布</strong>：每个点存储多个方向的入射光（如16个方向）</li>\n        <li><strong>时域累积</strong>：使用指数移动平均融合新采样和历史值</li>\n    </ul>\n\n    <h3>4.2 重要性采样</h3>\n    \n    <p>为了高效估计间接光，Lumen使用余弦加权采样：</p>\n    \n    <pre><code>// 余弦加权采样\nfloat3 ImportanceSampleCosine(float2 random) {\n    float phi = 2 * PI * random.x;\n    float cosTheta = sqrt(1.0 - random.y); // 余弦分布\n    float sinTheta = sqrt(random.y);\n    \n    return float3(\n        sinTheta * cos(phi),\n        sinTheta * sin(phi),\n        cosTheta\n    );\n}</code></pre>\n\n    <h2>5. 性能与质量</h2>\n    \n    <table class=\"w-full text-sm my-4\">\n        <tr class=\"border-b border-gray-700\"><th class=\"text-left py-2\">技术</th><th>GPU开销</th><th>质量</th><th>适用场景</th></tr>\n        <tr><td class=\"py-2\">Lumen（软件）</td><td>~2-3ms</td><td>中高</td><td>大多数游戏</td></tr>\n        <tr><td class=\"py-2\">Lumen（硬件光追）</td><td>~5-8ms</td><td>高</td><td>高端PC/主机</td></tr>\n        <tr><td class=\"py-2\">烘焙光照</td><td>0ms（运行时）</td><td>最高</td><td>静态场景</td></tr>\n    </table>\n\n    <h2>6. 实用价值</h2>\n    \n    <p>Lumen带来的核心优势：</p>\n    \n    <ul>\n        <li><strong>完全动态</strong>：光源、物体可实时移动，无需烘焙</li>\n        <li><strong>快速迭代</strong>：美术师无需等待光照烘焙</li>\n        <li><strong>开放世界</strong>：适合大规模动态场景</li>\n        <li><strong>质量可控</strong>：从移动端到电影级可调</li>\n    </ul>\n    \n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #00f0ff\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #00f0ff\">💡 总结：</strong> \n            Lumen通过混合追踪（屏幕空间+距离场+硬件光追）和辐射度缓存，实现了高质量的实时间接光照。\n            它是UE5开放世界和动态光照场景的核心技术，让全局光照从预计算走向完全实时。\n        </p>\n    </div>\n</div>",
+  "imagePrompt": "Lumen GI visualization, ray tracing, distance fields, global illumination, UE5, dark technical background",
+  "hasImage": true
+},
     "render-pbr": {
   "title": "基于物理的渲染(PBR)：从微表面理论到BRDF实现",
   "category": "render",
