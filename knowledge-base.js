@@ -445,22 +445,61 @@ const knowledgeBase = {
       "imagePrompt": "UE5 technical screenshot, dark UI theme, game engine viewport, 距离场光线追踪, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
       "hasImage": true
     },
-    "render-pbr": {
-      "title": "基于物理的渲染(PBR)完全指南：从理论到实战",
+        "render-pbr": {
+      "title": "基于物理的渲染(PBR)：从微表面理论到BRDF实现",
       "category": "render",
-      "tags": [
-        "微表面模型",
-        "Disney BRDF",
-        "GGX分布",
-        "IBL光照",
-        "能量守恒"
-      ],
-      "date": "2026-02-27",
-      "author": "Realtime Tech / 实时渲染",
-      "readTime": "20分钟",
-      "difficulty": "中等",
-      "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-render px-3 py-1 rounded-full text-sm\">实时渲染</span>\n        <span class=\"text-gray-500\">2026-02-27</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">20分钟阅读</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">中等</span>\n    </div>\n    \n    <h1>基于物理的渲染(PBR)完全指南：从理论到实战</h1>\n    \n    <p class=\"text-xl text-gray-300 mb-6\">\n        PBR（Physically Based Rendering）是现代实时渲染的基石。本文从微表面模型出发，\n        深入讲解 Disney BRDF、GGX分布、菲涅尔效应等核心概念，包含完整的数学推导和HLSL实现代码，\n        助你掌握照片级真实感渲染的核心技术。\n    </p>\n    \n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">参考资源</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <a href=\"https://disneyanimation.com/publications/physically-based-shading/\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📄 Disney Principled BRDF [原文]</a></div>\n            <div>• <a href=\"https://google.github.io/filament/Filament.html\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📚 Google Filament PBR文档</a></div>\n            <div>• <a href=\"https://learnopengl.com/PBR/Theory\" target=\"_blank\" class=\"text-neon-blue hover:underline\">▶️ LearnOpenGL PBR教程</a></div>\n        </div>\n    </div>\n    \n    <div class=\"tech-analysis-box\" style=\"border-color: #ffbe0b40;\">\n        <div class=\"flex items-center gap-2 mb-4\">\n            <span class=\"text-lg font-semibold\" style=\"color: #ffbe0b\">🔬 深度技术分析</span>\n        </div>\n        <p class=\"mb-0 text-gray-300 leading-relaxed\">\n            PBR通过模拟光与材质的物理交互实现照片级真实感。核心突破在于微表面模型——\n            将粗糙表面建模为无数微小镜面的集合，每个微面遵循菲涅尔反射定律。Disney BRDF\n            在此基础上提出了实用的参数化模型，通过Base Color、Metallic、Roughness等直观参数\n            控制材质表现。GGX（Trowbridge-Reitz）分布函数相比传统的Blinn-Phong更准确地描述了\n            粗糙表面的高光分布，而能量守恒确保材质不会反射比接收更多的光。\n        </p>\n    </div>\n    \n    <h2>🎯 核心技术点</h2>\n    <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4 mb-6\">\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">微表面模型</div>\n            <p class=\"text-xs text-gray-400 mb-0\">将粗糙表面建模为无数微小镜面</p>\n        </div>\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">Disney BRDF</div>\n            <p class=\"text-xs text-gray-400 mb-0\">直观的参数化材质模型</p>\n        </div>\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">GGX分布</div>\n            <p class=\"text-xs text-gray-400 mb-0\">更真实的高光分布函数</p>\n        </div>\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">IBL光照</div>\n            <p class=\"text-xs text-gray-400 mb-0\">基于图像的间接光照</p>\n        </div>\n    </div>\n    \n    <h2>💡 实用价值</h2>\n    <div class=\"bg-gradient-to-r from-dark-700/50 to-dark-800/50 rounded-xl p-6 mb-6\">\n        <p class=\"text-gray-300 leading-relaxed mb-0\">\n            PBR是现代游戏引擎（UE、Unity）和渲染器（Blender、Maya）的标准材质工作流。\n            掌握PBR原理能帮助你创建在任何光照环境下都表现一致的真实材质，\n            大幅提升游戏和影视项目的视觉质量。\n        </p>\n    </div>\n    \n    <h2>💻 GGX BRDF HLSL实现</h2>\n    \n    <pre><code class=\"language-hlsl\">// GGX/Trowbridge-Reitz 分布函数\nfloat D_GGX(float NoH, float roughness)\n{\n    float alpha = roughness * roughness;\n    float alpha2 = alpha * alpha;\n    float NoH2 = NoH * NoH;\n    \n    float denom = NoH2 * (alpha2 - 1.0) + 1.0;\n    return alpha2 / (PI * denom * denom);\n}\n\n// Smith GGX 几何遮蔽函数\nfloat G_Smith(float NoV, float NoL, float roughness)\n{\n    float alpha = roughness * roughness;\n    float G1V = NoV / (NoV * (1.0 - alpha) + alpha);\n    float G1L = NoL / (NoL * (1.0 - alpha) + alpha);\n    return G1V * G1L;\n}\n\n// Fresnel-Schlick 近似\nfloat3 F_Schlick(float cosTheta, float3 F0)\n{\n    return F0 + (1.0 - F0) * pow(1.0 - cosTheta, 5.0);\n}\n\n// 完整的PBR着色器\nfloat3 PBR_BRDF(float3 N, float3 V, float3 L, Material mat)\n{\n    float3 H = normalize(V + L);\n    float NoV = saturate(dot(N, V));\n    float NoL = saturate(dot(N, L));\n    float NoH = saturate(dot(N, H));\n    float HoV = saturate(dot(H, V));\n    \n    float3 F0 = lerp(0.04, mat.albedo, mat.metallic);\n    \n    float D = D_GGX(NoH, mat.roughness);\n    float G = G_Smith(NoV, NoL, mat.roughness);\n    float3 F = F_Schlick(HoV, F0);\n    \n    float3 specular = (D * G * F) / (4.0 * NoV * NoL + 0.001);\n    float3 kD = (1.0 - F) * (1.0 - mat.metallic);\n    float3 diffuse = kD * mat.albedo / PI;\n    \n    return (diffuse + specular) * NoL;\n}</code></pre>\n    \n    <h2>📚 相关技术主题</h2>\n    <div class=\"flex flex-wrap gap-2 mb-6\">\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">实时渲染</span>\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">材质系统</span>\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">Shader编程</span>\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">游戏美术</span>\n    </div>\n    \n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ffbe0b\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #ffbe0b\">💡 提示:</strong> \n            本文为Realtime Tech深度技术分析。完整代码实现可参考UE5和Unity的Shader Graph节点实现。\n        </p>\n    </div>\n</div>",
-      "imagePrompt": "Real-time rendering visualization, ray tracing, PBR materials, 微表面模型, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
+      "tags": ["微表面模型", "能量守恒", "BRDF", "Diffuse反射", "Specular反射", "Fresnel效应", "Roughness", "Metallic"],
+      "date": "2025-03-03",
+      "author": "Realtime Tech深度分析",
+      "readTime": "30分钟",
+      "difficulty": "困难",
+      "content": "<div class=\"article-content\"><div class=\"flex flex-wrap items-center gap-3 mb-6\"><span class=\"tag-render px-3 py-1 rounded-full text-sm\">实时渲染</span><span class=\"text-gray-500\">2025-03-03</span></div><h1>基于物理的渲染(PBR)：从微表面理论到BRDF实现</h1><p class=\"text-xl text-gray-300 mb-6\">PBR是一种基于物理原理的渲染方法，相比传统实时渲染模型能更准确地表示材质与光的交互。本文从微表面理论出发，深入解析BRDF的数学基础、Diffuse与Specular分量的物理意义，以及能量守恒等核心概念。</p><div class=\"source-box\"><div class=\"text-sm text-gray-400\"><div>• <a href=\"https://google.github.io/filament/Filament.md.html\" target=\"_blank\">📄 Filament PBR Documentation [Google]</a></div><div>• <a href=\"https://disneyanimation.com/publications/physically-based-shading-at-disney/\" target=\"_blank\">📄 Physically-based Shading at Disney [Burley 2012]</a></div><div>• <a href=\"https://www.pbr-book.org/\" target=\"_blank\">📚 PBR: From Theory To Implementation [Pharr et al.]</a></div></div></div><h2>1. 什么是PBR</h2><p>PBR的核心优势在于将<strong>材质</strong>与<strong>光照</strong>分离，使得创建的资源在任何光照条件下都能保持一致的视觉效果。</p><p>PBR遵循以下核心原则：</p><ul><li><strong>能量守恒</strong>：表面反射的能量不能超过入射光的能量</li><li><strong>微表面模型</strong>：粗糙表面被建模为无数微小镜面的集合</li><li><strong>Fresnel效应</strong>：反射率随观察角度变化，掠射角反射更强</li><li><strong>线性工作流</strong>：所有光照计算在线性颜色空间进行</li></ul><h2>2. 符号定义</h2><table class=\"w-full text-sm my-4\"><tr class=\"border-b border-gray-700\"><th class=\"text-left py-2\">符号</th><th class=\"text-left\">定义</th></tr><tr><td class=\"py-2 font-mono\">v</td><td>观察方向单位向量 (View direction)</td></tr><tr><td class=\"py-2 font-mono\">l</td><td>入射光方向单位向量 (Light direction)</td></tr><tr><td class=\"py-2 font-mono\">n</td><td>表面法线单位向量 (Surface normal)</td></tr><tr><td class=\"py-2 font-mono\">h</td><td>半程向量，h = normalize(v + l)</td></tr><tr><td class=\"py-2 font-mono\">fd</td><td>BRDF的Diffuse分量</td></tr><tr><td class=\"py-2 font-mono\">fr</td><td>BRDF的Specular分量</td></tr><tr><td class=\"py-2 font-mono\">α</td><td>粗糙度参数，α = roughness²</td></tr><tr><td class=\"py-2 font-mono\">f₀</td><td>法线入射时的反射率</td></tr></table><h2>3. BRDF模型</h2><p>BRDF描述光线照射到表面后如何被反射：</p><pre><code>f(v, l) = fd(v, l) + fr(v, l)</code></pre><ul><li><strong>fd</strong>：Diffuse分量，光线进入表面、散射后重新发出</li><li><strong>fr</strong>：Specular分量，光线在表面直接反射</li></ul><h3>3.1 渲染方程</h3><pre><code>Lo(v) = ∫Ω fd(l, v) ⊗ Li(l) (n·l) dl + ∫Ω fr(l, v) ⊗ Li(l) (n·l) dl</code></pre><h2>4. Diffuse BRDF (漫反射)</h2><h3>4.1 Lambertian模型</h3><pre><code>fd = σ / π</code></pre><p><strong>为什么要除以π？</strong>能量守恒要求：在半球上积分(n·l)的结果是π，需要除以π来归一化。</p><h3>4.2 Disney Diffuse模型</h3><pre><code>FD90 = 0.5 + 2α(h·l)²
+fd = (σ/π) × (1 + (FD90 - 1)(1 - n·l)⁵) × (1 + (FD90 - 1)(1 - n·v)⁵)</code></pre><p>这个模型在掠射角增加了反射强度，更符合真实材质的表现。</p><h3>4.3 能量守恒与Diffuse</h3><p><strong>金属材质</strong>（metallic = 1）：没有漫反射分量，fd = 0</p><p><strong>非金属材质</strong>（metallic = 0）：fd = baseColor / π</p><h2>5. Specular BRDF (镜面反射)</h2><h3>5.1 微表面模型</h3><p>微表面理论认为粗糙表面由无数微小理想镜面（microfacets）组成：</p><pre><code>       D(h) × G(l, v) × F(v, h)
+fr = ───────────────────────────────
+              4(n·l)(n·v)</code></pre><ul><li><strong>D(h)</strong>：法线分布函数(NDF)</li><li><strong>G(l, v)</strong>：几何遮蔽函数</li><li><strong>F(v, h)</strong>：Fresnel函数</li></ul><h3>5.2 法线分布函数 D(h) - GGX</h3><pre><code>         α²
+D(h) = ─────────────────────────
+       π((n·h)²(α² - 1) + 1)²
+
+其中 α = roughness²</code></pre><p><strong>为什么选择GGX？</strong>相比Blinn-Phong，GGX的高光具有更自然的<strong>长尾</strong>特性，更符合真实材质测量数据。</p><h3>5.3 几何遮蔽函数 G(l, v)</h3><pre><code>             2(n·v)
+G₁(v) = ─────────────────────────────────
+        (n·v) + √(α² + (1 - α²)(n·v)²)
+
+G(l, v) = G₁(l) × G₁(v)</code></pre><h3>5.4 Fresnel函数 F(v, h)</h3><p>Fresnel效应描述反射率随<strong>观察角度</strong>变化的现象。当从掠射角观察时，即使是不反光的材质也会有强烈反射。</p><pre><code>F(v, h) = f₀ + (1 - f₀)(1 - v·h)⁵
+
+其中 f₀：
+• 非金属：f₀ = 0.04 (IOR约为1.5)
+• 金属：f₀ = baseColor</code></pre><p>f₀ ≈ 0.04意味着4%的光被反射，96%进入表面成为漫反射。</p><h2>6. 能量守恒</h2><pre><code>Diffuse反射能量 + Specular反射能量 ≤ 入射能量</code></pre><pre><code>kS = Fresnel系数 (镜面反射比例)
+kD = (1 - kS) × (1 - metallic)  (漫反射比例)
+
+最终BRDF = kD × fd + kS × fr</code></pre><h2>7. 完整BRDF计算 (HLSL)</h2><pre><code class=\"language-hlsl\">// 输入参数
+float3 baseColor; float metallic; float roughness;
+float3 n, v, l;
+
+// 计算
+float3 h = normalize(v + l);
+float NoV = saturate(dot(n, v));
+float NoL = saturate(dot(n, l));
+float NoH = saturate(dot(n, h));
+float VoH = saturate(dot(v, h));
+float3 f0 = lerp(0.04, baseColor, metallic);
+
+// Diffuse
+float3 fd = baseColor / PI;
+
+// Specular (GGX)
+float alpha = roughness * roughness;
+float D = alpha*alpha / (PI * pow((NoH*NoH*(alpha*alpha-1)+1), 2));
+float G = (NoV/(NoV*(1-alpha)+alpha)) * (NoL/(NoL*(1-alpha)+alpha));
+float3 F = f0 + (1-f0)*pow(1-VoH, 5);
+float3 fr = (D*G*F) / (4*NoV*NoL + 0.001);
+
+// 能量守恒
+float3 kS = F;
+float3 kD = (1-kS)*(1-metallic);
+float3 brdf = kD*fd + fr;
+
+float3 Lo = brdf * lightColor * lightIntensity * NoL;</code></pre><h2>8. 参数使用建议</h2><p><strong>Base Color：</strong>非金属用漫反射颜色（泥土、石头），金属用镜面着色（金、铜）。非金属保持中灰度(0.03-0.8)。</p><p><strong>Metallic：</strong>0=非金属（塑料、石头），1=金属（铁、金）。</p><p><strong>Roughness：</strong>0=完美镜面（镜子），0.5=中等粗糙（混凝土），1=完全粗糙（天鹅绒）。</p><h2>9. 实用价值</h2><p><strong>PBR已成为行业标准：</strong></p><ul><li><strong>游戏引擎</strong>：UE5、Unity、Godot的默认材质</li><li><strong>DCC工具</strong>：Substance Painter/Designer基于PBR预览</li><li><strong>影视渲染</strong>：Disney Hyperion、Pixar Renderman</li></ul><p><strong>参考实现：</strong>UE5: BRDF.ush | Unity: BRDF.hlsl | Filament: shading_lit.fs</p><div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ffbe0b\"><p class=\"mb-0 text-gray-400\"><strong style=\"color: #ffbe0b\">💡 总结：</strong> PBR的核心在于理解光与材质的物理交互。Diffuse描述光的内部散射，Specular描述表面反射，两者通过能量守恒联系在一起。GGX分布、Smith几何遮蔽、Schlick Fresnel构成了现代PBR的基础。</p></div></div>",
+      "imagePrompt": "PBR material spheres showing metallic and roughness variations, BRDF visualization, microfacet theory diagram",
       "hasImage": true
     },
     "render-raytracing": {
