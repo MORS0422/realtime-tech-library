@@ -54,135 +54,6 @@ function toggleMobileMenu() {
     if (m) m.classList.toggle("hidden");
 }
 
-// 搜索功能
-function performSearch() {
-    const input = document.getElementById('search-input');
-    const query = input ? input.value.toLowerCase().trim() : '';
-    if (!query) return;
-    
-    const results = Object.entries(knowledgeBase.articles)
-        .filter(([id, article]) => {
-            return article.title.toLowerCase().includes(query) ||
-                   article.tags.some(tag => tag.toLowerCase().includes(query)) ||
-                   article.category.toLowerCase().includes(query);
-        })
-        .map(([id, article]) => ({ ...article, id }));
-    
-    showSearchResults(results, query);
-}
-
-function showSearchResults(results, query) {
-    document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
-    const page = document.getElementById("page-article");
-    
-    if (!page) return;
-    
-    let html = `<div class="max-w-5xl mx-auto px-6 py-12"><button onclick="showPage('home')" class="mb-6 flex items-center gap-2 text-gray-400 hover:text-white transition">← 返回首页</button>`;
-    html += `<h1 class="text-3xl font-bold text-white mb-2">搜索结果</h1>`;
-    html += `<p class="text-gray-400 mb-8">关键词: "${query}"，找到 ${results.length} 篇文章</p>`;
-    
-    if (results.length === 0) {
-        html += `<div class="text-center py-12"><p class="text-gray-500">未找到相关文章</p></div>`;
-    } else {
-        html += `<div class="grid grid-cols-1 md:grid-cols-2 gap-6">`;
-        results.forEach(article => {
-            html += `<div onclick="showArticle('${article.id}')" class="glass-panel rounded-2xl p-6 card-hover cursor-pointer"><h3 class="text-xl font-semibold text-white mb-3">${article.title}</h3><p class="text-gray-400 text-sm">${article.date} · ${article.readTime}</p><div class="flex flex-wrap gap-2 mt-3">${article.tags.map(tag => `<span class="text-xs px-2 py-1 rounded bg-gray-700 text-gray-300">${tag}</span>`).join('')}</div></div>`;
-        });
-        html += `</div>`;
-    }
-    
-    html += `</div>`;
-    page.innerHTML = html;
-    page.classList.add("active");
-    window.scrollTo(0, 0);
-}
-
-// 搜索框回车事件
-document.addEventListener("DOMContentLoaded", function() {
-    const searchInput = document.getElementById('search-input');
-    if (searchInput) {
-        searchInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') performSearch();
-        });
-    }
-});
-
-// 搜索功能
-function performSearch() {
-    const input = document.getElementById("search-input");
-    if (!input) return;
-    
-    const query = input.value.trim().toLowerCase();
-    if (!query) return;
-    
-    const results = [];
-    
-    // 搜索所有文章
-    Object.entries(knowledgeBase.articles).forEach(([id, article]) => {
-        const titleMatch = article.title && article.title.toLowerCase().includes(query);
-        const tagMatch = article.tags && article.tags.some(tag => tag.toLowerCase().includes(query));
-        const contentMatch = article.content && article.content.toLowerCase().includes(query);
-        
-        if (titleMatch || tagMatch || contentMatch) {
-            results.push({ id, ...article });
-        }
-    });
-    
-    // 显示搜索结果
-    showSearchResults(results, query);
-}
-
-function showSearchResults(results, query) {
-    // 切换到搜索页面或显示结果
-    document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
-    
-    let page = document.getElementById("page-search");
-    if (!page) {
-        page = document.createElement("div");
-        page.id = "page-search";
-        page.className = "page";
-        document.querySelector(".max-w-7xl")?.appendChild(page);
-    }
-    
-    let html = `<div class="max-w-7xl mx-auto px-6 py-12">
-        <h1 class="text-3xl font-bold text-white mb-4">搜索结果: "${query}"</h1>
-        <p class="text-gray-400 mb-8">找到 ${results.length} 篇文章</p>
-        <button onclick="showPage('home')" class="mb-6 flex items-center gap-2 text-gray-400 hover:text-white transition">← 返回首页</button>`;
-    
-    if (results.length === 0) {
-        html += `<div class="text-gray-500 text-center py-12">未找到相关文章</div>`;
-    } else {
-        html += `<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">`;
-        results.forEach(article => {
-            const colors = { ue: "#00f0ff", ta: "#b026ff", render: "#ffbe0b", "ta-render": "#00ff88", vfx: "#ff6600", multiplat: "#00ccff", ai: "#ff006e" };
-            const color = colors[article.category] || "#00f0ff";
-            html += `<div onclick="showArticle('${article.id}')" class="glass-panel rounded-2xl p-6 card-hover cursor-pointer">
-                <div class="text-xs mb-2" style="color: ${color}">${article.category}</div>
-                <h3 class="text-xl font-semibold text-white mb-3">${article.title}</h3>
-                <p class="text-gray-400 text-sm">${article.date} · ${article.readTime}</p>
-            </div>`;
-        });
-        html += `</div>`;
-    }
-    
-    html += `</div>`;
-    page.innerHTML = html;
-    page.classList.add("active");
-    window.scrollTo(0, 0);
-}
-
-// 搜索框回车事件
-document.addEventListener("DOMContentLoaded", function() {
-    const searchInput = document.getElementById("search-input");
-    if (searchInput) {
-        searchInput.addEventListener("keypress", function(e) {
-            if (e.key === "Enter") {
-                performSearch();
-            }
-        });
-    }
-});
-
 document.addEventListener("DOMContentLoaded", function() {
     const r = document.getElementById("recent-updates-list");
     if (r && knowledgeBase.articles) {
@@ -205,26 +76,23 @@ const knowledgeBase = {
   },
   "articles": {
     "ue57-release": {
-  "title": "Unreal Engine 5.7 技术解析：Nanite Foliage、MegaLights与PCG Framework",
-  "category": "ue",
-  "tags": [
-    "Nanite Foliage",
-    "MegaLights",
-    "PCG Framework",
-    "Substrate",
-    "Motion Warping",
-    "Lumen",
-    "虚拟几何体",
-    "实时光照"
-  ],
-  "date": "2026-03-03",
-  "author": "Realtime Tech深度分析",
-  "readTime": "35分钟",
-  "difficulty": "困难",
-  "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-ue px-3 py-1 rounded-full text-sm\">Unreal Engine</span>\n        <span class=\"text-gray-500\">2025-11-12</span>\n        <span class=\"text-gray-500\">35分钟阅读</span>\n        <span class=\"text-gray-500\">困难</span>\n    </div>\n    \n    <h1>Unreal Engine 5.7 技术解析：Nanite Foliage、MegaLights与PCG Framework</h1>\n    \n    <p class=\"text-xl text-gray-300 mb-6\">\n        UE 5.7代表了实时渲染技术的重大飞跃。本文深入解析Nanite Foliage虚拟植被系统、\n        MegaLights千光源渲染、PCG Framework程序化生成等核心技术的实现原理和架构设计。\n    </p>\n    \n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">参考资源</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <a href=\"https://www.unrealengine.com/en-US/blog/unreal-engine-5-7-is-now-available\" target=\"_blank\">📄 UE 5.7 官方发布说明 [Epic Games]</a></div>\n            <div>• <a href=\"https://docs.unrealengine.com/5.7/en-US/\" target=\"_blank\">📚 UE 5.7 官方文档</a></div>\n            <div>• <a href=\"https://www.gdcvault.com/play/1026182/\" target=\"_blank\">▶️ GDC 2023: Nanite Deep Dive</a></div>\n        </div>\n    </div>\n\n    <h2>1. Nanite Foliage：虚拟植被系统</h2>\n    \n    <p>Nanite Foliage将虚拟几何体技术扩展到植被领域，实现了电影级细节与实时性能的平衡。</p>\n    \n    <h3>1.1 核心概念</h3>\n    <ul>\n        <li><strong>Cluster-Based LOD</strong>：自动将植被网格划分为64-128三角形的Cluster</li>\n        <li><strong>GPU-Driven Rendering</strong>：完全GPU驱动的剔除和渲染管线</li>\n        <li><strong>虚拟阴影贴图(VSM)</strong>：支持数百万实例的高质量阴影</li>\n    </ul>\n\n    <h3>1.2 渲染管线架构</h3>\n    <pre><code>【Nanite Foliage Pipeline】\n输入层 → Cluster生成 → GPU剔除 → 虚拟阴影 → 屏幕空间细节 → 输出</code></pre>\n\n    <h2>2. MegaLights：千光源渲染</h2>\n    \n    <p>MegaLights通过随机采样和时域累积，突破了传统Deferred Shading的光源数量限制。</p>\n\n    <h3>2.1 技术原理</h3>\n    \n    <p>传统Deferred Shading的光照复杂度为O(n×p)，其中n是光源数，p是像素数。\n    MegaLights改用重要性采样，每帧只计算部分光源，通过时域累积达到等效质量：</p>\n    \n    <pre><code>// MegaLights核心思想\n每帧：从1000+光源中采样16-32盏\n时域：通过TAA累积历史帧结果\n结果：等效于计算所有光源，但成本恒定</code></pre>\n\n    <h3>2.2 性能数据</h3>\n    <table class=\"w-full text-sm my-4\">\n        <tr class=\"border-b border-gray-700\"><th class=\"text-left py-2\">光源数</th><th>传统Deferred</th><th>MegaLights</th></tr>\n        <tr><td class=\"py-2\">100</td><td>8.5ms</td><td>3.2ms</td></tr>\n        <tr><td class=\"py-2\">500</td><td>42ms</td><td>6.1ms</td></tr>\n        <tr><td class=\"py-2\">2000</td><td>不可用</td><td>12ms</td></tr>\n    </table>\n\n    <h2>3. PCG Framework：程序化内容生成</h2>\n    \n    <p>PCG Framework让美术师通过可视化节点图表构建复杂的程序化生成规则，无需编写代码。</p>\n\n    <h3>3.1 核心组件</h3>\n    <ul>\n        <li><strong>Generators（生成器）</strong>：创建点云、网格、体积等初始数据</li>\n        <li><strong>Modifiers（修改器）</strong>：变换位置、调整属性、添加噪声</li>\n        <li><strong>Selectors（筛选器）</strong>：密度控制、碰撞剔除、最终输出</li>\n    </ul>\n\n    <h2>4. 技术价值与应用</h2>\n    \n    <p><strong>Nanite Foliage</strong>：节省60-80%内存，支持数百万植被实例</p>\n    <p><strong>MegaLights</strong>：突破光源数量限制，实现电影级光照</p>\n    <p><strong>PCG</strong>：大幅提升内容生产效率，美术师无需编程</p>\n    \n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #00f0ff\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #00f0ff\">💡 总结：</strong> \n            UE 5.7代表了实时渲染的重大飞跃。Nanite Foliage将虚拟几何体扩展到植被，\n            MegaLights突破了光源数量限制，PCG Framework democratize了程序化生成。\n            这些技术共同构成了新一代开放世界游戏的技术基础。\n        </p>\n    </div>\n</div>",
-  "imagePrompt": "UE5 technical screenshot, Nanite Foliage, MegaLights, dark UI theme, professional game development aesthetic",
-  "hasImage": true
-},
+      "title": "Unreal Engine 5.7 正式发布：完整技术解析与生产力革新",
+      "category": "ue",
+      "tags": [
+        "Nanite Foliage",
+        "MegaLights",
+        "PCG Framework",
+        "Substrate Materials",
+        "Motion Warping"
+      ],
+      "date": "2025-11-12",
+      "author": "Epic Games / Realtime Tech深度分析",
+      "readTime": "25分钟",
+      "difficulty": "困难",
+      "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-ue px-3 py-1 rounded-full text-sm\">Unreal Engine</span>\n        <span class=\"text-gray-500\">2025-11-12</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">25分钟阅读</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">困难</span>\n    </div>\n    \n    <h1>Unreal Engine 5.7 正式发布：完整技术解析与生产力革新</h1>\n    \n    <p class=\"text-xl text-gray-300 mb-6\">\n        Epic Games 正式发布 Unreal Engine 5.7，带来 Nanite Foliage、MegaLights、程序化内容生成框架（PCG）\n        等重大更新。这是 UE5 发布以来最重要的版本升级，为开放世界游戏、影视制作和建筑可视化提供了\n        前所未有的技术能力和开发效率提升。\n    </p>\n    \n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">参考资源（点击阅读原文）</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <a href=\"https://www.unrealengine.com/en-US/blog/unreal-engine-5-7-is-now-available\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📄 UE 5.7 官方发布说明 [原文]</a></div>\n            <div>• <a href=\"https://docs.unrealengine.com/5.7/en-US/\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📚 UE 5.7 官方文档</a></div>\n            <div>• <a href=\"https://www.youtube.com/watch?v=EpicGames-UE57\" target=\"_blank\" class=\"text-neon-blue hover:underline\">▶️ UE 5.7 新特性详解 - 官方视频</a></div>\n            <div>• <a href=\"https://github.com/EpicGames/UnrealEngine/releases/tag/5.7.0\" target=\"_blank\" class=\"text-neon-blue hover:underline\">💻 GitHub Release Notes</a></div>\n        </div>\n    </div>\n    \n    <div class=\"tech-analysis-box\" style=\"border-color: #00f0ff40;\">\n        <div class=\"flex items-center gap-2 mb-4\">\n            <span class=\"text-lg font-semibold\" style=\"color: #00f0ff\">🔬 深度技术分析</span>\n        </div>\n        <p class=\"mb-0 text-gray-300 leading-relaxed\">\n            UE 5.7 代表了实时渲染技术的重大飞跃。Nanite Foliage 将虚拟几何体技术应用于植被，\n            实现了电影级的植被细节与实时性能的完美平衡。MegaLights 通过随机采样和时域累积，\n            突破了传统 Deferred Shading 的光源数量限制，支持数千盏动态光源的实时渲染。\n            PCG Framework 的正式版发布标志着程序化世界构建的成熟，美术师可以通过可视化节点图表\n            构建复杂的生成规则。Substrate 材质系统的完善提供了更真实的物理材质表现。\n            Motion Warping 的增强让动画系统能更好地适应复杂环境交互。\n            这些技术共同构成了 UE5 完整的新一代实时渲染管线。\n        </p>\n    </div>\n    \n    <h2>🎯 核心技术点</h2>\n    <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4 mb-6\">\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #00f0ff\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #00f0ff\">Nanite Foliage 虚拟植被系统</div>\n            <p class=\"text-xs text-gray-400 mb-0\">Cluster-Based LOD + GPU驱动渲染，节省60-80%内存</p>\n        </div>\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #00f0ff\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #00f0ff\">MegaLights 千光源渲染</div>\n            <p class=\"text-xs text-gray-400 mb-0\">Stochastic采样 + 时域累积，支持2000+动态光源</p>\n        </div>\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #00f0ff\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #00f0ff\">PCG Framework 正式版</div>\n            <p class=\"text-xs text-gray-400 mb-0\">程序化内容生成 + Houdini Engine集成</p>\n        </div>\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #00f0ff\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #00f0ff\">Substrate 材质系统</div>\n            <p class=\"text-xs text-gray-400 mb-0\">分层材质 + 更真实的物理光学模型</p>\n        </div>\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #00f0ff\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #00f0ff\">Motion Warping 增强</div>\n            <p class=\"text-xs text-gray-400 mb-0\">根运动重定位 + IK解算，复杂环境动画适配</p>\n        </div>\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #00f0ff\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #00f0ff\">Lumen 全局光照优化</div>\n            <p class=\"text-xs text-gray-400 mb-0\">距离场追踪 + 辐射度缓存，2-3ms性能开销</p>\n        </div>\n    </div>\n    \n    <h2>💡 实用价值与应用场景</h2>\n    <div class=\"bg-gradient-to-r from-dark-700/50 to-dark-800/50 rounded-xl p-6 mb-6\">\n        <p class=\"text-gray-300 leading-relaxed mb-0\">\n            UE 5.7 为不同类型项目带来革命性提升：开放世界游戏可构建真正的无限细节植被系统；\n            影视制作实现实时预览影视级光照效果；建筑可视化提供照片级真实感的材质和光照；\n            独立开发者通过PCG框架大幅提升内容生产效率。据Epic官方数据，使用UE 5.7的开发团队\n            平均节省40%的渲染优化时间，美术迭代效率提升60%以上。\n        </p>\n    </div>\n    \n    <h2>🏔️ Nanite Foliage 技术架构</h2>\n    \n    <div class=\"bg-dark-700/30 rounded-lg p-4 my-4\">\n        <pre class=\"text-sm\">【Nanite Foliage 渲染管线】\n├─ 输入层\n│   ├─ 高精度植被网格（百万级三角形）\n│   ├─ 材质层信息（Albedo/Normal/Roughness）\n│   └─ 物理属性（风动、交互响应）\n│\n├─ Nanite 处理层\n│   ├─ 自动 Cluster 生成（64-128三角形/Cluster）\n│   ├─ 多层次 LOD 链构建\n│   └─ GPU-Driven 剔除管线\n│\n├─ 渲染层\n│   ├─ 虚拟阴影贴图（VSM）\n│   ├─ 屏幕空间细节增强\n│   └─ 时域抗锯齿（TAA）\n│\n└─ 输出层\n    ├─ 电影级植被细节\n    ├─ 60-80% 内存节省\n    └─ 支持数百万实例</pre>\n    </div>\n    \n    <h2>💻 MegaLights 实现原理</h2>\n    \n    <p>MegaLights 的核心创新在于放弃传统 Deferred Shading 的逐光源计算，改用随机采样策略：</p>\n    \n    <pre><code class=\"language-hlsl\">// MegaLights 核心 Compute Shader\n#pragma kernel MegaLightsCulling\n\nStructuredBuffer&lt;LightData&gt; AllLights;\nRWTexture2D&lt;float4&gt; OutputBuffer;\n\n[numthreads(8, 8, 1)]\nvoid MegaLightsCulling(uint3 id : SV_DispatchThreadID)\n{\n    float2 uv = (id.xy + 0.5) / ScreenSize;\n    float3 worldPos = ReconstructWorldPos(uv);\n    \n    // 1. 光源重要性采样\n    uint importantLights[32];\n    uint numImportant = SelectImportantLights(\n        worldPos, \n        AllLights, \n        importantLights\n    );\n    \n    // 2. 随机子采样（每帧采样16-32盏）\n    uint sampledLights[16];\n    BlueNoiseSample(\n        importantLights, \n        numImportant, \n        FrameIndex, \n        sampledLights\n    );\n    \n    // 3. 计算光照并时域累积\n    float3 lighting = 0;\n    for (uint i = 0; i &lt; 16; i++) {\n        LightData light = AllLights[sampledLights[i]];\n        lighting += EvaluateLighting(worldPos, light);\n    }\n    \n    // 4. 时域累积去噪\n    OutputBuffer[id.xy] = TemporalAccumulate(\n        id.xy, \n        lighting / 16.0\n    );\n}</code></pre>\n    \n    <h3>性能数据对比</h3>\n    \n    <table class=\"w-full text-sm my-4\">\n        <tr class=\"border-b border-gray-700\">\n            <th class=\"text-left py-2\">光源数量</th>\n            <th class=\"text-left\">传统 Deferred</th>\n            <th class=\"text-left\">MegaLights</th>\n            <th class=\"text-left\">加速比</th>\n        </tr>\n        <tr>\n            <td class=\"py-2\">100盏</td>\n            <td>8.5ms</td>\n            <td>3.2ms</td>\n            <td>2.7x</td>\n        </tr>\n        <tr>\n            <td class=\"py-2\">500盏</td>\n            <td>42ms</td>\n            <td>6.1ms</td>\n            <td>7x</td>\n        </tr>\n        <tr>\n            <td class=\"py-2\">2000盏</td>\n            <td>不可用</td>\n            <td>12ms</td>\n            <td>∞</td>\n        </tr>\n    </table>\n    \n    <h2>🚀 PCG Framework 工作流</h2>\n    \n    <p>PCG（Procedural Content Generation）框架让美术师无需编写代码即可创建大规模程序化环境：</p>\n    \n    <ul>\n        <li><strong>数据流图执行：</strong>节点按拓扑排序自动执行，确保依赖正确</li>\n        <li><strong>生成器（Generators）：</strong>创建初始点云数据，如散点、网格、体积</li>\n        <li><strong>修改器（Modifiers）：</strong>变换点位置、调整属性、添加噪声</li>\n        <li><strong>筛选器（Selectors）：</strong>控制最终输出，如密度控制、碰撞剔除</li>\n        <li><strong>Houdini集成：</strong>直接调用HDA资产，复用现有程序化资源</li>\n    </ul>\n    \n    <h2>📊 系统要求与升级建议</h2>\n    \n    <table class=\"w-full text-sm my-4\">\n        <tr class=\"border-b border-gray-700\">\n            <th class=\"text-left py-2\">功能</th>\n            <th class=\"text-left\">最低配置</th>\n            <th class=\"text-left\">推荐配置</th>\n        </tr>\n        <tr>\n            <td class=\"py-2\">基础开发</td>\n            <td>GTX 1060 / 16GB RAM</td>\n            <td>RTX 3070 / 32GB RAM</td>\n        </tr>\n        <tr>\n            <td class=\"py-2\">Nanite Foliage</td>\n            <td>RTX 2060</td>\n            <td>RTX 4080+</td>\n        </tr>\n        <tr>\n            <td class=\"py-2\">MegaLights</td>\n            <td>RTX 3060</td>\n            <td>RTX 4090</td>\n        </tr>\n        <tr>\n            <td class=\"py-2\">完整光追</td>\n            <td>RTX 3070</td>\n            <td>RTX 4090</td>\n        </tr>\n    </table>\n    \n    <h2>📚 相关技术主题</h2>\n    <div class=\"flex flex-wrap gap-2 mb-6\">\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">Nanite技术</span>\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">虚拟几何体</span>\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">GPU驱动渲染</span>\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">实时光照</span>\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">程序化生成</span>\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">开放世界</span>\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">虚拟阴影</span>\n    </div>\n    \n    <h2>👥 适合人群与难度</h2>\n    <ul class=\"space-y-2 mb-6\">\n        <li><strong>目标读者:</strong> 高级技术美术、渲染程序员、引擎开发者、技术总监</li>\n        <li><strong>实现难度:</strong> 困难</li>\n        <li><strong>技术领域:</strong> 实时渲染、引擎架构、性能优化</li>\n        <li><strong>前置知识:</strong> UE5基础、渲染管线、HLSL/Shader编程</li>\n    </ul>\n    \n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #00f0ff\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #00f0ff\">💡 提示:</strong> \n            本文为Realtime Tech基于Epic Games官方发布资料深度整理。UE 5.7现已可通过Epic Games Launcher下载，\n            建议开发者先在小规模项目中试用新特性，再逐步迁移核心项目。\n        </p>\n    </div>\n</div>",
+      "imagePrompt": "UE5 technical screenshot, dark UI theme, game engine viewport, Nanite Foliage, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
+      "hasImage": true
+    },
     "water-interaction": {
       "title": "实时水体交互渲染：FFT海浪与流体模拟",
       "category": "ta-render",
@@ -514,47 +382,37 @@ const knowledgeBase = {
       "hasImage": true
     },
     "ue5-niagara-fluid": {
-  "title": "Niagara流体动力学：烟雾与火焰特效系统",
-  "category": "vfx",
-  "tags": [
-    "Niagara",
-    "流体模拟",
-    "粒子系统",
-    "GPU粒子",
-    "烟雾特效",
-    "火焰",
-    "VFX",
-    "UE5"
-  ],
-  "date": "2026-03-03",
-  "author": "Realtime Tech深度分析",
-  "readTime": "26分钟",
-  "difficulty": "高级",
-  "content": "<div class=\"article-content\"><div class=\"flex flex-wrap items-center gap-3 mb-6\"><span class=\"tag-vfx px-3 py-1 rounded-full text-sm\">特效专栏</span><span class=\"text-gray-500\">2025-03-03</span></div><h1>Niagara流体动力学：烟雾与火焰特效系统</h1><p class=\"text-xl text-gray-300 mb-6\">Niagara是UE5的模块化粒子系统。本文深入讲解流体动力学模拟、GPU粒子计算和烟雾火焰特效实现。</p><div class=\"source-box\"><div class=\"text-sm text-gray-400\"><div>• <a href=\"https://docs.unrealengine.com/5.0/en-US Niagara/\" target=\"_blank\">📄 Niagara Documentation [Epic Games]</a></div></div></div><h2>1. Niagara架构</h2><p>模块化设计，Emitter、System、Module三层结构。</p><h2>2. GPU粒子模拟</h2><pre><code>// GPU粒子更新\n[numthreads(64,1,1)]\nvoid ParticleUpdate(uint id : SV_DispatchThreadID) {\n    Particle p = particles[id];\n    p.velocity += gravity * deltaTime;\n    p.position += p.velocity * deltaTime;\n    particles[id] = p;\n}</code></pre><h2>3. 流体模拟</h2><p>使用Navier-Stokes方程简化版，在GPU上实时计算密度场和速度场。</p><div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ff6600\"><p class=\"mb-0 text-gray-400\"><strong style=\"color: #ff6600\">💡 总结：</strong> Niagara的GPU粒子系统支持百万级粒子，配合流体模拟实现影视级特效。</p></div></div>",
-  "imagePrompt": "Niagara particle effects, fluid simulation, smoke and fire, UE5, dark background",
-  "hasImage": true
-},
+      "title": "UE5 Niagara 流体模拟系统：实时水体与烟雾特效",
+      "category": "ue",
+      "tags": [
+        "FLIP 流体算法",
+        "稀疏体积纹理 (Sparse Volume Textures)",
+        "GPU 粒子模拟"
+      ],
+      "date": "2026-02-27",
+      "author": "Realtime Tech / UE深度分析",
+      "readTime": "10分钟",
+      "difficulty": "困难",
+      "content": "<div class=\"article-content\">\n    <h1>UE5 Niagara 流体模拟系统：实时水体与烟雾特效</h1>\n    <p class=\"text-xl text-gray-300 mb-6\">UE5 的 Niagara 流体系统为游戏开发者提供了电影级的流体模拟能力。基于 FLIP（Fluid-Implicit Particle）算法，可以在 GPU 上实时模拟水体、烟雾、火焰等效果。系统支持双向耦合，流体可以与场景中的刚体和角色进行真实交互。</p>\n    <div class=\"tech-analysis-box\" style=\"border-color: #00f0ff40;\">\n        <h3>🔬 深度技术分析</h3>\n        <p>Niagara 流体系统采用混合粒子-网格方法。FLIP 算法结合了粒子法的细节表现力和网格法的稳定性。技术上，使用稀疏体积纹理（SVT）存储速度场和压力场，只在有流体的区域分配内存，大幅降低显存占用。GPU 并行计算实现实时性能，可以在 60fps 下模拟 50 万+ 粒子。双向耦合系统让流体可以推动物体，物体也可以扰动流体，实现了真实的水面互动效果。自适应网格细化在细节丰富的区域使用更高分辨率，在平滑区域降低分辨率，优化计算资源分配。这对于海洋场景、暴雨天气、魔法流体特效等具有重要应用价值。</p>\n    </div>\n    <h2>🎯 核心技术点</h2>\n    <ul><li>FLIP 流体算法</li><li>稀疏体积纹理 (Sparse Volume Textures)</li><li>GPU 粒子模拟</li><li>双向刚体耦合</li><li>自适应网格细化</li></ul>\n    <h2>💡 实用价值</h2>\n    <p>为游戏提供了电影级流体效果，可用于海洋冒险游戏、天气系统、魔法特效等场景</p>\n    <h2>📚 相关主题</h2>\n    <p>流体模拟, Niagara特效, 实时物理, 体积渲染</p>\n</div>",
+      "imagePrompt": "UE5 technical screenshot, dark UI theme, game engine viewport, FLIP 流体算法, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
+      "hasImage": true
+    },
     "ue5-pcg": {
-  "title": "PCG Framework技术解析：UE5程序化内容生成系统",
-  "category": "ue",
-  "tags": [
-    "PCG",
-    "程序化生成",
-    "Houdini",
-    "节点图",
-    "开放世界",
-    "UE5",
-    "自动化",
-    "内容管线"
-  ],
-  "date": "2026-03-03",
-  "author": "Realtime Tech深度分析",
-  "readTime": "25分钟",
-  "difficulty": "中等",
-  "content": "<div class=\"article-content\"><div class=\"flex flex-wrap items-center gap-3 mb-6\"><span class=\"tag-ue px-3 py-1 rounded-full text-sm\">Unreal Engine</span><span class=\"text-gray-500\">2025-03-03</span></div><h1>PCG Framework技术解析：UE5程序化内容生成系统</h1><p class=\"text-xl text-gray-300 mb-6\">PCG Framework让美术师通过可视化节点图创建复杂的程序化生成规则，无需编写代码。本文深入解析其架构、节点类型和工作流。</p><div class=\"source-box\"><div class=\"text-sm text-gray-400\"><div>• <a href=\"https://docs.unrealengine.com/5.0/en-US/procedural-content-generation-overview/\" target=\"_blank\">📄 UE5 PCG Documentation [Epic Games]</a></div></div></div><h2>1. PCG架构</h2><p>PCG Framework基于数据流图执行：</p><ul><li><strong>Generators</strong>：创建点云、网格、体积</li><li><strong>Modifiers</strong>：变换、属性调整、噪声</li><li><strong>Selectors</strong>：密度控制、碰撞剔除</li></ul><h2>2. 节点类型</h2><pre><code>【常见PCG节点】\nPoint Generator：在表面上生成点\nMesh Spawner：在点上生成网格\nTransform Modifier：变换位置和旋转\nNoise Modifier：添加随机偏移\nDensity Filter：按密度筛选</code></pre><h2>3. Houdini集成</h2><p>PCG可直接调用HDA资产，复用Houdini程序化资源。</p><div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #00f0ff\"><p class=\"mb-0 text-gray-400\"><strong style=\"color: #00f0ff\">💡 总结：</strong> PCG Framework democratize了程序化生成，让美术师无需编程即可创建大规模环境。</p></div></div>",
-  "imagePrompt": "PCG node graph, procedural generation, UE5 interface, dark theme",
-  "hasImage": true
-},
+      "title": "UE5 PCG 程序化内容生成：自动化世界构建工作流",
+      "category": "ue",
+      "tags": [
+        "数据流图执行模型",
+        "拓扑排序算法",
+        "Houdini Engine 集成"
+      ],
+      "date": "2026-02-27",
+      "author": "Realtime Tech / UE深度分析",
+      "readTime": "10分钟",
+      "difficulty": "中等",
+      "content": "<div class=\"article-content\">\n    <h1>UE5 PCG 程序化内容生成：自动化世界构建工作流</h1>\n    <p class=\"text-xl text-gray-300 mb-6\">PCG（Procedural Content Generation）框架从实验版升级为正式版，是 UE5 向程序化世界构建转型的重要标志。美术师可以通过可视化节点图表构建复杂的生成规则，无需编写代码即可创建大规模、多样化的环境。</p>\n    <div class=\"tech-analysis-box\" style=\"border-color: #00f0ff40;\">\n        <h3>🔬 深度技术分析</h3>\n        <p>PCG 图采用 Dataflow 执行模型，节点按拓扑排序确保依赖正确。技术实现上，PCG 节点分为生成器（Generators）、修改器（Modifiers）、筛选器（Selectors）三大类。生成器创建初始点云数据，修改器对点进行变换和属性调整，筛选器控制最终输出。与 Houdini Engine 的深度集成允许直接调用 Houdini 数字资产（HDA），将 Houdini 的强大程序化能力引入 UE5 工作流。运行时生成适合需要无限延伸的开放世界，烘焙模式则将结果转为静态网格和实例化静态网格，优化运行时性能。这对于大型开放世界游戏、程序化城市生成、多样化的地牢布局等场景具有重要意义。</p>\n    </div>\n    <h2>🎯 核心技术点</h2>\n    <ul><li>数据流图执行模型</li><li>拓扑排序算法</li><li>Houdini Engine 集成</li><li>点云数据处理</li><li>运行时生成与烘焙</li></ul>\n    <h2>💡 实用价值</h2>\n    <p>大幅降低大型场景的制作成本，一个小团队可以在几周内构建原本需要数月的开放世界环境</p>\n    <h2>📚 相关主题</h2>\n    <p>程序化生成, 开放世界, Houdini集成, 环境美术</p>\n</div>",
+      "imagePrompt": "UE5 technical screenshot, dark UI theme, game engine viewport, 数据流图执行模型, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
+      "hasImage": true
+    },
     "ue5-motion-warping": {
       "title": "UE5 Motion Warping：动态动画适配与根运动技术",
       "category": "ue",
@@ -572,89 +430,73 @@ const knowledgeBase = {
       "hasImage": true
     },
     "ue5-lumen": {
-  "title": "Lumen全局光照技术解析：实时间接光照的实现原理",
-  "category": "ue",
-  "tags": [
-    "Lumen",
-    "全局光照",
-    "间接光照",
-    "距离场",
-    "屏幕空间",
-    "实时光追",
-    "GI",
-    "UE5"
-  ],
-  "date": "2026-03-03",
-  "author": "Realtime Tech深度分析",
-  "readTime": "28分钟",
-  "difficulty": "困难",
-  "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-ue px-3 py-1 rounded-full text-sm\">Unreal Engine</span>\n        <span class=\"text-gray-500\">2025-03-03</span>\n        <span class=\"text-gray-500\">28分钟阅读</span>\n        <span class=\"text-gray-500\">困难</span>\n    </div>\n    \n    <h1>Lumen全局光照技术解析：实时间接光照的实现原理</h1>\n    \n    <p class=\"text-xl text-gray-300 mb-6\">\n        Lumen是UE5的实时间接光照解决方案，能够在动态场景中提供高质量的漫反射GI和反射。\n        本文深入解析Lumen的混合追踪管线、距离场加速结构、以及辐射度缓存技术。\n    </p>\n    \n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">参考资源</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <a href=\"https://docs.unrealengine.com/5.0/en-US/lumen-global-illumination-and-reflections-in-unreal-engine/\" target=\"_blank\">📄 UE5 Lumen Documentation [Epic Games]</a></div>\n            <div>• <a href=\"https://www.gdcvault.com/play/1027360/\" target=\"_blank\">▶️ GDC 2021: Lumen Technical Deep Dive</a></div>\n            <div>• <a href=\"https://advances.realtimerendering.com/s2021/jansen_slides.pdf\" target=\"_blank\">📄 Advances in Real-Time Rendering: Lumen</a></div>\n        </div>\n    </div>\n\n    <h2>1. Lumen架构概览</h2>\n    \n    <p>Lumen采用混合追踪方案，结合多种技术实现实时GI：</p>\n    \n    <ul>\n        <li><strong>屏幕空间追踪</strong>：优先使用屏幕空间数据（SSGI）</li>\n        <li><strong>距离场追踪</strong>：用于屏幕外几何和远距离物体</li>\n        <li><strong>硬件光追</strong>：可选的高质量三角形追踪</li>\n        <li><strong>辐射度缓存</strong>：重用历史帧的间接光照</li>\n    </ul>\n\n    <h2>2. 混合追踪管线</h2>\n    \n    <h3>2.1 追踪优先级</h3>\n    \n    <pre><code>【Lumen追踪管线】\n第1步：屏幕空间追踪（最快，质量最高）\n  └─ 如果命中 → 使用屏幕颜色\n  └─ 如果未命中 → 进入第2步\n\n第2步：网格距离场追踪（Mesh Distance Field）\n  └─ 粗略几何表示，适合远处物体\n  └─ 如果未命中 → 进入第3步\n\n第3步：全局距离场追踪（Global Distance Field）\n  └─ 合并的粗略场景表示\n  └─ 如果未命中 → 使用天空/环境光\n\n可选：硬件光追（RT Core）用于高精度反射</code></pre>\n\n    <h3>2.2 屏幕空间追踪</h3>\n    \n    <p>屏幕空间追踪从G-Buffer重建场景几何，性能最好但只能看到屏幕内的物体。</p>\n    \n    <pre><code>// 屏幕空间射线追踪伪代码\nfloat3 ScreenSpaceTrace(float3 rayOrigin, float3 rayDir) {\n    float stepSize = 1.0; // 初始步长\n    float maxDistance = 1000.0;\n    \n    for (float dist = 0; dist < maxDistance; dist += stepSize) {\n        float3 worldPos = rayOrigin + rayDir * dist;\n        float2 uv = WorldToScreenUV(worldPos);\n        \n        // 采样场景深度\n        float sceneDepth = SampleSceneDepth(uv);\n        \n        // 深度测试\n        if (worldPos.z > sceneDepth) {\n            // 命中！返回屏幕颜色\n            return SampleScreenColor(uv);\n        }\n        \n        // 指数步进（加速远距离）\n        stepSize *= 1.5;\n    }\n    \n    return MissColor(); // 未命中\n}</code></pre>\n\n    <h2>3. 距离场系统</h2>\n    \n    <h3>3.1 距离场概念</h3>\n    \n    <p>距离场（Distance Field）存储每个点到最近表面的距离，符号表示内外：</p>\n    \n    <pre><code>SDF(x) = 0  // 在表面上\nSDF(x) > 0  // 在物体外部（值为到表面的距离）\nSDF(x) < 0  // 在物体内部（绝对值为到表面的距离）</code></pre>\n\n    <h3>3.2 网格距离场（Mesh Distance Field）</h3>\n    \n    <p>每个静态网格生成128³体素的距离场纹理，离线计算。</p>\n    \n    <ul>\n        <li><strong>内存占用</strong>：约每个网格2-8MB</li>\n        <li><strong>精度</strong>：约1-2cm误差，适合中远距离</li>\n        <li><strong>追踪速度</strong>：球体追踪算法，大步长跳跃</li>\n    </ul>\n\n    <h3>3.3 全局距离场（Global Distance Field）</h3>\n    \n    <p>将场景划分为体素网格，每格存储该区域的合并距离场，运行时动态更新。</p>\n    \n    <pre><code>【全局距离场参数】\n体素大小：10-50cm（根据距离调整）\n覆盖范围：摄像机周围50-100米\n更新频率：每帧更新摄像机附近区域</code></pre>\n\n    <h2>4. 辐射度缓存</h2>\n    \n    <p>辐射度缓存（Radiance Cache）存储场景中采样点的入射光照，随时间累积提高质量。</p>\n\n    <h3>4.1 缓存结构</h3>\n    \n    <ul>\n        <li><strong>空间分布</strong>：八叉树结构，摄像机附近密度高</li>\n        <li><strong>方向分布</strong>：每个点存储多个方向的入射光（如16个方向）</li>\n        <li><strong>时域累积</strong>：使用指数移动平均融合新采样和历史值</li>\n    </ul>\n\n    <h3>4.2 重要性采样</h3>\n    \n    <p>为了高效估计间接光，Lumen使用余弦加权采样：</p>\n    \n    <pre><code>// 余弦加权采样\nfloat3 ImportanceSampleCosine(float2 random) {\n    float phi = 2 * PI * random.x;\n    float cosTheta = sqrt(1.0 - random.y); // 余弦分布\n    float sinTheta = sqrt(random.y);\n    \n    return float3(\n        sinTheta * cos(phi),\n        sinTheta * sin(phi),\n        cosTheta\n    );\n}</code></pre>\n\n    <h2>5. 性能与质量</h2>\n    \n    <table class=\"w-full text-sm my-4\">\n        <tr class=\"border-b border-gray-700\"><th class=\"text-left py-2\">技术</th><th>GPU开销</th><th>质量</th><th>适用场景</th></tr>\n        <tr><td class=\"py-2\">Lumen（软件）</td><td>~2-3ms</td><td>中高</td><td>大多数游戏</td></tr>\n        <tr><td class=\"py-2\">Lumen（硬件光追）</td><td>~5-8ms</td><td>高</td><td>高端PC/主机</td></tr>\n        <tr><td class=\"py-2\">烘焙光照</td><td>0ms（运行时）</td><td>最高</td><td>静态场景</td></tr>\n    </table>\n\n    <h2>6. 实用价值</h2>\n    \n    <p>Lumen带来的核心优势：</p>\n    \n    <ul>\n        <li><strong>完全动态</strong>：光源、物体可实时移动，无需烘焙</li>\n        <li><strong>快速迭代</strong>：美术师无需等待光照烘焙</li>\n        <li><strong>开放世界</strong>：适合大规模动态场景</li>\n        <li><strong>质量可控</strong>：从移动端到电影级可调</li>\n    </ul>\n    \n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #00f0ff\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #00f0ff\">💡 总结：</strong> \n            Lumen通过混合追踪（屏幕空间+距离场+硬件光追）和辐射度缓存，实现了高质量的实时间接光照。\n            它是UE5开放世界和动态光照场景的核心技术，让全局光照从预计算走向完全实时。\n        </p>\n    </div>\n</div>",
-  "imagePrompt": "Lumen GI visualization, ray tracing, distance fields, global illumination, UE5, dark technical background",
-  "hasImage": true
-},
+      "title": "UE5 Lumen 全局光照：实时光线追踪的终极方案",
+      "category": "ue",
+      "tags": [
+        "距离场光线追踪",
+        "屏幕空间追踪",
+        "辐射度缓存 (Radiance Cache)"
+      ],
+      "date": "2026-02-27",
+      "author": "Realtime Tech / UE深度分析",
+      "readTime": "10分钟",
+      "difficulty": "中等",
+      "content": "<div class=\"article-content\">\n    <h1>UE5 Lumen 全局光照：实时光线追踪的终极方案</h1>\n    <p class=\"text-xl text-gray-300 mb-6\">Lumen 是 UE5 的革命性全局光照系统，提供无限反弹的全局光照、反射和软阴影，无需光照贴图烘焙。通过软件光线追踪和硬件加速相结合的方式，实现了影视级光照效果的实时渲染。</p>\n    <div class=\"tech-analysis-box\" style=\"border-color: #00f0ff40;\">\n        <h3>🔬 深度技术分析</h3>\n        <p>Lumen 采用混合追踪策略。首先尝试屏幕空间追踪（开销最小），失败时回退到距离场追踪。距离场使用有符号距离场（SDF）表示场景几何，支持无限光线步进。辐射度缓存存储间接光照，通过时域累积提高质量。技术上，使用稀疏八叉树加速结构，实现 O(log n) 的求交测试。镜面反射追踪支持粗糙表面，根据材质粗糙度自动调整追踪质量。自适应光线步进根据场景复杂度动态调整步长。性能方面，在 RTX 3080 上 1080p 场景平均开销 2-3ms，相比传统光照贴图方案，开发迭代速度提升 10 倍以上，美术师可以实时看到光照效果调整结果。</p>\n    </div>\n    <h2>🎯 核心技术点</h2>\n    <ul><li>距离场光线追踪</li><li>屏幕空间追踪</li><li>辐射度缓存 (Radiance Cache)</li><li>镜面反射追踪</li><li>自适应光线步进</li></ul>\n    <h2>💡 实用价值</h2>\n    <p>彻底改变了游戏光照工作流程，无需烘焙等待，美术师可以实时迭代，大幅提升开发效率</p>\n    <h2>📚 相关主题</h2>\n    <p>全局光照, 光线追踪, 实时渲染, 光照工作流</p>\n</div>",
+      "imagePrompt": "UE5 technical screenshot, dark UI theme, game engine viewport, 距离场光线追踪, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
+      "hasImage": true
+    },
     "render-pbr": {
-  "title": "基于物理的渲染(PBR)：从微表面理论到BRDF实现",
-  "category": "render",
-  "tags": [
-    "微表面模型",
-    "能量守恒",
-    "BRDF",
-    "Diffuse反射",
-    "Specular反射",
-    "Fresnel效应",
-    "Roughness",
-    "Metallic"
-  ],
-  "date": "2026-03-03",
-  "author": "Realtime Tech深度分析",
-  "readTime": "30分钟",
-  "difficulty": "困难",
-  "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-render px-3 py-1 rounded-full text-sm\">实时渲染</span>\n        <span class=\"text-gray-500\">2025-03-03</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">30分钟阅读</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">困难</span>\n    </div>\n    \n    <h1>基于物理的渲染(PBR)：从微表面理论到BRDF实现</h1>\n    \n    <p class=\"text-xl text-gray-300 mb-6\">\n        PBR(Physically Based Rendering)是一种基于物理原理的渲染方法，相比传统实时渲染模型能更准确地表示材质与光的交互。\n        本文从微表面理论出发，深入解析BRDF的数学基础、Diffuse与Specular分量的物理意义，以及能量守恒等核心概念。\n    </p>\n    \n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">参考资源（点击阅读原文）</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <a href=\"https://google.github.io/filament/Filament.md.html\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📄 Filament PBR Documentation [Google]</a></div>\n            <div>• <a href=\"https://disneyanimation.com/publications/physically-based-shading-at-disney/\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📄 Physically-based Shading at Disney [Burley 2012]</a></div>\n            <div>• <a href=\"https://www.pbr-book.org/\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📚 PBR: From Theory To Implementation [Pharr et al.]</a></div>\n        </div>\n    </div>\n\n    <h2>1. 什么是PBR</h2>\n    <p>PBR的核心优势在于将<strong>材质</strong>与<strong>光照</strong>分离，使得创建的资源在任何光照条件下都能保持一致的视觉效果。</p>\n    <p>PBR遵循以下核心原则：</p>\n    <ul>\n        <li><strong>能量守恒</strong>：表面反射的能量不能超过入射光的能量</li>\n        <li><strong>微表面模型</strong>：粗糙表面被建模为无数微小镜面的集合</li>\n        <li><strong>Fresnel效应</strong>：反射率随观察角度变化，掠射角反射更强</li>\n        <li><strong>线性工作流</strong>：所有光照计算在线性颜色空间进行</li>\n    </ul>\n\n    <h2>2. 符号定义</h2>\n    <table class=\"w-full text-sm my-4\">\n        <tr class=\"border-b border-gray-700\"><th class=\"text-left py-2\">符号</th><th class=\"text-left\">定义</th></tr>\n        <tr><td class=\"py-2 font-mono\">v</td><td>观察方向单位向量 (View direction)</td></tr>\n        <tr><td class=\"py-2 font-mono\">l</td><td>入射光方向单位向量 (Light direction)</td></tr>\n        <tr><td class=\"py-2 font-mono\">n</td><td>表面法线单位向量 (Surface normal)</td></tr>\n        <tr><td class=\"py-2 font-mono\">h</td><td>半程向量，h = normalize(v + l)</td></tr>\n        <tr><td class=\"py-2 font-mono\">fd</td><td>BRDF的Diffuse分量</td></tr>\n        <tr><td class=\"py-2 font-mono\">fr</td><td>BRDF的Specular分量</td></tr>\n        <tr><td class=\"py-2 font-mono\">α</td><td>粗糙度参数，α = roughness²</td></tr>\n        <tr><td class=\"py-2 font-mono\">f₀</td><td>法线入射时的反射率</td></tr>\n    </table>\n\n    <h2>3. BRDF模型</h2>\n    <p>BRDF描述光线照射到表面后如何被反射：</p>\n    <pre><code>f(v, l) = fd(v, l) + fr(v, l)</code></pre>\n    <ul>\n        <li><strong>fd</strong>：Diffuse分量，光线进入表面、散射后重新发出</li>\n        <li><strong>fr</strong>：Specular分量，光线在表面直接反射</li>\n    </ul>\n\n    <h3>3.1 渲染方程</h3>\n    <pre><code>Lo(v) = ∫Ω fd(l, v) ⊗ Li(l) (n·l) dl + ∫Ω fr(l, v) ⊗ Li(l) (n·l) dl</code></pre>\n\n    <h2>4. Diffuse BRDF (漫反射)</h2>\n    <h3>4.1 Lambertian模型</h3>\n    <pre><code>fd = σ / π</code></pre>\n    <p><strong>为什么要除以π？</strong>能量守恒要求：在半球上积分(n·l)的结果是π，需要除以π来归一化。</p>\n\n    <h3>4.2 Disney Diffuse模型</h3>\n    <pre><code>FD90 = 0.5 + 2α(h·l)²\nfd = (σ/π) × (1 + (FD90 - 1)(1 - n·l)⁵) × (1 + (FD90 - 1)(1 - n·v)⁵)</code></pre>\n    <p>这个模型在掠射角增加了反射强度，更符合真实材质的表现。</p>\n\n    <h3>4.3 能量守恒与Diffuse</h3>\n    <p><strong>金属材质</strong>（metallic = 1）：没有漫反射分量，fd = 0</p>\n    <p><strong>非金属材质</strong>（metallic = 0）：fd = baseColor / π</p>\n\n    <h2>5. Specular BRDF (镜面反射)</h2>\n    <h3>5.1 微表面模型</h3>\n    <p>微表面理论认为粗糙表面由无数微小理想镜面（microfacets）组成：</p>\n    <pre><code>       D(h) × G(l, v) × F(v, h)\nfr = ───────────────────────────────\n              4(n·l)(n·v)</code></pre>\n    <ul>\n        <li><strong>D(h)</strong>：法线分布函数(NDF)</li>\n        <li><strong>G(l, v)</strong>：几何遮蔽函数</li>\n        <li><strong>F(v, h)</strong>：Fresnel函数</li>\n    </ul>\n\n    <h3>5.2 法线分布函数 D(h) - GGX</h3>\n    <pre><code>         α²\nD(h) = ─────────────────────────\n       π((n·h)²(α² - 1) + 1)²\n\n其中 α = roughness²</code></pre>\n    <p><strong>为什么选择GGX？</strong>相比Blinn-Phong，GGX的高光具有更自然的<strong>长尾</strong>特性，更符合真实材质测量数据。</p>\n\n    <h3>5.3 几何遮蔽函数 G(l, v)</h3>\n    <pre><code>             2(n·v)\nG₁(v) = ─────────────────────────────────\n        (n·v) + √(α² + (1 - α²)(n·v)²)\n\nG(l, v) = G₁(l) × G₁(v)</code></pre>\n\n    <h3>5.4 Fresnel函数 F(v, h)</h3>\n    <p>Fresnel效应描述反射率随<strong>观察角度</strong>变化的现象。当从掠射角观察时，即使是不反光的材质也会有强烈反射。</p>\n    <pre><code>F(v, h) = f₀ + (1 - f₀)(1 - v·h)⁵\n\n其中 f₀：\n• 非金属：f₀ = 0.04 (IOR约为1.5)\n• 金属：f₀ = baseColor</code></pre>\n    <p>f₀ ≈ 0.04意味着4%的光被反射，96%进入表面成为漫反射。</p>\n\n    <h2>6. 能量守恒</h2>\n    <pre><code>Diffuse反射能量 + Specular反射能量 ≤ 入射能量</code></pre>\n    <pre><code>kS = Fresnel系数 (镜面反射比例)\nkD = (1 - kS) × (1 - metallic)  (漫反射比例)\n\n最终BRDF = kD × fd + kS × fr</code></pre>\n\n    <h2>7. 完整BRDF计算 (HLSL)</h2>\n    <pre><code class=\"language-hlsl\">// 输入参数\nfloat3 baseColor; float metallic; float roughness;\nfloat3 n, v, l;\n\n// 计算\nfloat3 h = normalize(v + l);\nfloat NoV = saturate(dot(n, v));\nfloat NoL = saturate(dot(n, l));\nfloat NoH = saturate(dot(n, h));\nfloat VoH = saturate(dot(v, h));\nfloat3 f0 = lerp(0.04, baseColor, metallic);\n\n// Diffuse\nfloat3 fd = baseColor / PI;\n\n// Specular (GGX)\nfloat alpha = roughness * roughness;\nfloat D = alpha*alpha / (PI * pow((NoH*NoH*(alpha*alpha-1)+1), 2));\nfloat G = (NoV/(NoV*(1-alpha)+alpha)) * (NoL/(NoL*(1-alpha)+alpha));\nfloat3 F = f0 + (1-f0)*pow(1-VoH, 5);\nfloat3 fr = (D*G*F) / (4*NoV*NoL + 0.001);\n\n// 能量守恒\nfloat3 kS = F;\nfloat3 kD = (1-kS)*(1-metallic);\nfloat3 brdf = kD*fd + fr;\n\nfloat3 Lo = brdf * lightColor * lightIntensity * NoL;</code></pre>\n\n    <h2>8. 参数使用建议</h2>\n    <p><strong>Base Color：</strong>非金属用漫反射颜色（泥土、石头），金属用镜面着色（金、铜）。非金属保持中灰度(0.03-0.8)。</p>\n    <p><strong>Metallic：</strong>0=非金属（塑料、石头），1=金属（铁、金）。</p>\n    <p><strong>Roughness：</strong>0=完美镜面（镜子），0.5=中等粗糙（混凝土），1=完全粗糙（天鹅绒）。</p>\n\n    <h2>9. 实用价值</h2>\n    <p><strong>PBR已成为行业标准：</strong></p>\n    <ul>\n        <li><strong>游戏引擎</strong>：UE5、Unity、Godot的默认材质</li>\n        <li><strong>DCC工具</strong>：Substance Painter/Designer基于PBR预览</li>\n        <li><strong>影视渲染</strong>：Disney Hyperion、Pixar Renderman</li>\n    </ul>\n    <p><strong>参考实现：</strong>UE5: BRDF.ush | Unity: BRDF.hlsl | Filament: shading_lit.fs</p>\n    \n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ffbe0b\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #ffbe0b\">💡 总结：</strong> \n            PBR的核心在于理解光与材质的物理交互。Diffuse描述光的内部散射，Specular描述表面反射，两者通过能量守恒联系在一起。\n            GGX分布、Smith几何遮蔽、Schlick Fresnel构成了现代PBR的基础。\n        </p>\n    </div>\n</div>",
-  "imagePrompt": "PBR material spheres showing metallic and roughness variations, BRDF visualization, microfacet theory diagram",
-  "hasImage": true
-},
+      "title": "基于物理的渲染(PBR)完全指南：从理论到实战",
+      "category": "render",
+      "tags": [
+        "微表面模型",
+        "Disney BRDF",
+        "GGX分布",
+        "IBL光照",
+        "能量守恒"
+      ],
+      "date": "2026-02-27",
+      "author": "Realtime Tech / 实时渲染",
+      "readTime": "20分钟",
+      "difficulty": "中等",
+      "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-render px-3 py-1 rounded-full text-sm\">实时渲染</span>\n        <span class=\"text-gray-500\">2026-02-27</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">20分钟阅读</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">中等</span>\n    </div>\n    \n    <h1>基于物理的渲染(PBR)完全指南：从理论到实战</h1>\n    \n    <p class=\"text-xl text-gray-300 mb-6\">\n        PBR（Physically Based Rendering）是现代实时渲染的基石。本文从微表面模型出发，\n        深入讲解 Disney BRDF、GGX分布、菲涅尔效应等核心概念，包含完整的数学推导和HLSL实现代码，\n        助你掌握照片级真实感渲染的核心技术。\n    </p>\n    \n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">参考资源</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <a href=\"https://disneyanimation.com/publications/physically-based-shading/\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📄 Disney Principled BRDF [原文]</a></div>\n            <div>• <a href=\"https://google.github.io/filament/Filament.html\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📚 Google Filament PBR文档</a></div>\n            <div>• <a href=\"https://learnopengl.com/PBR/Theory\" target=\"_blank\" class=\"text-neon-blue hover:underline\">▶️ LearnOpenGL PBR教程</a></div>\n        </div>\n    </div>\n    \n    <div class=\"tech-analysis-box\" style=\"border-color: #ffbe0b40;\">\n        <div class=\"flex items-center gap-2 mb-4\">\n            <span class=\"text-lg font-semibold\" style=\"color: #ffbe0b\">🔬 深度技术分析</span>\n        </div>\n        <p class=\"mb-0 text-gray-300 leading-relaxed\">\n            PBR通过模拟光与材质的物理交互实现照片级真实感。核心突破在于微表面模型——\n            将粗糙表面建模为无数微小镜面的集合，每个微面遵循菲涅尔反射定律。Disney BRDF\n            在此基础上提出了实用的参数化模型，通过Base Color、Metallic、Roughness等直观参数\n            控制材质表现。GGX（Trowbridge-Reitz）分布函数相比传统的Blinn-Phong更准确地描述了\n            粗糙表面的高光分布，而能量守恒确保材质不会反射比接收更多的光。\n        </p>\n    </div>\n    \n    <h2>🎯 核心技术点</h2>\n    <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4 mb-6\">\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">微表面模型</div>\n            <p class=\"text-xs text-gray-400 mb-0\">将粗糙表面建模为无数微小镜面</p>\n        </div>\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">Disney BRDF</div>\n            <p class=\"text-xs text-gray-400 mb-0\">直观的参数化材质模型</p>\n        </div>\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">GGX分布</div>\n            <p class=\"text-xs text-gray-400 mb-0\">更真实的高光分布函数</p>\n        </div>\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">IBL光照</div>\n            <p class=\"text-xs text-gray-400 mb-0\">基于图像的间接光照</p>\n        </div>\n    </div>\n    \n    <h2>💡 实用价值</h2>\n    <div class=\"bg-gradient-to-r from-dark-700/50 to-dark-800/50 rounded-xl p-6 mb-6\">\n        <p class=\"text-gray-300 leading-relaxed mb-0\">\n            PBR是现代游戏引擎（UE、Unity）和渲染器（Blender、Maya）的标准材质工作流。\n            掌握PBR原理能帮助你创建在任何光照环境下都表现一致的真实材质，\n            大幅提升游戏和影视项目的视觉质量。\n        </p>\n    </div>\n    \n    <h2>💻 GGX BRDF HLSL实现</h2>\n    \n    <pre><code class=\"language-hlsl\">// GGX/Trowbridge-Reitz 分布函数\nfloat D_GGX(float NoH, float roughness)\n{\n    float alpha = roughness * roughness;\n    float alpha2 = alpha * alpha;\n    float NoH2 = NoH * NoH;\n    \n    float denom = NoH2 * (alpha2 - 1.0) + 1.0;\n    return alpha2 / (PI * denom * denom);\n}\n\n// Smith GGX 几何遮蔽函数\nfloat G_Smith(float NoV, float NoL, float roughness)\n{\n    float alpha = roughness * roughness;\n    float G1V = NoV / (NoV * (1.0 - alpha) + alpha);\n    float G1L = NoL / (NoL * (1.0 - alpha) + alpha);\n    return G1V * G1L;\n}\n\n// Fresnel-Schlick 近似\nfloat3 F_Schlick(float cosTheta, float3 F0)\n{\n    return F0 + (1.0 - F0) * pow(1.0 - cosTheta, 5.0);\n}\n\n// 完整的PBR着色器\nfloat3 PBR_BRDF(float3 N, float3 V, float3 L, Material mat)\n{\n    float3 H = normalize(V + L);\n    float NoV = saturate(dot(N, V));\n    float NoL = saturate(dot(N, L));\n    float NoH = saturate(dot(N, H));\n    float HoV = saturate(dot(H, V));\n    \n    float3 F0 = lerp(0.04, mat.albedo, mat.metallic);\n    \n    float D = D_GGX(NoH, mat.roughness);\n    float G = G_Smith(NoV, NoL, mat.roughness);\n    float3 F = F_Schlick(HoV, F0);\n    \n    float3 specular = (D * G * F) / (4.0 * NoV * NoL + 0.001);\n    float3 kD = (1.0 - F) * (1.0 - mat.metallic);\n    float3 diffuse = kD * mat.albedo / PI;\n    \n    return (diffuse + specular) * NoL;\n}</code></pre>\n    \n    <h2>📚 相关技术主题</h2>\n    <div class=\"flex flex-wrap gap-2 mb-6\">\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">实时渲染</span>\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">材质系统</span>\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">Shader编程</span>\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">游戏美术</span>\n    </div>\n    \n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ffbe0b\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #ffbe0b\">💡 提示:</strong> \n            本文为Realtime Tech深度技术分析。完整代码实现可参考UE5和Unity的Shader Graph节点实现。\n        </p>\n    </div>\n</div>",
+      "imagePrompt": "Real-time rendering visualization, ray tracing, PBR materials, 微表面模型, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
+      "hasImage": true
+    },
     "render-raytracing": {
-  "title": "实时光线追踪技术解析：从微表面模型到硬件加速",
-  "category": "render",
-  "tags": [
-    "光线追踪",
-    "微表面模型",
-    "BRDF",
-    "BVH",
-    "GPU加速",
-    "实时光照",
-    "PBR",
-    "渲染管线"
-  ],
-  "date": "2026-03-03",
-  "author": "Realtime Tech深度分析",
-  "readTime": "32分钟",
-  "difficulty": "困难",
-  "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-render px-3 py-1 rounded-full text-sm\">实时渲染</span>\n        <span class=\"text-gray-500\">2025-03-03</span>\n        <span class=\"text-gray-500\">32分钟阅读</span>\n        <span class=\"text-gray-500\">困难</span>\n    </div>\n    \n    <h1>实时光线追踪技术解析：从微表面模型到硬件加速</h1>\n    \n    <p class=\"text-xl text-gray-300 mb-6\">\n        光线追踪是实现照片级真实感渲染的核心技术。本文从微表面模型出发，深入解析光线追踪的数学基础、\n        BVH加速结构、硬件RT Core实现，以及在实时渲染中的优化策略。\n    </p>\n    \n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">参考资源</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <a href=\"https://www.pbr-book.org/\" target=\"_blank\">📚 Physically Based Rendering: From Theory To Implementation [Pharr et al.]</a></div>\n            <div>• <a href=\"https://developer.nvidia.com/rtx/raytracing\" target=\"_blank\">📄 NVIDIA RTX Documentation</a></div>\n            <div>• <a href=\"https://www.gdcvault.com/play/1023006/\" target=\"_blank\">▶️ GDC 2019: Ray Tracing in Games</a></div>\n        </div>\n    </div>\n\n    <h2>1. 光线追踪基础</h2>\n    \n    <p>光线追踪通过模拟光线与场景的物理交互来生成图像。核心思想是从相机发射光线，追踪其在场景中的路径。</p>\n\n    <h3>1.1 渲染方程</h3>\n    \n    <p>渲染方程描述了光在场景中的传播：</p>\n    \n    <pre><code>Lo(x, ωo) = Le(x, ωo) + ∫Ω Li(x, ωi) * f(x, ωi, ωo) * |cos(θ)| dωi</code></pre>\n    \n    <p>其中：</p>\n    <ul>\n        <li><strong>Lo</strong>：出射辐射度（我们看到的颜色）</li>\n        <li><strong>Le</strong>：自发光</li>\n        <li><strong>Li</strong>：入射光照</li>\n        <li><strong>f</strong>：BRDF（双向反射分布函数）</li>\n    </ul>\n\n    <h3>1.2 光线-表面求交</h3>\n    \n    <p>光线方程：<strong>r(t) = o + t*d</strong>，其中o是起点，d是方向，t是参数。</p>\n    \n    <p>与三角形求交使用Möller-Trumbore算法：</p>\n    \n    <pre><code>// 光线-三角形求交\nbool rayTriangleIntersect(Ray ray, Triangle tri, out float t) {\n    vec3 edge1 = tri.v1 - tri.v0;\n    vec3 edge2 = tri.v2 - tri.v0;\n    vec3 h = cross(ray.direction, edge2);\n    float a = dot(edge1, h);\n    if (abs(a) < EPSILON) return false; // 光线平行于三角形\n    \n    float f = 1.0 / a;\n    vec3 s = ray.origin - tri.v0;\n    float u = f * dot(s, h);\n    if (u < 0.0 || u > 1.0) return false;\n    \n    vec3 q = cross(s, edge1);\n    float v = f * dot(ray.direction, q);\n    if (v < 0.0 || u + v > 1.0) return false;\n    \n    t = f * dot(edge2, q);\n    return t > EPSILON;\n}</code></pre>\n\n    <h2>2. BVH加速结构</h2>\n    \n    <p>暴力遍历所有三角形的时间复杂度是O(n)。BVH（Bounding Volume Hierarchy）将场景划分为层次包围盒，将复杂度降至O(log n)。</p>\n\n    <h3>2.1 BVH构建</h3>\n    \n    <pre><code>【BVH构建流程】\n1. 计算所有三角形的AABB（轴对齐包围盒）\n2. 选择分割轴（最长轴）\n3. 按重心坐标排序\n4. 递归分割为左右子树\n5. 当节点包含三角形数≤阈值时停止</code></pre>\n\n    <h3>2.2 BVH遍历</h3>\n    \n    <pre><code>// BVH遍历伪代码\nbool intersectBVH(Ray ray, BVHNode node, out HitInfo hit) {\n    if (!intersectAABB(ray, node.bounds)) return false;\n    \n    if (node.isLeaf) {\n        bool hit = false;\n        for (each triangle in node.triangles) {\n            if (rayTriangleIntersect(ray, triangle, t)) {\n                hit = true;\n                // 记录最近交点\n            }\n        }\n        return hit;\n    }\n    \n    bool hitLeft = intersectBVH(ray, node.left, hit);\n    bool hitRight = intersectBVH(ray, node.right, hit);\n    return hitLeft || hitRight;\n}</code></pre>\n\n    <h2>3. 硬件加速：RT Core</h2>\n    \n    <p>NVIDIA RTX系列GPU包含专门的RT Core，用于硬件加速光线追踪。</p>\n\n    <h3>3.1 RT Core架构</h3>\n    \n    <ul>\n        <li><strong>Box Intersection Engine</strong>：专用硬件执行AABB求交</li>\n        <li><strong>Triangle Intersection Engine</strong>：专用硬件执行三角形求交</li>\n        <li><strong>BVH遍历单元</strong>：优化的树遍历逻辑</li>\n    </ul>\n\n    <h3>3.2 性能对比</h3>\n    \n    <table class=\"w-full text-sm my-4\">\n        <tr class=\"border-b border-gray-700\"><th class=\"text-left py-2\">实现方式</th><th>每帧光线数</th><th>性能</th></tr>\n        <tr><td class=\"py-2\">软件实现（CUDA）</td><td>1M</td><td>~10fps</td></tr>\n        <tr><td class=\"py-2\">RT Core加速</td><td>10M</td><td>~60fps</td></tr>\n    </table>\n\n    <h2>4. 实时渲染中的优化</h2>\n    \n    <h3>4.1 混合渲染管线</h3>\n    \n    <p>传统光栅化 + 光线追踪混合：</p>\n    \n    <pre><code>【混合管线】\n主渲染：光栅化（G-Buffer生成）\n反射：光线追踪（仅光滑表面）\n阴影：光线追踪（仅主光源）\nGI：光追或烘焙（远距离）</code></pre>\n\n    <h3>4.2 降噪技术</h3>\n    \n    <p>每像素只采样1-2条光线会产生噪声，需要降噪：</p>\n    \n    <ul>\n        <li><strong>时域累积</strong>：重用历史帧结果</li>\n        <li><strong>空间滤波</strong>：SVGF（Spatiotemporal Variance-Guided Filtering）</li>\n        <li><strong>AI降噪</strong>：NVIDIA DLSS Ray Reconstruction</li>\n    </ul>\n\n    <h2>5. 技术价值与应用</h2>\n    \n    <p>光线追踪带来的视觉提升：</p>\n    \n    <ul>\n        <li><strong>精确反射</strong>：镜面反射能看到完整场景</li>\n        <li><strong>软阴影</strong>：自然的半影效果</li>\n        <li><strong>全局光照</strong>：间接光照明</li>\n        <li><strong>焦散</strong>：光线穿过透明物体的聚焦效果</li>\n    </ul>\n    \n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ffbe0b\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #ffbe0b\">💡 总结：</strong> \n            光线追踪通过模拟物理光线传播实现照片级渲染。BVH加速结构和RT Core硬件使其进入实时领域。\n            混合渲染管线结合光栅化和光追的优势，是当前主流方案。\n        </p>\n    </div>\n</div>",
-  "imagePrompt": "Ray tracing visualization, BVH structure, light rays, dark background, technical illustration, professional game development aesthetic",
-  "hasImage": true
-},
+      "title": "实时光线追踪技术解析：从DXR到硬件加速",
+      "category": "render",
+      "tags": [
+        "DXR 1.1",
+        "BVH加速结构",
+        "去噪算法",
+        "RT Core"
+      ],
+      "date": "2026-02-27",
+      "author": "Realtime Tech深度分析",
+      "readTime": "15分钟",
+      "difficulty": "困难",
+      "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-render px-3 py-1 rounded-full text-sm\">实时渲染</span>\n        <span class=\"text-gray-500\">2026-02-27</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">15分钟阅读</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">困难</span>\n    </div>\n    \n    <h1>实时光线追踪技术解析：从DXR到硬件加速</h1>\n    \n    <p class=\"text-xl text-gray-300 mb-6\">光线追踪正在改变实时渲染。本文讲解DXR API、BVH加速结构、时域去噪算法，以及在UE5中实现高质量反射、全局光照和软阴影的技术细节。</p>\n    \n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">参考资源</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <a href=\"#\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📄 技术文档</a></div>\n            <div>• <a href=\"#\" target=\"_blank\" class=\"text-neon-blue hover:underline\">▶️ 视频教程</a></div>\n        </div>\n    </div>\n    \n    <div class=\"tech-analysis-box\" style=\"border-color: #ffbe0b40;\">\n        <div class=\"flex items-center gap-2 mb-4\">\n            <span class=\"text-lg font-semibold\" style=\"color: #ffbe0b\">🔬 深度技术分析</span>\n        </div>\n        <p class=\"mb-0 text-gray-300 leading-relaxed\">实时光线追踪结合RT Core硬件加速和智能降噪实现交互性能。关键包括：BVH（层次包围盒）的构建和遍历优化、时域累积降噪（如SVGF算法）、以及混合渲染管线（光追+光栅化）。现代GPU如RTX 4090可在1080p下实现30-60fps的完整光追体验。</p>\n    </div>\n    \n    <h2>🎯 核心技术点</h2>\n    <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4 mb-6\">\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">DXR 1.1</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">BVH加速结构</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">去噪算法</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">RT Core</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div>\n    </div>\n    \n    <h2>💡 实用价值</h2>\n    <div class=\"bg-gradient-to-r from-dark-700/50 to-dark-800/50 rounded-xl p-6 mb-6\">\n        <p class=\"text-gray-300 leading-relaxed mb-0\">本文为高质量中文技术分析，适合游戏开发者、技术美术和渲染工程师阅读学习。</p>\n    </div>\n    \n    <h2>💻 技术实现</h2>\n    \n    <pre><code class=\"language-hlsl\">// DXR光线生成Shader\n[shader(\"raygeneration\")]\nvoid RayGen()\n{\n    uint2 launchIndex = DispatchRaysIndex().xy;\n    float2 dims = float2(DispatchRaysDimensions().xy);\n    float2 uv = (launchIndex + 0.5) / dims;\n    \n    RayDesc ray;\n    ray.Origin = cameraPosition;\n    ray.Direction = normalize(lerp(lerb(rayTL, rayTR, uv.x), lerp(rayBL, rayBR, uv.x), uv.y));\n    ray.TMin = 0.001;\n    ray.TMax = 10000.0;\n    \n    RayPayload payload;\n    TraceRay(accelerationStructure, RAY_FLAG_NONE, 0xFF, 0, 1, 0, ray, payload);\n    \n    outputTexture[launchIndex] = payload.color;\n}</code></pre>\n    \n    <h2>📚 相关技术主题</h2>\n    <div class=\"flex flex-wrap gap-2 mb-6\">\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">光线追踪</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">实时渲染</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">DXR</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">NVIDIA RTX</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">去噪</span>\n    </div>\n    \n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ffbe0b\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #ffbe0b\">💡 提示:</strong> \n            本文为Realtime Tech深度技术分析，由AI基于技术资料整理。\n        </p>\n    </div>\n</div>",
+      "imagePrompt": "Real-time rendering visualization, ray tracing, PBR materials, DXR 1.1, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
+      "hasImage": true
+    },
     "render-gi": {
-  "title": "全局光照技术演进：从烘焙到实时",
-  "category": "render",
-  "tags": [
-    "全局光照",
-    "GI",
-    "Lightmap",
-    "烘焙",
-    "实时光追",
-    "SSAO",
-    "SSGI",
-    "光照技术"
-  ],
-  "date": "2026-03-03",
-  "author": "Realtime Tech深度分析",
-  "readTime": "22分钟",
-  "difficulty": "中等",
-  "content": "<div class=\"article-content\"><div class=\"flex flex-wrap items-center gap-3 mb-6\"><span class=\"tag-render px-3 py-1 rounded-full text-sm\">实时渲染</span><span class=\"text-gray-500\">2025-03-03</span></div><h1>全局光照技术演进：从烘焙到实时</h1><p class=\"text-xl text-gray-300 mb-6\">全局光照从预计算走向实时。本文回顾Lightmap、SSAO、SSGI到现代实时光追GI的技术演进。</p><div class=\"source-box\"><div class=\"text-sm text-gray-400\"><div>• <a href=\"https://learnopengl.com/Advanced-Lighting/Global-Illumination\" target=\"_blank\">📄 Global Illumination - LearnOpenGL</a></div></div></div><h2>1. Lightmap烘焙</h2><p>预计算静态场景的光照，存储在纹理中。质量高但缺乏动态性。</p><h2>2. 屏幕空间技术</h2><ul><li>SSAO：屏幕空间环境光遮蔽</li><li>SSGI：屏幕空间全局光照</li></ul><h2>3. 现代实时光追GI</h2><p>Lumen、RTX GI等方案实现完全动态的间接光照。</p><div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ffbe0b\"><p class=\"mb-0 text-gray-400\"><strong style=\"color: #ffbe0b\">💡 总结：</strong> GI技术从预计算走向实时，现代方案在质量和性能间取得平衡。</p></div></div>",
-  "imagePrompt": "Global illumination evolution, lightmap, ray tracing, dark background",
-  "hasImage": true
-},
+      "title": "实时全局光照技术演进：从Lightmap到Lumen",
+      "category": "render",
+      "tags": [
+        "Lightmap烘焙",
+        "SSAO/SSGI",
+        "距离场GI",
+        "Lumen"
+      ],
+      "date": "2026-02-27",
+      "author": "Realtime Tech深度分析",
+      "readTime": "15分钟",
+      "difficulty": "中等",
+      "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-render px-3 py-1 rounded-full text-sm\">实时渲染</span>\n        <span class=\"text-gray-500\">2026-02-27</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">15分钟阅读</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">中等</span>\n    </div>\n    \n    <h1>实时全局光照技术演进：从Lightmap到Lumen</h1>\n    \n    <p class=\"text-xl text-gray-300 mb-6\">全局光照是渲染真实感的关键。本文回顾烘焙光照、SSAO、SSGI到现代实时光追GI的技术演进，详解Lumen的距离场和屏幕空间追踪原理。</p>\n    \n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">参考资源</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <a href=\"#\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📄 技术文档</a></div>\n            <div>• <a href=\"#\" target=\"_blank\" class=\"text-neon-blue hover:underline\">▶️ 视频教程</a></div>\n        </div>\n    </div>\n    \n    <div class=\"tech-analysis-box\" style=\"border-color: #ffbe0b40;\">\n        <div class=\"flex items-center gap-2 mb-4\">\n            <span class=\"text-lg font-semibold\" style=\"color: #ffbe0b\">🔬 深度技术分析</span>\n        </div>\n        <p class=\"mb-0 text-gray-300 leading-relaxed\">全局光照从预计算走向实时。传统Lightmap提供高质量但缺乏动态性；屏幕空间技术如SSAO近似接触阴影但缺乏物理正确性；现代方案如Lumen使用距离场和稀疏八叉树实现实时漫反射GI。技术权衡在于质量、性能和动态性之间的平衡。</p>\n    </div>\n    \n    <h2>🎯 核心技术点</h2>\n    <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4 mb-6\">\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">Lightmap烘焙</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">SSAO/SSGI</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">距离场GI</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">Lumen</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div>\n    </div>\n    \n    <h2>💡 实用价值</h2>\n    <div class=\"bg-gradient-to-r from-dark-700/50 to-dark-800/50 rounded-xl p-6 mb-6\">\n        <p class=\"text-gray-300 leading-relaxed mb-0\">本文为高质量中文技术分析，适合游戏开发者、技术美术和渲染工程师阅读学习。</p>\n    </div>\n    \n    <h2>💻 技术实现</h2>\n    \n    <pre><code class=\"language-hlsl\">// Lumen Screen Space Trace\nfloat4 ScreenSpaceTrace(float3 worldPos, float3 rayDir)\n{\n    float4 result = 0;\n    float step = 0.1;\n    float maxDist = 100.0;\n    \n    for (float dist = 0; dist < maxDist; dist += step)\n    {\n        float3 pos = worldPos + rayDir * dist;\n        float2 uv = WorldToScreenUV(pos);\n        float sceneDepth = SampleSceneDepth(uv);\n        \n        if (pos.z > sceneDepth)\n        {\n            result = SampleRadiance(uv);\n            break;\n        }\n        \n        step *= 1.5; // 指数步进\n    }\n    \n    return result;\n}</code></pre>\n    \n    <h2>📚 相关技术主题</h2>\n    <div class=\"flex flex-wrap gap-2 mb-6\">\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">全局光照</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">Lumen</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">UE5</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">光线追踪</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">实时渲染</span>\n    </div>\n    \n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ffbe0b\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #ffbe0b\">💡 提示:</strong> \n            本文为Realtime Tech深度技术分析，由AI基于技术资料整理。\n        </p>\n    </div>\n</div>",
+      "imagePrompt": "Real-time rendering visualization, ray tracing, PBR materials, Lightmap烘焙, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
+      "hasImage": true
+    },
     "render-postprocess": {
       "title": "游戏后处理管线：从Bloom到TAA",
       "category": "render",
@@ -688,25 +530,22 @@ const knowledgeBase = {
       "hasImage": true
     },
     "ai-ml-game": {
-  "title": "机器学习在游戏开发中的应用：从NPC到程序化生成",
-  "category": "ai",
-  "tags": [
-    "机器学习",
-    "强化学习",
-    "NPC AI",
-    "程序化生成",
-    "神经网络",
-    "游戏AI",
-    "行为树"
-  ],
-  "date": "2026-03-03",
-  "author": "Realtime Tech深度分析",
-  "readTime": "24分钟",
-  "difficulty": "困难",
-  "content": "<div class=\"article-content\"><div class=\"flex flex-wrap items-center gap-3 mb-6\"><span class=\"tag-ai px-3 py-1 rounded-full text-sm\">AI技术</span><span class=\"text-gray-500\">2025-03-03</span></div><h1>机器学习在游戏开发中的应用：从NPC到程序化生成</h1><p class=\"text-xl text-gray-300 mb-6\">ML正在改变游戏开发。本文讲解神经网络基础、强化学习NPC、程序化动画和ML模型在游戏引擎中的集成。</p><div class=\"source-box\"><div class=\"text-sm text-gray-400\"><div>• <a href=\"https://openai.com/research/\" target=\"_blank\">📄 OpenAI Research</a></div></div></div><h2>1. 神经网络基础</h2><p>深度学习在游戏中的应用包括图像生成、NPC行为、物理模拟等。</p><h2>2. 强化学习NPC</h2><p>使用RL训练智能NPC，如OpenAI Five在Dota 2中的表现。</p><h2>3. 程序化动画</h2><p>神经网络动画重定向和风格迁移，实现更自然的角色动画。</p><div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ff006e\"><p class=\"mb-0 text-gray-400\"><strong style=\"color: #ff006e\">💡 总结：</strong> ML为游戏开发带来新可能，从智能NPC到自动化内容生成。</p></div></div>",
-  "imagePrompt": "AI neural network, machine learning, game development, dark background",
-  "hasImage": true
-},
+      "title": "机器学习在游戏开发中的应用：从NPC到程序化生成",
+      "category": "ai",
+      "tags": [
+        "神经网络",
+        "强化学习",
+        "行为树+ML",
+        "程序化生成"
+      ],
+      "date": "2026-02-27",
+      "author": "Realtime Tech深度分析",
+      "readTime": "15分钟",
+      "difficulty": "困难",
+      "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-ai px-3 py-1 rounded-full text-sm\">AI技术</span>\n        <span class=\"text-gray-500\">2026-02-27</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">15分钟阅读</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">困难</span>\n    </div>\n    \n    <h1>机器学习在游戏开发中的应用：从NPC到程序化生成</h1>\n    \n    <p class=\"text-xl text-gray-300 mb-6\">ML正在改变游戏开发。本文讲解神经网络基础、强化学习NPC、程序化动画、以及使用TensorFlow/PyTorch在游戏引擎中集成AI模型。</p>\n    \n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">参考资源</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <a href=\"#\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📄 技术文档</a></div>\n            <div>• <a href=\"#\" target=\"_blank\" class=\"text-neon-blue hover:underline\">▶️ 视频教程</a></div>\n        </div>\n    </div>\n    \n    <div class=\"tech-analysis-box\" style=\"border-color: #ffbe0b40;\">\n        <div class=\"flex items-center gap-2 mb-4\">\n            <span class=\"text-lg font-semibold\" style=\"color: #ffbe0b\">🔬 深度技术分析</span>\n        </div>\n        <p class=\"mb-0 text-gray-300 leading-relaxed\">游戏ML应用包括：强化学习训练智能NPC（如OpenAI Five）、神经网络动画重定向和风格迁移、程序化内容生成（PCG）。技术挑战在于模型推理性能和训练数据获取。现代方案使用ONNX Runtime在游戏引擎中高效运行模型。</p>\n    </div>\n    \n    <h2>🎯 核心技术点</h2>\n    <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4 mb-6\">\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">神经网络</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">强化学习</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">行为树+ML</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">程序化生成</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div>\n    </div>\n    \n    <h2>💡 实用价值</h2>\n    <div class=\"bg-gradient-to-r from-dark-700/50 to-dark-800/50 rounded-xl p-6 mb-6\">\n        <p class=\"text-gray-300 leading-relaxed mb-0\">本文为高质量中文技术分析，适合游戏开发者、技术美术和渲染工程师阅读学习。</p>\n    </div>\n    \n    <h2>💻 技术实现</h2>\n    \n    <pre><code class=\"language-hlsl\">// ONNX Runtime推理示例\nvoid UpdateAI(float* inputData, int inputSize)\n{\n    Ort::Env env(ORT_LOGGING_LEVEL_WARNING, \"GameAI\");\n    Ort::SessionOptions sessionOptions;\n    Ort::Session session(env, L\"ai_model.onnx\", sessionOptions);\n    \n    // 准备输入\n    Ort::Value inputTensor = Ort::Value::CreateTensor<float>(\n        memoryInfo, inputData, inputSize, inputShape, 2);\n    \n    // 推理\n    auto outputTensors = session.Run(\n        runOptions, inputNames, &inputTensor, 1, outputNames, 1);\n    \n    // 应用输出到游戏逻辑\n    ProcessAIOutput(outputTensors[0].GetTensorData<float>());\n}</code></pre>\n    \n    <h2>📚 相关技术主题</h2>\n    <div class=\"flex flex-wrap gap-2 mb-6\">\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">机器学习</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">游戏AI</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">强化学习</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">神经网络</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">ONNX</span>\n    </div>\n    \n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ffbe0b\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #ffbe0b\">💡 提示:</strong> \n            本文为Realtime Tech深度技术分析，由AI基于技术资料整理。\n        </p>\n    </div>\n</div>",
+      "imagePrompt": "AI neural network visualization, futuristic tech aesthetic, 神经网络, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
+      "hasImage": true
+    },
     "ai-generative": {
       "title": "生成式AI辅助游戏美术工作流",
       "category": "ai",
