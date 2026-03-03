@@ -1,0 +1,87 @@
+{
+  "tavily_api": {
+    "api_key": "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",
+    "base_url": "https://api.tavily.com",
+    "search_depth": "advanced",
+    "include_answer": true,
+    "include_images": true,
+    "max_results": 10
+  },
+  "rss_sources": [
+    {
+      "name": "Niagara VFX Community",
+      "url": "https://realtimevfx.com/latest.rss",
+      "category": "vfx",
+      "priority": "high",
+      "keywords": ["Niagara", "VFX", "UE5"]
+    },
+    {
+      "name": "SideFX Houdini",
+      "url": "https://www.sidefx.com/community/blog-rss/",
+      "category": "ta",
+      "priority": "high",
+      "keywords": ["Houdini", "程序化", "特效"]
+    },
+    {
+      "name": "80 Level - VFX",
+      "url": "https://80.lv/articles/vfx/feed/",
+      "category": "vfx",
+      "priority": "medium",
+      "keywords": ["VFX", "游戏开发", "技术美术"]
+    },
+    {
+      "name": "GameDev.net - Multiplatform",
+      "url": "http://www.gamedev.net/news/multiplatform/rss",
+      "category": "multiplat",
+      "priority": "high",
+      "keywords": ["跨平台", "移动端", "优化"]
+    },
+    {
+      "name": "Gamasutra / GDC Vault",
+      "url": "https://gamasutra.com/rss.xml",
+      "category": "ta",
+      "priority": "high",
+      "keywords": ["GDC", "技术分享", "游戏开发"]
+    }
+  ],
+  "article_generation": {
+    "min_word_count": 800,
+    "required_sections": [
+      "header",
+      "summary",
+      "sources",
+      "analysis",
+      "key-points",
+      "value",
+      "content",
+      "tags",
+      "audience",
+      "footer"
+    ],
+    "image_prompt_template": "Technical illustration for {topic}, dark theme with neon accents, game development aesthetic, clean and professional"
+  },
+  "pending_apis": {
+    "image_generation": {
+      "provider": "OpenAI DALL-E or Midjourney",
+      "status": "等待用户提供",
+      "purpose": "生成文章配图"
+    },
+    "youtube_data": {
+      "provider": "YouTube Data API",
+      "status": "等待用户提供",
+      "purpose": "抓取RedefineFX频道内容"
+    }
+  },
+  "reminders": {
+    "image_api": {
+      "message": "请提供图像生成API (OpenAI DALL-E API Key) 和 YouTube Data API Key",
+      "frequency": "每次对话提醒",
+      "next_reminder": "2026-03-03"
+    },
+    "review_schedule": {
+      "daily_sync": "8:00, 20:00",
+      "three_day_review": "每3天 10:00",
+      "next_review": "2026-03-05 10:00"
+    }
+  }
+}
