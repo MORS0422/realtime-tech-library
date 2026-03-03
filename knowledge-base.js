@@ -385,37 +385,47 @@ const knowledgeBase = {
       "hasImage": true
     },
     "ue5-niagara-fluid": {
-      "title": "UE5 Niagara 流体模拟系统：实时水体与烟雾特效",
-      "category": "ue",
-      "tags": [
-        "FLIP 流体算法",
-        "稀疏体积纹理 (Sparse Volume Textures)",
-        "GPU 粒子模拟"
-      ],
-      "date": "2026-02-27",
-      "author": "Realtime Tech / UE深度分析",
-      "readTime": "10分钟",
-      "difficulty": "困难",
-      "content": "<div class=\"article-content\">\n    <h1>UE5 Niagara 流体模拟系统：实时水体与烟雾特效</h1>\n    <p class=\"text-xl text-gray-300 mb-6\">UE5 的 Niagara 流体系统为游戏开发者提供了电影级的流体模拟能力。基于 FLIP（Fluid-Implicit Particle）算法，可以在 GPU 上实时模拟水体、烟雾、火焰等效果。系统支持双向耦合，流体可以与场景中的刚体和角色进行真实交互。</p>\n    <div class=\"tech-analysis-box\" style=\"border-color: #00f0ff40;\">\n        <h3>🔬 深度技术分析</h3>\n        <p>Niagara 流体系统采用混合粒子-网格方法。FLIP 算法结合了粒子法的细节表现力和网格法的稳定性。技术上，使用稀疏体积纹理（SVT）存储速度场和压力场，只在有流体的区域分配内存，大幅降低显存占用。GPU 并行计算实现实时性能，可以在 60fps 下模拟 50 万+ 粒子。双向耦合系统让流体可以推动物体，物体也可以扰动流体，实现了真实的水面互动效果。自适应网格细化在细节丰富的区域使用更高分辨率，在平滑区域降低分辨率，优化计算资源分配。这对于海洋场景、暴雨天气、魔法流体特效等具有重要应用价值。</p>\n    </div>\n    <h2>🎯 核心技术点</h2>\n    <ul><li>FLIP 流体算法</li><li>稀疏体积纹理 (Sparse Volume Textures)</li><li>GPU 粒子模拟</li><li>双向刚体耦合</li><li>自适应网格细化</li></ul>\n    <h2>💡 实用价值</h2>\n    <p>为游戏提供了电影级流体效果，可用于海洋冒险游戏、天气系统、魔法特效等场景</p>\n    <h2>📚 相关主题</h2>\n    <p>流体模拟, Niagara特效, 实时物理, 体积渲染</p>\n</div>",
-      "imagePrompt": "UE5 technical screenshot, dark UI theme, game engine viewport, FLIP 流体算法, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
-      "hasImage": true
-    },
+  "title": "Niagara流体动力学：烟雾与火焰特效系统",
+  "category": "vfx",
+  "tags": [
+    "Niagara",
+    "流体模拟",
+    "粒子系统",
+    "GPU粒子",
+    "烟雾特效",
+    "火焰",
+    "VFX",
+    "UE5"
+  ],
+  "date": "2025-03-03",
+  "author": "Realtime Tech深度分析",
+  "readTime": "26分钟",
+  "difficulty": "高级",
+  "content": "<div class=\"article-content\"><div class=\"flex flex-wrap items-center gap-3 mb-6\"><span class=\"tag-vfx px-3 py-1 rounded-full text-sm\">特效专栏</span><span class=\"text-gray-500\">2025-03-03</span></div><h1>Niagara流体动力学：烟雾与火焰特效系统</h1><p class=\"text-xl text-gray-300 mb-6\">Niagara是UE5的模块化粒子系统。本文深入讲解流体动力学模拟、GPU粒子计算和烟雾火焰特效实现。</p><div class=\"source-box\"><div class=\"text-sm text-gray-400\"><div>• <a href=\"https://docs.unrealengine.com/5.0/en-US Niagara/\" target=\"_blank\">📄 Niagara Documentation [Epic Games]</a></div></div></div><h2>1. Niagara架构</h2><p>模块化设计，Emitter、System、Module三层结构。</p><h2>2. GPU粒子模拟</h2><pre><code>// GPU粒子更新\n[numthreads(64,1,1)]\nvoid ParticleUpdate(uint id : SV_DispatchThreadID) {\n    Particle p = particles[id];\n    p.velocity += gravity * deltaTime;\n    p.position += p.velocity * deltaTime;\n    particles[id] = p;\n}</code></pre><h2>3. 流体模拟</h2><p>使用Navier-Stokes方程简化版，在GPU上实时计算密度场和速度场。</p><div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ff6600\"><p class=\"mb-0 text-gray-400\"><strong style=\"color: #ff6600\">💡 总结：</strong> Niagara的GPU粒子系统支持百万级粒子，配合流体模拟实现影视级特效。</p></div></div>",
+  "imagePrompt": "Niagara particle effects, fluid simulation, smoke and fire, UE5, dark background",
+  "hasImage": true
+},
     "ue5-pcg": {
-      "title": "UE5 PCG 程序化内容生成：自动化世界构建工作流",
-      "category": "ue",
-      "tags": [
-        "数据流图执行模型",
-        "拓扑排序算法",
-        "Houdini Engine 集成"
-      ],
-      "date": "2026-02-27",
-      "author": "Realtime Tech / UE深度分析",
-      "readTime": "10分钟",
-      "difficulty": "中等",
-      "content": "<div class=\"article-content\">\n    <h1>UE5 PCG 程序化内容生成：自动化世界构建工作流</h1>\n    <p class=\"text-xl text-gray-300 mb-6\">PCG（Procedural Content Generation）框架从实验版升级为正式版，是 UE5 向程序化世界构建转型的重要标志。美术师可以通过可视化节点图表构建复杂的生成规则，无需编写代码即可创建大规模、多样化的环境。</p>\n    <div class=\"tech-analysis-box\" style=\"border-color: #00f0ff40;\">\n        <h3>🔬 深度技术分析</h3>\n        <p>PCG 图采用 Dataflow 执行模型，节点按拓扑排序确保依赖正确。技术实现上，PCG 节点分为生成器（Generators）、修改器（Modifiers）、筛选器（Selectors）三大类。生成器创建初始点云数据，修改器对点进行变换和属性调整，筛选器控制最终输出。与 Houdini Engine 的深度集成允许直接调用 Houdini 数字资产（HDA），将 Houdini 的强大程序化能力引入 UE5 工作流。运行时生成适合需要无限延伸的开放世界，烘焙模式则将结果转为静态网格和实例化静态网格，优化运行时性能。这对于大型开放世界游戏、程序化城市生成、多样化的地牢布局等场景具有重要意义。</p>\n    </div>\n    <h2>🎯 核心技术点</h2>\n    <ul><li>数据流图执行模型</li><li>拓扑排序算法</li><li>Houdini Engine 集成</li><li>点云数据处理</li><li>运行时生成与烘焙</li></ul>\n    <h2>💡 实用价值</h2>\n    <p>大幅降低大型场景的制作成本，一个小团队可以在几周内构建原本需要数月的开放世界环境</p>\n    <h2>📚 相关主题</h2>\n    <p>程序化生成, 开放世界, Houdini集成, 环境美术</p>\n</div>",
-      "imagePrompt": "UE5 technical screenshot, dark UI theme, game engine viewport, 数据流图执行模型, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
-      "hasImage": true
-    },
+  "title": "PCG Framework技术解析：UE5程序化内容生成系统",
+  "category": "ue",
+  "tags": [
+    "PCG",
+    "程序化生成",
+    "Houdini",
+    "节点图",
+    "开放世界",
+    "UE5",
+    "自动化",
+    "内容管线"
+  ],
+  "date": "2025-03-03",
+  "author": "Realtime Tech深度分析",
+  "readTime": "25分钟",
+  "difficulty": "中等",
+  "content": "<div class=\"article-content\"><div class=\"flex flex-wrap items-center gap-3 mb-6\"><span class=\"tag-ue px-3 py-1 rounded-full text-sm\">Unreal Engine</span><span class=\"text-gray-500\">2025-03-03</span></div><h1>PCG Framework技术解析：UE5程序化内容生成系统</h1><p class=\"text-xl text-gray-300 mb-6\">PCG Framework让美术师通过可视化节点图创建复杂的程序化生成规则，无需编写代码。本文深入解析其架构、节点类型和工作流。</p><div class=\"source-box\"><div class=\"text-sm text-gray-400\"><div>• <a href=\"https://docs.unrealengine.com/5.0/en-US/procedural-content-generation-overview/\" target=\"_blank\">📄 UE5 PCG Documentation [Epic Games]</a></div></div></div><h2>1. PCG架构</h2><p>PCG Framework基于数据流图执行：</p><ul><li><strong>Generators</strong>：创建点云、网格、体积</li><li><strong>Modifiers</strong>：变换、属性调整、噪声</li><li><strong>Selectors</strong>：密度控制、碰撞剔除</li></ul><h2>2. 节点类型</h2><pre><code>【常见PCG节点】\nPoint Generator：在表面上生成点\nMesh Spawner：在点上生成网格\nTransform Modifier：变换位置和旋转\nNoise Modifier：添加随机偏移\nDensity Filter：按密度筛选</code></pre><h2>3. Houdini集成</h2><p>PCG可直接调用HDA资产，复用Houdini程序化资源。</p><div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #00f0ff\"><p class=\"mb-0 text-gray-400\"><strong style=\"color: #00f0ff\">💡 总结：</strong> PCG Framework democratize了程序化生成，让美术师无需编程即可创建大规模环境。</p></div></div>",
+  "imagePrompt": "PCG node graph, procedural generation, UE5 interface, dark theme",
+  "hasImage": true
+},
     "ue5-motion-warping": {
       "title": "UE5 Motion Warping：动态动画适配与根运动技术",
       "category": "ue",
@@ -496,22 +506,26 @@ const knowledgeBase = {
   "hasImage": true
 },
     "render-gi": {
-      "title": "实时全局光照技术演进：从Lightmap到Lumen",
-      "category": "render",
-      "tags": [
-        "Lightmap烘焙",
-        "SSAO/SSGI",
-        "距离场GI",
-        "Lumen"
-      ],
-      "date": "2026-02-27",
-      "author": "Realtime Tech深度分析",
-      "readTime": "15分钟",
-      "difficulty": "中等",
-      "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-render px-3 py-1 rounded-full text-sm\">实时渲染</span>\n        <span class=\"text-gray-500\">2026-02-27</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">15分钟阅读</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">中等</span>\n    </div>\n    \n    <h1>实时全局光照技术演进：从Lightmap到Lumen</h1>\n    \n    <p class=\"text-xl text-gray-300 mb-6\">全局光照是渲染真实感的关键。本文回顾烘焙光照、SSAO、SSGI到现代实时光追GI的技术演进，详解Lumen的距离场和屏幕空间追踪原理。</p>\n    \n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">参考资源</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <a href=\"#\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📄 技术文档</a></div>\n            <div>• <a href=\"#\" target=\"_blank\" class=\"text-neon-blue hover:underline\">▶️ 视频教程</a></div>\n        </div>\n    </div>\n    \n    <div class=\"tech-analysis-box\" style=\"border-color: #ffbe0b40;\">\n        <div class=\"flex items-center gap-2 mb-4\">\n            <span class=\"text-lg font-semibold\" style=\"color: #ffbe0b\">🔬 深度技术分析</span>\n        </div>\n        <p class=\"mb-0 text-gray-300 leading-relaxed\">全局光照从预计算走向实时。传统Lightmap提供高质量但缺乏动态性；屏幕空间技术如SSAO近似接触阴影但缺乏物理正确性；现代方案如Lumen使用距离场和稀疏八叉树实现实时漫反射GI。技术权衡在于质量、性能和动态性之间的平衡。</p>\n    </div>\n    \n    <h2>🎯 核心技术点</h2>\n    <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4 mb-6\">\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">Lightmap烘焙</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">SSAO/SSGI</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">距离场GI</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">Lumen</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div>\n    </div>\n    \n    <h2>💡 实用价值</h2>\n    <div class=\"bg-gradient-to-r from-dark-700/50 to-dark-800/50 rounded-xl p-6 mb-6\">\n        <p class=\"text-gray-300 leading-relaxed mb-0\">本文为高质量中文技术分析，适合游戏开发者、技术美术和渲染工程师阅读学习。</p>\n    </div>\n    \n    <h2>💻 技术实现</h2>\n    \n    <pre><code class=\"language-hlsl\">// Lumen Screen Space Trace\nfloat4 ScreenSpaceTrace(float3 worldPos, float3 rayDir)\n{\n    float4 result = 0;\n    float step = 0.1;\n    float maxDist = 100.0;\n    \n    for (float dist = 0; dist < maxDist; dist += step)\n    {\n        float3 pos = worldPos + rayDir * dist;\n        float2 uv = WorldToScreenUV(pos);\n        float sceneDepth = SampleSceneDepth(uv);\n        \n        if (pos.z > sceneDepth)\n        {\n            result = SampleRadiance(uv);\n            break;\n        }\n        \n        step *= 1.5; // 指数步进\n    }\n    \n    return result;\n}</code></pre>\n    \n    <h2>📚 相关技术主题</h2>\n    <div class=\"flex flex-wrap gap-2 mb-6\">\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">全局光照</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">Lumen</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">UE5</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">光线追踪</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">实时渲染</span>\n    </div>\n    \n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ffbe0b\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #ffbe0b\">💡 提示:</strong> \n            本文为Realtime Tech深度技术分析，由AI基于技术资料整理。\n        </p>\n    </div>\n</div>",
-      "imagePrompt": "Real-time rendering visualization, ray tracing, PBR materials, Lightmap烘焙, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
-      "hasImage": true
-    },
+  "title": "全局光照技术演进：从烘焙到实时",
+  "category": "render",
+  "tags": [
+    "全局光照",
+    "GI",
+    "Lightmap",
+    "烘焙",
+    "实时光追",
+    "SSAO",
+    "SSGI",
+    "光照技术"
+  ],
+  "date": "2025-03-03",
+  "author": "Realtime Tech深度分析",
+  "readTime": "22分钟",
+  "difficulty": "中等",
+  "content": "<div class=\"article-content\"><div class=\"flex flex-wrap items-center gap-3 mb-6\"><span class=\"tag-render px-3 py-1 rounded-full text-sm\">实时渲染</span><span class=\"text-gray-500\">2025-03-03</span></div><h1>全局光照技术演进：从烘焙到实时</h1><p class=\"text-xl text-gray-300 mb-6\">全局光照从预计算走向实时。本文回顾Lightmap、SSAO、SSGI到现代实时光追GI的技术演进。</p><div class=\"source-box\"><div class=\"text-sm text-gray-400\"><div>• <a href=\"https://learnopengl.com/Advanced-Lighting/Global-Illumination\" target=\"_blank\">📄 Global Illumination - LearnOpenGL</a></div></div></div><h2>1. Lightmap烘焙</h2><p>预计算静态场景的光照，存储在纹理中。质量高但缺乏动态性。</p><h2>2. 屏幕空间技术</h2><ul><li>SSAO：屏幕空间环境光遮蔽</li><li>SSGI：屏幕空间全局光照</li></ul><h2>3. 现代实时光追GI</h2><p>Lumen、RTX GI等方案实现完全动态的间接光照。</p><div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ffbe0b\"><p class=\"mb-0 text-gray-400\"><strong style=\"color: #ffbe0b\">💡 总结：</strong> GI技术从预计算走向实时，现代方案在质量和性能间取得平衡。</p></div></div>",
+  "imagePrompt": "Global illumination evolution, lightmap, ray tracing, dark background",
+  "hasImage": true
+},
     "render-postprocess": {
       "title": "游戏后处理管线：从Bloom到TAA",
       "category": "render",
@@ -545,22 +559,25 @@ const knowledgeBase = {
       "hasImage": true
     },
     "ai-ml-game": {
-      "title": "机器学习在游戏开发中的应用：从NPC到程序化生成",
-      "category": "ai",
-      "tags": [
-        "神经网络",
-        "强化学习",
-        "行为树+ML",
-        "程序化生成"
-      ],
-      "date": "2026-02-27",
-      "author": "Realtime Tech深度分析",
-      "readTime": "15分钟",
-      "difficulty": "困难",
-      "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-ai px-3 py-1 rounded-full text-sm\">AI技术</span>\n        <span class=\"text-gray-500\">2026-02-27</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">15分钟阅读</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">困难</span>\n    </div>\n    \n    <h1>机器学习在游戏开发中的应用：从NPC到程序化生成</h1>\n    \n    <p class=\"text-xl text-gray-300 mb-6\">ML正在改变游戏开发。本文讲解神经网络基础、强化学习NPC、程序化动画、以及使用TensorFlow/PyTorch在游戏引擎中集成AI模型。</p>\n    \n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">参考资源</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <a href=\"#\" target=\"_blank\" class=\"text-neon-blue hover:underline\">📄 技术文档</a></div>\n            <div>• <a href=\"#\" target=\"_blank\" class=\"text-neon-blue hover:underline\">▶️ 视频教程</a></div>\n        </div>\n    </div>\n    \n    <div class=\"tech-analysis-box\" style=\"border-color: #ffbe0b40;\">\n        <div class=\"flex items-center gap-2 mb-4\">\n            <span class=\"text-lg font-semibold\" style=\"color: #ffbe0b\">🔬 深度技术分析</span>\n        </div>\n        <p class=\"mb-0 text-gray-300 leading-relaxed\">游戏ML应用包括：强化学习训练智能NPC（如OpenAI Five）、神经网络动画重定向和风格迁移、程序化内容生成（PCG）。技术挑战在于模型推理性能和训练数据获取。现代方案使用ONNX Runtime在游戏引擎中高效运行模型。</p>\n    </div>\n    \n    <h2>🎯 核心技术点</h2>\n    <div class=\"grid grid-cols-1 md:grid-cols-2 gap-4 mb-6\">\n        <div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">神经网络</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">强化学习</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">行为树+ML</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div><div class=\"bg-dark-700/50 rounded-xl p-4 border-l-4\" style=\"border-color: #ffbe0b\">\n            <div class=\"text-sm font-semibold mb-1\" style=\"color: #ffbe0b\">程序化生成</div>\n            <p class=\"text-xs text-gray-400 mb-0\">核心技术要素</p>\n        </div>\n    </div>\n    \n    <h2>💡 实用价值</h2>\n    <div class=\"bg-gradient-to-r from-dark-700/50 to-dark-800/50 rounded-xl p-6 mb-6\">\n        <p class=\"text-gray-300 leading-relaxed mb-0\">本文为高质量中文技术分析，适合游戏开发者、技术美术和渲染工程师阅读学习。</p>\n    </div>\n    \n    <h2>💻 技术实现</h2>\n    \n    <pre><code class=\"language-hlsl\">// ONNX Runtime推理示例\nvoid UpdateAI(float* inputData, int inputSize)\n{\n    Ort::Env env(ORT_LOGGING_LEVEL_WARNING, \"GameAI\");\n    Ort::SessionOptions sessionOptions;\n    Ort::Session session(env, L\"ai_model.onnx\", sessionOptions);\n    \n    // 准备输入\n    Ort::Value inputTensor = Ort::Value::CreateTensor<float>(\n        memoryInfo, inputData, inputSize, inputShape, 2);\n    \n    // 推理\n    auto outputTensors = session.Run(\n        runOptions, inputNames, &inputTensor, 1, outputNames, 1);\n    \n    // 应用输出到游戏逻辑\n    ProcessAIOutput(outputTensors[0].GetTensorData<float>());\n}</code></pre>\n    \n    <h2>📚 相关技术主题</h2>\n    <div class=\"flex flex-wrap gap-2 mb-6\">\n        <span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">机器学习</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">游戏AI</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">强化学习</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">神经网络</span><span class=\"px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300\">ONNX</span>\n    </div>\n    \n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ffbe0b\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #ffbe0b\">💡 提示:</strong> \n            本文为Realtime Tech深度技术分析，由AI基于技术资料整理。\n        </p>\n    </div>\n</div>",
-      "imagePrompt": "AI neural network visualization, futuristic tech aesthetic, 神经网络, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
-      "hasImage": true
-    },
+  "title": "机器学习在游戏开发中的应用：从NPC到程序化生成",
+  "category": "ai",
+  "tags": [
+    "机器学习",
+    "强化学习",
+    "NPC AI",
+    "程序化生成",
+    "神经网络",
+    "游戏AI",
+    "行为树"
+  ],
+  "date": "2025-03-03",
+  "author": "Realtime Tech深度分析",
+  "readTime": "24分钟",
+  "difficulty": "困难",
+  "content": "<div class=\"article-content\"><div class=\"flex flex-wrap items-center gap-3 mb-6\"><span class=\"tag-ai px-3 py-1 rounded-full text-sm\">AI技术</span><span class=\"text-gray-500\">2025-03-03</span></div><h1>机器学习在游戏开发中的应用：从NPC到程序化生成</h1><p class=\"text-xl text-gray-300 mb-6\">ML正在改变游戏开发。本文讲解神经网络基础、强化学习NPC、程序化动画和ML模型在游戏引擎中的集成。</p><div class=\"source-box\"><div class=\"text-sm text-gray-400\"><div>• <a href=\"https://openai.com/research/\" target=\"_blank\">📄 OpenAI Research</a></div></div></div><h2>1. 神经网络基础</h2><p>深度学习在游戏中的应用包括图像生成、NPC行为、物理模拟等。</p><h2>2. 强化学习NPC</h2><p>使用RL训练智能NPC，如OpenAI Five在Dota 2中的表现。</p><h2>3. 程序化动画</h2><p>神经网络动画重定向和风格迁移，实现更自然的角色动画。</p><div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ff006e\"><p class=\"mb-0 text-gray-400\"><strong style=\"color: #ff006e\">💡 总结：</strong> ML为游戏开发带来新可能，从智能NPC到自动化内容生成。</p></div></div>",
+  "imagePrompt": "AI neural network, machine learning, game development, dark background",
+  "hasImage": true
+},
     "ai-generative": {
       "title": "生成式AI辅助游戏美术工作流",
       "category": "ai",
