@@ -88,7 +88,7 @@ const knowledgeBase = {
     "虚拟几何体",
     "实时光照"
   ],
-  "date": "2025-11-12",
+  "date": "2026-03-03",
   "author": "Realtime Tech深度分析",
   "readTime": "35分钟",
   "difficulty": "困难",
@@ -397,7 +397,7 @@ const knowledgeBase = {
     "VFX",
     "UE5"
   ],
-  "date": "2025-03-03",
+  "date": "2026-03-03",
   "author": "Realtime Tech深度分析",
   "readTime": "26分钟",
   "difficulty": "高级",
@@ -418,7 +418,7 @@ const knowledgeBase = {
     "自动化",
     "内容管线"
   ],
-  "date": "2025-03-03",
+  "date": "2026-03-03",
   "author": "Realtime Tech深度分析",
   "readTime": "25分钟",
   "difficulty": "中等",
@@ -455,7 +455,7 @@ const knowledgeBase = {
     "GI",
     "UE5"
   ],
-  "date": "2025-03-03",
+  "date": "2026-03-03",
   "author": "Realtime Tech深度分析",
   "readTime": "28分钟",
   "difficulty": "困难",
@@ -476,7 +476,7 @@ const knowledgeBase = {
     "Roughness",
     "Metallic"
   ],
-  "date": "2025-03-03",
+  "date": "2026-03-03",
   "author": "Realtime Tech深度分析",
   "readTime": "30分钟",
   "difficulty": "困难",
@@ -497,7 +497,7 @@ const knowledgeBase = {
     "PBR",
     "渲染管线"
   ],
-  "date": "2025-03-03",
+  "date": "2026-03-03",
   "author": "Realtime Tech深度分析",
   "readTime": "32分钟",
   "difficulty": "困难",
@@ -518,7 +518,7 @@ const knowledgeBase = {
     "SSGI",
     "光照技术"
   ],
-  "date": "2025-03-03",
+  "date": "2026-03-03",
   "author": "Realtime Tech深度分析",
   "readTime": "22分钟",
   "difficulty": "中等",
@@ -570,7 +570,7 @@ const knowledgeBase = {
     "游戏AI",
     "行为树"
   ],
-  "date": "2025-03-03",
+  "date": "2026-03-03",
   "author": "Realtime Tech深度分析",
   "readTime": "24分钟",
   "difficulty": "困难",
