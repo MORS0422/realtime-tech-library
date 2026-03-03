@@ -231,32 +231,49 @@
 
                     <div class="glass-panel rounded-2xl p-6">
                         <div id="recent-updates-list">
-                            <!-- Updates will be loaded here -->
-                            <div onclick="showArticle('ue57-release')" class="cursor-pointer flex items-center gap-4 p-4 border-b border-gray-800 last:border-0 hover:bg-white/5 transition-colors">
+                            <div onclick="showArticle('render-pbr')" class="cursor-pointer flex items-center gap-4 p-4 border-b border-gray-800 last:border-0 hover:bg-white/5 transition-colors">
                                 <div class="w-2 h-2 rounded-full bg-neon-green"></div>
                                 <div class="flex-1">
-                                    <div class="text-white font-medium">新增文章：UE 5.7 Nanite Foliage 深度技术分析</div>
-                                    <div class="text-sm text-gray-500">包含完整的技术原理分析、性能测试数据和实现代码</div>
+                                    <div class="text-white font-medium">重写：PBR完全指南 - 从微表面理论到BRDF实现</div>
+                                    <div class="text-sm text-gray-500">概念导向版本，含符号定义、公式推导、物理意义详解</div>
                                 </div>
-                                <div class="text-sm text-gray-500">2小时前</div>
+                                <div class="text-sm text-gray-500">今天</div>
+                            </div>
+
+                            <div onclick="showArticle('render-raytracing')" class="cursor-pointer flex items-center gap-4 p-4 border-b border-gray-800 last:border-0 hover:bg-white/5 transition-colors">
+                                <div class="w-2 h-2 rounded-full bg-neon-blue"></div>
+                                <div class="flex-1">
+                                    <div class="text-white font-medium">重写：实时光线追踪技术解析</div>
+                                    <div class="text-sm text-gray-500">BVH加速结构、RT Core硬件、混合渲染管线</div>
+                                </div>
+                                <div class="text-sm text-gray-500">今天</div>
+                            </div>
+
+                            <div onclick="showArticle('ue5-lumen')" class="cursor-pointer flex items-center gap-4 p-4 border-b border-gray-800 last:border-0 hover:bg-white/5 transition-colors">
+                                <div class="w-2 h-2 rounded-full bg-neon-purple"></div>
+                                <div class="flex-1">
+                                    <div class="text-white font-medium">重写：Lumen全局光照技术解析</div>
+                                    <div class="text-sm text-gray-500">混合追踪管线、距离场、辐射度缓存详解</div>
+                                </div>
+                                <div class="text-sm text-gray-500">今天</div>
+                            </div>
+
+                            <div onclick="showArticle('ue57-release')" class="cursor-pointer flex items-center gap-4 p-4 border-b border-gray-800 last:border-0 hover:bg-white/5 transition-colors">
+                                <div class="w-2 h-2 rounded-full bg-neon-pink"></div>
+                                <div class="flex-1">
+                                    <div class="text-white font-medium">重写：UE 5.7 技术解析</div>
+                                    <div class="text-sm text-gray-500">Nanite Foliage、MegaLights、PCG Framework概念详解</div>
+                                </div>
+                                <div class="text-sm text-gray-500">今天</div>
                             </div>
 
                             <div onclick="showArticle('water-interaction')" class="cursor-pointer flex items-center gap-4 p-4 border-b border-gray-800 last:border-0 hover:bg-white/5 transition-colors">
-                                <div class="w-2 h-2 rounded-full bg-neon-blue"></div>
+                                <div class="w-2 h-2 rounded-full bg-neon-amber"></div>
                                 <div class="flex-1">
-                                    <div class="text-white font-medium">更新文章：实时水体交互渲染 - 添加HLSL代码实现</div>
-                                    <div class="text-sm text-gray-500">补充了完整的Shader代码和UE材质节点配置</div>
+                                    <div class="text-white font-medium">更新文章：实时水体交互渲染</div>
+                                    <div class="text-sm text-gray-500">FFT海浪模拟、HLSL实现、UE材质配置</div>
                                 </div>
-                                <div class="text-sm text-gray-500">4小时前</div>
-                            </div>
-
-                            <div onclick="showArticle('ue5-snow-footprints')" class="cursor-pointer flex items-center gap-4 p-4 border-b border-gray-800 last:border-0 hover:bg-white/5 transition-colors">
-                                <div class="w-2 h-2 rounded-full bg-neon-purple"></div>
-                                <div class="flex-1">
-                                    <div class="text-white font-medium">新增专栏：TA渲染专栏 - 雪地脚印与变形渲染</div>
-                                    <div class="text-sm text-gray-500">包含可变形地形实现、深度图渲染技术详解</div>
-                                </div>
-                                <div class="text-sm text-gray-500">6小时前</div>
+                                <div class="text-sm text-gray-500">2天前</div>
                             </div>
                         </div>
                     </div>
