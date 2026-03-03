@@ -1,7 +1,76 @@
-// Realtime Tech Knowledge Base\n// 标准化版本 - 2026-03-03\n\nfunction showPage(pageId) { document.querySelectorAll(".page").forEach(p => p.classList.remove("active")); const t = document.getElementById("page-" + pageId); if (t) { if (!t.innerHTML.trim() || pageId === "home") generatePageContent(pageId, t); t.classList.add("active"); } const m = document.getElementById("mobile-menu"); if (m) m.classList.add("hidden"); window.scrollTo(0, 0); }\nfunction generatePageContent(pageId, container) { if (pageId === "home") return; const articles = Object.entries(knowledgeBase.articles).filter(([id, a]) => a.category === pageId).map(([id, a]) => ({ ...a, id })); if (articles.length === 0) { container.innerHTML = `<div class="max-w-7xl mx-auto px-6 py-16 text-center"><h2 class="text-3xl font-bold text-white mb-4">暂无内容</h2><button onclick="showPage('home')" class="mt-8 px-6 py-3 bg-neon-blue text-white rounded-lg">返回首页</button></div>`; return; } const titles = { ue: "Unreal Engine", ta: "技术美术", render: "实时渲染", "ta-render": "TA渲染", vfx: "特效专栏", multiplat: "多端开发", ai: "AI技术" }; const colors = { ue: "#00f0ff", ta: "#b026ff", render: "#ffbe0b", "ta-render": "#00ff88", vfx: "#ff6600", multiplat: "#00ccff", ai: "#ff006e" }; const color = colors[pageId] || "#00f0ff"; const title = titles[pageId] || pageId; let html = `<div class="max-w-7xl mx-auto px-6 py-12"><h1 class="text-4xl font-bold mb-8" style="color: ${color}">${title}</h1><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">`; articles.forEach(article => { html += `<div onclick="showArticle('${article.id}')" class="glass-panel rounded-2xl p-6 card-hover cursor-pointer"><h3 class="text-xl font-semibold text-white mb-3">${article.title}</h3><p class="text-gray-400 text-sm">${article.date} · ${article.readTime}</p></div>`; }); html += "</div></div>"; container.innerHTML = html; }\nfunction showArticle(articleId) { const article = knowledgeBase.articles[articleId]; if (!article) return; document.querySelectorAll(".page").forEach(p => p.classList.remove("active")); const page = document.getElementById("page-article"); if (page) { page.innerHTML = `<div class="max-w-5xl mx-auto px-6 py-12"><button onclick="showPage('${article.category}')" class="mb-6 flex items-center gap-2 text-gray-400 hover:text-white transition">← 返回列表</button>${article.content}</div>`; page.classList.add("active"); } window.scrollTo(0, 0); }\nfunction toggleMobileMenu() { const m = document.getElementById("mobile-menu"); if (m) m.classList.toggle("hidden"); }\ndocument.addEventListener("DOMContentLoaded", function() { const r = document.getElementById("recent-updates-list"); if (r && knowledgeBase.articles) { const recent = Object.entries(knowledgeBase.articles).map(([id, a]) => ({...a, id})).sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 5); let html = ""; recent.forEach((article, i) => { const colors = ["bg-neon-green", "bg-neon-blue", "bg-neon-purple", "bg-neon-pink", "bg-neon-amber"]; html += `<div onclick="showArticle('${article.id}')" class="cursor-pointer flex items-center gap-4 p-4 border-b border-gray-800 last:border-0 hover:bg-white/5 transition"><div class="w-2 h-2 rounded-full ${colors[i % 5]}"></div><div class="flex-1"><div class="text-white font-medium">${article.title}</div></div><div class="text-sm text-gray-500">${article.date}</div></div>`; }); r.innerHTML = html; } });\n\nconst knowledgeBase = {
+// Realtime Tech Knowledge Base
+// 修复版本 - 交互功能完整
+
+function showPage(pageId) {
+    document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
+    const t = document.getElementById("page-" + pageId);
+    if (t) {
+        if (!t.innerHTML.trim() || pageId === "home") generatePageContent(pageId, t);
+        t.classList.add("active");
+    }
+    const m = document.getElementById("mobile-menu");
+    if (m) m.classList.add("hidden");
+    window.scrollTo(0, 0);
+}
+
+function generatePageContent(pageId, container) {
+    if (pageId === "home") return;
+    const articles = Object.entries(knowledgeBase.articles)
+        .filter(([id, a]) => a.category === pageId)
+        .map(([id, a]) => ({ ...a, id }));
+    
+    if (articles.length === 0) {
+        container.innerHTML = `<div class="max-w-7xl mx-auto px-6 py-16 text-center"><h2 class="text-3xl font-bold text-white mb-4">暂无内容</h2><button onclick="showPage('home')" class="mt-8 px-6 py-3 bg-neon-blue text-white rounded-lg">返回首页</button></div>`;
+        return;
+    }
+    
+    const titles = { ue: "Unreal Engine", ta: "技术美术", render: "实时渲染", "ta-render": "TA渲染", vfx: "特效专栏", multiplat: "多端开发", ai: "AI技术" };
+    const colors = { ue: "#00f0ff", ta: "#b026ff", render: "#ffbe0b", "ta-render": "#00ff88", vfx: "#ff6600", multiplat: "#00ccff", ai: "#ff006e" };
+    const color = colors[pageId] || "#00f0ff";
+    const title = titles[pageId] || pageId;
+    
+    let html = `<div class="max-w-7xl mx-auto px-6 py-12"><h1 class="text-4xl font-bold mb-8" style="color: ${color}">${title}</h1><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">`;
+    articles.forEach(article => {
+        html += `<div onclick="showArticle('${article.id}')" class="glass-panel rounded-2xl p-6 card-hover cursor-pointer"><h3 class="text-xl font-semibold text-white mb-3">${article.title}</h3><p class="text-gray-400 text-sm">${article.date} · ${article.readTime}</p></div>`;
+    });
+    html += "</div></div>";
+    container.innerHTML = html;
+}
+
+function showArticle(articleId) {
+    const article = knowledgeBase.articles[articleId];
+    if (!article) return;
+    document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
+    const page = document.getElementById("page-article");
+    if (page) {
+        page.innerHTML = `<div class="max-w-5xl mx-auto px-6 py-12"><button onclick="showPage('${article.category}')" class="mb-6 flex items-center gap-2 text-gray-400 hover:text-white transition">← 返回列表</button>${article.content}</div>`;
+        page.classList.add("active");
+    }
+    window.scrollTo(0, 0);
+}
+
+function toggleMobileMenu() {
+    const m = document.getElementById("mobile-menu");
+    if (m) m.classList.toggle("hidden");
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    const r = document.getElementById("recent-updates-list");
+    if (r && knowledgeBase.articles) {
+        const recent = Object.entries(knowledgeBase.articles).map(([id, a]) => ({...a, id})).sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 5);
+        let html = "";
+        recent.forEach((article, i) => {
+            const colors = ["bg-neon-green", "bg-neon-blue", "bg-neon-purple", "bg-neon-pink", "bg-neon-amber"];
+            html += `<div onclick="showArticle('${article.id}')" class="cursor-pointer flex items-center gap-4 p-4 border-b border-gray-800 last:border-0 hover:bg-white/5 transition"><div class="w-2 h-2 rounded-full ${colors[i % 5]}"></div><div class="flex-1"><div class="text-white font-medium">${article.title}</div></div><div class="text-sm text-gray-500">${article.date}</div></div>`;
+        });
+        r.innerHTML = html;
+    }
+});
+
+const knowledgeBase = {
   "meta": {
-    "lastUpdated": "2026-02-28 19:30",
-    "totalArticles": 58,
+    "lastUpdated": "2026-03-02 20:00",
+    "totalArticles": 68,
     "autoGenerated": true,
     "version": "5.0"
   },
@@ -837,6 +906,157 @@
       "readTime": "18分钟",
       "difficulty": "中级",
       "content": "<div class='article-content'><h1>Niagara闪电与能量特效</h1><p>制作程序化电弧、激光束、能量冲击波。</p><h2>程序化电弧</h2><p>使用噪声算法生成随机电弧路径。</p></div>"
+    },
+    "vfx-niagara-fluid": {
+      "title": "Niagara流体动力学：烟雾与火焰特效实战",
+      "category": "vfx",
+      "tags": [
+        "Niagara",
+        "流体模拟",
+        "GPU粒子",
+        "烟雾特效"
+      ],
+      "date": "2026-03-02",
+      "author": "Realtime Tech / VFX专栏",
+      "readTime": "18分钟",
+      "difficulty": "高级",
+      "content": "<div class=\"article-content\"><h1>Niagara流体动力学</h1><p class=\"text-xl text-gray-300\">使用Niagara模拟真实的烟雾和火焰效果...</p></div>"
+    },
+    "vfx-niagara-magic": {
+      "title": "Niagara魔法施法特效：符文与能量爆发",
+      "category": "vfx",
+      "tags": [
+        "Niagara",
+        "魔法特效",
+        "粒子系统",
+        "游戏VFX"
+      ],
+      "date": "2026-03-02",
+      "author": "Realtime Tech / VFX专栏",
+      "readTime": "15分钟",
+      "difficulty": "中级",
+      "content": "<div class=\"article-content\"><h1>Niagara魔法施法特效</h1><p class=\"text-xl text-gray-300\">创建炫酷的魔法施法效果...</p></div>"
+    },
+    "vfx-niagara-weapon": {
+      "title": "Niagara武器拖尾与打击特效",
+      "category": "vfx",
+      "tags": [
+        "Niagara",
+        "武器特效",
+        "拖尾",
+        "打击感"
+      ],
+      "date": "2026-03-02",
+      "author": "Realtime Tech / VFX专栏",
+      "readTime": "12分钟",
+      "difficulty": "中级",
+      "content": "<div class=\"article-content\"><h1>Niagara武器拖尾特效</h1><p class=\"text-xl text-gray-300\">制作流畅的武器拖尾和打击效果...</p></div>"
+    },
+    "vfx-niagara-weather": {
+      "title": "Niagara环境特效：雨雪雷电与氛围营造",
+      "category": "vfx",
+      "tags": [
+        "Niagara",
+        "环境特效",
+        "天气系统",
+        "氛围"
+      ],
+      "date": "2026-03-02",
+      "author": "Realtime Tech / VFX专栏",
+      "readTime": "20分钟",
+      "difficulty": "高级",
+      "content": "<div class=\"article-content\"><h1>Niagara环境特效</h1><p class=\"text-xl text-gray-300\">构建完整的天气和环境特效系统...</p></div>"
+    },
+    "vfx-niagara-perf": {
+      "title": "Niagara性能优化：移动平台与大规模场景",
+      "category": "vfx",
+      "tags": [
+        "Niagara",
+        "性能优化",
+        "移动端",
+        "LOD"
+      ],
+      "date": "2026-03-02",
+      "author": "Realtime Tech / VFX专栏",
+      "readTime": "16分钟",
+      "difficulty": "高级",
+      "content": "<div class=\"article-content\"><h1>Niagara性能优化</h1><p class=\"text-xl text-gray-300\">优化Niagara特效在移动平台的表现...</p></div>"
+    },
+    "multi-delta-force": {
+      "title": "《三角洲行动》移动端渲染优化方案",
+      "category": "multiplat",
+      "tags": [
+        "三角洲行动",
+        "移动端优化",
+        "跨平台",
+        "渲染管线"
+      ],
+      "date": "2026-03-02",
+      "author": "Realtime Tech / 多端开发",
+      "readTime": "22分钟",
+      "difficulty": "高级",
+      "content": "<div class=\"article-content\"><h1>三角洲行动移动端优化</h1><p class=\"text-xl text-gray-300\">分析三角洲行动在移动端的渲染优化策略...</p></div>"
+    },
+    "multi-yanyun": {
+      "title": "《燕云十六声》跨平台开发：PC到手游的技术迁移",
+      "category": "multiplat",
+      "tags": [
+        "燕云十六声",
+        "跨平台",
+        "技术迁移",
+        "开放世界"
+      ],
+      "date": "2026-03-02",
+      "author": "Realtime Tech / 多端开发",
+      "readTime": "25分钟",
+      "difficulty": "困难",
+      "content": "<div class=\"article-content\"><h1>燕云十六声跨平台开发</h1><p class=\"text-xl text-gray-300\">从PC到手游的技术迁移经验...</p></div>"
+    },
+    "multi-shader": {
+      "title": "跨平台Shader统一：HLSL/GLSL/Metal混合编译",
+      "category": "multiplat",
+      "tags": [
+        "跨平台",
+        "Shader",
+        "HLSL",
+        "GLSL",
+        "Metal"
+      ],
+      "date": "2026-03-02",
+      "author": "Realtime Tech / 多端开发",
+      "readTime": "18分钟",
+      "difficulty": "困难",
+      "content": "<div class=\"article-content\"><h1>跨平台Shader统一</h1><p class=\"text-xl text-gray-300\">编写可移植的Shader代码...</p></div>"
+    },
+    "multi-pipeline": {
+      "title": "跨平台美术资源管线：从制作到多端发布",
+      "category": "multiplat",
+      "tags": [
+        "跨平台",
+        "美术管线",
+        "资源管理",
+        "自动化"
+      ],
+      "date": "2026-03-02",
+      "author": "Realtime Tech / 多端开发",
+      "readTime": "20分钟",
+      "difficulty": "中级",
+      "content": "<div class=\"article-content\"><h1>跨平台美术资源管线</h1><p class=\"text-xl text-gray-300\">构建高效的跨平台美术资源工作流...</p></div>"
+    },
+    "multi-optimization": {
+      "title": "多端性能优化：DrawCall、内存与发热控制",
+      "category": "multiplat",
+      "tags": [
+        "多端优化",
+        "DrawCall",
+        "内存优化",
+        "发热控制"
+      ],
+      "date": "2026-03-02",
+      "author": "Realtime Tech / 多端开发",
+      "readTime": "19分钟",
+      "difficulty": "高级",
+      "content": "<div class=\"article-content\"><h1>多端性能优化</h1><p class=\"text-xl text-gray-300\">全面的多端性能优化方案...</p></div>"
     }
   }
 };
