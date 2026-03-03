@@ -25,3 +25,12 @@ declare: usage: declare [-afFirtx] [-p] [name[=value] ...]
 /tmp/realtime-tech-library/auto-cron.sh: line 153: [: 0
 0: integer expression expected
 [0;32m[2026-03-02 20:00:04][0m 📤 提交更新...
+[main 895f75f] auto: 每日同步 20260302-2000
+ 3 files changed, 134 insertions(+)
+ create mode 100644 config/api-config.json
+ create mode 100644 logs/auto.log
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:MORS0422/realtime-tech-library.git        
+To github.com:mors0422/realtime-tech-library.git
+   8fde32d..895f75f  main -> main
+[0;32m[2026-03-02 20:00:07][0m ✅ 每日同步完成
