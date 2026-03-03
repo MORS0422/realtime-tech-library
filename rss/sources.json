@@ -1,0 +1,68 @@
+{
+  "rss_sources": [
+    {
+      "name": "Niagara VFX Community",
+      "url": "https://realtimevfx.com/latest.rss",
+      "category": "vfx",
+      "priority": "high",
+      "check_interval": "12h"
+    },
+    {
+      "name": "SideFX Houdini",
+      "url": "https://www.sidefx.com/community/blog-rss/",
+      "category": "ta",
+      "priority": "high",
+      "check_interval": "12h"
+    },
+    {
+      "name": "80 Level - VFX",
+      "url": "https://80.lv/articles/vfx/feed/",
+      "category": "vfx",
+      "priority": "medium",
+      "check_interval": "12h"
+    },
+    {
+      "name": "VFX Magazine",
+      "url": "https://www.vfx-magazine.com/feed/",
+      "category": "vfx",
+      "priority": "medium",
+      "check_interval": "24h"
+    },
+    {
+      "name": "RedefineFX YouTube",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChM8MT7k-HIC6Xo5iY_6ghQ",
+      "category": "vfx",
+      "priority": "medium",
+      "check_interval": "24h",
+      "note": "需要YouTube API Key"
+    },
+    {
+      "name": "GameDev.net - Multiplatform",
+      "url": "http://www.gamedev.net/news/multiplatform/rss",
+      "category": "multiplat",
+      "priority": "high",
+      "check_interval": "12h"
+    },
+    {
+      "name": "Gamasutra / GDC Vault",
+      "url": "https://gamasutra.com/rss.xml",
+      "category": "ta",
+      "priority": "high",
+      "check_interval": "24h"
+    }
+  ],
+  "fetch_schedule": {
+    "sync_tech_library": ["08:00", "20:00"],
+    "realtime_content_review": "every 3 days at 10:00"
+  },
+  "review_criteria": {
+    "frequency": "3 days",
+    "time": "10:00 AM",
+    "checks": [
+      "文章勘误与错误修复",
+      "链接有效性验证",
+      "内容质量评估",
+      "优质内容自动标记"
+    ]
+  }
+}
