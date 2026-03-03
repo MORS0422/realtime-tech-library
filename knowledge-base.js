@@ -54,6 +54,82 @@ function toggleMobileMenu() {
     if (m) m.classList.toggle("hidden");
 }
 
+// 搜索功能
+function performSearch() {
+    const input = document.getElementById("search-input");
+    if (!input) return;
+    
+    const query = input.value.trim().toLowerCase();
+    if (!query) return;
+    
+    const results = [];
+    
+    // 搜索所有文章
+    Object.entries(knowledgeBase.articles).forEach(([id, article]) => {
+        const titleMatch = article.title && article.title.toLowerCase().includes(query);
+        const tagMatch = article.tags && article.tags.some(tag => tag.toLowerCase().includes(query));
+        const contentMatch = article.content && article.content.toLowerCase().includes(query);
+        
+        if (titleMatch || tagMatch || contentMatch) {
+            results.push({ id, ...article });
+        }
+    });
+    
+    // 显示搜索结果
+    showSearchResults(results, query);
+}
+
+function showSearchResults(results, query) {
+    // 切换到搜索页面或显示结果
+    document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
+    
+    let page = document.getElementById("page-search");
+    if (!page) {
+        page = document.createElement("div");
+        page.id = "page-search";
+        page.className = "page";
+        document.querySelector(".max-w-7xl")?.appendChild(page);
+    }
+    
+    let html = `<div class="max-w-7xl mx-auto px-6 py-12">
+        <h1 class="text-3xl font-bold text-white mb-4">搜索结果: "${query}"</h1>
+        <p class="text-gray-400 mb-8">找到 ${results.length} 篇文章</p>
+        <button onclick="showPage('home')" class="mb-6 flex items-center gap-2 text-gray-400 hover:text-white transition">← 返回首页</button>`;
+    
+    if (results.length === 0) {
+        html += `<div class="text-gray-500 text-center py-12">未找到相关文章</div>`;
+    } else {
+        html += `<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">`;
+        results.forEach(article => {
+            const colors = { ue: "#00f0ff", ta: "#b026ff", render: "#ffbe0b", "ta-render": "#00ff88", vfx: "#ff6600", multiplat: "#00ccff", ai: "#ff006e" };
+            const color = colors[article.category] || "#00f0ff";
+            html += `<div onclick="showArticle('${article.id}')" class="glass-panel rounded-2xl p-6 card-hover cursor-pointer">
+                <div class="text-xs mb-2" style="color: ${color}">${article.category}</div>
+                <h3 class="text-xl font-semibold text-white mb-3">${article.title}</h3>
+                <p class="text-gray-400 text-sm">${article.date} · ${article.readTime}</p>
+            </div>`;
+        });
+        html += `</div>`;
+    }
+    
+    html += `</div>`;
+    page.innerHTML = html;
+    page.classList.add("active");
+    window.scrollTo(0, 0);
+}
+
+// 搜索框回车事件
+document.addEventListener("DOMContentLoaded", function() {
+    const searchInput = document.getElementById("search-input");
+    if (searchInput) {
+        searchInput.addEventListener("keypress", function(e) {
+            if (e.key === "Enter") {
+                performSearch();
+            }
+        });
+    }
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     const r = document.getElementById("recent-updates-list");
     if (r && knowledgeBase.articles) {

@@ -106,6 +106,16 @@
                     <span onclick="showPage('vfx')" class="nav-link text-sm font-medium text-orange-500">✨ 特效专栏</span>
                     <span onclick="showPage('multiplat')" class="nav-link text-sm font-medium text-cyan-400">🎮 多端开发</span>
                     <span onclick="showPage('ai')" class="nav-link text-sm font-medium">AI技术</span>
+                    
+                    <!-- 搜索栏 -->
+                    <div class="relative flex items-center">
+                        <input type="text" id="search-input" placeholder="搜索文章..." 
+                            class="w-48 px-4 py-1.5 pr-8 text-sm bg-dark-800/50 border border-gray-700 rounded-full focus:outline-none focus:border-neon-blue transition-colors text-gray-300 placeholder-gray-500">
+                        <button onclick="performSearch()" class="absolute right-2 p-1">
+                            <i data-lucide="search" class="w-4 h-4 text-gray-500"></i>
+                        </button>
+                    </div>
+                    
                     <div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-neon-green/10 border border-neon-green/30">
                         <div class="w-2 h-2 rounded-full bg-neon-green update-badge"></div>
                         <span class="text-xs text-neon-green">每12h更新</span>
@@ -304,7 +314,7 @@
             </div>
             
             <div class="text-sm text-gray-500">
-                最后更新: <span id="last-update-time">2025-02-26 20:00</span>
+                最后更新: <span id="last-update-time">2026-03-03</span>
                 <span class="mx-2">•</span>
                 每12小时自动更新
             </div>
