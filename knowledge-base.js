@@ -54,6 +54,7 @@ function toggleMobileMenu() {
     if (m) m.classList.toggle("hidden");
 }
 
+/*
 document.addEventListener("DOMContentLoaded", function() {
     const r = document.getElementById("recent-updates-list");
     if (r && knowledgeBase.articles) {
@@ -66,6 +67,9 @@ document.addEventListener("DOMContentLoaded", function() {
         r.innerHTML = html;
     }
 });
+*/
+
+// 最近更新列表使用index.html中的硬编码内容（动态更新已禁用）
 
 const knowledgeBase = {
   "meta": {
