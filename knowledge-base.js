@@ -1149,23 +1149,26 @@ const knowledgeBase = {
       "hasImage": true
     },
     "houdini-ue-pipeline": {
-      "title": "Houdini to UE5：程序化特效工作流搭建",
-      "category": "vfx",
-      "tags": [
-        "Houdini",
-        "UE5",
-        "程序化",
-        "工作流",
-        "VDB"
-      ],
-      "date": "2026-03-03",
-      "author": "Realtime Tech深度分析",
-      "readTime": "22分钟",
-      "difficulty": "高级",
-      "content": "<div class='article-content'><h1>Houdini to UE5工作流</h1><p>Houdini程序化特效到UE5实时渲染的完整流程。</p><h2>VDB体积导入</h2><p>烟雾、火焰体积特效的导入与渲染。</p></div>",
-      "imagePrompt": "VFX particle simulation, Niagara effects, dark background, Houdini, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
-      "hasImage": true
-    },
+  "title": "Houdini to UE5：程序化特效工作流详解",
+  "category": "vfx",
+  "tags": [
+    "Houdini",
+    "UE5",
+    "程序化",
+    "VDB",
+    "工作流",
+    "特效",
+    "Pipeline"
+  ],
+  "date": "2026-03-03",
+  "author": "Realtime Tech深度分析",
+  "readTime": "28分钟",
+  "difficulty": "困难",
+  "hasImage": true,
+  "imagePrompt": "Houdini to UE5 pipeline, VFX workflow, dark theme"
+,
+  "content": "<div class=\"article-content\"><div class=\"flex flex-wrap items-center gap-3 mb-6\"><span class=\"tag-vfx px-3 py-1 rounded-full text-sm\">特效专栏</span><span class=\"text-gray-500\">2026-03-03</span></div><h1>Houdini to UE5：程序化特效工作流详解</h1><p class=\"text-xl text-gray-300 mb-6\">Houdini是影视级特效的行业标准，UE5是实时渲染的领导者。本文详解从Houdini程序化特效到UE5实时渲染的完整工作流。</p><div class=\"source-box\"><div class=\"text-sm text-gray-400\"><div>• <a href=\"https://www.sidefx.com/docs/houdini/\" target=\"_blank\">📄 Houdini Documentation [SideFX]</a></div></div></div><h2>1. 工作流概览</h2><p>Houdini-UE5工作流的核心是将离线渲染质量引入实时引擎。</p><h2>2. 几何体缓存</h2><p>使用Alembic格式导出顶点动画。</p><h2>3. VDB体积</h2><p>烟雾、火焰等体积特效使用VDB格式。</p><h2>4. 材质适配</h2><p>Houdini的Principled Shader需要转换为UE5材质。</p><div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ff6600\"><p class=\"mb-0 text-gray-400\"><strong style=\"color: #ff6600\">💡 总结：</strong> Houdini-UE5工作流让影视级特效进入实时领域。</p></div></div>"
+},
     "niagara-lightning-vfx": {
       "title": "Niagara闪电与能量特效：电弧、光束与冲击波",
       "category": "vfx",
