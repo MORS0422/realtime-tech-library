@@ -231,3 +231,37 @@ declare: usage: declare [-afFirtx] [-p] [name[=value] ...]
 /tmp/realtime-tech-library/auto-cron.sh: line 153: [: 0
 0: integer expression expected
 [0;32m[2026-03-05 20:00:04][0m 📤 提交更新...
+[main 9c3063e] auto: 每日同步 20260305-2000
+ 2 files changed, 55 insertions(+)
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:MORS0422/realtime-tech-library.git        
+To github.com:mors0422/realtime-tech-library.git
+   fe607a7..9c3063e  main -> main
+[0;32m[2026-03-05 20:00:07][0m ✅ 每日同步完成
+[0;32m[2026-03-06 08:00:00][0m 🚀 开始每日同步任务
+[0;32m[2026-03-06 08:00:00][0m 📥 拉取最新代码...
+From github.com:mors0422/realtime-tech-library
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[0;32m[2026-03-06 08:00:04][0m 📡 检查7个RSS源...
+[0;32m[2026-03-06 08:00:04][0m   检查: https://realtimevfx.com/latest.rss
+[0;32m[2026-03-06 08:00:04][0m   检查: https://www.sidefx.com/community/blog-rss/
+[0;32m[2026-03-06 08:00:04][0m   检查: https://80.lv/articles/vfx/feed/
+[0;32m[2026-03-06 08:00:04][0m   检查: https://www.gamedev.net/news/multiplatform/rss
+[0;32m[2026-03-06 08:00:04][0m   检查: https://gamasutra.com/rss.xml
+[0;32m[2026-03-06 08:00:04][0m 🖼️  抓取文章配图...
+[0;32m[2026-03-06 08:00:04][0m   配图抓取策略:
+[0;32m[2026-03-06 08:00:04][0m     1. 从原文链接抓取主图
+[0;32m[2026-03-06 08:00:04][0m     2. 生成SVG架构图
+[0;32m[2026-03-06 08:00:04][0m     3. 代码示例高亮图
+[0;32m[2026-03-06 08:00:04][0m 📝 标准化处理...
+[0;32m[2026-03-06 08:00:04][0m   运行文章标准化...
+[0;32m[2026-03-06 08:00:04][0m 📊 检查专栏文章数...
+[0;32m[2026-03-06 08:00:04][0m   专栏文章数检查:
+/tmp/realtime-tech-library/auto-cron.sh: line 136: declare: -A: invalid option
+declare: usage: declare [-afFirtx] [-p] [name[=value] ...]
+[0;32m[2026-03-06 08:00:04][0m     多端开发 (0): 0
+0 篇
+/tmp/realtime-tech-library/auto-cron.sh: line 153: [: 0
+0: integer expression expected
+[0;32m[2026-03-06 08:00:04][0m 📤 提交更新...
