@@ -1,0 +1,2085 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>独立游戏实时渲染技术探索：完整技术栈指南 | Realtime Tech Library</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-csharp.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root {
+            --primary: #ff006e;
+            --secondary: #8338ec;
+            --accent: #3a86ff;
+            --warning: #ffbe0b;
+            --success: #06ffa5;
+            --bg-dark: #0a0a0f;
+            --bg-card: #12121a;
+            --border: #2a2a3a;
+        }
+        body {
+            background: var(--bg-dark);
+            color: #e0e0e0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        .tech-analysis-box {
+            background: rgba(58, 134, 255, 0.08);
+            border: 1px solid rgba(58, 134, 255, 0.3);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        .formula-box {
+            background: rgba(255, 190, 11, 0.08);
+            border: 1px solid rgba(255, 190, 11, 0.3);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .code-box {
+            background: #1e1e2e;
+            border-radius: 12px;
+            overflow: hidden;
+            margin: 1.5rem 0;
+        }
+        .code-header {
+            background: #2a2a3a;
+            padding: 0.75rem 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: #888;
+        }
+        .code-dots span {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 4px;
+        }
+        .code-dots span:nth-child(1) { background: #ff5f56; }
+        .code-dots span:nth-child(2) { background: #ffbd2e; }
+        .code-dots span:nth-child(3) { background: #27c93f; }
+        .highlight-keyword { color: #ff79c6; }
+        .highlight-function { color: #8be9fd; }
+        .highlight-string { color: #f1fa8c; }
+        .highlight-comment { color: #6272a4; }
+        .highlight-number { color: #bd93f9; }
+        .arch-diagram {
+            background: linear-gradient(135deg, rgba(131, 56, 236, 0.1), rgba(255, 0, 110, 0.1));
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 1.5rem 0;
+        }
+        .arch-node {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            display: inline-block;
+            margin: 0.25rem;
+            font-size: 0.875rem;
+        }
+        .arch-arrow {
+            color: var(--accent);
+            font-size: 1.25rem;
+            margin: 0 0.5rem;
+        }
+        .sym-table th {
+            background: rgba(131, 56, 236, 0.2);
+            padding: 0.75rem;
+            text-align: left;
+            font-weight: 600;
+        }
+        .sym-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .section-number {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            margin-right: 0.75rem;
+            font-size: 0.875rem;
+        }
+        .info-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .toc-link {
+            display: block;
+            padding: 0.5rem 0;
+            color: #888;
+            transition: color 0.2s;
+        }
+        .toc-link:hover { color: var(--accent); }
+        .progress-bar {
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary), var(--accent));
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="border-b border-gray-800 sticky top-0 z-50" style="background: rgba(10, 10, 15, 0.95); backdrop-filter: blur(10px);">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <a href="../../index.html" class="text-gray-400 hover:text-white transition">← 返回知识库</a>
+                <span class="text-gray-600">|</span>
+                <span class="text-sm text-gray-400">技术美术 / 实时渲染</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <span class="text-sm text-gray-500">难度: 中等</span>
+                <span class="px-3 py-1 rounded-full text-xs font-medium" style="background: rgba(255, 0, 110, 0.2); color: #ff006e;">V2 概念版</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-7xl mx-auto px-6 py-8 flex gap-8">
+        <!-- Sidebar TOC -->
+        <aside class="w-64 flex-shrink-0 hidden lg:block">
+            <div class="sticky top-24">
+                <h3 class="text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wider">目录</h3>
+                <nav class="text-sm">
+                    <a href="#overview" class="toc-link">1. 概述与核心概念</a>
+                    <a href="#symbols" class="toc-link">2. 符号定义表</a>
+                    <a href="#architecture" class="toc-link">3. 独立游戏渲染管线架构</a>
+                    <a href="#fft-ocean" class="toc-link">4. FFT海洋模拟原理</a>
+                    <a href="#procedural-water" class="toc-link">5. 程序化水波纹理</a>
+                    <a href="#buoyancy" class="toc-link">6. 实时浮力系统</a>
+                    <a href="#niagara" class="toc-link">7. Niagara水特效集成</a>
+                    <a href="#optimization" class="toc-link">8. 性能优化策略</a>
+                    <a href="#toolchain" class="toc-link">9. 工具链与自动化</a>
+                    <a href="#code-reference" class="toc-link">10. 完整代码参考</a>
+                    <a href="#references" class="toc-link">11. 参考资源</a>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 max-w-4xl">
+            <!-- Article Header -->
+            <div class="mb-8">
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="info-badge">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        阅读时间: 25-30分钟
+                    </span>
+                    <span class="info-badge">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                        中等难度
+                    </span>
+                    <span class="info-badge">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path></svg>
+                        UE5, Houdini, FFT, Niagara
+                    </span>
+                </div>
+                
+                <h1 class="text-4xl font-bold mb-4 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
+                    独立游戏实时渲染技术探索
+                </h1>
+                <p class="text-xl text-gray-400 mb-6">
+                    完整技术栈指南：FFT海洋模拟、程序化水波纹理、实时浮力系统与性能优化
+                </p>
+                
+                <div class="flex items-center gap-4 text-sm text-gray-500 pb-6 border-b border-gray-800">
+                    <span>原文: Milks的游戏开发日志 @ Realtime VFX</span>
+                    <span>•</span>
+                    <span>改写: V2 概念导向版</span>
+                    <span>•</span>
+                    <span>2026-03-07</span>
+                </div>
+            </div>
+
+            <!-- Abstract -->
+            <div class="tech-analysis-box" style="border-color: #06ffa540;">
+                <div class="flex items-center gap-2 mb-3">
+                    <span class="text-lg">📋</span>
+                    <span class="font-semibold" style="color: #06ffa5;">内容摘要</span>
+                </div>
+                <p class="text-gray-300 leading-relaxed">
+                    本文系统性地介绍独立游戏开发中的实时水面渲染技术栈，从<strong>FFT海洋模拟</strong>的数学原理出发，深入探讨<strong>程序化水波纹理</strong>的生成方法、<strong>实时浮力系统</strong>的物理模拟实现，以及<strong>Niagara粒子系统</strong>与水面材质的交互机制。我们将以Milks的技术日志为基础，重构独立游戏技术美术的完整知识体系，涵盖工具链搭建、性能优化策略与代码实现细节。
+                </p>
+            </div>
+
+            <!-- Section 1: Overview -->
+            <section id="overview" class="mb-12">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <span class="section-number">1</span>
+                    概述与核心概念
+                </h2>
+                
+                <h3 class="text-lg font-semibold mb-3 text-gray-200">什么是独立游戏技术美术？</h3>
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    独立游戏技术美术（Indie Technical Artist）是指在资源受限环境下，需要同时掌握<strong>渲染编程</strong>、<strong>工具开发</strong>和<strong>视觉表现</strong>的复合型人才。与3A工作室不同，独立开发者往往需要在<strong>性能预算紧张</strong>、<strong>开发周期短</strong>的约束下实现高质量的视觉效果。
+                </p>
+
+                <div class="tech-analysis-box" style="border-color: #ff006e40;">
+                    <div class="flex items-center gap-2 mb-4">
+                        <span class="text-lg font-semibold" style="color: #ff006e;">🎯 核心挑战</span>
+                    </div>
+                    <p class="mb-3 text-gray-300">
+                        独立游戏水面渲染面临三大核心挑战：
+                    </p>
+                    <ul class="space-y-2 text-gray-300">
+                        <li class="flex items-start gap-2">
+                            <span class="text-accent">1.</span>
+                            <span><strong>物理真实性与性能的权衡</strong>：完整的流体模拟计算成本过高，必须采用近似算法</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-accent">2.</span>
+                            <span><strong>跨平台一致性</strong>：从高端PC到移动设备的性能差异巨大</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <span class="text-accent">3.</span>
+                            <span><strong>工具链整合</strong>：需要将Blender、Houdini、UE等多个软件的工作流无缝衔接</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">资源优化策略矩阵</h3>
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    在独立游戏中，资源优化不是简单的"降低质量"，而是通过<strong>算法优化</strong>和<strong>智能LOD系统</strong>实现"聪明的质量分配"。以下表格展示了不同优化层级的策略：
+                </p>
+
+                <table class="w-full text-sm my-4 sym-table">
+                    <thead>
+                        <tr>
+                            <th>优化层级</th>
+                            <th>策略</th>
+                            <th>GPU成本</th>
+                            <th>适用场景</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2"><strong>L0: 全精度</strong></td>
+                            <td>实时FFT + 细分曲面</td>
+                            <td>~5ms</td>
+                            <td>特写镜头、过场动画</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2"><strong>L1: 高频</strong></td>
+                            <td>预计算FFT纹理 + 位移贴图</td>
+                            <td>~2ms</td>
+                            <td>玩家近距离观察</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2"><strong>L2: 中频</strong></td>
+                            <td>程序化Gerstner波</td>
+                            <td>~0.5ms</td>
+                            <td>中距离水面</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2"><strong>L3: 低频</strong></td>
+                            <td>法线贴图 + 简单位移</td>
+                            <td>~0.1ms</td>
+                            <td>远景、反射平面</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="formula-box">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-warning font-semibold">💡 质量-性能权衡公式</span>
+                    </div>
+                    <div class="text-center text-lg my-4">
+                        $$Q_{total} = \sum_{i=0}^{n} w_i \cdot Q_i(L_i) \quad \text{s.t.} \quad T_{frame} < 16.67\text{ms}$$
+                    </div>
+                    <p class="text-gray-400 text-sm mt-3">
+                        其中 $Q_i$ 为第 $i$ 个LOD级别的视觉质量，$w_i$ 为权重系数，$T_{frame}$ 为帧时间预算。独立游戏的核心技能就是在这个约束条件下最大化 $Q_{total}$。
+                    </p>
+                </div>
+            </section>
+
+            <!-- Section 2: Symbol Definitions -->
+            <section id="symbols" class="mb-12">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <span class="section-number">2</span>
+                    符号定义表
+                </h2>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    本文使用以下符号体系，参考Filament文档的命名规范，确保公式表达的一致性和可读性。
+                </p>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200">2.1 数学符号</h3>
+                <table class="w-full text-sm my-4 sym-table">
+                    <thead>
+                        <tr>
+                            <th class="w-24">符号</th>
+                            <th class="w-32">定义</th>
+                            <th>说明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2 font-mono">$\mathbf{k}$</td>
+                            <td>波数向量</td>
+                            <td>$\mathbf{k} = (k_x, k_y)$，单位 $rad/m$</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$|\mathbf{k}|$</td>
+                            <td>波数幅值</td>
+                            <td>$k = \sqrt{k_x^2 + k_y^2}$</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$\omega(\mathbf{k})$</td>
+                            <td>角频率</td>
+                            <td>色散关系：$\omega = \sqrt{g|\mathbf{k}|}$</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$\eta(\mathbf{x}, t)$</td>
+                            <td>水面高度场</td>
+                            <td>位置 $\mathbf{x}$ 时刻 $t$ 的垂直位移</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$h(\mathbf{k}, t)$</td>
+                            <td>频域波高</td>
+                            <td>FFT输入：复数形式的频谱</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$P(\mathbf{k})$</td>
+                            <td>Phillips频谱</td>
+                            <td>描述海浪能量分布的功率谱密度</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$\xi_r, \xi_i$</td>
+                            <td>高斯随机数</td>
+                            <td>独立同分布，$\xi \sim \mathcal{N}(0,1)$</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$A$</td>
+                            <td>振幅缩放因子</td>
+                            <td>控制整体波浪高度</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$L$</td>
+                            <td>特征波长</td>
+                            <td>Phillips谱参数，典型值 $L = V^2/g$</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$\mathbf{D}_{wind}$</td>
+                            <td>归一化风向</td>
+                            <td>主导波浪传播方向</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">2.2 渲染性能指标</h3>
+                <table class="w-full text-sm my-4 sym-table">
+                    <thead>
+                        <tr>
+                            <th class="w-24">符号</th>
+                            <th class="w-32">定义</th>
+                            <th>说明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2 font-mono">$T_{frame}$</td>
+                            <td>帧时间</td>
+                            <td>完整帧渲染耗时，60fps要求&lt;16.67ms</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$T_{FFT}$</td>
+                            <td>FFT计算时间</td>
+                            <td>频谱更新的GPU耗时</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$N$</td>
+                            <td>FFT分辨率</td>
+                            <td>典型值 64×64, 128×128, 256×256</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$N_{tri}$</td>
+                            <td>三角形数量</td>
+                            <td>水面网格的细分程度</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$n_{draw}$</td>
+                            <td>Draw Call数</td>
+                            <td>渲染批次数量</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$B_{mem}$</td>
+                            <td>显存带宽</td>
+                            <td>纹理读取/写入占用的带宽(GB/s)</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">2.3 复杂度符号</h3>
+                <table class="w-full text-sm my-4 sym-table">
+                    <thead>
+                        <tr>
+                            <th class="w-32">符号</th>
+                            <th>定义</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2 font-mono">$\mathcal{O}(N^2 \log N)$</td>
+                            <td>2D-FFT时间复杂度，使用Cooley-Tukey算法</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$\mathcal{O}(n)$</td>
+                            <td>线性复杂度，如顶点位移计算</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2 font-mono">$\mathcal{O}(1)$</td>
+                            <td>常数复杂度，如纹理采样</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Section 3: Architecture -->
+            <section id="architecture" class="mb-12">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <span class="section-number">3</span>
+                    独立游戏渲染管线架构
+                </h2>
+                
+                <p class="text-gray-300 leading-relaxed mb-6">
+                    独立游戏水面渲染管线是一个多层系统，从离线预计算到实时模拟，各层协同工作以实现视觉效果与性能的平衡。
+                </p>
+
+                <div class="arch-diagram">
+                    <h4 class="text-center text-gray-300 mb-6 font-semibold">独立游戏水面渲染技术栈架构</h4>
+                    <div class="text-center">
+                        <!-- DCC Layer -->
+                        <div class="mb-4">
+                            <div class="text-gray-500 text-xs mb-2 uppercase tracking-wider">DCC 工具层</div>
+                            <div class="flex justify-center items-center flex-wrap">
+                                <span class="arch-node">Blender<br><span class="text-xs text-gray-500">建模/基础动画</span></span>
+                                <span class="arch-arrow">→</span>
+                                <span class="arch-node">Houdini<br><span class="text-xs text-gray-500">程序化纹理/WPO</span></span>
+                                <span class="arch-arrow">→</span>
+                                <span class="arch-node">Substance<br><span class="text-xs text-gray-500">材质贴图</span></span>
+                            </div>
+                        </div>
+                        
+                        <!-- Export -->
+                        <div class="text-gray-500 text-xs my-2">↓ 资产导出 (FBX/USD/纹理)</div>
+                        
+                        <!-- Runtime Layer -->
+                        <div class="mb-4">
+                            <div class="text-gray-500 text-xs mb-2 uppercase tracking-wider">运行时引擎层 (UE5)</div>
+                            <div class="grid grid-cols-3 gap-4 max-w-2xl mx-auto">
+                                <div class="arch-node border-l-4" style="border-color: #3a86ff;">
+                                    <strong>材质系统</strong><br>
+                                    <span class="text-xs text-gray-500">PBR水着色器</span>
+                                </div>
+                                <div class="arch-node border-l-4" style="border-color: #ff006e;">
+                                    <strong>FFT海洋</strong><br>
+                                    <span class="text-xs text-gray-500">实时/预计算</span>
+                                </div>
+                                <div class="arch-node border-l-4" style="border-color: #8338ec;">
+                                    <strong>Niagara VFX</strong><br>
+                                    <span class="text-xs text-gray-500">粒子交互</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Systems -->
+                        <div class="mb-4">
+                            <div class="grid grid-cols-2 gap-4 max-w-xl mx-auto">
+                                <div class="arch-node" style="background: rgba(255, 190, 11, 0.1);">
+                                    <strong>物理系统</strong><br>
+                                    <span class="text-xs text-gray-500">浮力/碰撞查询</span>
+                                </div>
+                                <div class="arch-node" style="background: rgba(6, 255, 165, 0.1);">
+                                    <strong>LOD系统</strong><br>
+                                    <span class="text-xs text-gray-500">动态细分/剔除</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- GPU -->
+                        <div class="text-gray-500 text-xs my-2">↓ GPU管线</div>
+                        
+                        <div class="flex justify-center items-center flex-wrap">
+                            <span class="arch-node" style="font-size: 0.75rem;">顶点着色器<br>位移计算</span>
+                            <span class="arch-arrow">→</span>
+                            <span class="arch-node" style="font-size: 0.75rem;">曲面细分<br>动态LOD</span>
+                            <span class="arch-arrow">→</span>
+                            <span class="arch-node" style="font-size: 0.75rem;">片元着色器<br>光照/折射</span>
+                            <span class="arch-arrow">→</span>
+                            <span class="arch-node" style="font-size: 0.75rem;">后处理<br>水下雾效</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200">数据流与更新频率</h3>
+                <table class="w-full text-sm my-4 sym-table">
+                    <thead>
+                        <tr>
+                            <th>组件</th>
+                            <th>更新频率</th>
+                            <th>计算位置</th>
+                            <th>说明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2">FFT频谱生成</td>
+                            <td>每帧（可变）</td>
+                            <td>Compute Shader</td>
+                            <td>可降频至30fps或更低</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">IFFT变换</td>
+                            <td>每帧</td>
+                            <td>Compute Shader</td>
+                            <td>生成Displacement贴图</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">顶点位移</td>
+                            <td>每帧</td>
+                            <td>Vertex Shader</td>
+                            <td>采样Displacement纹理</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">浮力计算</td>
+                            <td>固定时间步长</td>
+                            <td>Blueprint/C++</td>
+                            <td>通常60Hz物理更新</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">LOD切换</td>
+                            <td>每帧</td>
+                            <td>CPU (蓝图)</td>
+                            <td>基于摄像机距离</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Section 4: FFT Ocean -->
+            <section id="fft-ocean" class="mb-12">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <span class="section-number">4</span>
+                    FFT海洋模拟原理
+                </h2>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    快速傅里叶变换（FFT）是实时海洋模拟的核心算法。它允许我们将复杂的波叠加问题从时域转换到频域，利用频谱的数学特性高效计算大规模波浪效果。
+                </p>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200">4.1 理论基础：线性波理论</h3>
+                
+                <div class="tech-analysis-box" style="border-color: #3a86ff40;">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-lg font-semibold" style="color: #3a86ff;">🌊 核心洞察</span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">
+                        海洋表面可以建模为<strong>无数个不同频率、振幅、方向的正弦波的叠加</strong>。在频域中，这些波是独立处理的，这使得FFT成为可能。线性波理论假设波幅相对于波长很小，允许使用叠加原理。
+                    </p>
+                </div>
+
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    海面高度场 $\eta(\mathbf{x}, t)$ 可以表示为频域函数 $h(\mathbf{k}, t)$ 的逆傅里叶变换：
+                </p>
+
+                <div class="formula-box">
+                    <div class="text-center text-lg my-4">
+                        $$\eta(\mathbf{x}, t) = \sum_{\mathbf{k}} \tilde{h}(\mathbf{k}, t) \cdot e^{i\mathbf{k}\cdot\mathbf{x}}$$
+                    </div>
+                    <p class="text-gray-400 text-sm">
+                        其中 $\tilde{h}(\mathbf{k}, t)$ 是频域波高，$e^{i\mathbf{k}\cdot\mathbf{x}}$ 是空间振荡因子。
+                    </p>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">4.2 Phillips频谱模型</h3>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    Phillips频谱是描述海面能量分布的经典模型，由Willard Phillips于1977年提出，后经Tessendorf等人改进用于计算机图形学。它基于物理观测数据，考虑了风速、风向和重力的影响。
+                </p>
+
+                <div class="formula-box">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-warning font-semibold">📐 Phillips频谱公式</span>
+                    </div>
+                    <div class="text-center text-base my-4">
+                        $$P(\mathbf{k}) = A \cdot \frac{e^{-1/(kL)^2}}{k^4} \cdot |\mathbf{k} \cdot \mathbf{D}_{wind}|^2$$
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4 mt-4 text-sm">
+                        <div>
+                            <strong class="text-gray-300">分量解析：</strong>
+                            <ul class="mt-2 space-y-1 text-gray-400">
+                                <li>• <strong>$A$</strong>: 全局振幅控制</li>
+                                <li>• <strong>$e^{-1/(kL)^2}$</strong>: 抑制小波长噪声</li>
+                                <li>• <strong>$k^{-4}$</strong>: 能量随波数衰减</li>
+                                <li>• <strong>$|\mathbf{k} \cdot \mathbf{D}|^2$</strong>: 方向性因子</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <strong class="text-gray-300">物理意义：</strong>
+                            <ul class="mt-2 space-y-1 text-gray-400">
+                                <li>• 长波（小$k$）携带更多能量</li>
+                                <li>• 波长小于$L$的波被指数抑制</li>
+                                <li>• 波浪倾向于沿风向传播</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">4.3 初始频谱生成</h3>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    在时间 $t=0$ 时刻，频谱 $h_0(\mathbf{k})$ 通过Phillips频谱和随机数生成：
+                </p>
+
+                <div class="formula-box">
+                    <div class="text-center text-base my-4">
+                        $$h_0(\mathbf{k}) = \frac{1}{\sqrt{2}}\left(\xi_r + i\xi_i\right) \cdot \sqrt{P(\mathbf{k})}$$
+                    </div>
+                    <p class="text-gray-400 text-sm mt-3">
+                        $\xi_r, \xi_i$ 是独立的高斯随机数，引入随机性以模拟自然海浪的不可预测性。$\sqrt{P(\mathbf{k})}$ 确保能量分布符合Phillips模型。
+                    </p>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">4.4 时间演化与色散关系</h3>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    海浪随时间演化遵循<strong>色散关系</strong>（Dispersion Relation），描述波数与角频率的关系：
+                </p>
+
+                <div class="formula-box">
+                    <div class="text-center text-base my-4">
+                        $$\omega(\mathbf{k}) = \sqrt{g \cdot |\mathbf{k}|}$$
+                    </div>
+                    <p class="text-gray-400 text-sm">
+                        $g \approx 9.81 m/s^2$ 为重力加速度。这个关系意味着<strong>长波传播更快</strong>，是海浪物理的核心特征。
+                    </p>
+                </div>
+
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    时刻 $t$ 的频谱通过欧拉公式演化：
+                </p>
+
+                <div class="formula-box">
+                    <div class="text-center text-base my-4">
+                        $$\tilde{h}(\mathbf{k}, t) = h_0(\mathbf{k}) \cdot e^{i\omega t} + h_0^*(-\mathbf{k}) \cdot e^{-i\omega t}$$
+                    </div>
+                    <p class="text-gray-400 text-sm">
+                        第二项是共轭对称项，确保IFFT结果为正实数。$h_0^*$ 表示复共轭。
+                    </p>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">4.5 位移与法线计算</h3>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    为提高视觉真实感，除了垂直位移 $\eta$ 外，还需计算<strong>水平位移</strong>（choppiness）和<strong>法线</strong>。
+                </p>
+
+                <div class="formula-box">
+                    <div class="grid grid-cols-1 gap-4">
+                        <div>
+                            <strong class="text-gray-300">水平位移场（Choppiness）：</strong>
+                            <div class="text-center my-2">
+                                $$D_x(\mathbf{x}, t) = \sum_{\mathbf{k}} -i\frac{k_x}{|k|} \cdot \tilde{h}(\mathbf{k}, t) \cdot e^{i\mathbf{k}\cdot\mathbf{x}}$$
+                            </div>
+                            <div class="text-center my-2">
+                                $$D_z(\mathbf{x}, t) = \sum_{\mathbf{k}} -i\frac{k_y}{|k|} \cdot \tilde{h}(\mathbf{k}, t) \cdot e^{i\mathbf{k}\cdot\mathbf{x}}$$
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <strong class="text-gray-300">法线计算：</strong>
+                            <p class="text-gray-400 text-sm mt-2">
+                                法线可通过位移场的梯度直接计算，避免额外的叉乘运算：
+                            </p>
+                            <div class="text-center my-2">
+                                $$\mathbf{n} = \text{normalize}\left(-\frac{\partial \eta}{\partial x}, 1, -\frac{\partial \eta}{\partial z}\right)$$
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-analysis-box" style="border-color: #06ffa540;">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-lg font-semibold" style="color: #06ffa5;">⚡ 性能优化提示</span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">
+                        在GPU实现中，水平位移和法线计算可以<strong>复用IFFT的中间结果</strong>。通过输出多通道纹理（RGBA32F），单次FFT pass即可同时输出高度、水平位移X、水平位移Z和法线信息，显著减少显存带宽。
+                    </p>
+                </div>
+            </section>
+
+            <!-- Section 5: Procedural Water -->
+            <section id="procedural-water" class="mb-12">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <span class="section-number">5</span>
+                    程序化水波纹理（Houdini WPO工作流）
+                </h2>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    虽然FFT提供了高质量的开阔海洋模拟，但对于中小型水体（池塘、湖泊、河流）和性能受限平台，<strong>程序化纹理动画</strong>是更实用的选择。Houdini作为程序化内容生成（PCG）的行业标准工具，可以高效生成适用于World Position Offset（WPO）的循环动画纹理。
+                </p>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200">5.1 Gerstner波理论基础</h3>
+                
+                <div class="tech-analysis-box" style="border-color: #8338ec40;">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-lg font-semibold" style="color: #8338ec;">🔷 Gerstner vs 正弦波</span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">
+                        相比简单的正弦波顶点动画，<strong>Gerstner波</strong>（也称为Trochoidal波）能生成更尖锐的波峰和更平坦的波谷，视觉上更接近真实海浪。其核心思想是：水质点沿圆形轨道运动，而非仅垂直运动。
+                    </p>
+                </div>
+
+                <div class="formula-box">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-warning font-semibold">📐 Gerstner波公式</span>
+                    </div>
+                    <p class="text-gray-400 text-sm mb-3">对于第 $i$ 个波，顶点位置 $\mathbf{P} = (x, z)$ 的位移为：</p>
+                    <div class="text-center text-base my-4">
+                        $$\mathbf{P}' = \mathbf{P} - \mathbf{D}_i \cdot Q_i \cdot A_i \cdot \sin(\mathbf{D}_i \cdot \mathbf{P} \cdot w_i + t \cdot \phi_i)$$
+                    </div>
+                    <div class="text-center text-base my-4">
+                        $$y = A_i \cdot \cos(\mathbf{D}_i \cdot \mathbf{P} \cdot w_i + t \cdot \phi_i)$$
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 mt-4 text-sm text-gray-400">
+                        <div>$\mathbf{D}_i$: 波传播方向</div>
+                        <div>$Q_i$: 陡峭度控制 ($0 \leq Q \leq 1$)</div>
+                        <div>$A_i$: 波幅</div>
+                        <div>$w_i$: 频率 ($2\pi/\lambda$)</div>
+                        <div>$\phi_i$: 相位速度</div>
+                        <div>$t$: 时间</div>
+                    </div>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">5.2 Houdini WPO纹理生成</h3>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    Houdini的VEX（Vector Expression）语言提供了强大的程序化控制能力，可以烘焙出无缝循环的水面动画纹理。
+                </p>
+
+                <div class="code-box">
+                    <div class="code-header">
+                        <div class="code-dots"><span></span><span></span><span></span></div>
+                        <span>Houdini VEX - WPO纹理生成</span>
+                    </div>
+                    <pre><code class="language-c">// Houdini VEX: 生成WPO动画纹理
+// 运行于Grid节点的Point Wrangle
+
+// 参数定义
+float Time = @Time;           // 当前时间
+float LoopDuration = 4.0;     // 循环周期(秒)
+int   NumWaves = 8;           // 叠加波数量
+float AmpBase = 0.5;          // 基础振幅
+float FreqBase = 2.0;         // 基础频率
+
+// 计算循环时间
+float loopTime = Time % LoopDuration;
+
+// 初始化位移
+vector displacement = {0, 0, 0};
+vector normal = {0, 1, 0};
+
+for(int i = 0; i < NumWaves; i++) {
+    // 使用黄金角分布方向，避免波峰对齐
+    float angle = i * 2.39996;  // 黄金角
+    vector dir = set(cos(angle), 0, sin(angle));
+    
+    // 波长随索引增加而减小
+    float wavelength = 2.0 * PI / (FreqBase * (1.0 + i * 0.5));
+    float freq = 2.0 * PI / wavelength;
+    
+    // 振幅递减
+    float amp = AmpBase / (1.0 + i * 0.3);
+    
+    // 相位速度(色散关系近似)
+    float phaseSpeed = sqrt(9.81 / freq);
+    float phase = freq * (dot(dir, @P) - phaseSpeed * loopTime);
+    
+    // Gerstner位移
+    float Q = 0.8;  // 陡峭度
+    float WA = freq * amp;
+    
+    // 水平位移
+    displacement.x -= dir.x * Q * amp * sin(phase);
+    displacement.z -= dir.z * Q * amp * sin(phase);
+    
+    // 垂直位移
+    displacement.y += amp * cos(phase);
+    
+    // 累加法线(用于法线贴图烘焙)
+    float steep = Q * WA;
+    normal.x -= dir.x * steep * cos(phase);
+    normal.z -= dir.z * steep * cos(phase);
+}
+
+// 输出到属性
+@P += displacement;
+@N = normalize(normal);
+
+// 导出到纹理的RGB通道
+@Cd = set(displacement.x * 0.5 + 0.5, 
+           displacement.y * 0.5 + 0.5,
+           displacement.z * 0.5 + 0.5);</code></pre>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">5.3 无缝循环纹理烘焙</h3>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    为实现无缝循环动画，需要满足以下条件：
+                </p>
+
+                <div class="formula-box">
+                    <div class="text-center text-base my-4">
+                        $$\eta(\mathbf{x}, t + T_{loop}) = \eta(\mathbf{x}, t) \quad \forall \mathbf{x}, t$$
+                    </div>
+                    <p class="text-gray-400 text-sm mt-3">
+                        关键约束：<strong>所有波在循环周期 $T_{loop}$ 内必须完成整数个周期</strong>。这要求波的相位速度 $c_i$ 满足 $c_i \cdot T_{loop} / \lambda_i \in \mathbb{Z}$。
+                    </p>
+                </div>
+
+                <div class="code-box">
+                    <div class="code-header">
+                        <div class="code-dots"><span></span><span></span><span></span></div>
+                        <span>Houdini - 无缝循环约束计算</span>
+                    </div>
+                    <pre><code class="language-c">// 计算满足循环约束的相位速度
+// 关键：波在LoopDuration内传播整数倍波长
+
+float LoopDuration = chf("loop_duration");  // UI参数
+
+for(int i = 0; i < NumWaves; i++) {
+    float wavelength = BaseWavelength / (i + 1);
+    
+    // 基础相位速度(深水波近似)
+    float c_base = sqrt(9.81 * wavelength / (2 * PI));
+    
+    // 调整速度以满足循环约束
+    // 传播距离 = c * LoopDuration
+    // 需要: c * LoopDuration = N * wavelength (N为整数)
+    int N = max(1, int(c_base * LoopDuration / wavelength));
+    float c_adjusted = N * wavelength / LoopDuration;
+    
+    // 使用调整后的速度计算相位
+    float phaseSpeed = c_adjusted;
+}</code></pre>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">5.4 UE材质中的WPO应用</h3>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    烘焙后的WPO纹理在UE材质中通过World Position Offset通道应用，实现GPU端的高效顶点动画。
+                </p>
+
+                <div class="code-box">
+                    <div class="code-header">
+                        <div class="code-dots"><span></span><span></span><span></span></div>
+                        <span>UE Material HLSL - WPO采样</span>
+                    </div>
+                    <pre><code class="language-c">// Unreal Engine Custom HLSL Node
+// 输入: UV, Time, Texture, Scale
+// 输出: World Position Offset
+
+// 从纹理解码位移
+float4 DisplacementRaw = Texture2DSample(Tex, TexSampler, UV);
+
+// 从[0,1]解码到[-1,1]范围
+float3 Displacement = (DisplacementRaw.rgb - 0.5) * 2.0;
+
+// 应用缩放
+Displacement *= DisplacementScale;
+
+// 可选：添加次级细节层
+float2 DetailUV = UV * DetailTiling;
+float4 DetailRaw = Texture2DSample(DetailTex, DetailSampler, DetailUV + Time * DetailSpeed);
+float3 DetailDisp = (DetailRaw.rgb - 0.5) * 2.0 * DetailScale;
+Displacement += DetailDisp;
+
+// 输出到WPO
+return Displacement;</code></pre>
+                </div>
+
+                <div class="tech-analysis-box" style="border-color: #ffbe0b40;">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-lg font-semibold" style="color: #ffbe0b;">💡 WPO vs 顶点动画纹理(VAT)</span>
+                    </div>
+                    <table class="w-full text-sm mt-2">
+                        <thead>
+                            <tr class="border-b border-gray-700">
+                                <th class="text-left py-2">特性</th>
+                                <th class="text-left">WPO纹理</th>
+                                <th class="text-left">VAT</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-gray-300">
+                            <tr>
+                                <td class="py-2">存储方式</td>
+                                <td>2D纹理(位移场)</td>
+                                <td>3D纹理/序列帧</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2">内存占用</td>
+                                <td>低(单张纹理)</td>
+                                <td>高(多帧序列)</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2">适用场景</td>
+                                <td>大面积水面</td>
+                                <td>复杂刚体变形</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2">法线精度</td>
+                                <td>需单独烘焙法线贴图</td>
+                                <td>可导出逐顶点法线</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Section 6: Buoyancy -->
+            <section id="buoyancy" class="mb-12">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <span class="section-number">6</span>
+                    实时浮力系统
+                </h2>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    浮力系统是水面交互的核心。在独立游戏中，需要在<strong>物理真实性与计算成本</strong>之间找到平衡点，通常采用简化的阿基米德原理近似。
+                </p>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200">6.1 物理基础：阿基米德原理</h3>
+                
+                <div class="formula-box">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-warning font-semibold">📐 浮力公式</span>
+                    </div>
+                    <div class="text-center text-lg my-4">
+                        $$\mathbf{F}_{buoyancy} = -\rho_{water} \cdot g \cdot V_{submerged} \cdot \mathbf{\hat{y}}$$
+                    </div>
+                    <p class="text-gray-400 text-sm">
+                        $\rho_{water}$: 水密度 (通常 $1000 kg/m^3$)<br>
+                        $V_{submerged}$: 物体浸没体积<br>
+                        $\mathbf{\hat{y}}$: 垂直向上单位向量
+                    </p>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">6.2 采样点法浮力近似</h3>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    实时计算精确浸没体积成本过高，常用方法是将物体简化为<strong>多个采样点</strong>，在每个点独立计算浮力。
+                </p>
+
+                <div class="arch-diagram">
+                    <h4 class="text-center text-gray-300 mb-4 font-semibold">浮力采样点分布策略</h4>
+                    <div class="grid grid-cols-3 gap-4 text-center">
+                        <div class="arch-node">
+                            <strong>均匀网格</strong><br>
+                            <span class="text-xs text-gray-500">简单物体</span>
+                            <div class="mt-2 text-2xl">· · ·<br>· · ·<br>· · ·</div>
+                        </div>
+                        <div class="arch-node" style="border-color: #3a86ff;">
+                            <strong>边界优先</strong><br>
+                            <span class="text-xs text-gray-500">船体等细长体</span>
+                            <div class="mt-2 text-2xl">□ □ □<br>□   □<br>□ □ □</div>
+                        </div>
+                        <div class="arch-node">
+                            <strong>自适应</strong><br>
+                            <span class="text-xs text-gray-500">动态精度</span>
+                            <div class="mt-2 text-2xl">·<br>· · ·<br>· · · · ·</div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">6.3 蓝图实现</h3>
+
+                <div class="code-box">
+                    <div class="code-header">
+                        <div class="code-dots"><span></span><span></span><span></span></div>
+                        <span>UE Blueprint - 浮力组件核心逻辑</span>
+                    </div>
+                    <pre><code class="language-python"># Unreal Engine Blueprint (Python风格伪代码)
+# Buoyancy Component - Tick Event
+
+def ApplyBuoyancy():
+    # 参数配置
+    WaterDensity = 1000.0        # kg/m³
+    Gravity = 981.0              # cm/s² (UE单位)
+    Damping = 0.3                # 阻尼系数
+    
+    # 获取物理组件
+    Primitive = GetOwner().RootComponent
+    if not Primitive.IsSimulatingPhysics():
+        return
+    
+    TotalBuoyancyForce = Vector(0, 0, 0)
+    TotalTorque = Vector(0, 0, 0)
+    
+    # 遍历所有采样点
+    for SamplePoint in BuoyancySamplePoints:
+        WorldPos = SamplePoint.GetWorldLocation()
+        
+        # 查询水面高度 (Blueprint Implementable Event)
+        WaterHeight = GetWaterHeightAtLocation(WorldPos.X, WorldPos.Y)
+        
+        # 计算浸没深度
+        Depth = WaterHeight - WorldPos.Z
+        
+        if Depth > 0:  # 在水下
+            # 计算该点的浮力
+            # 假设每个采样点代表固定体积 V = BuoyancyVolume / NumPoints
+            SubmergedVolume = (Depth / SamplePointMaxDepth) * PointRepresentedVolume
+            SubmergedVolume = Clamp(SubmergedVolume, 0, PointRepresentedVolume)
+            
+            # 阿基米德浮力
+            BuoyancyMagnitude = WaterDensity * Gravity * SubmergedVolume
+            BuoyancyForce = Vector(0, 0, BuoyancyMagnitude)
+            
+            # 添加阻尼力 (与速度反向)
+            Velocity = Primitive.GetPhysicsLinearVelocityAtPoint(WorldPos)
+            DampingForce = -Velocity * Damping * SubmergedVolume
+            
+            TotalForce = BuoyancyForce + DampingForce
+            
+            # 施加力
+            Primitive.AddForceAtLocation(TotalForce, WorldPos)
+            
+            # 累加用于调试可视化
+            TotalBuoyancyForce += TotalForce
+    
+    # 可选：添加额外的阻力
+    Velocity = Primitive.GetPhysicsLinearVelocity()
+    DragForce = -Velocity * GetDragCoefficient() * Velocity.Size()
+    Primitive.AddForce(DragForce)</code></pre>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">6.4 水面高度查询接口</h3>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    浮力系统需要高效查询任意位置的水面高度。根据LOD级别，可采用不同策略：
+                </p>
+
+                <div class="code-box">
+                    <div class="code-header">
+                        <div class="code-dots"><span></span><span></span><span></span></div>
+                        <span>UE C++ - 水面查询接口</span>
+                    </div>
+                    <pre><code class="language-c">// WaterSubsystem.h
+// 提供统一的水面高度查询接口
+
+UCLASS()
+class MYGAME_API UWaterSubsystem : public UWorldSubsystem
+{
+    GENERATED_BODY()
+    
+public:
+    // 获取指定位置的水面高度
+    // 自动选择最高效的查询方式
+    UFUNCTION(BlueprintCallable, Category = "Water")
+    float GetWaterHeightAtLocation(float X, float Y, EWaterLOD LOD = EWaterLOD::Auto);
+    
+    // 同时返回高度、法线和流速
+    UFUNCTION(BlueprintCallable, Category = "Water")
+    FWaterSurfaceInfo GetWaterSurfaceInfo(FVector2D Location);
+    
+private:
+    // LOD策略
+    float QueryFFT(float X, float Y);        // 最高精度，GPU回读
+    float QueryDisplacementMap(float X, float Y);  // 采样渲染目标
+    float QueryGerstner(float X, float Y);   // 程序化计算
+    float QueryFlat(float X, float Y);       // 平面水面(最低成本)
+};
+
+// 实现示例
+float UWaterSubsystem::GetWaterHeightAtLocation(float X, float Y, EWaterLOD LOD)
+{
+    if (LOD == EWaterLOD::Auto)
+    {
+        // 根据距离摄像机远近自动选择LOD
+        FVector CameraPos = GetWorld()->GetFirstPlayerController()->GetCameraLocation();
+        float Dist = FVector2D::Distance(FVector2D(X, Y), FVector2D(CameraPos.X, CameraPos.Y));
+        
+        if (Dist < 1000.0f)       // 10米内
+            LOD = EWaterLOD::High;
+        else if (Dist < 5000.0f)  // 50米内
+            LOD = EWaterLOD::Medium;
+        else
+            LOD = EWaterLOD::Low;
+    }
+    
+    switch (LOD)
+    {
+        case EWaterLOD::High:   return QueryDisplacementMap(X, Y);
+        case EWaterLOD::Medium: return QueryGerstner(X, Y);
+        case EWaterLOD::Low:    return QueryFlat(X, Y);
+        default: return 0.0f;
+    }
+}</code></pre>
+                </div>
+
+                <div class="tech-analysis-box" style="border-color: #ff006e40;">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-lg font-semibold" style="color: #ff006e;">⚠️ GPU回读的性能陷阱</span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed">
+                        从GPU读取FFT结果（RenderTarget）到CPU会触发<strong>管线停顿</strong>，严重影响性能。解决方案：
+                        <br><br>
+                        1. <strong>异步回读</strong>: 使用Staging Texture延迟读取，允许1-2帧的延迟<br>
+                        2. <strong>预测插值</strong>: 基于上一帧数据外推当前帧高度<br>
+                        3. <strong>纯GPU浮力</strong>: 对非交互式物体使用Compute Shader计算浮力
+                    </p>
+                </div>
+            </section>
+
+            <!-- Section 7: Niagara -->
+            <section id="niagara" class="mb-12">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <span class="section-number">7</span>
+                    Niagara水特效集成
+                </h2>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    UE5的Niagara系统提供了与水面深度交互的能力，可以创建动态水花、泡沫轨迹和涟漪效果。
+                </p>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200">7.1 粒子-水面交互架构</h3>
+                
+                <div class="arch-diagram">
+                    <h4 class="text-center text-gray-300 mb-4 font-semibold">Niagara粒子与水面交互流程</h4>
+                    <div class="flex flex-col items-center">
+                        <div class="arch-node" style="background: rgba(255, 0, 110, 0.15);">
+                            <strong>碰撞检测</strong><br>
+                            <span class="text-xs text-gray-500">粒子位置 vs 水面高度</span>
+                        </div>
+                        <div class="text-accent text-2xl my-2">↓</div>
+                        <div class="arch-node" style="background: rgba(131, 56, 236, 0.15);">
+                            <strong>事件触发</strong><br>
+                            <span class="text-xs text-gray-500">生成碰撞事件</span>
+                        </div>
+                        <div class="text-accent text-2xl my-2">↓</div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="arch-node">
+                                <strong>粒子响应</strong><br>
+                                <span class="text-xs text-gray-500">反弹/消亡/生成子粒子</span>
+                            </div>
+                            <div class="arch-node">
+                                <strong>水面反馈</strong><br>
+                                <span class="text-xs text-gray-500">涟漪贴图/泡沫生成</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">7.2 Niagara模块脚本</h3>
+
+                <div class="code-box">
+                    <div class="code-header">
+                        <div class="code-dots"><span></span><span></span><span></span></div>
+                        <span>Niagara Module Script - 水面碰撞检测</span>
+                    </div>
+                    <pre><code class="language-c">// Niagara Module Script (HLSL-like syntax)
+// 在Particle Update阶段执行
+
+// 输入参数
+float3 ParticlePosition;    // 当前粒子位置
+float WaterLevel;          // 静态水面高度(基础)
+Texture2D DisplacementMap; // FFT位移贴图
+float4 DisplacementMapUV;  // 世界到UV变换
+
+// 计算实际水面高度(含波浪)
+float2 UV = ParticlePosition.xy * DisplacementMapUV.xy + DisplacementMapUV.zw;
+float3 Displacement = Texture2DSample(DisplacementMap, UV).rgb;
+float ActualWaterHeight = WaterLevel + Displacement.z;  // z分量是垂直位移
+
+// 碰撞检测
+bool bIsUnderWater = ParticlePosition.z < ActualWaterHeight;
+bool bWasAboveWater = ParticlePosition.z - Velocity.z * DeltaTime >= ActualWaterHeight;
+
+if (bIsUnderWater && bWasAboveWater)
+{
+    // 触发水面进入事件
+    Interp.SpawnCount = 1;  // 生成子粒子(水花)
+    
+    // 计算碰撞法线
+    float3 Normal;
+    Normal.x = -Displacement.x;  // 水平位移导数
+    Normal.z = -Displacement.y;  // 注意:纹理中y是水平位移z
+    Normal.y = 1.0;
+    Normal = normalize(Normal);
+    
+    // 反射速度
+    float3 ReflectedVelocity = reflect(Velocity, Normal);
+    Velocity = ReflectedVelocity * Damping;
+    
+    // 标记碰撞点
+    CollisionPoint = ParticlePosition;
+    CollisionNormal = Normal;
+}
+else if (bIsUnderWater)
+{
+    // 水下运动：添加浮力和阻力
+    float3 Buoyancy = float3(0, 0, 1) * BuoyancyStrength;
+    float3 Drag = -Velocity * UnderwaterDrag;
+    Velocity += (Buoyancy + Drag) * DeltaTime;
+}</code></pre>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">7.3 涟漪渲染系统</h3>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    粒子碰撞产生的水面涟漪通过<strong>渲染目标（Render Target）</strong>系统实现，与FFT水面叠加。
+                </p>
+
+                <div class="arch-diagram">
+                    <h4 class="text-center text-gray-300 mb-4 font-semibold">涟漪传播模拟架构</h4>
+                    <div class="grid grid-cols-4 gap-2 text-center text-xs">
+                        <div class="arch-node">
+                            <strong>RT_Current</strong><br>
+                            <span class="text-gray-500">当前帧涟漪高度</span>
+                        </div>
+                        <div class="arch-node">
+                            <strong>RT_Previous</strong><br>
+                            <span class="text-gray-500">上一帧涟漪高度</span>
+                        </div>
+                        <div class="arch-node">
+                            <strong>RT_Velocity</strong><br>
+                            <span class="text-gray-500">涟漪速度场</span>
+                        </div>
+                        <div class="arch-node">
+                            <strong>RT_Accumulated</strong><br>
+                            <span class="text-gray-500">持久泡沫/尾迹</span>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4 text-gray-400 text-sm">
+                        使用<strong>波动方程</strong>数值求解：$\frac{\partial^2 u}{\partial t^2} = c^2 \nabla^2 u - d \frac{\partial u}{\partial t}$
+                    </div>
+                </div>
+
+                <div class="code-box">
+                    <div class="code-header">
+                        <div class="code-dots"><span></span><span></span><span></span></div>
+                        <span>UE Material - 涟漪叠加</span>
+                    </div>
+                    <pre><code class="language-c">// 水面材质 - 涟漪叠加部分
+// 在Base Color或Normal通道应用
+
+// 采样涟漪渲染目标
+float2 RippleUV = WorldPosition.xy / RippleMapSize + 0.5;
+float RippleHeight = Texture2DSample(RippleRT, RippleUV).r;
+
+// 计算涟漪法线(从高度场梯度)
+float2 TexelSize = 1.0 / RippleMapSize;
+float RippleLeft = Texture2DSample(RippleRT, RippleUV + float2(-TexelSize.x, 0)).r;
+float RippleRight = Texture2DSample(RippleRT, RippleUV + float2(TexelSize.x, 0)).r;
+float RippleUp = Texture2DSample(RippleRT, RippleUV + float2(0, TexelSize.y)).r;
+float RippleDown = Texture2DSample(RippleRT, RippleUV + float2(0, -TexelSize.y)).r;
+
+float3 RippleNormal;
+RippleNormal.x = (RippleLeft - RippleRight) * RippleNormalStrength;
+RippleNormal.y = (RippleDown - RippleUp) * RippleNormalStrength;
+RippleNormal.z = 1.0;
+RippleNormal = normalize(RippleNormal);
+
+// 与FFT法线混合
+float3 FinalNormal = BlendAngleCorrectedNormals(FFTNormal, RippleNormal);</code></pre>
+                </div>
+            </section>
+
+            <!-- Section 8: Optimization -->
+            <section id="optimization" class="mb-12">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <span class="section-number">8</span>
+                    性能优化策略
+                </h2>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    独立游戏的性能优化需要系统性的方法，从CPU到GPU、从几何到像素，每个环节都有优化空间。
+                </p>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200">8.1 LOD层级系统</h3>
+                
+                <table class="w-full text-sm my-4 sym-table">
+                    <thead>
+                        <tr>
+                            <th>距离</th>
+                            <th>几何细分</th>
+                            <th>材质复杂度</th>
+                            <th>FFT更新</th>
+                            <th>物理交互</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2">0-10m</td>
+                            <td>128×128分段</td>
+                            <td>完整PBR + 折射</td>
+                            <td>每帧</td>
+                            <td>高频浮力</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">10-50m</td>
+                            <td>64×64分段</td>
+                            <td>简化折射</td>
+                            <td>每2帧</td>
+                            <td>低频浮力</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">50-200m</td>
+                            <td>32×32分段</td>
+                            <td>法线贴图</td>
+                            <td>每4帧</td>
+                            <td>无</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">200m+</td>
+                            <td>平面</td>
+                            <td>镜面反射</td>
+                            <td>无</td>
+                            <td>无</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">8.2 视锥剔除与遮挡</h3>
+
+                <div class="code-box">
+                    <div class="code-header">
+                        <div class="code-dots"><span></span><span></span><span></span></div>
+                        <span>C++ - 水面剔除优化</span>
+                    </div>
+                    <pre><code class="language-c">// WaterMeshComponent.cpp
+
+void UWaterMeshComponent::UpdateCullStatus()
+{
+    // 视锥剔除
+    if (!Scene->GetViewFrustum().Intersects(BoundingBox))
+    {
+        bVisible = false;
+        return;
+    }
+    
+    // 距离剔除
+    float Distance = (Bounds.Origin - ViewLocation).Size();
+    if (Distance > MaxRenderDistance)
+    {
+        bVisible = false;
+        return;
+    }
+    
+    // 地平线以下剔除
+    // 利用地球曲率近似快速排除远距离水面
+    float HorizonDistance = 3.57 * sqrt(ViewLocation.Z / 100.0f);  // km
+    if (Distance > HorizonDistance * 100000.0f && ViewLocation.Z < 1000.0f)
+    {
+        bVisible = false;
+        return;
+    }
+    
+    // 遮挡查询 (使用前一帧深度图)
+    if (bUseOcclusionCulling)
+    {
+        FBox2D ScreenBox = ProjectBoxToScreen(BoundingBox);
+        float OcclusionRatio = QueryOcclusion(ScreenBox);
+        if (OcclusionRatio < 0.05f)  // 95%被遮挡
+        {
+            bVisible = false;
+            return;
+        }
+    }
+    
+    bVisible = true;
+}</code></pre>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">8.3 Draw Call合并</h3>
+                
+                <div class="tech-analysis-box" style="border-color: #06ffa540;">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-lg font-semibold" style="color: #06ffa5;">🚀 GPU Instancing策略</span>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed mb-3">
+                        对于漂浮物(浮标、碎片等)，使用GPU Instancing批量渲染：
+                    </p>
+                    <ul class="space-y-1 text-gray-400 text-sm">
+                        <li>• 将漂浮物位置/旋转数据存储在StructuredBuffer中</li>
+                        <li>• 在Vertex Shader中采样FFT位移图计算世界位置</li>
+                        <li>• 单次Draw Call渲染数千个实例</li>
+                    </ul>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">8.4 显存带宽优化</h3>
+                
+                <table class="w-full text-sm my-4 sym-table">
+                    <thead>
+                        <tr>
+                            <th>技术</th>
+                            <th>带宽节省</th>
+                            <th>实现复杂度</th>
+                            <th>说明</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2">通道打包</td>
+                            <td>~50%</td>
+                            <td>低</td>
+                            <td>位移(XY) + 法线(ZW) 存入RGBA16F</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">BC6H压缩</td>
+                            <td>~75%</td>
+                            <td>中</td>
+                            <td>用于静态或低频更新的纹理</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">半精度计算</td>
+                            <td>~50%</td>
+                            <td>中</td>
+                            <td>FF16 Shader，注意精度溢出</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">Tile-Based更新</td>
+                            <td>可变</td>
+                            <td>高</td>
+                            <td>仅更新可见区域的FFT</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Section 9: Toolchain -->
+            <section id="toolchain" class="mb-12">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <span class="section-number">9</span>
+                    工具链与自动化
+                </h2>
+                
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    高效的工具链是独立游戏开发的关键。通过自动化脚本和标准化流程，可以大幅减少重复性工作。
+                </p>
+
+                <div class="arch-diagram">
+                    <h4 class="text-center text-gray-300 mb-4 font-semibold">Blender-Houdini-UE 自动化工作流</h4>
+                    <div class="flex flex-wrap justify-center items-center gap-2">
+                        <div class="arch-node" style="background: rgba(255, 190, 11, 0.1);">
+                            <strong>Blender</strong><br>
+                            <span class="text-xs text-gray-500">资产创建</span>
+                        </div>
+                        <span class="arch-arrow">→</span>
+                        <div class="arch-node" style="font-size: 0.75rem; background: rgba(6, 255, 165, 0.1);">
+                            <strong>导出脚本</strong><br>
+                            .fbx/.abc
+                        </div>
+                        <span class="arch-arrow">→</span>
+                        <div class="arch-node" style="background: rgba(255, 0, 110, 0.1);">
+                            <strong>Houdini</strong><br>
+                            <span class="text-xs text-gray-500">程序化生成</span>
+                        </div>
+                        <span class="arch-arrow">→</span>
+                        <div class="arch-node" style="font-size: 0.75rem; background: rgba(6, 255, 165, 0.1);">
+                            <strong>烘焙脚本</strong><br>
+                            .exr序列
+                        </div>
+                        <span class="arch-arrow">→</span>
+                        <div class="arch-node" style="background: rgba(58, 134, 255, 0.1);">
+                            <strong>UE5</strong><br>
+                            <span class="text-xs text-gray-500">导入/应用</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200">9.1 Houdini PDG自动化</h3>
+
+                <div class="code-box">
+                    <div class="code-header">
+                        <div class="code-dots"><span></span><span></span><span></span></div>
+                        <span>Houdini PDG - 批量WPO纹理生成</span>
+                    </div>
+                    <pre><code class="language-python"># Houdini Python PDG (TOPs) 脚本
+# 批量生成多组WPO参数变体
+
+import hou
+
+# 定义参数空间
+WaveCounts = [4, 8, 16]
+Amplitudes = [0.3, 0.5, 0.8]
+Durations = [2.0, 4.0, 8.0]
+
+# PDG工作项生成
+for wave_count in WaveCounts:
+    for amp in Amplitudes:
+        for duration in Durations:
+            # 创建工作项
+            work_item = pdg.WorkItem(context)
+            
+            # 设置属性
+            work_item.setInt("wave_count", wave_count)
+            work_item.setFloat("amplitude", amp)
+            work_item.setFloat("duration", duration)
+            
+            # 输出路径
+            output_name = f"WPO_W{wave_count}_A{int(amp*10)}_D{int(duration)}.exr"
+            work_item.setString("output_path", f"$HIP/export/{output_name}")
+            
+            # 提交工作项
+            context.addWorkItem(work_item)
+
+# ROP Fetch TOP将自动为每个工作项执行HDA烘焙</code></pre>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">9.2 UE编辑器工具脚本</h3>
+
+                <div class="code-box">
+                    <div class="code-header">
+                        <div class="code-dots"><span></span><span></span><span></span></div>
+                        <span>Python - UE5自动导入与材质创建</span>
+                    </div>
+                    <pre><code class="language-python"># UE5 Python脚本 - 自动化导入WPO纹理并创建材质
+import unreal
+
+def create_water_material(texture_path, material_name):
+    """从WPO纹理创建水面材质实例"""
+    
+    # 获取内容浏览器路径
+    base_path = "/Game/Materials/Water"
+    
+    # 加载基础水材质
+    parent_material = unreal.EditorAssetLibrary.load_asset(
+        "/Game/Materials/Masters/M_Water_Master"
+    )
+    
+    # 创建材质实例
+    factory = unreal.MaterialInstanceConstantFactoryNew()
+    factory.set_editor_property("parent", parent_material)
+    
+    asset_path = f"{base_path}/{material_name}"
+    
+    # 创建资产
+    asset_tools = unreal.AssetToolsHelpers.get_asset_tools()
+    mic = asset_tools.create_asset(
+        material_name,
+        base_path,
+        unreal.MaterialInstanceConstant,
+        factory
+    )
+    
+    # 设置纹理参数
+    wpo_texture = unreal.EditorAssetLibrary.load_asset(texture_path)
+    
+    # 获取材质属性
+    editor_property = unreal.MaterialInstanceConstant
+    
+    # 设置参数 (需要通过C++扩展或Property访问)
+    unreal.MaterialEditingLibrary.set_material_instance_texture_parameter_value(
+        mic, "WPO_Texture", wpo_texture
+    )
+    
+    # 保存
+    unreal.EditorAssetLibrary.save_asset(asset_path)
+    
+    unreal.log(f"Created water material: {asset_path}")
+    return mic
+
+# 批量导入纹理并创建材质
+import_folder = "C:/HoudiniExports/"
+texture_files = ["WPO_W8_A5_D4.exr", "WPO_W16_A8_D8.exr"]
+
+for tex_file in texture_files:
+    # 导入纹理
+    import_path = import_folder + tex_file
+    task = unreal.AssetImportTask()
+    task.filename = import_path
+    task.destination_path = "/Game/Textures/Water"
+    task.automated = True
+    
+    unreal.AssetToolsHelpers.get_asset_tools().import_asset_tasks([task])
+    
+    # 创建对应材质
+    mat_name = tex_file.replace(".exr", "_Mat")
+    tex_path = f"/Game/Textures/Water/{tex_file.replace('.exr', '')}"
+    create_water_material(tex_path, mat_name)</code></pre>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">9.3 版本控制与资产管理</h3>
+                
+                <div class="tech-analysis-box" style="border-color: #3a86ff40;">
+                    <div class="flex items-center gap-2 mb-3">
+                        <span class="text-lg font-semibold" style="color: #3a86ff;">📁 推荐目录结构</span>
+                    </div>
+                    <pre class="text-sm text-gray-300 mt-2" style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px;">/Content
+  /WaterSystem
+    /Blueprints/
+      BP_WaterManager.uasset
+      BP_BuoyancyComponent.uasset
+    /Materials/
+      /Masters/
+        M_Water_Master.uasset
+        M_Water_FFT.uasset
+      /Instances/
+        MI_Water_Pond.uasset
+        MI_Water_Ocean.uasset
+    /Textures/
+      /FFT/
+        T_FFT_Displacement.uasset
+        T_FFT_Normal.uasset
+      /WPO/
+        T_WPO_Waves01.uasset
+    /Niagara/
+      NS_WaterSplash.uasset
+      NS_WaterRipples.uasset
+    /Shaders/
+      MF_FFT_Generation.ush
+      MF_Water_BSDF.ush</pre>
+                </div>
+            </section>
+
+            <!-- Section 10: Code Reference -->
+            <section id="code-reference" class="mb-12">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <span class="section-number">10</span>
+                    完整代码参考
+                </h2>
+                
+                <h3 class="text-lg font-semibold mb-3 text-gray-200">10.1 UE5 C++ FFT海洋组件</h3>
+
+                <div class="code-box">
+                    <div class="code-header">
+                        <div class="code-dots"><span></span><span></span><span></span></div>
+                        <span>FFTOceanComponent.h - 核心类定义</span>
+                    </div>
+                    <pre><code class="language-c">// FFTOceanComponent.h
+#pragma once
+
+#include "CoreMinimal.h"
+#include "Components/ActorComponent.h"
+#include "FFTOceanComponent.generated.h"
+
+UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
+class MYGAME_API UFFTOceanComponent : public UActorComponent
+{
+    GENERATED_BODY()
+
+public:
+    UFFTOceanComponent();
+    
+    virtual void BeginPlay() override;
+    virtual void TickComponent(float DeltaTime, ELevelTick TickType, 
+                               FActorComponentTickFunction* ThisTickFunction) override;
+    virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
+
+    // 参数配置
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="FFT Ocean")
+    int32 FFTResolution = 128;
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="FFT Ocean")
+    float PatchSize = 1000.0f;  // 世界单位(cm)
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="FFT Ocean")
+    float Amplitude = 100.0f;
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="FFT Ocean")
+    FVector2D WindDirection = FVector2D(1.0f, 0.0f);
+    
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="FFT Ocean")
+    float WindSpeed = 10.0f;
+    
+    // 输出纹理访问
+    UFUNCTION(BlueprintCallable, Category="FFT Ocean")
+    UTextureRenderTarget2D* GetDisplacementMap() const { return DisplacementTarget; }
+    
+    UFUNCTION(BlueprintCallable, Category="FFT Ocean")
+    UTextureRenderTarget2D* GetNormalMap() const { return NormalTarget; }
+    
+    // 水面高度查询
+    UFUNCTION(BlueprintCallable, Category="FFT Ocean")
+    float GetWaterHeightAtLocation(float X, float Y) const;
+
+protected:
+    void InitializeRenderTargets();
+    void UpdateSpectrum(float DeltaTime);
+    void ExecuteFFT();
+    float PhillipsSpectrum(FVector2D K) const;
+    
+    // 渲染目标
+    UPROPERTY()
+    UTextureRenderTarget2D* InitialSpectrumTarget;
+    
+    UPROPERTY()
+    UTextureRenderTarget2D* TimeSpectrumTarget;
+    
+    UPROPERTY()
+    UTextureRenderTarget2D* DisplacementTarget;
+    
+    UPROPERTY()
+    UTextureRenderTarget2D* NormalTarget;
+    
+    // 材质/材质实例
+    UPROPERTY()
+    UMaterialInterface* SpectrumGenerationMaterial;
+    
+    UPROPERTY()
+    UMaterialInterface* FFTMaterial;
+    
+    // 运行时状态
+    float CurrentTime = 0.0f;
+    TArray<FVector2D> GaussianRandoms;
+    bool bInitialized = false;
+};</code></pre>
+                </div>
+
+                <div class="code-box">
+                    <div class="code-header">
+                        <div class="code-dots"><span></span><span></span><span></span></div>
+                        <span>FFTOceanComponent.cpp - 关键实现</span>
+                    </div>
+                    <pre><code class="language-c">// FFTOceanComponent.cpp - 核心实现节选
+
+void UFFTOceanComponent::InitializeRenderTargets()
+{
+    // 创建渲染目标
+    auto CreateRT = [&](FName Name, bool bHDR = true) -> UTextureRenderTarget2D*
+    {
+        UTextureRenderTarget2D* RT = NewObject<UTextureRenderTarget2D>(this, Name);
+        RT->InitCustomFormat(FFTResolution, FFTResolution, PF_FloatRGBA, bHDR);
+        RT->AddressX = TA_Wrap;
+        RT->AddressY = TA_Wrap;
+        RT->Filter = TF_Bilinear;
+        RT->UpdateResource();
+        return RT;
+    };
+    
+    InitialSpectrumTarget = CreateRT(FName("InitialSpectrum"));
+    TimeSpectrumTarget = CreateRT(FName("TimeSpectrum"));
+    DisplacementTarget = CreateRT(FName("Displacement"));
+    NormalTarget = CreateRT(FName("Normal"));
+    
+    // 初始化高斯随机数 (用于Phillips谱)
+    GaussianRandoms.Reserve(FFTResolution * FFTResolution);
+    FRandomStream RandStream(12345);  // 固定种子保证可重复性
+    
+    for (int32 i = 0; i < FFTResolution * FFTResolution; i++)
+    {
+        // Box-Muller变换生成高斯分布
+        float U1 = RandStream.GetFraction();
+        float U2 = RandStream.GetFraction();
+        float R = FMath::Sqrt(-2.0f * FMath::Loge(U1));
+        float Theta = 2.0f * PI * U2;
+        
+        GaussianRandoms.Add(FVector2D(
+            R * FMath::Cos(Theta),
+            R * FMath::Sin(Theta)
+        ));
+    }
+    
+    bInitialized = true;
+}
+
+float UFFTOceanComponent::PhillipsSpectrum(FVector2D K) const
+{
+    float KLength = K.Size();
+    if (KLength < 0.0001f) return 0.0f;
+    
+    // Phillips谱参数
+    float L = WindSpeed * WindSpeed / 981.0f;  // 特征波长 (g = 981 cm/s²)
+    FVector2D KNorm = K / KLength;
+    FVector2D WNorm = WindDirection.GetSafeNormal();
+    
+    // 方向因子
+    float DotKW = FVector2D::DotProduct(KNorm, WNorm);
+    float DirectionalFactor = FMath::Pow(DotKW, 2);
+    
+    // 抑制与风向垂直的波
+    if (DotKW < 0.0f) DirectionalFactor *= 0.07f;
+    
+    // Phillips谱公式
+    float K2 = KLength * KLength;
+    float K4 = K2 * K2;
+    float L2 = L * L;
+    
+    float P = Amplitude * FMath::Exp(-1.0f / (K2 * L2)) / K4;
+    P *= DirectionalFactor;
+    
+    // 抑制小波长噪声
+    float KDotK = KLength * 0.0005f;  // 调整平滑因子
+    P *= FMath::Exp(-K2 * KDotK * KDotK);
+    
+    return P;
+}
+
+float UFFTOceanComponent::GetWaterHeightAtLocation(float X, float Y) const
+{
+    if (!DisplacementTarget) return 0.0f;
+    
+    // 将世界坐标转换为UV
+    float NormalizedX = FMath::Fmod(X / PatchSize, 1.0f);
+    float NormalizedY = FMath::Fmod(Y / PatchSize, 1.0f);
+    if (NormalizedX < 0) NormalizedX += 1.0f;
+    if (NormalizedY < 0) NormalizedY += 1.0f;
+    
+    // 读取渲染目标像素 (异步回读缓存)
+    // 注意：实际实现需要使用ENQUEUE_RENDER_COMMAND避免阻塞
+    // 这里简化处理
+    
+    return 0.0f;  // 需配合回读系统使用
+}</code></pre>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">10.2 蓝图节点图参考</h3>
+
+                <div class="arch-diagram">
+                    <h4 class="text-center text-gray-300 mb-4 font-semibold">浮力组件蓝图核心节点</h4>
+                    <div class="grid grid-cols-1 gap-2 text-sm">
+                        <div class="arch-node text-left">
+                            <strong>Event Tick</strong> → <strong>For Each Loop</strong> (BuoyancyPoints) → <strong>Get Water Height</strong>
+                        </div>
+                        <div class="arch-node text-left">
+                            <strong>Get Water Height</strong> → <strong>Float &gt; Float</strong> (Check if submerged) → <strong>Branch</strong>
+                        </div>
+                        <div class="arch-node text-left">
+                            <strong>If True</strong> → <strong>Calculate Buoyancy Force</strong> → <strong>Add Force at Location</strong>
+                        </div>
+                        <div class="arch-node text-left">
+                            <strong>Add Damping</strong> → <strong>Get Velocity at Point</strong> → <strong>Vector * Float</strong> → <strong>Add Force</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">10.3 Python批量工具</h3>
+
+                <div class="code-box">
+                    <div class="code-header">
+                        <div class="code-dots"><span></span><span></span><span></span></div>
+                        <span>Python - 性能分析工具</span>
+                    </div>
+                    <pre><code class="language-python"># water_profiler.py - 水面系统性能分析工具
+import unreal
+import json
+import time
+
+class WaterProfiler:
+    def __init__(self):
+        self.stats = {
+            "fft_update_ms": [],
+            "render_ms": [],
+            "buoyancy_query_ms": [],
+            "total_frame_ms": []
+        }
+    
+    def capture_frame_stats(self):
+        """捕获单帧统计数据"""
+        # 获取水面管理器
+        water_manager = unreal.GameplayStatics.get_actor_of_class(
+            unreal.EditorLevelLibrary.get_editor_world(),
+            unreal.load_class(None, "/Game/Blueprints/BP_WaterManager.BP_WaterManager_C")
+        )
+        
+        if not water_manager:
+            print("Water manager not found!")
+            return
+        
+        # 记录时间戳
+        frame_start = time.time()
+        
+        # FFT更新耗时
+        fft_start = time.time()
+        water_manager.call_method("UpdateFFT")
+        fft_end = time.time()
+        
+        self.stats["fft_update_ms"].append((fft_end - fft_start) * 1000)
+        
+        # 渲染耗时 (需要配合Unreal Insights)
+        # 这里使用简化的GPU时间查询
+        
+    
+    def generate_report(self, output_path):
+        """生成性能报告"""
+        report = {
+            "summary": {
+                "avg_fft_ms": sum(self.stats["fft_update_ms"]) / len(self.stats["fft_update_ms"]),
+                "max_fft_ms": max(self.stats["fft_update_ms"]),
+                "frame_count": len(self.stats["fft_update_ms"])
+            },
+            "recommendations": []
+        }
+        
+        # 自动优化建议
+        if report["summary"]["avg_fft_ms"] > 2.0:
+            report["recommendations"].append(
+                "FFT更新耗时过高，建议降低分辨率或降频更新"
+            )
+        
+        with open(output_path, 'w') as f:
+            json.dump(report, f, indent=2)
+        
+        print(f"Report saved to: {output_path}")
+        return report
+
+# 使用示例
+if __name__ == "__main__":
+    profiler = WaterProfiler()
+    
+    # 捕获60帧数据
+    for i in range(60):
+        profiler.capture_frame_stats()
+        time.sleep(0.016)  # 模拟帧间隔
+    
+    profiler.generate_report("C:/WaterProfiling/report.json")</code></pre>
+                </div>
+            </section>
+
+            <!-- Section 11: References -->
+            <section id="references" class="mb-12">
+                <h2 class="text-2xl font-bold mb-6 flex items-center">
+                    <span class="section-number">11</span>
+                    参考资源
+                </h2>
+                
+                <h3 class="text-lg font-semibold mb-3 text-gray-200">11.1 核心论文与经典文献</h3>
+                
+                <table class="w-full text-sm my-4 sym-table">
+                    <thead>
+                        <tr>
+                            <th class="w-16">年份</th>
+                            <th>标题</th>
+                            <th>作者</th>
+                            <th>贡献</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="py-2">1977</td>
+                            <td>Phillips Spectrum Model</td>
+                            <td>O.M. Phillips</td>
+                            <td>海浪功率谱理论基础</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">1986</td>
+                            <td>Simulating Ocean Water</td>
+                            <td>Alain Fournier, W.T. Reeves</td>
+                            <td>早期海洋模拟CG方法</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">2001</td>
+                            <td>Simulating Ocean Water (SIGGRAPH)</td>
+                            <td>Jerry Tessendorf</td>
+                            <td>FFFT海洋模拟工业标准</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">2004</td>
+                            <td>Deep-Water Animation and Rendering</td>
+                            <td>Hughues et al.</td>
+                            <td>GPU Gems 2: GPU加速FFT</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2">2018</td>
+                            <td>Real-Time Rendering (4th Ed.)</td>
+                            <td>Möller et al.</td>
+                            <td>实时渲染综合参考</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">11.2 官方文档与教程</h3>
+                
+                <ul class="space-y-2 text-gray-300">
+                    <li class="flex items-start gap-2">
+                        <span class="text-accent">•</span>
+                        <span><a href="https://docs.unrealengine.com/5.0/en-US/water-mesh-in-unreal-engine/" class="text-blue-400 hover:underline">Unreal Engine 5 Water System Documentation</a></span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-accent">•</span>
+                        <span><a href="https://docs.unrealengine.com/5.0/en-US/niagra-visual-effects-in-unreal-engine/" class="text-blue-400 hover:underline">UE5 Niagara VFX System</a></span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-accent">•</span>
+                        <span><a href="https://www.sidefx.com/docs/houdini/" class="text-blue-400 hover:underline">Houdini Documentation</a></span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-accent">•</span>
+                        <span><a href="https://google.github.io/filament/Filament.md.html" class="text-blue-400 hover:underline">Google Filament Documentation</a> (PBR参考)</span>
+                    </li>
+                </ul>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">11.3 社区资源与开源项目</h3>
+                
+                <ul class="space-y-2 text-gray-300">
+                    <li class="flex items-start gap-2">
+                        <span class="text-accent">•</span>
+                        <span><strong>DeathRey's FFT Ocean</strong> - UE社区知名的FFT海浪实现</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-accent">•</span>
+                        <span><strong>Scrawk's Unity Ocean</strong> - C# FFT海洋实现参考</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-accent">•</span>
+                        <span><strong>NVIDIA FFT Ocean Sample</strong> - CUDA FFT实现</span>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <span class="text-accent">•</span>
+                        <span><strong>GPUGems Chapter 1</strong> - 实时水模拟经典教程</span>
+                    </li>
+                </ul>
+
+                <h3 class="text-lg font-semibold mb-3 text-gray-200 mt-6">11.4 本文参考链接</h3>
+                
+                <ul class="space-y-2 text-gray-300">
+                    <li class="flex items-start gap-2">
+                        <span class="text-accent">•</span>
+                        <span>原始文章: <a href="https://realtimevfx.com/t/milks-game-log/30464" class="text-blue-400 hover:underline">Milks Game Log - Realtime VFX Forum</a></span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Footer -->
+            <div class="border-t border-gray-800 pt-8 mt-12">
+                <div class="flex flex-wrap gap-4 text-sm text-gray-500">
+                    <span>最后更新: 2026-03-07</span>
+                    <span>•</span>
+                    <span>分类: 技术美术 / 实时渲染</span>
+                    <span>•</span>
+                    <span>难度: 中等</span>
+                </div>
+                <div class="mt-4 text-sm text-gray-600">
+                    <p>本文是Realtime Tech Library V2概念版文章，采用60/25/15权重编写。</p>
+                    <p class="mt-1">如发现错误或有改进建议，欢迎提交反馈。</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Smooth scroll for TOC links
+        document.querySelectorAll('.toc-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const target = document.querySelector(link.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
