@@ -366,3 +366,46 @@ To github.com:mors0422/realtime-tech-library.git
 [0;32m[2026-03-07 10:00:00][0m 🏆 标记优质内容...
 [0;32m[2026-03-07 10:00:00][0m   标记优质内容...
 [0;32m[2026-03-07 10:00:00][0m   报告已生成: /tmp/realtime-tech-library/logs/review-report-20260307.md
+[main 9626b6e] auto: 3日Review 20260307
+ 3 files changed, 84 insertions(+)
+ create mode 100644 logs/review-report-20260307.md
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:MORS0422/realtime-tech-library.git        
+To github.com:mors0422/realtime-tech-library.git
+   7606385..9626b6e  main -> main
+[0;32m[2026-03-07 10:00:04][0m ✅ 3日Review完成
+[0;32m[2026-03-07 20:00:00][0m 🚀 开始每日同步任务
+[0;32m[2026-03-07 20:00:00][0m 📥 拉取最新代码...
+From github.com:mors0422/realtime-tech-library
+ * branch            main       -> FETCH_HEAD
+   9626b6e..2e16d80  main       -> origin/main
+Updating 9626b6e..2e16d80
+Fast-forward
+ articles-v2/ta-render-flipbook-splash.html      | 1769 +++++++++++++++++++
+ articles-v2/ta-render-indie-game-rendering.html | 2085 +++++++++++++++++++++++
+ knowledge-base.js                               |   29 +-
+ 3 files changed, 3881 insertions(+), 2 deletions(-)
+ create mode 100644 articles-v2/ta-render-flipbook-splash.html
+ create mode 100644 articles-v2/ta-render-indie-game-rendering.html
+[0;32m[2026-03-07 20:00:04][0m 📡 检查7个RSS源...
+[0;32m[2026-03-07 20:00:04][0m   检查: https://realtimevfx.com/latest.rss
+[0;32m[2026-03-07 20:00:04][0m   检查: https://www.sidefx.com/community/blog-rss/
+[0;32m[2026-03-07 20:00:04][0m   检查: https://80.lv/articles/vfx/feed/
+[0;32m[2026-03-07 20:00:04][0m   检查: https://www.gamedev.net/news/multiplatform/rss
+[0;32m[2026-03-07 20:00:04][0m   检查: https://gamasutra.com/rss.xml
+[0;32m[2026-03-07 20:00:04][0m 🖼️  抓取文章配图...
+[0;32m[2026-03-07 20:00:04][0m   配图抓取策略:
+[0;32m[2026-03-07 20:00:04][0m     1. 从原文链接抓取主图
+[0;32m[2026-03-07 20:00:04][0m     2. 生成SVG架构图
+[0;32m[2026-03-07 20:00:04][0m     3. 代码示例高亮图
+[0;32m[2026-03-07 20:00:04][0m 📝 标准化处理...
+[0;32m[2026-03-07 20:00:04][0m   运行文章标准化...
+[0;32m[2026-03-07 20:00:04][0m 📊 检查专栏文章数...
+[0;32m[2026-03-07 20:00:04][0m   专栏文章数检查:
+/tmp/realtime-tech-library/auto-cron.sh: line 136: declare: -A: invalid option
+declare: usage: declare [-afFirtx] [-p] [name[=value] ...]
+[0;32m[2026-03-07 20:00:04][0m     多端开发 (0): 0
+0 篇
+/tmp/realtime-tech-library/auto-cron.sh: line 153: [: 0
+0: integer expression expected
+[0;32m[2026-03-07 20:00:04][0m 📤 提交更新...
