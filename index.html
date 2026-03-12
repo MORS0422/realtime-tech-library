@@ -332,9 +332,257 @@
 
     <script src="knowledge-base.js"></script>
     <script>
+        // 当前状态
+        let currentPage = 'home';
+        let searchResults = [];
+
+        // 分类配置
+        const categoryConfig = {
+            'ue': { name: 'Unreal Engine', color: 'text-neon-blue', tagClass: 'tag-ue' },
+            'ta': { name: '技术美术', color: 'text-neon-purple', tagClass: 'tag-ta' },
+            'render': { name: '实时渲染', color: 'text-neon-amber', tagClass: 'tag-render' },
+            'ta-render': { name: 'TA渲染', color: 'text-neon-green', tagClass: 'tag-ta-render' },
+            'vfx': { name: '特效专栏', color: 'text-orange-500', tagClass: 'tag-vfx' },
+            'multiplat': { name: '多端开发', color: 'text-cyan-400', tagClass: 'tag-multiplat' },
+            'ai': { name: 'AI技术', color: 'text-neon-pink', tagClass: 'tag-ai' }
+        };
+
+        // 切换页面
+        function showPage(pageId) {
+            // 隐藏所有页面
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+
+            // 如果页面内容为空，先渲染
+            const pageElement = document.getElementById('page-' + pageId);
+            if (pageId !== 'home' && pageId !== 'article' && pageElement.innerHTML === '') {
+                renderCategoryPage(pageId);
+            }
+
+            // 显示目标页面
+            pageElement.classList.add('active');
+            currentPage = pageId;
+
+            // 关闭移动端菜单
+            document.getElementById('mobile-menu').classList.add('hidden');
+
+            // 滚动到顶部
+            window.scrollTo(0, 0);
+
+            // 刷新图标
+            lucide.createIcons();
+        }
+
+        // 渲染专栏页面
+        function renderCategoryPage(category) {
+            const config = categoryConfig[category];
+            if (!config) return;
+
+            // 获取该分类的所有文章
+            const articles = Object.entries(knowledgeBase.articles)
+                .filter(([id, article]) => article.category === category)
+                .map(([id, article]) => ({ id, ...article }));
+
+            const pageElement = document.getElementById('page-' + category);
+            
+            let articlesHTML = articles.map(article => `
+                <div onclick="showArticle('${article.id}')" class="glass-panel rounded-2xl p-6 card-hover cursor-pointer">
+                    <div class="flex items-start gap-4">
+                        <div class="flex-1">
+                            <div class="flex items-center gap-3 mb-3">
+                                <span class="${config.tagClass} px-3 py-1 rounded-full text-sm">${config.name}</span>
+                                <span class="text-gray-500 text-sm">${article.date || ''}</span>
+                                <span class="text-gray-500 text-sm">•</span>
+                                <span class="text-gray-500 text-sm">${article.readTime || ''}</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">${article.title}</h3>
+                            <p class="text-gray-400 text-sm line-clamp-2">${article.tags ? article.tags.join(' · ') : ''}</p>
+                        </div>
+                        <i data-lucide="chevron-right" class="w-5 h-5 text-gray-500 flex-shrink-0 mt-1"></i>
+                    </div>
+                </div>
+            `).join('');
+
+            pageElement.innerHTML = `
+                <div class="py-12 px-6">
+                    <div class="max-w-7xl mx-auto">
+                        <div class="mb-8">
+                            <button onclick="showPage('home')" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors mb-4">
+                                <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                                <span>返回首页</span>
+                            </button>
+                            <h1 class="text-4xl font-bold ${config.color} mb-2">${config.name}</h1>
+                            <p class="text-gray-400">共 ${articles.length} 篇文章</p>
+                        </div>
+                        <div class="grid gap-4">
+                            ${articlesHTML}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 显示单篇文章
+        function showArticle(articleId) {
+            const article = knowledgeBase.articles[articleId];
+            if (!article) {
+                alert('文章不存在');
+                return;
+            }
+
+            const config = categoryConfig[article.category] || { name: article.category, color: 'text-white', tagClass: '' };
+            const pageElement = document.getElementById('page-article');
+
+            // 隐藏所有页面
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+
+            pageElement.innerHTML = `
+                <div class="py-12 px-6">
+                    <div class="max-w-4xl mx-auto">
+                        <button onclick="goBack()" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors mb-6">
+                            <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                            <span>返回</span>
+                        </button>
+                        <article class="glass-panel rounded-2xl p-8">
+                            ${article.content}
+                        </article>
+                    </div>
+                </div>
+            `;
+
+            pageElement.classList.add('active');
+            currentPage = 'article';
+            window.scrollTo(0, 0);
+            lucide.createIcons();
+        }
+
+        // 返回上一页
+        function goBack() {
+            if (currentPage === 'article') {
+                // 返回到之前的分类页或首页
+                showPage('home');
+            } else {
+                showPage('home');
+            }
+        }
+
+        // 搜索功能
+        function performSearch() {
+            const query = document.getElementById('search-input').value.trim().toLowerCase();
+            if (!query) {
+                showPage('home');
+                return;
+            }
+
+            // 搜索文章
+            const results = Object.entries(knowledgeBase.articles)
+                .filter(([id, article]) => {
+                    const searchText = (article.title + ' ' + 
+                        (article.tags ? article.tags.join(' ') : '') + ' ' + 
+                        (article.category || '')).toLowerCase();
+                    return searchText.includes(query);
+                })
+                .map(([id, article]) => ({ id, ...article }));
+
+            // 显示搜索结果
+            showSearchResults(results, query);
+        }
+
+        // 显示搜索结果
+        function showSearchResults(results, query) {
+            // 隐藏所有页面
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+
+            const pageElement = document.getElementById('page-article');
+            
+            let resultsHTML = '';
+            if (results.length === 0) {
+                resultsHTML = `
+                    <div class="text-center py-12">
+                        <i data-lucide="search-x" class="w-16 h-16 text-gray-600 mx-auto mb-4"></i>
+                        <p class="text-gray-400">没有找到包含 "${query}" 的文章</p>
+                    </div>
+                `;
+            } else {
+                resultsHTML = results.map(article => {
+                    const config = categoryConfig[article.category] || { name: article.category, color: 'text-white', tagClass: '' };
+                    return `
+                        <div onclick="showArticle('${article.id}')" class="glass-panel rounded-2xl p-6 card-hover cursor-pointer">
+                            <div class="flex items-start gap-4">
+                                <div class="flex-1">
+                                    <div class="flex items-center gap-3 mb-3">
+                                        <span class="${config.tagClass} px-3 py-1 rounded-full text-sm">${config.name}</span>
+                                        <span class="text-gray-500 text-sm">${article.date || ''}</span>
+                                    </div>
+                                    <h3 class="text-xl font-semibold text-white mb-2">${article.title}</h3>
+                                    <p class="text-gray-400 text-sm">${article.tags ? article.tags.join(' · ') : ''}</p>
+                                </div>
+                                <i data-lucide="chevron-right" class="w-5 h-5 text-gray-500 flex-shrink-0 mt-1"></i>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+            }
+
+            pageElement.innerHTML = `
+                <div class="py-12 px-6">
+                    <div class="max-w-7xl mx-auto">
+                        <div class="mb-8">
+                            <button onclick="showPage('home')" class="flex items-center gap-2 text-gray-400 hover:text-white transition-colors mb-4">
+                                <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                                <span>返回首页</span>
+                            </button>
+                            <h1 class="text-3xl font-bold text-white mb-2">搜索结果</h1>
+                            <p class="text-gray-400">"${query}" 找到 ${results.length} 篇文章</p>
+                        </div>
+                        <div class="grid gap-4">
+                            ${resultsHTML}
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            pageElement.classList.add('active');
+            currentPage = 'article';
+            window.scrollTo(0, 0);
+            lucide.createIcons();
+        }
+
+        // 搜索输入框回车事件
         document.addEventListener('DOMContentLoaded', function() {
             lucide.createIcons();
+            
+            const searchInput = document.getElementById('search-input');
+            if (searchInput) {
+                searchInput.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        performSearch();
+                    }
+                });
+            }
+
+            // 更新最后更新时间
+            updateLastUpdateTime();
         });
+
+        // 切换移动端菜单
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        // 更新最后更新时间
+        function updateLastUpdateTime() {
+            const timeElement = document.getElementById('last-update-time');
+            if (timeElement && knowledgeBase.meta && knowledgeBase.meta.lastUpdated) {
+                timeElement.textContent = knowledgeBase.meta.lastUpdated;
+            }
+        }
     </script>
 </body>
 </html>
