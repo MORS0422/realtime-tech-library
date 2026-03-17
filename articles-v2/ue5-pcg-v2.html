@@ -1,0 +1,288 @@
+<!-- UE5 PCG V2 概念导向版本 -->
+<div class="article-content">
+    <div class="flex flex-wrap items-center gap-3 mb-6">
+        <span class="tag-ue px-3 py-1 rounded-full text-sm">UE5工具</span>
+        <span class="text-gray-500">2026-03-17</span>
+        <span class="text-gray-500">•</span>
+        <span class="text-gray-500">30-35分钟阅读</span>
+        <span class="text-gray-500">•</span>
+        <span class="text-gray-500">困难</span>
+    </div>
+
+    <h1>PCG 程序化内容生成：图执行模型与节点架构</h1>
+
+    <p class="text-xl text-gray-300 mb-6 leading-relaxed">
+        Unreal Engine 5 的 PCG（Procedural Content Generation）框架引入了全新的程序化生成范式，
+        通过可视化节点图和延迟执行模型，实现了大规模、高效率的世界构建。本文从图论基础出发，
+        深入解析 PCG 的执行模型、节点拓扑排序算法，以及与 Houdini 的集成架构。
+    </p>
+
+    <div class="tech-analysis-box" style="border-color: #10b98140;">
+        <div class="flex items-center gap-2 mb-4">
+            <span class="text-lg font-semibold" style="color: #10b981">🔬 架构创新</span>
+        </div>
+        <p class="mb-0 text-gray-300 leading-relaxed">
+            PCG 的核心突破在于<strong>声明式图执行模型</strong>。与传统脚本式生成（Python/Houdini VEX）不同，
+            PCG 将生成过程表示为数据流图（Dataflow Graph），节点描述"做什么"而非"怎么做"。
+            执行引擎负责拓扑排序、并行调度和增量更新，使艺术家能够专注于创意而非技术细节。
+        </p>
+    </div>
+
+    <h2>1. 概述与核心概念</h2>
+
+    <h3>1.1 程序化内容生成演进</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-3 px-4">发展阶段</th>
+                <th class="text-left py-3 px-4">技术方案</th>
+                <th class="text-left py-3 px-4">特点</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4"><strong>脚本时代</strong> (2000-2010)</td>
+                <td class="py-3 px-4">MEL/Python脚本</td>
+                <td class="py-3 px-4 text-gray-400">线性执行，难以调试，非艺术家友好</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4"><strong>节点时代</strong> (2010-2020)</td>
+                <td class="py-3 px-4">Houdini SOPs, Substance</td>
+                <td class="py-3 px-4 text-gray-400">可视化编程，即时反馈，但仍需技术背景</td>
+            </tr>
+            <tr class="bg-emerald-500/10 border-l-4 border-emerald-500">
+                <td class="py-3 px-4"><strong>声明式时代</strong> (2022-)</td>
+                <td class="py-3 px-4"><strong>UE5 PCG, Houdini Engine</strong></td>
+                <td class="py-3 px-4 text-gray-400"><strong>延迟执行，自动优化，运行时生成</strong></td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>2. 符号定义表</h2>
+
+    <h3>2.1 图论基础</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2 px-4 w-24">符号</th>
+                <th class="text-left py-2 px-4 w-32">定义</th>
+                <th class="text-left py-2 px-4">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">G</td>
+                <td class="py-2 px-4">有向图</td>
+                <td class="py-2 px-4 text-gray-400">G = (V, E)，V为节点集，E为边集</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">V</td>
+                <td class="py-2 px-4">节点集合</td>
+                <td class="py-2 px-4 text-gray-400">PCG图中的节点（如Scatter, Filter）</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">E</td>
+                <td class="py-2 px-4">边集合</td>
+                <td class="py-2 px-4 text-gray-400">数据流连接，表示依赖关系</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">deg⁻(v)</td>
+                <td class="py-2 px-4">入度</td>
+                <td class="py-2 px-4 text-gray-400">指向节点v的边数</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 font-mono">deg⁺(v)</td>
+                <td class="py-2 px-4">出度</td>
+                <td class="py-2 px-4 text-gray-400">从节点v出发的边数</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>2.2 PCG 特定参数</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2 px-4 w-24">符号</th>
+                <th class="text-left py-2 px-4 w-32">定义</th>
+                <th class="text-left py-2 px-4">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">P_collection</td>
+                <td class="py-2 px-4">点云集合</td>
+                <td class="py-2 px-4 text-gray-400">PCG中的基本数据类型，包含位置、旋转、缩放</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">S_density</td>
+                <td class="py-2 px-4">散布密度</td>
+                <td class="py-2 px-4 text-gray-400">每单位面积/体积的实例数量</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">B_seed</td>
+                <td class="py-2 px-4">随机种子</td>
+                <td class="py-2 px-4 text-gray-400">保证生成结果可复现</td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>3. PCG 图执行模型</h2>
+
+    <h3>3.1 拓扑排序算法</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        PCG 使用<strong>拓扑排序（Topological Sort）</strong>确定节点执行顺序。由于节点图是有向无环图（DAG），
+        必须满足所有依赖节点先于被依赖节点执行。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>Kahn算法（拓扑排序）：</strong>
+
+1. 计算所有节点的入度 deg⁻(v)
+2. 将入度为0的节点加入队列Q
+3. 当Q非空：
+   a. 取出节点v，加入执行序列
+   b. 对于v的每个邻接节点u：
+      - 减少u的入度：deg⁻(u)--
+      - 若deg⁻(u) == 0，将u加入Q
+4. 若执行序列节点数 < 总节点数，说明存在环（错误）
+
+时间复杂度：O(V + E)</pre>
+    </div>
+
+    <h3>3.2 延迟执行与缓存</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        PCG 采用<strong>延迟执行（Lazy Evaluation）</strong>策略。节点仅在输出被请求时才执行，
+        且结果会被缓存以避免重复计算。当输入参数变化时，只重新执行受影响的子图。
+    </p>
+
+    <div class="formula-box rounded-xl p-6 mb-6">
+        <div class="flex items-center gap-2 mb-3">
+            <span class="text-warning font-semibold">📐 增量更新条件</span>
+        </div>
+        <div class="text-center text-base my-4 font-mono">
+            节点v需要重新执行 ⟺ ∃u∈Pred(v): u.changed = true
+        </div>
+        <p class="text-gray-400 text-sm">
+            即：当且仅当任一前驱节点发生变化时，当前节点需要重新执行。这是PCG高效编辑响应的基础。
+        </p>
+    </div>
+
+    <h2>4. 核心节点类型</h2>
+
+    <h3>4.1 输入节点</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>输入节点类型：</strong>
+
+- Spline Input: 从样条线提取点
+- Mesh Input: 从静态网格提取几何信息
+- Surface Sampler: 在表面上采样点
+- Volume Sampler: 在体积内采样点
+- Actor Selection: 选择场景中的Actor</pre>
+    </div>
+
+    <h3>4.2 变换节点</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>变换节点类型：</strong>
+
+- Transform Points: 平移、旋转、缩放
+- Filter: 根据条件过滤点
+- Merge: 合并多个点集
+- Difference: 集合差运算
+- Branch: 条件分支</pre>
+    </div>
+
+    <h3>4.3 散布节点</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>散布算法：</strong>
+
+1. 均匀散布：
+   在采样区域内均匀分布点
+   
+2. 泊松圆盘散布：
+   保证任意两点间最小距离r
+   算法：Dart Throwing + 空间哈希加速
+   
+3. 蓝噪声散布：
+   产生视觉上均匀但非规则的分布
+   适合自然场景（植被、岩石）
+
+参数：
+- 密度（每单位点数）
+- 最小间距（泊松圆盘）
+- 随机种子</pre>
+    </div>
+
+    <h2>5. 实战应用</h2>
+
+    <h3>5.1 森林生成工作流</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>森林生成节点图：</strong>
+
+[Surface Sampler] → [Filter by Slope] → [Poisson Scatter]
+       ↓                                      ↓
+[Height Mask]                              [Scale by Noise]
+       ↓                                      ↓
+       └──────────→ [Merge Points] ←──────────┘
+                           ↓
+                   [Spawn Static Meshes]
+                           ↓
+                   [Apply Variations]
+
+步骤说明：
+1. 在地形表面采样初始点
+2. 根据坡度过滤（太陡的地方不生成）
+3. 泊松圆盘散布，保证最小间距
+4. 根据噪声函数调整树的大小
+5. 合并所有点，生成静态网格实例</pre>
+    </div>
+
+    <h3>5.2 与Houdini集成</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        PCG 可以通过 Houdini Engine 与 Houdini 集成，利用 Houdini 的强大算法能力：
+    </p>
+    
+    <ul class="space-y-2 text-gray-300 mb-6">
+        <li class="flex items-start gap-2">
+            <span class="text-emerald-400">•</span>
+            <span><strong>HDA（Houdini Digital Asset）：</strong> 在Houdini中创建程序化资产，在UE中调整和生成</span>
+        </li>
+        <li class="flex items-start gap-2">
+            <span class="text-emerald-400">•</span>
+            <span><strong>数据传递：</strong> PCG点云 ↔ Houdini几何，支持属性映射</span>
+        </li>
+        <li class="flex items-start gap-2">
+            <span class="text-emerald-400">•</span>
+            <span><strong>工作流分工：</strong> Houdini负责复杂算法，PCG负责场景集成和运行时生成</span>
+        </li>
+    </ul>
+
+    <h2>6. 性能优化</h2>
+
+    <h3>6.1 生成策略</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2">策略</th>
+                <th class="text-left py-2">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2"><strong>分层生成</strong></td>
+                <td class="py-2 text-gray-400">远距离低密度，近距离高密度，使用LOD系统</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2"><strong>异步生成</strong></td>
+                <td class="py-2 text-gray-400">在大场景中使用异步任务，避免卡顿</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2"><strong>实例化渲染</strong></td>
+                <td class="py-2 text-gray-400">使用ISM（Instanced Static Mesh）批量渲染</td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>7. 参考资源</h2>
+
+    <ul class="space-y-2 text-gray-300 mb-6">
+        <li>• <a href="https://docs.unrealengine.com/5.0/en-US/procedural-content-generation/" class="text-emerald-400 hover:underline">UE5 PCG 官方文档</a></li>
+        <li>• <a href="https://www.sidefx.com/docs/unreal/" class="text-emerald-400 hover:underline">Houdini Engine for UE</a></li>
+    </ul>
+
+    <footer class="text-center text-gray-500 text-sm mt-12 pt-8 border-t border-slate-800">
+        <p>Realtime Tech Library • V2 概念导向版</p>
+        <p class="mt-2">最后更新: 2026-03-17 • 阅读时间: 30-35分钟</p>
+    </footer>
+</div>

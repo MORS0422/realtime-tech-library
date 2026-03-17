@@ -1,0 +1,313 @@
+<!-- UE5 Motion Warping V2 概念导向版本 -->
+<div class="article-content">
+    <div class="flex flex-wrap items-center gap-3 mb-6">
+        <span class="tag-ue px-3 py-1 rounded-full text-sm">UE5动画</span>
+        <span class="text-gray-500">2026-03-17</span>
+        <span class="text-gray-500">•</span>
+        <span class="text-gray-500">30-35分钟阅读</span>
+        <span class="text-gray-500">•</span>
+        <span class="text-gray-500">困难</span>
+    </div>
+
+    <h1>Motion Warping：动画适配与IK求解的数学原理</h1>
+
+    <p class="text-xl text-gray-300 mb-6 leading-relaxed">
+        Motion Warping 是 Unreal Engine 5 中解决动画与场景交互的关键技术，通过实时调整骨骼位置使角色动画自适应环境。
+        本文从逆向运动学（IK）基础出发，深入解析 CCD（循环坐标下降）和 FABRIK 算法的数学原理，
+        以及 Motion Warping 的轨迹拟合与根运动适配机制。
+    </p>
+
+    <div class="tech-analysis-box" style="border-color: #f59e0b40;">
+        <div class="flex items-center gap-2 mb-4">
+            <span class="text-lg font-semibold" style="color: #f59e0b">🔬 技术突破</span>
+        </div>
+        <p class="mb-0 text-gray-300 leading-relaxed">
+            Motion Warping 的核心在于<strong>时空轨迹优化</strong>。传统动画系统播放预先制作的动作片段，
+            而 Motion Warping 在运行时根据场景几何动态调整动画轨迹，使角色能够自然地适应地形起伏、
+            攀爬障碍物或与物体交互，同时保持动画的流畅性和物理合理性。
+        </p>
+    </div>
+
+    <h2>1. 概述与核心概念</h2>
+
+    <h3>1.1 动画适配问题</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        游戏中角色动画面临的核心矛盾：预制作动画是针对理想环境设计的，而实际场景存在地形起伏、障碍物和交互对象。
+        <strong>Motion Warping</strong>通过在运行时动态调整动画，解决这一矛盾。
+    </p>
+
+    <div class="glass-card rounded-xl p-6 mb-6 border-l-4 border-amber-500">
+        <div class="flex items-center gap-2 mb-3">
+            <span class="text-lg font-semibold text-amber-400">🎯 应用场景</span>
+        </div>
+        <ul class="space-y-2 text-gray-300">
+            <li>• <strong>地形适应：</strong> 角色行走时脚自动适应地面高度和倾斜</li>
+            <li>• <strong>攀爬交互：</strong> 攀爬动画根据障碍物高度自动调整</li>
+            <li>• <strong>物体交互：</strong> 拾取、推动物体时手位置自适应</li>
+            <li>• <strong>战斗交互：</strong> 攻击时自动面向目标</li>
+        </ul>
+    </div>
+
+    <h2>2. 符号定义表</h2>
+
+    <h3>2.1 骨骼与关节</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2 px-4 w-24">符号</th>
+                <th class="text-left py-2 px-4 w-32">定义</th>
+                <th class="text-left py-2 px-4">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">q_i</td>
+                <td class="py-2 px-4">关节位置</td>
+                <td class="py-2 px-4 text-gray-400">第i个关节在世界空间中的位置</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">θ_i</td>
+                <td class="py-2 px-4">关节角度</td>
+                <td class="py-2 px-4 text-gray-400">关节旋转角度（局部坐标系）</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">l_i</td>
+                <td class="py-2 px-4">骨骼长度</td>
+                <td class="py-2 px-4 text-gray-400">从关节i到i+1的距离</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 font-mono">T_i</td>
+                <td class="py-2 px-4">变换矩阵</td>
+                <td class="py-2 px-4 text-gray-400">关节i的局部到世界变换</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>2.2 IK 参数</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2 px-4 w-24">符号</th>
+                <th class="text-left py-2 px-4 w-32">定义</th>
+                <th class="text-left py-2 px-4">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">t</td>
+                <td class="py-2 px-4">目标位置</td>
+                <td class="py-2 px-4 text-gray-400">末端执行器（如手、脚）的目标位置</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">e</td>
+                <td class="py-2 px-4">误差</td>
+                <td class="py-2 px-4 text-gray-400">当前位置与目标位置的距离：e = ||q_n - t||</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">ε</td>
+                <td class="py-2 px-4">收敛阈值</td>
+                <td class="py-2 px-4 text-gray-400">当误差小于此值时停止迭代</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 font-mono">K_max</td>
+                <td class="py-2 px-4">最大迭代次数</td>
+                <td class="py-2 px-4 text-gray-400">防止无限循环的上限</td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>3. 逆向运动学（IK）算法</h2>
+
+    <h3>3.1 CCD（循环坐标下降）</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        <strong>循环坐标下降（Cyclic Coordinate Descent）</strong>是一种启发式IK算法，
+        从末端关节向根关节逐次调整，每次调整使末端最接近目标。
+    </p>
+
+    <div class="formula-box rounded-xl p-6 mb-6">
+        <div class="flex items-center gap-2 mb-3">
+            <span class="text-warning font-semibold">📐 CCD 算法步骤</span>
+        </div>
+        <pre class="text-sm text-gray-400">对于每次迭代：
+  对于每个关节 i = n-1 downto 0：
+    1. 计算从关节i到末端的方向向量：u = normalize(q_n - q_i)
+    2. 计算从关节i到目标的方向向量：v = normalize(t - q_i)
+    3. 计算旋转轴：axis = cross(u, v)
+    4. 计算旋转角度：angle = arccos(dot(u, v))
+    5. 应用旋转限制（关节约束）
+    6. 更新关节角度：θ_i += Δθ
+    7. 重新计算骨骼位置</pre>
+    </div>
+
+    <h3>3.2 FABRIK 算法</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        <strong>FABRIK（Forward And Backward Reaching Inverse Kinematics）</strong>通过正向和反向两次遍历快速收敛到目标位置。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>FABRIK 算法：</strong>
+
+Forward Reaching（向目标）：
+  1. 将末端关节 q_n 移动到目标位置 t
+  2. 对于 i = n-1 downto 0：
+     - 计算方向：dir = normalize(q_i - q_{i+1})
+     - 移动关节：q_i = q_{i+1} + dir * l_i
+
+Backward Reaching（向根）：
+  1. 将根关节 q_0 固定回原始位置
+  2. 对于 i = 1 to n：
+     - 计算方向：dir = normalize(q_i - q_{i-1})
+     - 移动关节：q_i = q_{i-1} + dir * l_i
+
+重复直到收敛或达到最大迭代次数</pre>
+    </div>
+
+    <h3>3.3 算法对比</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2">特性</th>
+                <th class="text-left py-2">CCD</th>
+                <th class="text-left py-2">FABRIK</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2">收敛速度</td>
+                <td class="py-2 text-gray-400">较慢（迭代次数多）</td>
+                <td class="py-2 text-gray-400">快（通常5-10次迭代）</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2">路径平滑度</td>
+                <td class="py-2 text-gray-400">可能出现抖动</td>
+                <td class="py-2 text-gray-400">更平滑自然</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2">关节限制支持</td>
+                <td class="py-2 text-gray-400">容易实现</td>
+                <td class="py-2 text-gray-400">需要额外处理</td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>4. Motion Warping 原理</h2>
+
+    <h3>4.1 轨迹拟合</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        Motion Warping 的核心是<strong>轨迹拟合</strong>。在动画播放过程中，
+        检测轨迹点（如脚部接触点）并根据场景几何调整这些点的位置。
+    </p>
+
+    <div class="formula-box rounded-xl p-6 mb-6">
+        <div class="flex items-center gap-2 mb-3">
+            <span class="text-warning font-semibold">📐 轨迹变形公式</span>
+        </div>
+        <div class="text-center text-base my-4 font-mono">
+            p'(t) = p(t) + w(t) · Δp
+        </div>
+        <p class="text-gray-400 text-sm">
+            其中 w(t) 是时间权重函数，在轨迹点附近权重最大，远离时趋近于0。
+            常用高斯权重：w(t) = exp(-(t-t_0)²/2σ²)
+        </p>
+    </div>
+
+    <h3>4.2 根运动适配</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        <strong>根运动（Root Motion）</strong>是指从动画中提取角色根骨骼的位移，
+        用于驱动角色在世界空间中的移动。Motion Warping 可以调整根运动轨迹以适应地形。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>根运动处理流程：</strong>
+
+1. 提取动画根运动曲线
+2. 采样路径上的地形高度
+3. 计算路径修正量（保持脚不穿透地面）
+4. 应用平滑滤波（避免突变）
+5. 合成最终根运动轨迹</pre>
+    </div>
+
+    <h2>5. Foot IK 实现</h2>
+
+    <h3>5.1 脚部自适应</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        Foot IK 是 Motion Warping 最常见的应用，通过射线检测地面高度，
+        使用 Two-Bone IK 调整腿部骨骼，使脚部贴合地形。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><code class="language-cpp">// UE5 Foot IK 逻辑伪代码
+
+void UpdateFootIK() {
+    for (auto Foot : {LeftFoot, RightFoot}) {
+        // 1. 射线检测地面
+        FVector FootLocation = GetFootLocation(Foot);
+        FHitResult Hit;
+        if (LineTrace(FootLocation + FVector(0,0,50), 
+                      FootLocation - FVector(0,0,50), 
+                      Hit)) {
+            
+            // 2. 计算高度差和倾斜
+            float HeightDelta = Hit.Location.Z - FootLocation.Z;
+            FVector GroundNormal = Hit.Normal;
+            
+            // 3. 设置Two-Bone IK目标
+            SetIKTarget(Foot, Hit.Location, GroundNormal);
+            
+            // 4. 调整臀部高度（取两脚较高值）
+            HipOffset = max(HipOffset, HeightDelta);
+        }
+    }
+    
+    // 5. 应用臀部偏移（平滑过渡）
+    CurrentHipOffset = Lerp(CurrentHipOffset, HipOffset, DeltaTime * Speed);
+    AdjustHipHeight(CurrentHipOffset);
+}</code></pre>
+    </div>
+
+    <h2>6. 实战应用</h2>
+
+    <h3>6.1 UE5 Motion Warping 组件</h3>
+    <ul class="space-y-2 text-gray-300 mb-6">
+        <li class="flex items-start gap-2">
+            <span class="text-amber-400">•</span>
+            <span><strong>Motion Warping Component：</strong> 添加到角色，处理所有动画变形</span>
+        </li>
+        <li class="flex items-start gap-2">
+            <span class="text-amber-400">•</span>
+            <span><strong>Anim Notify State：</strong> 在动画时间轴上标记变形窗口</span>
+        </li>
+        <li class="flex items-start gap-2">
+            <span class="text-amber-400">•</span>
+            <span><strong>Warp Targets：</strong> 定义变形目标（如交互对象位置）</span>
+        </li>
+    </ul>
+
+    <h3>6.2 性能考虑</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2">优化策略</th>
+                <th class="text-left py-2">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2"><strong>LOD系统</strong></td>
+                <td class="py-2 text-gray-400">远距离减少IK迭代次数或禁用</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2"><strong>异步计算</strong></td>
+                <td class="py-2 text-gray-400">复杂IK在Job System上异步执行</td>
+            </tr>
+            <tr>
+                <td class="py-2"><strong>缓存结果</strong></td>
+                <td class="py-2 text-gray-400">静止时复用上帧结果</td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>7. 参考资源</h2>
+
+    <ul class="space-y-2 text-gray-300 mb-6">
+        <li>• <a href="https://docs.unrealengine.com/5.0/en-US/motion-warping/" class="text-amber-400 hover:underline">UE5 Motion Warping 官方文档</a></li>
+        <li>• A. Aristidou and J. Lasenby "FABRIK: A fast, iterative solver for the Inverse Kinematics problem"</li>
+    </ul>
+
+    <footer class="text-center text-gray-500 text-sm mt-12 pt-8 border-t border-slate-800">
+        <p>Realtime Tech Library • V2 概念导向版</p>
+        <p class="mt-2">最后更新: 2026-03-17 • 阅读时间: 30-35分钟</p>
+    </footer>
+</div>

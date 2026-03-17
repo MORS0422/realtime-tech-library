@@ -1,0 +1,447 @@
+<!-- UE5 Niagara Fluid V2 概念导向版本 -->
+<div class="article-content">
+    <div class="flex flex-wrap items-center gap-3 mb-6">
+        <span class="tag-vfx px-3 py-1 rounded-full text-sm">VFX特效</span>
+        <span class="text-gray-500">2026-03-17</span>
+        <span class="text-gray-500">•</span>
+        <span class="text-gray-500">30-35分钟阅读</span>
+        <span class="text-gray-500">•</span>
+        <span class="text-gray-500">困难</span>
+    </div>
+
+    <h1>Niagara 流体模拟：SPH与FLIP算法的实时GPU实现</h1>
+
+    <p class="text-xl text-gray-300 mb-6 leading-relaxed">
+        Niagara 是 Unreal Engine 5 的模块化粒子系统，通过 GPU 模拟技术实现了影视级流体效果的游戏实时化。
+        本文从计算流体动力学（CFD）基础出发，深入解析 SPH（光滑粒子流体动力学）和 FLIP（流体隐式粒子）算法原理，
+        以及 Niagara 的 GPU 粒子管线架构，帮助开发者掌握实时流体模拟的核心技术。
+    </p>
+
+    <div class="tech-analysis-box" style="border-color: #8b5cf640;">
+        <div class="flex items-center gap-2 mb-4">
+            <span class="text-lg font-semibold" style="color: #8b5cf6">🔬 核心突破</span>
+        </div>
+        <p class="mb-0 text-gray-300 leading-relaxed">
+            Niagara 流体模拟的核心在于<strong>GPU 并行计算架构</strong>。传统 CPU 流体模拟受限于串行计算，
+            只能处理数千个粒子。而 Niagara 利用 Compute Shader 在 GPU 上并行处理数十万个粒子，
+            通过空间哈希（Spatial Hash）加速邻域搜索，实现了游戏实时性能（60fps）下的高质量流体效果。
+        </p>
+    </div>
+
+    <h2>1. 概述与核心概念</h2>
+
+    <h3>1.1 计算流体动力学基础</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        <strong>计算流体动力学（CFD）</strong>是使用数值方法求解流体运动方程的学科。对于实时应用，
+        我们需要在物理准确性和计算性能之间找到平衡。Niagara 采用基于粒子的拉格朗日方法，
+        而非传统的基于网格的欧拉方法，更适合处理自由表面流体（如水、烟雾）。
+    </p>
+
+    <div class="glass-card rounded-xl p-6 mb-6 border-l-4 border-purple-500">
+        <div class="flex items-center gap-2 mb-3">
+            <span class="text-lg font-semibold text-purple-400">📐 Navier-Stokes 方程</span>
+        </div>
+        <p class="text-gray-300 leading-relaxed">
+            流体运动的数学描述基于 Navier-Stokes 方程：
+        </p>
+        <pre class="text-sm text-gray-400 mt-2">ρ(∂u/∂t + u·∇u) = -∇p + μ∇²u + f
+
+其中：
+- ρ: 流体密度
+- u: 速度场
+- p: 压力
+- μ: 动力粘度
+- f: 体积力（如重力）</pre>
+    </div>
+
+    <h3>1.2 SPH vs FLIP 方法对比</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-3 px-4">特性</th>
+                <th class="text-left py-3 px-4">SPH（光滑粒子流体动力学）</th>
+                <th class="text-left py-3 px-4">FLIP（流体隐式粒子）</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4"><strong>物理模型</strong></td>
+                <td class="py-3 px-4 text-gray-400">纯粒子方法，无网格</td>
+                <td class="py-3 px-4 text-gray-400">粒子-网格混合方法</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4"><strong>压缩性</strong></td>
+                <td class="py-3 px-4 text-gray-400">弱压缩（需要状态方程）</td>
+                <td class="py-3 px-4 text-gray-400">不可压缩（投影法求解）</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4"><strong>稳定性</strong></td>
+                <td class="py-3 px-4 text-gray-400">需要较小时间步长</td>
+                <td class="py-3 px-4 text-gray-400">更稳定，允许较大时间步长</td>
+            </tr>
+            <tr class="bg-purple-500/10 border-l-4 border-purple-500">
+                <td class="py-3 px-4"><strong>适用场景</strong></td>
+                <td class="py-3 px-4 text-gray-400"><strong>水花、飞溅、小规模流体</strong></td>
+                <td class="py-3 px-4 text-gray-400"><strong>海洋、河流、大规模水体</strong></td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>2. 符号定义表</h2>
+
+    <h3>2.1 粒子属性</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2 px-4 w-24">符号</th>
+                <th class="text-left py-2 px-4 w-32">定义</th>
+                <th class="text-left py-2 px-4">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">x_i</td>
+                <td class="py-2 px-4">粒子位置</td>
+                <td class="py-2 px-4 text-gray-400">粒子i在三维空间中的坐标</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">v_i</td>
+                <td class="py-2 px-4">粒子速度</td>
+                <td class="py-2 px-4 text-gray-400">粒子i的速度向量</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">ρ_i</td>
+                <td class="py-2 px-4">密度</td>
+                <td class="py-2 px-4 text-gray-400">粒子i处的流体密度</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">m_i</td>
+                <td class="py-2 px-4">质量</td>
+                <td class="py-2 px-4 text-gray-400">粒子质量，通常设为常量</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">p_i</td>
+                <td class="py-2 px-4">压力</td>
+                <td class="py-2 px-4 text-gray-400">粒子i处的压力值</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>2.2 SPH 核函数参数</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2 px-4 w-24">符号</th>
+                <th class="text-left py-2 px-4 w-32">定义</th>
+                <th class="text-left py-2 px-4">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">h</td>
+                <td class="py-2 px-4">光滑核半径</td>
+                <td class="py-2 px-4 text-gray-400">SPH邻域搜索半径（通常2-4倍粒子间距）</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">W(r,h)</td>
+                <td class="py-2 px-4">核函数</td>
+                <td class="py-2 px-4 text-gray-400">光滑核函数，常用Cubic Spline或Poly6</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">∇W</td>
+                <td class="py-2 px-4">核函数梯度</td>
+                <td class="py-2 px-4 text-gray-400">用于计算压力梯度力</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 font-mono">Δt</td>
+                <td class="py-2 px-4">时间步长</td>
+                <td class="py-2 px-4 text-gray-400">满足CFL条件：Δt ≤ C·h/v_max</td>
+            </tr>
+        </table>
+    </div>
+
+    <h2>3. SPH 算法原理</h2>
+
+    <h3>3.1 核函数与场量插值</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        SPH 的核心思想是使用<strong>核函数</strong>将离散粒子属性平滑为连续场。任意场量 A 在位置 r 处的值可以通过邻域粒子的加权平均得到：
+    </p>
+
+    <div class="formula-box rounded-xl p-6 mb-6">
+        <div class="flex items-center gap-2 mb-3">
+            <span class="text-warning font-semibold">📐 SPH 插值公式</span>
+        </div>
+        <div class="text-center text-base my-4 font-mono">
+            A(r) = Σ_j m_j/ρ_j · A_j · W(|r - r_j|, h)
+        </div>
+        <p class="text-gray-400 text-sm">
+            其中 W 是光滑核函数，h 是光滑长度。常用 Cubic Spline 核函数保证二阶精度。
+        </p>
+    </div>
+
+    <h3>3.2 密度与压力计算</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        粒子密度通过核函数累加邻域粒子质量得到，然后使用状态方程计算压力：
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>SPH 密度与压力计算：</strong>
+
+密度计算：
+ρ_i = Σ_j m_j · W(|x_i - x_j|, h)
+
+压力计算（弱压缩状态方程）：
+p_i = k · (ρ_i - ρ_0)
+
+其中：
+- k: 体积模量（刚度系数）
+- ρ_0: 静止密度
+- 常用 Tait 方程：p = B · [(ρ/ρ_0)^γ - 1]</pre>
+    </div>
+
+    <h3>3.3 压力梯度力</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        压力梯度力是保持流体不可压缩性的关键。SPH 中使用对称化的压力梯度公式：
+    </p>
+
+    <div class="formula-box rounded-xl p-6 mb-6">
+        <div class="flex items-center gap-2 mb-3">
+            <span class="text-warning font-semibold">📐 压力梯度力</span>
+        </div>
+        <div class="text-center text-base my-4 font-mono">
+            f_i^pressure = -Σ_j m_j · (p_i + p_j)/(2ρ_j) · ∇W(|x_i - x_j|, h)
+        </div>
+    </div>
+
+    <h3>3.4 HLSL 实现</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><code class="language-hlsl">// Niagara SPH 流体模拟 Compute Shader
+
+struct Particle {
+    float3 position;
+    float3 velocity;
+    float density;
+    float pressure;
+    float mass;
+};
+
+RWStructuredBuffer<Particle> Particles;
+
+// Poly6 核函数
+float Poly6(float r, float h) {
+    float h2 = h * h;
+    float h9 = h2 * h2 * h2 * h2 * h;
+    float r2 = r * r;
+    if (r > h) return 0;
+    return 315.0 / (64.0 * PI * h9) * pow(h2 - r2, 3);
+}
+
+// Spiky 核函数梯度（用于压力）
+float3 SpikyGradient(float3 r_vec, float h) {
+    float r = length(r_vec);
+    if (r > h || r < 0.001) return 0;
+    float h6 = h * h * h * h * h * h;
+    float coeff = -45.0 / (PI * h6) * pow(h - r, 2);
+    return coeff * normalize(r_vec);
+}
+
+[numthreads(256, 1, 1)]
+void CS_DensityPressure(uint3 id : SV_DispatchThreadID) {
+    uint i = id.x;
+    if (i >= NumParticles) return;
+    
+    Particle pi = Particles[i];
+    float density = 0;
+    
+    // 邻域搜索（使用空间哈希优化）
+    for (uint j = 0; j < NumParticles; j++) {
+        if (i == j) continue;
+        Particle pj = Particles[j];
+        float r = distance(pi.position, pj.position);
+        density += pj.mass * Poly6(r, SmoothingLength);
+    }
+    
+    pi.density = density;
+    // 状态方程：p = k * (ρ - ρ0)
+    pi.pressure = Stiffness * max(0, density - RestDensity);
+    
+    Particles[i] = pi;
+}
+
+[numthreads(256, 1, 1)]
+void CS_ForceIntegration(uint3 id : SV_DispatchThreadID) {
+    uint i = id.x;
+    if (i >= NumParticles) return;
+    
+    Particle pi = Particles[i];
+    float3 force = float3(0, -Gravity, 0); // 重力
+    
+    // 压力梯度力
+    for (uint j = 0; j < NumParticles; j++) {
+        if (i == j) continue;
+        Particle pj = Particles[j];
+        float3 r_vec = pi.position - pj.position;
+        
+        float3 pressureGrad = SpikyGradient(r_vec, SmoothingLength);
+        force -= pj.mass * (pi.pressure + pj.pressure) / (2 * pj.density) * pressureGrad;
+    }
+    
+    // 积分：半隐式欧拉
+    pi.velocity += force / pi.density * DeltaTime;
+    pi.position += pi.velocity * DeltaTime;
+    
+    Particles[i] = pi;
+}</code></pre>
+    </div>
+
+    <h2>4. 空间哈希加速</h2>
+
+    <h3>4.1 邻域搜索优化</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        直接遍历所有粒子的 O(N²) 邻域搜索在 GPU 上不可行。Niagara 使用<strong>空间哈希（Spatial Hash）</strong>
+        将空间划分为网格，只搜索相邻网格中的粒子，将复杂度降低到 O(N)。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>空间哈希算法：</strong>
+
+1. 网格离散化：
+   cell_coord = floor(position / cell_size)
+   hash = hash(cell_coord) % hash_table_size
+
+2. 构建哈希表：
+   - 每个粒子计算其哈希值
+   - 使用并行排序（Radix Sort）按哈希值排序粒子
+   - 构建起始索引表：记录每个哈希值对应的粒子范围
+
+3. 邻域查询：
+   - 对于粒子i，计算其所在网格
+   - 查询该网格及26个相邻网格
+   - 使用起始索引表快速定位候选粒子</pre>
+    </div>
+
+    <h2>5. Niagara 模块架构</h2>
+
+    <h3>5.1 系统架构图</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>Niagara 流体系统架构：</strong>
+
+┌─────────────────────────────────────────────────────────┐
+│                    Niagara System                        │
+│  ┌─────────────────────────────────────────────────┐   │
+│  │              Emitter（发射器）                    │   │
+│  │  - Spawn Rate/ Burst                             │   │
+│  │  - 初始属性设置（位置、速度、大小）              │   │
+│  └─────────────────────────────────────────────────┘   │
+│                         │                               │
+│                         ▼                               │
+│  ┌─────────────────────────────────────────────────┐   │
+│  │              Particle Script                     │   │
+│  │  ┌──────────────┐  ┌──────────────┐            │   │
+│  │  │ CPU Simulation│  │ GPU Simulation│           │   │
+│  │  │ - Spawn/Death │  │ - SPH Solve   │           │   │
+│  │  │ - Events      │  │ - Collision   │           │   │
+│  │  └──────────────┘  └──────────────┘            │   │
+│  └─────────────────────────────────────────────────┘   │
+│                         │                               │
+│                         ▼                               │
+│  ┌─────────────────────────────────────────────────┐   │
+│  │              Renderer（渲染器）                  │   │
+│  │  - Sprite/Billboard                             │   │
+│  │  - Mesh                                         │   │
+│  │  - Ribbon（用于流体表面）                       │   │
+│  └─────────────────────────────────────────────────┘   │
+└─────────────────────────────────────────────────────────┘
+
+关键模块：
+- Niagara Data Interface：与外部数据交互（如距离场）
+- Niagara Simulation Stage：定义模拟阶段（SPH迭代）
+- Niagara Script：HLSL节点图或自定义代码</pre>
+    </div>
+
+    <h2>6. 实战应用</h2>
+
+    <h3>6.1 水效果参数调优</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2">参数</th>
+                <th class="text-left py-2">静水</th>
+                <th class="text-left py-2">激流</th>
+                <th class="text-left py-2">飞溅</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2">Stiffness (k)</td>
+                <td class="py-2 text-gray-400">500-1000</td>
+                <td class="py-2 text-gray-400">1000-2000</td>
+                <td class="py-2 text-gray-400">2000-5000</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2">Viscosity</td>
+                <td class="py-2 text-gray-400">0.1-0.5</td>
+                <td class="py-2 text-gray-400">0.05-0.1</td>
+                <td class="py-2 text-gray-400">0.01-0.05</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2">Particle Spacing</td>
+                <td class="py-2 text-gray-400">0.1-0.2m</td>
+                <td class="py-2 text-gray-400">0.05-0.1m</td>
+                <td class="py-2 text-gray-400">0.02-0.05m</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>6.2 性能优化建议</h3>
+    <ul class="space-y-2 text-gray-300 mb-6">
+        <li class="flex items-start gap-2">
+            <span class="text-purple-400">•</span>
+            <span><strong>粒子数量控制：</strong> 实时场景建议 10K-50K 粒子，高质量渲染可支持 100K+</span>
+        </li>
+        <li class="flex items-start gap-2">
+            <span class="text-purple-400">•</span>
+            <span><strong>时间步长：</strong> 满足 CFL 条件，通常 1/60s 或更小</span>
+        </li>
+        <li class="flex items-start gap-2">
+            <span class="text-purple-400">•</span>
+            <span><strong>邻域优化：</strong> 使用空间哈希，限制最大邻居数（如 50-100）</span>
+        </li>
+        <li class="flex items-start gap-2">
+            <span class="text-purple-400">•</span>
+            <span><strong>LOD系统：</strong> 远距离使用粒子Billboard，近距离使用Mesh渲染</span>
+        </li>
+    </ul>
+
+    <h2>7. 参考与扩展阅读</h2>
+
+    <h3>7.1 核心论文</h3>
+    <ul class="space-y-2 text-gray-300 mb-6">
+        <li>• M. Müller et al. "Particle-Based Fluid Simulation for Interactive Applications" (SIGGRAPH 2003)</li>
+        <li>• R. Bridson "Fluid Simulation for Computer Graphics" (AK Peters, 2008)</li>
+        <li>• B. Solenthaler and R. Pajarola "Predictive-Corrective Incompressible SPH" (SIGGRAPH 2009)</li>
+    </ul>
+
+    <h3>7.2 官方资源</h3>
+    <ul class="space-y-2 text-gray-300 mb-6">
+        <li>• <a href="https://docs.unrealengine.com/5.0/en-US/niagara-overview/" class="text-purple-400 hover:underline">UE5 Niagara 官方文档</a></li>
+        <li>• <a href="https://docs.unrealengine.com/5.0/en-US/niagara-fluid-simulations/" class="text-purple-400 hover:underline">Niagara 流体模拟指南</a></li>
+    </ul>
+
+    <h3>7.3 相关技术主题</h3>
+    <div class="flex flex-wrap gap-2 mb-6">
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">SPH</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">FLIP</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">CFD</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">GPU粒子</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Niagara</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">流体模拟</span>
+    </div>
+
+    <div class="bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4" style="border-color: #8b5cf6">
+        <p class="mb-0 text-gray-400">
+            <strong style="color: #8b5cf6">💡 提示:</strong> 
+            Niagara 流体模拟虽然功能强大，但对 GPU 性能要求较高。建议从少量粒子开始测试，
+            逐步增加复杂度。对于大规模水体（如海洋），建议结合 Niagara 与 FFT 波形技术，
+            而非纯粒子方法。
+        </p>
+    </div>
+
+    <footer class="text-center text-gray-500 text-sm mt-12 pt-8 border-t border-slate-800">
+        <p>Realtime Tech Library • V2 概念导向版</p>
+        <p class="mt-2">最后更新: 2026-03-17 • 阅读时间: 30-35分钟</p>
+        <p class="mt-1 text-xs text-gray-600">「理论为基，原理为先」</p>
+    </footer>
+</div>
