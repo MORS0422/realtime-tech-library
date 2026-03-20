@@ -418,5 +418,135 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-03-20T20:09:59.009152"
+  },
+  "9fb88aea4cb6": {
+    "id": "9fb88aea4cb6",
+    "title": "The Gnomon Workshop releases Introduction to ZBrush 2024",
+    "link": "https://www.cgchannel.com/2024/09/the-gnomon-workshop-releases-introduction-to-zbrush-2024/",
+    "summary": "Get up to speed with the digital sculpting software with Madeleine Scott-Spencer's popular tutorial, now updated for ZBrush 2024.",
+    "published": "Sun, 29 Sep 2024 09:05:33 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-20T20:26:00.791160"
+  },
+  "440e06882426": {
+    "id": "440e06882426",
+    "title": "Free Nuke plugin pScatter ‘breaks up your perfect CG renders’",
+    "link": "https://www.cgchannel.com/2024/09/free-nuke-plugin-pscatter-breaks-up-your-perfect-cg-renders/",
+    "summary": "Handy add-on uses position data to add imperfections to renders from 3D applications like Blender, Houdini and Maya within Nuke.",
+    "published": "Sun, 29 Sep 2024 08:19:19 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-20T20:26:00.791186"
+  },
+  "704c94c2a1d8": {
+    "id": "704c94c2a1d8",
+    "title": "Free tool: 3DGS Render renders 3D Gaussian Splats inside Blender",
+    "link": "https://www.cgchannel.com/2024/09/free-tool-3dgs-render-renders-3d-gaussian-splats-inside-blender/",
+    "summary": "Neat free add-on from the developer of Kiri Engine lets you manipulate and render 3DGS scans directly inside Blender.",
+    "published": "Sat, 28 Sep 2024 08:35:21 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-20T20:26:00.791201"
+  },
+  "5d96e77e3318": {
+    "id": "5d96e77e3318",
+    "title": "Unity previews its roadmap for Unity 6.1 and beyond",
+    "link": "https://www.cgchannel.com/2024/09/unity-previews-its-roadmap-for-unity-6-1-and-beyond/",
+    "summary": "Updated: See the new tools due in the game engine in 2025, including updates to shading, rendering, animation and world building.",
+    "published": "Thu, 26 Sep 2024 06:30:41 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-20T20:26:00.791214"
+  },
+  "09c6540f4f8e": {
+    "id": "09c6540f4f8e",
+    "title": "iToo Software releases Forest Pack 9.0 for 3ds Max",
+    "link": "https://www.cgchannel.com/2024/09/itoo-software-releases-forest-pack-9-for-3ds-max/",
+    "summary": "Major update to the popular scattering plugin adds new ForestIvy add-on for generating 3D ivy and other climbing plants.",
+    "published": "Thu, 26 Sep 2024 06:00:44 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-20T20:26:00.791226"
+  },
+  "1caeb9e1e9dc": {
+    "id": "1caeb9e1e9dc",
+    "title": "Game Dev Digest Issue #323 - Unity Studio, Unity 6.4, AI, and more",
+    "link": "http://gamedev.net/blogs/entry/2297809-game-dev-digest-issue-323-unity-studio-unity-64-ai-and-more",
+    "summary": "This article was originally published on GameDevDigest.com Enjoy! Running Unity Tests at Warp Speed with .NET - Run Unity tests in milliseconds without the Editor. Boost iteration speed for teams and enable AI agents to autonomously verify code with headless .NET. gamedev.center Unity Studio: Web-Based No-Code Design Editor for 3D Experiences - Unity Studio is an intuitive web-based, no-code 3D editor that lets designers, trainers, and engineers build and share interactive applications. unity.com How To Successfully Pitch Your Indie Game to ID@Xbox on Xbox - Guy Richards, Global Director of ID@Xbox, discusses the program’s evolution, supporting indie developers, improving discoverability, …",
+    "published": "Fri, 20 Mar 2026 15:25:01 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-20T20:26:08.609743"
+  },
+  "00771671dfc0": {
+    "id": "00771671dfc0",
+    "title": "Looking for a music composer",
+    "link": "http://gamedev.net/forums/topic/719652-looking-for-a-music-composer",
+    "summary": "I need a someone to make music for my game called Ember Hollow. I cannot pay any money right now though.",
+    "published": "Thu, 19 Mar 2026 21:33:41 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-20T20:26:08.609760"
+  },
+  "70e7bdd783f0": {
+    "id": "70e7bdd783f0",
+    "title": "Please Help me reverse engineer this effect from Guilty Gear Strive",
+    "link": "https://realtimevfx.com/t/please-help-me-reverse-engineer-this-effect-from-guilty-gear-strive/30609",
+    "summary": "Im kind of new to this. Ive done some simple effects with distorting UVs and Panning Textures and some hand painted Textures as Billboards, but this seems really out of the scope of my understanding. All i know that the Mesh is a sort of cone shaped Hemisphere that starts at the tip of the Weapon. If anyone could help me it would be much appreciated. Thank you 6 posts - 3 participants Read full topic",
+    "published": "Fri, 20 Mar 2026 18:00:36 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-03-20T20:26:02.354224"
+  },
+  "21baf063e5cb": {
+    "id": "21baf063e5cb",
+    "title": "Help shader VFX/lighting",
+    "link": "https://realtimevfx.com/t/help-shader-vfx-lighting/30607",
+    "summary": "I like one side of the effect, but dislike the other (I like the shadow part, and dislike the light part) With unlit it doesnt give the nice effect cuz it all blends togheter not casting shadows on each other ofcours. What would be the course to achieve only the dark side? https://i.gyazo.com/c08a253c801dab8ae0ad76f93266bb0e.mp4 2 posts - 1 participant Read full topic",
+    "published": "Fri, 20 Mar 2026 14:18:18 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-03-20T20:26:02.354262"
+  },
+  "34de8bfbdae9": {
+    "id": "34de8bfbdae9",
+    "title": "Crimson Desert has topped 2M sales within a day",
+    "link": "https://www.gamedeveloper.com/business/crimson-desert-has-topped-2m-sales-within-a-day",
+    "summary": "The studio is planning to &quot;make improvements quickly&quot; based on player feedback.",
+    "published": "Fri, 20 Mar 2026 16:16:49 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-20T20:26:10.357101"
+  },
+  "b8094c7106a7": {
+    "id": "b8094c7106a7",
+    "title": "Savvy Games Group to acquire Moonton Games for $6 billion",
+    "link": "https://www.gamedeveloper.com/business/savvy-games-group-agreed-to-buy-moonton-games-for-6-billion",
+    "summary": "TikTok maker ByteDance paid $4 billion for Moonton in 2021.",
+    "published": "Fri, 20 Mar 2026 14:53:29 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-20T20:26:10.357121"
+  },
+  "1b96d3e42106": {
+    "id": "1b96d3e42106",
+    "title": "The GDC 2026 wrap-up show",
+    "link": "https://www.gamedeveloper.com/business/the-gdc-2026-wrap-up-show",
+    "summary": "Join us as we look back on the highs and...well, mostly highs of the 2026 GDC Festival of Gaming.",
+    "published": "Fri, 20 Mar 2026 14:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-20T20:26:10.357134"
+  },
+  "a9841305f451": {
+    "id": "a9841305f451",
+    "title": "IOI Partners disowns MindsEye, Krafton collabs with arms dealer, and more cuts at Ubisoft - Patch Notes #44",
+    "link": "https://www.gamedeveloper.com/business/ioi-partners-disowns-mindseye-krafton-collabs-with-arms-dealer-and-more-cuts-at-ubisoft-patch-notes-44",
+    "summary": "Plus: Unionized workers launch petition to combat ICE and DLSS 5 mockery rattles Nvidia CEO.",
+    "published": "Fri, 20 Mar 2026 10:58:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-20T20:26:10.357145"
   }
 }
