@@ -1,0 +1,781 @@
+<div class="article-content">
+    <!-- Article Header -->
+    <div class="flex flex-wrap items-center gap-3 mb-6">
+        <span class="tag-ue px-3 py-1 rounded-full text-sm">UE5</span>
+        <span class="text-gray-500">2026-03-19</span>
+        <span class="text-gray-500">•</span>
+        <span class="text-gray-500">25-30分钟阅读</span>
+        <span class="text-gray-500">•</span>
+        <span class="text-gray-500">中等</span>
+    </div>
+
+    <h1>Niagara Decal 渲染器完全指南：投影映射、Deferred Decal 与动态淡入淡出</h1>
+
+    <p class="text-xl text-gray-300 mb-6 leading-relaxed">
+        Decal（贴花）渲染是实时图形学中在现有几何表面上叠加细节的关键技术。从弹孔、脚印到魔法符文，
+        Decal 系统为场景增添了丰富的视觉细节。Niagara Decal 渲染器将粒子系统的动态性与贴花投影相结合，
+        实现了完全基于 GPU 的实时贴花生成与管理。本文从投影几何学出发，深入解析 Projective Mapping 数学原理、
+        Deferred Decal 管线架构和动态淡入淡出算法。
+    </p>
+
+    <!-- Abstract -->
+    <div class="tech-analysis-box" style="border-color: #ec489940;">
+        <div class="flex items-center gap-2 mb-4">
+            <span class="text-lg font-semibold" style="color: #ec4899">📋 内容摘要</span>
+        </div>
+        <p class="mb-0 text-gray-300 leading-relaxed">
+            Decal 渲染的本质是<strong>投影映射（Projective Mapping）</strong>——将 2D 纹理通过几何变换投影到 3D 场景表面。
+            本文系统讲解：<strong>Box Projection 投影几何</strong>（正交/透视投影矩阵与裁剪空间变换）、
+            <strong>Deferred Decal 渲染管线</strong>（GBuffer 与 DBuffer 两种架构的数学原理与性能权衡）、
+            <strong>Niagara Decal 渲染器</strong>（GPU 粒子驱动的动态贴花系统）、
+            以及 <strong>淡入淡出算法</strong>（基于生命周期与距离场的透明度混合）。
+            通过符号定义、投影推导和 Niagara 材质实现，掌握现代实时贴花技术。
+        </p>
+    </div>
+
+    <!-- Section 1: Overview -->
+    <h2>1. 概述与核心概念</h2>
+
+    <h3>1.1 什么是 Projective Mapping？</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        <strong>Projective Mapping（投影映射）</strong>是将纹理坐标通过投影变换映射到 3D 几何表面的技术。
+        与 UV 映射不同，投影映射不需要预先为网格展开 UV，而是通过实时计算的几何投影确定纹理采样位置。
+        这使得 Decal 可以"附着"在任意复杂几何上，适应曲率和表面细节。
+    </p>
+
+    <div class="glass-card rounded-xl p-6 mb-6 border-l-4 border-pink-500">
+        <div class="flex items-center gap-2 mb-3">
+            <span class="text-lg font-semibold text-pink-400">🎯 核心洞察</span>
+        </div>
+        <p class="text-gray-300 leading-relaxed">
+            Decal 投影的核心数学工具是<strong>投影矩阵（Projection Matrix）</strong>。
+            通过定义一个投影体积（通常是 Box 或 Frustum），我们将世界空间坐标变换到投影空间的 UV 坐标。
+            这种变换是可逆的：给定世界坐标，可以计算其在 Decal 纹理上的对应位置；
+            反之，给定 Decal UV，可以重构世界空间射线进行相交测试。
+            正是这一数学特性使得 Decal 能够动态适应任意几何表面。
+        </p>
+    </div>
+
+    <h3>1.2 Decal 渲染技术演进</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-3 px-4">发展阶段</th>
+                <th class="text-left py-3 px-4">核心技术</th>
+                <th class="text-left py-3 px-4">局限性</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4"><strong>前向贴花</strong> (2000s)</td>
+                <td class="py-3 px-4">几何体挤出、Alpha 混合</td>
+                <td class="py-3 px-4 text-gray-400">Z-fighting、深度冲突</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4"><strong>Forward Decal</strong> (2010s)</td>
+                <td class="py-3 px-4">顶点投影、限制在表面</td>
+                <td class="py-3 px-4 text-gray-400">需要 CPU 生成几何、切换频繁</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4"><strong>Deferred Decal</strong> (2012-2018)</td>
+                <td class="py-3 px-4">GBuffer 投影混合</td>
+                <td class="py-3 px-4 text-gray-400">不支持前向渲染物体、无光照贴花受限</td>
+            </tr>
+            <tr class="bg-pink-500/10 border-l-4 border-pink-500">
+                <td class="py-3 px-4"><strong>DBuffer + Niagara</strong> (2018-)</td>
+                <td class="py-3 px-4"><strong>GPU 驱动动态贴花、 Normal Blending</strong></td>
+                <td class="py-3 px-4 text-gray-400"><strong>全场景支持、粒子驱动、实时生成</strong></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Section 2: Symbol Definitions -->
+    <h2>2. 符号定义表</h2>
+
+    <h3>2.1 投影几何相关</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2 px-4 w-24">符号</th>
+                <th class="text-left py-2 px-4 w-32">定义</th>
+                <th class="text-left py-2 px-4">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">M<sub>decal</sub></td>
+                <td class="py-2 px-4">Decal 世界矩阵</td>
+                <td class="py-2 px-4 text-gray-400">4×4 齐次变换矩阵，定义 Decal 位置、旋转、缩放</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">M<sub>decal</sub><sup>-1</sup></td>
+                <td class="py-2 px-4">逆世界矩阵</td>
+                <td class="py-2 px-4 text-gray-400">将世界坐标变换到 Decal 局部空间</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">P<sub>local</sub></td>
+                <td class="py-2 px-4">局部空间坐标</td>
+                <td class="py-2 px-4 text-gray-400">P<sub>local</sub> = M<sub>decal</sub><sup>-1</sup> × P<sub>world</sub></td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">(u,v)</td>
+                <td class="py-2 px-4">贴花 UV 坐标</td>
+                <td class="py-2 px-4 text-gray-400">归一化纹理坐标 [0,1] × [0,1]</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">d</td>
+                <td class="py-2 px-4">深度因子</td>
+                <td class="py-2 px-4 text-gray-400">沿投影方向的归一化深度 d ∈ [0,1]</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 font-mono">S</td>
+                <td class="py-2 px-4">Decal 尺寸向量</td>
+                <td class="py-2 px-4 text-gray-400">Box 的半长 (S<sub>x</sub>, S<sub>y</sub>, S<sub>z</sub>)</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>2.2 渲染混合相关</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2 px-4 w-24">符号</th>
+                <th class="text-left py-2 px-4 w-32">定义</th>
+                <th class="text-left py-2 px-4">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">α(t)</td>
+                <td class="py-2 px-4">时间透明度</td>
+                <td class="py-2 px-4 text-gray-400">随粒子生命周期变化的淡入淡出因子</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">α<sub>dist</sub></td>
+                <td class="py-2 px-4">距离衰减因子</td>
+                <td class="py-2 px-4 text-gray-400">基于观察距离的 LOD 透明度</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">f<sub>edge</sub></td>
+                <td class="py-2 px-4">边缘柔和因子</td>
+                <td class="py-2 px-4 text-gray-400">UV 边界的 smoothstep 衰减</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">f<sub>depth</sub></td>
+                <td class="py-2 px-4">深度柔和因子</td>
+                <td class="py-2 px-4 text-gray-400">投影深度方向的透明度衰减</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 font-mono">β<sub>normal</sub></td>
+                <td class="py-2 px-4">法线混合权重</td>
+                <td class="py-2 px-4 text-gray-400">Decal 法线与表面法线的混合系数</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>2.3 粒子系统相关</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2 px-4 w-24">符号</th>
+                <th class="text-left py-2 px-4 w-32">定义</th>
+                <th class="text-left py-2 px-4">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">T<sub>life</sub></td>
+                <td class="py-2 px-4">粒子生命周期</td>
+                <td class="py-2 px-4 text-gray-400">Decal 存活总时间（秒）</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">T<sub>in</sub></td>
+                <td class="py-2 px-4">淡入时间</td>
+                <td class="py-2 px-4 text-gray-400">从 0 到完全可见的过渡时间</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">T<sub>out</sub></td>
+                <td class="py-2 px-4">淡出时间</td>
+                <td class="py-2 px-4 text-gray-400">从完全可见到消失的过渡时间</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 font-mono">τ</td>
+                <td class="py-2 px-4">归一化年龄</td>
+                <td class="py-2 px-4 text-gray-400">τ = t / T<sub>life</sub> ∈ [0,1]</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Section 3: Projective Mapping Theory -->
+    <h2>3. 投影映射核心理论</h2>
+
+    <h3>3.1 Box Projection 数学原理</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        <strong>Box Projection（盒式投影）</strong>是 Decal 渲染的标准方法。Decal 被定义为一个有方向的 Box，
+        纹理沿着 Box 的主轴（通常是 Z 轴）正交投影到场景几何上。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>Box Projection 坐标变换：</strong>
+
+1. 世界空间到局部空间：
+   P<sub>local</sub> = M<sub>decal</sub><sup>-1</sup> × [x, y, z, 1]<sup>T</sup>
+
+2. 局部空间到 UV 空间：
+   u = (P<sub>local</sub>.x / S<sub>x</sub> + 1) / 2
+   v = (P<sub>local</sub>.y / S<sub>y</sub> + 1) / 2
+   d = (P<sub>local</sub>.z / S<sub>z</sub> + 1) / 2
+
+3. 裁剪测试：
+   if (u < 0 || u > 1 || v < 0 || v > 1 || d < 0 || d > 1)
+       discard;  // 在 Decal Box 外部
+
+4. 纹理采样：
+   Color = Texture2D(DecalTexture, float2(u, v))
+
+其中：
+- M<sub>decal</sub> = T × R × S（平移 × 旋转 × 缩放矩阵）
+- S = (S<sub>x</sub>, S<sub>y</sub>, S<sub>z</sub>) 是 Box 的半尺寸
+- (u,v) 是归一化的纹理坐标
+- d 是归一化的投影深度</pre>
+    </div>
+
+    <div class="glass-card rounded-xl p-6 mb-6 border-l-4 border-yellow-500">
+        <div class="flex items-center gap-2 mb-3">
+            <span class="text-lg font-semibold text-yellow-400">💡 数学洞察</span>
+        </div>
+        <p class="text-gray-300 leading-relaxed">
+            Box Projection 的关键在于<strong>M<sub>decal</sub><sup>-1</sup></strong> 的计算。
+            由于 M<sub>decal</sub> 是正交矩阵（仅包含旋转和平移），其逆矩阵等于转置矩阵加上平移修正：
+            M<sub>decal</sub><sup>-1</sup> = [R<sup>T</sup> | -R<sup>T</sup>×T]。
+            这一性质使得 GPU 上的变换计算非常高效。
+            此外，Box Projection 产生的 UV 坐标在投影方向上保持线性，
+            这确保了纹理在平面表面上不会产生透视扭曲。
+        </p>
+    </div>
+
+    <h3>3.2 深度测试与表面贴合</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        Decal 必须与场景几何正确贴合。这需要比较 Decal 投影深度与场景深度缓冲，
+        确保 Decal 只出现在与投影射线相交的表面上。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>深度贴合算法：</strong>
+
+1. 屏幕空间 Decal 位置计算：
+   P<sub>screen</sub> = ViewProjMatrix × P<sub>world</sub>
+   UV<sub>screen</sub> = P<sub>screen</sub>.xy / P<sub>screen</sub>.w × 0.5 + 0.5
+
+2. 采样场景深度：
+   Depth<sub>scene</sub> = SampleSceneDepth(UV<sub>screen</sub>)
+
+3. 重构场景世界位置：
+   P<sub>scene</sub> = ReconstructWorldPosition(UV<sub>screen</sub>, Depth<sub>scene</sub>)
+
+4. 计算 Decal UV：
+   P<sub>local</sub> = M<sub>decal</sub><sup>-1</sup> × P<sub>scene</sub>
+   (u, v, d) = LocalToUV(P<sub>local</sub>, S)
+
+5. 深度差异测试：
+   Δd = |d - 0.5|  // 相对于 Decal Box 中心的距离
+   if (Δd > 0.5) discard;  // 超出 Decal Box 深度范围
+
+6. 深度柔和：
+   f<sub>depth</sub> = 1 - smoothstep(0, f<sub>depthRange</sub>, Δd)
+
+其中 f<sub>depthRange</sub> 控制深度边缘的柔和程度，通常设为 0.1-0.2。</pre>
+    </div>
+
+    <h3>3.3 Normal Blending 原理</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        Decal 不仅要影响 Base Color，还需要影响表面法线以产生真实的凹凸效果。
+        <strong>Normal Blending（法线混合）</strong>是将 Decal 的切线空间法线与表面法线正确组合的过程。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>法线混合数学：</strong>
+
+1. 解码 Decal 法线（从切线空间）：
+   N<sub>decalTS</sub> = DecodeNormal(DecalNormalTexture(u,v))
+   N<sub>decalWS</sub> = TBN<sub>decal</sub> × N<sub>decalTS</sub>
+
+2. 获取表面法线（来自 GBuffer）：
+   N<sub>surface</sub> = GBuffer.Normal
+
+3. 归一化混合（Reoriented Normal Mapping）：
+   N<sub>blended</sub> = normalize(N<sub>surface</sub> + N<sub>decalWS</sub> × β<sub>normal</sub> × α)
+
+4. 高级混合（UDN Blending）：
+   t = N<sub>decalTS</sub> × 2 - 1
+   u = N<sub>surface</sub> × 2 - 1
+   r = normalize(float3(t.xy + u.xy, t.z × u.z))
+   N<sub>blended</sub> = r × 0.5 + 0.5
+
+5. 混合权重控制：
+   β<sub>normal</sub> = DecalNormalIntensity × f<sub>edge</sub> × f<sub>depth</sub> × α
+
+其中：
+- TBN<sub>decal</sub> 是 Decal 的切线-副切线-法线矩阵
+- β<sub>normal</sub> 是法线混合强度
+- α 是 Decal 透明度</pre>
+    </div>
+
+    <!-- Section 4: Decal Rendering Pipeline -->
+    <h2>4. Decal 渲染管线架构</h2>
+
+    <h3>4.1 延迟渲染管线中的 Decal</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>Deferred Decal 管线：</strong>
+
+场景渲染阶段
+├─ GBuffer Pass
+│  ├─ Base Color → GBufferA
+│  ├─ Normal      → GBufferB
+│  ├─ ORM         → GBufferC
+│  └─ Depth       → ZBuffer
+│
+Decal 渲染阶段
+├─ 遍历所有 Decal 体积
+├─ 对于每个 Decal:
+│  ├─ 计算投影矩阵 M<sub>decal</sub>
+│  ├─ 绑定 Decal 材质
+│  └─ 全屏/体积 Pass:
+│     ├─ 采样 GBuffer 深度
+│     ├─ 重构世界位置
+│     ├─ 计算 Decal UV
+│     ├─ 采样 Decal 纹理
+│     └─ 混合到 GBuffer
+│
+光照阶段
+├─ 使用修改后的 GBuffer 进行光照计算
+└─ 输出最终颜色
+
+混合公式（GBuffer Decal）：
+GBuffer′ = GBuffer × (1 - α) + Decal × α
+
+其中 α 是 Decal 在对应像素上的透明度。</pre>
+    </div>
+
+    <h3>4.2 DBuffer Decal 架构</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        <strong>DBuffer（Decal Buffer）</strong>是 UE4/5 引入的 Decal 架构改进。
+        它在 Base Pass <strong>之前</strong>应用 Decal，将结果写入独立的 DBuffer 纹理，
+        然后在 Base Pass 中合并。这种方法支持前向渲染物体和静态光照。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>DBuffer 管线：</strong>
+
+Pre-Base Pass 阶段
+├─ Decal 投影 Pass
+│  ├─ 遍历 Decal 体积
+│  ├─ 计算 DBuffer 贡献
+│  └─ 写入 DBuffer
+│     ├─ DBufferA: BaseColor × Alpha
+│     ├─ DBufferB: Normal × Alpha
+│     └─ DBufferC: ORM × Alpha
+│
+Base Pass 阶段
+├─ 对于每个像素:
+│  ├─ 采样 DBuffer
+│  ├─ 材质属性 = lerp(材质, DBuffer, DBuffer.Alpha)
+│  └─ 应用光照
+│
+优势：
+- 支持前向渲染物体
+- 支持静态光照（烘焙光照）
+- Decal 可以影响光照计算
+
+劣势：
+- 需要额外的内存带宽（DBuffer 写入/读取）
+- 每个像素最多支持有限数量的 Decal（通常 3-4 个）</pre>
+    </div>
+
+    <h3>4.3 架构对比</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-3 px-4">特性</th>
+                <th class="text-left py-3 px-4">Deferred Decal</th>
+                <th class="text-left py-3 px-4">DBuffer Decal</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4 font-semibold">应用时机</td>
+                <td class="py-3 px-4 text-gray-400">GBuffer 之后</td>
+                <td class="py-3 px-4 text-gray-400">Base Pass 之前</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4 font-semibold">前向渲染支持</td>
+                <td class="py-3 px-4 text-red-400">不支持</td>
+                <td class="py-3 px-4 text-green-400">支持</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4 font-semibold">静态光照</td>
+                <td class="py-3 px-4 text-red-400">不支持</td>
+                <td class="py-3 px-4 text-green-400">支持</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4 font-semibold">内存带宽</td>
+                <td class="py-3 px-4 text-green-400">低</td>
+                <td class="py-3 px-4 text-yellow-400">中（额外 DBuffer）</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4 font-semibold">每像素 Decal 数</td>
+                <td class="py-3 px-4 text-green-400">无限制</td>
+                <td class="py-3 px-4 text-yellow-400">有限（通常 3-4）</td>
+            </tr>
+            <tr>
+                <td class="py-3 px-4 font-semibold">性能</td>
+                <td class="py-3 px-4 text-green-400">更高（Overdraw 可控）</td>
+                <td class="py-3 px-4 text-yellow-400">中等（额外 Pass）</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Section 5: Niagara Decal Renderer -->
+    <h2>5. Niagara Decal 渲染器实现</h2>
+
+    <h3>5.1 Niagara 系统架构</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>Niagara Decal 数据流：</strong>
+
+粒子生成阶段
+├─ CPU Emitter:
+│  ├─ 碰撞事件触发 Spawn
+│  ├─ 设置初始属性:
+│  │  ├─ Position: 碰撞点
+│  │  ├─ Rotation: 对齐表面法线
+│  │  ├─ Size: Decal 尺寸
+│  │  ├─ Color: 颜色/透明度
+│  │  ├─ Lifetime: T<sub>life</sub>
+│  │  ├─ FadeIn: T<sub>in</sub>
+│  │  └─ FadeOut: T<sub>out</sub>
+│  └─ 生成 GPU 粒子
+│
+GPU 模拟阶段
+├─ Normalize Age:
+│  └─ τ = Age / Lifetime
+│
+├─ 淡入淡出计算:
+│  ├─ 归一化淡入: τ<sub>in</sub> = saturate(Age / FadeIn)
+│  ├─ 归一化淡出: τ<sub>out</sub> = 1 - saturate((Age - (Lifetime - FadeOut)) / FadeOut)
+│  └─ α(τ) = τ<sub>in</sub> × τ<sub>out</sub>
+│
+├─ 动态属性更新:
+│  ├─ 可选: 尺寸动画
+│  ├─ 可选: 颜色变化
+│  └─ 可选: 位置漂移
+│
+Decal 渲染阶段
+├─ 每粒子渲染:
+│  ├─ 构建 M<sub>decal</sub> 矩阵
+│  ├─ 投影到 GBuffer/DBuffer
+│  └─ 应用材质与透明度
+│
+数据传递:
+Particle Attributes → Material Parameter → Decal Shader</pre>
+    </div>
+
+    <h3>5.2 淡入淡出曲线系统</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        淡入淡出是 Decal 生命周期管理的核心。通过控制透明度随时间的变化，
+        可以实现自然出现和消失的效果。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>透明度曲线数学：</strong>
+
+1. 线性淡入淡出：
+   ⎧ t/T<sub>in</sub>                          当 0 ≤ t < T<sub>in</sub>
+α(t) = ⎨ 1                              当 T<sub>in</sub> ≤ t < T<sub>life</sub> - T<sub>out</sub>
+   ⎩ 1 - (t - (T<sub>life</sub> - T<sub>out</sub>))/T<sub>out</sub>   当 T<sub>life</sub> - T<sub>out</sub> ≤ t ≤ T<sub>life</sub>
+
+2. 平滑淡入淡出（smoothstep）：
+   α<sub>in</sub>(t) = 3(t/T<sub>in</sub>)² - 2(t/T<sub>in</sub>)³
+   α<sub>out</sub>(t) = 1 - [3(τ<sub>out</sub>)² - 2(τ<sub>out</sub>)³]
+   其中 τ<sub>out</sub> = (t - (T<sub>life</sub> - T<sub>out</sub>))/T<sub>out</sub>
+
+3. 指数淡入淡出：
+   α<sub>in</sub>(t) = 1 - e<sup>-kt/T<sub>in</sub></sup>
+   α<sub>out</sub>(t) = e<sup>-k(t - (T<sub>life</sub> - T<sub>out</sub>))/T<sub>out</sub></sup>
+
+4. 自定义曲线（Niagara Float Curve）：
+   α(t) = SampleCurve(NormalizedAge)
+
+Niagara 模块参数：
+- Fade In Duration: T<sub>in</sub>
+- Fade Out Duration: T<sub>out</sub>
+- Fade In Curve: 曲线类型（Linear/Smooth/Exponential/Custom）
+- Fade Out Curve: 同上</pre>
+    </div>
+
+    <h3>5.3 HLSL 材质实现</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><code class="language-hlsl">// Niagara Decal 材质 - DBuffer 输出
+// 输入：Niagara 粒子属性
+
+// 材质参数（由 Niagara 驱动）
+float DecalAlpha;           // 粒子透明度 α(t)
+float3 DecalColor;          // 粒子颜色
+float NormalIntensity;      // 法线混合强度
+float EdgeSoftness;         // 边缘柔和范围
+float DepthSoftness;        // 深度柔和范围
+
+// Decal 投影函数
+float3 ComputeDecalUV(float3 WorldPosition, float4x4 DecalInvMatrix, float3 DecalSize)
+{
+    // 变换到 Decal 局部空间
+    float3 LocalPos = mul(DecalInvMatrix, float4(WorldPosition, 1.0)).xyz;
+    
+    // 归一化到 [0,1] 范围
+    float3 UVW = LocalPos / DecalSize * 0.5 + 0.5;
+    
+    return UVW;
+}
+
+// 边缘柔和函数
+float ComputeEdgeFade(float2 UV, float Softness)
+{
+    float2 EdgeDist = min(UV, 1.0 - UV);
+    float MinEdge = min(EdgeDist.x, EdgeDist.y);
+    return smoothstep(0, Softness, MinEdge);
+}
+
+// 深度柔和函数
+float ComputeDepthFade(float Depth, float Softness)
+{
+    // Depth 在 [0,1] 范围内，0.5 是中心
+    float DistFromCenter = abs(Depth - 0.5) * 2.0;
+    return 1.0 - smoothstep(1.0 - Softness, 1.0, DistFromCenter);
+}
+
+// 主像素着色器
+void DecalPixelShader(
+    float2 ScreenUV : TEXCOORD0,
+    float3 WorldPosition : TEXCOORD1,
+    out float4 DBufferA : SV_Target0,  // BaseColor
+    out float4 DBufferB : SV_Target1,  // Normal
+    out float4 DBufferC : SV_Target2   // ORM
+)
+{
+    // 计算 Decal UV
+    float3 UVW = ComputeDecalUV(WorldPosition, DecalInvMatrix, DecalSize);
+    
+    // 裁剪测试
+    if (any(UVW < 0.0) || any(UVW > 1.0))
+        discard;
+    
+    // 采样 Decal 纹理
+    float4 DecalBase = DecalBaseTexture.Sample(UVW.xy);
+    float4 DecalNormal = DecalNormalTexture.Sample(UVW.xy);
+    float4 DecalORM = DecalORMTexture.Sample(UVW.xy);
+    
+    // 计算柔和因子
+    float EdgeFade = ComputeEdgeFade(UVW.xy, EdgeSoftness);
+    float DepthFade = ComputeDepthFade(UVW.z, DepthSoftness);
+    
+    // 最终透明度
+    float FinalAlpha = DecalBase.a * DecalAlpha * EdgeFade * DepthFade;
+    
+    // 应用颜色
+    float3 FinalColor = DecalBase.rgb * DecalColor;
+    
+    // 解码并混合法线
+    float3 DecalNormalTS = DecodeNormal(DecalNormal);
+    float3 DecalNormalWS = mul(DecalNormalTS, DecalTBNMatrix);
+    
+    // DBuffer 输出（预乘 Alpha）
+    DBufferA = float4(FinalColor * FinalAlpha, FinalAlpha);
+    DBufferB = float4(DecalNormalWS * 0.5 + 0.5, FinalAlpha) * FinalAlpha;
+    DBufferC = float4(DecalORM.rgb, FinalAlpha) * FinalAlpha;
+}</code></pre>
+    </div>
+
+    <!-- Section 6: Advanced Techniques -->
+    <h2>6. 高级技术与优化</h2>
+
+    <h3>6.1 距离场 Decal（Mesh Distance Field）</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        UE5 引入了基于<strong>网格距离场（Mesh Distance Field, MDF）</strong>的 Decal 技术。
+        这种方法无需投影矩阵，直接利用距离场查询表面位置和法线。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>距离场 Decal 原理：</strong>
+
+1. 距离场定义：
+   D(p) = 点 p 到最近表面的有符号距离
+   - D < 0: 在物体内部
+   - D > 0: 在物体外部
+   - D = 0: 在表面上
+
+2. 表面重构：
+   给定距离场 D(p)，表面法线可以通过梯度计算：
+   N = ∇D = (dD/dx, dD/dy, dD/dz)
+
+3. Decal 应用：
+   对于 Decal 中心点 C 和半径 R：
+   
+   for 每个像素在球体 C,R 内:
+       p = 射线与距离场表面交点
+       if D(p) ≈ 0:
+           UV = ComputeUVFromPosition(p)
+           ApplyDecal(UV)
+
+4. 优势：
+   - 无需投影矩阵
+   - 自动适应任意曲面
+   - 支持体积贴花（Volume Decal）
+
+5. 劣势：
+   - 需要预计算距离场（内存开销）
+   - 仅支持静态网格
+   - 精度受距离场分辨率限制</pre>
+    </div>
+
+    <h3>6.2 体积贴花 vs 表面贴花</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-3 px-4">特性</th>
+                <th class="text-left py-3 px-4">表面贴花（Surface Decal）</th>
+                <th class="text-left py-3 px-4">体积贴花（Volume Decal）</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4 font-semibold">投影方式</td>
+                <td class="py-3 px-4 text-gray-400">沿单一方向投影</td>
+                <td class="py-3 px-4 text-gray-400">包裹整个体积内的表面</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4 font-semibold">适用表面</td>
+                <td class="py-3 px-4 text-gray-400">朝向投影方向的表面</td>
+                <td class="py-3 px-4 text-gray-400">体积内所有方向的表面</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4 font-semibold">法线处理</td>
+                <td class="py-3 px-4 text-gray-400">基于投影方向</td>
+                <td class="py-3 px-4 text-gray-400">基于表面实际法线</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4 font-semibold">应用场景</td>
+                <td class="py-3 px-4 text-gray-400">弹孔、脚印、贴地标记</td>
+                <td class="py-3 px-4 text-gray-400">涂鸦、伤痕、腐蚀效果</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4 font-semibold">性能</td>
+                <td class="py-3 px-4 text-green-400">更高（单一方向测试）</td>
+                <td class="py-3 px-4 text-yellow-400">较低（多方向测试）</td>
+            </tr>
+            <tr>
+                <td class="py-3 px-4 font-semibold">距离场支持</td>
+                <td class="py-3 px-4 text-yellow-400">可选</td>
+                <td class="py-3 px-4 text-green-400">推荐</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>6.3 性能优化策略</h3>
+    <div class="glass-card rounded-xl p-6 mb-6">
+        <h4 class="font-semibold text-gray-200 mb-3">Niagara Decal 性能指南</h4>
+        <ul class="space-y-2 text-sm text-gray-400">
+            <li>• <strong>Decal 数量：</strong>同屏活跃 Decal 控制在 50-100 个以内</li>
+            <li>• <strong>尺寸限制：</strong>单个 Decal 尺寸不宜超过 2-3 米</li>
+            <li>• <strong>生命周期：</strong>设置合理的 FadeOut 时间，及时回收</li>
+            <li>• <strong>LOD 系统：</strong>远距离降低贴花分辨率或禁用</li>
+            <li>• <strong>材质优化：</strong>使用简单的 Decal 材质，避免复杂计算</li>
+            <li>• <strong>视图剔除：</strong>利用 Niagara 的视图剔除功能</li>
+        </ul>
+    </div>
+
+    <!-- Section 7: Practical Applications -->
+    <h2>7. 实战应用场景</h2>
+
+    <h3>7.1 典型应用案例</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>游戏内应用：</strong>
+
+1. 弹孔与弹痕
+   - 触发：武器射线检测碰撞
+   - 设置：对齐碰撞法线，随机旋转
+   - 淡出：5-10 秒后淡出消失
+
+2. 脚印系统
+   - 触发：角色动画事件（脚步落地）
+   - 设置：对齐地面法线，根据材质选择贴花
+   - 淡出：根据材质（水泥保留久，雪地保留短）
+
+3. 魔法符文
+   - 触发：法术施放
+   - 设置：发光贴花，颜色随法术类型变化
+   - 动画：UV 流动、颜色脉动
+
+4. 液体污渍
+   - 触发：液体碰撞、角色死亡
+   - 设置：次表面散射材质
+   - 扩散：尺寸随时间轻微增大</pre>
+    </div>
+
+    <h3>7.2 Niagara 蓝图配置</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>Niagara 系统设置要点：</strong>
+
+Emitter Properties:
+├─ Sim Target: GPUCompute Sim
+├─ Spawn Rate: 0（事件驱动生成）
+└─ Event Handler: 碰撞事件 → Spawn
+
+Particle Spawn:
+├─ Initialize Particle:
+│  ├─ Position: From Collision Event
+│  ├─ Rotation: Align to Surface Normal
+│  ├─ Size: (50, 50, 10) cm
+│  ├─ Lifetime: 10s
+│  └─ Color: Random from Palette
+│
+└─ Initial Mesh Rotation: Random Yaw
+
+Particle Update:
+├─ Normalize Age
+├─ Scale Color:
+│  └─ Alpha = FadeInCurve(NormalizedAge) × FadeOutCurve(NormalizedAge)
+├─ Scale Mesh Size:
+│  └─ Optional: 微小扩张模拟扩散
+└─ Solve Forces and Velocity
+
+Render:
+└─ Decal Renderer:
+   ├─ Material: M_Decal_Impact
+   ├─ Decal Size: From Particle.Size
+   └─ Fade Start Delay: 8s</pre>
+    </div>
+
+    <!-- Section 8: References -->
+    <h2>8. 参考与扩展阅读</h2>
+
+    <h3>8.1 核心技术论文</h3>
+    <ul class="space-y-2 text-gray-300 mb-6">
+        <li>• Mittring, M. (2007). "Finding Next Gen: CryEngine 2" (SIGGRAPH)</li>
+        <li>• McCaffrey, J. (2014). "Deferred Decals in Unreal Engine 4"</li>
+        <li>• Wright, D. (2015). "Dynamic Occlusion with Signed Distance Fields"</li>
+        <li>• Hargreaves, S. (2004). "Deferred Shading" (GDC)</li>
+    </ul>
+
+    <h3>8.2 UE5 官方资源</h3>
+    <ul class="space-y-2 text-gray-300 mb-6">
+        <li>• <a href="https://docs.unrealengine.com/5.0/en-US/DeferredDecalsinUnrealEngine/" class="text-pink-400 hover:underline">UE5 文档 - Deferred Decals</a></li>
+        <li>• <a href="https://docs.unrealengine.com/5.0/en-US/NiagaraDecalRenderer/" class="text-pink-400 hover:underline">UE5 文档 - Niagara Decal Renderer</a></li>
+        <li>• <a href="https://docs.unrealengine.com/5.0/en-US/MeshDistanceFields/" class="text-pink-400 hover:underline">UE5 文档 - Mesh Distance Fields</a></li>
+    </ul>
+
+    <h3>8.3 技术标签</h3>
+    <div class="flex flex-wrap gap-2 mb-6">
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Projective Mapping</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Box Projection</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Normal Blending</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Deferred Decal</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">DBuffer</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Niagara</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Distance Field</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Volume Decal</span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-500 text-sm mt-12 pt-8 border-t border-slate-800">
+        <p>Realtime Tech Library • V2 概念导向版</p>
+        <p class="mt-2">最后更新: 2026-03-19 • 阅读时间: 25-30分钟</p>
+        <p class="mt-1 text-xs text-gray-600">「理论为基，原理为先」</p>
+    </footer>
+</div>

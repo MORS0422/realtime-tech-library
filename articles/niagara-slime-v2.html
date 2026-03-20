@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niagara 粘液特效完全指南 - Realtime Tech Library</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'Noto Sans SC', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
+                    },
+                    colors: {
+                        dark: {
+                            800: '#1a1a2e',
+                            700: '#16213e',
+                            600: '#0f3460',
+                        },
+                        neon: {
+                            green: '#00ff88',
+                            amber: '#ffbe0b',
+                            purple: '#9d4edd',
+                            blue: '#3b82f6',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f0f1e 0%, #1a1a2e 100%);
+            color: #e0e0e0;
+        }
+        .glass-card {
+            background: rgba(30, 30, 50, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .tech-analysis-box {
+            background: linear-gradient(135deg, rgba(0, 255, 136, 0.1) 0%, rgba(0, 255, 136, 0.02) 100%);
+            border-left: 3px solid #00ff88;
+            padding: 1.5rem;
+            border-radius: 0 12px 12px 0;
+            margin: 1.5rem 0;
+        }
+        .formula-block {
+            background: rgba(20, 25, 40, 0.8);
+            border: 1px solid rgba(100, 120, 160, 0.2);
+            border-radius: 8px;
+            padding: 1.25rem;
+            font-family: 'JetBrains Mono', monospace;
+            overflow-x: auto;
+        }
+        .symbol-table th {
+            background: rgba(0, 255, 136, 0.1);
+            color: #00ff88;
+        }
+        .symbol-table td {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        code {
+            font-family: 'JetBrains Mono', monospace;
+            background: rgba(100, 120, 160, 0.15);
+            padding: 0.15em 0.4em;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        pre code {
+            background: transparent;
+            padding: 0;
+        }
+        .tag-ue {
+            background: linear-gradient(135deg, #0f3460 0%, #1a5490 100%);
+            color: #60a5fa;
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(255, 190, 11, 0.1) 0%, rgba(255, 190, 11, 0.02) 100%);
+            border-left: 3px solid #ffbe0b;
+            padding: 1rem 1.5rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <div class="max-w-5xl mx-auto px-6 py-12">
+        
+        <!-- Article Header -->
+        <div class="flex flex-wrap items-center gap-3 mb-8">
+            <span class="tag-ue px-4 py-1.5 rounded-full text-sm font-medium">UE5 · Niagara · CFD</span>
+            <span class="text-gray-500 text-sm">2026-03-19</span>
+            <span class="text-gray-500 text-sm">•</span>
+            <span class="text-gray-500 text-sm">30-35分钟阅读</span>
+            <span class="text-gray-500 text-sm">•</span>
+            <span class="text-neon-green text-sm font-medium">困难</span>
+        </div>
+
+        <h1 class="text-4xl md:text-5xl font-bold mb-8 leading-tight">
+            <span class="bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
+                UE5 Niagara 粘液特效完全指南
+            </span>
+            <br>
+            <span class="text-2xl md:text-3xl font-normal text-gray-400">
+                非牛顿流体模拟、粘弹性物理与次表面散射渲染
+            </span>
+        </h1>
+
+        <!-- Abstract -->
+        <div class="glass-card rounded-2xl p-8 mb-10">
+            <p class="text-xl text-gray-300 leading-relaxed mb-6">
+                粘液特效是实时渲染中极具挑战性的流体模拟问题，其核心在于<strong>非牛顿流体</strong>的物理建模。
+                从《怪奇物语》的 Demogorgon 到《最后生还者》的感染者，粘液效果依赖于对
+                <strong>剪切变稀（Shear Thinning）</strong>、<strong>屈服应力（Yield Stress）</strong>
+                和<strong>粘弹性（Viscoelasticity）</strong>的精确数学描述。
+            </p>
+            <p class="text-lg text-gray-400 leading-relaxed">
+                本文从<strong>连续介质力学</strong>出发，建立完整的非牛顿流体理论框架；
+                推导<strong>SPH（光滑粒子流体动力学）</strong>的离散化方程；
+                并在 UE5 Niagara GPU 粒子系统中实现高效的并行模拟。
+                通过 Herschel-Bulkley 本构模型、PBD（Position Based Dynamics）积分方案
+                和次表面散射材质的系统化整合，构建从物理理论到引擎实现的完整技术链条。
+            </p>
+        </div>
+
+        <!-- Section 1: Overview -->
+        <h2 class="text-3xl font-bold mb-6 text-white">1. 概述与核心理论</h2>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">1.1 什么是非牛顿流体？</h3>
+        
+        <p class="text-gray-300 leading-relaxed mb-6">
+            <strong>牛顿流体</strong>（如空气、水）的剪切应力 <code>τ</code> 与剪切速率 <code>γ̇</code> 
+            呈线性关系，粘度 <code>μ</code> 为常数。然而，<strong>非牛顿流体</strong>的粘度随剪切速率变化，
+            表现出复杂的流变学行为。粘液通常属于<strong>假塑性流体（Pseudoplastic Fluid）</strong>，
+            即<strong>剪切变稀</strong>：静止时粘稠，受力流动时粘度急剧下降。
+        </p>
+
+        <div class="highlight-box">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-xl">🎯</span>
+                <span class="text-lg font-semibold text-neon-amber">核心洞察：粘弹性的双重性</span>
+            </div>
+            <p class="text-gray-300 leading-relaxed">
+                粘液的视觉真实感来源于<strong>粘弹性（Viscoelasticity）</strong>的双重特性：
+                短时间尺度下表现为弹性固体（可拉丝、回弹），长时间尺度下表现为粘性液体（可流动、变形）。
+                这种"记忆效应"需要通过<strong>Maxwell 模型</strong>或<strong>Oldroyd-B 模型</strong>描述，
+                在 Niagara 中通过松弛时间 <code>λ</code> 控制弹性响应的衰减速度。
+            </p>
+        </div>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">1.2 流体模拟技术演进</h3>
+
+        <div class="overflow-x-auto mb-8">
+            <table class="w-full text-sm">
+                <thead>
+                    <tr class="border-b border-gray-700">
+                        <th class="text-left py-4 px-4 font-semibold text-neon-green">发展阶段</th>
+                        <th class="text-left py-4 px-4 font-semibold text-neon-green">核心理论</th>
+                        <th class="text-left py-4 px-4 font-semibold text-neon-green">技术局限</th>
+                    </tr>
+                </thead>
+                <tbody class="text-gray-300">
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-4 px-4"><strong>欧拉网格法</strong> (1960s-2000s)</td>
+                        <td class="py-4 px-4 text-gray-400">Navier-Stokes 有限差分</td>
+                        <td class="py-4 px-4 text-gray-400">对流项数值耗散，自由表面处理困难</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-4 px-4"><strong>Lagrangian 粒子</strong> (1990s-2010)</td>
+                        <td class="py-4 px-4 text-gray-400">SPH 核函数插值</td>
+                        <td class="py-4 px-4 text-gray-400">O(n²) 邻居搜索，压力不稳定</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-4 px-4"><strong>混合方法</strong> (2010-2020)</td>
+                        <td class="py-4 px-4 text-gray-400">FLIP/PIC 粒子网格混合</td>
+                        <td class="py-4 px-4 text-gray-400">内存开销大，GPU 并行受限</td>
+                    </tr>
+                    <tr class="bg-neon-green/5 border-l-4 border-neon-green">
+                        <td class="py-4 px-4"><strong>GPU Position Based</strong> (2020-)</td>
+                        <td class="py-4 px-4"><strong>XPBD + 非牛顿本构</strong></td>
+                        <td class="py-4 px-4"><strong>Niagara GPU 数万个粒子实时</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Section 2: Symbol Definitions -->
+        <h2 class="text-3xl font-bold mb-6 text-white">2. 符号定义表</h2>
+
+        <h3 class="text-xl font-semibold mb-4 text-gray-200">2.1 流体物理参数</h3>
+        <div class="overflow-x-auto mb-8 symbol-table">
+            <table class="w-full text-sm">
+                <thead>
+                    <tr class="border-b border-gray-600">
+                        <th class="text-left py-3 px-4 w-24">符号</th>
+                        <th class="text-left py-3 px-4 w-32">定义</th>
+                        <th class="text-left py-3 px-4">说明 / 单位</th>
+                    </tr>
+                </thead>
+                <tbody class="text-gray-300">
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">τ</td>
+                        <td class="py-3 px-4">剪切应力</td>
+                        <td class="py-3 px-4 text-gray-400">Shear Stress，Pa (N/m²)</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">γ̇</td>
+                        <td class="py-3 px-4">剪切速率</td>
+                        <td class="py-3 px-4 text-gray-400">Shear Rate，速度梯度，s⁻¹</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">μ</td>
+                        <td class="py-3 px-4">动力粘度</td>
+                        <td class="py-3 px-4 text-gray-400">Dynamic Viscosity，Pa·s</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">μ_eff</td>
+                        <td class="py-3 px-4">有效粘度</td>
+                        <td class="py-3 px-4 text-gray-400">非牛顿流体的剪切相关粘度</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">τ₀</td>
+                        <td class="py-3 px-4">屈服应力</td>
+                        <td class="py-3 px-4 text-gray-400">Yield Stress，开始流动所需最小应力，Pa</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">K</td>
+                        <td class="py-3 px-4">稠度系数</td>
+                        <td class="py-3 px-4 text-gray-400">Consistency Index，Pa·sⁿ</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">n</td>
+                        <td class="py-3 px-4">幂律指数</td>
+                        <td class="py-3 px-4 text-gray-400">Power Law Index，n &lt; 1 为剪切变稀</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">λ</td>
+                        <td class="py-3 px-4">松弛时间</td>
+                        <td class="py-3 px-4 text-gray-400">Relaxation Time，Maxwell 模型参数，s</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">G</td>
+                        <td class="py-3 px-4">剪切模量</td>
+                        <td class="py-3 px-4 text-gray-400">Shear Modulus，弹性刚度，Pa</td>
+                    </tr>
+                    <tr>
+                        <td class="py-3 px-4 font-mono text-neon-green">ρ</td>
+                        <td class="py-3 px-4">密度</td>
+                        <td class="py-3 px-4 text-gray-400">Density，kg/m³</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3 class="text-xl font-semibold mb-4 text-gray-200">2.2 SPH 粒子系统参数</h3>
+        <div class="overflow-x-auto mb-8 symbol-table">
+            <table class="w-full text-sm">
+                <thead>
+                    <tr class="border-b border-gray-600">
+                        <th class="text-left py-3 px-4 w-24">符号</th>
+                        <th class="text-left py-3 px-4 w-32">定义</th>
+                        <th class="text-left py-3 px-4">说明 / 单位</th>
+                    </tr>
+                </thead>
+                <tbody class="text-gray-300">
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">h</td>
+                        <td class="py-3 px-4">光滑核半径</td>
+                        <td class="py-3 px-4 text-gray-400">Smoothing Kernel Radius，粒子相互作用范围，m</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">W(r,h)</td>
+                        <td class="py-3 px-4">光滑核函数</td>
+                        <td class="py-3 px-4 text-gray-400">Kernel Function，随距离衰减的权重函数</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">mᵢ</td>
+                        <td class="py-3 px-4">粒子质量</td>
+                        <td class="py-3 px-4 text-gray-400">Particle Mass，kg</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">xᵢ, vᵢ</td>
+                        <td class="py-3 px-4">粒子位置/速度</td>
+                        <td class="py-3 px-4 text-gray-400">Position / Velocity Vector，m / (m/s)</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">ρᵢ</td>
+                        <td class="py-3 px-4">粒子密度</td>
+                        <td class="py-3 px-4 text-gray-400">通过 SPH 插值计算的局部密度，kg/m³</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">pᵢ</td>
+                        <td class="py-3 px-4">粒子压力</td>
+                        <td class="py-3 px-4 text-gray-400">Pressure，通过状态方程计算，Pa</td>
+                    </tr>
+                    <tr>
+                        <td class="py-3 px-4 font-mono text-neon-green">N</td>
+                        <td class="py-3 px-4">粒子总数</td>
+                        <td class="py-3 px-4 text-gray-400">模拟系统中的总粒子数量</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3 class="text-xl font-semibold mb-4 text-gray-200">2.3 Niagara 系统参数</h3>
+        <div class="overflow-x-auto mb-10 symbol-table">
+            <table class="w-full text-sm">
+                <thead>
+                    <tr class="border-b border-gray-600">
+                        <th class="text-left py-3 px-4 w-24">符号</th>
+                        <th class="text-left py-3 px-4 w-32">定义</th>
+                        <th class="text-left py-3 px-4">说明</th>
+                    </tr>
+                </thead>
+                <tbody class="text-gray-300">
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">Δt</td>
+                        <td class="py-3 px-4">时间步长</td>
+                        <td class="py-3 px-4 text-gray-400">Simulation Tick 间隔，受 CFL 条件限制，s</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">Solver Iterations</td>
+                        <td class="py-3 px-4">求解器迭代次数</td>
+                        <td class="py-3 px-4 text-gray-400">PBD 约束投影的迭代次数，通常 3-5 次</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">C(x)</td>
+                        <td class="py-3 px-4">约束函数</td>
+                        <td class="py-3 px-4 text-gray-400">PBD 中的约束条件，要求 C(x) = 0</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-3 px-4 font-mono text-neon-green">α</td>
+                        <td class="py-3 px-4">可扩展性参数</td>
+                        <td class="py-3 px-4 text-gray-400">XPBD 中的柔度参数（Compliance）</td>
+                    </tr>
+                    <tr>
+                        <td class="py-3 px-4 font-mono text-neon-green">SSS</td>
+                        <td class="py-3 px-4">次表面散射</td>
+                        <td class="py-3 px-4 text-gray-400">Subsurface Scattering，光线在介质内部的散射</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Section 3: Non-Newtonian Theory -->
+        <h2 class="text-3xl font-bold mb-6 text-white">3. 非牛顿流体核心理论</h2>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">3.1 幂律模型（Ostwald-de Waele）</h3>
+
+        <p class="text-gray-300 leading-relaxed mb-6">
+            描述非牛顿流体最简单的数学模型是<strong>幂律模型</strong>，它将剪切应力与剪切速率通过幂函数关联。
+            该模型虽然简单，但对于大多数剪切变稀流体能提供合理的近似。
+        </p>
+
+        <div class="formula-block mb-6">
+            <div class="text-neon-green font-semibold mb-3">幂律本构方程：</div>
+            <div class="text-lg text-gray-200 mb-4">
+                τ = K · (γ̇)ⁿ
+            </div>
+            <div class="text-gray-400 text-sm mb-4">
+                其中有效粘度定义为：
+            </div>
+            <div class="text-lg text-gray-200 mb-4">
+                μ_eff(γ̇) = τ / γ̇ = K · (γ̇)ⁿ⁻¹
+            </div>
+            <div class="text-gray-400 text-sm mt-4 border-t border-gray-700 pt-4">
+                <strong>物理意义：</strong><br>
+                • n = 1：牛顿流体，粘度恒定 μ = K<br>
+                • n &lt; 1：剪切变稀（假塑性），粘度随剪切增加而降低。如：番茄酱 n ≈ 0.5，血液 n ≈ 0.8<br>
+                • n &gt; 1：剪切增稠（胀塑性），粘度随剪切增加而升高。如：玉米淀粉混合物（Oobleck）
+            </div>
+        </div>
+
+        <div class="tech-analysis-box">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-neon-green font-semibold">🔬 深度技术分析</span>
+            </div>
+            <p class="text-gray-300 leading-relaxed">
+                幂律模型的物理直觉是：在高剪切速率下，流体内部的微观结构（如聚合物链、悬浮颗粒）
+                沿流动方向排列，减少了内摩擦，导致表观粘度下降。对于粘液特效，
+                静止时高粘度保持形状，飞溅时低粘度允许展开，这种<strong>剪切依赖的粘度变化</strong>
+                正是视觉效果的核心。典型参数范围：K ∈ [10, 100] Pa·sⁿ，n ∈ [0.3, 0.7]。
+            </p>
+        </div>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">3.2 Herschel-Bulkley 模型：屈服应力</h3>
+
+        <p class="text-gray-300 leading-relaxed mb-6">
+            幂律模型假设任意小的剪切应力都会产生流动。然而，许多真实流体（包括浓稠粘液）
+            具有<strong>屈服应力（Yield Stress）</strong> <code>τ₀</code>：只有当应力超过此阈值时才开始流动。
+            <strong>Herschel-Bulkley 模型</strong>将 Bingham 塑性模型与幂律模型结合，是描述粘液最完善的模型之一。
+        </p>
+
+        <div class="formula-block mb-6">
+            <div class="text-neon-green font-semibold mb-3">Herschel-Bulkley 本构方程：</div>
+            <div class="text-gray-200 mb-4">
+                <div class="mb-2">当 |τ| ≤ τ₀ 时：</div>
+                <div class="text-lg ml-4">γ̇ = 0 <span class="text-gray-400">（刚体行为，不流动）</span></div>
+            </div>
+            <div class="text-gray-200 mb-4">
+                <div class="mb-2">当 |τ| > τ₀ 时：</div>
+                <div class="text-lg ml-4">τ = τ₀ · sign(γ̇) + K · (γ̇)ⁿ</div>
+            </div>
+            <div class="text-gray-400 text-sm mt-4 border-t border-gray-700 pt-4">
+                <strong>模型特性：</strong><br>
+                • τ₀ 为屈服应力，需克服此应力才能启动流动<br>
+                • 当 τ₀ → 0 时，退化为幂律模型<br>
+                • 当 n = 1 时，退化为 Bingham 塑性模型<br>
+                • 适用于：牙膏、蛋黄酱、浓稠胶水、岩浆等
+            </div>
+        </div>
+
+        <div class="highlight-box">
+            <div class="flex items-center gap-2 mb-3">
+                <span class="text-xl">💡</span>
+                <span class="text-lg font-semibold text-neon-amber">算法实现注意</span>
+            </div>
+            <p class="text-gray-300 leading-relaxed">
+                在数值实现中，纯屈服应力的处理容易产生刚性问题。实际工程中常使用<strong>正则化的 Herschel-Bulkley 模型</strong>：
+                引入小参数 ε，在零剪切附近用近似公式平滑过渡，避免数值奇异性。
+                在 Niagara 中，可通过检测粒子速度大小动态切换粘性行为。
+            </p>
+        </div>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">3.3 Maxwell 粘弹性模型</h3>
+
+        <p class="text-gray-300 leading-relaxed mb-6">
+            幂律和 Herschel-Bulkley 模型仅描述粘性行为。真实的粘液还具有<strong>弹性</strong>：
+            快速拉伸时会回缩，像弹簧一样。<strong>Maxwell 模型</strong>将流体视为弹簧（弹性元件）
+            与阻尼器（粘性元件）的串联组合，是描述粘弹性的最简模型。
+        </p>
+
+        <div class="formula-block mb-6">
+            <div class="text-neon-green font-semibold mb-3">Maxwell 本构方程：</div>
+            <div class="text-lg text-gray-200 mb-4">
+                τ + λ · (dτ/dt) = μ · γ̇
+            </div>
+            <div class="text-gray-400 text-sm mb-4">
+                其中松弛时间 λ = μ / G，μ 为粘度，G 为剪切模量。
+            </div>
+            <div class="text-gray-400 text-sm mt-4 border-t border-gray-700 pt-4">
+                <strong>时间尺度分析：</strong><br>
+                • 短时效（t ≪ λ）：弹性主导，dτ/dt 项重要，流体表现为固体，可储存变形能<br>
+                • 长时效（t ≫ λ）：粘性主导，τ 达到稳态，流体表现为牛顿流体<br>
+                • 松弛时间 λ 决定了"记忆"的持续时间，粘液典型值 λ ∈ [0.1, 1.0] s
+            </div>
+        </div>
+
+        <p class="text-gray-300 leading-relaxed mb-6">
+            对于更复杂的粘弹性行为（如应变硬化），需要使用<strong>Oldroyd-B 模型</strong>或
+            <strong>Giesekus 模型</strong>，引入额外的结构张量描述聚合物链的拉伸与取向。
+            但在实时渲染中，Maxwell 模型已能提供足够的视觉效果。
+        </p>
+
+        <!-- Section 4: SPH Theory -->
+        <h2 class="text-3xl font-bold mb-6 text-white">4. SPH 光滑粒子流体动力学</h2>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">4.1 核函数插值原理</h3>
+
+        <p class="text-gray-300 leading-relaxed mb-6">
+            SPH 是一种<strong>无网格拉格朗日方法</strong>，将流体离散为携带质量、动量等物理量的粒子。
+            任意场量在空间某点的值通过核函数加权邻域粒子贡献来近似。
+        </p>
+
+        <div class="formula-block mb-6">
+            <div class="text-neon-green font-semibold mb-3">SPH 核心公式：</div>
+            <div class="text-gray-200 mb-4">
+                <div class="mb-2">场量插值：</div>
+                <div class="text-lg ml-4">A(x) = Σⱼ mⱼ · (Aⱼ/ρⱼ) · W(|x - xⱼ|, h)</div>
+            </div>
+            <div class="text-gray-200 mb-4">
+                <div class="mb-2">密度计算（核心）：</div>
+                <div class="text-lg ml-4">ρᵢ = Σⱼ mⱼ · W(|xᵢ - xⱼ|, h)</div>
+            </div>
+            <div class="text-gray-200 mb-4">
+                <div class="mb-2">压力梯度（Navier-Stokes）：</div>
+                <div class="text-lg ml-4">∇pᵢ = Σⱼ mⱼ · ((pᵢ + pⱼ)/(2ρⱼ)) · ∇W(|xᵢ - xⱼ|, h)</div>
+            </div>
+            <div class="text-gray-200">
+                <div class="mb-2">粘性 Laplacian：</div>
+                <div class="text-lg ml-4">∇²vᵢ = Σⱼ (mⱼ/ρⱼ) · (vⱼ - vᵢ) · ∇²W(|xᵢ - xⱼ|, h)</div>
+            </div>
+        </div>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">4.2 常用核函数</h3>
+
+        <div class="formula-block mb-6">
+            <div class="text-neon-green font-semibold mb-3">Poly6 核函数（用于密度）：</div>
+            <div class="text-gray-200 mb-4">
+                W(r,h) = (315/(64πh⁹)) · (h² - r²)³ ,  r ≤ h
+            </div>
+            <div class="text-gray-400 text-sm mb-4">
+                特性：在 r=0 处非零，适合密度插值；一阶导在 r=0 处为零，避免粒子聚集。
+            </div>
+            
+            <div class="text-neon-green font-semibold mb-3 mt-6">Spiky 核函数（用于压力梯度）：</div>
+            <div class="text-gray-200 mb-4">
+                ∇W(r,h) = -(45/(πh⁶)) · (h - r)² · (r/|r|) ,  r ≤ h
+            </div>
+            <div class="text-gray-400 text-sm">
+                特性：梯度在 r→0 时非零，避免粒子配对不稳定（Pairing Instability）。
+            </div>
+        </div>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">4.3 非牛顿 SPH 算法</h3>
+
+        <p class="text-gray-300 leading-relaxed mb-6">
+            在标准 SPH 框架中引入非牛顿本构，关键是在每个时间步根据局部剪切速率计算有效粘度。
+        </p>
+
+        <div class="formula-block mb-8">
+            <div class="text-neon-green font-semibold mb-3">非牛顿 SPH 单步算法：</div>
+            <pre class="text-gray-300 text-sm leading-relaxed">
+对于每个粒子 i：
+    
+    // 1. 邻居搜索（空间哈希/均匀网格加速）
+    Neighbors ← SpatialQuery(xᵢ, h)
+    
+    // 2. 计算密度
+    ρᵢ ← Σⱼ mⱼ · W(rᵢⱼ, h)
+    
+    // 3. 计算压力（弱可压缩状态方程）
+    pᵢ ← k · ((ρᵢ/ρ₀)^γ - 1)
+    
+    // 4. 计算速度梯度（剪切速率）
+    ∇vᵢ ← Σⱼ (mⱼ/ρⱼ) · vⱼᵢ ⊗ ∇W(rᵢⱼ, h)
+    γ̇ᵢ ← √(2 · Σ (∇vᵢ)²)   // 第二不变量
+    
+    // 5. 有效粘度（幂律模型）
+    μ_eff ← K · (γ̇ᵢ + ε)^(n-1)   // ε 防止除零
+    
+    // 6. 计算力
+    F_pressure ← -Σⱼ mⱼ · (pᵢ + pⱼ)/(2ρⱼ) · ∇W(rᵢⱼ, h)
+    F_viscous ← Σⱼ mⱼ · (μ_eff/ρⱼ) · (vⱼ - vᵢ) · ∇²W(rᵢⱼ, h)
+    F_gravity ← ρᵢ · g
+    F_surface ← α · Σⱼ mⱼ · (xᵢ - xⱼ) · W_cohesion(rᵢⱼ, h)
+    
+    // 7. 时间积分（Velocity Verlet 或 PBD）
+    vᵢ(t+Δt) ← vᵢ(t) + Δt · (F_total/ρᵢ)
+    xᵢ(t+Δt) ← xᵢ(t) + Δt · vᵢ(t+Δt)
+
+CFL 条件：Δt ≤ CFL · h / v_max  （通常 CFL = 0.4）</pre>
+        </div>
+
+        <!-- Section 5: Niagara Architecture -->
+        <h2 class="text-3xl font-bold mb-6 text-white">5. Niagara GPU 实现架构</h2>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">5.1 系统模块依赖关系</h3>
+
+        <div class="formula-block mb-8">
+            <div class="text-neon-green font-semibold mb-3">Niagara 粘液模拟架构图：</div>
+            <pre class="text-gray-300 text-sm leading-relaxed">
+┌─────────────────────────────────────────────────────────────────┐
+│                      Niagara System: Slime_Simulation            │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  Emitter Spawn                                                  │
+│  ├─ Particle Spawn Rate: Burst/Continuous                       │
+│  ├─ Initialize Attributes: Position, Mass, SmoothingRadius      │
+│  └─ Set Parameters: K (Consistency), n (Power Index), τ₀        │
+│                              ↓                                  │
+│  Simulation Stage (GPU)                                         │
+│  ├─ Module: Neighbor Search (Spatial Hash)                     │
+│  │   └─ Output: NeighborIndices, NeighborCount                 │
+│  │                        ↓                                     │
+│  ├─ Module: Calculate Density (SPH Core)                       │
+│  │   └─ Uses: Poly6 Kernel                                      │
+│  │                        ↓                                     │
+│  ├─ Module: Calculate Pressure (State Equation)                │
+│  │   └─ p = k·(ρ/ρ₀ - 1)                                       │
+│  │                        ↓                                     │
+│  ├─ Module: Non-Newtonian Viscosity                            │
+│  │   ├─ Calculate Shear Rate γ̇                                 │
+│  │   ├─ Apply Power Law: μ_eff = K·γ̇^(n-1)                     │
+│  │   └─ Apply Yield Stress: if τ < τ₀, μ_eff → ∞               │
+│  │                        ↓                                     │
+│  ├─ Module: Surface Tension & Cohesion                         │
+│  │   └─ Cohesion Kernel + Surface Normal Calculation           │
+│  │                        ↓                                     │
+│  ├─ Module: Integration (XPBD)                                 │
+│  │   ├─ Predict: v* = v + Δt·F/m                               │
+│  │   ├─ Project: Solve Constraints (Density, Collision)        │
+│  │   └─ Update: v = (x_new - x)/Δt                             │
+│  │                        ↓                                     │
+│  └─ Module: Export to Render Attributes                        │
+│      └─ Density → Color/Opacity, Velocity → Stretch           │
+│                              ↓                                  │
+│  Renderer                                                       │
+│  ├─ Sprite Renderer (Billboard)                                │
+│  │   └─ Material: Slime_SSS_Material                           │
+│  └─ Mesh Renderer (Blob Mesh)                                  │
+│      └─ Material: Slime_Translucent_Material                   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+
+数据流: GPU Simulation → GPU Render Buffer → Material Instance</pre>
+        </div>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">5.2 关键模块实现</h3>
+
+        <div class="formula-block mb-6">
+            <div class="text-neon-green font-semibold mb-3">Niagara Custom HLSL - 非牛顿粘度计算：</div>
+            <pre class="text-gray-300 text-sm"><code>// Niagara Simulation Stage - Custom HLSL
+// Input Attributes
+float3 Position;           // 当前粒子位置
+float3 Velocity;           // 当前粒子速度  
+float Mass;                // 粒子质量
+float SmoothingRadius;     // 光滑核半径 h
+float ConsistencyK;        // 稠度系数 K
+float PowerIndexN;         // 幂律指数 n
+float YieldStress;         // 屈服应力 τ₀
+
+// Output
+float3 ViscosityForce;     // 粘性力
+float EffectiveViscosity;  // 有效粘度（用于调试可视化）
+
+// 辅助函数：Spiky 核梯度
+float3 SpikyGradient(float3 r, float h)
+{
+    float len = length(r);
+    if (len > h || len < 0.001) return 0;
+    float coeff = -45.0 / (PI * pow(h, 6));
+    return coeff * pow(h - len, 2) * (r / len);
+}
+
+// 辅助函数：Viscosity Laplacian
+float ViscosityLaplacian(float r, float h)
+{
+    if (r > h) return 0;
+    return 45.0 / (PI * pow(h, 6)) * (h - r);
+}
+
+// 主函数：计算剪切速率和有效粘度
+void CalculateNonNewtonianViscosity()
+{
+    float3 velocityGradient = 0;
+    float shearRateSq = 0;
+    
+    // 遍历邻居粒子计算速度梯度
+    for (int j = 0; j < NeighborCount; j++)
+    {
+        int neighborIdx = NeighborIndices[j];
+        float3 r = Position - Positions[neighborIdx];
+        float3 vDiff = Velocity - Velocities[neighborIdx];
+        
+        float3 gradW = SpikyGradient(r, SmoothingRadius);
+        velocityGradient += (Masses[neighborIdx] / Densities[neighborIdx]) 
+                           * vDiff * gradW;
+    }
+    
+    // 计算剪切速率（第二不变量的平方根）
+    shearRateSq = dot(velocityGradient, velocityGradient);
+    float shearRate = sqrt(shearRateSq) + 0.001; // 防止除零
+    
+    // 幂律模型：μ_eff = K · γ̇^(n-1)
+    EffectiveViscosity = ConsistencyK * pow(shearRate, PowerIndexN - 1.0);
+    
+    // Herschel-Bulkley 屈服应力处理
+    float shearStress = EffectiveViscosity * shearRate;
+    if (shearStress < YieldStress)
+    {
+        // 低于屈服应力，近似刚体，极大粘度
+        EffectiveViscosity = 10000.0;
+    }
+    
+    // 计算粘性力
+    ViscosityForce = 0;
+    for (int j = 0; j < NeighborCount; j++)
+    {
+        int neighborIdx = NeighborIndices[j];
+        float3 r = Position - Positions[neighborIdx];
+        float dist = length(r);
+        
+        float3 vDiff = Velocities[neighborIdx] - Velocity;
+        float laplacianW = ViscosityLaplacian(dist, SmoothingRadius);
+        
+        ViscosityForce += Masses[neighborIdx] * (EffectiveViscosity / Densities[neighborIdx])
+                        * vDiff * laplacianW / Densities[neighborIdx];
+    }
+    
+    // 应用力到加速度
+    Acceleration += ViscosityForce / Mass;
+}</code></pre>
+        </div>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">5.3 PBD (Position Based Dynamics) 积分</h3>
+
+        <p class="text-gray-300 leading-relaxed mb-6">
+            传统 SPH 使用显式积分，受 CFL 条件限制时间步长。Niagara 采用<strong>XPBD</strong> 
+            (Extended Position Based Dynamics)，通过约束投影实现隐式积分，大幅提高稳定性。
+        </p>
+
+        <div class="formula-block mb-6">
+            <div class="text-neon-green font-semibold mb-3">XPBD 算法流程：</div>
+            <pre class="text-gray-300 text-sm"><code>// XPBD 单时间步
+void XPBD_Step(float dt)
+{
+    // 1. 预测位置（显式欧拉）
+    for each particle i:
+        v_i_pred = v_i + dt * (F_ext / m_i)
+        x_i_pred = x_i + dt * v_i_pred
+    
+    // 2. 约束投影（迭代求解）
+    for iteration = 0 to SolverIterations:
+        // 密度约束（不可压缩性）
+        for each particle i:
+            C = (rho_i / rho_0) - 1  // 密度约束函数
+            if |C| > epsilon:
+                // 计算约束梯度
+                grad_C = (1/rho_0) * sum(m_j * grad_W_ij / rho_j)
+                // XPBD 修正
+                lambda = -C / (dot(grad_C, grad_C) + alpha/dt^2)
+                // 应用位置修正
+                delta_x = lambda * grad_C
+                x_i_pred += delta_x
+        
+        // 碰撞约束
+        for each particle i:
+            if 碰撞检测(x_i_pred):
+                x_i_pred = 投影到表面(x_i_pred)
+    
+    // 3. 更新状态
+    for each particle i:
+        v_i = (x_i_pred - x_i) / dt
+        x_i = x_i_pred
+        
+        // 阻尼
+        v_i *= (1.0 - Damping)
+}</code></pre>
+        </div>
+
+        <!-- Section 6: Material Rendering -->
+        <h2 class="text-3xl font-bold mb-6 text-white">6. 次表面散射材质渲染</h2>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">6.1 粘液的光学特性</h3>
+
+        <p class="text-gray-300 leading-relaxed mb-6">
+            粘液视觉效果的关键在于<strong>次表面散射（Subsurface Scattering, SSS）</strong>：
+            光线进入介质内部，经过多次散射后从其他位置出射。这种效果使粘液呈现半透明的
+            "果冻"质感，背光时尤为明显。
+        </p>
+
+        <div class="formula-block mb-6">
+            <div class="text-neon-green font-semibold mb-3">SSS 渲染方程：</div>
+            <div class="text-gray-200 mb-4">
+                L_o(x, ω_o) = ∫_Ω [f_BRDF · L_i(x, ω_i) · cosθ_i dω_i]  
+                              + ∫_A [R(x, x') · L_i(x', ω_i) dA]
+            </div>
+            <div class="text-gray-400 text-sm">
+                第一项：表面反射（BRDF）<br>
+                第二项：次表面散射（BSSRDF），R(x, x') 为扩散反射核
+            </div>
+        </div>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">6.2 材质参数设置</h3>
+
+        <div class="formula-block mb-8">
+            <div class="text-neon-green font-semibold mb-3">粘液材质关键参数：</div>
+            <pre class="text-gray-300 text-sm"><code>// Unreal Engine 材质蓝图参数
+
+基础属性:
+├── Base Color: RGB(0.15, 0.35, 0.12)  // 半透明绿色
+├── Metallic: 0.0                       // 非金属
+├── Specular: 0.5                       // 中等镜面反射
+├── Roughness: 0.15 ~ 0.25              // 光滑但非镜面
+└── Normal: 细节法线贴图（表面气泡/杂质）
+
+透射 (Transmission):
+├── Transmission: 0.4 ~ 0.6             // 半透明程度
+├── Transmission Color: 深色（吸收光线）
+└── IOR: 1.33 ~ 1.5                     // 类似水/胶体
+
+次表面散射 (Subsurface Profile):
+├── Subsurface Profile: Slime_Profile
+├── Scatter Color: RGB(0.3, 0.6, 0.2)   // 散射光颜色（比基础色亮）
+├── Scatter Radius: 2.0 ~ 5.0 cm        // 光线穿透深度
+└── Extinction: 控制吸收率
+
+Niagara 数据绑定:
+├── Density → Opacity/Transmission      // 密集处更不透明
+├── Velocity → UV Distortion            // 运动扭曲
+├── Age → Color Shift (新鲜→干燥)       // 随时间变色
+└── Particle Size → World Displacement  // 体积感</code></pre>
+        </div>
+
+        <!-- Section 7: Practical Guide -->
+        <h2 class="text-3xl font-bold mb-6 text-white">7. 实战参数调优指南</h2>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">7.1 不同粘液类型的物理参数</h3>
+
+        <div class="overflow-x-auto mb-8">
+            <table class="w-full text-sm symbol-table">
+                <thead>
+                    <tr class="border-b border-gray-600">
+                        <th class="text-left py-4 px-4">效果类型</th>
+                        <th class="text-left py-4 px-4">K (Pa·sⁿ)</th>
+                        <th class="text-left py-4 px-4">n</th>
+                        <th class="text-left py-4 px-4">τ₀ (Pa)</th>
+                        <th class="text-left py-4 px-4">λ (s)</th>
+                    </tr>
+                </thead>
+                <tbody class="text-gray-300">
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-4 px-4">稀释粘液（水滴状）</td>
+                        <td class="py-4 px-4 font-mono">1 - 10</td>
+                        <td class="py-4 px-4 font-mono">0.8 - 1.0</td>
+                        <td class="py-4 px-4 font-mono">~0</td>
+                        <td class="py-4 px-4 font-mono">0.01 - 0.05</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-4 px-4">标准粘液（史莱姆）</td>
+                        <td class="py-4 px-4 font-mono">10 - 50</td>
+                        <td class="py-4 px-4 font-mono">0.4 - 0.7</td>
+                        <td class="py-4 px-4 font-mono">5 - 20</td>
+                        <td class="py-4 px-4 font-mono">0.1 - 0.3</td>
+                    </tr>
+                    <tr class="border-b border-gray-800/50">
+                        <td class="py-4 px-4">浓稠胶水</td>
+                        <td class="py-4 px-4 font-mono">50 - 200</td>
+                        <td class="py-4 px-4 font-mono">0.2 - 0.4</td>
+                        <td class="py-4 px-4 font-mono">20 - 100</td>
+                        <td class="py-4 px-4 font-mono">0.3 - 0.8</td>
+                    </tr>
+                    <tr>
+                        <td class="py-4 px-4">凝胶/果冻</td>
+                        <td class="py-4 px-4 font-mono">200 - 1000</td>
+                        <td class="py-4 px-4 font-mono">0.1 - 0.3</td>
+                        <td class="py-4 px-4 font-mono">100 - 500</td>
+                        <td class="py-4 px-4 font-mono">0.5 - 2.0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">7.2 性能优化策略</h3>
+
+        <div class="glass-card rounded-xl p-6 mb-8">
+            <h4 class="font-semibold text-gray-200 mb-4 text-neon-green">Niagara 流体性能调优</h4>
+            <ul class="space-y-3 text-sm text-gray-300">
+                <li class="flex items-start gap-3">
+                    <span class="text-neon-green">▸</span>
+                    <span><strong>粒子数控制：</strong>移动端 1K-2K，桌面端 5K-10K，视距 LOD 减少远距离粒子</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="text-neon-green">▸</span>
+                    <span><strong>光滑核半径：</strong>h = 2×粒子间距，平衡精度与邻居数量</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="text-neon-green">▸</span>
+                    <span><strong>空间哈希：</strong>网格尺寸等于 h，O(1) 邻居查询替代 O(n²)</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="text-neon-green">▸</span>
+                    <span><strong>PBD 迭代：</strong>3-5 次约束投影，迭代越多越稳定但越慢</span>
+                </li>
+                <li class="flex items-start gap-3">
+                    <span class="text-neon-green">▸</span>
+                    <span><strong>时间步长：</strong>固定 Δt = 0.016s（60fps），子步进处理高速粒子</span>
+                </li>
+            </ul>
+        </div>
+
+        <h3 class="text-2xl font-semibold mb-4 text-gray-200">7.3 典型应用场景</h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-10">
+            <div class="glass-card rounded-xl p-5 border-l-4 border-neon-green">
+                <div class="text-neon-green font-semibold mb-2">🎮 游戏特效</div>
+                <ul class="text-sm text-gray-400 space-y-1">
+                    <li>• 怪物/史莱姆角色主体</li>
+                    <li>• 毒液池、酸液陷阱</li>
+                    <li>• 生物受击出血（异形风格）</li>
+                    <li>• 魔法/炼金术效果</li>
+                </ul>
+            </div>
+            <div class="glass-card rounded-xl p-5 border-l-4 border-neon-amber">
+                <div class="text-neon-amber font-semibold mb-2">🎬 影视特效</div>
+                <ul class="text-sm text-gray-400 space-y-1">
+                    <li>• 外星生物体液</li>
+                    <li>• 科幻凝胶、培养液</li>
+                    <li>• 有机物质、菌丝网络</li>
+                    <li>• 恐怖片黏液效果</li>
+                </ul>
+            </div>
+            <div class="glass-card rounded-xl p-5 border-l-4 border-neon-purple">
+                <div class="text-neon-purple font-semibold mb-2">📺 动态图形</div>
+                <ul class="text-sm text-gray-400 space-y-1">
+                    <li>• 产品展示（化妆品凝胶）</li>
+                    <li>• 品牌动态 Logo</li>
+                    <li>• 过渡动画效果</li>
+                </ul>
+            </div>
+            <div class="glass-card rounded-xl p-5 border-l-4 border-neon-blue">
+                <div class="text-neon-blue font-semibold mb-2">🧪 科学可视化</div>
+                <ul class="text-sm text-gray-400 space-y-1">
+                    <li>• 流体动力学演示</li>
+                    <li>• 生物流体模拟</li>
+                    <li>• 教育科普内容</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 8: References -->
+        <h2 class="text-3xl font-bold mb-6 text-white">8. 参考与扩展阅读</h2>
+
+        <h3 class="text-xl font-semibold mb-4 text-gray-200">8.1 核心学术论文</h3>
+        <ul class="space-y-3 text-gray-300 mb-8">
+            <li>
+                <span class="text-neon-green">•</span> 
+                <strong>Müller, M., Charypar, D., & Gross, M.</strong> (2003). 
+                "Particle-Based Fluid Simulation for Interactive Applications". 
+                <em>Proceedings of SCA</em>. 
+                <span class="text-gray-500">- SPH 实时流体奠基论文</span>
+            </li>
+            <li>
+                <span class="text-neon-green">•</span> 
+                <strong>Becker, M., & Teschner, M.</strong> (2007). 
+                "Weakly Compressible SPH for Free Surface Flows". 
+                <em>Proceedings of SCA</em>.
+                <span class="text-gray-500">- 弱可压缩 SPH 方法</span>
+            </li>
+            <li>
+                <span class="text-neon-green">•</span> 
+                <strong>Macklin, M., Müller, M., Chentanez, N., & Kim, T. Y.</strong> (2014). 
+                "Unified Particle Physics for Real-Time Applications". 
+                <em>ACM TOG</em>.
+                <span class="text-gray-500">- Position Based Dynamics 核心论文</span>
+            </li>
+            <li>
+                <span class="text-neon-green">•</span> 
+                <strong>Band, S., Gissler, C., Peer, A., & Teschner, M.</strong> (2018). 
+                "MLS Pressure Boundaries for Implicit Incompressible SPH". 
+                <em>ACM TOG</em>.
+                <span class="text-gray-500">- 不可压缩 SPH 改进方法</span>
+            </li>
+        </ul>
+
+        <h3 class="text-xl font-semibold mb-4 text-gray-200">8.2 UE5 / Niagara 官方资源</h3>
+        <ul class="space-y-3 text-gray-300 mb-8">
+            <li>
+                <span class="text-neon-green">•</span> 
+                <a href="https://docs.unrealengine.com/5.0/en-US/Niagara/" class="text-neon-blue hover:underline">Niagara Visual Effects Documentation</a>
+                <span class="text-gray-500">- 官方 Niagara 文档</span>
+            </li>
+            <li>
+                <span class="text-neon-green">•</span> 
+                <a href="https://dev.epicgames.com/community/learning/tutorials" class="text-neon-blue hover:underline">Epic Games Dev Community</a>
+                <span class="text-gray-500">- 官方教程与案例</span>
+            </li>
+        </ul>
+
+        <h3 class="text-xl font-semibold mb-4 text-gray-200">8.3 技术标签</h3>
+        <div class="flex flex-wrap gap-2 mb-12">
+            <span class="px-3 py-1.5 rounded-full text-sm bg-neon-green/10 text-neon-green border border-neon-green/30">计算流体力学</span>
+            <span class="px-3 py-1.5 rounded-full text-sm bg-neon-green/10 text-neon-green border border-neon-green/30">SPH</span>
+            <span class="px-3 py-1.5 rounded-full text-sm bg-neon-green/10 text-neon-green border border-neon-green/30">非牛顿流体</span>
+            <span class="px-3 py-1.5 rounded-full text-sm bg-neon-green/10 text-neon-green border border-neon-green/30">Herschel-Bulkley</span>
+            <span class="px-3 py-1.5 rounded-full text-sm bg-neon-green/10 text-neon-green border border-neon-green/30">Niagara</span>
+            <span class="px-3 py-1.5 rounded-full text-sm bg-neon-green/10 text-neon-green border border-neon-green/30">GPU 粒子</span>
+            <span class="px-3 py-1.5 rounded-full text-sm bg-neon-green/10 text-neon-green border border-neon-green/30">PBD</span>
+            <span class="px-3 py-1.5 rounded-full text-sm bg-neon-green/10 text-neon-green border border-neon-green/30">次表面散射</span>
+            <span class="px-3 py-1.5 rounded-full text-sm bg-neon-green/10 text-neon-green border border-neon-green/30">粘弹性</span>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 text-sm mt-16 pt-8 border-t border-gray-800">
+            <p class="text-lg">Realtime Tech Library</p>
+            <p class="mt-2">V2 概念导向版 • 理论为基，原理为先</p>
+            <p class="mt-2">最后更新: 2026-03-19 • 阅读时间: 30-35分钟</p>
+            <p class="mt-4 text-xs text-gray-600">
+                本文遵循 CC BY-NC-SA 4.0 协议 • 转载请注明出处
+            </p>
+        </footer>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+</html>

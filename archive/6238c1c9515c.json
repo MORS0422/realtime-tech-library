@@ -1,0 +1,17 @@
+{
+  "title": "SIGGRAPH 2022 Links",
+  "category": "render",
+  "tags": [
+    "实时渲染",
+    "图形学算法",
+    "光线追踪",
+    "PBR材质"
+  ],
+  "date": "Sat, 13 Au",
+  "author": "Self Shadow - Graphics Programming / 自动摘要",
+  "readTime": "30分钟",
+  "difficulty": "困难",
+  "content": "<div class=\"article-content\">\n    <div class=\"flex flex-wrap items-center gap-3 mb-6\">\n        <span class=\"tag-render px-3 py-1 rounded-full text-sm\">实时渲染</span>\n        <span class=\"text-gray-500\">Sat, 13 Au</span>\n        <span class=\"text-gray-500\">•</span>\n        <span class=\"text-gray-500\">渲染工程师</span>\n    </div>\n    <h1>SIGGRAPH 2022 Links</h1>\n    <p class=\"text-xl text-gray-300 mb-6\">本文深入探讨了实时渲染技术的最新进展。Open Access SIGGRAPH 2022 Conference Content Open Source ASWF Open Source Days Aurora MoonRay Art Papers Field of Leaves: An Interactive Installation Sprouting Leaves Out of Public Money KineCAM: An I</p>\n    <div class=\"source-box\">\n        <div class=\"flex items-center gap-2 mb-2\">\n            <svg class=\"w-4 h-4 text-neon-amber\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n                <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1\"></path>\n            </svg>\n            <span class=\"text-neon-amber font-medium\">原文链接</span>\n        </div>\n        <div class=\"text-sm text-gray-400\">\n            <div>• <button href=\"https://blog.selfshadow.com/2022/08/13/siggraph-2022-links/\" target=\"_blank\" class=\"text-neon-blue hover:underline\">Self Shadow - Graphics Programming - 查看完整原文</button></div>\n        </div>\n    </div>\n    <div class=\"tech-analysis-box\" style=\"border-color: #ffbe0b40;\">\n        <div class=\"flex items-center gap-2 mb-4\">\n            <span class=\"text-lg font-semibold\" style=\"color: #ffbe0b\">🔬 技术分析</span>\n        </div>\n        <p class=\"mb-0 text-gray-300 leading-relaxed\">实时渲染技术是游戏和影视行业的核心。Open Access SIGGRAPH 2022 Conference Content Open Source ASWF Open Source Days Aurora MoonRay Art Papers Field of Leaves: An Interactive Installation </p>\n    </div>\n    <h2>🎯 核心技术点</h2>\n    <div class=\"flex flex-wrap gap-2 mb-6\"><span class=\"tag-render px-3 py-1 rounded-full text-sm\">实时渲染</span><span class=\"tag-render px-3 py-1 rounded-full text-sm\">图形学算法</span><span class=\"tag-render px-3 py-1 rounded-full text-sm\">光线追踪</span><span class=\"tag-render px-3 py-1 rounded-full text-sm\">PBR材质</span></div>\n    <div class=\"bg-dark-700/50 rounded-xl p-6 mt-8 border-l-4\" style=\"border-color: #ffbe0b\">\n        <p class=\"mb-0 text-gray-400\">\n            <strong style=\"color: #ffbe0b\">💡 提示:</strong> \n            本文为自动抓取生成的中文摘要。如需完整技术细节，请点击上方原文链接。\n        </p>\n    </div>\n</div>",
+  "imagePrompt": "Real-time rendering visualization, ray tracing, PBR materials, 实时渲染, professional game development aesthetic, clean technical illustration, dark background with colorful accents",
+  "hasImage": true
+}

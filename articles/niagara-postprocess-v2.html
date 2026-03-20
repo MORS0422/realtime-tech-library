@@ -1,0 +1,1018 @@
+<div class="article-content">
+    <!-- Article Header -->
+    <div class="flex flex-wrap items-center gap-3 mb-6">
+        <span class="tag-ue px-3 py-1 rounded-full text-sm">UE5</span>
+        <span class="text-gray-500">2026-03-19</span>
+        <span class="text-gray-500">•</span>
+        <span class="text-gray-500">30-35分钟阅读</span>
+        <span class="text-gray-500">•</span>
+        <span class="text-gray-500">困难</span>
+    </div>
+
+    <h1>Niagara 后处理控制完全指南：Post Process Volume、HDR 管线与 ACES 色彩科学</h1>
+
+    <p class="text-xl text-gray-300 mb-6 leading-relaxed">
+        后处理是实时渲染的"最后一公里"，将原始线性 HDR 数据转换为最终显示的感知正确图像。
+        UE5 的 Post Process Volume 与 Niagara 的深度集成，使得粒子系统可以动态驱动全局视觉效果——
+        从爆炸冲击波引发的 Chromatic Aberration，到魔法效果触发的 Bloom 辉光。
+        本文从色彩科学基础出发，深入解析 ACES 色彩管线、Tone Mapping 算法、以及 Niagara 与后处理的实时交互机制。
+    </p>
+
+    <!-- Abstract -->
+    <div class="tech-analysis-box" style="border-color: #ec489940;">
+        <div class="flex items-center gap-2 mb-4">
+            <span class="text-lg font-semibold" style="color: #ec4899">📋 内容摘要</span>
+        </div>
+        <p class="mb-0 text-gray-300 leading-relaxed">
+            后处理管线的核心是<strong>从场景参考（Scene Referred）到显示参考（Display Referred）</strong>的转换。
+            本文系统讲解：<strong>ACES 色彩空间</strong>（学院色彩编码系统的数学基础）、
+            <strong>Tone Mapping 理论</strong>（HDR 到 SDR 的动态范围压缩）、
+            <strong>颜色分级曲线</strong>（LUT 与解析曲线的物理意义）、
+            <strong>Niagara 数据驱动架构</strong>（GPU 粒子属性到后处理参数的数据流）、
+            以及 <strong>屏幕空间效果原理</strong>（Bloom、Chromatic Aberration、Vignette 的数学模型）。
+            通过符号定义表、架构图和精简代码示例，建立从理论到引擎实现的完整认知。
+        </p>
+    </div>
+
+    <!-- Section 1: Overview -->
+    <h2>1. 概述：后处理在渲染管线中的位置</h2>
+
+    <h3>1.1 渲染管线的最后阶段</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        现代实时渲染管线采用<strong>延迟渲染（Deferred Rendering）</strong>架构，后处理阶段发生在 GBuffer 组装完成、
+        光照计算结束之后。此时场景以 HDR 线性颜色空间存在于显存中，需要通过一系列变换适配显示设备的特性。
+    </p>
+
+    <div class="glass-card rounded-xl p-6 mb-6 border-l-4 border-pink-500">
+        <div class="flex items-center gap-2 mb-3">
+            <span class="text-lg font-semibold text-pink-400">🎯 核心洞察</span>
+        </div>
+        <p class="text-gray-300 leading-relaxed">
+            后处理不是"美颜滤镜"，而是<strong>物理正确的色彩变换</strong>。HDR 场景光的亮度范围可达 10⁶ cd/m²，
+            而普通显示器仅能显示 10² cd/m²。Tone Mapping 的任务是在保持视觉对比度的同时，
+            将这个巨大的动态范围压缩到显示设备的可再现范围内——这是一个有信息损失的优化问题。
+        </p>
+    </div>
+
+    <h3>1.2 后处理技术演进</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-3 px-4">发展阶段</th>
+                <th class="text-left py-3 px-4">核心技术</th>
+                <th class="text-left py-3 px-4">局限性</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4"><strong>固定管线</strong> (2000s)</td>
+                <td class="py-3 px-4">Gamma 校正、简单曝光</td>
+                <td class="py-3 px-4 text-gray-400">无 HDR，颜色范围受限</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="text-left py-3 px-4"><strong>Reinhard 时代</strong> (2010s)</td>
+                <td class="py-3 px-4">Reinhard Tone Mapping</td>
+                <td class="py-3 px-4 text-gray-400">整体偏灰，饱和度损失</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4"><strong>ACES 标准化</strong> (2015-2020)</td>
+                <td class="py-3 px-4">Filmic Tone Mapping、ACES</td>
+                <td class="py-3 px-4 text-gray-400">跨软件一致性待提升</td>
+            </tr>
+            <tr class="bg-pink-500/10 border-l-4 border-pink-500">
+                <td class="py-3 px-4"><strong>现代 HDR 工作流</strong> (2020-)</td>
+                <td class="py-3 px-4"><strong>ACES 2065-1、HDR10、Tone Mapper 可切换</strong></td>
+                <td class="py-3 px-4 text-gray-400"><strong>UE5 默认 ACES，支持 HDR 显示</strong></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Section 2: Symbol Definitions -->
+    <h2>2. 符号定义表</h2>
+
+    <h3>2.1 色彩空间与编码</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2 px-4 w-24">符号</th>
+                <th class="text-left py-2 px-4 w-40">定义</th>
+                <th class="text-left py-2 px-4">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">L</td>
+                <td class="py-2 px-4">场景亮度</td>
+                <td class="py-2 px-4 text-gray-400">线性 HDR 亮度值，单位 cd/m²</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">L_white</td>
+                <td class="py-2 px-4">白点亮度</td>
+                <td class="py-2 px-4 text-gray-400">Tone Mapping 中定义的白色参考值</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">L_max</td>
+                <td class="py-2 px-4">显示峰值亮度</td>
+                <td class="py-2 px-4 text-gray-400">显示设备最大可再现亮度</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">γ</td>
+                <td class="py-2 px-4">Gamma 指数</td>
+                <td class="py-2 px-4 text-gray-400">通常 2.2（sRGB）或 2.4（Rec.709）</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">C_linear</td>
+                <td class="py-2 px-4">线性颜色</td>
+                <td class="py-2 px-4 text-gray-400">物理正确的线性光强值</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 font-mono">C_srgb</td>
+                <td class="py-2 px-4">sRGB 编码值</td>
+                <td class="py-2 px-4 text-gray-4_00">经过 Gamma 校正的非线性值 [0,1]</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>2.2 ACES 与 HDR 相关</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2 px-4 w-24">符号</th>
+                <th class="text-left py-2 px-4 w-40">定义</th>
+                <th class="text-left py-2 px-4">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">ACES</td>
+                <td class="py-2 px-4">学院色彩编码系统</td>
+                <td class="py-2 px-4 text-gray-400">Academy Color Encoding System</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">AP0</td>
+                <td class="py-2 px-4">ACES 原色 primaries</td>
+                <td class="py-2 px-4 text-gray-400">覆盖全可见光谱的宽色域</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">AP1</td>
+                <td class="py-2 px-4">ACEScg 工作色域</td>
+                <td class="py-2 px-4 text-gray-400">CG 工作推荐色域，接近 Rec.2020</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">ODT</td>
+                <td class="py-2 px-4">输出设备变换</td>
+                <td class="py-2 px-4 text-gray-400">Output Device Transform</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">RRT</td>
+                <td class="py-2 px-4">参考渲染变换</td>
+                <td class="py-2 px-4 text-gray-400">Reference Rendering Transform</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 font-mono">LUT</td>
+                <td class="py-2 px-4">查找表</td>
+                <td class="py-2 px-4 text-gray-400">Look-Up Table，颜色变换的离散化表示</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>2.3 后处理参数</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2 px-4 w-24">符号</th>
+                <th class="text-left py-2 px-4 w-40">定义</th>
+                <th class="text-left py-2 px-4">说明</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">EV100</td>
+                <td class="py-2 px-4">曝光值</td>
+                <td class="py-2 px-4 text-gray-400">ISO 100 下的曝光值，每增加 1 亮度翻倍</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">f_stop</td>
+                <td class="py-2 px-4">光圈值</td>
+                <td class="py-2 px-4 text-gray-400">控制景深和进光量</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">t_shutter</td>
+                <td class="py-2 px-4">快门时间</td>
+                <td class="py-2 px-4 text-gray-400">单位秒，影响运动模糊</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">ω</td>
+                <td class="py-2 px-4">Blend Weight</td>
+                <td class="py-2 px-4 text-gray-400">后处理体积混合权重 [0,1]</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 font-mono">k_ACES</td>
+                <td class="py-2 px-4">ACES 曲线参数</td>
+                <td class="py-2 px-4 text-gray-400">控制 Tone Mapping "S 曲线"形状</td>
+            </tr>
+        </table>
+    </div>
+
+    <h3>2.4 混合模式</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-2 px-4 w-24">符号</th>
+                <th class="text-left py-2 px-4 w-40">定义</th>
+                <th class="text-left py-2 px-4">公式</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">Normal</td>
+                <td class="py-2 px-4">标准混合</td>
+                <td class="py-2 px-4 text-gray-400">α×F + (1-α)×B</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">Add</td>
+                <td class="py-2 px-4">加法混合</td>
+                <td class="py-2 px-4 text-gray-400">F + B（用于 Bloom）</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-2 px-4 font-mono">Multiply</td>
+                <td class="py-2 px-4">乘法混合</td>
+                <td class="py-2 px-4 text-gray-400">F × B（用于暗角）</td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 font-mono">Screen</td>
+                <td class="py-2 px-4">屏幕混合</td>
+                <td class="py-2 px-4 text-gray-400">1 - (1-F)×(1-B)</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Section 3: Color Science -->
+    <h2>3. 色彩科学基础</h2>
+
+    <h3>3.1 Gamma 校正原理</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        人眼对暗部的变化比亮部更敏感——这是一种非线性感知特性。
+        <strong>Gamma 校正</strong>就是利用这一特性，用更多比特位表示暗部细节，
+        从而在有限的比特深度下最大化感知质量。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>Gamma 编码与解码：</strong>
+
+编码（线性 → sRGB）：
+  C_srgb = 
+    ⎧ 12.92 × C_linear,                    当 C_linear ≤ 0.0031308
+    ⎨ 1.055 × C_linear^(1/2.4) - 0.055,    当 C_linear > 0.0031308
+
+解码（sRGB → 线性）：
+  C_linear =
+    ⎧ C_srgb / 12.92,                      当 C_srgb ≤ 0.04045
+    ⎨ ((C_srgb + 0.055) / 1.055)^2.4,      当 C_srgb > 0.04045
+
+物理意义：
+- 线性值代表光子数量（物理可测）
+- sRGB 值代表感知均匀（与人眼响应匹配）
+- 2.2/2.4 的 Gamma 近似于人眼的逆响应曲线
+
+重要原则：
+- 光照计算必须在线性空间进行
+- 最终显示输出必须转换为非线性空间
+- 纹理存储通常使用非线性以节省精度</pre>
+    </div>
+
+    <h3>3.2 HDR 与动态范围</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        现实世界的亮度范围极其宽广：星光约 0.001 cd/m²，太阳直射可达 100,000 cd/m²。
+        <strong>HDR（High Dynamic Range）</strong>渲染使用浮点格式（通常是 RGBA16F）
+        存储整个场景的光照信息，保留远超显示设备能力的亮度细节。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>亮度范围对比：</strong>
+
+环境                    亮度 (cd/m²)
+─────────────────────────────────
+星光                    0.001
+月光                    0.1
+室内照明                50-100
+阴天室外                1,000
+晴天室外                10,000
+雪地反射                30,000
+太阳表面                1,000,000,000
+
+显示设备能力：
+- SDR 显示器：100-300 cd/m² (8-bit)
+- HDR 显示器：1,000-10,000 cd/m² (10-bit)
+- 人眼适应范围：0.001 - 10,000 cd/m²
+
+Tone Mapping 的必要性：
+HDR 场景亮度范围可达 10⁶:1
+SDR 显示只能再现 10³:1
+需要压缩动态范围同时保持感知对比度</pre>
+    </div>
+
+    <!-- Section 4: ACES Color Pipeline -->
+    <h2>4. ACES 色彩管线</h2>
+
+    <h3>4.1 ACES 架构</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        <strong>ACES（Academy Color Encoding System）</strong>由电影艺术与科学学院制定，
+        旨在为电影和电视制作提供统一的色彩管理标准。UE5 默认使用 ACES 作为 Tone Mapping 方案。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>ACES 处理流程：</strong>
+
+输入（Scene Referred）
+├─ 线性 HDR 场景光
+├─ 宽色域（AP0/AP1）
+└─ 任意动态范围
+         ↓
+IDT（Input Device Transform）
+├─ 将输入设备的原生色彩空间转换为 ACES
+└─ 线性化、色域转换
+         ↓
+ACES 工作空间（线性 AP0/AP1）
+├─ 统一的中间表示
+├─ 支持 VFX 合成、色彩校正
+└─ 设备无关
+         ↓
+RRT（Reference Rendering Transform）
+├─ 应用"胶片感"色调响应
+├─ 将高动态范围映射到归一化范围
+└─ 产生参考渲染图像
+         ↓
+ODT（Output Device Transform）
+├─ 适配特定显示设备的色域和动态范围
+├─ sRGB、DCI-P3、Rec.2020、HDR10
+└─ Gamma/EOTF 应用
+         ↓
+输出（Display Referred）
+
+UE5 简化的 ACES 路径：
+Scene Linear → Tone Mapper (RRT简化) → ODT → Display</pre>
+    </div>
+
+    <h3>4.2 UE5 的 Tone Mapping 实现</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        UE5 使用基于 ACES 的 Filmic Tone Mapper，它在保留高光细节的同时提供胶片般的色彩响应。
+        核心是一个参数化的 S 形曲线。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>UE5 Filmic Tone Mapping 曲线：</strong>
+
+Tonemap(x) = (x × (A×x + B)) / (x × (C×x + D) + E)
+
+其中参数：
+- A = 0.22  （肩角控制）
+- B = 0.30  （ toe 控制）
+- C = 0.10  （高光压缩强度）
+- D = 0.20  （对比度）
+- E = 0.01  （最小值偏移）
+
+曲线特性：
+- 暗部 (x < 0.5)：近似线性，保留阴影细节
+- 中部 (0.5 < x < 2)：平滑过渡
+- 亮部 (x > 2)：渐进压缩，避免硬裁剪
+- 白点：通常映射到 0.8-0.9，保留超白（over-bright）空间
+
+与 Reinhard 对比：
+Reinhard:  x / (1 + x)    → 整体偏灰，暗部被提亮
+ACES:      Filmic S曲线   → 胶片感，对比度保持</pre>
+    </div>
+
+    <h3>4.3 ACES 色彩空间变换</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><code class="language-hlsl">// ACES 色彩变换矩阵（简化版）
+// sRGB 线性 → ACEScg (AP1)
+
+static const float3x3 sRGB_TO_ACESCG = float3x3(
+    0.613097, 0.339523, 0.047378,
+    0.070194, 0.916354, 0.013452,
+    0.020616, 0.109573, 0.869811
+);
+
+// ACEScg → sRGB 线性
+static const float3x3 ACESCG_TO_SRGB = float3x3(
+     1.704887, -0.624157, -0.080730,
+    -0.129520,  1.13850,  -0.008983,
+    -0.024127, -0.124605,  1.148732
+);
+
+// RRT + ODT 组合（UE5 简化版）
+float3 ACES_Tonemap(float3 color)
+{
+    // 输入：线性 HDR（场景参考）
+    
+    // 1. 色域转换到 ACES 工作空间
+    color = mul(sRGB_TO_ACESCG, color);
+    
+    // 2. RRT - 应用色调曲线
+    color = RRT_Sweeteners(color);
+    color = ACES_Transform(color);  // 参数化 S 曲线
+    
+    // 3. ODT - 输出到显示空间
+    color = mul(ACESCG_TO_SRGB, color);
+    
+    // 4. Gamma 编码
+    color = LinearToSRGB(color);
+    
+    return color;
+}</code></pre>
+    </div>
+
+    <!-- Section 5: Color Grading -->
+    <h2>5. 颜色分级：LUT 与解析控制</h2>
+
+    <h3>5.1 LUT（查找表）原理</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        <strong>LUT（Look-Up Table）</strong>是颜色分级的离散化实现方式。
+        它将输入 RGB 的三维颜色空间映射到输出 RGB，实现任意复杂的色彩变换。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>LUT 结构：</strong>
+
+3D LUT 尺寸：N × N × N（通常 N = 33）
+- 每个轴代表 R、G、B 的一个通道
+- 共存储 N³ 个颜色值
+- 33³ = 35,937 个 RGB 三元组
+
+存储大小：
+- 8-bit 精度：约 108 KB
+- 16-bit 精度：约 216 KB
+
+插值查询（三线性插值）：
+给定输入颜色 (r,g,b) ∈ [0,1]：
+1. 缩放：R = r × (N-1), G = g × (N-1), B = b × (N-1)
+2. 获取整数格点：R₀ = floor(R), R₁ = ceil(R), ...
+3. 计算小数部分：f_R = R - R₀, ...
+4. 在 8 个相邻格点间三线性插值：
+   C_out = Σ C_i × w_i
+   其中 w 是各顶点权重
+
+常见 LUT 格式：
+- .cube（IRIDAS/Adobe）
+- .3dl（Autodesk）
+- .csp（Cinespace）</pre>
+    </div>
+
+    <h3>5.2 解析式颜色分级</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        除了 LUT，UE5 还提供解析式的颜色控制，这些控制可以实时调整而不需要重新烘焙 LUT。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>UE5 颜色分级参数：</strong>
+
+全局控制：
+- Temperature：色温偏移（-1 到 1，对应 ±1500K）
+- Tint：色调偏移（绿-品红轴）
+- Contrast：对比度 S 曲线
+- Saturation：全局饱和度
+
+阴影/中间调/高光分离：
+- Shadows Gain/Lift/Gamma
+- Midtones 控制
+- Highlights Gain/Gamma
+
+颜色轮（Color Wheels）：
+- Lift（暗部偏移）
+- Gamma（中调曲线）
+- Gain（亮部增益）
+
+数学表达：
+Lift × (Input^Gamma) × Gain = Output
+
+混合控制：
+- 每个通道独立控制
+- 可以叠加在 LUT 之上</pre>
+    </div>
+
+    <!-- Section 6: Post Process Architecture -->
+    <h2>6. UE5 后处理架构</h2>
+
+    <h3>6.1 Post Process Volume 系统</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        Post Process Volume（PPV）是 UE5 中定义后处理参数的空间容器。
+        支持全局设置和局部覆盖，通过 Blend Weight 实现平滑过渡。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>PPV 层级结构：</strong>
+
+全局 PPV（Unbound）
+├─ 场景默认设置
+├─ Priority = 最低
+└─ 所有相机共享
+         ↓
+局部 PPV（Bound）
+├─ 限定在 Box 范围内
+├─ 进入/离开时插值过渡
+├─ 支持重叠混合
+└─ Priority 决定覆盖顺序
+         ↓
+相机/玩家 PPV
+├─ 特定角色视角设置
+├─ 最高 Priority
+└─ 覆盖所有其他设置
+
+混合公式（同一 Priority）：
+Final = Lerp(PPV_A, PPV_B, Weight_B)
+
+重叠处理（不同 Priority）：
+高 Priority 的 PPV 完全覆盖低 Priority 的参数
+（除非使用 Blendable 材质）</pre>
+    </div>
+
+    <h3>6.2 后处理管线流程图</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>UE5 后处理管线（按执行顺序）：</strong>
+
+输入：Scene Color (RGBA16F HDR)
+         ↓
+┌─────────────────────────────────────────┐
+│ 1. 次表面散射 (Subsurface Scattering)    │
+│    - 皮肤/蜡质材料的光线穿透模拟          │
+└─────────────────────────────────────────┘
+         ↓
+┌─────────────────────────────────────────┐
+│ 2. 环境遮挡 (AO)                         │
+│    - SSAO / GTAO / RTAO                 │
+└─────────────────────────────────────────┘
+         ↓
+┌─────────────────────────────────────────┐
+│ 3. 光线追踪全局光照 (Lumen/RTGI)         │
+└─────────────────────────────────────────┘
+         ↓
+┌─────────────────────────────────────────┐
+│ 4. 屏幕空间反射 (SSR) / 光线追踪反射     │
+└─────────────────────────────────────────┘
+         ↓
+┌─────────────────────────────────────────┐
+│ 5. 辉光 (Bloom)                          │
+│    - 阈值过滤 → 下采样 → 高斯模糊 → 累加  │
+└─────────────────────────────────────────┘
+         ↓
+┌─────────────────────────────────────────┐
+│ 6. 色调映射 (Tone Mapping)               │
+│    - ACES / Filmic / Reinhard / Custom   │
+└─────────────────────────────────────────┘
+         ↓
+┌─────────────────────────────────────────┐
+│ 7. 颜色分级 (Color Grading)              │
+│    - LUT 应用 + 解析式调整               │
+└─────────────────────────────────────────┘
+         ↓
+┌─────────────────────────────────────────┐
+│ 8. 镜头效果                              │
+│    - DOF 景深                            │
+│    - Motion Blur 运动模糊                │
+│    - Chromatic Aberration 色散           │
+│    - Vignette 暗角                       │
+└─────────────────────────────────────────┘
+         ↓
+┌─────────────────────────────────────────┐
+│ 9. 自定义后处理材质 (Blendables)          │
+└─────────────────────────────────────────┘
+         ↓
+┌─────────────────────────────────────────┐
+│ 10. 抗锯齿 (TAA / DLSS / FSR)            │
+└─────────────────────────────────────────┘
+         ↓
+输出：显示缓冲 (RGBA8 SRGB / RGBA16 HDR)</pre>
+    </div>
+
+    <h3>6.3 Bloom 算法详解</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        <strong>Bloom</strong>模拟强光在相机镜头中的散射效果，是游戏中增强"发光感"的关键技术。
+        实现通常基于<strong>高斯模糊</strong>和<strong>阈值过滤</strong>。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>Bloom 管线：</strong>
+
+1. 阈值过滤（Threshold）
+   Bright = max(0, SceneColor - Threshold)
+   Threshold 通常 1.0（超过 HDR 参考白点）
+
+2. 下采样金字塔（Mip-chain）
+   Level 0: 1/2 分辨率
+   Level 1: 1/4 分辨率
+   Level 2: 1/8 分辨率
+   Level 3: 1/16 分辨率
+   Level 4: 1/32 分辨率
+
+3. 双向高斯模糊（每层级）
+   Horizontal Pass: 7-tap Gaussian
+   Vertical Pass: 7-tap Gaussian
+   
+   高斯核权重：
+   w(i) = exp(-i² / (2σ²))
+   通常 σ = 1.5
+
+4. 累加上采样（Additive Upsample）
+   Bloom = Σ (Blur(Level_i) × Intensity_i)
+   
+   强度分布：
+   - 低分辨率层级：宽范围散射
+   - 高分辨率层级：核心亮斑
+
+5. 混合到场景
+   Final = SceneColor + Bloom × BloomIntensity
+
+物理参数：
+- Threshold：亮度阈值 [0, 10]
+- Intensity：整体强度 [0, 10]
+- Scatter：散射范围控制</pre>
+    </div>
+
+    <h3>6.4 Chromatic Aberration 色散</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        <strong>Chromatic Aberration（色差/色散）</strong>是镜头光学缺陷导致的 RGB 通道分离效果。
+        在游戏中常用于增强冲击感或模拟廉价镜头。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>色散算法：</strong>
+
+原理：根据像素到图像中心的距离，对 RGB 通道施加不同的径向偏移。
+
+参数：
+- Intensity：色散强度
+- Start Offset：起始距离（中心无失真的安全区）
+
+计算：
+1. 计算归一化屏幕坐标 UV ∈ [0,1]
+2. 中心点 Center = (0.5, 0.5)
+3. 方向向量 Dir = UV - Center
+4. 距离 Distance = |Dir|
+5. 归一化方向 NormDir = Dir / Distance
+
+通道偏移：
+Offset_R = NormDir × Intensity × 1.0
+Offset_G = NormDir × Intensity × 0.5
+Offset_B = NormDir × Intensity × 0.0  （或反向）
+
+采样：
+Color_R = Sample(UV + Offset_R).r
+Color_G = Sample(UV + Offset_G).g
+Color_B = Sample(UV + Offset_B).b
+
+混合：
+根据 Start Offset 在中心和边缘间过渡
+
+视觉效果：
+- 边缘出现彩虹色条纹
+- 模拟镜头边缘的折射率差异</pre>
+    </div>
+
+    <!-- Section 7: Niagara Integration -->
+    <h2>7. Niagara 与后处理的实时交互</h2>
+
+    <h3>7.1 数据流架构</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        Niagara GPU 粒子系统可以实时驱动后处理参数，实现粒子效果与画面效果的联动。
+        核心机制是通过<strong>Material Parameter Collection（MPC）</strong>或<strong>Blueprint 动态更新</strong>。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>Niagara → 后处理数据流：</strong>
+
+Niagara GPU Simulation
+├─ 粒子属性计算
+│   ├─ Position（位置）
+│   ├─ Velocity（速度）
+│   ├─ Size（尺寸）
+│   ├─ Color（颜色/亮度）
+│   ├─ Custom Parameters（自定义参数）
+│   │   ├─ DistortionStrength
+│   │   ├─ ChromaticAberration
+│   │   └─ BloomBoost
+│   └─ Attribute Export（属性导出）
+         ↓
+Export Particle Data
+├─ Niagara 模拟阶段输出
+├─ 聚合函数（Sum/Max/Average）
+└─ 存储到 Niagara System Properties
+         ↓
+Blueprint / Game Thread
+├─ 每帧读取 Niagara 数据
+├─ 平滑插值（Lerp）避免突变
+└─ 更新 MPC 或 PPV 参数
+         ↓
+Post Process System
+├─ MPC → 后处理材质参数
+├─ PPV → 全局后处理设置
+└─ Custom Blendable → 复杂效果
+         ↓
+GPU 渲染
+├─ 后处理材质读取参数
+├─ 应用 Niagara 驱动的效果
+└─ 输出到屏幕</pre>
+    </div>
+
+    <h3>7.2 Niagara 属性驱动 PPV</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><code class="language-cpp">// 从 Niagara 读取数据驱动后处理的蓝图示例
+
+// 1. 获取 Niagara 系统的聚合数据
+UFUNCTION(BlueprintCallable)
+void UpdatePostProcessFromNiagara(UNiagaraComponent* NiagaraComp)
+{
+    if (!NiagaraComp) return;
+    
+    // 读取 Niagara 用户参数
+    float DistortionStrength;
+    NiagaraComp->GetFloatParameter("DistortionStrength", DistortionStrength);
+    
+    float ChromaticAbIntensity;
+    NiagaraComp->GetFloatParameter("ChromaticAbIntensity", ChromaticAbIntensity);
+    
+    FVector4 ColorBoost;
+    NiagaraComp->GetVectorParameter("ColorBoost", ColorBoost);
+    
+    // 2. 平滑插值（避免突变）
+    CurrentDistortion = FMath::Lerp(CurrentDistortion, DistortionStrength, DeltaTime * 10.0f);
+    CurrentChromaticAb = FMath::Lerp(CurrentChromaticAb, ChromaticAbIntensity, DeltaTime * 10.0f);
+    
+    // 3. 更新后处理体积
+    if (PostProcessVolume)
+    {
+        PostProcessVolume->Settings.bOverride_ChromaticAberrationIntensity = true;
+        PostProcessVolume->Settings.ChromaticAberrationIntensity = CurrentChromaticAb;
+        
+        PostProcessVolume->Settings.bOverride_BloomIntensity = true;
+        PostProcessVolume->Settings.BloomIntensity = 1.0f + ColorBoost.X;
+    }
+    
+    // 4. 或更新 MPC
+    if (MaterialParameterCollection)
+    {
+        UKismetMaterialLibrary::SetScalarParameterValue(
+            GetWorld(), 
+            MaterialParameterCollection, 
+            FName("NiagaraDistortion"), 
+            CurrentDistortion
+        );
+    }
+}</code></pre>
+    </div>
+
+    <h3>7.3 Custom Depth/Stencil 技术</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        Niagara 粒子可以写入 Custom Depth/Stencil 缓冲，后处理材质可以读取这些缓冲来定位特效区域，
+        实现<strong>局部后处理效果</strong>。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><code class="language-hlsl">// 后处理材质：基于 Niagara 粒子的局部扭曲效果
+
+// 材质域：Post Process
+// 混合位置：Before Tonemapping
+
+#include "/Engine/Public/Platform.ush"
+
+Texture2D SceneColorTexture;
+Texture2D CustomDepthTexture;
+Texture2D CustomStencilTexture;
+
+float NiagaraDistortionStrength;
+float2 NiagaraEffectCenter;
+float NiagaraEffectRadius;
+
+float4 MainPS(float2 UV : TEXCOORD0) : SV_Target0
+{
+    // 读取场景颜色
+    float4 SceneColor = Texture2DSample(SceneColorTexture, UV);
+    
+    // 读取 Custom Depth（粒子距离）
+    float CustomDepth = Texture2DSampleLevel(CustomDepthTexture, UV, 0).r;
+    float SceneDepth = CalcSceneDepth(UV);
+    
+    // 读取 Custom Stencil（粒子类型 ID）
+    int StencilValue = Texture2DSampleLevel(CustomStencilTexture, UV, 0).r * 255;
+    
+    // 计算扭曲强度（基于粒子存在和 Niagara 参数）
+    float DistortionMask = 0.0;
+    float2 DistortionDir = float2(0, 0);
+    
+    // 如果 Custom Depth 存在且在前方
+    if (CustomDepth > 0 && CustomDepth < SceneDepth)
+    {
+        // 计算到效果中心的距离
+        float2 ToCenter = UV - NiagaraEffectCenter;
+        float DistFromCenter = length(ToCenter);
+        
+        // 径向衰减
+        float RadialFalloff = 1.0 - saturate(DistFromCenter / NiagaraEffectRadius);
+        
+        // 根据 Stencil 值应用不同效果
+        if (StencilValue == 1) // 热浪扭曲
+        {
+            DistortionMask = RadialFalloff * NiagaraDistortionStrength;
+            // 添加噪声模拟热浪
+            float Noise = SimplexNoise(UV * 20 + Time);
+            DistortionDir = normalize(ToCenter) * Noise;
+        }
+        else if (StencilValue == 2) // 魔法光晕
+        {
+            // 颜色调整而非几何扭曲
+            SceneColor.rgb += float3(0.3, 0.1, 0.5) * RadialFalloff;
+        }
+    }
+    
+    // 应用扭曲采样
+    float2 DistortedUV = UV + DistortionDir * DistortionMask;
+    float4 FinalColor = Texture2DSample(SceneColorTexture, DistortedUV);
+    
+    // 保留部分原始颜色实现混合
+    FinalColor = lerp(SceneColor, FinalColor, DistortionMask);
+    
+    return FinalColor;
+}</code></pre>
+    </div>
+
+    <h3>7.4 Niagara 驱动的动态 LUT</h3>
+    <p class="text-gray-300 leading-relaxed mb-4">
+        高级应用可以让 Niagara 动态控制颜色分级 LUT 的混合权重，实现场景色调随粒子效果变化。
+    </p>
+
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>动态 LUT 混合架构：</strong>
+
+场景 LUT（默认）
+├─ 正常日光/室内环境
+└─ Weight = 1.0 - NiagaraBlend
+         ↓
+特效 LUT（由 Niagara 控制）
+├─ 爆炸橙/毒雾绿/魔法紫
+├─ Niagara 驱动 Weight [0,1]
+└─ Weight = NiagaraBlend
+
+混合公式：
+FinalColor = lerp(LUT_Scene(Input), LUT_Effect(Input), NiagaraBlend)
+
+Niagara 控制方式：
+- 粒子数量 → LUT 混合权重
+- 粒子亮度 → 颜色强度
+- 粒子颜色 → 色调偏移方向
+
+实现步骤：
+1. 在 MPC 中定义 LUT_Blend 参数
+2. Niagara 通过属性导出更新参数
+3. 后处理材质读取参数
+4. 在两个 LUT 纹理间插值采样</pre>
+    </div>
+
+    <!-- Section 8: Implementation -->
+    <h2>8. 实战实现</h2>
+
+    <h3>8.1 爆炸冲击波后处理系统</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>效果描述：</strong>爆炸产生屏幕扭曲、边缘色散、中心过曝
+
+Niagara 设置：
+├─ Spawn Burst 产生冲击波粒子
+├─ 粒子属性：
+│   ├─ ShockwaveRadius（冲击波半径）
+│   ├─ DistortionAmount（扭曲强度）
+│   ├─ ChromaticAbAmount（色散强度）
+│   └─ BloomBoost（辉光增强）
+├─ Attribute Export → MPC
+└─ Custom Data 驱动后处理材质
+
+后处理材质（Custom Blendable）：
+├─ 输入：MPC 冲击波参数
+├─ 基于屏幕距离计算扭曲
+│   ├─ 径向波纹函数：sin(dist × freq - time)
+│   └─ 强度随时间衰减
+├─ 动态 Chromatic Aberration
+│   └─ 边缘 RGB 分离与冲击波同步
+├─ Bloom Threshold 动态降低
+│   └─ 爆炸中心更亮
+└─ Vignette 临时增强
+    └─ 聚焦注意力到爆炸中心
+
+蓝图控制：
+├─ 爆炸事件触发
+├─ 相机震动 + 后处理联动
+└─ 参数随时间自动衰减</pre>
+    </div>
+
+    <h3>8.2 魔法区域颜色控制</h3>
+    <div class="bg-dark-700/30 rounded-lg p-4 my-4">
+        <pre class="text-sm text-gray-300"><strong>效果描述：</strong>进入魔法区域时，全局色调向魔法颜色偏移
+
+Niagara 设置：
+├─ 区域边界粒子系统
+├─ 粒子属性：
+│   ├─ MagicIntensity（魔法强度）
+│   ├─ MagicColor（魔法颜色 RGB）
+│   └─ BlendRadius（混合半径）
+└─ 距离衰减计算
+
+后处理控制：
+├─ Color Grading Temperature
+│   └─ Warm（火系）或 Cool（冰系）
+├─ Color Grading Tint
+│   └─ 向魔法颜色偏移
+├─ Saturation 调整
+│   └─ 增强魔法区域色彩
+└─ LUT 混合
+    └─ 淡入魔法主题 LUT
+
+混合公式：
+Weight = saturate(1.0 - DistanceToMagic / BlendRadius)
+FinalTemp = lerp(DefaultTemp, MagicTemp, Weight)
+FinalTint = lerp(DefaultTint, MagicTint, Weight)</pre>
+    </div>
+
+    <!-- Section 9: Performance -->
+    <h2>9. 性能优化</h2>
+
+    <div class="glass-card rounded-xl p-6 mb-6">
+        <h4 class="font-semibold text-gray-200 mb-3">后处理性能指南</h4>
+        <ul class="space-y-2 text-sm text-gray-400">
+            <li>• <strong>分辨率缩放：</strong>Bloom、DOF 使用半分辨率或更低</li>
+            <li>• <strong>Early Exit：</strong>后处理材质中条件剔除不必要的计算</li>
+            <li>• <strong>MPC 更新频率：</strong>不必每帧更新，可隔 2-4 帧</li>
+            <li>• <strong>Custom Depth 开销：</strong>仅在需要时启用 Niagara 的 Custom Depth 写入</li>
+            <li>• <strong>LUT 尺寸：</strong>移动端使用 16³ 或 32³，桌面使用 33³</li>
+            <li>• <strong>Tone Mapper 选择：</strong>ACES 比 Filmic 略重，但质量更高</li>
+        </ul>
+    </div>
+
+    <h3>9.1 移动端适配</h3>
+    <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm">
+            <tr class="border-b border-gray-700">
+                <th class="text-left py-3 px-4">功能</th>
+                <th class="text-left py-3 px-4">高端桌面</th>
+                <th class="text-left py-3 px-4">主机</th>
+                <th class="text-left py-3 px-4">移动</th>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4">Bloom 层级</td>
+                <td class="py-3 px-4 text-gray-400">5 级</td>
+                <td class="py-3 px-4 text-gray-400">4 级</td>
+                <td class="py-3 px-4 text-gray-400">2-3 级</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4">Color Grading</td>
+                <td class="py-3 px-4 text-gray-400">LUT + 解析式</td>
+                <td class="py-3 px-4 text-gray-400">LUT + 解析式</td>
+                <td class="py-3 px-4 text-gray-400">仅解析式</td>
+            </tr>
+            <tr class="border-b border-gray-800">
+                <td class="py-3 px-4">Chromatic Aberration</td>
+                <td class="py-3 px-4 text-gray-400">全分辨率</td>
+                <td class="py-3 px-4 text-gray-400">全分辨率</td>
+                <td class="py-3 px-4 text-gray-400">禁用或简化</td>
+            </tr>
+            <tr>
+                <td class="py-3 px-4">Niagara PP 交互</td>
+                <td class="py-3 px-4 text-gray-400">完整</td>
+                <td class="py-3 px-4 text-gray-400">完整</td>
+                <td class="py-3 px-4 text-gray-400">仅关键事件</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Section 10: References -->
+    <h2>10. 参考与扩展阅读</h2>
+
+    <h3>10.1 ACES 与色彩科学</h3>
+    <ul class="space-y-2 text-gray-300 mb-6">
+        <li>• <a href="https://acescentral.com/" class="text-pink-400 hover:underline">ACES Central - 官方资源</a></li>
+        <li>• <a href="https://www.oscars.org/science-technology/scientific-technical-awards/aces" class="text-pink-400 hover:underline">Academy Software Foundation - ACES</a></li>
+        <li>• <a href="https://github.com/ampas/aces-dev" class="text-pink-400 hover:underline">ACES 参考实现（GitHub）</a></li>
+    </ul>
+
+    <h3>10.2 UE5 官方资源</h3>
+    <ul class="space-y-2 text-gray-300 mb-6">
+        <li>• <a href="https://docs.unrealengine.com/5.0/en-US/post-process-effects-in-unreal-engine/" class="text-pink-400 hover:underline">Post Process Effects Documentation</a></li>
+        <li>• <a href="https://docs.unrealengine.com/5.0/en-US/Niagara/" class="text-pink-400 hover:underline">Niagara Visual Effects Documentation</a></li>
+        <li>• <a href="https://docs.unrealengine.com/5.0/en-US/color-grading-and-filmic-tonemapper-in-unreal-engine/" class="text-pink-400 hover:underline">Color Grading and Filmic Tone Mapper</a></li>
+    </ul>
+
+    <h3>10.3 技术论文</h3>
+    <ul class="space-y-2 text-gray-300 mb-6">
+        <li>• Reinhard, E. et al. (2002). "Photographic Tone Reproduction for Digital Images"</li>
+        <li>• Hable, J. (2010). "Uncharted 2: HDR Lighting"</li>
+        <li>• Drobot, M. (2014). "Physically-based Shader Design in Arnold"</li>
+        <li>• Karis, B. (2014). "High Quality Temporal Supersampling"</li>
+    </ul>
+
+    <h3>10.4 技术标签</h3>
+    <div class="flex flex-wrap gap-2 mb-6">
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">ACES</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">HDR</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">LUT</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Bloom</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Chromatic Aberration</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Tone Mapping</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Color Grading</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Niagara</span>
+        <span class="px-3 py-1 rounded-full text-sm bg-gray-700 text-gray-300">Post Process</span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-gray-500 text-sm mt-12 pt-8 border-t border-slate-800">
+        <p>Realtime Tech Library • V2 概念导向版</p>
+        <p class="mt-2">最后更新: 2026-03-19 • 阅读时间: 30-35分钟</p>
+        <p class="mt-1 text-xs text-gray-600">「理论为基，原理为先」</p>
+    </footer>
+</div>
