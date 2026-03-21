@@ -278,5 +278,145 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-02-28T08:22:12.009678"
+  },
+  "676f4012dd44": {
+    "id": "676f4012dd44",
+    "title": "Even Roblox Has Max Trail Length… Why Don’t Unreal and Unity?",
+    "link": "https://realtimevfx.com/t/even-roblox-has-max-trail-length-why-don-t-unreal-and-unity/30598",
+    "summary": "I’ve been playing around with Roblox VFX tools, and there’s this super simple thing in their Trail component – Max Length . You literally clamp the trail length. Done. Why the hell don’t we have this out-of-the-box in Unreal or Unity? I had a real production case with Niagara: I had ribbons attached to a character. In one specific animation, the character was moving insanely fast, and the ribbons turned into full-on spaghetti, insanely long and messy. Looked terrible. The only control I had was lifetime . So I reduced it to something like ~0.1s. And yeah – it fixed that one fast animation. But then everything else broke. In slower animations, the trail became way too short, unusable. In Roblox Lifetime ≠ Max Length. These are different controls. Lifetime is time-based. Max Length is space-based. 3 examples: A) Lifetime = 0.125 | Max Length = 200 B) Lifetime = 0.125 | Max Length = 5 C) Lifetime = 0.5 | Max Length = 5 In Roblox – you get both. In Unreal/Unity – you’re stuck with the “lifetime” parameter How are you guys handling this in Unreal? Is there a clean Niagara setup for clamping trail length? Maybe someone has a neat scratchpad module or script to share? Сheers guys. 3 posts - 3 participants Read full topic",
+    "published": "Tue, 17 Mar 2026 10:33:49 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-03-20T20:09:39.938880"
+  },
+  "c36efadfa0d1": {
+    "id": "c36efadfa0d1",
+    "title": "NanoGS puts ‘Nanite-style’ Gaussian splatting in UE5",
+    "link": "https://www.cgchannel.com/2026/03/free-plugin-nanogs-puts-nanite-style-gaussian-splatting-in-unreal-engine/",
+    "summary": "VFX artist Tim Chen's free add-on renders large 3DGS scans more efficiently inside Unreal Engine, for VFX, games and arch viz work.",
+    "published": "Thu, 19 Mar 2026 09:44:18 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-03-20T20:09:37.639688"
+  },
+  "ea1c6eb4e149": {
+    "id": "ea1c6eb4e149",
+    "title": "[Tutorial] Energy Orb VFX in Unreal Engine — Korean Style",
+    "link": "https://realtimevfx.com/t/tutorial-energy-orb-vfx-in-unreal-engine-korean-style/30579",
+    "summary": "Hey everyone! Here’s a tutorial on how to create a stylized Energy Orb effect in Unreal Engine Niagara. - YouTube Note: The tutorial is in Korean, but English auto-captions are available! Just turn on subtitles Hope it helps! Feel free to ask anything. 2 posts - 2 participants Read full topic",
+    "published": "Fri, 13 Mar 2026 01:15:06 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-03-20T20:09:39.938919"
+  },
+  "d4ccfaa01378": {
+    "id": "d4ccfaa01378",
+    "title": "Canva releases first major update to its free Affinity software",
+    "link": "https://www.cgchannel.com/2026/03/canva-releases-first-major-update-to-its-free-affinity-software/",
+    "summary": "Check out the new features in Affinity 3.1, including Live Tone Blend Groups and a new Tone Brush for compositing and retouching images.",
+    "published": "Wed, 18 Mar 2026 11:18:37 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-20T20:09:37.639728"
+  },
+  "48c8d0e0839d": {
+    "id": "48c8d0e0839d",
+    "title": "Maxon adds real-time renderer Redshift Live to Redshift 2026.4",
+    "link": "https://www.cgchannel.com/2026/03/maxon-adds-real-time-renderer-redshift-live-to-redshift-2026-4/",
+    "summary": "New real-time engine replaces Redshift RT, and was developed in parallel with the new Vectorworks edition of the renderer.",
+    "published": "Thu, 19 Mar 2026 07:04:44 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-20T20:09:37.639702"
+  },
+  "8662845f7ab9": {
+    "id": "8662845f7ab9",
+    "title": "FlippedNormals is closing its online marketplace on 31 March",
+    "link": "https://www.cgchannel.com/2026/03/flippednormals-is-closing-its-online-marketplace-on-31-march/",
+    "summary": "Popular online marketplace is holding a closing sale of 3D assets and training, then you have until 30 April to download your purchases.",
+    "published": "Thu, 19 Mar 2026 06:00:17 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-20T20:09:37.639715"
+  },
+  "7c3928c6ae23": {
+    "id": "7c3928c6ae23",
+    "title": "Unity releases Unity 6.4 and Unity Studio",
+    "link": "https://www.cgchannel.com/2026/03/unity-releases-unity-6-4-and-unity-studio/",
+    "summary": "Check out the key features for artists in the game engine - and Unity Studio, the new web-based tool for authoring interactive 3D apps.",
+    "published": "Fri, 20 Mar 2026 10:27:08 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-20T20:09:37.639661"
+  },
+  "753abe5979bd": {
+    "id": "753abe5979bd",
+    "title": "Easy question, why does this not add up to a U=1.2 V=3 tiling pattern?",
+    "link": "https://realtimevfx.com/t/easy-question-why-does-this-not-add-up-to-a-u-1-2-v-3-tiling-pattern/30600",
+    "summary": "From my understanding I put U1 V1 from text coord, add U0.2 U2 constant to it and the add should send U1.2 and V3 to the UV of the texture sample. It doesnt, so i’m wondering what I misunderstood! 2 posts - 2 participants Read full topic",
+    "published": "Tue, 17 Mar 2026 16:17:44 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-03-20T20:09:39.938826"
+  },
+  "34177bcc5568": {
+    "id": "34177bcc5568",
+    "title": "Depth fog behind translucent material",
+    "link": "https://realtimevfx.com/t/depth-fog-behind-translucent-material/30605",
+    "summary": "I’m working on a player blindness effect, and I thought it would be easiest to make a post-process material using the depth fade to lerp between PostProcessInput0 and black. However, the player holds a lantern with a translucent material on it, which causes anything behind it to not be affected by the material, like this: Any ideas how I could solve this? I think the problem is that the depth buffer writes the lantern mesh as though it was opaque. I could use a local fog volume instead, but I’d prefer something I have more control over. 1 post - 1 participant Read full topic",
+    "published": "Fri, 20 Mar 2026 04:02:25 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-03-20T20:09:39.938805"
+  },
+  "adaa47e527dd": {
+    "id": "adaa47e527dd",
+    "title": "Is there a way to include material WPO in the Static Mesh Location?",
+    "link": "https://realtimevfx.com/t/is-there-a-way-to-include-material-wpo-in-the-static-mesh-location/30582",
+    "summary": "Hello I have a static mesh with WPO, a little jiggle of the vertexes. I’m using Static Mesh Location in but I can’t get it to “read” the WPO of the shader. I’ve tried the Sampled Position Offset in the Static Mesh Location and tried several different things but nothing seems to work. Is it possible, does anyone know? 6 posts - 3 participants Read full topic",
+    "published": "Fri, 13 Mar 2026 18:29:58 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-03-20T20:09:39.938900"
+  },
+  "394bd8c27c92": {
+    "id": "394bd8c27c92",
+    "title": "Fortnite back on Google Play worldwide after Epic and Google settle",
+    "link": "https://www.gamedeveloper.com/business/fortnite-back-on-google-play-worldwide-after-epic-and-google-settle",
+    "summary": "The settlement took place in early March, months after a federal court cast doubts on the terms.",
+    "published": "Thu, 19 Mar 2026 19:43:48 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-20T20:09:59.009121"
+  },
+  "604be2abd454": {
+    "id": "604be2abd454",
+    "title": "Ubisoft ends game development at Red Storm and lays off 105 workers",
+    "link": "https://www.gamedeveloper.com/business/ubisoft-lays-off-105-staff-at-red-storm-ends-game-development",
+    "summary": "The studio will continue operating in the form of global IT and Snowdrop engine support.",
+    "published": "Thu, 19 Mar 2026 15:28:14 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-20T20:09:59.009131"
+  },
+  "cc5d97fb6cc2": {
+    "id": "cc5d97fb6cc2",
+    "title": "To make video games for Gen Z, be authentic",
+    "link": "https://www.gamedeveloper.com/marketing/to-make-video-games-for-gen-z-be-authentic",
+    "summary": "'They're playing games. It's just that their attention and needs are changing,' says Astrid Entertainment CEO Sharon Tal Yguado.",
+    "published": "Thu, 19 Mar 2026 15:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-20T20:09:59.009142"
+  },
+  "eb27f4d10260": {
+    "id": "eb27f4d10260",
+    "title": "Starbreeze lands new partner to adapt Payday series for film and TV",
+    "link": "https://www.gamedeveloper.com/business/payday-maker-starbreeze-is-poising-for-tv-and-film-adaptations",
+    "summary": "Starbreeze Entertainment has partnered with VICE Studios to attract &quot;new audiences&quot; into the franchise.",
+    "published": "Thu, 19 Mar 2026 14:53:39 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-20T20:09:59.009152"
   }
 }

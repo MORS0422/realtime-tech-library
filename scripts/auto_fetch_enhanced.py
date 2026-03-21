@@ -283,17 +283,52 @@ def fetch_rss_source(source, max_articles=5):
     
     return articles
 
-def update_knowledge_base(new_articles):
-    """更新知识库"""
+def parse_knowledge_base():
+    """解析知识库文件，返回 articles 字典"""
     with open(KB_FILE, 'r', encoding='utf-8') as f:
         content = f.read()
     
-    match = re.search(r'articles:\s*({.*?}),\s*currentCategory', content, re.DOTALL)
-    if not match:
-        print("❌ 无法解析知识库")
-        return False
+    # 尝试多种方式解析
+    # 方式1: 匹配 "articles": { ... } 结构（新格式）
+    match = re.search(r'"articles":\s*({.*})\s*}\s*;?\s*$', content, re.DOTALL)
+    if match:
+        try:
+            return json.loads(match.group(1))
+        except json.JSONDecodeError as e:
+            print(f"  方式1解析失败: {e}")
     
-    articles = json.loads(match.group(1))
+    # 方式2: 匹配 articles: { ... }, currentCategory 结构（旧格式）
+    match = re.search(r'"?articles"?\s*:\s*({.*?}),\s*"?currentCategory"?', content, re.DOTALL)
+    if match:
+        try:
+            return json.loads(match.group(1))
+        except json.JSONDecodeError as e:
+            print(f"  方式2解析失败: {e}")
+    
+    # 方式3: 尝试提取整个 knowledgeBase 对象
+    match = re.search(r'const\s+knowledgeBase\s*=\s*({.*?});\s*$', content, re.DOTALL)
+    if match:
+        try:
+            # 这是一个JavaScript对象，不是标准JSON，需要处理
+            kb_text = match.group(1)
+            # 尝试提取 articles 部分
+            articles_match = re.search(r'"articles":\s*({(?:[^{}]|{(?:[^{}]|{[^{}]*})*})*})', kb_text, re.DOTALL)
+            if articles_match:
+                return json.loads(articles_match.group(1))
+        except Exception as e:
+            print(f"  方式3解析失败: {e}")
+    
+    print("❌ 无法解析知识库 - 所有方式都失败")
+    return None
+
+def update_knowledge_base(new_articles):
+    """更新知识库"""
+    # 解析现有知识库
+    articles = parse_knowledge_base()
+    if articles is None:
+        # 如果解析失败，尝试使用已存在的文章
+        articles = {}
+        print("⚠️ 解析失败，将创建新的知识库")
     
     # 添加新文章
     for article_id, article_data in new_articles.items():
@@ -429,13 +464,10 @@ def main():
             
             # 更新统计
             print("\n📊 更新后各分类统计:")
-            with open(KB_FILE, 'r', encoding='utf-8') as f:
-                content = f.read()
-            match = re.search(r'articles:\s*({.*?}),\s*currentCategory', content, re.DOTALL)
-            if match:
-                all_articles = json.loads(match.group(1))
+            articles = parse_knowledge_base()
+            if articles:
                 cat_counts = {cat: 0 for cat in CATEGORY_CONFIG.keys()}
-                for aid, article in all_articles.items():
+                for aid, article in articles.items():
                     cat = article.get('category', 'ta')
                     if cat in cat_counts:
                         cat_counts[cat] += 1
