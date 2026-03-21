@@ -548,5 +548,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-03-20T20:26:10.357145"
+  },
+  "3f66d08cc785": {
+    "id": "3f66d08cc785",
+    "title": "Real-time updates and preview history in IMS Creators",
+    "link": "http://gamedev.net/blogs/entry/2297810-real-time-updates-and-preview-history-in-ims-creators",
+    "summary": "Hi everyone! Missed us? So did we. Today, we're delighting you with the release of our most highly-requested features: real-time updates, history with a preview before restoring a version, variables panel in the dialog, creating labels, and much more. Read on for the full details. Read more",
+    "published": "Fri, 20 Mar 2026 18:27:40 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-21T08:26:17.200163"
+  },
+  "2a03c7e959c2": {
+    "id": "2a03c7e959c2",
+    "title": "UPE — Bitwise-Deterministic C++20 Physics Engine Source - Source Code Sale",
+    "link": "http://gamedev.net/forums/topic/719829-upe-bitwise-deterministic-c20-physics-engine-source-source-code-sale",
+    "summary": "Hey everyone, I've been working on a zero-dependency C++20 physics engine and I'm selling the full source code as a one-time purchase — no subscriptions, no royalties The main differentiator is determinism — it's built around bitwise-reproducible simulation with state hashing and replay verification baked in from the start. If you're doing rollback networking or need to verify sim state across clients, this is designed for exactly that. What's included: - Full C++20 source, clean C API surface - Rigid body (6DOF), XPBD cloth/rope, SPH fluids (8192 particles), fracture, N-body orbitals - CI-verified across Windows, Linux, macOS - Determinism proof …",
+    "published": "Sat, 21 Mar 2026 06:58:39 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-21T08:26:17.200204"
   }
 }
