@@ -577,6 +577,20 @@
     "published": "Sat, 21 Mar 2026 15:09:48 +0000",
     "source_name": "Realtime VFX",
     "category": "ue",
+<<<<<<< HEAD
     "fetched_at": "2026-03-22T20:02:26.788419"
+=======
+    "fetched_at": "2026-03-21T20:19:52.182058"
+  },
+  "6137fa1eebb3": {
+    "id": "6137fa1eebb3",
+    "title": "Exp Function",
+    "link": "http://gamedev.net/forums/topic/719833-exp-function",
+    "summary": "I am attempting to implement the fastest exp function I can. Does anyone our there have any info?",
+    "published": "Sun, 22 Mar 2026 06:29:27 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-22T08:35:37.839666"
+>>>>>>> 3aaed92a086d199aef22c862e4920ea7bb3301c0
   }
 }
