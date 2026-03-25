@@ -698,5 +698,105 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-03-25T20:01:42.931772"
+  },
+  "1f4a1bd8dc22": {
+    "id": "1f4a1bd8dc22",
+    "title": "Autodesk releases Arnold 7.5.1 with free cloud rendering",
+    "link": "https://www.cgchannel.com/2026/03/autodesk-releases-arnold-7-5-1-with-free-cloud-rendering/",
+    "summary": "New version of the production renderer includes 40 free hours per month on the tech preview of cloud rendering service Flow Render.",
+    "published": "Wed, 25 Mar 2026 15:53:32 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-25T20:33:22.684524"
+  },
+  "c8e9d5ccfdbe": {
+    "id": "c8e9d5ccfdbe",
+    "title": "Autodesk releases 3ds Max 2027",
+    "link": "https://www.cgchannel.com/2026/03/autodesk-releases-3ds-max-2027/",
+    "summary": "Check out the new features in the 3D modeling and animation tool, including Smart Bevel, the Noise Plus modifier and the Field Helper.",
+    "published": "Wed, 25 Mar 2026 14:22:05 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-25T20:33:22.684545"
+  },
+  "5fd9793dfde9": {
+    "id": "5fd9793dfde9",
+    "title": "Maya 2027 is out: discover its new features",
+    "link": "https://www.cgchannel.com/2026/03/autodesk-releases-maya-2027-and-maya-creative-2027/",
+    "summary": "Read our rundown of the changes to the 3D modeling and animation app, from new AI features to Skin Tools and surface tension in Bifrost.",
+    "published": "Wed, 25 Mar 2026 13:00:22 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-25T20:33:22.684562"
+  },
+  "c2840171795a": {
+    "id": "c2840171795a",
+    "title": "Active and pasive",
+    "link": "http://gamedev.net/blogs/entry/2297812-active-and-pasive",
+    "summary": "Taking turns at being active and pasive In the previous blog post I was discussing about micromanagement. I would like to talk about macromanagement a bit. In general terms the two resemble but there are some particularities that set macromanagement aside. Lets say we want to test two macromanagement options in order to figure out which one is better. Option A is normal evolution option B is rapid expansion. Macromanagement means that you're simulating attacks just like you would do with micromanagement but the question is who is attaking? Should you EVA be attaking the enemy in order to see …",
+    "published": "Tue, 24 Mar 2026 06:05:34 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-25T20:33:33.277221"
+  },
+  "2998c19bd9df": {
+    "id": "2998c19bd9df",
+    "title": "[Tool]Struct Alignment Visualizer - don't waste memory!",
+    "link": "http://gamedev.net/forums/topic/719836-toolstruct-alignment-visualizer-dont-waste-memory",
+    "summary": "Yo everyone! I built a simple web app to visualize struct alignment on an 8-byte grid. What it does: Visualizes padding: Paste a C struct and instantly see exactly where the compiler wastes space. Architecture toggles: Switch between architectures: 64-bit (LP64/LLP64) and 32-bit (ILP32) . It uses only simple HTML/CSS/JS and hosted on GitHub Pages. - Live Demo: https://staruwos.github.io/structviz/ - Source Code: https://github.com/staruwos/structviz I'd love your feedback and contributions :)",
+    "published": "Wed, 25 Mar 2026 15:54:52 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-25T20:33:33.277254"
+  },
+  "e7514673e001": {
+    "id": "e7514673e001",
+    "title": "Important lessons from running a successful video game crowdfunding campaign",
+    "link": "https://www.gamedeveloper.com/marketing/important-lessons-from-running-a-successful-video-game-crowdfunding-campaign",
+    "summary": "Playable Worlds, Inc's Niina Fujioka shares her experiences running a successful crowdfunding campaign for Stars Reach.",
+    "published": "Wed, 25 Mar 2026 17:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-25T20:33:36.042309"
+  },
+  "919e7661df46": {
+    "id": "919e7661df46",
+    "title": "Fortnite Rocket Racing and more are being sunsetted amidst layoffs",
+    "link": "https://www.gamedeveloper.com/business/fortnite-rocket-racing-and-more-are-being-sunsetted-amidst-layoffs",
+    "summary": "Plus, Horizon Chase and Horizon Chase Turbo will no longer be available to download starting in June.",
+    "published": "Wed, 25 Mar 2026 16:20:35 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-25T20:33:36.042327"
+  },
+  "5dc32060228b": {
+    "id": "5dc32060228b",
+    "title": "Epic Games layoffs serve as a timely reminder that accountability is dead",
+    "link": "https://www.gamedeveloper.com/business/epic-games-layoffs-should-remind-you-that-accountability-is-dead",
+    "summary": "What happened to Harmonix and Mediatonic under Epic Games? Good question.",
+    "published": "Wed, 25 Mar 2026 15:09:38 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-25T20:33:36.042338"
+  },
+  "23a4793648e5": {
+    "id": "23a4793648e5",
+    "title": "Xbox and Netflix 'kicking around' ideas for subscription bundles",
+    "link": "https://www.gamedeveloper.com/business/xbox-and-netflix-kicking-around-ideas-for-subscription-bundles",
+    "summary": "Netflix co-CEO said the companies 'wouldn't eliminate any possibilities.'",
+    "published": "Wed, 25 Mar 2026 14:16:33 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-25T20:33:36.042347"
+  },
+  "f09000337f57": {
+    "id": "f09000337f57",
+    "title": "Dispatch developer AdHoc says don't confuse your plot for narrative",
+    "link": "https://www.gamedeveloper.com/production/dispatch-developer-adhoc-says-don-t-confuse-your-plot-for-narrative",
+    "summary": "If your plot is what happens, then narrative is how it's written.",
+    "published": "Wed, 25 Mar 2026 13:57:31 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-25T20:33:36.042357"
   }
 }
