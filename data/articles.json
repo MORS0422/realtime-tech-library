@@ -588,5 +588,115 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-03-22T08:35:37.839666"
+  },
+  "12daadddfb57": {
+    "id": "12daadddfb57",
+    "title": "Epic Games lays off another 1,000 staff",
+    "link": "https://www.cgchannel.com/2026/03/epic-games-lays-off-another-1000-staff/",
+    "summary": "Second round of job cuts in three years attributed to 'downturn in Fortnite engagement'. We assess what it means for Epic's CG tools.",
+    "published": "Wed, 25 Mar 2026 05:53:22 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-03-25T20:01:15.859139"
+  },
+  "de6cf98c0112": {
+    "id": "de6cf98c0112",
+    "title": "Fortnite developer Epic Games is cutting over 1,000 jobs",
+    "link": "https://www.gamedeveloper.com/business/fortnite-developer-epic-games-is-cutting-1-000-jobs",
+    "summary": "Epic boss Tim Sweeney shared the news with employees while acknowledging Fortnite remains 'one of the most successful games in the world.'",
+    "published": "Tue, 24 Mar 2026 14:56:52 GMT",
+    "source_name": "Game Developer",
+    "category": "ue",
+    "fetched_at": "2026-03-25T20:01:42.931741"
+  },
+  "e613f0d9187d": {
+    "id": "e613f0d9187d",
+    "title": "VFX Character Axe Swing",
+    "link": "https://realtimevfx.com/t/vfx-character-axe-swing/30631",
+    "summary": "Creating some VFX for this animation. Here is my concept for today. This is the result of me exploring colors and the key parts to the whole sequence. Want it to be a sort of red energy with electric blue to go with it. And then i added smoke at the end to give some longer lingering effect after the initial blast. And here it is a concept in motion. Now to get it all in Unreal, have the animation in there all ready. Working on the slash portion. 1 post - 1 participant Read full topic",
+    "published": "Tue, 24 Mar 2026 06:11:24 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-03-25T20:01:18.252838"
+  },
+  "3f9313837dc3": {
+    "id": "3f9313837dc3",
+    "title": "Free tutorial: Creating Cinematics in Unreal Engine 5",
+    "link": "https://www.cgchannel.com/2026/03/free-tutorial-creating-cinematics-in-unreal-engine-5/",
+    "summary": "Discover how to create an action sequence in UE5 with DNEG artist Kosuke Iwasaki's free intermediate tutorial for The Gnomon Workshop.",
+    "published": "Mon, 23 Mar 2026 09:52:49 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-03-25T20:01:15.859179"
+  },
+  "ae9ddbcc62cd": {
+    "id": "ae9ddbcc62cd",
+    "title": "OpenUSD 26.03 adds support for 3D Gaussian Splats",
+    "link": "https://www.cgchannel.com/2026/03/openusd-26-03-adds-support-for-3d-gaussian-splats/",
+    "summary": "3DGS data can now be converted from PLY format, stored natively in USD files, and rendered using the new hdParticleField renderer.",
+    "published": "Wed, 25 Mar 2026 07:17:46 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-25T20:01:15.859112"
+  },
+  "cd3ca9eb2ee9": {
+    "id": "cd3ca9eb2ee9",
+    "title": "Handy Maya add-on RefTool speeds up portrait modeling",
+    "link": "https://www.cgchannel.com/2026/03/handy-maya-add-on-reftool-speeds-up-portrait-modeling/",
+    "summary": "Neat script collects the key controls for modeling to reference images into an intuitive UI, preserving your creative flow. Version 2.1 is free.",
+    "published": "Tue, 24 Mar 2026 07:43:24 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-25T20:01:15.859166"
+  },
+  "62d41805896c": {
+    "id": "62d41805896c",
+    "title": "Tencent's genAI animation tools don't seem to make games more fun",
+    "link": "https://www.gamedeveloper.com/art/tencent-s-genai-animation-tools-don-t-seem-to-make-games-more-fun",
+    "summary": "Tencent's generative AI tools shown off at GDC are technically impressive, but do they offer anything for developers?",
+    "published": "Tue, 24 Mar 2026 14:15:35 GMT",
+    "source_name": "Game Developer",
+    "category": "ai",
+    "fetched_at": "2026-03-25T20:01:42.931761"
+  },
+  "328acc97b109": {
+    "id": "328acc97b109",
+    "title": "ONYX Ai Matte automatically generates masks from video",
+    "link": "https://www.cgchannel.com/2026/03/onyx-ai-matte-automatically-generates-masks-from-video-footage/",
+    "summary": "Promising GPU-accelerated add-on for DaVinci Resolve and Nuke generates 'production-quality mattes without manual roto'.",
+    "published": "Tue, 24 Mar 2026 09:03:53 +0000",
+    "source_name": "CG Channel",
+    "category": "ai",
+    "fetched_at": "2026-03-25T20:01:15.859153"
+  },
+  "96bcdc233a58": {
+    "id": "96bcdc233a58",
+    "title": "Behaviour Interactive acquires 7 Days to Die dev The Fun Pimps",
+    "link": "https://www.gamedeveloper.com/business/behaviour-interactive-acquires-7-days-to-die-dev-the-fun-pimps",
+    "summary": "Behaviour shut down Midwinter Entertainment in 2024, amidst two layoff rounds.",
+    "published": "Tue, 24 Mar 2026 16:16:13 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-25T20:01:42.931712"
+  },
+  "4abb232d870c": {
+    "id": "4abb232d870c",
+    "title": "Reforged Studios acquires Super Meat Boy 3D co-publisher Headup",
+    "link": "https://www.gamedeveloper.com/business/reforged-studios-acquires-super-meat-boy-3d-dev-headup",
+    "summary": "Reforged acquired three studios in 2024 alone.",
+    "published": "Tue, 24 Mar 2026 14:33:34 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-25T20:01:42.931750"
+  },
+  "692869269e3e": {
+    "id": "692869269e3e",
+    "title": "Report: Nintendo slashes Switch 2 production by a third due to weak U.S. sales",
+    "link": "https://www.gamedeveloper.com/business/report-nintendo-slashes-switch-2-production-by-a-third-due-to-weak-u-s-sales",
+    "summary": "The company has purportedly downgraded its output to 4 million units from 6 million units.",
+    "published": "Tue, 24 Mar 2026 12:40:57 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-25T20:01:42.931772"
   }
 }
