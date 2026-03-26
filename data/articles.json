@@ -838,5 +838,55 @@
     "source_name": "CG Channel",
     "category": "ta",
     "fetched_at": "2026-03-26T20:01:26.927798"
+  },
+  "f99aed3fffdc": {
+    "id": "f99aed3fffdc",
+    "title": "Why I’m building a \"Sovereign\" Physics Math Layer",
+    "link": "http://gamedev.net/forums/topic/719838-why-im-building-a-sovereign-physics-math-layer",
+    "summary": "Most gamedevs treat physics as a \"close enough\" problem. But if you’re doing rollback netcode, massive-scale simulations, or scientific research, \"close enough\" is a bug. I’m unbundling the core math from my physics engine to create Axiomatic . Why it’s overkill (in a good way): Fixed-Point by Default : We’re bypassing IEEE-754 entirely for the core simulation to ensure cross-platform bit-identity. Uncertainty Propagation : The engine tracks the error margin ( ±) through every calculation. Metrological Accuracy : Built-in registry of every major SI and Imperial unit with exact conversion factors (e.g.1 inch = 0.0254 meters exactly in fixed-point) I'm …",
+    "published": "Thu, 26 Mar 2026 11:30:35 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-26T20:31:10.490951"
+  },
+  "41674e528ebf": {
+    "id": "41674e528ebf",
+    "title": "Donkey Kong Bananza has a big-brained approach to asset recycling",
+    "link": "https://www.gamedeveloper.com/art/donkey-kong-bananza-has-a-big-brained-approach-to-asset-recycling",
+    "summary": "Why remake a 3D model when you can just reuse it?",
+    "published": "Thu, 26 Mar 2026 18:25:11 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-26T20:31:14.265943"
+  },
+  "68a583b40709": {
+    "id": "68a583b40709",
+    "title": "Analyst says Epic Games layoffs send a clear signal: 'This will not get any easier'",
+    "link": "https://www.gamedeveloper.com/business/analyst-says-epic-games-layoffs-send-a-clear-signal-this-will-not-get-any-easier-",
+    "summary": "The myth of perpetual growth continues to bulldoze through the industry.",
+    "published": "Thu, 26 Mar 2026 14:21:54 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-26T20:31:14.265962"
+  },
+  "2abb42bd85c1": {
+    "id": "2abb42bd85c1",
+    "title": "The Nex Playground is getting a price hike because of the memory crisis",
+    "link": "https://www.gamedeveloper.com/business/nex-playground-increases-its-price-due-to-ongoing-memory-crisis",
+    "summary": "Hardware manufacturer Nex said the 'rapid expansion of AI infrastructure' has resulted in key component shortages.",
+    "published": "Thu, 26 Mar 2026 14:20:41 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-26T20:31:14.265973"
+  },
+  "e2e6521941f5": {
+    "id": "e2e6521941f5",
+    "title": "Nintendo tweaks Switch 2 software pricing to make digital copies more appealing",
+    "link": "https://www.gamedeveloper.com/business/nintendo-tweaks-switch-2-software-pricing-to-make-digital-copies-more-appealing",
+    "summary": "The move will impact Nintendo published titles, starting with Yoshi and the Mysterious Book.",
+    "published": "Thu, 26 Mar 2026 11:56:01 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-26T20:31:14.265984"
   }
 }
