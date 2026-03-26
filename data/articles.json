@@ -798,5 +798,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-03-25T20:33:36.042357"
+  },
+  "6aa2ebcbe657": {
+    "id": "6aa2ebcbe657",
+    "title": "Unity vs Unreal: Which One Is Better?",
+    "link": "http://gamedev.net/blogs/entry/2297814-unity-vs-unreal-which-one-is-better",
+    "summary": "Read more",
+    "published": "Thu, 26 Mar 2026 00:44:32 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-03-26T08:47:01.332696"
+  },
+  "23e254b9a247": {
+    "id": "23e254b9a247",
+    "title": "Very First Solo Missile Projectile VFX,,,",
+    "link": "https://realtimevfx.com/t/very-first-solo-missile-projectile-vfx/30642",
+    "summary": "Whooosy Really Difficult hahahaha But I did it with all my efforts on it… It tooks 12hours almost lol Thanks for check my first VFX, And if you have some advice, I would like to listen it! So please don’t hesitate to left me advice! :&gt; 1 post - 1 participant Read full topic",
+    "published": "Wed, 25 Mar 2026 21:17:33 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-03-26T08:46:55.206135"
   }
 }
