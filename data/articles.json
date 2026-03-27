@@ -938,5 +938,85 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-03-27T08:44:03.524142"
+  },
+  "a2ce798ff66f": {
+    "id": "a2ce798ff66f",
+    "title": "Game Dev Digest Issue #324 - Steam, DLC, Patterns, and more",
+    "link": "http://gamedev.net/blogs/entry/2297822-game-dev-digest-issue-324-steam-dlc-patterns-and-more",
+    "summary": "This article was originally published on GameDevDigest.com Enjoy! Two Steam games had a similar idea, but only one is a top seller - Retro Rewind and Rewind 99 are both VHS rental store management games vying for attention on Steam, but only one of them exploded on Valve's platform polygon.com How Little Nightmares VR is Powered by Unity, Lighting, and Design - Iconik, the game development studio behind Little Nightmares VR: Altered Echoes, breaks down how they adapted cinematic horror, environmental storytelling, and performance-heavy visuals for immersive VR across multiple platforms using Unity. 80.lv 4 Hidden Costs of Traditional 3D …",
+    "published": "Fri, 27 Mar 2026 14:05:08 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-27T20:32:17.888391"
+  },
+  "c4f9f243259a": {
+    "id": "c4f9f243259a",
+    "title": "Anybody need somebody to do the music for their game?",
+    "link": "http://gamedev.net/forums/topic/719845-anybody-need-somebody-to-do-the-music-for-their-game",
+    "summary": "I have experience in digicore and chiptune and am looking for anybody needing music done for their game!",
+    "published": "Fri, 27 Mar 2026 14:54:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-27T20:32:17.888407"
+  },
+  "a380c3c885df": {
+    "id": "a380c3c885df",
+    "title": "Embergen - How to Render Skybox in Render All?",
+    "link": "https://realtimevfx.com/t/embergen-how-to-render-skybox-in-render-all/30652",
+    "summary": "I have an explosion and I want to render the skybox in a flat color. For some reason when doing Render All it seems to ignore the skybox color. Searching online, I found a link to the JangaFX and the guy who made it says “You can use the “render all” capture type and that’ll export the entire scene.” but it doesn’t. I even made a default scene and it still doesn’t work, it doesn’t even render the ground nor the skybox, only if I do render viewport but that’s not what I want. Is it broken or am I missing something? Is the only way to have a grey background in the render to use render viewport? 1 post - 1 participant Read full topic",
+    "published": "Fri, 27 Mar 2026 19:02:46 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-03-27T20:32:11.147502"
+  },
+  "90f9e9faa8e3": {
+    "id": "90f9e9faa8e3",
+    "title": "The industry is in a 'really horrible place,' say Brenda and John Romero",
+    "link": "https://www.gamedeveloper.com/business/the-industry-is-in-a-really-horrible-place-say-brenda-and-john-romero",
+    "summary": "'We were there in the '80s for the crash, and this is definitely crashier.'",
+    "published": "Fri, 27 Mar 2026 19:37:48 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-27T20:32:21.577020"
+  },
+  "34a8cb34961d": {
+    "id": "34a8cb34961d",
+    "title": "Owlcat Games is using generative AI to 'iterate faster' on The Expanse",
+    "link": "https://www.gamedeveloper.com/business/owlcat-games-is-using-gen-ai-to-iterate-faster-on-the-expanse",
+    "summary": "The studio is using the tech for prototyping and placeholders, but claims temporary assets will be replaced for the final version.",
+    "published": "Fri, 27 Mar 2026 14:21:07 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-27T20:32:21.577043"
+  },
+  "ee36329e5716": {
+    "id": "ee36329e5716",
+    "title": "Unity sunsetting Ads Network and divesting publishing label Supersonic",
+    "link": "https://www.gamedeveloper.com/business/unity-sunsetting-ads-network-and-divesting-publishing-label-supersonic",
+    "summary": "The company has claimed jettisoning both businesses will help drive revenue growth.",
+    "published": "Fri, 27 Mar 2026 14:20:18 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-27T20:32:21.577054"
+  },
+  "9a91ca622787": {
+    "id": "9a91ca622787",
+    "title": "Sony confirms PS5 hardware is about to become even more expensive",
+    "link": "https://www.gamedeveloper.com/console/sony-confirms-ps5-hardware-is-about-to-become-more-expensive",
+    "summary": "A global price hike will be implemented on April 2, 2026.",
+    "published": "Fri, 27 Mar 2026 12:44:58 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-27T20:32:21.577064"
+  },
+  "7d6c31d698e9": {
+    "id": "7d6c31d698e9",
+    "title": "Nintendo cuts Switch 2 production, layoffs at Epic and PlayStation, and another Saudi acquisition - Patch Notes #45",
+    "link": "https://www.gamedeveloper.com/business/nintendo-cuts-switch-2-production-layoffs-at-epic-and-playstation-and-another-saudi-acquisition-patch-notes-45",
+    "summary": "Plus: Crimson Desert sells 3 million copies and a love letter to 'girl games.'",
+    "published": "Fri, 27 Mar 2026 10:21:07 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-27T20:32:21.577075"
   }
 }
