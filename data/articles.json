@@ -888,5 +888,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-03-26T20:31:14.265984"
+  },
+  "01ff73ca6286": {
+    "id": "01ff73ca6286",
+    "title": "Autodesk releases Mudbox 2027",
+    "link": "https://www.cgchannel.com/2026/03/autodesk-releases-mudbox-2027/",
+    "summary": "Digital sculpting software gets its sixth consecutive annual update with no new features listed, but the price of annual subscriptions is up.",
+    "published": "Fri, 27 Mar 2026 06:30:18 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-27T08:44:01.979080"
+  },
+  "f1d96d33dcc2": {
+    "id": "f1d96d33dcc2",
+    "title": "KeyShot releases KeyShot Studio 2026.1",
+    "link": "https://www.cgchannel.com/2026/03/keyshot-releases-keyshot-studio-2026-1/",
+    "summary": "Rendering and visualization software gets support for OpenPBR materials in USD files, and updates to the rendering and animation toolsets.",
+    "published": "Fri, 27 Mar 2026 06:00:29 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-27T08:44:01.979105"
+  },
+  "36567cb5367a": {
+    "id": "36567cb5367a",
+    "title": "Assorted tips for UI Toolkit + a development in Godot",
+    "link": "http://gamedev.net/blogs/entry/2297821-assorted-tips-for-ui-toolkit-a-development-in-godot",
+    "summary": "I want to share several assorted tips and/or new developments, mostly regarding UI Toolkit in Unity but also one tidbit about Godot. They are: text animation in UI Toolkit, detecting mouse over the UI, vector drawing in UI Toolkit, and vfx assets for Godot. The first tip/new development I want to talk about is doing a typewriter effect on text labels in UI Toolkit. I’m talking about the common text animation of the letters appearing. This had been easy to do with the maxVisibleCharacters property of TextMesh Pro, but there didn’t seem to be a simple property like that in …",
+    "published": "Fri, 27 Mar 2026 00:16:21 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-27T08:44:09.674596"
+  },
+  "02028be5a1f3": {
+    "id": "02028be5a1f3",
+    "title": "Looking for coders for c#",
+    "link": "http://gamedev.net/forums/topic/719824-looking-for-coders-for-c",
+    "summary": "Join the Team for \"Rotting Circuits\" – A Post-Apocalyptic Survival Project ​We are a small, dedicated international team of eight currently building Rotting Circuits , an ambitious open-world, sandbox survival game with deep, layered mechanics. If you’re wondering what the game is like, imagine if The Walking Dead had a child with The Terminator . It’s a world where gritty, \"low-tech\" survival meets decaying, high-tech threats. ​We are looking for a Unity C# Programmer to join our global crew. Since this is a hobby project, it’s a fantastic opportunity to sharpen your skills, build a stand-out portfolio, and experience what …",
+    "published": "Fri, 27 Mar 2026 00:00:27 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-27T08:44:09.674638"
+  },
+  "19fe007f34f4": {
+    "id": "19fe007f34f4",
+    "title": "[Free Tutorial] Pro-Level Unreal VFX Portfolio Logic (Free for 30 Days)",
+    "link": "https://realtimevfx.com/t/free-tutorial-pro-level-unreal-vfx-portfolio-logic-free-for-30-days/30648",
+    "summary": "Hi everyone! I’m Rinban , an Unreal Authorized Instructor (UAI) with 20 years of experience in the game industry (ex-Nexon devCAT, Neowiz). I’ve recently put together a structured tutorial series on Udemy that dives into the core logic of creating a high-end Game VFX portfolio. This isn’t just about using the tool; it’s about the industry-proven K-Style workflow , timing, and color theory. I originally intended to release this for free, but due to Udemy’s length policy, I had to list it as a paid course. So, I’m sharing a 100% FREE coupon specifically for the Real-time VFX community! What you will learn: Essential structure for a professional VFX portfolio. Step-by-step: Creating a 3D Sphere Energy Orb. Pro tips on “Wave” skill aesthetics: Timing &amp; Color. English subtitles included! IMPORTANT: Use the specific link below to get 100% OFF. Searching on Udemy won’t apply the coupon. (Only 30 days left!) * Free Access Link: 2046FA25CE7928CD4145 https://www.udemy.com/course/rinban_1/?couponCode=2046FA25CE7928CD4145 I hope this provides real value to your learning journey. If you find it helpful, I’d love to hear your thoughts or see a review! Happy creating! 2 posts - 2 participants Read full topic",
+    "published": "Fri, 27 Mar 2026 00:56:37 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-03-27T08:44:03.524142"
   }
 }
