@@ -818,5 +818,25 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-03-26T08:46:55.206135"
+  },
+  "292f796997e1": {
+    "id": "292f796997e1",
+    "title": "Sitni Sati releases FumeFX 7.0 for Maya with FumeFX GPU",
+    "link": "https://www.cgchannel.com/2026/03/sitni-sati-releases-fumefx-7-0-for-maya-with-fumefx-gpu/",
+    "summary": "New CUDA-based GPU solver makes smoke and fire simulation in the Maya fluid dynamics plugin '2-5x' faster than on the CPU.",
+    "published": "Thu, 26 Mar 2026 07:19:36 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-26T20:01:26.927771"
+  },
+  "39c75bf1604a": {
+    "id": "39c75bf1604a",
+    "title": "Autodesk releases MotionBuilder 2027",
+    "link": "https://www.cgchannel.com/2026/03/autodesk-releases-motionbuilder-2027/",
+    "summary": "New features in the character animation and mocap-editing software include new quaternion math tools for complex rigs.",
+    "published": "Thu, 26 Mar 2026 05:40:10 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-26T20:01:26.927798"
   }
 }
