@@ -1058,5 +1058,15 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-03-28T08:32:36.118782"
+  },
+  "add338988c82": {
+    "id": "add338988c82",
+    "title": "3d Humanoid Building and Animation",
+    "link": "http://gamedev.net/forums/topic/719847-3d-humanoid-building-and-animation",
+    "summary": "i was hoping someone could help me with making humanoids and animations for my small rpg game i cant pay anyone either if someone can help i would appreciate it",
+    "published": "Sat, 28 Mar 2026 10:45:52 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-28T20:23:16.085089"
   }
 }
