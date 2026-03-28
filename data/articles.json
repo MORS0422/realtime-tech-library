@@ -1018,5 +1018,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-03-27T20:32:21.577075"
+  },
+  "be6789fc00bb": {
+    "id": "be6789fc00bb",
+    "title": "Howler 2026.5 adds 3D landscape generator Fractal Garden",
+    "link": "https://www.cgchannel.com/2026/03/howler-2026-is-out/",
+    "summary": "Digital painting and animation tool gets new accompanying web-based apps, including a complete low-poly 3D landscape generator.",
+    "published": "Sat, 28 Mar 2026 06:00:37 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-28T08:32:35.308283"
+  },
+  "773c0bdf12a7": {
+    "id": "773c0bdf12a7",
+    "title": "AMD releases FSR SDK 2.2 with new AI denoiser Ray Regeneration",
+    "link": "https://www.cgchannel.com/2026/03/amd-releases-fsr-sdk-2-2-with-new-ai-denoiser-ray-regeneration/",
+    "summary": "SDK for games and CG software developers now includes AMD's Redstone AI rendering technologies, including the new AI denoiser.",
+    "published": "Sat, 28 Mar 2026 06:00:26 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-28T08:32:35.308310"
+  },
+  "b623dde58c59": {
+    "id": "b623dde58c59",
+    "title": "PITVYPR Dev BLog #10: Level Generation Part 3: Simple Encounters, Prefabs, and Generalization",
+    "link": "http://gamedev.net/blogs/entry/2297818-pitvypr-dev-blog-10-level-generation-part-3-simple-encounters-prefabs-and-generalization",
+    "summary": "Hello! I have been dipping and diving into all aspects of PITVYPR with the upcoming Pre-Alpha Demo release (or, maybe it would be an actual Alpha release now?), I've been too all-over-the-place to properly sit down and write a cohesive blog. Especially in this ongoing series on Map Generation, a topic which I am still very much learning about and discovering new techniques for all the time. However, I am at a point where I believe I can discuss the simple encounter system that will be on display in the release build. Dungeons as Trees An important revelation that one …",
+    "published": "Fri, 27 Mar 2026 22:41:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-28T08:32:41.972488"
+  },
+  "b836a4bd1a3f": {
+    "id": "b836a4bd1a3f",
+    "title": "Niagara ribbon trail in local space",
+    "link": "https://realtimevfx.com/t/niagara-ribbon-trail-in-local-space/30654",
+    "summary": "I have a ribbon trail in world space that i set up using a tutorial by Royal Skies on my first person character and it technically works fine, but the character can move while attacking so the trail often gets left behind during attacks. Id like to have follow the movement of the character while also retaining the trail look from following the attack motion, as i understand it, setting my emitter to local space is the way to do this but when i do, the closest ive come to success is a ribbon spawning between the trail sockets every frame as its set to do but it doesnt trail behind, or the trail looks correct but with its orientation and position completely wrong, can anyone suggest a way to do this? 1 post - 1 participant Read full topic",
+    "published": "Fri, 27 Mar 2026 23:07:54 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-03-28T08:32:36.118782"
   }
 }
