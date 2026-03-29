@@ -1068,5 +1068,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-03-28T20:23:16.085089"
+  },
+  "56df9eb2c218": {
+    "id": "56df9eb2c218",
+    "title": "DEMoCap 1.7 and Drag[en]gine 1.31 Released",
+    "link": "http://gamedev.net/blogs/entry/2297825-democap-17-and-dragengine-131-released",
+    "summary": "Drag[en]gine 1.31 Release Download Drag[en]gine 1.31 This release contains the following main additions besides other improvements and fixes: Drag[en]gine: Added VR tracker role information to deInputDevice for use by VR trackers. Allows applications to use this information when using trackers. Drag[en]gine: Fixed various Windows related problems. DragonScript: Added ECBehaviorVRBody to handle full body tracking and updated BaseVRActorClass to make use of it if available. OpenXR: Added full body tracking support using XR_FB_body_tracking and XR_META_body_tracking_full_body extensions. OpenXR: Fixed multiple crash and stability problems with SteamVR. Haiku-OS: Added native GUI launcher. Furthermore the HaikuPorts package is now working again properly. The full …",
+    "published": "Sun, 29 Mar 2026 02:25:51 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-29T08:34:21.753357"
   }
 }
