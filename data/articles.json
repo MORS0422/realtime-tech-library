@@ -1098,5 +1098,75 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-03-30T09:05:49.974030"
+  },
+  "d903d75a51a9": {
+    "id": "d903d75a51a9",
+    "title": "Free tool VDBRender adds native OpenVDB rendering to Nuke",
+    "link": "https://www.cgchannel.com/2026/03/free-add-on-vdbrender-adds-native-openvdb-rendering-to-nuke/",
+    "summary": "VFX artist Marty Blumen's neat free add-on renders volumes like clouds and fire in Nuke without round-tripping to an external renderer.",
+    "published": "Mon, 30 Mar 2026 09:46:19 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-03-30T20:38:58.785537"
+  },
+  "0eaa62a297ae": {
+    "id": "0eaa62a297ae",
+    "title": "Get neat lightweight 3D sculpting and painting app Tamga",
+    "link": "https://www.cgchannel.com/2026/03/get-neat-lightweight-3d-sculpting-and-painting-tool-tamga/",
+    "summary": "Promising 'minimalist 3D sculpting' tool runs in a browser, on Windows, Mac and Linux, and as an iPad app. Free for personal use.",
+    "published": "Mon, 30 Mar 2026 08:12:26 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-30T20:38:58.785560"
+  },
+  "285ff16fe983": {
+    "id": "285ff16fe983",
+    "title": "How to achieve soft particle blending in Unity?",
+    "link": "https://realtimevfx.com/t/how-to-achieve-soft-particle-blending-in-unity/30677",
+    "summary": "“How do you guys achieve very soft particle blending in Unity?” 1 post - 1 participant Read full topic",
+    "published": "Mon, 30 Mar 2026 10:22:46 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-03-30T20:39:00.130499"
+  },
+  "8a36aec40623": {
+    "id": "8a36aec40623",
+    "title": "PUBG Blindspot shuts down after 2 months in early access",
+    "link": "https://www.gamedeveloper.com/business/pubg-blindspot-shuts-down-after-a-few-months-in-early-access",
+    "summary": "Krafton has shuttered the 5v5 top-down tactical shooter.",
+    "published": "Mon, 30 Mar 2026 15:46:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-30T20:39:20.448178"
+  },
+  "56244e590671": {
+    "id": "56244e590671",
+    "title": "Report: Series Entertainment-owned mobile studio Pixelberry lays off staff",
+    "link": "https://www.gamedeveloper.com/business/report-nexon-owned-mobile-studio-pixelberry-lays-off-staff",
+    "summary": "The Choices developer previously reportedly laid off an unspecified number of staff in 2024.",
+    "published": "Mon, 30 Mar 2026 15:21:41 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-30T20:39:20.448196"
+  },
+  "fd947bcc53ca": {
+    "id": "fd947bcc53ca",
+    "title": "Free-to-play spinoff The Elder Scrolls: Blades is being shut down",
+    "link": "https://www.gamedeveloper.com/business/free-to-play-spinoff-the-elder-scrolls-blades-is-being-shut-down",
+    "summary": "The title will be sunsetted on June 30, 2026.",
+    "published": "Mon, 30 Mar 2026 15:19:05 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-30T20:39:20.448206"
+  },
+  "d6771c37d59a": {
+    "id": "d6771c37d59a",
+    "title": "Wanderstop developer Ivy Road is shutting down",
+    "link": "https://www.gamedeveloper.com/business/wanderstop-developer-ivy-road-is-shutting-down",
+    "summary": "'We hope that you're inspired to create something of your own someday.'",
+    "published": "Mon, 30 Mar 2026 10:49:03 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-30T20:39:20.448216"
   }
 }
