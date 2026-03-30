@@ -1088,5 +1088,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-03-29T20:25:22.580052"
+  },
+  "7ac4c6c4ef96": {
+    "id": "7ac4c6c4ef96",
+    "title": "Reply to feedback reply...",
+    "link": "http://gamedev.net/forums/topic/719848-reply-to-feedback-reply",
+    "summary": "So, I posted a bug report the other day and I got a reply from the support team that said \"Was there a screenshot with this? Not clear the issue/concern.\" But I can't reply with \"Yes, I attached a screen shot\" I see no means to reply. Is this an oversight? It's going to be hard to help with feedback if I can't communicate with support staff. Also, I can't upload an image to this post, I get an error saying: \"JSON parse: unexpected character at lijne 2 column 1 of the JSON data\"",
+    "published": "Sun, 29 Mar 2026 19:35:56 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-03-30T09:05:49.974030"
   }
 }
