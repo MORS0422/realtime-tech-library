@@ -1198,5 +1198,65 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-03-31T08:51:58.629249"
+  },
+  "39899a519d5c": {
+    "id": "39899a519d5c",
+    "title": "[HIRING] UE5 VFX \\Tech artist — OddMeter",
+    "link": "https://realtimevfx.com/t/hiring-ue5-vfx-tech-artist-oddmeter/30685",
+    "summary": "ODD METER (Full-time / Freelance) Senior / Highly promising Middle level specialist Job Description: Odd Meter Studio is seeking an exceptional FX Artist to work on a new project – an action combat game in a realistic style with a strong focus on believable environmental interactions and cinematic quality. Responsibilities: Developing effects for combat systems – attacks, reactions, interaction with the environment and characters. Working with complex systems of effects and materials and their interplay – wind, dust, water, mud, blood, vegetation. Working with plugins (Prismatiscape and others) and interacting with the Unreal Engine 5. Optimizing in-game effects. Requirements: A portfolio/showreel with examples of high-quality work. Advanced proficiency in Unreal Engine 5: excellent knowledge of Niagara, Material Editor, and familiarity with Chaos. Experience with standalone DCCs such as Houdini / EmberGen / Substance Designer. To apply for this vacancy, please submit your application here: https://hh.odd-meter.com/apply.php There are also many other open vacancies! 1 post - 1 participant Read full topic",
+    "published": "Tue, 31 Mar 2026 15:26:04 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-03-31T20:37:47.410994"
+  },
+  "41a7565876fc": {
+    "id": "41a7565876fc",
+    "title": "What happens when story serves art direction in Absolum - Narrative Notebook #2",
+    "link": "https://www.gamedeveloper.com/design/what-happens-when-story-serves-art-direction-in-absolum-narrative-notebook-2",
+    "summary": "Absolum's storytelling tricks seem aimed at getting the player to pay attention to their surroundings.",
+    "published": "Tue, 31 Mar 2026 17:12:36 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-31T20:37:58.044210"
+  },
+  "60d499029906": {
+    "id": "60d499029906",
+    "title": "An Emmy-winning animation studio just bought the rights to multiple Roblox titles",
+    "link": "https://www.gamedeveloper.com/business/an-emmy-winning-animation-studio-just-bought-the-rights-to-multiple-roblox-titles",
+    "summary": "Multiple feature-length movies and television shows are already in development.",
+    "published": "Tue, 31 Mar 2026 14:38:31 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-31T20:37:58.044229"
+  },
+  "eb81e191083a": {
+    "id": "eb81e191083a",
+    "title": "Moss developer Polyarc is laying off staff",
+    "link": "https://www.gamedeveloper.com/business/moss-developer-polyarc-is-laying-off-staff",
+    "summary": "The VR studio is cutting an unspecified number of jobs.",
+    "published": "Tue, 31 Mar 2026 14:03:30 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-31T20:37:58.044240"
+  },
+  "c2177a207c7c": {
+    "id": "c2177a207c7c",
+    "title": "Rec Room shutting down after failing to become 'sustainably profitable'",
+    "link": "https://www.gamedeveloper.com/business/rec-room-shutting-down-after-failing-to-become-sustainability-profitable-",
+    "summary": "'Our costs always ended up overwhelming the revenue we brought in.'",
+    "published": "Tue, 31 Mar 2026 10:12:06 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-31T20:37:58.044250"
+  },
+  "4c212446594f": {
+    "id": "4c212446594f",
+    "title": "Embracer Group has laid off 124 employees at Eidos Montreal",
+    "link": "https://www.gamedeveloper.com/business/embracer-has-laid-off-124-employees-at-eidos-montreal",
+    "summary": "The Canadian studio has cut around 300 roles since 2024.",
+    "published": "Tue, 31 Mar 2026 09:09:34 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-03-31T20:37:58.044260"
   }
 }
