@@ -1168,5 +1168,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-03-30T20:39:20.448216"
+  },
+  "11125de95aeb": {
+    "id": "11125de95aeb",
+    "title": "MetaHuman DNA add-on for Blender gets new RBF Editor",
+    "link": "https://www.cgchannel.com/2026/03/metahuman-dna-add-on-for-blender-gets-new-rbf-editor/",
+    "summary": "Poly Hammer's Character DNA add-on lets you edit MetaHuman facial and body rigs inside Blender, including their RBF corrective poses.",
+    "published": "Tue, 31 Mar 2026 06:00:32 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-03-31T08:51:57.319281"
+  },
+  "8ec32a3db310": {
+    "id": "8ec32a3db310",
+    "title": "Root Motion isn't working in Animation Montages",
+    "link": "https://realtimevfx.com/t/root-motion-isnt-working-in-animation-montages/30680",
+    "summary": "Heyy! I have a question regarding Root Motion . So I made this character BP to play some Animation Montages. It’s the default UE mannequin btw. And I have made some montages from its anims as well. They have Root Motion enabled. Then I made a basic Animation Blueprint for the character too. The problem is when I play the montages the character doesn’t move. Basically the root motion isn’t working properly. I have also ticked the Root Motion Mode in the ABP to Root Motion from Everything . Nothing seems to work. Does anyone know what the issue might be? 1 post - 1 participant Read full topic",
+    "published": "Tue, 31 Mar 2026 03:34:39 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-03-31T08:51:58.629065"
+  },
+  "a458cd064222": {
+    "id": "a458cd064222",
+    "title": "Pro-Level Unreal VFX Portfolio Logic (Free Coupons Sold Out)ㅜㅜ",
+    "link": "https://realtimevfx.com/t/pro-level-unreal-vfx-portfolio-logic-free-coupons-sold-out/30648",
+    "summary": "Hi everyone! I’m Rinban , an Unreal Authorized Instructor (UAI) with 20 years of experience in the game industry (ex-Nexon devCAT, Neowiz). I’ve recently put together a structured tutorial series on Udemy that dives into the core logic of creating a high-end Game VFX portfolio. This isn’t just about using the tool; it’s about the industry-proven K-Style workflow , timing, and color theory. \"[Sold Out] The free coupons have all been claimed. Due to Udemy’s policy, courses longer than 2 hours must be listed as paid, so I issued free coupons instead. However, I wasn’t aware that there was a strict limit of 110 redemptions. It seems they went much faster than expected! I will post another announcement when I have the chance to issue more free coupons in the future. Thank you for your incredible support! ^^\" However, I’ve set the price to the lowest possible tier on Udemy so it’s still very affordable. You can now purchase the course at this special discount price! What you will learn: Essential structure for a professional VFX portfolio. Step-by-step: Creating a 3D Sphere Energy Orb. Pro tips on “Wave” skill aesthetics: Timing &amp; Color. English subtitles included! https://www.udemy.com/course/rinban_1/?couponCode=2046FA25CE7928CD4145 I hope this provides real value to your learning journey. If you find it helpful, I’d love to hear your thoughts or see a review! Happy creating! 4 posts - 2 participants Read full topic",
+    "published": "Fri, 27 Mar 2026 00:56:37 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-03-31T08:51:58.629249"
   }
 }
