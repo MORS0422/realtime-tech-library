@@ -1258,5 +1258,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-03-31T20:37:58.044260"
+  },
+  "739ea28e1941": {
+    "id": "739ea28e1941",
+    "title": "Tearing Meat Effect",
+    "link": "https://realtimevfx.com/t/tearing-meat-effect/30689",
+    "summary": "Hello! This is my first post. https://www.artstation.com/artwork/YGw0eb Created as a test for Vertex Animation Textures (VAT). The approach separates the skin and flesh: only the outer skin is driven by VAT, while the inner flesh is built and animated independently. To enhance the sense of thickness, vertex color data (e.g., thickness) is used to modulate texture color variation, helping the surface appear more volumetric. Since the VAT uses a Soft Body setup, interpolation is possible, allowing for a reduced frame count. The VAT texture size is kept at approximately 1MB. The flesh portion is handled using UV-based morphing. I’m not very familiar with this, so I apologize if I’ve made any mistakes. If I come up with any more ideas, I’ll post them here.[quote=“KayY, post:1, topic:30689, full:true”] Hello! This is my first post. https://www.artstation.com/artwork/YGw0eb Created as a test for Vertex Animation Textures (VAT). The approach separates the skin and flesh: only the outer skin is driven by VAT, while the inner flesh is built and animated independently. To enhance the sense of thickness, vertex color data (e.g., thickness) is used to modulate texture color variation, helping the surface appear more volumetric. Since the VAT uses a Soft Body setup, interpolation is possible, allowing for a reduced frame count. The VAT texture size is kept at approximately 1MB. The flesh portion is handled using UV-based morphing. I’m not very familiar with this, so I apologize if I’ve made any mistakes. If I come up with any more ideas, I’ll post them here. [/quote] 1 post - 1 participant Read full topic",
+    "published": "Wed, 01 Apr 2026 06:41:48 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-01T08:57:34.962944"
+  },
+  "ef271d5ee755": {
+    "id": "ef271d5ee755",
+    "title": "April VFX Sketch[#]: Silly",
+    "link": "https://realtimevfx.com/t/april-vfx-sketch-silly/30661",
+    "summary": "Awesome art by Valeriia Silly Welcome to the special April Fool’s Edition! Make something silly or expect to get banned! Prompt: Make an effect focused on Sillyness . Timeline: April 1st → April 30th 11:59 CET Submitting : Create a new topic in the \" Events &gt; : Silly \" category with your name and sketch number in the title (Like this: “Manus: Sketch #” ), and post your updates to your topic during the month! When you are finished, Edit your first post so it holds the final effect in the form of Youtube/Vimeo Video or High-Quality GIFs. Please make sure to read this post with detailed rules if you are new to the sketches : About the Monthly VFX Sketches Events About Monthly VFX Sketches The sketches are a chance to work on something together with the community, to challenge yourself and to show off your skills in a risk-free environment. Each month there will be a prompt, however these prompts aren’t strict instructions. They are meant to get your creative gears turning, you are encouraged to interpret them how you want. Scoring and Winning: Community Voting Judging criteria: Showed process throughout the month Technically and artistically well… Sketch Hall of Fame (People who have Sketch Diamond - x3 wins!) : @Lush @Spyro @Torbach @HoldimProvae If you have any questions, tips or tricks, reply down below! Post on socials with vfxsketch Good luck, have fun! This text will be hidden 2 posts - 1 participant Read full topic",
+    "published": "Sat, 28 Mar 2026 16:29:30 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-01T08:57:34.963180"
   }
 }
