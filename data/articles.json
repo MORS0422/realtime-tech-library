@@ -1278,5 +1278,45 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-04-01T08:57:34.963180"
+  },
+  "22b528e5e987": {
+    "id": "22b528e5e987",
+    "title": "Try new 3D texture painting app Wafer free in beta for Windows",
+    "link": "https://www.cgchannel.com/2026/04/try-new-3d-texture-painting-app-wafer-free-in-beta-for-windows/",
+    "summary": "Sparseal's promising new tool for non-photorealistic texturing is now available for Windows desktop and mobile systems, as well as iPads.",
+    "published": "Wed, 01 Apr 2026 10:21:45 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-01T20:02:51.169491"
+  },
+  "48592629299a": {
+    "id": "48592629299a",
+    "title": "Adobe releases Photoshop 27.5",
+    "link": "https://www.cgchannel.com/2026/04/adobe-releases-photoshop-27-5/",
+    "summary": "Check out the new features in the image-editing app, including tighter integration with online mood boarding platform Firefly Boards.",
+    "published": "Wed, 01 Apr 2026 08:50:32 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-01T20:02:51.169511"
+  },
+  "bc231efe4610": {
+    "id": "bc231efe4610",
+    "title": "Boris FX acquires Vegas Pro, Sound Forge and Acid Pro",
+    "link": "https://www.cgchannel.com/2026/03/boris-fx-acquires-vegas-pro-sound-forge-and-acid-pro/",
+    "summary": "VFX and motion graphics tools firm buys Magix's pro video and audio editing software. New version of Vegas Pro already available.",
+    "published": "Wed, 01 Apr 2026 04:30:46 +0000",
+    "source_name": "CG Channel",
+    "category": "render",
+    "fetched_at": "2026-04-01T20:02:51.169526"
+  },
+  "673fca4d5356": {
+    "id": "673fca4d5356",
+    "title": "Shift Up has acquired Resident Evil creator Shinji Mikami's new studio",
+    "link": "https://www.gamedeveloper.com/business/shift-up-has-acquired-resident-evil-creator-shinji-mikami-s-new-studio",
+    "summary": "The Tokyo-based studio is called Unbound and is currently working on console and PC titles.",
+    "published": "Wed, 01 Apr 2026 09:29:41 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-01T20:04:12.756025"
   }
 }
