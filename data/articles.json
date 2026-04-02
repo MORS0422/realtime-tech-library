@@ -1368,5 +1368,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-02T08:02:25.797301"
+  },
+  "2d09156a02fc": {
+    "id": "2d09156a02fc",
+    "title": "In-Game VFX Reference Website",
+    "link": "https://realtimevfx.com/t/in-game-vfx-reference-website/30699",
+    "summary": "Hey everyone, I wanted to share a helpful resource for real-time VFX reference. This is a website where you can browse real-time VFX reference videos captured directly from in-game footage. All videos are recorded in-game, making them useful for practical production reference. You can quickly find specific effects using the tag filter on the left sidebar. Hope you find it useful! fxtags.com FXtags – Videos 2 posts - 2 participants Read full topic",
+    "published": "Thu, 02 Apr 2026 02:53:42 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-02T08:50:43.950042"
   }
 }
