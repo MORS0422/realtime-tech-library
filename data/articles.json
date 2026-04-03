@@ -1458,5 +1458,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-02T20:29:56.445161"
+  },
+  "9fbd8e17bc27": {
+    "id": "9fbd8e17bc27",
+    "title": "Rokoko Create generates full-body animations for free",
+    "link": "https://www.cgchannel.com/2026/04/rokoko-create-generates-full-body-animations-for-free/",
+    "summary": "AI-powered browser-based tool generates idles and movement cycles from text prompts. You can export five per month in FBX format.",
+    "published": "Fri, 03 Apr 2026 06:00:43 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-03T08:45:08.757216"
+  },
+  "c6a870b49b40": {
+    "id": "c6a870b49b40",
+    "title": "New artist video hosting platform FrameRate aims to take on Vimeo",
+    "link": "https://www.cgchannel.com/2026/04/new-artist-video-hosting-platform-framerate-aims-to-take-on-vimeo/",
+    "summary": "Artist-focused platform aims to provide a better way to share CG shorts, breakdowns and demo reels than the big video hosting services.",
+    "published": "Thu, 02 Apr 2026 07:09:44 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-03T08:45:08.757240"
+  },
+  "90e902e1d49f": {
+    "id": "90e902e1d49f",
+    "title": "Beeble launches AI roto service Background Remover",
+    "link": "https://www.cgchannel.com/2026/04/beeble-launches-ai-roto-service-background-remover/",
+    "summary": "New online service automatically generates alpha mattes for image sequences or videos. See how it compares to other AI roto tools.",
+    "published": "Thu, 02 Apr 2026 06:00:02 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-03T08:45:08.757254"
+  },
+  "74c7f965e5ac": {
+    "id": "74c7f965e5ac",
+    "title": "Unigine 2.21 is out",
+    "link": "https://www.cgchannel.com/2026/04/unigine-2-21-is-out/",
+    "summary": "Check out the updates to animation and rendering in the real-time 3D engine. New pricing, but still free for indie games and VFX projects.",
+    "published": "Thu, 02 Apr 2026 05:20:27 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-03T08:45:08.757267"
+  },
+  "9037eeac21c2": {
+    "id": "9037eeac21c2",
+    "title": "Does it matter how I make my game if I'm more comfortable doing it a certain way?",
+    "link": "http://gamedev.net/forums/topic/719850-does-it-matter-how-i-make-my-game-if-im-more-comfortable-doing-it-a-certain-way",
+    "summary": "At this point, my choice game engine for 2D is GameMaker Studio. I have no problems with 2D. 3D, however, is another story. I started with Unity, but I never really liked the API or architecture, and I'm not happy with the direction that it's going after changing owners. I like Godot so far, but it just feels a bit off. The architecture is close to what I'm looking for, but still doesn't work in a way that makes sense to me. My most recent project has been making a game from scratch in C++. It was fun for a …",
+    "published": "Fri, 03 Apr 2026 07:10:54 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-03T08:45:18.273270"
   }
 }
