@@ -1518,5 +1518,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-03T20:03:27.480539"
+  },
+  "7c214875bfbc": {
+    "id": "7c214875bfbc",
+    "title": "Game Dev Digest Issue #325 - UI, Worflows, Patterns and more",
+    "link": "http://gamedev.net/blogs/entry/2297828-game-dev-digest-issue-325-ui-worflows-patterns-and-more",
+    "summary": "This article was originally published on GameDevDigest.com Enjoy! Custom Meshes in UI (BIRP &amp; URP) - Hi all, Here is how to render custom meshes in Unity UI (Overlay). Actual custom meshes, not a rendertexture :). Minions Art Here is how I made the \"Liquid in a bottle\"-effect in my game. - [video tutorial] old.reddit.com Festivals – How To Market A Game - [see a list of upcoming festivals to apply to] howtomarketagame.com How to Write a Sentiment Report — Victoria Tran - Reddit, Twitter (X), Facebook, YouTube, Instagram, Discord, reviews, press writeups, TikTok, Tumblr ahhhHHHHHHHH oh god there are …",
+    "published": "Fri, 03 Apr 2026 14:01:49 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-03T20:30:11.606399"
+  },
+  "14146c09da65": {
+    "id": "14146c09da65",
+    "title": "Trigonix - New Mobile Puzzle Game!",
+    "link": "http://gamedev.net/forums/topic/719853-trigonix-new-mobile-puzzle-game",
+    "summary": "My name is Austin Anderson, combat veteran and solo dev at Barbed Wire Glove Games™. I just released Trigonix, a mobile puzzle game where players rotate triangles to make each square a single color—Rubik’s-style logic, but easier to pick up. Store links: • iOS: https://apps.apple.com/us/app/trigonix/id6757233558 • Android: https://play.google.com/store/apps/details?id=com.BWGGames.Trigonix&amp;pli=1 Trailer: https://youtube.com/shorts/aaSY1mS2bWs",
+    "published": "Fri, 03 Apr 2026 19:04:23 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-03T20:30:11.606431"
+  },
+  "8448a9e94446": {
+    "id": "8448a9e94446",
+    "title": "MechWarrior dev Piranha Games lays off 30% of staff, says CEO",
+    "link": "https://www.gamedeveloper.com/business/mechwarrior-dev-piranha-games-lays-off-30-of-staff-says-ceo",
+    "summary": "&quot;Was a horrible day no doubt but we do still continue to work on DLC,&quot; wrote CEO Russ Bullock.",
+    "published": "Fri, 03 Apr 2026 15:46:27 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-03T20:30:14.726361"
+  },
+  "63a7af9bce31": {
+    "id": "63a7af9bce31",
+    "title": "Laptop mishaps and a GDC chat with Owlchemy Labs CEO Andrew Eiche",
+    "link": "https://www.gamedeveloper.com/design/laptop-mishaps-and-a-gdc-chat-with-owlchemy-labs-ceo-andrew-eiche",
+    "summary": "Who among us hasn't forgotten the recording device they need for the first-ever podcast in a brand new podcast booth at a huge major event?",
+    "published": "Fri, 03 Apr 2026 14:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-03T20:30:14.726383"
+  },
+  "8877a14746dc": {
+    "id": "8877a14746dc",
+    "title": "Report: Take-Two lays off the head of AI and multiple team members",
+    "link": "https://www.gamedeveloper.com/business/report-take-two-lays-off-the-head-of-ai-and-unknown-number-of-team-members",
+    "summary": "The head of AI at Take-Two says his time with the company has reportedly 'come to an end.'",
+    "published": "Fri, 03 Apr 2026 14:20:24 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-03T20:30:14.726395"
   }
 }
