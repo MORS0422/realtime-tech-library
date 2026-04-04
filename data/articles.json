@@ -1578,5 +1578,15 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-04-04T08:02:56.864086"
+  },
+  "ec8f1a903185": {
+    "id": "ec8f1a903185",
+    "title": "Paladin Tactics: Combat VFX & Skill System — UE5 Breakdown",
+    "link": "https://realtimevfx.com/t/paladin-tactics-combat-vfx-skill-system-ue5-breakdown/30718",
+    "summary": "Paladin Tactics: Combat VFX &amp; Skill System — UE5 Breakdown For the past 8 years, I’ve focused entirely on production work without releasing any public assets — mainly due to security concerns around proprietary pipelines. - YouTube The goal was to build a support/paladin-class combat skill system the way it’s actually done in a game studio — structured, scalable, and immediately usable in a real production environment. The hero of this project is the VFX . To keep the focus there, backgrounds and characters were kept intentionally minimal and cost-efficient, so the effects can play out naturally within a real gameplay loop — not just in an isolated preview window. The system is built entirely in Niagara + Blueprints on vanilla UE5 (no engine modifications), covering: Assets included: → 24 Blueprints · 24 Niagara Systems · 11 Static Meshes → 45 Textures · 52 Master Materials · 17 Material Instances → Post-process FX: Zoom Blur / Vignette / Dark Transition / Grid Scan All states structured as Casting → Active → Impact → End Keys 0–7 pre-mapped for immediate in-editor playtesting Supports Unreal Engine 5.4 – 5.7 If this is useful for your project, check the link below. Available on Fab (Unreal Marketplace) https://www.fab.com/ko/portal/listings/b973c139-ded1-4732-971b-431c027393ee/preview Due to popular request, the asset is now also available on Rinban Academy ! Since Fab doesn’t support direct coupon distribution, I’ve set up an alternative listing where you can get it at a lower price. ~$35 USD discount coupon — issued automatically when you sign up for Rinban Academy Cheaper than buying on Fab directly 린반 아카데미 Why this pack is different from other VFX assets on the market: Most game VFX asset packs look great in previews — but once you actually drop them into your project, they rarely fit. Wrong scale, wrong timing, no gameplay context. You buy them and never use them. This pack was built differently. It was designed around a real gameplay scenario — a defined character class (paladin/support) with a full combat loop — using the same workflow and knowhow applied in actual game production. Every effect is split by state : Casting → Active → Impact → End. You just plug it in. It works. Characters and environments are intentionally kept minimal — because VFX is the hero here . The background exists only to give the effects context, not to compete with them. And despite the full scope of content, the entire package is under 300MB . This is a production-ready pack built to actually be used — not just previewed. 1 post - 1 participant Read full topic",
+    "published": "Sat, 04 Apr 2026 11:35:06 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-04-04T20:23:34.453846"
   }
 }
