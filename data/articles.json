@@ -1608,5 +1608,15 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-04-05T08:37:18.007191"
+  },
+  "685836e688a5": {
+    "id": "685836e688a5",
+    "title": "Almost funded but not quite, designing and some interactive fiction │ Falterstone prototype #7",
+    "link": "http://gamedev.net/blogs/entry/2297830-almost-funded-but-not-quite-designing-and-some-interactive-fiction-falterstone-prototype-7",
+    "summary": "I’ve managed to land almost an hour long video call with a VC, and for a brief moment it seemed things are going great. Also going to talk a bit about some design changes and writing some interactive fiction to test things out. Only option is a VC So just saw an article about the closure of Rec Room as someone made a longer post about it on Reddit. I’ve asked them about a few things and they mentioned that I should be chasing publishers instead; because the whole premise of the demise of Rec’s was apparently based on solely …",
+    "published": "Sun, 05 Apr 2026 17:44:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-05T20:26:49.299495"
   }
 }
