@@ -1588,5 +1588,25 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-04-04T20:23:34.453846"
+  },
+  "9041e9a9c9de": {
+    "id": "9041e9a9c9de",
+    "title": "Cornucopia Raw Dev Log #1: GPU Instancing, or How 2,583 Plants Became 3 Draw Calls",
+    "link": "http://gamedev.net/blogs/entry/2297829-cornucopia-raw-dev-log-1-gpu-instancing-or-how-2583-plants-became-3-draw-calls",
+    "summary": "Raw Dev Log #1: GPU Instancing, or How 2,583 Plants Became 3 Draw Calls Walking on my treadmill while writing this. I have ADHD so if exercise isn't the first thing I do in the morning, it's just not likely to happen, lol. I bought a cheap treadmill off Amazon and set up the hydraulic table I already use for my mouse pad when I'm sitting, raised it up to about belly button height in front of my PC with my mouse and keyboard on it. Monitors tilt up a bit so I can see them while standing. Something in …",
+    "published": "Sun, 05 Apr 2026 05:20:50 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-05T08:37:27.594008"
+  },
+  "d9eba292e0e6": {
+    "id": "d9eba292e0e6",
+    "title": "Looking for work - remote (anywhere) or Studio in Canada",
+    "link": "https://realtimevfx.com/t/looking-for-work-remote-anywhere-or-studio-in-canada/30722",
+    "summary": "Looking for opportunities as a Real-time VFX Artist. Available for remote work (worldwide, freelance) or on-site roles in Canada. I have 3–4 years of experience in AAA game development, with credits on two AAA titles, while also being comfortable working in smaller, flexible indie teams. Strengths: • Houdini-based simulations (RBD, Vellum) and real-time integration • Creating grounded and stylized/supernatural VFX • Implementing effects directly in Unreal (Blueprint-driven workflows) • Procedural tool development (Houdini HDA, environment/prop tools) • Optimization for real-time performance • Strong collaboration with design and environment teams I can handle both the artistic and technical sides of VFX, from creation to in-engine implementation, and adapt to fast iteration cycles common in indie projects. Demo reel is available drive.google.com Demoreel0405.mp4 Google Drive file. 1 post - 1 participant Read full topic",
+    "published": "Sun, 05 Apr 2026 05:49:39 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-04-05T08:37:18.007191"
   }
 }
