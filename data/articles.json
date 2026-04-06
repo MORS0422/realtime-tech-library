@@ -1618,5 +1618,45 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-04-05T20:26:49.299495"
+  },
+  "c9da3d6d9526": {
+    "id": "c9da3d6d9526",
+    "title": "Tutorial: Introduction to Technical Animation for Games",
+    "link": "https://www.cgchannel.com/2026/04/tutorial-introduction-to-technical-animation-for-games/",
+    "summary": "Discover how to create gameplay animation in Unreal Engine with The Gnomon Workshop's detailed beginners' guide.",
+    "published": "Mon, 06 Apr 2026 07:27:38 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-04-06T09:02:45.751037"
+  },
+  "c4062b70c152": {
+    "id": "c4062b70c152",
+    "title": "Free tool: Open Light generates procedural HDR light textures",
+    "link": "https://www.cgchannel.com/2026/04/free-tool-open-light-generates-procedural-hdr-light-textures/",
+    "summary": "Skydance Animation lighting artist Borja Rama's amazing tool generates pro-quality gobos for VFX, motion graphics and general CG work.",
+    "published": "Mon, 06 Apr 2026 06:30:34 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-06T09:02:45.751061"
+  },
+  "9459a60514dd": {
+    "id": "9459a60514dd",
+    "title": "I want your people guidance how can I make my project better:",
+    "link": "http://gamedev.net/forums/topic/719854-i-want-your-people-guidance-how-can-i-make-my-project-better",
+    "summary": "Hey folks, I hope you guys are doing well. I am currently creating a clinic-type 3D project scene in Blender. I want your guidance. what things I should add to this to make it more better and make it look like indie game?",
+    "published": "Mon, 06 Apr 2026 08:12:51 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-06T09:02:53.745731"
+  },
+  "b132fd606de1": {
+    "id": "b132fd606de1",
+    "title": "A 6-Concept Roadmap to Semi-Realism: Showcased by Student Work",
+    "link": "https://realtimevfx.com/t/a-6-concept-roadmap-to-semi-realism-showcased-by-student-work/30728",
+    "summary": "- YouTube Unreal Engine Game VFX Mastery — Rinban Academy “Transform your imagination into reality. See the power of our students’ work!” Hello, this is Rinban! Are you looking for the ultimate Unreal Engine Game VFX course? Stop searching. This is a comprehensive VOD-based curriculum featuring high-quality Korean instruction with full English subtitles , making it accessible to artists worldwide. Witness the incredible transformation of our students from beginners to industry-ready professionals. Master 6 core concepts and unlock 2 additional bonus levels upon completion! [ArtStation Promo Body] Master the industry-standard Semi-Realistic Game VFX with Unreal Engine 5 and Niagara. This is a self-paced VOD course designed to take you from Junior to Senior level. Promo &amp; Student Showcase: https://youtu.be/wUfxDJr7fS0?si=M0hhLByeXLM2L5Mh 6+2 Concept Roadmap: Master Every Element Level 1. Wide-Area (AoE): Master large-scale battlefield impacts and ground-shaking logic. Level 2. Projectile Systems: Craft high-speed energy bolts and precision-guided projectiles. Level 3. Sword Attributes: Develop heavy-hitting blade trails with unique elemental properties. Level 4. Lightning &amp; Combat: High-voltage strikes and dynamic battle-ready electricity. Level 5. Fire &amp; Ice: Contrast destructive pyromancy with crystalline freezing effects. Level 6. Electric &amp; Wind: Master fluid aero-dynamics and sparking electric systems. BONUS Level 7 &amp; 8: Exclusive advanced content added recently to push your portfolio further! Why Rinban Academy? Format: High-quality VOD Lectures (Learn anytime, anywhere). Language: Taught in Korean with Professional English Subtitles . Massive Volume: 334 Lectures | ~182 Hours of pure Unreal Engine 5 &amp; Niagara expertise. Direct Support: Exclusive Discord community &amp; Portfolio feedback for students. For more information and detailed inquiries, join us here: Rinban Academy [Purchase Options] Full Package — 8 Levels (Best Value) 1 Year Access | Discord Community | Portfolio Feedback Price: ₩3,760,000 (Fixed KRW — Huge advantage as USD rises! ) Link: 린반 아카데미 Flexible Pass (Manual Payment — No Auto-Charge) 1-Month: ₩330,000 | 린반 아카데미 2-Month: ₩640,000 (Save ₩20,000!) | 린반 아카데미 Supports Global Credit Cards (Visa, Mastercard, JCB) &amp; PayPal. Credit cards are recommended for lower FX fees! 1 post - 1 participant Read full topic",
+    "published": "Mon, 06 Apr 2026 08:36:57 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-04-06T09:02:47.287559"
   }
 }
