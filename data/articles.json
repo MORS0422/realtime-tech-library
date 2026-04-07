@@ -1698,5 +1698,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-07T08:03:29.478044"
+  },
+  "ccb45d8c24b1": {
+    "id": "ccb45d8c24b1",
+    "title": "Get free Maya character rigging toolset mGear 5.3",
+    "link": "https://www.cgchannel.com/2026/04/get-free-maya-character-rigging-toolset-mgear-5-3/",
+    "summary": "'Most feature-rich' update to the open-source rigging framework adds tools for automating Set Driven Key setup and blendshape transfer.",
+    "published": "Tue, 07 Apr 2026 06:00:18 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-07T08:56:02.009787"
+  },
+  "74cd9a4bf8f9": {
+    "id": "74cd9a4bf8f9",
+    "title": "Craftpix Indie Jam 2",
+    "link": "https://gamedev.net/news/craftpix-indie-jam-2-r2964",
+    "summary": "This time, we’re not just focusing on making games — we’re helping them get seen. We want as many people as possible to discover your project. Let’s jam. Let’s go viral. Let’s create big fun — together. Join now: https://itch.io/jam/craftpix-indie-jam-2-2025",
+    "published": "Sun, 03 Aug 2025 18:41:02 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-07T08:56:13.570308"
+  },
+  "53ad3697d470": {
+    "id": "53ad3697d470",
+    "title": "What brought me back to game development?",
+    "link": "https://gamedev.net/blogs/entry/2297831-what-brought-me-back-to-game-development",
+    "summary": "Back in the late 1990s, I had an insatiable appetite for game development. I worked on an online text-based game called Nightmare while in college and my love of RPGs with isometric perspective was born from playing the original Diablo. I joined GameDev.net in 1999 and contributed with development articles. However, while I am very technically strong, building games by myself and without much graphical skills basically meant that I would build cool demos of core functionality, but absolutely nothing tangible. Also, building a decent sized game by yourself is challenging when you also have a family and career. While …",
+    "published": "Mon, 06 Apr 2026 21:06:16 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-07T08:56:13.570354"
+  },
+  "8cbd2cdb5b4a": {
+    "id": "8cbd2cdb5b4a",
+    "title": "I want your people guidance how can I make my project better:",
+    "link": "https://gamedev.net/forums/topic/719854-i-want-your-people-guidance-how-can-i-make-my-project-better",
+    "summary": "Hey folks, I hope you guys are doing well. I am currently creating a clinic-type 3D project scene in Blender. I want your guidance. what things I should add to this to make it more better and make it look like indie game?",
+    "published": "Tue, 07 Apr 2026 06:16:19 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-07T08:56:13.570374"
+  },
+  "4145b8dba736": {
+    "id": "4145b8dba736",
+    "title": "How to Build a Paper Prototype for Your Game",
+    "link": "https://gamedev.net/tutorials/game-design/game-design-and-theory/how-to-build-a-paper-prototype-for-your-game-r6159",
+    "summary": "Prototyping is one of the fastest, cheapest, and most effective ways to test your ideas. Before you write a single line of code, you can already test your game idea. Paper prototypes are one of the fastest, cheapest, and most effective ways to explore whether your concept has potential. Instead of getting lost in assets, code, and polish, you can focus on what really matters: Does the mechanic feel fun? Do players understand what to do? Is it worth developing further? The goal of every prototype is simple: find value quickly . Identify what’s worth keeping, and discard weak ideas …",
+    "published": "Tue, 09 Dec 2025 19:19:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-07T08:56:13.570412"
+  },
+  "c71cd855d54e": {
+    "id": "c71cd855d54e",
+    "title": "Are you interested in learning game design with a pro?",
+    "link": "https://gamedev.net/news/are-you-interested-in-learning-game-design-with-a-pro-r2948",
+    "summary": "I am a French game designer with over 29 years of XP ( Splinter Cell , Alone In The Dark , etc.), and I have just launched my first online video course, a structured and accessible introduction to the fundamentals of game design. In those three and a half hours of video, I share my 29 years of experience as a game designer. I offer: - Fundamentals to understand how to build a solid core gameplay - A step-by-step method for developing a game system like a professional - A game system example - A unique checklist that you can …",
+    "published": "Thu, 26 Jun 2025 13:52:53 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-07T08:56:13.570448"
   }
 }
