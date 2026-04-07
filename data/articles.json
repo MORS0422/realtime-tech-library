@@ -1788,5 +1788,65 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-04-07T20:01:28.420352"
+  },
+  "51d0bd7b306a": {
+    "id": "51d0bd7b306a",
+    "title": "[LF Narrative Writer] Isle of Athena – Sandbox RPG survival game",
+    "link": "https://gamedev.net/forums/topic/719858-lf-narrative-writer-isle-of-athena-sandbox-rpg-survival-game",
+    "summary": "Hey! I’m looking for a writer to collab with on a hobby project called Isle of Athena. It’s a sandbox survival/crafting game with a heavy focus on atmosphere. The World: Think damp caves, territorial monsters (like armored Toad-men), and deceptive nature traps—like butterflies that try to lure you into a fairy ambush. It’s got a bit of a \"predator\" vibe where you have to manage your resources and inventory on the fly while exploring. What I need help with: Just looking for someone to help flesh out the lore and the \"active\" storytelling. Writing short, punchy item descriptions (minerals, mushrooms, …",
+    "published": "Tue, 07 Apr 2026 19:46:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-07T20:40:55.621683"
+  },
+  "5d5ebcf9a792": {
+    "id": "5d5ebcf9a792",
+    "title": "Feedback for water emerging effect",
+    "link": "https://realtimevfx.com/t/feedback-for-water-emerging-effect/30740",
+    "summary": "https://gyazo.com/05ce0a73c7d63de1f0c85cfe65cfa3c0 A whale-like creature (bit larger) will jump half out of the water straight up. 2 posts - 1 participant Read full topic",
+    "published": "Tue, 07 Apr 2026 19:57:50 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-07T20:40:48.707339"
+  },
+  "679c2ef59db7": {
+    "id": "679c2ef59db7",
+    "title": "Scene depth, lit opaque. Ocean help",
+    "link": "https://realtimevfx.com/t/scene-depth-lit-opaque-ocean-help/30739",
+    "summary": "Is it possible to somehow show whats under a plane with an opaque material? I want to see a creature under the sea, i want it to be like a dark shadow u can see moving if its fully submerged. However the sea is opaque so I can see through it, making the sea transparent makes the sea look uglu. What would you guys do for a problem like this? 1 post - 1 participant Read full topic",
+    "published": "Tue, 07 Apr 2026 14:06:10 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-07T20:40:48.707378"
+  },
+  "9baedbd4bfa5": {
+    "id": "9baedbd4bfa5",
+    "title": "Blizzard explains visual updates to Overwatch's Anran",
+    "link": "https://www.gamedeveloper.com/design/blizzard-explains-the-visual-update-to-overwatch-character-anran",
+    "summary": "Blizzard shows the visual makeover of Anran following community backlash earlier this year.",
+    "published": "Tue, 07 Apr 2026 16:02:15 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-07T20:40:57.402115"
+  },
+  "8372d8b7389c": {
+    "id": "8372d8b7389c",
+    "title": "Sony to acquire machine learning company Cinemersive Labs",
+    "link": "https://www.gamedeveloper.com/business/sony-to-acquire-machine-learning-company-cinemersive-labs",
+    "summary": "Cinemersive will join SIE's Visual Computing Group and apply machine learning to enhance gameplay visuals and improve rendering techniques.",
+    "published": "Tue, 07 Apr 2026 14:38:11 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-07T20:40:57.402135"
+  },
+  "3807d0e1c42b": {
+    "id": "3807d0e1c42b",
+    "title": "People of Note's hook-y approach to designing a turn-based musical RPG",
+    "link": "https://www.gamedeveloper.com/design/behind-people-of-note-s-methods-for-luring-players-into-enjoying-a-musical",
+    "summary": "'I think that people should be able to play how they want. That was a big focus in People of Note.'",
+    "published": "Mon, 06 Apr 2026 16:33:07 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-07T20:40:57.402171"
   }
 }
