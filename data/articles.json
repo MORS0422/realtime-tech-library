@@ -1758,5 +1758,35 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-04-07T08:56:13.570448"
+  },
+  "a6c7abe5e35f": {
+    "id": "a6c7abe5e35f",
+    "title": "Orbs made in Unreal Engine with Materials and Niagara Particle System",
+    "link": "https://realtimevfx.com/t/orbs-made-in-unreal-engine-with-materials-and-niagara-particle-system/30738",
+    "summary": "Hello, I am fairly new to game VFX but here are some tutorials I made for beginners like me. - YouTube - YouTube - YouTube - YouTube - YouTube 1 post - 1 participant Read full topic",
+    "published": "Tue, 07 Apr 2026 10:55:23 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-04-07T20:01:28.420314"
+  },
+  "4e955e0589e9": {
+    "id": "4e955e0589e9",
+    "title": "Retopoflow 4 now makes Blender auto-save in Edit Mode",
+    "link": "https://www.cgchannel.com/2026/04/orange-turbine-releases-retopoflow-4-for-blender/",
+    "summary": "Latest update to the popular suite of sketch-based retopology tools fixes a long-standing issue with Blender itself. Check out the other changes.",
+    "published": "Tue, 07 Apr 2026 05:20:05 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-07T20:01:25.930703"
+  },
+  "e74c4f24eb9b": {
+    "id": "e74c4f24eb9b",
+    "title": "How to make this portal material on a plane?",
+    "link": "https://realtimevfx.com/t/how-to-make-this-portal-material-on-a-plane/30735",
+    "summary": "- YouTube Hello, so I have been trying to create a portal like the reference video. The main goal is to have a flat plane and make the material look like a wormhole/portal. I have been able to make portal using a wormhole mesh but I want it on a flat plane like above. I tried using bumpoffset but it doesn’t keep hole in center and moves. I used parallaxocclusionmapping node and it works the best but this is an expensive node from what I know. So I have been trying to make something simpler. I have also tried using bumpoffset and stacking rotating texture at different heights but still same issue, the center hole (black color) does not stay in center when moving at different angles. 3 posts - 2 participants Read full topic",
+    "published": "Tue, 07 Apr 2026 09:38:02 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-07T20:01:28.420352"
   }
 }
