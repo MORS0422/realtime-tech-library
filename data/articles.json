@@ -1868,5 +1868,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-08T20:03:43.103771"
+  },
+  "c7f978e60009": {
+    "id": "c7f978e60009",
+    "title": "From Panic to Relief: The Week I Thought My Crypto Was Gone Forever Mighty Hacker Recovery Helps. +13439473496 WhatsApp Canada. Lost Wallet Access / How to recover lost Bitcoin wallet",
+    "link": "https://gamedev.net/forums/topic/719861-from-panic-to-relief-the-week-i-thought-my-crypto-was-gone-forever-mighty-hacker-recovery-helps-13439473496-whatsapp-canada-lost-wallet-access-how-to-recover-lost-bitcoin-wallet",
+    "summary": "From Panic to Relief: The Week I Thought My Crypto Was Gone Forever Mighty Hacker Recovery Helps. +13439473496 WhatsApp Canada. Lost Wallet Access / How to recover lost Bitcoin wallet I never thought I’d be the person frantically searching “crypto recovery” on YouTube at 3 AM. But there I was, my stomach in knots, after realizing I’d lost the private key to my Coinbase Wallet. Years of careful, small investments—gone in a heartbeat, locked behind a cryptographic wall I’d built myself. The panic was a physical weight. I’d tried every “forgot my key” option, every desperate memory-jogging trick. Nothing. Scrolling …",
+    "published": "Wed, 08 Apr 2026 20:22:02 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-08T20:37:23.313576"
+  },
+  "4e2db41b5414": {
+    "id": "4e2db41b5414",
+    "title": "IlluGen → UE5 | Building Real-Time VFX Assets from Scratch",
+    "link": "https://realtimevfx.com/t/illugen-ue5-building-real-time-vfx-assets-from-scratch/30744",
+    "summary": "Howdy folks! Creating this thread as a natural extension of the blog post I wrote about IlluGen as a Real-Time VFX artist. If the blog was the “here’s how the tool fits into a production pipeline” overview, this is the hands-on companion to it — concrete assets, start to finish, IlluGen straight into UE5 in one go. Each video covers a specific asset type: simulation in IlluGen, export, then live in Niagara. No detours. Just the pipeline. Videos so far: #01 — Butterfly Flipbooks https://youtu.be/gfbzA85llqE #02 — Growing VAT Roots https://youtu.be/Bw9lQ0iHZ5U More coming. Requests welcome — drop them below and I’ll work them into the series. Tagging @JangaFX as their tools are just awesome. 1 post - 1 participant Read full topic",
+    "published": "Wed, 08 Apr 2026 12:56:00 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-04-08T20:37:16.028413"
+  },
+  "cc0653bc1029": {
+    "id": "cc0653bc1029",
+    "title": "Peak co-developer Landfall might finance your next indie game",
+    "link": "https://www.gamedeveloper.com/business/peak-co-developer-landfall-might-finance-your-next-indie-game",
+    "summary": "The studio's new publishing label, Evil Landfall, is looking to sink cash into silly titles with short development cycles.",
+    "published": "Wed, 08 Apr 2026 15:28:17 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-08T20:37:26.479590"
+  },
+  "ac95089f953b": {
+    "id": "ac95089f953b",
+    "title": "Finding inspiration and a bit of hope in CorgiSpace",
+    "link": "https://www.gamedeveloper.com/design/finding-inspiration-and-a-bit-of-hope-in-corgispace",
+    "summary": "Making 'small games with short legs' is helping me feel alive again.",
+    "published": "Wed, 08 Apr 2026 14:23:53 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-08T20:37:26.479610"
+  },
+  "3d3c721584b9": {
+    "id": "3d3c721584b9",
+    "title": "Supercell CEO Ilkka Paananen to receive BAFTA Fellowship",
+    "link": "https://www.gamedeveloper.com/business/supercell-ceo-ilkka-paananen-to-receive-bafta-fellowship",
+    "summary": "Paananen co-founded the Clash of Clans and Brawl Stars studio in 2010.",
+    "published": "Wed, 08 Apr 2026 11:59:34 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-08T20:37:26.479622"
   }
 }
