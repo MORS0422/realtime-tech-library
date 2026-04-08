@@ -1848,5 +1848,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-07T20:40:57.402171"
+  },
+  "53ee4eef468f": {
+    "id": "53ee4eef468f",
+    "title": "Time Manipulation in Unity 6",
+    "link": "https://gamedev.net/forums/topic/719859-time-manipulation-in-unity-6",
+    "summary": "Hey everyone, I’ve been experimenting with a time rewind / slow-motion system in Unity past few months, and what started as a small prototype got way more complicated than I expected. At first, I thought it would just be about recording positions and playing them backward. But once I tried to make it work in an actual gameplay scenario, everything started breaking — physics, NavMesh agents, particles, even basic scripts. It quickly turned into a much bigger system, so I started treating it more like an engine. I ended up building something I now call the Time Paradox Engine . …",
+    "published": "Tue, 07 Apr 2026 21:59:32 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-08T08:55:16.871666"
   }
 }
