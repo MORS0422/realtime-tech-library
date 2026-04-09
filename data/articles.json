@@ -1918,5 +1918,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-08T20:37:26.479622"
+  },
+  "c4f8e7341c06": {
+    "id": "c4f8e7341c06",
+    "title": "Chaos discontinues its Phoenix fluid simulation software",
+    "link": "https://www.cgchannel.com/2026/04/chaos-discontinues-its-phoenix-fluid-simulation-software/",
+    "summary": "Smoke, fire and liquid simulator for 3ds Max and Maya is now end-of-support, and will receive no further compatibility updates or fixes.",
+    "published": "Thu, 09 Apr 2026 04:00:21 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-09T09:01:36.585901"
+  },
+  "6f438a5fe7fa": {
+    "id": "6f438a5fe7fa",
+    "title": "GameCube Development Kit Hardware",
+    "link": "https://gamedev.net/blogs/entry/2297836-gamecube-development-kit-hardware",
+    "summary": "SN Systems TDEV - GameCube Development Kit has 48MB of main ram and 16MB of ARAM, it pretty much a GameCube but has more system ram and a fast boot IPL ROM. also has a NR DVD Drive, Region USA\\JPN switch connected to the main board. Debugging and Streaming Data from Host PC can be done via SN Systems USB 2.0 on the Serial Port 2 or using the BBA with Ethernet Cable. Development Screens on the SN-TDEV Devkit Development Software Metrowerks Codewarrior supports BBA with SN-TDEV and NPDP-GDEV, DDH SN Systems ProDG supports BBA or USB 2.0 on the …",
+    "published": "Thu, 09 Apr 2026 04:52:01 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-09T09:01:46.548065"
+  },
+  "f83f368f51c1": {
+    "id": "f83f368f51c1",
+    "title": "Looking for feedback on a browser-based narrative strategy simulation",
+    "link": "https://gamedev.net/forums/topic/719857-looking-for-feedback-on-a-browser-based-narrative-strategy-simulation",
+    "summary": "I’m part of the team behind Paradigm, a browser-based strategy and narrative simulation about leading a software company through the AI transition. The project focuses on decisions around product direction, hiring, customer pressure, internal culture, and long-term strategy. We built it around tradeoffs and consequences rather than traditional management-game systems. I’d be interested in feedback on whether the decisions feel believable, whether the pacing works, and whether the simulation feels engaging overall. Playable here: https://nolatency.co/paradigm-ai-strategy-simulation/",
+    "published": "Thu, 09 Apr 2026 02:06:09 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-09T09:01:46.548099"
   }
 }
