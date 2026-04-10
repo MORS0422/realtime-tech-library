@@ -1998,5 +1998,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-09T20:43:11.927270"
+  },
+  "3077c387ae21": {
+    "id": "3077c387ae21",
+    "title": "Nekki releases Cascadeur 2026.1",
+    "link": "https://www.cgchannel.com/2026/04/nekki-releases-cascadeur-2026-1/",
+    "summary": "AI-assisted animation tool gets new Root Motion system to automatically generate animation between key poses, plus new UE5 live link.",
+    "published": "Fri, 10 Apr 2026 04:30:39 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-04-10T09:02:21.883488"
+  },
+  "3c0fa2c8619d": {
+    "id": "3c0fa2c8619d",
+    "title": "Autodesk acquires core tech of AI motion-capture firm Radical",
+    "link": "https://www.cgchannel.com/2026/04/autodesk-acquires-core-tech-of-ai-motion-capture-firm-radical/",
+    "summary": "Autodesk buys core tech and IP of the AI mocap pioneer. The Radical website will shut down on 6 July, so download your data before then.",
+    "published": "Thu, 09 Apr 2026 15:15:45 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-10T09:02:21.883514"
+  },
+  "514d96dab09f": {
+    "id": "514d96dab09f",
+    "title": "Get 650+ free assets for building dungeons in Blender and UE5",
+    "link": "https://www.cgchannel.com/2026/04/get-650-free-3d-assets-for-building-dungeons-in-blender-unity-and-unreal-engine/",
+    "summary": "Build the low-poly 3D dungeon of your dreams with game art firm Tidal Flask Studios' FBX asset pack. Free for commercial use, but get in quick.",
+    "published": "Thu, 09 Apr 2026 04:30:18 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-04-10T09:02:21.883529"
+  },
+  "f6b23e8a267d": {
+    "id": "f6b23e8a267d",
+    "title": "It's been a while...",
+    "link": "https://gamedev.net/forums/topic/719862-its-been-a-while",
+    "summary": "I got an email the other day about the forums. I haven't forgotten about GameDev.net, but it has been a while. I'm a bit of an old-timer, by today's standards. Back in my youth, I used to constantly hit up the Active Topics, and read everything I could. Nowadays... life is a little busier. I do occasionally get the itch to make a game, but life has a way of making that a bit difficult these days. Since I joined GDNet, I've done the following: - Graduated high school - Went on a two year mission for my church - …",
+    "published": "Fri, 10 Apr 2026 07:54:21 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-10T09:02:31.825583"
+  },
+  "83d5cc373a86": {
+    "id": "83d5cc373a86",
+    "title": "Steps to Make a Simple Game in Unity",
+    "link": "https://gamedev.net/tutorials/programming/general-and-gameplay-programming/steps-to-make-a-simple-game-in-unity-r6114",
+    "summary": "Ah, Flappy Bird – the game that had us all glued to our screens, guiding that little bird through pipes, only to see it hilariously face-plant “ BoNk ” one second later. Good times, right? Now, if you’re diving into game development, Flappy Bird is basically the ‘ hello world ‘ of the gaming universe. It is the ultimate beginner’s project that every aspiring developer tackles at some point. So, in this post, we’re going to build our own Flappy Bird game using C# and Unity. Let’s not let our bird crash before it even takes off – time to …",
+    "published": "Thu, 03 Jul 2025 07:01:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-10T09:02:31.825620"
   }
 }
