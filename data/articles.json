@@ -2048,5 +2048,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-04-10T09:02:31.825620"
+  },
+  "adb871053f79": {
+    "id": "adb871053f79",
+    "title": "Houdini plant-generation toolkit Natsura is now in early access",
+    "link": "https://www.cgchannel.com/2026/04/houdini-plant-generation-toolkit-natsura-is-now-in-early-access/",
+    "summary": "Check out the interesting high-performance vegetation modeling toolset for games and VFX. Now available for commercial use.",
+    "published": "Fri, 10 Apr 2026 09:00:10 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-10T20:01:18.185220"
+  },
+  "98c837cffd89": {
+    "id": "98c837cffd89",
+    "title": "Gunzilla called out, Netflix's surprise app store surge, and indie publishers rise up - Patch Notes #47",
+    "link": "https://www.gamedeveloper.com/business/gunzilla-called-out-netflix-s-surprise-app-store-surge-and-indie-publishers-rise-up-patch-notes-47",
+    "summary": "Plus: Indonesia's new age rating system initially approved Call of Duty for children aged 3 and over.",
+    "published": "Fri, 10 Apr 2026 09:21:46 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-10T20:01:42.328501"
   }
 }
