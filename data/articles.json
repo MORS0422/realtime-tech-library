@@ -2198,5 +2198,25 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-04-12T20:02:11.335167"
+  },
+  "c2d2799b79fe": {
+    "id": "c2d2799b79fe",
+    "title": "World Scale Matters",
+    "link": "https://gamedev.net/blogs/entry/2297840-world-scale-matters",
+    "summary": "World Material works as a universal, flexible wrapper for static objects, where textures keep a constant scale in world space. No more stretched or tiny texture patterns when scaling a model - they fit properly both on a tiny screw and on a building roof. Any model rotation angle is handled as well.,, All channels are synchronized with each other (color, height/relief, metalness, roughness), using a single coordinate system and scale.,, One World Material - with every pixel used as efficiently as possible - instead of dozens of one-off solutions where a unique texture bloats memory, increases project size, and …",
+    "published": "Sun, 12 Apr 2026 14:12:25 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-12T20:30:11.921159"
+  },
+  "7f2b7836696f": {
+    "id": "7f2b7836696f",
+    "title": "Event<T> type question",
+    "link": "https://gamedev.net/forums/topic/719866-eventt-type-question",
+    "summary": "Hello, I am trying to create something like this: Event&lt;int&gt; myEvent; void Function(int n) { print(n); } myEvent.AddListener(Function); myEvent.Invoke(123); I was able to create a non-templated version of this using funcdefs: scripting.GetNativeEngine()-&gt;RegisterFuncdef(\"void Callback()\"); // --- /*...*/.Method(\"void AddListener(Callback@ callback)\", &amp;Event::AddListener); // --- void Event::AddListener(asIScriptFunction *func) { Callback callback = {}; if (func-&gt;GetFuncType() == asFUNC_DELEGATE) { callback.func = func-&gt;GetDelegateFunction(); callback.callbackObject = func-&gt;GetDelegateObject(); callback.callbackObjectType = func-&gt;GetDelegateObjectType(); callback.func-&gt;AddRef(); GetNativeEngine()-&gt;AddRefScriptObject(callback.callbackObject, callback.callbackObjectType); func-&gt;Release(); } else { callback.func = func; } m_callbacks.push_back(callback); } However, I have no idea how I would go about creating something like this with templates. Do you have any idea how this could …",
+    "published": "Sun, 12 Apr 2026 17:52:15 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-12T20:30:11.921212"
   }
 }
