@@ -2108,5 +2108,75 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-10T20:29:15.017412"
+  },
+  "c6d9371a3e54": {
+    "id": "c6d9371a3e54",
+    "title": "Inhouse Audio System - BAudio",
+    "link": "https://gamedev.net/blogs/entry/2297839-inhouse-audio-system-baudio",
+    "summary": "Macronix 16-bit Audio DSP​ This project develops BAudio , a custom audio engine designed for the Macronix 16-bit programmable DSP used in the Nintendo GameCube, Wii, and Wii U . The DSP acts as a slave processor dedicated to real-time audio processing , with built-in hardware support for DSP-ADPCM decoding to offload audio tasks from the CPU. The system leverages 16 MB of ARAM to store PCM and ADPCM audio data, while also allowing additional game assets such as textures and animations. All DSP logic is implemented in assembly microcode , requiring careful instruction and memory optimization to operate efficiently …",
+    "published": "Sun, 12 Apr 2026 04:02:14 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-12T08:40:59.600942"
+  },
+  "e091996285c9": {
+    "id": "e091996285c9",
+    "title": "move sprite in unity with mouse",
+    "link": "https://gamedev.net/forums/topic/719864-move-sprite-in-unity-with-mouse",
+    "summary": "I am trying to move a sprite with the mouse in unity 6. I am including BoxCollider2D component and a C# script. When I push play in unity I can't get the sprite to move with the mouse. Is there something in unity that I am not including? I am new to unity 6, below is the c# script. using UnityEngine; public class Drag : MonoBehaviour { private bool dragging = false; private Vector3 offset; // Update is called once per frame void Update() { if (dragging) { // Move object, taking into account original offset. transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition) + …",
+    "published": "Sun, 12 Apr 2026 01:16:10 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-12T08:40:59.600982"
+  },
+  "38375394fd99": {
+    "id": "38375394fd99",
+    "title": "Digital Extremes Warframe: The Old Peace Art Blast",
+    "link": "https://magazine.artstation.com/2026/03/digital-extremes-warframe-the-old-peace-art-blast/",
+    "summary": "The Old Peace defines the Digital Extremes update process perfectly &#8211; behold something beautiful and lovingly crafted that we had only 5 months to get ready to show the world, and then 6 additional months to ship. In January of 2025 we decided it would be better to show Warframe&#8217;s new solar system TAU, an [&#8230;] The post Digital Extremes Warframe: The Old Peace Art Blast appeared first on ArtStation Magazine .",
+    "published": "Mon, 30 Mar 2026 17:55:06 +0000",
+    "source_name": "ArtStation Magazine",
+    "category": "ta-render",
+    "fetched_at": "2026-04-12T08:40:52.603269"
+  },
+  "df22b677d178": {
+    "id": "df22b677d178",
+    "title": "Ubisoft Avatar: Frontiers of Pandora From the Ashes Art Blast",
+    "link": "https://magazine.artstation.com/2026/03/ubisoft-avatar-frontiers-of-pandora-from-the-ashes-art-blast/",
+    "summary": "In Avatar: Frontiers of Pandora – From the Ashes, which released alongside the film Avatar: Fire and Ash, the team was presented with one of the most interesting visual challenges to date: how to twist the beloved Kinglor Forest to reflect the chaos brought by the ruthless Mangkwan clan and the new RDA forces. We [&#8230;] The post Ubisoft Avatar: Frontiers of Pandora From the Ashes Art Blast appeared first on ArtStation Magazine .",
+    "published": "Wed, 11 Mar 2026 17:15:44 +0000",
+    "source_name": "ArtStation Magazine",
+    "category": "ta-render",
+    "fetched_at": "2026-04-12T08:40:52.603309"
+  },
+  "2f327f932c66": {
+    "id": "2f327f932c66",
+    "title": "Battlefield 6 Art Blast",
+    "link": "https://magazine.artstation.com/2026/02/battlefield-6-art-blast/",
+    "summary": "Battlefield is back &#8211; and so is our Art Blast! Today, we’re shining a spotlight on the incredible artistry behind Battlefield 6 and REDSEC. This Art Blast celebrates the passion, creativity, and craftsmanship of our talented artists across Battlefield Studios, EA, and our outstanding outsourcing partners around the globe. This is your moment to explore [&#8230;] The post Battlefield 6 Art Blast appeared first on ArtStation Magazine .",
+    "published": "Tue, 24 Feb 2026 19:00:46 +0000",
+    "source_name": "ArtStation Magazine",
+    "category": "ta-render",
+    "fetched_at": "2026-04-12T08:40:52.603339"
+  },
+  "c83fb0fbd17f": {
+    "id": "c83fb0fbd17f",
+    "title": "AFEELA 1 Theme Design Challenge Presented by Sony Honda Mobility Winners Announcement",
+    "link": "https://magazine.artstation.com/2025/12/afeela-1-theme-design-challenge-presented-by-sony-honda-mobility-winners-announcement/",
+    "summary": "Thank you to everyone who took part in the AFEELA 1 Theme Design Challenge presented by Sony Honda Mobility. The challenge attracted over 800 entries with artists from around the world sharing bold ideas and inventive approaches to crafting in-car digital themes for the AFEELA 1.&#160; The challenge invited participants to envision how visual design [&#8230;] The post AFEELA 1 Theme Design Challenge Presented by Sony Honda Mobility Winners Announcement appeared first on ArtStation Magazine .",
+    "published": "Fri, 19 Dec 2025 23:05:22 +0000",
+    "source_name": "ArtStation Magazine",
+    "category": "ta-render",
+    "fetched_at": "2026-04-12T08:40:52.603366"
+  },
+  "04feebbe1833": {
+    "id": "04feebbe1833",
+    "title": "Manticore Games Out of Time Art Blast",
+    "link": "https://magazine.artstation.com/2025/12/manticore-games-out-of-time-art-blast/",
+    "summary": "Out of Time is a fast-paced, multiplayer time travel co-op roguelite where your squad, your gear, and your teamwork determine your survival against relentless enemies and against time itself. Trapped in space and time, mankind has to survive and uncover the mysterious forces that threaten them! It’s an honor to share the art of Out [&#8230;] The post Manticore Games Out of Time Art Blast appeared first on ArtStation Magazine .",
+    "published": "Thu, 18 Dec 2025 20:50:04 +0000",
+    "source_name": "ArtStation Magazine",
+    "category": "ta-render",
+    "fetched_at": "2026-04-12T08:40:52.603394"
   }
 }
