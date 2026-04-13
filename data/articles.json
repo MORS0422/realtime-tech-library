@@ -2218,5 +2218,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-04-12T20:30:11.921212"
+  },
+  "ce3b577a720d": {
+    "id": "ce3b577a720d",
+    "title": "Academy Software Foundation adopts OpenPGL",
+    "link": "https://www.cgchannel.com/2026/04/aswf-adopts-openpgl-after-intel-ends-development/",
+    "summary": "Path guiding library used in Blender, V-Ray and Disney's Hyperion renderer becomes open standards body's latest Sandbox project.",
+    "published": "Mon, 13 Apr 2026 07:58:27 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-13T09:49:49.090306"
+  },
+  "fda3a818266a": {
+    "id": "fda3a818266a",
+    "title": "Latest GameDev.net Improvements",
+    "link": "https://gamedev.net/blogs/entry/2297841-latest-gamedevnet-improvements",
+    "summary": "Improvements to the new GameDev.net continue (the beta). You can view the changelog for the latest updates based on direct user feedback, but for the rest here's a rundown of recent updates: Guilds Guilds are topic-based communities that sit on top of our existing forums. Think of them as curated feeds that pull together discussions, tutorials, blogs, and news around a specific topic. Graphics Programming, Indie Development, AI &amp; Machine Learning, you get the idea. What they do: Aggregate content from across the site into one feed per topic Let you follow just the areas you care about Surface experts …",
+    "published": "Sun, 12 Apr 2026 22:22:30 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-13T09:49:59.350811"
   }
 }
