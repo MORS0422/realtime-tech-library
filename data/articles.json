@@ -2258,5 +2258,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-13T20:48:21.135786"
+  },
+  "2f433985d943": {
+    "id": "2f433985d943",
+    "title": "My GameCube Game Development Studio Setup",
+    "link": "https://gamedev.net/forums/topic/719867-my-gamecube-game-development-studio-setup",
+    "summary": "Here's my Studio setup for game development on the Nintendo GameCube\\Wii. My engine, game code is written in C\\C++ and my audio DSP microcode is written in Assembly. Adobe CS6 Suite for textures, images, video editing, etc. Autodesk 3dsmax 2011 for modeling, animating, used as a level editor with a custom plugin developed with the MaxSDK (C\\C++) and MaxScript. I have my own audio system with custom dsp microcode for the audio driver. As for the FMV playback lib it uses MPEG 2 video instead of JPEG + custom DSP microcode for audio decoding logic. I use a custom inhouse …",
+    "published": "Tue, 14 Apr 2026 03:49:26 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-14T09:12:19.113005"
   }
 }
