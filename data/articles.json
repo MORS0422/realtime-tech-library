@@ -2288,5 +2288,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-14T20:03:36.715134"
+  },
+  "f56e770bac4e": {
+    "id": "f56e770bac4e",
+    "title": "New week, new question! Laser VFX - multiple lasers focussed on a single point",
+    "link": "https://realtimevfx.com/t/new-week-new-question-laser-vfx-multiple-lasers-focussed-on-a-single-point/30769",
+    "summary": "Im looking to make something simular to this very small gif with a dark souls laser attack. But instead of one laser I want 4/5 starting from different points but the end point being the same. How would you guys attack an effect like this? 1 post - 1 participant Read full topic",
+    "published": "Tue, 14 Apr 2026 11:05:23 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-14T20:46:43.625688"
+  },
+  "f5c9ca4398c6": {
+    "id": "f5c9ca4398c6",
+    "title": "Data and player sentiment highlight the value of authentic LGBTQ narratives",
+    "link": "https://www.gamedeveloper.com/design/data-and-player-sentiment-highlight-the-value-of-authentic-lgbtq-narratives",
+    "summary": "Authentic representation can only happen if developers have the determination to make it happen.",
+    "published": "Tue, 14 Apr 2026 19:42:44 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-14T20:46:54.531151"
+  },
+  "f9bc958c3d24": {
+    "id": "f9bc958c3d24",
+    "title": "How Capcom's Pragmata blends puzzle-solving with sci-fi combat",
+    "link": "https://www.gamedeveloper.com/design/how-capcom-s-pragmata-blends-puzzle-solving-with-sci-fi-combat",
+    "summary": "Capcom 's Cho Yonghee, Naoto Oyama, and Edvin Edso discuss the process of crafting a new Capcom franchise with an unusual hook.",
+    "published": "Tue, 14 Apr 2026 17:34:03 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-14T20:46:54.531170"
+  },
+  "65050f3beb7b": {
+    "id": "65050f3beb7b",
+    "title": "Bloober CEO says relying on one title creates 'too much risk' in today's market",
+    "link": "https://www.gamedeveloper.com/business/chronos-the-new-dawn-dev-bloober-team-transitions-to-a-multi-project-structure",
+    "summary": "Silent Hill 2 remake dev Bloober Team shared insight on its expanded leadership and multi-project structure.",
+    "published": "Tue, 14 Apr 2026 16:16:48 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-14T20:46:54.531182"
+  },
+  "89ddb1d8bf9d": {
+    "id": "89ddb1d8bf9d",
+    "title": "Inkle co-founder explains how TR-49 broke even in three hours",
+    "link": "https://www.gamedeveloper.com/business/inkle-co-founder-explains-how-tr-49-broke-even-in-three-hours",
+    "summary": "The narrative deduction title is available on Steam, Nintendo Switch, and the App Store for just $7.",
+    "published": "Tue, 14 Apr 2026 14:27:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-14T20:46:54.531194"
+  },
+  "c97ee1555dc1": {
+    "id": "c97ee1555dc1",
+    "title": "Amazon is downscaling cloud video game service Luna",
+    "link": "https://www.gamedeveloper.com/business/amazon-is-downscaling-video-game-service-luna",
+    "summary": "Previously purchased titles will stop working on June 10 without refunds.",
+    "published": "Tue, 14 Apr 2026 14:26:12 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-14T20:46:54.531204"
   }
 }
