@@ -2368,5 +2368,105 @@
     "source_name": "CG Channel",
     "category": "render",
     "fetched_at": "2026-04-15T20:02:05.696729"
+  },
+  "2622cbea1d04": {
+    "id": "2622cbea1d04",
+    "title": "Maxon releases ZBrush 2026.2 and ZBrush for iPad 2026.2",
+    "link": "https://www.cgchannel.com/2026/04/maxon-releases-zbrush-2026-2-and-zbrush-for-ipad-2026-2/",
+    "summary": "Check out the new features in the digital sculpting software and its iPad edition, including support for ARM processors on Windows.",
+    "published": "Wed, 15 Apr 2026 17:19:26 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-15T20:41:38.878256"
+  },
+  "a33d287ada48": {
+    "id": "a33d287ada48",
+    "title": "Maxon releases motion graphics software Autograph for free",
+    "link": "https://www.cgchannel.com/2026/04/maxon-releases-motion-graphics-software-autograph-for-free/",
+    "summary": "USD-based, responsive-design-friendly motion graphics and VFX tool is publicly available again - and is free to individual artists.",
+    "published": "Wed, 15 Apr 2026 16:12:13 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-15T20:41:38.878280"
+  },
+  "b05a7269c4c7": {
+    "id": "b05a7269c4c7",
+    "title": "Adobe releases After Effects 26.2",
+    "link": "https://www.cgchannel.com/2026/04/adobe-releases-after-effects-26-2/",
+    "summary": "Compositing and motion graphics software gets AI-powered Object Matte tool to isolate moving subjects in video with one click.",
+    "published": "Wed, 15 Apr 2026 14:58:01 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-15T20:41:38.878295"
+  },
+  "1c63b9435044": {
+    "id": "1c63b9435044",
+    "title": "Epic Games releases Twinmotion 2026.1",
+    "link": "https://www.cgchannel.com/2026/04/epic-games-releases-twinmotion-2026-1/",
+    "summary": "Real-time visualization software gets new tools for matching 3D models to backplates, light linking system, more camera and lens properties.",
+    "published": "Wed, 15 Apr 2026 10:41:42 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-15T20:41:38.878307"
+  },
+  "164ac68ef885": {
+    "id": "164ac68ef885",
+    "title": "Deep Sea Claustrophobia goes free (a late postmortem?)",
+    "link": "https://gamedev.net/blogs/entry/2297843-deep-sea-claustrophobia-goes-free-a-late-postmortem",
+    "summary": "Late news, but I've decided to drop the price for the game and let it go for free ( link to file ). It's been a long time coming to drop the EA price from $9.99 to zero because it made zero cents and was just sitting there anyway collecting dust. Haven't worked on the title almost a year now, as priorities took over and tried to get started with another project (trying to save my career with a slightly better value proposition, codenamed Falterstone) because I couldn't save this one (no publisher wanted to help with it). What was …",
+    "published": "Wed, 15 Apr 2026 17:23:49 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-15T20:41:54.356250"
+  },
+  "087b7f048776": {
+    "id": "087b7f048776",
+    "title": "Short term with possibility for long term",
+    "link": "https://realtimevfx.com/t/short-term-with-possibility-for-long-term/30777",
+    "summary": "Hi! I am the director of Patch W Games (leading a team of 9) and am looking for a vfx artist that would be willing to do some work for 700 dollars. It is a low amount of money, but this could be an opportunity to become part of the team when we try to secure funding. We are aiming to offer a 4-5 month contract (4400 a month) to whoever decides to join us. About the team: We are making a dating hack &amp; slash lead by the narrative designer of Eternights (it made 4+ million dollars in revenue. The team is a collection of industry veterans and talented upstarts. The project has been in development for about 2 1/3 years About the work: We are doing a stylized lowpoly style mixed with paper. If that sounds interesting to you, please reach out! 1 post - 1 participant Read full topic",
+    "published": "Wed, 15 Apr 2026 16:05:56 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-15T20:41:41.081876"
+  },
+  "1dbefdc2b15d": {
+    "id": "1dbefdc2b15d",
+    "title": "RuneScape developer to expand its IP to the Asia-Pacific region",
+    "link": "https://www.gamedeveloper.com/business/runescape-developer-to-expand-its-ip-to-the-asian-pacific-region",
+    "summary": "RuneScape: Dragonwilds will be localized into Simplified Chinese, Japanese, and Korean this year.",
+    "published": "Wed, 15 Apr 2026 17:20:43 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-15T20:41:57.450119"
+  },
+  "0211c1428036": {
+    "id": "0211c1428036",
+    "title": "Report: New Xbox chief says Game Pass 'has become too expensive'",
+    "link": "https://www.gamedeveloper.com/business/report-xbox-new-chief-says-game-pass-has-become-too-expensive-",
+    "summary": "Asha Sharma reportedly said the subscription service needs 'a better value equation' in an internal memo.",
+    "published": "Wed, 15 Apr 2026 15:44:28 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-15T20:41:57.450141"
+  },
+  "424d5ec33cd3": {
+    "id": "424d5ec33cd3",
+    "title": "Video game lawyer implores devs to understand ownership and swerve generative AI",
+    "link": "https://www.gamedeveloper.com/business/video-game-lawyer-implores-devs-to-understand-ownership-and-swerve-generative-ai",
+    "summary": "Mishcon de Reya partner Nick Allan shares rapid fire legal advice at London Games Festival.",
+    "published": "Wed, 15 Apr 2026 13:32:01 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-15T20:41:57.450154"
+  },
+  "25722c68681e": {
+    "id": "25722c68681e",
+    "title": "ID@Xbox global director says Xbox Game Pass is a discovery multiplier",
+    "link": "https://www.gamedeveloper.com/business/id-xbox-global-director-says-xbox-game-pass-is-a-discovery-multiplier",
+    "summary": "Does launching into Microsoft's subscription service create a positive snowball effect?",
+    "published": "Wed, 15 Apr 2026 09:42:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-15T20:41:57.450165"
   }
 }
