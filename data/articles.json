@@ -2268,5 +2268,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-04-14T09:12:19.113005"
+  },
+  "858e4d3081e2": {
+    "id": "858e4d3081e2",
+    "title": "You can now use V-Ray free for commercial work in Blender",
+    "link": "https://www.cgchannel.com/2026/04/you-can-now-use-v-ray-free-for-commercial-work-in-blender/",
+    "summary": "See the strengths and limitations of the new V-Ray for Blender Community Edition, and how it compares to other pro renderers.",
+    "published": "Tue, 14 Apr 2026 07:28:11 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-14T20:03:09.231286"
+  },
+  "b9e11328755f": {
+    "id": "b9e11328755f",
+    "title": "UK government commits £28.5 million to supporting local game developers",
+    "link": "https://www.gamedeveloper.com/business/uk-government-commits-28-5-million-to-supporting-local-game-developers",
+    "summary": "The cash will be distributed in the form of targeted grants issued via the UK Games Fund.",
+    "published": "Tue, 14 Apr 2026 09:26:44 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-14T20:03:36.715134"
   }
 }
