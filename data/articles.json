@@ -2508,5 +2508,55 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-04-16T20:03:20.105510"
+  },
+  "9acb454e96ea": {
+    "id": "9acb454e96ea",
+    "title": "Number wordimnotallowedtosay",
+    "link": "https://gamedev.net/forums/topic/719874-number-wordimnotallowedtosay",
+    "summary": "So, I made a game. Or at least the most bare-bones version of the game I want to make physically possible. And when I say bare-bones, I mean 20 lines of code, maybe a few more. Now that I have this skeleton of a number guessing incremental game made of shattered dreams, where do I go from here? I would give you the file to play it, but I can't figure out how to put files in here. And the code block won't work the way I want it to, so... I'll try anyways. import random def number_fcuk(): right_answer = …",
+    "published": "Thu, 16 Apr 2026 20:28:17 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-16T20:42:17.173637"
+  },
+  "0f66cabbcb10": {
+    "id": "0f66cabbcb10",
+    "title": "How to use the unity Timeline",
+    "link": "https://realtimevfx.com/t/how-to-use-the-unity-timeline/30784",
+    "summary": "I’m leaning how to do stylized VFX in unity and I’m at the point of where I want to learn how to use the timeline in unity but it’s a bit confusing so I was wondering if anyone had any advice on where I should start at. Ps. Any advice helps thank you unity Unity Help vfx 1 post - 1 participant Read full topic",
+    "published": "Thu, 16 Apr 2026 18:09:11 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-16T20:42:09.087734"
+  },
+  "1cc8b07458a2": {
+    "id": "1cc8b07458a2",
+    "title": "Optimization of Materials for Particles in Niagara",
+    "link": "https://realtimevfx.com/t/optimization-of-materials-for-particles-in-niagara/30783",
+    "summary": "Hi everybody, I am new to vfx and I am trying to understand optimization techniques for particle systems in Niagara. I have some water splashes and I am checking the impact they have in the shader complexity view. If I use a translucent lit material the impact is absolutely terrible, I can make that a bit more performant by changing the material to unlit but it is not a radical change for the better. The best option for performance seems to be to use an unlit masked materials but that is terrible for how the effect actually looks as the masked material does not do opacity fades but hard cutouts. ISSUE 1: I am not happy with how the splash looks when changing the material to masked and it also introdues some weird shadow artifacts. I disabled shadows in the material and in Niagara, including any lumen related shadows but the artifacts remain. ISSUE 2 : Performance-wise I know that I can try to optimize the material, I know I can use cutout textures in the particle system and I know I can make my particle system GPU based. Are there any resources you can recommend to learn more about optimization? It is hard to find good information in this topic. 1 post - 1 participant Read full topic",
+    "published": "Thu, 16 Apr 2026 16:04:06 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-04-16T20:42:09.087803"
+  },
+  "c8f0e2525111": {
+    "id": "c8f0e2525111",
+    "title": "Ludum Dare will officially end in October 2028",
+    "link": "https://www.gamedeveloper.com/production/ludum-dare-will-officially-end-in-october-2028",
+    "summary": "The long-running game jam has spawned a number of successful titles such as Celeste and Inscryption.",
+    "published": "Thu, 16 Apr 2026 14:24:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-16T20:42:19.457850"
+  },
+  "ed1ebc72fe10": {
+    "id": "ed1ebc72fe10",
+    "title": "US representative Maxwell Frost protests Saudi buyout of EA",
+    "link": "https://www.gamedeveloper.com/business/us-representative-maxwell-frost-voices-protest-over-saudi-buyout-of-ea",
+    "summary": "Frost claims EA will utilize AI to 'essentially fire loads of people.'",
+    "published": "Wed, 15 Apr 2026 16:13:19 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-16T20:42:19.457889"
   }
 }
