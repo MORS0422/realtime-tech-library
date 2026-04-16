@@ -2348,5 +2348,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-14T20:46:54.531204"
+  },
+  "33d31202fd85": {
+    "id": "33d31202fd85",
+    "title": "Blackmagic Design releases DaVinci Resolve 21.0 in beta",
+    "link": "https://www.cgchannel.com/2026/04/blackmagic-design-releases-davinci-resolve-21-0-in-beta/",
+    "summary": "Discover key features for VFX artists and colorists in this major update to the free color grading and editing app and its $295 Studio edition.",
+    "published": "Tue, 14 Apr 2026 11:19:13 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-15T20:02:05.696758"
+  },
+  "fa7f2cfcde25": {
+    "id": "fa7f2cfcde25",
+    "title": "Adobe releases Substance 3D Designer 16.0",
+    "link": "https://www.cgchannel.com/2026/04/adobe-releases-substance-3d-designer-16-0/",
+    "summary": "Latest major update to the material authoring software adds new 3D Shape Splatter node, SDF shape creation tools, OpenPBR support.",
+    "published": "Wed, 15 Apr 2026 08:00:55 +0000",
+    "source_name": "CG Channel",
+    "category": "render",
+    "fetched_at": "2026-04-15T20:02:05.696729"
   }
 }
