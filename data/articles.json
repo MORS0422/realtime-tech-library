@@ -2598,5 +2598,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-17T20:00:59.121293"
+  },
+  "58639ec11d9a": {
+    "id": "58639ec11d9a",
+    "title": "IMS Creators always keeps you updated",
+    "link": "https://gamedev.net/blogs/entry/2297846-ims-creators-always-keeps-you-updated",
+    "summary": "Hello everyone! We’re continuing to bring you new features and improvements. In this update, we’ve enhanced team collaboration: we’ve added mentions, revamped discussions, implemented a notification system, and more. Here’s a breakdown of everything below. Read more",
+    "published": "Fri, 17 Apr 2026 13:23:48 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-17T20:39:22.502903"
+  },
+  "b670cdcdef9e": {
+    "id": "b670cdcdef9e",
+    "title": "Iron Galaxy Studios lays off 'a number' of workers as it reduces company size",
+    "link": "https://www.gamedeveloper.com/business/iron-galaxy-studios-lays-off-a-number-of-workers-as-it-reduces-company-size",
+    "summary": "'This year, we're adopting a new posture to accept these current market conditions as permanent.'",
+    "published": "Fri, 17 Apr 2026 17:32:23 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-17T20:39:24.940642"
+  },
+  "a1edb6692904": {
+    "id": "a1edb6692904",
+    "title": "Supporting juniors and sharpening your creativity",
+    "link": "https://www.gamedeveloper.com/design/supporting-juniors-and-sharpening-your-creativity",
+    "summary": "This week, writer and self-avowed former theater kid Alexa Ray Corriea swings by for a conversation about the craft of writing and how juniors can build their skills entering the game industry.",
+    "published": "Fri, 17 Apr 2026 14:50:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-17T20:39:24.940667"
+  },
+  "15cd22cf3a71": {
+    "id": "15cd22cf3a71",
+    "title": "Panic won't release Playdate titles that use certain forms of generative AI",
+    "link": "https://www.gamedeveloper.com/production/panic-won-t-release-playdate-titles-that-use-some-forms-of-generative-ai",
+    "summary": "An exception is being made for developers that used 'AI assistance' when coding.",
+    "published": "Fri, 17 Apr 2026 13:39:33 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-17T20:39:24.940679"
+  },
+  "d8729892e5ed": {
+    "id": "d8729892e5ed",
+    "title": "What Egosoft's three decades of making space sims tells us about serving 'niche' audiences",
+    "link": "https://www.gamedeveloper.com/pc/what-egosoft-s-three-decades-of-making-space-sims-tells-us-about-serving-niche-audiences",
+    "summary": "'Cool action in space attracts 20-year-olds now and it attracted 20-year olds 20 years ago.'",
+    "published": "Fri, 17 Apr 2026 13:32:33 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-17T20:39:24.940690"
   }
 }
