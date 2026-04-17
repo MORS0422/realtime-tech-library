@@ -2568,5 +2568,25 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-04-17T08:03:24.428802"
+  },
+  "dfe7a2e9b62e": {
+    "id": "dfe7a2e9b62e",
+    "title": "Canva makes motion graphics and animation app Cavalry free",
+    "link": "https://www.cgchannel.com/2026/04/canva-makes-motion-graphics-and-animation-app-cavalry-free/",
+    "summary": "Full Pro version of the 2D animation and motion design tool for Windows and macOS is now free to individual artists for commercial use.",
+    "published": "Fri, 17 Apr 2026 06:22:53 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-17T09:11:36.165262"
+  },
+  "7e58715fa7c8": {
+    "id": "7e58715fa7c8",
+    "title": "what softwares would be better for my game?",
+    "link": "https://gamedev.net/forums/topic/719868-what-softwares-would-be-better-for-my-game",
+    "summary": "hi, my team and me are new to gamedev and we were thinking abaout wich software use for the animations, cause we will use blender for modeling and unity as game enjine but is it better for making the animations in blender or in unity?",
+    "published": "Fri, 17 Apr 2026 08:30:50 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-17T09:11:48.821358"
   }
 }
