@@ -2488,5 +2488,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-16T09:13:16.304235"
+  },
+  "2e60d02042f5": {
+    "id": "2e60d02042f5",
+    "title": "Maxon ships Cinema 4D 2026.2, unveils Cinema 4D for iPad beta",
+    "link": "https://www.cgchannel.com/2026/04/maxon-ships-cinema-4d-2026-2-unveils-cinema-4d-for-ipad-beta/",
+    "summary": "Check out the new features in Maxon's 3D animation and motion graphics software, and register for the beta of the new iPad edition.",
+    "published": "Thu, 16 Apr 2026 09:07:29 +0000",
+    "source_name": "CG Channel",
+    "category": "render",
+    "fetched_at": "2026-04-16T20:03:17.648814"
+  },
+  "3459c3b8c668": {
+    "id": "3459c3b8c668",
+    "title": "[HIRING] Senior VFX Artist - Unknown Worlds (Subnautica 2)",
+    "link": "https://realtimevfx.com/t/hiring-senior-vfx-artist-unknown-worlds-subnautica-2/30779",
+    "summary": "Hi all! We’re looking for a Senior VFX Artist to join the team at Unknown Worlds on Subnautica 2! Application: job-boards.greenhouse.io Senior VFX Artist Remote Gameplay Teaser: - YouTube 1 post - 1 participant Read full topic",
+    "published": "Thu, 16 Apr 2026 09:28:40 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-16T20:03:20.105510"
   }
 }
