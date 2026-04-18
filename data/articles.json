@@ -2648,5 +2648,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-17T20:39:24.940690"
+  },
+  "9b1f0fe6333d": {
+    "id": "9b1f0fe6333d",
+    "title": "Plasticity 2026.1 is out",
+    "link": "https://www.cgchannel.com/2026/04/plasticity-2026-1-is-out/",
+    "summary": "Popular 3D design tool gets neat new way to turn poly meshes into clean, editable NURBS surfaces. Check out the other new features.",
+    "published": "Fri, 17 Apr 2026 12:51:25 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-18T08:00:50.094656"
   }
 }
