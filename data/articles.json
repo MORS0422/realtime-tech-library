@@ -2658,5 +2658,25 @@
     "source_name": "CG Channel",
     "category": "ta",
     "fetched_at": "2026-04-18T08:00:50.094656"
+  },
+  "b48f06c5e9da": {
+    "id": "b48f06c5e9da",
+    "title": "Charge! multiplayer FPS retrospective",
+    "link": "https://gamedev.net/forums/topic/719885-charge-multiplayer-fps-retrospective",
+    "summary": "Charge! preproduction was started in March of 2024, with official production starting in July of 2024.With a December 18th 2025 Release. The original concept of the project was inspired by the book series A saga of seven suns , where the alien faction had a jousting sport, with lasers and mirrors. This concept had been fleshed out by Mr. Chou back in 2011, in a community college communications course, where the assignment was to “invent” a sport: Sport Name: Charge! A Sport that combines Laser tag, and capture the Flag. Equipment and set up for the Sport: 1. It’s played …",
+    "published": "Sat, 18 Apr 2026 07:17:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-18T08:41:47.610609"
+  },
+  "a69322b1099e": {
+    "id": "a69322b1099e",
+    "title": "[Release] Musa Tactics: Combat VFX & Skill System UE5 Breakdown",
+    "link": "https://realtimevfx.com/t/release-musa-tactics-combat-vfx-skill-system-ue5-breakdown/30794",
+    "summary": "Hi everyone! I’m excited to share my latest work, Musa Tactics . Following my previous “Paladin” series, this project focuses on the swift and lethal spirit of the traditional Korean warrior, the Musa . Unlike the support-oriented Paladin pack, this system is purpose-built for Direct Strike Dealers (DPS) who demand high-speed combat and aggressive visual impact. Preview Video - YouTube Key Technical Highlights 100% Niagara-Native: Built from the ground up for UE 5.4 – 5.7 , leveraging the full power of Niagara for maximum flexibility and performance. Production-Ready System: Includes 14 functional Blueprints (Skill casting, Projectile logic, and Hit detection), making it a complete combat framework, not just a collection of sprites. Musa-Specific Mechanics: Features specialized logic for Dynamic Weapon Swapping , Crystalline Empowerment , and persistent Sword-Wind Trails that scar the battlefield. Extreme Optimization: Meticulously crafted with efficient vertex counts (25 - 3,000 per mesh) and optimized texture usage to ensure high FPS during intense combat sequences. Technical Specs Niagara Systems: 12 (CPU/GPU Hybrid) Master Materials: 30 (with 4 Material Functions) Blueprints: 14 (Combat &amp; Skill Logic) Textures/Meshes: 24 Textures / 9 Static Meshes Launch Celebration &amp; Special Deals To celebrate the launch, I’m running a special promotion on Rinban Academy : [New Release] Musa Tactics: Currently on Launch Sale! 린반 아카데미 Paladin Tactics: -90,000 KRW Discount! https://www.rinban.com/goods/lecture_info/97 Unreal Classic (Shield): -50,000 KRW Coupon for new members! 린반 아카데미 I’d love to hear your feedback on the timing and the “hit-stop” feel of the effects. Stay tuned for more updates! #UnrealEngine niagara vfx realtimevfx #GameDev #MusaTactics #RinbanAcademy ue5 1 post - 1 participant Read full topic",
+    "published": "Sat, 18 Apr 2026 06:44:44 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-04-18T08:41:40.326363"
   }
 }
