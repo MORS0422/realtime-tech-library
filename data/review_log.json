@@ -1,11 +1,11 @@
 {
-  "review_date": "2026-03-25T10:00:49.662472",
-  "total_articles": 59,
+  "review_date": "2026-04-19T10:02:21.124009",
+  "total_articles": 269,
   "quality_distribution": {
-    "优质": 12,
-    "良好": 21,
-    "一般": 18,
-    "需改进": 8
+    "优质": 48,
+    "良好": 70,
+    "一般": 89,
+    "需改进": 62
   },
   "results": [
     {
@@ -15,7 +15,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661588"
+      "reviewed_at": "2026-04-19T10:02:21.120121"
     },
     {
       "article_id": "d1ea911d2758",
@@ -24,7 +24,7 @@
       "quality_level": "优质",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661600"
+      "reviewed_at": "2026-04-19T10:02:21.120141"
     },
     {
       "article_id": "cb7846b01d32",
@@ -33,7 +33,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661610"
+      "reviewed_at": "2026-04-19T10:02:21.120151"
     },
     {
       "article_id": "338c49bf45db",
@@ -42,7 +42,7 @@
       "quality_level": "优质",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661619"
+      "reviewed_at": "2026-04-19T10:02:21.120159"
     },
     {
       "article_id": "c5dd7c8590d2",
@@ -51,7 +51,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661641"
+      "reviewed_at": "2026-04-19T10:02:21.120180"
     },
     {
       "article_id": "514c7a61d0d8",
@@ -60,7 +60,7 @@
       "quality_level": "优质",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661655"
+      "reviewed_at": "2026-04-19T10:02:21.120195"
     },
     {
       "article_id": "3afcd990447d",
@@ -69,7 +69,7 @@
       "quality_level": "优质",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661673"
+      "reviewed_at": "2026-04-19T10:02:21.120211"
     },
     {
       "article_id": "e62daf3d86bd",
@@ -78,7 +78,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661682"
+      "reviewed_at": "2026-04-19T10:02:21.120220"
     },
     {
       "article_id": "20b201b6faf6",
@@ -87,7 +87,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661693"
+      "reviewed_at": "2026-04-19T10:02:21.120231"
     },
     {
       "article_id": "ede4084dc10b",
@@ -96,7 +96,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661702"
+      "reviewed_at": "2026-04-19T10:02:21.120239"
     },
     {
       "article_id": "6238c1c9515c",
@@ -105,7 +105,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661714"
+      "reviewed_at": "2026-04-19T10:02:21.120250"
     },
     {
       "article_id": "d06ca5be827f",
@@ -114,7 +114,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661725"
+      "reviewed_at": "2026-04-19T10:02:21.120260"
     },
     {
       "article_id": "13bb073adf33",
@@ -123,7 +123,7 @@
       "quality_level": "优质",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661779"
+      "reviewed_at": "2026-04-19T10:02:21.120313"
     },
     {
       "article_id": "f20f4a8fef9c",
@@ -132,7 +132,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661787"
+      "reviewed_at": "2026-04-19T10:02:21.120321"
     },
     {
       "article_id": "3757d9b05b00",
@@ -141,7 +141,7 @@
       "quality_level": "优质",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661795"
+      "reviewed_at": "2026-04-19T10:02:21.120330"
     },
     {
       "article_id": "cfffd6dd095e",
@@ -150,7 +150,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661803"
+      "reviewed_at": "2026-04-19T10:02:21.120337"
     },
     {
       "article_id": "d2c29ffdc884",
@@ -159,7 +159,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661819"
+      "reviewed_at": "2026-04-19T10:02:21.120353"
     },
     {
       "article_id": "5b15b8653a61",
@@ -168,7 +168,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661847"
+      "reviewed_at": "2026-04-19T10:02:21.120378"
     },
     {
       "article_id": "615c1ab9cb30",
@@ -177,7 +177,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661875"
+      "reviewed_at": "2026-04-19T10:02:21.120403"
     },
     {
       "article_id": "12b42e50f19c",
@@ -186,7 +186,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661903"
+      "reviewed_at": "2026-04-19T10:02:21.120430"
     },
     {
       "article_id": "a79faa3358c6",
@@ -195,7 +195,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661930"
+      "reviewed_at": "2026-04-19T10:02:21.120455"
     },
     {
       "article_id": "5d412250d44b",
@@ -204,7 +204,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661953"
+      "reviewed_at": "2026-04-19T10:02:21.120476"
     },
     {
       "article_id": "9345832a186b",
@@ -213,7 +213,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661964"
+      "reviewed_at": "2026-04-19T10:02:21.120489"
     },
     {
       "article_id": "a9b3781e85e7",
@@ -222,7 +222,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661972"
+      "reviewed_at": "2026-04-19T10:02:21.120497"
     },
     {
       "article_id": "59bbb4cdd52f",
@@ -231,7 +231,7 @@
       "quality_level": "需改进",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661980"
+      "reviewed_at": "2026-04-19T10:02:21.120504"
     },
     {
       "article_id": "11abe04c8ace",
@@ -240,7 +240,7 @@
       "quality_level": "需改进",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661988"
+      "reviewed_at": "2026-04-19T10:02:21.120511"
     },
     {
       "article_id": "970eeabddcaf",
@@ -249,7 +249,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.661997"
+      "reviewed_at": "2026-04-19T10:02:21.120520"
     },
     {
       "article_id": "db42158dca70",
@@ -258,7 +258,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662005"
+      "reviewed_at": "2026-04-19T10:02:21.120527"
     },
     {
       "article_id": "676f4012dd44",
@@ -267,7 +267,7 @@
       "quality_level": "优质",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662059"
+      "reviewed_at": "2026-04-19T10:02:21.120578"
     },
     {
       "article_id": "c36efadfa0d1",
@@ -276,7 +276,7 @@
       "quality_level": "优质",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662071"
+      "reviewed_at": "2026-04-19T10:02:21.120587"
     },
     {
       "article_id": "ea1c6eb4e149",
@@ -285,7 +285,7 @@
       "quality_level": "优质",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662091"
+      "reviewed_at": "2026-04-19T10:02:21.120606"
     },
     {
       "article_id": "d4ccfaa01378",
@@ -294,7 +294,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662100"
+      "reviewed_at": "2026-04-19T10:02:21.120613"
     },
     {
       "article_id": "48c8d0e0839d",
@@ -303,7 +303,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662108"
+      "reviewed_at": "2026-04-19T10:02:21.120621"
     },
     {
       "article_id": "8662845f7ab9",
@@ -312,7 +312,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662116"
+      "reviewed_at": "2026-04-19T10:02:21.120629"
     },
     {
       "article_id": "7c3928c6ae23",
@@ -321,7 +321,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662124"
+      "reviewed_at": "2026-04-19T10:02:21.120636"
     },
     {
       "article_id": "753abe5979bd",
@@ -330,7 +330,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662140"
+      "reviewed_at": "2026-04-19T10:02:21.120651"
     },
     {
       "article_id": "34177bcc5568",
@@ -339,7 +339,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662168"
+      "reviewed_at": "2026-04-19T10:02:21.120679"
     },
     {
       "article_id": "adaa47e527dd",
@@ -348,7 +348,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662189"
+      "reviewed_at": "2026-04-19T10:02:21.120698"
     },
     {
       "article_id": "394bd8c27c92",
@@ -357,7 +357,7 @@
       "quality_level": "需改进",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662196"
+      "reviewed_at": "2026-04-19T10:02:21.120705"
     },
     {
       "article_id": "604be2abd454",
@@ -366,7 +366,7 @@
       "quality_level": "需改进",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662203"
+      "reviewed_at": "2026-04-19T10:02:21.120712"
     },
     {
       "article_id": "cc5d97fb6cc2",
@@ -375,7 +375,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662211"
+      "reviewed_at": "2026-04-19T10:02:21.120719"
     },
     {
       "article_id": "eb27f4d10260",
@@ -384,7 +384,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662219"
+      "reviewed_at": "2026-04-19T10:02:21.120727"
     },
     {
       "article_id": "9fb88aea4cb6",
@@ -393,7 +393,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662227"
+      "reviewed_at": "2026-04-19T10:02:21.120734"
     },
     {
       "article_id": "440e06882426",
@@ -402,7 +402,7 @@
       "quality_level": "优质",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662238"
+      "reviewed_at": "2026-04-19T10:02:21.120745"
     },
     {
       "article_id": "704c94c2a1d8",
@@ -411,7 +411,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662246"
+      "reviewed_at": "2026-04-19T10:02:21.120752"
     },
     {
       "article_id": "5d96e77e3318",
@@ -420,7 +420,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662254"
+      "reviewed_at": "2026-04-19T10:02:21.120759"
     },
     {
       "article_id": "09c6540f4f8e",
@@ -429,7 +429,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662261"
+      "reviewed_at": "2026-04-19T10:02:21.120766"
     },
     {
       "article_id": "1caeb9e1e9dc",
@@ -438,7 +438,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662294"
+      "reviewed_at": "2026-04-19T10:02:21.120798"
     },
     {
       "article_id": "00771671dfc0",
@@ -447,7 +447,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662301"
+      "reviewed_at": "2026-04-19T10:02:21.120805"
     },
     {
       "article_id": "70e7bdd783f0",
@@ -456,7 +456,7 @@
       "quality_level": "良好",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662312"
+      "reviewed_at": "2026-04-19T10:02:21.120815"
     },
     {
       "article_id": "21baf063e5cb",
@@ -465,7 +465,7 @@
       "quality_level": "优质",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662322"
+      "reviewed_at": "2026-04-19T10:02:21.120825"
     },
     {
       "article_id": "34de8bfbdae9",
@@ -474,7 +474,7 @@
       "quality_level": "需改进",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662329"
+      "reviewed_at": "2026-04-19T10:02:21.120831"
     },
     {
       "article_id": "b8094c7106a7",
@@ -483,7 +483,7 @@
       "quality_level": "需改进",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662338"
+      "reviewed_at": "2026-04-19T10:02:21.120838"
     },
     {
       "article_id": "1b96d3e42106",
@@ -492,7 +492,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662345"
+      "reviewed_at": "2026-04-19T10:02:21.120846"
     },
     {
       "article_id": "a9841305f451",
@@ -501,7 +501,7 @@
       "quality_level": "需改进",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662353"
+      "reviewed_at": "2026-04-19T10:02:21.120854"
     },
     {
       "article_id": "3f66d08cc785",
@@ -510,7 +510,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662363"
+      "reviewed_at": "2026-04-19T10:02:21.120863"
     },
     {
       "article_id": "2a03c7e959c2",
@@ -519,7 +519,7 @@
       "quality_level": "一般",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662399"
+      "reviewed_at": "2026-04-19T10:02:21.120897"
     },
     {
       "article_id": "c54470173b81",
@@ -528,7 +528,7 @@
       "quality_level": "优质",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662462"
+      "reviewed_at": "2026-04-19T10:02:21.120956"
     },
     {
       "article_id": "6137fa1eebb3",
@@ -537,7 +537,1897 @@
       "quality_level": "需改进",
       "link_valid": true,
       "link_issue": null,
-      "reviewed_at": "2026-03-25T10:00:49.662469"
+      "reviewed_at": "2026-04-19T10:02:21.120963"
+    },
+    {
+      "article_id": "12daadddfb57",
+      "title": "Epic Games lays off another 1,000 staff",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.120970"
+    },
+    {
+      "article_id": "de6cf98c0112",
+      "title": "Fortnite developer Epic Games is cutting over 1,000 jobs",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.120977"
+    },
+    {
+      "article_id": "e613f0d9187d",
+      "title": "VFX Character Axe Swing",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.120988"
+    },
+    {
+      "article_id": "3f9313837dc3",
+      "title": "Free tutorial: Creating Cinematics in Unreal Engine 5",
+      "quality_score": 65,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.120996"
+    },
+    {
+      "article_id": "ae9ddbcc62cd",
+      "title": "OpenUSD 26.03 adds support for 3D Gaussian Splats",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121003"
+    },
+    {
+      "article_id": "cd3ca9eb2ee9",
+      "title": "Handy Maya add-on RefTool speeds up portrait modeling",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121011"
+    },
+    {
+      "article_id": "62d41805896c",
+      "title": "Tencent's genAI animation tools don't seem to make games more fun",
+      "quality_score": 20,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121019"
+    },
+    {
+      "article_id": "328acc97b109",
+      "title": "ONYX Ai Matte automatically generates masks from video",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121027"
+    },
+    {
+      "article_id": "96bcdc233a58",
+      "title": "Behaviour Interactive acquires 7 Days to Die dev The Fun Pimps",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121034"
+    },
+    {
+      "article_id": "4abb232d870c",
+      "title": "Reforged Studios acquires Super Meat Boy 3D co-publisher Headup",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121040"
+    },
+    {
+      "article_id": "692869269e3e",
+      "title": "Report: Nintendo slashes Switch 2 production by a third due to weak U.S. sales",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121047"
+    },
+    {
+      "article_id": "1f4a1bd8dc22",
+      "title": "Autodesk releases Arnold 7.5.1 with free cloud rendering",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121055"
+    },
+    {
+      "article_id": "c8e9d5ccfdbe",
+      "title": "Autodesk releases 3ds Max 2027",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121062"
+    },
+    {
+      "article_id": "5fd9793dfde9",
+      "title": "Maya 2027 is out: discover its new features",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121069"
+    },
+    {
+      "article_id": "c2840171795a",
+      "title": "Active and pasive",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121096"
+    },
+    {
+      "article_id": "2998c19bd9df",
+      "title": "[Tool]Struct Alignment Visualizer - don't waste memory!",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121107"
+    },
+    {
+      "article_id": "e7514673e001",
+      "title": "Important lessons from running a successful video game crowdfunding campaign",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121115"
+    },
+    {
+      "article_id": "919e7661df46",
+      "title": "Fortnite Rocket Racing and more are being sunsetted amidst layoffs",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121122"
+    },
+    {
+      "article_id": "5dc32060228b",
+      "title": "Epic Games layoffs serve as a timely reminder that accountability is dead",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121129"
+    },
+    {
+      "article_id": "23a4793648e5",
+      "title": "Xbox and Netflix 'kicking around' ideas for subscription bundles",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121135"
+    },
+    {
+      "article_id": "f09000337f57",
+      "title": "Dispatch developer AdHoc says don't confuse your plot for narrative",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121142"
+    },
+    {
+      "article_id": "6aa2ebcbe657",
+      "title": "Unity vs Unreal: Which One Is Better?",
+      "quality_score": 15,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121147"
+    },
+    {
+      "article_id": "23e254b9a247",
+      "title": "Very First Solo Missile Projectile VFX,,,",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121163"
+    },
+    {
+      "article_id": "292f796997e1",
+      "title": "Sitni Sati releases FumeFX 7.0 for Maya with FumeFX GPU",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121170"
+    },
+    {
+      "article_id": "39c75bf1604a",
+      "title": "Autodesk releases MotionBuilder 2027",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121177"
+    },
+    {
+      "article_id": "f99aed3fffdc",
+      "title": "Why I’m building a \"Sovereign\" Physics Math Layer",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121212"
+    },
+    {
+      "article_id": "41674e528ebf",
+      "title": "Donkey Kong Bananza has a big-brained approach to asset recycling",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121219"
+    },
+    {
+      "article_id": "68a583b40709",
+      "title": "Analyst says Epic Games layoffs send a clear signal: 'This will not get any easier'",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121226"
+    },
+    {
+      "article_id": "2abb42bd85c1",
+      "title": "The Nex Playground is getting a price hike because of the memory crisis",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121233"
+    },
+    {
+      "article_id": "e2e6521941f5",
+      "title": "Nintendo tweaks Switch 2 software pricing to make digital copies more appealing",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121240"
+    },
+    {
+      "article_id": "01ff73ca6286",
+      "title": "Autodesk releases Mudbox 2027",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121247"
+    },
+    {
+      "article_id": "f1d96d33dcc2",
+      "title": "KeyShot releases KeyShot Studio 2026.1",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121254"
+    },
+    {
+      "article_id": "36567cb5367a",
+      "title": "Assorted tips for UI Toolkit + a development in Godot",
+      "quality_score": 20,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121281"
+    },
+    {
+      "article_id": "02028be5a1f3",
+      "title": "Looking for coders for c#",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121309"
+    },
+    {
+      "article_id": "19fe007f34f4",
+      "title": "[Free Tutorial] Pro-Level Unreal VFX Portfolio Logic (Free for 30 Days)",
+      "quality_score": 55,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121353"
+    },
+    {
+      "article_id": "a2ce798ff66f",
+      "title": "Game Dev Digest Issue #324 - Steam, DLC, Patterns, and more",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121382"
+    },
+    {
+      "article_id": "c4f9f243259a",
+      "title": "Anybody need somebody to do the music for their game?",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121389"
+    },
+    {
+      "article_id": "a380c3c885df",
+      "title": "Embergen - How to Render Skybox in Render All?",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121418"
+    },
+    {
+      "article_id": "90f9e9faa8e3",
+      "title": "The industry is in a 'really horrible place,' say Brenda and John Romero",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121428"
+    },
+    {
+      "article_id": "34a8cb34961d",
+      "title": "Owlcat Games is using generative AI to 'iterate faster' on The Expanse",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121436"
+    },
+    {
+      "article_id": "ee36329e5716",
+      "title": "Unity sunsetting Ads Network and divesting publishing label Supersonic",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121442"
+    },
+    {
+      "article_id": "9a91ca622787",
+      "title": "Sony confirms PS5 hardware is about to become even more expensive",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121449"
+    },
+    {
+      "article_id": "7d6c31d698e9",
+      "title": "Nintendo cuts Switch 2 production, layoffs at Epic and PlayStation, and another Saudi acquisition - Patch Notes #45",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121456"
+    },
+    {
+      "article_id": "be6789fc00bb",
+      "title": "Howler 2026.5 adds 3D landscape generator Fractal Garden",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121464"
+    },
+    {
+      "article_id": "773c0bdf12a7",
+      "title": "AMD releases FSR SDK 2.2 with new AI denoiser Ray Regeneration",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121471"
+    },
+    {
+      "article_id": "b623dde58c59",
+      "title": "PITVYPR Dev BLog #10: Level Generation Part 3: Simple Encounters, Prefabs, and Generalization",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121499"
+    },
+    {
+      "article_id": "b836a4bd1a3f",
+      "title": "Niagara ribbon trail in local space",
+      "quality_score": 55,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121511"
+    },
+    {
+      "article_id": "add338988c82",
+      "title": "3d Humanoid Building and Animation",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121519"
+    },
+    {
+      "article_id": "56df9eb2c218",
+      "title": "DEMoCap 1.7 and Drag[en]gine 1.31 Released",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121551"
+    },
+    {
+      "article_id": "b61b1f47690b",
+      "title": "Game Dev is Easy: 3D Modelling",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121575"
+    },
+    {
+      "article_id": "7ac4c6c4ef96",
+      "title": "Reply to feedback reply...",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121586"
+    },
+    {
+      "article_id": "d903d75a51a9",
+      "title": "Free tool VDBRender adds native OpenVDB rendering to Nuke",
+      "quality_score": 50,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121593"
+    },
+    {
+      "article_id": "0eaa62a297ae",
+      "title": "Get neat lightweight 3D sculpting and painting app Tamga",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121601"
+    },
+    {
+      "article_id": "285ff16fe983",
+      "title": "How to achieve soft particle blending in Unity?",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121611"
+    },
+    {
+      "article_id": "8a36aec40623",
+      "title": "PUBG Blindspot shuts down after 2 months in early access",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121617"
+    },
+    {
+      "article_id": "56244e590671",
+      "title": "Report: Series Entertainment-owned mobile studio Pixelberry lays off staff",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121624"
+    },
+    {
+      "article_id": "fd947bcc53ca",
+      "title": "Free-to-play spinoff The Elder Scrolls: Blades is being shut down",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121630"
+    },
+    {
+      "article_id": "d6771c37d59a",
+      "title": "Wanderstop developer Ivy Road is shutting down",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121636"
+    },
+    {
+      "article_id": "11125de95aeb",
+      "title": "MetaHuman DNA add-on for Blender gets new RBF Editor",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121644"
+    },
+    {
+      "article_id": "8ec32a3db310",
+      "title": "Root Motion isn't working in Animation Montages",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121671"
+    },
+    {
+      "article_id": "a458cd064222",
+      "title": "Pro-Level Unreal VFX Portfolio Logic (Free Coupons Sold Out)ㅜㅜ",
+      "quality_score": 55,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121725"
+    },
+    {
+      "article_id": "39899a519d5c",
+      "title": "[HIRING] UE5 VFX \\Tech artist — OddMeter",
+      "quality_score": 105,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121765"
+    },
+    {
+      "article_id": "41a7565876fc",
+      "title": "What happens when story serves art direction in Absolum - Narrative Notebook #2",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121777"
+    },
+    {
+      "article_id": "60d499029906",
+      "title": "An Emmy-winning animation studio just bought the rights to multiple Roblox titles",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121784"
+    },
+    {
+      "article_id": "eb81e191083a",
+      "title": "Moss developer Polyarc is laying off staff",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121790"
+    },
+    {
+      "article_id": "c2177a207c7c",
+      "title": "Rec Room shutting down after failing to become 'sustainably profitable'",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121797"
+    },
+    {
+      "article_id": "4c212446594f",
+      "title": "Embracer Group has laid off 124 employees at Eidos Montreal",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121804"
+    },
+    {
+      "article_id": "739ea28e1941",
+      "title": "Tearing Meat Effect",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121864"
+    },
+    {
+      "article_id": "ef271d5ee755",
+      "title": "April VFX Sketch[#]: Silly",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121916"
+    },
+    {
+      "article_id": "22b528e5e987",
+      "title": "Try new 3D texture painting app Wafer free in beta for Windows",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121923"
+    },
+    {
+      "article_id": "48592629299a",
+      "title": "Adobe releases Photoshop 27.5",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121931"
+    },
+    {
+      "article_id": "bc231efe4610",
+      "title": "Boris FX acquires Vegas Pro, Sound Forge and Acid Pro",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121938"
+    },
+    {
+      "article_id": "673fca4d5356",
+      "title": "Shift Up has acquired Resident Evil creator Shinji Mikami's new studio",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121945"
+    },
+    {
+      "article_id": "3186a99145e2",
+      "title": "Small Waterfall (Looking for Feedback)",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121953"
+    },
+    {
+      "article_id": "1b2daa7ca8f6",
+      "title": "Krafton, Flyquest, Arbitrum invest $3.5M in Psychedelic Games' MOBA Golden Tides",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121960"
+    },
+    {
+      "article_id": "6d386e9ef7a6",
+      "title": "French consumer group sues Ubisoft over shutdown of The Crew",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121967"
+    },
+    {
+      "article_id": "a7f10117c27d",
+      "title": "'More time innovating; less time writing code:' Arc Raiders publisher Nexon believes AI will liberate its workforce",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121975"
+    },
+    {
+      "article_id": "fcaef14b4aed",
+      "title": "Call of Duty: Black Ops 7 appears to earn an estimated $30 thousand on Steam per negative review",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.121982"
+    },
+    {
+      "article_id": "2d09156a02fc",
+      "title": "In-Game VFX Reference Website",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122002"
+    },
+    {
+      "article_id": "df208fce1227",
+      "title": "Would anyone like to work on a rec room like game?",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122011"
+    },
+    {
+      "article_id": "223cb7b21f65",
+      "title": "Dragon Attack, Houdini and Niagara Forever",
+      "quality_score": 75,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122033"
+    },
+    {
+      "article_id": "36d003957d00",
+      "title": "Fire spread decal combine to one",
+      "quality_score": 50,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122055"
+    },
+    {
+      "article_id": "5688a3ed136c",
+      "title": "Stormgate rushing offline mode after losing server access to an AI company",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122062"
+    },
+    {
+      "article_id": "8c1daddc0da0",
+      "title": "Nexon agrees to publish Overwatch in Korea",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122069"
+    },
+    {
+      "article_id": "516987955143",
+      "title": "The Last of Us Online was around '80%' complete when Naughty Dog canceled it",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122076"
+    },
+    {
+      "article_id": "f5ea98d8a82f",
+      "title": "On the ground at GDC: how are devs responding to industry calamity?",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122082"
+    },
+    {
+      "article_id": "2730439bc1e8",
+      "title": "Goat Simulator maker Coffee Stain shutters Malmo studio",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122088"
+    },
+    {
+      "article_id": "9fbd8e17bc27",
+      "title": "Rokoko Create generates full-body animations for free",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122095"
+    },
+    {
+      "article_id": "c6a870b49b40",
+      "title": "New artist video hosting platform FrameRate aims to take on Vimeo",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122103"
+    },
+    {
+      "article_id": "90e902e1d49f",
+      "title": "Beeble launches AI roto service Background Remover",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122110"
+    },
+    {
+      "article_id": "74c7f965e5ac",
+      "title": "Unigine 2.21 is out",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122117"
+    },
+    {
+      "article_id": "9037eeac21c2",
+      "title": "Does it matter how I make my game if I'm more comfortable doing it a certain way?",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122141"
+    },
+    {
+      "article_id": "fdc09b5e656e",
+      "title": "Embracer layoffs, Nintendo's patent problem, and is Baby Steps an Uncharted sequel? - Patch Notes #46",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122149"
+    },
+    {
+      "article_id": "7c214875bfbc",
+      "title": "Game Dev Digest Issue #325 - UI, Worflows, Patterns and more",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122176"
+    },
+    {
+      "article_id": "14146c09da65",
+      "title": "Trigonix - New Mobile Puzzle Game!",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122198"
+    },
+    {
+      "article_id": "8448a9e94446",
+      "title": "MechWarrior dev Piranha Games lays off 30% of staff, says CEO",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122204"
+    },
+    {
+      "article_id": "63a7af9bce31",
+      "title": "Laptop mishaps and a GDC chat with Owlchemy Labs CEO Andrew Eiche",
+      "quality_score": 20,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122212"
+    },
+    {
+      "article_id": "8877a14746dc",
+      "title": "Report: Take-Two lays off the head of AI and multiple team members",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122218"
+    },
+    {
+      "article_id": "4f1b7bb79a47",
+      "title": "Valeriia: Sketch #",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122238"
+    },
+    {
+      "article_id": "ec8f1a903185",
+      "title": "Paladin Tactics: Combat VFX & Skill System — UE5 Breakdown",
+      "quality_score": 95,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122318"
+    },
+    {
+      "article_id": "9041e9a9c9de",
+      "title": "Cornucopia Raw Dev Log #1: GPU Instancing, or How 2,583 Plants Became 3 Draw Calls",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122342"
+    },
+    {
+      "article_id": "d9eba292e0e6",
+      "title": "Looking for work - remote (anywhere) or Studio in Canada",
+      "quality_score": 50,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122380"
+    },
+    {
+      "article_id": "685836e688a5",
+      "title": "Almost funded but not quite, designing and some interactive fiction │ Falterstone prototype #7",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122409"
+    },
+    {
+      "article_id": "c9da3d6d9526",
+      "title": "Tutorial: Introduction to Technical Animation for Games",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122417"
+    },
+    {
+      "article_id": "c4062b70c152",
+      "title": "Free tool: Open Light generates procedural HDR light textures",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122426"
+    },
+    {
+      "article_id": "9459a60514dd",
+      "title": "I want your people guidance how can I make my project better:",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122435"
+    },
+    {
+      "article_id": "b132fd606de1",
+      "title": "A 6-Concept Roadmap to Semi-Realism: Showcased by Student Work",
+      "quality_score": 70,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122518"
+    },
+    {
+      "article_id": "62620fcd3725",
+      "title": "IlluGen in a Live AAA Pipeline — Textures, Meshes & Niagara Systems in One Workflow",
+      "quality_score": 105,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122575"
+    },
+    {
+      "article_id": "139940c1cde6",
+      "title": "Former Halo Studios art director, other employees, accuse studio of harassment and retaliation",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122583"
+    },
+    {
+      "article_id": "4464989213ca",
+      "title": "How can your game win the 'attention war?' Turn to storytelling",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122589"
+    },
+    {
+      "article_id": "0b644bd0c0be",
+      "title": "Obituary: Double Dragon creator Yoshihisa Kishimoto has passed away at age 64",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122596"
+    },
+    {
+      "article_id": "ccb45d8c24b1",
+      "title": "Get free Maya character rigging toolset mGear 5.3",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122603"
+    },
+    {
+      "article_id": "74cd9a4bf8f9",
+      "title": "Craftpix Indie Jam 2",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122619"
+    },
+    {
+      "article_id": "53ad3697d470",
+      "title": "What brought me back to game development?",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122646"
+    },
+    {
+      "article_id": "8cbd2cdb5b4a",
+      "title": "I want your people guidance how can I make my project better:",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122654"
+    },
+    {
+      "article_id": "4145b8dba736",
+      "title": "How to Build a Paper Prototype for Your Game",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122680"
+    },
+    {
+      "article_id": "c71cd855d54e",
+      "title": "Are you interested in learning game design with a pro?",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122705"
+    },
+    {
+      "article_id": "a6c7abe5e35f",
+      "title": "Orbs made in Unreal Engine with Materials and Niagara Particle System",
+      "quality_score": 75,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122712"
+    },
+    {
+      "article_id": "4e955e0589e9",
+      "title": "Retopoflow 4 now makes Blender auto-save in Edit Mode",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122720"
+    },
+    {
+      "article_id": "e74c4f24eb9b",
+      "title": "How to make this portal material on a plane?",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122751"
+    },
+    {
+      "article_id": "51d0bd7b306a",
+      "title": "[LF Narrative Writer] Isle of Athena – Sandbox RPG survival game",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122782"
+    },
+    {
+      "article_id": "5d5ebcf9a792",
+      "title": "Feedback for water emerging effect",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122789"
+    },
+    {
+      "article_id": "679c2ef59db7",
+      "title": "Scene depth, lit opaque. Ocean help",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122798"
+    },
+    {
+      "article_id": "9baedbd4bfa5",
+      "title": "Blizzard explains visual updates to Overwatch's Anran",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122805"
+    },
+    {
+      "article_id": "8372d8b7389c",
+      "title": "Sony to acquire machine learning company Cinemersive Labs",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122812"
+    },
+    {
+      "article_id": "3807d0e1c42b",
+      "title": "People of Note's hook-y approach to designing a turn-based musical RPG",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122830"
+    },
+    {
+      "article_id": "53ee4eef468f",
+      "title": "Time Manipulation in Unity 6",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122858"
+    },
+    {
+      "article_id": "75e5344d4413",
+      "title": "Netflix launches 'Playground' video game app for children",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122864"
+    },
+    {
+      "article_id": "c7f978e60009",
+      "title": "From Panic to Relief: The Week I Thought My Crypto Was Gone Forever Mighty Hacker Recovery Helps. +13439473496 WhatsApp Canada. Lost Wallet Access / How to recover lost Bitcoin wallet",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122894"
+    },
+    {
+      "article_id": "4e2db41b5414",
+      "title": "IlluGen → UE5 | Building Real-Time VFX Assets from Scratch",
+      "quality_score": 85,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122925"
+    },
+    {
+      "article_id": "cc0653bc1029",
+      "title": "Peak co-developer Landfall might finance your next indie game",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122932"
+    },
+    {
+      "article_id": "ac95089f953b",
+      "title": "Finding inspiration and a bit of hope in CorgiSpace",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122939"
+    },
+    {
+      "article_id": "3d3c721584b9",
+      "title": "Supercell CEO Ilkka Paananen to receive BAFTA Fellowship",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122949"
+    },
+    {
+      "article_id": "c4f8e7341c06",
+      "title": "Chaos discontinues its Phoenix fluid simulation software",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122958"
+    },
+    {
+      "article_id": "6f438a5fe7fa",
+      "title": "GameCube Development Kit Hardware",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.122990"
+    },
+    {
+      "article_id": "f83f368f51c1",
+      "title": "Looking for feedback on a browser-based narrative strategy simulation",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123018"
+    },
+    {
+      "article_id": "8470f1bc8d2e",
+      "title": "1000xResist creator: the game industry needs a universal video codec for FMV games",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123025"
+    },
+    {
+      "article_id": "7e9a6be39e53",
+      "title": "Split Fiction dev Hazelight Studios accrues 50M total sales",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123031"
+    },
+    {
+      "article_id": "f8cdc9bab649",
+      "title": "Black Tabby Games slinks into game publishing with 1000xResist creator's next game",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123038"
+    },
+    {
+      "article_id": "486a0538eb65",
+      "title": "Konami's eFootball tops 1 billion downloads",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123043"
+    },
+    {
+      "article_id": "60c4be98a739",
+      "title": "Off The Grid developer Gunzilla accused of failing to pay employees",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123051"
+    },
+    {
+      "article_id": "3077c387ae21",
+      "title": "Nekki releases Cascadeur 2026.1",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123058"
+    },
+    {
+      "article_id": "3c0fa2c8619d",
+      "title": "Autodesk acquires core tech of AI motion-capture firm Radical",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123066"
+    },
+    {
+      "article_id": "514d96dab09f",
+      "title": "Get 650+ free assets for building dungeons in Blender and UE5",
+      "quality_score": 55,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123074"
+    },
+    {
+      "article_id": "f6b23e8a267d",
+      "title": "It's been a while...",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123097"
+    },
+    {
+      "article_id": "83d5cc373a86",
+      "title": "Steps to Make a Simple Game in Unity",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123121"
+    },
+    {
+      "article_id": "adb871053f79",
+      "title": "Houdini plant-generation toolkit Natsura is now in early access",
+      "quality_score": 50,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123129"
+    },
+    {
+      "article_id": "98c837cffd89",
+      "title": "Gunzilla called out, Netflix's surprise app store surge, and indie publishers rise up - Patch Notes #47",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123136"
+    },
+    {
+      "article_id": "0897c2fc7c75",
+      "title": "Game Dev Digest Issue #326 - UI Toolkit, C#, and more",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123168"
+    },
+    {
+      "article_id": "a5863cbf9b42",
+      "title": "Looking for help for a 3d dinosaur game that's already begun production",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123194"
+    },
+    {
+      "article_id": "2dc314ea0568",
+      "title": "Regulus: Sketch #",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123216"
+    },
+    {
+      "article_id": "1a6aa9513673",
+      "title": "Doki Doki Literature Club removed from Google Play over depiction of sensitive themes",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123225"
+    },
+    {
+      "article_id": "c6d9371a3e54",
+      "title": "Inhouse Audio System - BAudio",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123259"
+    },
+    {
+      "article_id": "e091996285c9",
+      "title": "move sprite in unity with mouse",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123288"
+    },
+    {
+      "article_id": "38375394fd99",
+      "title": "Digital Extremes Warframe: The Old Peace Art Blast",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123298"
+    },
+    {
+      "article_id": "df22b677d178",
+      "title": "Ubisoft Avatar: Frontiers of Pandora From the Ashes Art Blast",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123319"
+    },
+    {
+      "article_id": "2f327f932c66",
+      "title": "Battlefield 6 Art Blast",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123340"
+    },
+    {
+      "article_id": "c83fb0fbd17f",
+      "title": "AFEELA 1 Theme Design Challenge Presented by Sony Honda Mobility Winners Announcement",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123352"
+    },
+    {
+      "article_id": "04feebbe1833",
+      "title": "Manticore Games Out of Time Art Blast",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123372"
+    },
+    {
+      "article_id": "24ec495ace80",
+      "title": "Download 480+ free kitbash assets and materials with Cargo 3.0",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123380"
+    },
+    {
+      "article_id": "ed0a2f0705cc",
+      "title": "What are the Core Pilars for a good Portfolio?",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123391"
+    },
+    {
+      "article_id": "c2d2799b79fe",
+      "title": "World Scale Matters",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123418"
+    },
+    {
+      "article_id": "7f2b7836696f",
+      "title": "Event<T> type question",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123458"
+    },
+    {
+      "article_id": "ce3b577a720d",
+      "title": "Academy Software Foundation adopts OpenPGL",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123465"
+    },
+    {
+      "article_id": "fda3a818266a",
+      "title": "Latest GameDev.net Improvements",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123493"
+    },
+    {
+      "article_id": "d9b5580b3410",
+      "title": "Roblox is introducing age-based accounts for children and teens",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123500"
+    },
+    {
+      "article_id": "cb3880f3a1ad",
+      "title": "Report: Epic hoping to reinvigorate Fortnite with Disney-themed extraction shooter",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123507"
+    },
+    {
+      "article_id": "2f433985d943",
+      "title": "My GameCube Game Development Studio Setup",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123533"
+    },
+    {
+      "article_id": "858e4d3081e2",
+      "title": "You can now use V-Ray free for commercial work in Blender",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123540"
+    },
+    {
+      "article_id": "b9e11328755f",
+      "title": "UK government commits £28.5 million to supporting local game developers",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123550"
+    },
+    {
+      "article_id": "f56e770bac4e",
+      "title": "New week, new question! Laser VFX - multiple lasers focussed on a single point",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123560"
+    },
+    {
+      "article_id": "f5c9ca4398c6",
+      "title": "Data and player sentiment highlight the value of authentic LGBTQ narratives",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123567"
+    },
+    {
+      "article_id": "f9bc958c3d24",
+      "title": "How Capcom's Pragmata blends puzzle-solving with sci-fi combat",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123574"
+    },
+    {
+      "article_id": "65050f3beb7b",
+      "title": "Bloober CEO says relying on one title creates 'too much risk' in today's market",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123581"
+    },
+    {
+      "article_id": "89ddb1d8bf9d",
+      "title": "Inkle co-founder explains how TR-49 broke even in three hours",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123588"
+    },
+    {
+      "article_id": "c97ee1555dc1",
+      "title": "Amazon is downscaling cloud video game service Luna",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123594"
+    },
+    {
+      "article_id": "33d31202fd85",
+      "title": "Blackmagic Design releases DaVinci Resolve 21.0 in beta",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123601"
+    },
+    {
+      "article_id": "fa7f2cfcde25",
+      "title": "Adobe releases Substance 3D Designer 16.0",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123608"
+    },
+    {
+      "article_id": "2622cbea1d04",
+      "title": "Maxon releases ZBrush 2026.2 and ZBrush for iPad 2026.2",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123615"
+    },
+    {
+      "article_id": "a33d287ada48",
+      "title": "Maxon releases motion graphics software Autograph for free",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123623"
+    },
+    {
+      "article_id": "b05a7269c4c7",
+      "title": "Adobe releases After Effects 26.2",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123630"
+    },
+    {
+      "article_id": "1c63b9435044",
+      "title": "Epic Games releases Twinmotion 2026.1",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123636"
+    },
+    {
+      "article_id": "164ac68ef885",
+      "title": "Deep Sea Claustrophobia goes free (a late postmortem?)",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123661"
+    },
+    {
+      "article_id": "087b7f048776",
+      "title": "Short term with possibility for long term",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123674"
+    },
+    {
+      "article_id": "1dbefdc2b15d",
+      "title": "RuneScape developer to expand its IP to the Asia-Pacific region",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123680"
+    },
+    {
+      "article_id": "0211c1428036",
+      "title": "Report: New Xbox chief says Game Pass 'has become too expensive'",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123687"
+    },
+    {
+      "article_id": "424d5ec33cd3",
+      "title": "Video game lawyer implores devs to understand ownership and swerve generative AI",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123694"
+    },
+    {
+      "article_id": "25722c68681e",
+      "title": "ID@Xbox global director says Xbox Game Pass is a discovery multiplier",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123701"
+    },
+    {
+      "article_id": "958bb565ea54",
+      "title": "See Reallusion’s 2026 roadmap: redefining 3D with hybrid AI",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123711"
+    },
+    {
+      "article_id": "438fedc5c840",
+      "title": "Ubisoft Halifax union members agree settlement after studio closure",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123718"
+    },
+    {
+      "article_id": "2e60d02042f5",
+      "title": "Maxon ships Cinema 4D 2026.2, unveils Cinema 4D for iPad beta",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123729"
+    },
+    {
+      "article_id": "3459c3b8c668",
+      "title": "[HIRING] Senior VFX Artist - Unknown Worlds (Subnautica 2)",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123744"
+    },
+    {
+      "article_id": "9acb454e96ea",
+      "title": "Number wordimnotallowedtosay",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123767"
+    },
+    {
+      "article_id": "0f66cabbcb10",
+      "title": "How to use the unity Timeline",
+      "quality_score": 40,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123784"
+    },
+    {
+      "article_id": "1cc8b07458a2",
+      "title": "Optimization of Materials for Particles in Niagara",
+      "quality_score": 85,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123799"
+    },
+    {
+      "article_id": "c8f0e2525111",
+      "title": "Ludum Dare will officially end in October 2028",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123806"
+    },
+    {
+      "article_id": "ed1ebc72fe10",
+      "title": "US representative Maxwell Frost protests Saudi buyout of EA",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123812"
+    },
+    {
+      "article_id": "a27e3226ff4a",
+      "title": "PBJayz- Portfolio Work - Fairy Wind Blast",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123825"
+    },
+    {
+      "article_id": "dfe7a2e9b62e",
+      "title": "Canva makes motion graphics and animation app Cavalry free",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123832"
+    },
+    {
+      "article_id": "7e58715fa7c8",
+      "title": "what softwares would be better for my game?",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123840"
+    },
+    {
+      "article_id": "95241f9158a2",
+      "title": "Ubisoft union workers agree settlement, legal advice for game devs, and is Xbox Game Pass too expensive? - Patch Notes #48",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123847"
+    },
+    {
+      "article_id": "58639ec11d9a",
+      "title": "IMS Creators always keeps you updated",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123863"
+    },
+    {
+      "article_id": "b670cdcdef9e",
+      "title": "Iron Galaxy Studios lays off 'a number' of workers as it reduces company size",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123870"
+    },
+    {
+      "article_id": "a1edb6692904",
+      "title": "Supporting juniors and sharpening your creativity",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123877"
+    },
+    {
+      "article_id": "15cd22cf3a71",
+      "title": "Panic won't release Playdate titles that use certain forms of generative AI",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123884"
+    },
+    {
+      "article_id": "d8729892e5ed",
+      "title": "What Egosoft's three decades of making space sims tells us about serving 'niche' audiences",
+      "quality_score": 0,
+      "quality_level": "需改进",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123891"
+    },
+    {
+      "article_id": "9b1f0fe6333d",
+      "title": "Plasticity 2026.1 is out",
+      "quality_score": 30,
+      "quality_level": "良好",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123898"
+    },
+    {
+      "article_id": "b48f06c5e9da",
+      "title": "Charge! multiplayer FPS retrospective",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123924"
+    },
+    {
+      "article_id": "a69322b1099e",
+      "title": "[Release] Musa Tactics: Combat VFX & Skill System UE5 Breakdown",
+      "quality_score": 85,
+      "quality_level": "优质",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.123982"
+    },
+    {
+      "article_id": "5c90301e650b",
+      "title": "Gamedeveloper: job stable enough? Small prototypes or bigger games?",
+      "quality_score": 10,
+      "quality_level": "一般",
+      "link_valid": true,
+      "link_issue": null,
+      "reviewed_at": "2026-04-19T10:02:21.124006"
     }
   ]
 }
