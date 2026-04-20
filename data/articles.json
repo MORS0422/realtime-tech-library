@@ -2758,5 +2758,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-20T20:01:22.532365"
+  },
+  "76e099f77d93": {
+    "id": "76e099f77d93",
+    "title": "In UE5, How can I make a similar effect to the Pikmin 3's \"Juice filling bottle\"?",
+    "link": "https://realtimevfx.com/t/in-ue5-how-can-i-make-a-similar-effect-to-the-pikmin-3s-juice-filling-bottle/30810",
+    "summary": "I want to make something similar for my Ue5’s project’s Widget; I know that you probably need to use a material and you don’t actually have to create something that simulate the juice, but I never worked with materials (or Niagara effects, or in general anything of this kind) so I really don’t know how to even being to get something similar. Video of Pikmin 3’s Juice effect (or whatever it is): - YouTube If you can’t see the video, it’s basically a widget of an empty bottle, then a stream of juice falls into the bottle, and depending on the amount the bottle fills up while animating, waving and leaving drops and etc… in all direction (in few words behave like a fluid would do normally); Also it mixes the colors of the juices if you have two different ones, but instead i want the liquids to be separated (think oil + water, they are in the same bottle, but you can clearly see the separation of the two colors). I would appreciate if anyone could help into either explaining how to do this directly, or how to at least learn how to work with materials (if that’s what it probably is in Pikmin 3). Anyway thanks for the help in advance (also sorry, if this isn’t the right place for this question, it’s my first time here)! 1 post - 1 participant Read full topic",
+    "published": "Mon, 20 Apr 2026 17:05:12 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-04-20T20:39:56.574556"
+  },
+  "9bda22f92bc2": {
+    "id": "9bda22f92bc2",
+    "title": "Pragmata has topped 1 million sales in two days",
+    "link": "https://www.gamedeveloper.com/business/pragmata-has-topped-1-million-sales-in-two-days",
+    "summary": "Capcom lauded the performance of its all-new IP.",
+    "published": "Mon, 20 Apr 2026 12:50:35 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-20T20:40:05.629302"
   }
 }
