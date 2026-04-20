@@ -2708,5 +2708,25 @@
     "source_name": "ArtStation Magazine",
     "category": "ta-render",
     "fetched_at": "2026-04-19T08:46:25.780504"
+  },
+  "6f908cd743dc": {
+    "id": "6f908cd743dc",
+    "title": "Staged Pipelines and what people think of them",
+    "link": "https://gamedev.net/forums/topic/719897-staged-pipelines-and-what-people-think-of-them",
+    "summary": "Greetings, When it comes to organizing the mechanics of your engine there are many complexities. Clumpy code can result of course so I like the kernel pattern for one. I must insist every one read the following reference. - https://www.cal-tek.eu/proceedings/i3m/2024/emss/015/pdf.pdf Pipeline not only help give a architecture design paradigm to build off of, but assist in optimizing your engine as well. Please every one give staged pipelines a chance. What does everyone else think, as I think they are great. Charles Alan Martin CPhT C++ Engine Developer",
+    "published": "Mon, 20 Apr 2026 07:53:16 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-20T09:53:04.517514"
+  },
+  "1d3ef4235a16": {
+    "id": "1d3ef4235a16",
+    "title": "Niagra Ribbons Mess",
+    "link": "https://realtimevfx.com/t/niagra-ribbons-mess/30804",
+    "summary": "Hey there, I am trying to get a ribbon to follow per parent particle. Any help would be appreciated! 2 posts - 2 participants Read full topic",
+    "published": "Mon, 20 Apr 2026 08:26:13 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-20T09:52:58.558408"
   }
 }
