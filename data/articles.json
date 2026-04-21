@@ -2838,5 +2838,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-21T20:02:43.108720"
+  },
+  "33ae5d449ef6": {
+    "id": "33ae5d449ef6",
+    "title": "Autodesk releases Flame 2027",
+    "link": "https://www.cgchannel.com/2026/04/autodesk-releases-flame-2027/",
+    "summary": "Compositing, finishing and effects software gets a new Annotations system and two new AI models for generating depth maps from clips.",
+    "published": "Tue, 21 Apr 2026 10:02:27 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-21T20:43:33.600129"
+  },
+  "54f4333fa35c": {
+    "id": "54f4333fa35c",
+    "title": "How Double Fine balances fun with pottery sculpting in Kiln",
+    "link": "https://www.gamedeveloper.com/design/how-double-fine-balances-fun-with-pottery-sculpting-in-kiln",
+    "summary": "Double Fine’s Lauren Scott and Jared Mill break down how Kiln went from a game jam prototype to the studio’s next game.",
+    "published": "Tue, 21 Apr 2026 19:28:47 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-21T20:43:44.177982"
+  },
+  "47c58c1e0a68": {
+    "id": "47c58c1e0a68",
+    "title": "Windrose surpasses 1M sales within a week",
+    "link": "https://www.gamedeveloper.com/business/windrose-surpasses-1m-sales-within-a-week",
+    "summary": "The pirate adventure game also accrued over 200,000 concurrent players.",
+    "published": "Tue, 21 Apr 2026 16:31:27 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-21T20:43:44.178003"
+  },
+  "f9c1155fdc7f": {
+    "id": "f9c1155fdc7f",
+    "title": "Xbox is slashing the price of Game Pass",
+    "link": "https://www.gamedeveloper.com/business/xbox-is-cutting-the-price-of-game-pass",
+    "summary": "The service is also losing Call of Duty games at launch.",
+    "published": "Tue, 21 Apr 2026 16:10:20 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-21T20:43:44.178014"
+  },
+  "a8c095d07792": {
+    "id": "a8c095d07792",
+    "title": "Sanrio launches self-publishing label Sanrio Games",
+    "link": "https://www.gamedeveloper.com/business/sanrio-launches-self-publishing-label-sanrio-games",
+    "summary": "The Hello Kitty maker wants to launch 'approximately 10 titles' over the next three years.",
+    "published": "Tue, 21 Apr 2026 14:00:40 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-21T20:43:44.178026"
+  },
+  "11dbcbdd2a8c": {
+    "id": "11dbcbdd2a8c",
+    "title": "Union workers take legal action against Build A Rocket Boy over alleged privacy violations",
+    "link": "https://www.gamedeveloper.com/business/union-workers-take-legal-action-against-build-a-rocket-boy-over-alleged-privacy-violations",
+    "summary": "One union member said the studio's 'culture of secrecy and micromanaging' is one of the worst they've ever encountered.",
+    "published": "Tue, 21 Apr 2026 12:57:08 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-21T20:43:44.178038"
   }
 }
