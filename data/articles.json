@@ -2728,5 +2728,35 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-04-20T09:52:58.558408"
+  },
+  "ddef948b82c0": {
+    "id": "ddef948b82c0",
+    "title": "Sneak peek: NeXus for Blender",
+    "link": "https://www.cgchannel.com/2026/04/sneak-peek-nexus-for-blender/",
+    "summary": "See videos of the Blender edition of Insyium's popular Cinema 4D particle tool, then read our FAQs on its price, features and release date.",
+    "published": "Mon, 20 Apr 2026 09:38:43 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-20T20:00:57.249583"
+  },
+  "5780e2708d13": {
+    "id": "5780e2708d13",
+    "title": "CLO Virtual Fashion releases Marvelous Designer 2026.0",
+    "link": "https://www.cgchannel.com/2026/04/clo-virtual-fashion-releases-marvelous-designer-2026-0/",
+    "summary": "New features in the 3D clothing design tool include a 3D Pencil, updates to garment rigging and animation, and glTF support.",
+    "published": "Mon, 20 Apr 2026 07:20:11 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-20T20:00:57.249606"
+  },
+  "8c612bb70ad6": {
+    "id": "8c612bb70ad6",
+    "title": "'I was ignored:' BAFTA criticised after pulling indie game trailer from awards ceremony",
+    "link": "https://www.gamedeveloper.com/business/-i-was-ignored-bafta-criticised-after-pulling-indie-game-trailer-from-awards-ceremony",
+    "summary": "BAFTA said it decided against showing a trailer for upcoming narrative title The Quiet Things to prioritise the 'wellbeing of all guests.'",
+    "published": "Mon, 20 Apr 2026 10:20:49 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-20T20:01:22.532365"
   }
 }
