@@ -2778,5 +2778,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-20T20:40:05.629302"
+  },
+  "1a369629c8cd": {
+    "id": "1a369629c8cd",
+    "title": "Maxon releases Redshift 2026.5",
+    "link": "https://www.cgchannel.com/2026/04/maxon-releases-redshift-2026-5/",
+    "summary": "Check out the latest features in the production renderer, including support for Windows on ARM and hardware ray tracing on AMD GPUs.",
+    "published": "Tue, 21 Apr 2026 07:27:56 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-21T09:19:52.653659"
+  },
+  "b7d1732d39d5": {
+    "id": "b7d1732d39d5",
+    "title": "Maxon releases Red Giant 2026.4",
+    "link": "https://www.cgchannel.com/2026/04/maxon-releases-red-giant-2026-4/",
+    "summary": "Check out the new features in the plugins for motion design and VFX, including support for free motion graphics software Autograph.",
+    "published": "Tue, 21 Apr 2026 06:00:46 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-21T09:19:52.653683"
+  },
+  "e4f045ee0e64": {
+    "id": "e4f045ee0e64",
+    "title": "Tutorial: Animating a Dragon Rider for Film & VFX",
+    "link": "https://www.cgchannel.com/2026/04/tutorial-animating-a-dragon-rider-for-film-vfx/",
+    "summary": "Discover how to set up, block and refine a movie-quality animation with The Gnomon Workshop's beginner-friendly guide.",
+    "published": "Mon, 20 Apr 2026 06:00:47 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-21T09:19:52.653748"
+  },
+  "5d72f5d0d5b3": {
+    "id": "5d72f5d0d5b3",
+    "title": "game for collaboration",
+    "link": "https://gamedev.net/forums/topic/719903-game-for-collaboration",
+    "summary": "so ive got this idea for a game world and ive almost finished the TTRPG version, yet i look at it and i really want it as a video game series. it's called Neon ShaoDaowEra, it's set after the war between man and machine, where Vishnu has gifted the people artifacts that propel society forward, yet there are half vampires, and half wolf lion humanoids living underground in cities of neon. now im ready to ask for some help, so wot im asking ofr is some game designers to look at collaboration with me on this major project",
+    "published": "Tue, 21 Apr 2026 09:03:51 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-21T09:20:00.218905"
+  },
+  "5ad825087cb8": {
+    "id": "5ad825087cb8",
+    "title": "这是一个想法，法阵的溶解出现",
+    "link": "https://realtimevfx.com/t/topic/30813",
+    "summary": "(topic deleted by author) 1 post - 1 participant Read full topic",
+    "published": "Tue, 21 Apr 2026 04:45:28 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-21T09:19:54.113612"
   }
 }
