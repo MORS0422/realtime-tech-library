@@ -2828,5 +2828,15 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-04-21T09:19:54.113612"
+  },
+  "d4d6fb3a0154": {
+    "id": "d4d6fb3a0154",
+    "title": "Sony rolls out age verification for PlayStation users in the UK and Ireland",
+    "link": "https://www.gamedeveloper.com/business/sony-rolls-out-age-verification-for-playstation-users-in-the-uk-and-ireland",
+    "summary": "Users who fail to verify their age will lose access to communication features and some third-party services.",
+    "published": "Tue, 21 Apr 2026 10:20:29 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-21T20:02:43.108720"
   }
 }
