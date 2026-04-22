@@ -2928,5 +2928,45 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-04-22T09:14:18.336429"
+  },
+  "ae17c0defedd": {
+    "id": "ae17c0defedd",
+    "title": "Nintendo is being sued by customers seeking tariff refunds",
+    "link": "https://www.gamedeveloper.com/business/nintendo-is-being-sued-by-customers-seeking-tariff-refunds",
+    "summary": "Two consumers based in the United States claim the Switch maker has unjustly benefited from tariffs imposed by the Trump administration.",
+    "published": "Wed, 22 Apr 2026 15:03:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-22T20:47:54.727830"
+  },
+  "1b44c2202040": {
+    "id": "1b44c2202040",
+    "title": "Dead by Daylight studio Behaviour Interactive confirms layoffs",
+    "link": "https://www.gamedeveloper.com/business/dead-by-daylight-studio-behaviour-interactive-confirms-layoffs",
+    "summary": "The company indicated members of its external development team have been let go.",
+    "published": "Wed, 22 Apr 2026 13:59:11 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-22T20:47:54.727848"
+  },
+  "8bc59bb2bb93": {
+    "id": "8bc59bb2bb93",
+    "title": "Report: Ubisoft cancels social-sim game Alterra",
+    "link": "https://www.gamedeveloper.com/business/report-ubisoft-cancels-social-sim-game-alterra",
+    "summary": "The Animal Crossing-inspired game was reportedly in development for nearly three years at Ubisoft Montreal.",
+    "published": "Wed, 22 Apr 2026 13:59:04 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-22T20:47:54.727861"
+  },
+  "2fb218dabfef": {
+    "id": "2fb218dabfef",
+    "title": "'A scope document is not your plan:' Laying the groundwork for indie success",
+    "link": "https://www.gamedeveloper.com/production/-a-scope-document-is-not-your-plan-laying-the-groundwork-for-indie-success",
+    "summary": "Blossom Arcade founder Sophie Smart explains how the best laid plans can drive indie studios forward.",
+    "published": "Wed, 22 Apr 2026 10:40:46 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-22T20:47:54.727872"
   }
 }
