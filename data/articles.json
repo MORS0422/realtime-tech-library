@@ -2988,5 +2988,75 @@
     "source_name": "CG Channel",
     "category": "ta",
     "fetched_at": "2026-04-23T09:21:24.247490"
+  },
+  "d160ec6ee586": {
+    "id": "d160ec6ee586",
+    "title": "Houdini GPU liquid solver Paradigm 1.0 is now available",
+    "link": "https://www.cgchannel.com/2026/04/houdini-gpu-liquid-solver-paradigm-is-out/",
+    "summary": "Check out the promising new GPU-accelerated sparse liquid solver from Theory Accelerated, creator of the popular Axiom fluid solver.",
+    "published": "Thu, 23 Apr 2026 14:00:53 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-23T20:45:21.451986"
+  },
+  "5f79642d21ab": {
+    "id": "5f79642d21ab",
+    "title": "Chaos reinstates support for AMD GPUs in V-Ray",
+    "link": "https://www.cgchannel.com/2026/04/chaos-reinstates-support-for-amd-gpus-in-v-ray/",
+    "summary": "The V-Ray GPU render engine now supports AMD cards again via AMD's HIP framework - and they're actually faster than NVIDIA in some scenes.",
+    "published": "Thu, 23 Apr 2026 11:37:04 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-23T20:45:21.452010"
+  },
+  "585b40cba268": {
+    "id": "585b40cba268",
+    "title": "Chaos releases V-Ray 7 Update 3 for 3ds Max",
+    "link": "https://www.cgchannel.com/2026/04/chaos-releases-v-ray-7-update-3-for-3ds-max/",
+    "summary": "Check out the new features in the 3ds Max renderer, including native parallax interiors, quick caustics, and relighting 3D Gaussian Splats.",
+    "published": "Thu, 23 Apr 2026 06:00:54 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-23T20:45:21.452023"
+  },
+  "84b8e0145e77": {
+    "id": "84b8e0145e77",
+    "title": "Canada federal government concerned about children's safety in Roblox",
+    "link": "https://www.gamedeveloper.com/business/report-canada-federal-government-concerned-about-children-s-safety-in-roblox",
+    "summary": "Canada is worried that pedophiles, white nationalists, and violent extremists using Robox to target and recruit children.",
+    "published": "Thu, 23 Apr 2026 17:29:25 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-23T20:45:36.658808"
+  },
+  "2f0a3855c2c1": {
+    "id": "2f0a3855c2c1",
+    "title": "The Super Mario Galaxy Movie earns $747M at global box office",
+    "link": "https://www.gamedeveloper.com/business/the-super-mario-galaxy-movie-earns-747m-at-box-office",
+    "summary": "The movie franchise has now surpassed the $2 billion figure with just two films.",
+    "published": "Thu, 23 Apr 2026 14:47:08 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-23T20:45:36.658827"
+  },
+  "c54cfc485291": {
+    "id": "c54cfc485291",
+    "title": "Newly-launched Ivors Composers Awards will honor video game composers",
+    "link": "https://www.gamedeveloper.com/audio/newly-launched-ivors-composers-awards-will-honor-video-game-composers",
+    "summary": "The award show will take place in November and will specifically celebrate composers and their craft.",
+    "published": "Thu, 23 Apr 2026 11:33:17 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-23T20:45:36.658840"
+  },
+  "127d545be644": {
+    "id": "127d545be644",
+    "title": "'It's going to be extremely hard to repair the relationship:' The Subnautica 2 legal dispute is far from over",
+    "link": "https://www.gamedeveloper.com/business/the-subnautica-2-early-access-dispute-is-far-from-over",
+    "summary": "The story so far—and what comes next?",
+    "published": "Thu, 23 Apr 2026 10:05:31 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-23T20:45:36.658852"
   }
 }
