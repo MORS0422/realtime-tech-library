@@ -2968,5 +2968,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-22T20:47:54.727872"
+  },
+  "8ebd7dac800a": {
+    "id": "8ebd7dac800a",
+    "title": "3D texture painting app Wafer is now available for Windows",
+    "link": "https://www.cgchannel.com/2026/04/3d-texture-painting-app-wafer-is-now-available-for-windows/",
+    "summary": "Updated: Sparseal's promising texture painting app gets its first official Windows release - and an experimental free build for macOS.",
+    "published": "Thu, 23 Apr 2026 04:00:45 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-23T09:21:24.247466"
+  },
+  "78b8c747b873": {
+    "id": "78b8c747b873",
+    "title": "Open-source material authoring software Material Maker 1.6 is out",
+    "link": "https://www.cgchannel.com/2026/04/open-source-material-authoring-software-material-maker-1-6-is-out/",
+    "summary": "See the new features in the free alternative to Substance 3D Designer, including a new Controlled Variations system for material variants.",
+    "published": "Wed, 22 Apr 2026 06:00:12 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-23T09:21:24.247490"
   }
 }
