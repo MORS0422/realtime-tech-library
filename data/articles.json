@@ -3078,5 +3078,75 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-24T09:26:26.249506"
+  },
+  "4f10ef0c3844": {
+    "id": "4f10ef0c3844",
+    "title": "#4. Inside Game Audio: How Nikola Nikita Jeremić Builds Interactive Music Systems (Part 2)",
+    "link": "https://gamedev.net/blogs/entry/2297853-4-inside-game-audio-how-nikola-nikita-jeremic-builds-interactive-music-systems-part-2",
+    "summary": "In Part 2 of this episode, Nikola Nikita Jeremić dives into his career journey, shares how he broke into AAA projects like Destiny 2 and Cyberpunk 2077, and gives honest advice on networking and building a career in gamedev. We also discuss how composers collaborate with studios, what happens when projects fail, and what the future of the gaming industry might look like. Timecodes: 00:00:06 - Dream projects and games he would love to score 00:00:56 - Breakthrough into AAA: Halo connection, Bungie, and Destiny 2 00:05:35 - The Witcher remix competition and getting a track into Cyberpunk 2077 00:08:42 …",
+    "published": "Fri, 24 Apr 2026 15:34:08 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-24T20:40:22.410447"
+  },
+  "84266d953473": {
+    "id": "84266d953473",
+    "title": "Mid-level Level Designer looking for PORTFOLIO feedback",
+    "link": "https://gamedev.net/forums/topic/719902-mid-level-level-designer-looking-for-portfolio-feedback",
+    "summary": "Hey! I’m a mid-level level designer currently refining my portfolio and I’d really appreciate some honest, industry-focused feedback. I’m especially interested in how this would come across to hiring managers and lead / senior level designers. More specifically, I’d love to know: - what feels unclear or underexplained - what’s missing that you’d expect at mid-level - what might not be helping (or even hurting) my chances Portfolio + CV I recently added a new personal project, so I’m also curious if that actually strengthens the portfolio. Any honest feedback is very welcome 🙏 (especially from people involved in hiring …",
+    "published": "Fri, 24 Apr 2026 01:21:23 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-24T20:40:22.410497"
+  },
+  "a1ea29cfa3f1": {
+    "id": "a1ea29cfa3f1",
+    "title": "Clair Obscur: Expedition 33 has topped 8 million sales worldwide",
+    "link": "https://www.gamedeveloper.com/business/clair-obscur-expedition-33-has-topped-8-million-sales-worldwide",
+    "summary": "The title also dominated Xbox Game Pass in 2025",
+    "published": "Fri, 24 Apr 2026 14:14:39 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-24T20:40:24.622516"
+  },
+  "75f87b98c214": {
+    "id": "75f87b98c214",
+    "title": "Inside Housemarque's improved narrative process for Saros",
+    "link": "https://www.gamedeveloper.com/design/inside-housemarque-s-improved-narrative-process-for-saros",
+    "summary": "Pacing, production, and well-prepared performances.",
+    "published": "Fri, 24 Apr 2026 13:11:53 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-24T20:40:24.622534"
+  },
+  "26a982d11c64": {
+    "id": "26a982d11c64",
+    "title": "Xbox will reevaluate exclusivity and target daily active players under new leadership",
+    "link": "https://www.gamedeveloper.com/business/xbox-will-reevaluate-exclusivity-and-target-daily-active-players-under-new-leadership",
+    "summary": "In a message sent to Xbox employees around the world, Asha Sharma and Matt Booty have laid out their vision for Microsoft's video game business.",
+    "published": "Fri, 24 Apr 2026 11:53:52 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-24T20:40:24.622548"
+  },
+  "2b14480d4e3d": {
+    "id": "2b14480d4e3d",
+    "title": "Atari acquires emulation studio Implicit Conversions",
+    "link": "https://www.gamedeveloper.com/business/atari-acquires-emulation-studio-implicit-conversions",
+    "summary": "The deal includes Implicit Conversions' proprietary emulation technology, Syrup.",
+    "published": "Fri, 24 Apr 2026 10:49:13 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-24T20:40:24.622558"
+  },
+  "e5fe3302e2b8": {
+    "id": "e5fe3302e2b8",
+    "title": "Build A Rocket Boy facing legal action, Behaviour Interactive cuts jobs, and Xbox has a new 'north star' - Patch Notes #49",
+    "link": "https://www.gamedeveloper.com/business/build-a-rocket-boy-facing-legal-action-behaviour-interactive-cuts-jobs-and-xbox-has-a-new-north-star-patch-notes-49",
+    "summary": "Plus: Customers suing Nintendo for tariff refunds and The Super Mario Galaxy Movie earns $747 million.",
+    "published": "Fri, 24 Apr 2026 10:18:11 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-24T20:40:24.622568"
   }
 }
