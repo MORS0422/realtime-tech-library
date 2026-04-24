@@ -3058,5 +3058,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-23T20:45:36.658852"
+  },
+  "fc24e98ba67f": {
+    "id": "fc24e98ba67f",
+    "title": "Otoy releases OctaneRender 2026.3",
+    "link": "https://www.cgchannel.com/2026/04/otoy-releases-octanerender-2026-3/",
+    "summary": "Check out the new features in the GPU renderer, including updates to virtual textures, trace sets, and the Neural Radiance Cache.",
+    "published": "Fri, 24 Apr 2026 07:12:38 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-24T09:26:16.077764"
+  },
+  "1039a47b1b9b": {
+    "id": "1039a47b1b9b",
+    "title": "Fired Unknown Worlds execs withdraw claim that Krafton violated court order by announcing Subnautica 2 release date",
+    "link": "https://www.gamedeveloper.com/business/fired-unknown-worlds-execs-withdraw-claim-that-krafton-violated-court-order-by-announcing-subnautica-2-release-date",
+    "summary": "Lawyers for the execs asked the judge to toss the motion in new filing.",
+    "published": "Thu, 23 Apr 2026 21:29:07 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-24T09:26:26.249506"
   }
 }
