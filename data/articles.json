@@ -3148,5 +3148,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-24T20:40:24.622568"
+  },
+  "a15e8623c9a5": {
+    "id": "a15e8623c9a5",
+    "title": "Free tutorial: Race Vehicle Concept Design – Cinematic Rendering",
+    "link": "https://www.cgchannel.com/2026/04/free-tutorial-race-vehicle-concept-design-cinematic-rendering/",
+    "summary": "Discover how to animate and render a demo sequence in Blender with The Gnomon Workshop's free intermediate-level video training.",
+    "published": "Sat, 25 Apr 2026 06:00:17 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-25T20:32:38.997767"
   }
 }
