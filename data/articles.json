@@ -3158,5 +3158,15 @@
     "source_name": "CG Channel",
     "category": "ta",
     "fetched_at": "2026-04-25T20:32:38.997767"
+  },
+  "79bdf2e682db": {
+    "id": "79bdf2e682db",
+    "title": "Gamedev is Easy: Teaming Up",
+    "link": "https://gamedev.net/blogs/entry/2297854-gamedev-is-easy-teaming-up",
+    "summary": "I’d started learning 3D modeling in Blender, and made a few models, including a car which wasn’t half bad. I realized I enjoyed modeling so I thought I’d look around to see if people needed a 3D modeler for their projects. It was a bit hard to know where to begin - many modelers seemed to be asking fees for their work, but it didn’t feel right to expect this as a beginner. The more I looked into it, I discovered there were plenty of ways to make some cash as 3D modeler, such as: Marketplaces like TurboSquid, CGTrader, Sketchfab, …",
+    "published": "Sun, 26 Apr 2026 13:43:06 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-26T20:33:13.770409"
   }
 }
