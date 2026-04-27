@@ -3208,5 +3208,85 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-04-27T10:09:57.873727"
+  },
+  "aa0f3c2eca72": {
+    "id": "aa0f3c2eca72",
+    "title": "DNE and Gracia release 4-minute streamable 4DGS performance",
+    "link": "https://www.cgchannel.com/2026/04/dne-and-gracia-release-4-minute-streamable-4dgs-performance/",
+    "summary": "[Sponsored] Discover volumetric infrastructure firm Gracia's pipeline for streaming 4D Gaussian Splatting content directly in a web browser.",
+    "published": "Mon, 27 Apr 2026 09:00:19 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-27T20:56:04.463726"
+  },
+  "faa3ac9cd359": {
+    "id": "faa3ac9cd359",
+    "title": "Best resources to learn about explosion timing?",
+    "link": "https://realtimevfx.com/t/best-resources-to-learn-about-explosion-timing/30835",
+    "summary": "Can you recommend me resources that go as in depth as possible about timing explosions? Like times, speeds, size, physics etc. And how to push it for the best player/viewer experience. I’m wondering if some gold is hiding in tutorials that are specific to a software/engine so I’m not coming across it. I wouldn’t mind watching tutorials regardless of the software if I learn about timing and shaping the experience in general. The best I’ve found so far are the feedback videos on the VFX Apprentice Youtube channel btw. I might sign up for their monthly at some point. Unfortunately the new stylized course might be what I’m looking for but is out of my budget. (Please don’t suggest to just look at real references, I’m already doing that) Thank you! 1 post - 1 participant Read full topic",
+    "published": "Mon, 27 Apr 2026 13:14:45 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-27T20:56:07.639868"
+  },
+  "414df0aad507": {
+    "id": "414df0aad507",
+    "title": "Stefano Falubba - 3 years of stylized VFX",
+    "link": "https://realtimevfx.com/t/stefano-falubba-3-years-of-stylized-vfx/30833",
+    "summary": "Hey everyone! I’m Stefano, a real-time VFX artist. This is my first post here, after 3 years of lurking I finally decided to start sharing. Happy to be part of this community! Over the past few years I’ve been working at 3DClouds, where I got to ship several titles, I’ll be sharing just a few of them here. Transformers: Galactic Trials This is my first shipped title and I was responsible for the particles, shaders,and effects. Here I’m showing a mix of character effects and environment pieces. Here are some of the VFX : - YouTube - YouTube - YouTube - YouTube - YouTube - YouTube - YouTube - YouTube Paw Patrol Rescue Wheels: Championship Here I’m showing some of the character stunt effects and a few environment pieces. - YouTube Formula Legends Here the work was mostly technical rather than artistic.The video shows what made it into the game, but the real challenge was behind the scenes, for the destruction system. - YouTube Lastly, I want to say a huge thank you to this community. Even as a lurker, the resources, breakdowns and discussions here have helped me more than once to solve problems and ship these projects. Hope you enjoy the work! 1 post - 1 participant Read full topic",
+    "published": "Mon, 27 Apr 2026 10:12:36 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-27T20:56:07.639950"
+  },
+  "5485ada56d24": {
+    "id": "5485ada56d24",
+    "title": "'Millimeters matter:' Making the Steam Controller 'just work' on day one",
+    "link": "https://www.gamedeveloper.com/pc/-millimeters-matter-inside-the-steam-controller-s-flawless-physical-design",
+    "summary": "Valve's 'it just works' approach to hardware design makes the Steam Controller a fantastic device to use. Here's what it took to make it that way.",
+    "published": "Mon, 27 Apr 2026 17:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-27T20:56:17.709155"
+  },
+  "72a2ffb46fdb": {
+    "id": "72a2ffb46fdb",
+    "title": "Magic: The Gathering Arena devs are unionizing to deliver genAI and layoff protections",
+    "link": "https://www.gamedeveloper.com/business/magic-the-gathering-arena-devs-seek-to-unionise-to-deliver-genai-and-layoff-protections",
+    "summary": "'We know the workers that make the game can and should be treated better.'",
+    "published": "Mon, 27 Apr 2026 15:59:44 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-27T20:56:17.709175"
+  },
+  "139e6309b1ed": {
+    "id": "139e6309b1ed",
+    "title": "Xbox boss: Memory crisis could impact next-gen hardware availability and pricing",
+    "link": "https://www.gamedeveloper.com/business/xbox-boss-memory-crisis-could-impact-next-gen-hardware-availability-and-pricing",
+    "summary": "Xbox CEO Asha Sharma has discussed how component shortages will impact the company's plans for Project Helix.",
+    "published": "Mon, 27 Apr 2026 12:31:38 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-27T20:56:17.709187"
+  },
+  "abd4f2952048": {
+    "id": "abd4f2952048",
+    "title": "People Can Fly acquires Cooldown Games to establish dedicated publishing vertical",
+    "link": "https://www.gamedeveloper.com/business/people-can-fly-acquires-cooldown-games-to-establish-dedicated-publishing-vertical",
+    "summary": "The Polish studio hopes the move will create 'incremental revenue streams' to help it regain traction and scale.",
+    "published": "Mon, 27 Apr 2026 11:02:57 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-27T20:56:17.709199"
+  },
+  "cca9afa686ae": {
+    "id": "cca9afa686ae",
+    "title": "The Steam Controller will retail for $99",
+    "link": "https://www.gamedeveloper.com/pc/the-steam-controller-will-retail-for-99",
+    "summary": "The device will be available to purchase on May 4.",
+    "published": "Mon, 27 Apr 2026 05:05:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-27T20:56:17.709209"
   }
 }
