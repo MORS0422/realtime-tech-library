@@ -3168,5 +3168,45 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-04-26T20:33:13.770409"
+  },
+  "55a7864b7300": {
+    "id": "55a7864b7300",
+    "title": "Sketchbook releases Sketchbook Pro 9.4",
+    "link": "https://www.cgchannel.com/2026/04/sketchbook-releases-sketchbook-pro-9-4/",
+    "summary": "Latest update to the veteran digital sketching and concept art software adds new Lasso Select and Draw Outline tools.",
+    "published": "Mon, 27 Apr 2026 06:30:36 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-27T10:09:47.924404"
+  },
+  "e199c648c5f2": {
+    "id": "e199c648c5f2",
+    "title": "Canva releases Affinity 3.2",
+    "link": "https://www.cgchannel.com/2026/04/canva-releases-affinity-3-2/",
+    "summary": "Check out the latest features in the free image editing and vector design software, including a new integration with DaVinci Resolve.",
+    "published": "Mon, 27 Apr 2026 06:30:14 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-27T10:09:47.924429"
+  },
+  "236ed65f6037": {
+    "id": "236ed65f6037",
+    "title": "Video Playback System Middleware",
+    "link": "https://gamedev.net/blogs/entry/2297855-video-playback-system-middleware",
+    "summary": "Introduction ​ The Video Play System is a custom middleware solution designed for games and interactive applications, providing advanced video playback with integrated interactivity. It supports MPEG-1, MPEG-2, and MPEG-4 video formats, with alpha-layer compositing capabilities that enable dynamic visual layering beyond standard fullscreen playback. The audio subsystem supports multiple formats, including platform-native ADPCM, CRI ADX, CRI AHX (MP2), and AC-3 with 5.1 surround sound. On GameCube and Wii platforms, audio decoding is performed via dedicated DSP microcode optimized for the Macronix 16-bit Audio DSP, ensuring efficient and low-overhead performance. A core feature of the system is its built-in interactive …",
+    "published": "Mon, 27 Apr 2026 01:18:11 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-27T10:09:57.873691"
+  },
+  "842ff3a7331c": {
+    "id": "842ff3a7331c",
+    "title": "Does anyone have any idea about animation on triangle polys?",
+    "link": "https://gamedev.net/forums/topic/719908-does-anyone-have-any-idea-about-animation-on-triangle-polys",
+    "summary": "Hey folks, I hope you guys are doing well. I am creating a clinic that has become heavy with more than 2 million polygons, which is affecting performance. I asked Google Gemini, and it suggested reducing each model to around 8K polygons. Tripo AI can generate models at 8K, but the problem is it provides triangle polygon meshes instead of quads in low poly. Gemini also suggested using skeletal animation. In my 3D experience, I have always heard to work with quads, so this is the first time I have heard suggestion to work with triangles. Is it okay to …",
+    "published": "Mon, 27 Apr 2026 08:16:14 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-27T10:09:57.873727"
   }
 }
