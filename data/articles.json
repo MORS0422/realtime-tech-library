@@ -3288,5 +3288,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-27T20:56:17.709209"
+  },
+  "89994c106d16": {
+    "id": "89994c106d16",
+    "title": "New to GameDev.net: Teams, Studios, School, and Your Profile",
+    "link": "https://gamedev.net/blogs/entry/2297860-new-to-gamedevnet-teams-studios-school-and-your-profile",
+    "summary": "For most of GameDev.net 's history, the site has been defined by forums, news, and the content people publish here — blogs, tutorials, projects, portfolios. The forums are still where most of you spend time, and they should be. What's less obvious is how much they do for you. Your profile is where collaborators looking for your skills, studios scouting for someone who's shipped, mentors, students, and peers actually find you. The more you put into the site, the more that profile does for you, the more you connect with others. Whether you do this professionally, on the side, or …",
+    "published": "Tue, 28 Apr 2026 03:01:38 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-28T10:09:00.927638"
+  },
+  "9a100ce46529": {
+    "id": "9a100ce46529",
+    "title": "Looking for a library that can do DirectX texture compression...",
+    "link": "https://gamedev.net/forums/topic/719913-looking-for-a-library-that-can-do-directx-texture-compression",
+    "summary": "I have some old stuff that uses the old NVIDIA nvdxtlib library to do texture compression and I am writing some new code that also needs to do the same texture compression. I am unable to use nvdxtlib as it will not work with Visual Studio 2022. Can anyone suggest a more modern library that can produce DDS/compressed data with DXT1, DXT1A, DXT3, DXT5, A8R8G8B8, X8R8G8B8 and R5G6B5 texture formats? I also need mipmap generation and support for generating volume maps. I need Visual Studio 2022 compatibility and I need something that does not use any GPU APIs (which rules …",
+    "published": "Tue, 28 Apr 2026 09:18:32 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-28T10:09:00.927675"
   }
 }
