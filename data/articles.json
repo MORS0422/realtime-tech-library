@@ -3308,5 +3308,75 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-04-28T10:09:00.927675"
+  },
+  "f300f9f65f78": {
+    "id": "f300f9f65f78",
+    "title": "Adobe releases Photoshop 27.6",
+    "link": "https://www.cgchannel.com/2026/04/adobe-releases-photoshop-27-6/",
+    "summary": "Update to the image-editing app adds the much-anticipated AI-based Rotate Tool, and a neat new reflection removal feature.",
+    "published": "Tue, 28 Apr 2026 15:21:17 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-28T21:02:29.427547"
+  },
+  "8ffdfec62a27": {
+    "id": "8ffdfec62a27",
+    "title": "World Creator 2026.4 is out with a new free Community Edition",
+    "link": "https://www.cgchannel.com/2026/04/world-creator-2026-4-is-out-with-a-new-free-community-edition/",
+    "summary": "Check out the new features in the terrain-generation software for games and VFX, and its new free introductory edition.",
+    "published": "Tue, 28 Apr 2026 09:00:56 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-28T21:02:29.427570"
+  },
+  "4acbb3539235": {
+    "id": "4acbb3539235",
+    "title": "Reallusion releases Headshot 3.0",
+    "link": "https://www.cgchannel.com/2026/04/reallusion-releases-headshot-3-0/",
+    "summary": "Check out the new features in the AI-powered Character Creator plugin for generating 3D digital doubles from reference photos.",
+    "published": "Tue, 28 Apr 2026 08:12:48 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-28T21:02:29.427584"
+  },
+  "50c6f88dd2b3": {
+    "id": "50c6f88dd2b3",
+    "title": "Are there commonly acknowledged guidelines on samplerates, bitdepth, file types and tracklengths for game audio?",
+    "link": "https://gamedev.net/forums/topic/719914-are-there-commonly-acknowledged-guidelines-on-samplerates-bitdepth-file-types-and-tracklengths-for-game-audio",
+    "summary": "Hello everyone, i have a few questions regarding common practices when it comes to game audio, especially when provided as a sample-pack or sound library. I am an audio person and do not have much background in game development even though I have a rough overview of the field and generally like video games. Currently I am doing some sound design experiments and though it would be fun and maybe helpful to others, if I release some of it as a sound effects / background tracks pack. I listen to a lot of video game soundtracks and also did some …",
+    "published": "Tue, 28 Apr 2026 20:31:47 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-28T21:02:38.299608"
+  },
+  "b89b1b54716a": {
+    "id": "b89b1b54716a",
+    "title": "'We've been a little bit too romantic:' Ustwo CEO says lowering development costs is now paramount",
+    "link": "https://www.gamedeveloper.com/business/-we-ve-been-a-little-bit-too-romantic-ustwo-ceo-says-lowering-development-costs-is-now-paramount",
+    "summary": "How the Monument Valley studio will be charting a path forward on PC and consoles.",
+    "published": "Tue, 28 Apr 2026 16:46:32 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-28T21:02:40.699586"
+  },
+  "e1dadafa91c9": {
+    "id": "e1dadafa91c9",
+    "title": "Sony to increase PlayStation hardware prices in Southeast Asia",
+    "link": "https://www.gamedeveloper.com/business/playstation-increases-hardware-prices-in-southeast-asia",
+    "summary": "The decision was made due to 'continued pressures in the global economic landscape.'",
+    "published": "Tue, 28 Apr 2026 14:14:20 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-28T21:02:40.699611"
+  },
+  "bc8b9cd7784c": {
+    "id": "bc8b9cd7784c",
+    "title": "GitHub Copilot is pivoting to usage-based billing after becoming unsustainable",
+    "link": "https://www.gamedeveloper.com/production/github-copilot-is-pivoting-to-usage-based-billing-because-it-s-currently-unsustainable",
+    "summary": "The company said its new approach 'better aligns pricing with actual usage' and is not a price hike in disguise.",
+    "published": "Tue, 28 Apr 2026 11:34:08 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-28T21:02:40.699624"
   }
 }
