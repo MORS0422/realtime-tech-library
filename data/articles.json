@@ -3478,5 +3478,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-30T10:01:52.513434"
+  },
+  "3abe42abd693": {
+    "id": "3abe42abd693",
+    "title": "Looking for Developer Collaborator --- Timeline Dominion, an Alternate-History Strategy Simulator",
+    "link": "https://gamedev.net/forums/topic/719916-looking-for-developer-collaborator-timeline-dominion-an-alternate-history-strategy-simulator",
+    "summary": "GameDev.net Recruitment Post Draft Hello everyone, I’m working on a game concept called Timeline Dominion — Alternate History Strategy Simulator , and I’m looking for a developer collaborator to help turn the idea into a small playable prototype. Game Concept Timeline Dominion is a PC strategy/simulation game where the player chooses a historical timeline, selects a starting location, gives a group of people tools, weapons, capital, vehicles, books, and knowledge from different eras, then tries to survive, grow, trade, recruit, influence, fight, or build durable power. The core question of the game is: Can you turn temporary historical advantage into …",
+    "published": "Thu, 30 Apr 2026 19:59:30 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-30T20:54:44.370245"
+  },
+  "775da6f983d9": {
+    "id": "775da6f983d9",
+    "title": "Elias : Sketch #",
+    "link": "https://realtimevfx.com/t/elias-sketch/30845",
+    "summary": "Thumbnail: Check it out on Artstaion: https://www.artstation.com/artwork/x38xX1 Final Submission - YouTube Hi everyone! Here’s my submission for the latest silly-themed challenge. I really enjoyed this theme and had a lot of fun creating this effect—hope you like it! 1 post - 1 participant Read full topic",
+    "published": "Thu, 30 Apr 2026 20:34:19 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-04-30T20:54:36.752934"
+  },
+  "98b158c0cb74": {
+    "id": "98b158c0cb74",
+    "title": "Enduring advice for all game producers: Unlocking the Vault 2.0",
+    "link": "https://www.gamedeveloper.com/production/enduring-advice-for-all-game-producers-unlocking-the-vault-2-0",
+    "summary": "Looking back at Ruth Tomandl's GDC 2013 talk Production 101, and the inspiration and wisdom contained within.",
+    "published": "Thu, 30 Apr 2026 16:48:58 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-30T20:54:47.183232"
+  },
+  "2708a147f623": {
+    "id": "2708a147f623",
+    "title": "GameMaker incorporates Claude Code to enable AI-assisted workflows",
+    "link": "https://www.gamedeveloper.com/production/gamemaker-incorporates-claude-code-to-enable-ai-assisted-workflows",
+    "summary": "GameMaker head Russell Kay said the company wants to 'give users who might benefit from AI the option to do so.'",
+    "published": "Thu, 30 Apr 2026 14:28:41 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-30T20:54:47.183253"
+  },
+  "27c11b5c312a": {
+    "id": "27c11b5c312a",
+    "title": "Sony clarifies confusion around DRM game licenses on PlayStation",
+    "link": "https://www.gamedeveloper.com/business/sony-clarifies-confusion-around-drm-game-licenses-on-playstation",
+    "summary": "The new policy only requires a 'one-time online check-in' after purchase.",
+    "published": "Thu, 30 Apr 2026 13:48:30 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-30T20:54:47.183265"
+  },
+  "ef4ea1005c58": {
+    "id": "ef4ea1005c58",
+    "title": "'The company as a whole no longer exists:' GreedFall developer Spiders confirms closure",
+    "link": "https://www.gamedeveloper.com/business/-the-company-as-a-whole-no-longer-exists-greedfall-developer-spiders-confirms-closure",
+    "summary": "The French studio is owned by Nacon, which filed for insolvency earlier this year after failing to partially repay a bond loan.",
+    "published": "Thu, 30 Apr 2026 10:18:17 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-30T20:54:47.183277"
   }
 }
