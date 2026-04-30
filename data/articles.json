@@ -3428,5 +3428,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-04-29T20:57:48.084735"
+  },
+  "b352e8b8db01": {
+    "id": "b352e8b8db01",
+    "title": "KeenTools releases GeoTracker for Houdini in free open beta",
+    "link": "https://www.cgchannel.com/2026/04/keentools-releases-geotracker-for-houdini-in-free-open-beta/",
+    "summary": "Intuitive object and camera tracking tool for VFX and motion graphics is now available as a Houdini SOP, as well as a Blender and Nuke add-on.",
+    "published": "Thu, 30 Apr 2026 06:00:40 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-30T10:01:39.779258"
+  },
+  "1915b538a39a": {
+    "id": "1915b538a39a",
+    "title": "AI developer Anthropic becomes Blender’s latest Corporate Patron",
+    "link": "https://www.cgchannel.com/2026/04/ai-developer-anthropic-becomes-blenders-latest-corporate-patron/",
+    "summary": "New Blender Lab-developed add-on also now connects Anthropic's Claude AI models to the open-source 3D software. Read our FAQs.",
+    "published": "Wed, 29 Apr 2026 07:06:01 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-04-30T10:01:39.779282"
+  },
+  "c71a00ee74bf": {
+    "id": "c71a00ee74bf",
+    "title": "A Moron's Journey | Learning C, Why?",
+    "link": "https://gamedev.net/blogs/entry/2297861-a-morons-journey-learning-c-why",
+    "summary": "Introduction Writing blogs is hard do you know that? Granted this is my first time doing it but it took me like five minutes to come up with that title, and another two trying to find a good way to start this whole article blog thingy before I gave up and decided this was the best way. Alright so hopefully the title let you know what to expect. If it didn't then I'll let you know I'm trying to learn C programming to eventually write small arcade style games in SDL. That's the goal anyway. Why not a Game Engine? …",
+    "published": "Wed, 29 Apr 2026 21:25:13 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-30T10:01:50.279682"
+  },
+  "9d0f28bc3378": {
+    "id": "9d0f28bc3378",
+    "title": "sprite jump",
+    "link": "https://gamedev.net/forums/topic/719915-sprite-jump",
+    "summary": "I am trying to get my sprite to jump. I have got it to move up past the top of the screen. Here is my script. using UnityEngine; public class PlayerJump : MonoBehaviour { private Rigidbody2D rb; public float jumpForce = 5f; void Start() { rb = GetComponent&lt;Rigidbody2D&gt;(); } void Update() { // Detect spacebar press once if (Input.GetKeyDown(KeyCode.Space)) { Jump(); } } void Jump() { // Add upward force without directly touching velocity // ForceMode2D.Impulse is best for instant jumps rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse); } }",
+    "published": "Thu, 30 Apr 2026 06:45:28 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-04-30T10:01:50.279723"
+  },
+  "504b4bdc3927": {
+    "id": "504b4bdc3927",
+    "title": "Xbox delivers record monthly active users, but hardware revenue is still in decline",
+    "link": "https://www.gamedeveloper.com/business/xbox-delivers-record-monthly-active-users-but-hardware-revenue-is-still-in-decline",
+    "summary": "Gaming revenue decreased by $380 million year-on-year during Q3, driven in part by another downturn in hardware revenue.",
+    "published": "Thu, 30 Apr 2026 09:05:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-04-30T10:01:52.513434"
   }
 }
