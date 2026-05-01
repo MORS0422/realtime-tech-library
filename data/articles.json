@@ -3568,5 +3568,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-01T09:28:26.535969"
+  },
+  "cf7ece82e7ad": {
+    "id": "cf7ece82e7ad",
+    "title": "Devlog #1: Planning \"Underground\" (Andrax Studio)",
+    "link": "https://gamedev.net/blogs/entry/2297881-devlog-1-planning-underground-andrax-studio",
+    "summary": "Hello! I am the founder of Andrax Studio , and I’m currently in the pre-production phase of a new 3D action project called \"Underground\" . The game will be built on Unreal Engine 4 with a focus on Soviet industrial aesthetics and a heavy metal soundtrack. What is ready now: Concept &amp; Visuals: I’ve finished the first character sketches, like \"Sergey the Mechanic\" (see sergey.png ). Audio: I am working on the demo soundtrack in FL Studio to set the mood. Level Design: I am planning the maps and atmosphere. Team Recruitment: I am an indie creator, and I don't …",
+    "published": "Fri, 01 May 2026 16:31:18 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-05-01T20:43:55.829673"
+  },
+  "086236af97f1": {
+    "id": "086236af97f1",
+    "title": "We tested the Steam Controller",
+    "link": "https://www.gamedeveloper.com/pc/we-tested-the-steam-controller",
+    "summary": "This week on the Game Developer podcast, we're diving into Valve's newest piece of hardware: the Steam Controller.",
+    "published": "Fri, 01 May 2026 14:35:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-01T20:43:58.166617"
+  },
+  "85617a92f45d": {
+    "id": "85617a92f45d",
+    "title": "Report: VR specialist Survios has laid off the majority of its development team",
+    "link": "https://www.gamedeveloper.com/business/report-vr-specialist-survios-has-laid-off-the-majority-of-its-development-team",
+    "summary": "The company has worked on notable licensed titles such as Alien: Rogue Incursion.",
+    "published": "Fri, 01 May 2026 14:16:15 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-01T20:43:58.166638"
+  },
+  "d442ba7f4c0b": {
+    "id": "d442ba7f4c0b",
+    "title": "GameMaker says AI coding is inevitable, Sony clarifies DRM confusion, and how video games are helping Rikers inmates - Patch Notes #50",
+    "link": "https://www.gamedeveloper.com/business/gamemaker-says-ai-coding-is-inevitable-sony-clarifies-drm-confusion-and-how-video-games-are-helping-rikers-inmates-patch-notes-50",
+    "summary": "Plus: Is job security now a 'romantic' notion within the video game industry?",
+    "published": "Fri, 01 May 2026 10:19:06 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-01T20:43:58.166650"
   }
 }
