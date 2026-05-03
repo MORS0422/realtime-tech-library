@@ -3628,5 +3628,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-02T20:36:01.929042"
+  },
+  "9a86817808f3": {
+    "id": "9a86817808f3",
+    "title": "[Tool] CopyPxl — Turn any image into a BMFont sheet (Unity, Godot, Phaser ready) — Week 2 update",
+    "link": "https://gamedev.net/forums/topic/719912-tool-copypxl-turn-any-image-into-a-bmfont-sheet-unity-godot-phaser-ready-week-2-update",
+    "summary": "Hey GameDev.net — posting a quick update on CopyPxl, a tool I built to bridge the gap between AI-generated art and in-engine bitmap fonts. The origin: our studio's designer kept generating pixel-art font styles with AI tools, but couldn't use the results directly in Unity or Godot. Those engines need BMFont format — a sprite sheet + .fnt descriptor file — not just a PNG. I ended up writing Python scripts to handle the conversion, and eventually turned it into a web tool. What's new since the initial release: Server is now always-on (was on a free tier with cold …",
+    "published": "Sun, 03 May 2026 06:57:32 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-03T09:18:01.515806"
   }
 }
