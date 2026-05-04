@@ -3668,5 +3668,75 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-04T10:08:27.067660"
+  },
+  "269d1cc4b0c3": {
+    "id": "269d1cc4b0c3",
+    "title": "LightWave Digital unveils LightWave 2026",
+    "link": "https://www.cgchannel.com/2026/05/lightwave-digital-unveils-lightwave-2026/",
+    "summary": "See the new features in the 3D animation and rendering software, from vehicle auto-rigging to new tools for snow and lighting effects.",
+    "published": "Mon, 04 May 2026 10:54:38 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-04T21:02:33.888858"
+  },
+  "2779439f9762": {
+    "id": "2779439f9762",
+    "title": "Material authoring software InstaMAT gets native Linux edition",
+    "link": "https://www.cgchannel.com/2026/05/instamat-and-instalod-now-support-linux-natively/",
+    "summary": "Linux-based VFX and games studios get new alternatives to the Substance 3D tools. Includes the Blender and Maya integrations.",
+    "published": "Mon, 04 May 2026 08:19:31 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-04T21:02:33.888881"
+  },
+  "77551b4ed0ec": {
+    "id": "77551b4ed0ec",
+    "title": "Anthropic’s patronage of Blender downgraded to one-off donation",
+    "link": "https://www.cgchannel.com/2026/05/anthropics-patronage-of-blender-downgraded-to-one-off-donation/",
+    "summary": "AI firm's controversial contribution to the Blender Development Fund becomes a single donation; funding process to be 'strengthened'.",
+    "published": "Mon, 04 May 2026 07:03:51 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-04T21:02:33.888895"
+  },
+  "dd65b011f3fd": {
+    "id": "dd65b011f3fd",
+    "title": "Get Unity modeling, texturing and rigging tool UModeler X free",
+    "link": "https://www.cgchannel.com/2026/05/unity-modeling-texturing-and-rigging-tool-umodeler-x-is-now-free/",
+    "summary": "Popular alternative to ProBuilder for modeling, texturing and rigging 3D assets directly inside the Unity Editor is now available free.",
+    "published": "Sun, 03 May 2026 06:00:00 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-04T21:02:33.888908"
+  },
+  "bb0acfca9534": {
+    "id": "bb0acfca9534",
+    "title": "ArcBrush is a free node-based image editor and texture editor",
+    "link": "https://www.cgchannel.com/2026/05/arcbrush-is-a-free-node-based-image-editor-and-texture-editor/",
+    "summary": "Check out designer Albert Omoss's intriguing node-based image editor, pitched as a Photoshop alternative for game art and texture processing.",
+    "published": "Fri, 01 May 2026 08:13:22 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-04T21:02:33.888920"
+  },
+  "e940d6247002": {
+    "id": "e940d6247002",
+    "title": "I built a Gaming DNA platform for players and game industry professionals — looking for feedback",
+    "link": "https://gamedev.net/forums/topic/719923-i-built-a-gaming-dna-platform-for-players-and-game-industry-professionals-looking-for-feedback",
+    "summary": "Hi everyone, I’m sharing this here because Good Gamer’s Database is a web platform for players, indie developers, and game industry professionals, and I’d love to get feedback from the GameDev.net community. Website: https://www.ggdb.pro The idea behind GGDB is simple: Instead of only listing your games, GGDB turns your gaming history into a structured Gaming DNA profile. Players can bring together their game history from platforms like Steam, PlayStation, Xbox, and Game Pass , so they do not have to manually add every game one by one. This makes it easier to organize, understand, and share their gaming history from …",
+    "published": "Mon, 04 May 2026 21:01:35 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-04T21:02:43.599280"
+  },
+  "692af832e0c4": {
+    "id": "692af832e0c4",
+    "title": "Meet the indie studios funding other indie studios",
+    "link": "https://www.gamedeveloper.com/business/meet-the-indie-studios-funding-other-indie-studios",
+    "summary": "These teams are using their success to fund more indie games.",
+    "published": "Mon, 04 May 2026 17:15:07 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-04T21:02:46.098538"
   }
 }
