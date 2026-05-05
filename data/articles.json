@@ -3738,5 +3738,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-04T21:02:46.098538"
+  },
+  "951b6b571533": {
+    "id": "951b6b571533",
+    "title": "Unreality Layers",
+    "link": "https://gamedev.net/blogs/entry/2297903-unreality-layers",
+    "summary": "Material Layers is a builder for creating complex materials from multiple layers that stack on top of one another.,, Each layer adds color, texture, or an effect, and we easily control their combination - adjusting order and blending intensity. We configured the material so a layer can be applied to different objects, both with our seamless world material and with an atlas material. And if a layer is not used, we disable its computation, which saves resources and improves performance.,, This lets you quickly create beautiful, realistic surfaces, adding details from our library like dirt, rust, and scratches without changing …",
+    "published": "Tue, 05 May 2026 19:58:14 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-05-05T21:01:55.004314"
+  },
+  "21842bad863f": {
+    "id": "21842bad863f",
+    "title": "My 2D Isometric RPG Project",
+    "link": "https://gamedev.net/forums/topic/719920-my-2d-isometric-rpg-project",
+    "summary": "Hello. I’ve been developing this game project for 8 months using C++ in Visual Studio. I started working on it inspired by games like Baldur’s Gate, Diablo, Arcanum, and Divine Divinity. I’d really appreciate it if you could share your thoughts.",
+    "published": "Tue, 05 May 2026 19:49:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-05T21:01:55.004336"
+  },
+  "12044b3a0c08": {
+    "id": "12044b3a0c08",
+    "title": "Vfx Assets for Unreal engine",
+    "link": "https://realtimevfx.com/t/vfx-assets-for-unreal-engine/30870",
+    "summary": "Laser Scan VFX System – Modular Niagara Effect with Customizable Parameters | Fab https://www.fab.com/listings/8551cb71-f8e7-45b5-8efa-8e4c0a46b45c laser vfx ue5 #DailyAssets realtimevfx 1 post - 1 participant Read full topic",
+    "published": "Tue, 05 May 2026 16:08:56 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-05-05T20:57:20.167494"
+  },
+  "97a7ce6fb079": {
+    "id": "97a7ce6fb079",
+    "title": "Valve to restock Steam Controller after it sells out in a day",
+    "link": "https://www.gamedeveloper.com/business/valve-to-restock-steam-controller-after-it-sells-out-in-a-day",
+    "summary": "The company says the controller 'ran out faster than we anticipated.'",
+    "published": "Tue, 05 May 2026 16:36:03 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-05T21:01:59.460133"
+  },
+  "132c1e934ac1": {
+    "id": "132c1e934ac1",
+    "title": "New Remedy CEO wants to preserve small budgets and break into Asia",
+    "link": "https://www.gamedeveloper.com/production/new-remedy-ceo-wants-to-protect-modest-budgets-and-break-into-asia",
+    "summary": "With Control Resonant, Remedy boss Jean-Charles Gaudechon said the studio has done well to 'build a triple-A game on a relatively small budget.'",
+    "published": "Tue, 05 May 2026 15:04:15 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-05T21:01:59.460155"
+  },
+  "a83e2eae7597": {
+    "id": "a83e2eae7597",
+    "title": "Metacore restructuring to the tune of 'up to 160' redundancies",
+    "link": "https://www.gamedeveloper.com/business/metacore-planning-restructuring-that-could-affect-up-to-160-roles",
+    "summary": "Brawl Stars studio and major shareholder Supercell to acquire the company.",
+    "published": "Tue, 05 May 2026 15:03:50 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-05T21:01:59.460166"
+  },
+  "1b52eccb3b6d": {
+    "id": "1b52eccb3b6d",
+    "title": "Kinforge dev Seeker Entertainment is furloughing staff",
+    "link": "https://www.gamedeveloper.com/business/kinforge-dev-seeker-entertainment-is-furloughing-staff",
+    "summary": "The studio is exploring fundraising opportunities while encouraging staff to be 'aggressive' with their job hunts.",
+    "published": "Tue, 05 May 2026 13:57:41 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-05T21:01:59.460177"
+  },
+  "c6f4f64d16bd": {
+    "id": "c6f4f64d16bd",
+    "title": "GameStop tables $55.5 billion takeover bid for eBay",
+    "link": "https://www.gamedeveloper.com/business/gamestop-tables-55-5-billion-takeover-bid-for-ebay",
+    "summary": "The U.S. video game retailer said the deal will require $20 billion in debt financing.",
+    "published": "Tue, 05 May 2026 12:08:16 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-05T21:01:59.460188"
   }
 }
