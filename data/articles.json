@@ -3848,5 +3848,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-06T10:16:10.431910"
+  },
+  "130e697ae135": {
+    "id": "130e697ae135",
+    "title": "Autodesk launches free online kitbashing tool Project Falcon",
+    "link": "https://www.cgchannel.com/2026/05/autodesk-launches-free-kitbashing-tool-project-falcon/",
+    "summary": "Browser-based tool lets you create models from readymade 3D parts and export them in USD format to apps like Blender and Maya.",
+    "published": "Wed, 06 May 2026 09:50:28 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-06T21:06:18.468687"
+  },
+  "7f25ed57943f": {
+    "id": "7f25ed57943f",
+    "title": "Character Control Rig generates rigs for MetaHumans in Blender",
+    "link": "https://www.cgchannel.com/2026/05/character-control-rig-generates-rigs-for-metahumans-in-blender/",
+    "summary": "Poly Hammer's add-on creates Rigify rigs for MetaHuman characters imported into Blender, and retargets animation from UE5.",
+    "published": "Wed, 06 May 2026 08:32:12 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-05-06T21:06:18.468709"
+  },
+  "bf43fd9d06f7": {
+    "id": "bf43fd9d06f7",
+    "title": "Sneak peek: NeXus for Blender",
+    "link": "https://www.cgchannel.com/2026/05/sneak-peek-nexus-for-blender/",
+    "summary": "Updated: Insydium's popular particle and fluid simulation tool is coming to Blender. Check out its features and likely price and release date.",
+    "published": "Tue, 05 May 2026 09:00:43 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-06T21:06:18.468722"
+  },
+  "795bc6c9cbc3": {
+    "id": "795bc6c9cbc3",
+    "title": "Tried to make my AI smarter… and it somehow became dumber 😂",
+    "link": "https://gamedev.net/blogs/entry/2297907-tried-to-make-my-ai-smarter-and-it-somehow-became-dumber",
+    "summary": "A few days ago, I decided to level up the enemy AI in our game. I wanted them to intelligently decide when to: Link - https://www.youtube.com/shorts/r6rXx5WZ-_4 - Charge toward the player - Take cover - Peek and shoot - And smoothly cycle through these decisions The result? Pure chaos (video attached 👇) While it looked hilarious, it was a classic reminder of how tricky game AI can be. When designing behavior with finite state machines, it’s easy to focus only on the individual states while overlooking two critical things: - What happens between state transitions - What happens when the …",
+    "published": "Wed, 06 May 2026 16:49:17 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-06T21:10:58.106940"
+  },
+  "80d18c2233b3": {
+    "id": "80d18c2233b3",
+    "title": "EA boasts record year thanks to Battlefield 6 and EA Sports FC",
+    "link": "https://www.gamedeveloper.com/business/ea-boasts-record-year-thanks-to-battlefield-6-and-ea-sports-fc",
+    "summary": "EA is touting net bookings of $8 billion in FY26, a nine percent rise year-over-year.",
+    "published": "Wed, 06 May 2026 14:10:45 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-06T21:11:00.689295"
+  },
+  "f3e639f77986": {
+    "id": "f3e639f77986",
+    "title": "Former LucasArts, Ubisoft veteran Clint Hocking founds new studio",
+    "link": "https://www.gamedeveloper.com/business/former-lucasarts-ubisoft-veteran-clint-hocking-founds-new-studio",
+    "summary": "Build Machine Games wants to make 'socially relevant games that challenge players' perspectives.'",
+    "published": "Wed, 06 May 2026 13:50:41 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-06T21:11:00.689315"
+  },
+  "bfbc29f07fc5": {
+    "id": "bfbc29f07fc5",
+    "title": "EVE Online studio CCP Games turns independent and rebrands as Fenris Creations",
+    "link": "https://www.gamedeveloper.com/business/eve-online-studio-ccp-games-turns-independent-and-rebrands-as-fenris-creations",
+    "summary": "Google DeepMind has also taken a minority stake in the Icelandic studio and will produce an offline version of EVE Online.",
+    "published": "Wed, 06 May 2026 13:49:19 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-06T21:11:00.689328"
+  },
+  "34126d6fb50e": {
+    "id": "34126d6fb50e",
+    "title": "CWA Canada president says Saudi buyout of EA should trigger 'virtually every alarm bell'",
+    "link": "https://www.gamedeveloper.com/business/union-president-says-saudi-buyout-of-ea-should-trigger-virtually-every-alarm-bell-",
+    "summary": "Carmel Smyth has called on the Canadian government to scrutinize the take-private in the interest of national security.",
+    "published": "Wed, 06 May 2026 11:59:58 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-06T21:11:00.689340"
   }
 }
