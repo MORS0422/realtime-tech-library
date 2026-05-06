@@ -3818,5 +3818,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-05T21:01:59.460188"
+  },
+  "336992a7b72b": {
+    "id": "336992a7b72b",
+    "title": "Seeking critical feedback of a tool idea for 2d sprite lighting. (not promoting)",
+    "link": "https://gamedev.net/forums/topic/719933-seeking-critical-feedback-of-a-tool-idea-for-2d-sprite-lighting-not-promoting",
+    "summary": "I'm wondering if anyone thinks this would come in handy for any 2d game devs? I have been working on a tool to assist with asset creation for 2d tile sprites for my own requirements (good performance , low end hardware and dynamic lighting) and was wondering if any other devs may find use in this tool? I have seen existing tools for baking static shadows and baking normal information but haven't seen anything existing for self shadowed lighting. Attached is a gif running on low end hardware: It can currently bake soft shadows similar to the above gif or …",
+    "published": "Tue, 05 May 2026 23:46:57 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-06T10:16:08.257356"
+  },
+  "7b746d05874a": {
+    "id": "7b746d05874a",
+    "title": "Remote - VFX Freelance UE5 - PC Game",
+    "link": "https://realtimevfx.com/t/remote-vfx-freelance-ue5-pc-game/30873",
+    "summary": "Hi, I’m Wendy from DCI company. We are looking for freelancer to work on VFX for us. The game will be on PC, by UE. We have some reference to stylized VFX that match our expectation on quality of work as below (pls send me messages if your are interested 1 post - 1 participant Read full topic",
+    "published": "Wed, 06 May 2026 01:38:45 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-05-06T10:11:32.922095"
+  },
+  "7ee7fcd7caee": {
+    "id": "7ee7fcd7caee",
+    "title": "Xbox appoints new internal leaders and ditches Copilot AI",
+    "link": "https://www.gamedeveloper.com/business/xbox-appoints-new-leaders-and-ditches-copilot-ai",
+    "summary": "Xbox CEO Asha Sharma said Copilot does not 'align' with where the division is heading.",
+    "published": "Wed, 06 May 2026 10:01:06 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-06T10:16:10.431910"
   }
 }
