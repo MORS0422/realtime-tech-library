@@ -3998,5 +3998,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-07T21:05:00.315378"
+  },
+  "de33065d7a68": {
+    "id": "de33065d7a68",
+    "title": "Royal Render at 25: the industry’s artist-first render manager",
+    "link": "https://www.cgchannel.com/2026/05/royal-render-at-25-building-the-industrys-artist-first-render-manager/",
+    "summary": "[Sponsored] Discovery why Binary Alchemy created its intelligent render-management tool - and what's new in its anniversary update.",
+    "published": "Fri, 08 May 2026 08:11:09 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-08T09:11:36.615576"
+  },
+  "eb99ab75e865": {
+    "id": "eb99ab75e865",
+    "title": "Motion design tool Autograph is now free to studios",
+    "link": "https://www.cgchannel.com/2026/05/motion-design-tool-autograph-is-now-free-to-studios/",
+    "summary": "Both individual artists and studios can now use Maxon's USD-based motion design and VFX software on commercial projects for free.",
+    "published": "Thu, 07 May 2026 14:00:13 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-08T09:11:36.615599"
+  },
+  "577fcc289063": {
+    "id": "577fcc289063",
+    "title": "Maxon adds hex tiling for textures to Redshift 2026.6",
+    "link": "https://www.cgchannel.com/2026/05/maxon-adds-hex-tiling-for-textures-to-redshift-2026-6/",
+    "summary": "Check out the new features in the GPU production renderer, including the new hex tiling system to minimize visible repeats in textures.",
+    "published": "Thu, 07 May 2026 09:14:23 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-08T09:11:36.615612"
+  },
+  "825542415f78": {
+    "id": "825542415f78",
+    "title": "MARINE2D – Survival/action with a reworked tutorial, less lag, and a ton of tweaks (Patch 1.02 Beta)",
+    "link": "https://gamedev.net/forums/topic/719936-marine2d-survivalaction-with-a-reworked-tutorial-less-lag-and-a-ton-of-tweaks-patch-102-beta",
+    "summary": "Hello everyone, developers! I'm happy to announce the official launch of the public beta of my game MARINE2D, along with Patch 1.02Beta, which significantly improves the initial experience and performance. 🔗 Link to the beta on itch.io : https://strategymadness.itch.io/marine2d 🕹️ What is Marine2D? An action/survival game where you explore caves and complexes, battle alien units, and manage resources to reach the end of each Run. Its unique features include a procedurally generated map and a system of side missions, as well as an online Leaderboard to compete with other players. Target audience: players who love challenge and replayability, office workers, …",
+    "published": "Fri, 08 May 2026 07:16:50 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-08T09:16:18.607492"
   }
 }
