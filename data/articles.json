@@ -4038,5 +4038,105 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-08T09:16:18.607492"
+  },
+  "600c76a56178": {
+    "id": "600c76a56178",
+    "title": "CRM64Pro GDK v0.17.0 Major GUI update",
+    "link": "https://gamedev.net/blogs/entry/2297915-crm64pro-gdk-v0170-major-gui-update",
+    "summary": "CRM64Pro GDK v0.17.0 is now available, and this release is centered on a broad refactor and expansion of the GUI system. After the networking work in v0.16.0, this version moves the same kind of cleanup and modernization into the user-interface layer. The goal was not only to add more widgets, but also to make GUI code easier to inspect, easier to drive from tools, and easier to style consistently across games, editors and internal utilities. The old GUI API had grown organically over time. It worked, but too much behavior lived on the common Widget base class, and several controls …",
+    "published": "Fri, 08 May 2026 18:18:25 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-08T20:57:43.630170"
+  },
+  "e1a918ef27c9": {
+    "id": "e1a918ef27c9",
+    "title": "Simon and Friends - Oldshool destructible terrain artillery shooter with modern mechanics",
+    "link": "https://gamedev.net/forums/topic/719926-simon-and-friends-oldshool-destructible-terrain-artillery-shooter-with-modern-mechanics",
+    "summary": "SIMON AND FRIENDS is building upon the great classics of the turn based artillery shooter genre, while seamlessly weaving in more modern gaming mechanics to provide a familiar yet unique experience CLASSIC FEATURES AND MECHANICS Hand-painted 2D art Turn-based local or online hotseat play Unit elimination deathmatch Wide variety of weapons and utilities Realistic wind, gravity and collision physics (wind pending implementation) Destructible terrain Battlefield hazards (pending implementation) Airdrop supplements NEW FEATURES Unique teams - choose one of the four distinct factions, each with their own strengths and tactical playstyles (2/4 currently available) Unique units - each team's unit is …",
+    "published": "Fri, 08 May 2026 20:31:05 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-08T20:57:43.630215"
+  },
+  "d4ab932a74d6": {
+    "id": "d4ab932a74d6",
+    "title": "Seeking feedback and critiques on Lux VFX",
+    "link": "https://realtimevfx.com/t/seeking-feedback-and-critiques-on-lux-vfx/30894",
+    "summary": "Hello! I’m new. Learning real time vfx for the past 2 months. Decided to make Lux abilities from League of legends. Would love some feedback or critiques. This is the basic attack. Watch 2026-05-08 13-50-48 | Streamable 1 post - 1 participant Read full topic",
+    "published": "Fri, 08 May 2026 10:59:56 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-05-08T20:53:07.135355"
+  },
+  "56d841abb562": {
+    "id": "56d841abb562",
+    "title": "Etheral AOE Stun - Looking for feedback to help polish further",
+    "link": "https://realtimevfx.com/t/etheral-aoe-stun-looking-for-feedback-to-help-polish-further/30892",
+    "summary": "Hi everyone! I’m looking for some feedback on an effect I did recently so i can push it further to put in my portfolio. Would really appreciate the advice from the talented vfx artists out there! For some context, im going for a moba ultimate style effect. An AOE stun with an ethereal ghostly theme. Thanks - YouTube 1 post - 1 participant Read full topic",
+    "published": "Fri, 08 May 2026 10:32:44 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-05-08T20:53:07.135395"
+  },
+  "a887ddb1fe08": {
+    "id": "a887ddb1fe08",
+    "title": "Sketch #: Winners and Badges!",
+    "link": "https://realtimevfx.com/t/sketch-winners-and-badges/30891",
+    "summary": "WINNERS AND BADGES Our April’s Silly edition is done! In 1st place @EliasAyberk Second Place @Valeriia Congrats to the winners! And thanks to all our participants. It’s a lot of joy seeing your works on those challenges! 1 post - 1 participant Read full topic",
+    "published": "Fri, 08 May 2026 10:28:41 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-05-08T20:53:07.135424"
+  },
+  "0568b07c3758": {
+    "id": "0568b07c3758",
+    "title": "PlayStation sees AI as a 'powerful tool,' teams including Naughty Dog, San Diego Studio already using it",
+    "link": "https://www.gamedeveloper.com/business/playstation-sees-ai-as-a-powerful-tool-teams-including-naughty-dog-san-diego-studio-already-using-it",
+    "summary": "'Within our studios, game developers are automating repetitive workflows, improving software engineering productivity, and accelerating areas like quality assurance, 3D modeling, and animation through new, AI-powered tools.'",
+    "published": "Fri, 08 May 2026 18:44:43 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-08T20:57:45.842120"
+  },
+  "109d0f589abe": {
+    "id": "109d0f589abe",
+    "title": "PlayStation 5 hardware sales down amid price hikes and memory shortage",
+    "link": "https://www.gamedeveloper.com/business/playstation-5-hardware-sales-down-amid-price-hikes-and-memory-shortage",
+    "summary": "It seems play has some limits.",
+    "published": "Fri, 08 May 2026 15:34:29 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-08T20:57:45.842139"
+  },
+  "dcc5893a840a": {
+    "id": "dcc5893a840a",
+    "title": "2K makes layoffs at Project Ethos developer 31st Union",
+    "link": "https://www.gamedeveloper.com/business/2k-lays-off-staff-at-31st-union-working-on-project-ethos",
+    "summary": "The free-to-play shooter is still in the works, despite an undisclosed number of reductions.",
+    "published": "Fri, 08 May 2026 14:30:55 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-08T20:57:45.842150"
+  },
+  "73a7a2cfe610": {
+    "id": "73a7a2cfe610",
+    "title": "Switch 2 outpacing original Switch after nearing 20 million sales",
+    "link": "https://www.gamedeveloper.com/business/switch-2-outpacing-original-switch-after-nearing-20-million-sales",
+    "summary": "Nintendo said the March launch of Pokemon Pokopia drove hardware sales towards the end of the fiscal year.",
+    "published": "Fri, 08 May 2026 13:49:52 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-08T20:57:45.842161"
+  },
+  "044527902093": {
+    "id": "044527902093",
+    "title": "GameStop wants eBay, Nintendo confirms Switch 2 price hike, and union boss says EA buyout is a national security risk - Patch Notes #51",
+    "link": "https://www.gamedeveloper.com/business/gamesstop-wants-ebay-nintendo-confirms-switch-2-price-hike-and-union-boss-says-ea-buyout-is-a-national-security-risk-patch-notes-51",
+    "summary": "Plus: Xbox ditches Copilot AI and layoffs at 2K studio 31st Union.",
+    "published": "Fri, 08 May 2026 11:00:42 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-08T20:57:45.842170"
   }
 }
