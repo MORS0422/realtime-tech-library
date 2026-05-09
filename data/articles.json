@@ -4138,5 +4138,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-08T20:57:45.842170"
+  },
+  "9f1fb2b707d0": {
+    "id": "9f1fb2b707d0",
+    "title": "Tutorial: Claymation in ZBrush",
+    "link": "https://www.cgchannel.com/2026/05/tutorial-claymation-in-zbrush/",
+    "summary": "Discover a ground-breaking workflow for creating claymation-style animation digitally with The Gnomon Workshop's tutorial.",
+    "published": "Sat, 09 May 2026 06:00:07 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-09T09:13:11.835630"
+  },
+  "ceaea89f2bf8": {
+    "id": "ceaea89f2bf8",
+    "title": "How to use a well defined array as function parameter in C?",
+    "link": "https://gamedev.net/forums/topic/719938-how-to-use-a-well-defined-array-as-function-parameter-in-c",
+    "summary": "It's raining outside, it's going to be a long cold weekend and the dog is tired of pretending to understand what I'm saying.... Can't complain of the sound track though, Cool Breeze by The Jeremy Spencer Band is current playing. So I thought of picking your brains a title if you don't mind. In C++ I can do this kind of shenanigans: void TheClass::reallyCoolMethod (const unsigned (¬_very_important)[4] = { }) { } The compiler will understand that the method expects an array of size 4 and if none is provided, it will use a static zero initialized array. In C …",
+    "published": "Sat, 09 May 2026 05:20:14 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-09T09:17:49.195578"
+  },
+  "00a3ea76980a": {
+    "id": "00a3ea76980a",
+    "title": "Release of Shield / Paladin / Mage Series on Unreal Engine Fab",
+    "link": "https://realtimevfx.com/t/release-of-shield-paladin-mage-series-on-unreal-engine-fab/30898",
+    "summary": "Hey everyone! I am pleased to announce that the Shield , Paladin , and Mage combat VFX systems are now officially available on Fab . These systems are production-ready kits developed to provide professional-grade visual effects and integrated logic for Unreal Engine 5.4+. Featured Series Shield Series : Comprehensive defensive VFX and shielding systems. Paladin Tactics : Divine-themed combat effects with integrated skill logic. MAGE Tactics 1 &amp; 2 : Advanced magical systems featuring homing projectiles, Niagara ribbon-based lasers, and floor destruction. Key Technical Highlights 20 Years of Expertise : Developed by a senior VFX artist and Unreal Authorized Instructor (UAI) . 100% Niagara Native : Built exclusively for UE 5.4+ to ensure maximum stability and performance. Complete Skill Systems : Includes 17+ Blueprints per pack, covering the full combat cycle from casting to impact. Production-Ready Optimization : Designed to maintain high frame rates even during intense combat sequences. Explore on Fab : Shield Series https://www.fab.com/portal/listings/6e754905-bcd3-4bea-b870-d1c9c55f7efc/preview - YouTube Paladin Tactics https://www.fab.com/portal/listings/b973c139-ded1-4732-971b-431c027393ee/preview - YouTube MAGE Tactics 1 &amp; 2 https://www.fab.com/portal/listings/8857d4d3-d4da-40f4-9cf9-20e5545bf6c1/preview - YouTube MAGE Tactics 2 https://www.fab.com/portal/listings/f60a018f-66ac-4ab4-ae87-53282dfb44d6/preview - YouTube Featured Series &amp; Exclusive Rinban Academy Deals Get exclusive discounts only at Rinban Academy! Save anywhere from 20,000 KRW up to 90,000 KRW when you purchase through the links below. Paladin Tactics: Combat VFX &amp; Skill System Link : 린반 아카데미 Shield Tactics: VFX Set Link : 린반 아카데미 Musa Tactics: Combat VFX &amp; Skill System Link : 린반 아카데미 MAGE Tactics 1 린반 아카데미 MAGE Tactics 12 린반 아카데미 Purchase Information Rinban Academy (Special ₩20,000 Discount Available): MAGE Tactics 1: 린반 아카데미 MAGE Tactics 2: 린반 아카데미 1 post - 1 participant Read full topic",
+    "published": "Sat, 09 May 2026 00:29:05 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-05-09T09:13:13.491849"
   }
 }
