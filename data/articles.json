@@ -4188,5 +4188,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-10T20:45:56.081574"
+  },
+  "5d42e28ed654": {
+    "id": "5d42e28ed654",
+    "title": "Why did no one tell me about how useful the is into making games?",
+    "link": "https://gamedev.net/forums/topic/719944-why-did-no-one-tell-me-about-how-useful-the-is-into-making-games",
+    "summary": "Hey everyone, I've been experimenting a lot with using AI in my game dev workflow — specifically crafting prompts that actually produce useful results for game design, worldbuilding, art direction, and more. After a lot of trial and error I put together a collection on my website, but wanted to share a few examples here first. ───────────────────────── Text prompts (ChatGPT / Claude) ───────────────────────── 🎮 Enemy AI behavior: \"Design a boss enemy for a dark fantasy RPG. Give it 3 phases, each with a distinct attack pattern and a visual cue that telegraphs the next phase. Include a weakness the player …",
+    "published": "Mon, 11 May 2026 10:26:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-11T11:00:34.090979"
+  },
+  "9c29982a2910": {
+    "id": "9c29982a2910",
+    "title": "New on ArtStation: Showcasing Pro Artists, New Reactions & Message Request System",
+    "link": "https://magazine.artstation.com/2026/05/new-on-artstation-showcasing-pro-artists-new-reactions-message-request-system/",
+    "summary": "We’ve rolled out a series of updates focused on better showcasing Pro artists and improving how you interact and connect with projects and artists in ArtStation. Here’s what’s new: Spotlighting Pro Artists Across ArtStation We’re introducing new ways to highlight work from our ArtStation Pro community across the site. Pro Spotlight panel You’ll now see [&#8230;] The post New on ArtStation: Showcasing Pro Artists, New Reactions &amp; Message Request System appeared first on ArtStation Magazine .",
+    "published": "Wed, 06 May 2026 16:12:14 +0000",
+    "source_name": "ArtStation Magazine",
+    "category": "ta-render",
+    "fetched_at": "2026-05-11T10:55:58.569483"
   }
 }
