@@ -4208,5 +4208,45 @@
     "source_name": "ArtStation Magazine",
     "category": "ta-render",
     "fetched_at": "2026-05-11T10:55:58.569483"
+  },
+  "3f983a73d8dd": {
+    "id": "3f983a73d8dd",
+    "title": "Drag[en]gine 1.32 Released",
+    "link": "https://gamedev.net/blogs/entry/2297924-dragengine-132-released",
+    "summary": "Drag[en]gine 1.32 Release Download Drag[en]gine 1.32 This release contains the following main additions besides other improvements and fixes: Added audio capture support (user microphone) and audio analyzer support (synthesizer module). This enables real-time audio analysis including MFCC, mel energy and spectral peaks. Typically used for lip sync. DragonScript: Added lip sync classes for real-time microphone-driven lip synchronization using audio capture and analysis. WebM: Added support for Opus audio tracks. OpenGL: Added transparent shadows using dithering. Allows single shadow texture mapping with transparency avoiding the need for multi-layer shadow casting. Added EGL support for PC. Uses vendor neutral OpenGL (libOpenGL / …",
+    "published": "Mon, 11 May 2026 13:42:30 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-11T21:17:09.113685"
+  },
+  "80eef56ec01c": {
+    "id": "80eef56ec01c",
+    "title": "Is it possible to hide a function in C? (extern a function declaration)",
+    "link": "https://gamedev.net/forums/topic/719945-is-it-possible-to-hide-a-function-in-c-extern-a-function-declaration",
+    "summary": "Last one was fun, lets see how long it lasts :D Lets say I create a non static function that only exists in a source file, how can I extern it in another source file? Yes yes, I can just tell the user not to touch it and put in a header file, but this one would be very bad to use and VERY hard to debug once gone wrong. All the OpenGl stuff that require binding is currently being handled by local atomic flags at my APIs that interface with the specific areas, for instance, the ID of the …",
+    "published": "Mon, 11 May 2026 19:52:07 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-11T21:17:09.113715"
+  },
+  "7ebb72b262bc": {
+    "id": "7ebb72b262bc",
+    "title": "Alex Oxspring and The Stupendium found new studio Stupendium Softworks",
+    "link": "https://www.gamedeveloper.com/business/stupendium-softworks-launched-new-studio-from-alex-oxspring-and-the-stupendium",
+    "summary": "&quot;Off-color romance laced with biting political commentary is only one flavor we offer.&quot;",
+    "published": "Mon, 11 May 2026 16:32:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-11T21:17:12.055726"
+  },
+  "fe24b08eaf16": {
+    "id": "fe24b08eaf16",
+    "title": "Double Fine petitions to unionize",
+    "link": "https://www.gamedeveloper.com/business/double-fine-petitions-to-unionize",
+    "summary": "All 'regular part-time and full-time employees' at the studio will be included.",
+    "published": "Mon, 11 May 2026 16:11:33 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-11T21:17:12.055743"
   }
 }
