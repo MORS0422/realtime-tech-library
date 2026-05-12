@@ -4248,5 +4248,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-11T21:17:12.055743"
+  },
+  "9983a634c53d": {
+    "id": "9983a634c53d",
+    "title": "MeshCache Studio is a fast, flexible viewer for 3D mesh caches",
+    "link": "https://www.cgchannel.com/2026/05/meshcache-studio-is-a-fast-flexible-viewer-for-animation-caches/",
+    "summary": "Visualize, review and convert animation and simulation caches with Jasper Brekelmans' new tool, currently free in public beta.",
+    "published": "Mon, 11 May 2026 09:57:48 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-12T10:26:54.960978"
+  },
+  "44b75368f0f3": {
+    "id": "44b75368f0f3",
+    "title": "New to VFX and I need some help!",
+    "link": "https://realtimevfx.com/t/new-to-vfx-and-i-need-some-help/30908",
+    "summary": "Hello! I need some help following this tutorial from Gabriel Aguiar. For this beam he used a Fresnel material and I followed basically everything he was doing and saying but when applying the material my beam has that translucent effect still in the middle (not the little bright beam) while his beam only has the bright outline and I dont know how to fix this. https://www.youtube.com/watch?v=NbbFytz-JDk this is the link to the tutorial. 1 post - 1 participant Read full topic",
+    "published": "Tue, 12 May 2026 09:26:26 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-05-12T10:26:57.198067"
   }
 }
