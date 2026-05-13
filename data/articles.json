@@ -4358,5 +4358,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-12T21:18:14.253216"
+  },
+  "095efb596f20": {
+    "id": "095efb596f20",
+    "title": "How do I find a programmer to build  my tactical shooter design?",
+    "link": "https://gamedev.net/forums/topic/719949-how-do-i-find-a-programmer-to-build-my-tactical-shooter-design",
+    "summary": "I'm a complete beginner in coding. I have finished a 50‑page game design document for a tactical stealth‑action shooter (Zero Protocol). It has 50 missions, enemy ranks, fortress maps, etc. I cannot code. I want to find a Unity or Unreal developer to build a vertical slice (first mission) as a revenue‑share partnership. I have tried posting on GDHub and Frame One, but no luck yet. What are the best places or strategies to find a programmer who is open to revenue share? Also, how should I present my design to attract serious developers? Any advice would be helpful. Thank …",
+    "published": "Wed, 13 May 2026 19:20:47 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-05-13T21:26:26.643249"
+  },
+  "c1751645d7fc": {
+    "id": "c1751645d7fc",
+    "title": "Time Games' opening lineup includes a fantasy prediction market game",
+    "link": "https://www.gamedeveloper.com/business/time-launches-its-own-nyt-games-equivalent",
+    "summary": "The fantasy prediction market game doesn't involve real-world money, but it is powered by 'real-time data.'",
+    "published": "Wed, 13 May 2026 17:35:28 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-13T21:26:29.869404"
+  },
+  "fa3749fe9747": {
+    "id": "fa3749fe9747",
+    "title": "Last Flag dev Night Street Games is laying off staff",
+    "link": "https://www.gamedeveloper.com/business/last-flag-dev-night-street-games-is-laying-off-staff",
+    "summary": "The Imagine Dragons-funded project did not achieve the 'financial success' the team anticipated.",
+    "published": "Wed, 13 May 2026 15:22:03 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-13T21:26:29.869415"
   }
 }
