@@ -4388,5 +4388,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-13T21:26:29.869415"
+  },
+  "60cb01b72e4a": {
+    "id": "60cb01b72e4a",
+    "title": "Buying a new PC",
+    "link": "https://gamedev.net/forums/topic/719810-buying-a-new-pc",
+    "summary": "Hi everyone, I will be starting my first year in college in game development and want to buy the basic configuration of this PC: https://fenn.systems/build/elemnt So a 9600X, 32GB DDR5 and an RTX 5060. Is this sufficient for the next 3 years or will i regret not spending a bit more? Feedback is appreciated!",
+    "published": "Thu, 14 May 2026 06:22:12 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-14T10:14:42.862330"
   }
 }
