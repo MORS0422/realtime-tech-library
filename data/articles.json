@@ -4508,5 +4508,65 @@
     "source_name": "CG Channel",
     "category": "ta",
     "fetched_at": "2026-05-15T10:15:55.187686"
+  },
+  "5870397b16ea": {
+    "id": "5870397b16ea",
+    "title": "Game Dev Digest Issue #331 - AI Opinions, Grass System, How Tos, and more",
+    "link": "https://gamedev.net/blogs/entry/2297935-game-dev-digest-issue-331-ai-opinions-grass-system-how-tos-and-more",
+    "summary": "This article was originally published on GameDevDigest.com Enjoy! Unity Design Patterns - Interactive guide to design patterns in Unity and C#. unitydesignpatterns.com Unity AI Assistant review: not ready for real work - Hands-on review of Unity AI Assistant in open beta. Tripo asset generation impressed me, but world generation and a drivable car both failed. darkounity.com Unity's blind spot in the AI era - I saw a discussion recently saying: \"the best engine is the one you know best\" Look: I kinda agree. But only on the short term. thegamedev.guru Architecting Albion Online: Building a PvP MMO to scale across …",
+    "published": "Fri, 15 May 2026 13:44:56 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-15T20:59:53.466508"
+  },
+  "f56cb21d827f": {
+    "id": "f56cb21d827f",
+    "title": "Line-Plane Question",
+    "link": "https://gamedev.net/forums/topic/719959-line-plane-question",
+    "summary": "Hi guys, I want to compute the points on a 3D line that are a specified (not necessarily closest) distance to a plane. I really just need the parametric value of the first point so that I can find it with P1 + t0 * (P2 - p1). I hope someone can help. Thanks.",
+    "published": "Fri, 15 May 2026 20:51:36 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-15T20:59:53.466530"
+  },
+  "f34be5972b59": {
+    "id": "f34be5972b59",
+    "title": "Smart VAT - Spawn VAT Assets with a Particle System and more!",
+    "link": "https://realtimevfx.com/t/smart-vat-spawn-vat-assets-with-a-particle-system-and-more/30927",
+    "summary": "Hello fellow VFX artists! I just wanted to advertise a tool I created for converting animations to VAT for Unity. There’s also an option for exporting directly to a particle system, so if you’ve got some kind of vampire that shoots animated magical bats, this one is for you. Unity Asset Store Smart VAT | Animation Tools | Unity Asset Store Use the Smart VAT tool from Against All Bugs on your next project. Find this &amp; more animation tools on the Unity Asset Store. Don’t hesitate to ask me question and leave some feedback. Here’s a video tutorial on how to use the tool specifically for particle systems: - YouTube 1 post - 1 participant Read full topic",
+    "published": "Fri, 15 May 2026 19:28:30 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-05-15T20:55:13.527300"
+  },
+  "ae5b46dbc162": {
+    "id": "ae5b46dbc162",
+    "title": "Stories from making Marvel Rivals",
+    "link": "https://www.gamedeveloper.com/production/stories-from-making-marvel-rivals",
+    "summary": "NetEase Games Publishing and Marketing Lead Yachen Bian and Marvel Games Executive Producer Danny Koo discuss the experience of making Marvel Rivals.",
+    "published": "Fri, 15 May 2026 14:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-15T20:59:56.430633"
+  },
+  "a45bfddf1859": {
+    "id": "a45bfddf1859",
+    "title": "Subnautica 2 has surpassed 2 million sales in 12 hours",
+    "link": "https://www.gamedeveloper.com/business/subnautica-2-has-surpassed-2-million-sales-in-12-hours",
+    "summary": "The long-awaited sequel finally launched into early access following a high-profile legal battle between developer Unknown Worlds and publisher Krafton.",
+    "published": "Fri, 15 May 2026 11:43:16 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-15T20:59:56.430656"
+  },
+  "f58619a3c020": {
+    "id": "f58619a3c020",
+    "title": "Politicians accuse Rockstar of obstructing legal process, eBay rebuffs GameStop, and video game hardware screams now - Patch Notes #52",
+    "link": "https://www.gamedeveloper.com/business/politicians-accuse-rockstar-of-obstructing-legal-process-ebay-rebuffs-gamestop-and-video-game-hardware-screams-now-patch-notes-52",
+    "summary": "Plus: Microsoft Israel general manager departs amid furore over unethical use of cloud technology.",
+    "published": "Fri, 15 May 2026 10:18:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-15T20:59:56.430667"
   }
 }
