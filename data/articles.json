@@ -4488,5 +4488,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-14T21:10:13.304635"
+  },
+  "05bb2dc793aa": {
+    "id": "05bb2dc793aa",
+    "title": "10 expert tips for building production-ready lighting macros",
+    "link": "https://www.cgchannel.com/2026/05/10-expert-tips-for-building-production-ready-lighting-macros/",
+    "summary": "Industrial Light &#038; Magic lighting TD Jonathan Wai reveals how to build Katana macros that hold up in real-world movie and TV productions.",
+    "published": "Fri, 15 May 2026 06:00:40 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-15T10:15:55.187659"
+  },
+  "1977f224ca98": {
+    "id": "1977f224ca98",
+    "title": "Boris FX releases Continuum 2026.5",
+    "link": "https://www.cgchannel.com/2026/05/boris-fx-releases-continuum-2026-5/",
+    "summary": "New features in the effects plugins include AI-powered video deinterlacing and updates to AI facial matte generation.",
+    "published": "Fri, 15 May 2026 05:30:17 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-15T10:15:55.187686"
   }
 }
