@@ -4578,5 +4578,25 @@
     "source_name": "CG Channel",
     "category": "ue",
     "fetched_at": "2026-05-16T09:25:54.163986"
+  },
+  "7a06f01d39a2": {
+    "id": "7a06f01d39a2",
+    "title": "Learning OpenGL Part 1: Hello Window – Textures",
+    "link": "https://gamedev.net/blogs/entry/2297938-learning-opengl-part-1-hello-window-textures",
+    "summary": "Hi this is my previous Learning OpenGL devlog that I am now posting here on this website! Theres probably numerous innaccuracies but hey, its a start. The series is already finished so I will continue posting them here until they are all posted, I will then post all my Rasterizer project logs and then I am currently working on a Directx12 devlog series. OpenGL: Catching up. Hi my name is William de Try and I am a game dev student at Stockholm University, I have decided to learn OpenGL. My intention is to get comfortable with OpenGL enough to continue …",
+    "published": "Sat, 16 May 2026 13:34:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-16T20:44:54.534342"
+  },
+  "1721e1a28185": {
+    "id": "1721e1a28185",
+    "title": "Terrain-mesh blending in Leadwerks 5.1",
+    "link": "https://gamedev.net/forums/topic/719962-terrain-mesh-blending-in-leadwerks-51",
+    "summary": "Last week I integrated tessellation back into our new virtual texturing terrain system. Our stochastic vegetation system has been updated to work with the 5.1 renderer, with support for the new terrain-mesh blending feature. This blends objects into the ground but can also act as a color-grading tool that lets you easily create outdoor scenes with a professional cohesive look. The use of alpha-to-coverage with our multisample antialiasing (MSAA) makes grass and trees look clean and sharp.",
+    "published": "Sat, 16 May 2026 20:28:11 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-16T20:44:54.534372"
   }
 }
