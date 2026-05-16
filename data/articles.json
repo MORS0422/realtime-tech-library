@@ -4568,5 +4568,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-15T20:59:56.430667"
+  },
+  "1c960b9053a7": {
+    "id": "1c960b9053a7",
+    "title": "Tutorial: Creating a Sci-fi Dome Barrier in Unreal Engine",
+    "link": "https://www.cgchannel.com/2026/05/tutorial-creating-a-sci-fi-dome-barrier-in-unreal-engine/",
+    "summary": "Discover how to create a AAA-quality games effect in UE5 and EmberGen with The Gnomon Workshop's advanced tutorial.",
+    "published": "Sat, 16 May 2026 06:00:17 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-05-16T09:25:54.163986"
   }
 }
