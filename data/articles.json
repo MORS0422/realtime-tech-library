@@ -4598,5 +4598,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-16T20:44:54.534372"
+  },
+  "32da3f847790": {
+    "id": "32da3f847790",
+    "title": "Learning OpenGl Part 2: Camera and Matrices",
+    "link": "https://gamedev.net/blogs/entry/2297947-learning-opengl-part-2-camera-and-matrices",
+    "summary": "So here were using GLM for our vector math, I am not going to go into detail around vector math nor how this works because honestly I can not explain it very well. But essentially here we are declaring a vector with the glm lirbrary and then we are declaring a matrix that represents the translation along the defined diagonal in glm::mat4. Then taking trans * vec actually applies the actual movement of the vector. In our vertex shader we declare a uniform and * our ve4 position with it. then we run this code inside of our program to …",
+    "published": "Sun, 17 May 2026 18:00:55 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-17T20:48:28.183839"
   }
 }
