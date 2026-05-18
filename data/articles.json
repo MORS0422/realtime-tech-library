@@ -4648,5 +4648,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-18T11:44:49.011397"
+  },
+  "6125a6cfa328": {
+    "id": "6125a6cfa328",
+    "title": "See amazing demo videos of Wētā FX’s in-house simulation tools",
+    "link": "https://www.cgchannel.com/2026/05/see-amazing-demo-videos-of-weta-fxs-in-house-simulation-tools/",
+    "summary": "See videos of key tools used on the Avatar sequels, including the Loki multiphysics framework and Pahi fluid simulation pipeline.",
+    "published": "Mon, 18 May 2026 11:38:44 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-18T21:05:44.079690"
+  },
+  "ea853bebd941": {
+    "id": "ea853bebd941",
+    "title": "World Machine 4059 ‘Dragontail Peak’ is out",
+    "link": "https://www.cgchannel.com/2026/05/world-machine-software-ships-world-machine-4059-dragontail-peak/",
+    "summary": "Big update to the veteran terrain generation software adds support for VDM-based 'true 3D' terrain, and overhauls the 3D viewport.",
+    "published": "Mon, 18 May 2026 09:59:38 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-18T21:05:44.079711"
+  },
+  "01e042318056": {
+    "id": "01e042318056",
+    "title": "3D texture painting app Wafer has come to Windows and macOS",
+    "link": "https://www.cgchannel.com/2026/05/3d-texture-painting-app-wafer-is-now-available-for-windows/",
+    "summary": "Updated: Sparseal's promising texture painting app is now available for Apple Silicon Macs, as well as Windows machines and iPads.",
+    "published": "Mon, 18 May 2026 04:00:45 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-18T21:05:44.079725"
+  },
+  "2798105c38e7": {
+    "id": "2798105c38e7",
+    "title": "How AI Makes Game Development Easier",
+    "link": "https://gamedev.net/blogs/entry/2297948-how-ai-makes-game-development-easier",
+    "summary": "How AI Makes Game Development Easier AI makes game development easier by reducing small blockers across planning, prototyping, debugging, documentation, and testing. The real value comes when AI supports human-led work, not when it replaces developer judgment. If you want to understand how AI makes game development easier , think of it as a fast assistant that still needs direction, review, and clear creative control. GameDev.net ’s own guidelines ask contributors to keep content useful, respectful, constructive, and focused on helping developers improve their craft. That makes a balanced guide more useful than hype, especially when the topic is generative …",
+    "published": "Mon, 18 May 2026 16:56:35 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-18T21:10:24.537285"
+  },
+  "88e430b214cf": {
+    "id": "88e430b214cf",
+    "title": "Obituary: Veteran voice actor Tom Kane has passed away at 64",
+    "link": "https://www.gamedeveloper.com/audio/obituary-veteran-voice-actor-tom-kane-passes-away-at-64",
+    "summary": "Actor Tom Kane has passed away at age 64 after a thirty-year career in voice acting.",
+    "published": "Mon, 18 May 2026 17:53:07 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-18T21:10:27.245563"
   }
 }
