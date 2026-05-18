@@ -4608,5 +4608,45 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-17T20:48:28.183839"
+  },
+  "496ccedc5a54": {
+    "id": "496ccedc5a54",
+    "title": "Bring It! Week Four",
+    "link": "https://gamedev.net/blogs/entry/2294805-bring-it-week-four",
+    "summary": "LOL... The solution is a little cheesy but the concept is working. It's interesting how subtle armature changes make a huge difference in the way the ragdoll system functions. I'll probably have to rig a third time to iron out some issues. Brought mixamo in on it with an idle and a walk to save some frustration. Auto ragdoll is not all that great. It turns out much better when you configure by hand. Also would prefer a better Actor hierarchy, to be more organized between the animated/behavior tree skinned mesh set and the switch to the ragdoll skinned mesh. …",
+    "published": "Sun, 17 May 2026 22:32:35 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-18T11:44:47.136775"
+  },
+  "81f272a54c39": {
+    "id": "81f272a54c39",
+    "title": "Godot Engine  - Paintball Game Project Open Source Version",
+    "link": "https://gamedev.net/forums/topic/719935-godot-engine-paintball-game-project-open-source-version",
+    "summary": "Latest Posts : https://gamedev.net/forums/topic/719619-paintball-game-developed-in-godot-engine/ , https://www.gamedev.net/forums/topic/719127-about-for-paintball-game-developed-in-godot-engine https://www.gamedev.net/forums/topic/717682-paintball-game-project , https://www.gamedev.net/forums/topic/718162-redesign-paintball-game/ I created a open source public version of this “Godot engine paintball game” project with periodic updates until the project is completed. GitHub - axenteflorin24/Godot-Engine-Paintball-Game-Project Status: in development and update of changes Description: Offline paintball shooter game. In the game there are two teams of 4 players each, the Computer team of four ai players, and the human paintball team of three ai players plus the human player.The objective of this project is to create and design shooter games and is educational only, not containing materials that require licenses. Game modes: …",
+    "published": "Mon, 18 May 2026 10:02:56 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-18T11:44:47.136822"
+  },
+  "962fa08d8f75": {
+    "id": "962fa08d8f75",
+    "title": "Arc Raiders tops 16 million sales and could be heading to China",
+    "link": "https://www.gamedeveloper.com/business/arc-raiders-tops-16-million-sales-and-could-be-heading-to-china",
+    "summary": "More than half of active Arc Raiders players spent over 100 hours in-game during Q1.",
+    "published": "Mon, 18 May 2026 10:58:25 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-18T11:44:49.011377"
+  },
+  "4d2890da966e": {
+    "id": "4d2890da966e",
+    "title": "The Nex Playground is launching in the UK and Ireland",
+    "link": "https://www.gamedeveloper.com/business/the-nex-playground-is-launching-in-the-uk-and-ireland",
+    "summary": "The controller-free console is heading overseas after outselling Xbox on U.S. soil during the 2025 holiday season.",
+    "published": "Mon, 18 May 2026 10:13:30 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-18T11:44:49.011397"
   }
 }
