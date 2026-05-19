@@ -4728,5 +4728,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-19T11:02:03.467289"
+  },
+  "c87ecbe26bc8": {
+    "id": "c87ecbe26bc8",
+    "title": "Архетипы в именах. Почему герои — не случайные",
+    "link": "https://gamedev.net/blogs/entry/2297943-",
+    "summary": "В «Городе на сваях» нет случайных имён. Каждый NPC — это не просто функция или реплики в диалоговом окне. Это переосмысленный мифологический архетип, вплетённый в стимпанковый мир. Игрок может не знать египетских легенд, но его мозг мгновенно считывает «код» персонажа через имя, визуальный якорь и то, что он продаёт или просит. 🔍 Как это работает в дизайне Имя задаёт ожидание, а механика его подтверждает. Вот как архетипы работают в связке с геймплеем и UI: Сутех («Осёл»). В мифах — бог хаоса и защитник ладьи Ра. В игре — нервный диспетчер-аналитик. Его HUD-рация стилизована под папирус с помехами, голос идёт «в …",
+    "published": "Tue, 19 May 2026 15:25:53 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-19T21:19:11.476249"
+  },
+  "e62b981711af": {
+    "id": "e62b981711af",
+    "title": "Flaming aura, heeeelp",
+    "link": "https://realtimevfx.com/t/flaming-aura-heeeelp/30949",
+    "summary": "Hey guys, i was wondering something. What you see above is a VFX I’ve been working on for a while, between new software I’m trying to learn and so on. This is currently the first part of the blockout I made of the VFX. For the sphere I already had something in mind, mainly using an opaque material and then using normals in some way or something more stylized (if you have any ideas on this I’ll gladly accept them, also because I’m still confused about certain things). Anyway, my question was this: I tried to draw the idea I had, more or less, and I was wondering how I could approach it. Initially, I was thinking of a flipbook, but it wouldn’t stretch like a ribbon when it fell. In that case, I was thinking of using a drawn texture and distorting it within the shader, but even then, it wouldn’t give the effect I wanted like the ribbon. I thought about using the ribbon directly and creating a material that would work, but I don’t think it grips the sphere as well as I’d like. Do you think I could use a flipbook/custom texture and then add a ribbon? Am I making this too complicated? (maybe) I’ll start by thanking everyone who replies 1 post - 1 participant Read full topic",
+    "published": "Tue, 19 May 2026 15:09:07 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-05-19T21:14:25.511308"
+  },
+  "2962fd0f7726": {
+    "id": "2962fd0f7726",
+    "title": "Fortnite returns to the App Store everywhere except Australia",
+    "link": "https://www.gamedeveloper.com/business/fortnite-returns-to-the-app-store-everywhere-except-australia",
+    "summary": "The Fortnite and Apple legal dispute is, somehow, still far from over.",
+    "published": "Tue, 19 May 2026 18:40:53 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-19T21:19:15.101292"
+  },
+  "b6b42c51e727": {
+    "id": "b6b42c51e727",
+    "title": "What happened when one game writer tried making a game in 30 days with Godot",
+    "link": "https://www.gamedeveloper.com/programming/what-happened-when-one-game-writer-tried-making-a-game-in-30-days-with-godot",
+    "summary": "What's it like for a narrative designer to learn a game engine from scratch?",
+    "published": "Tue, 19 May 2026 14:11:21 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-19T21:19:15.101310"
+  },
+  "9d2b62092d8c": {
+    "id": "9d2b62092d8c",
+    "title": "CI Games and Epic Games terminate Lords of the Fallen II publishing deal",
+    "link": "https://www.gamedeveloper.com/business/ci-games-and-epic-games-terminate-lords-of-the-fallen-ii-publishing-deal",
+    "summary": "The agreement would have seen the upcoming sequel made available on PC exclusively through the Epic Game Store.",
+    "published": "Tue, 19 May 2026 11:01:54 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-19T21:19:15.101323"
   }
 }
