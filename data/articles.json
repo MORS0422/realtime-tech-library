@@ -4698,5 +4698,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-18T21:10:27.245563"
+  },
+  "67740fabbcac": {
+    "id": "67740fabbcac",
+    "title": "Made yet another game jam project, this time people downloaded it",
+    "link": "https://gamedev.net/blogs/entry/2297951-made-yet-another-game-jam-project-this-time-people-downloaded-it",
+    "summary": "In a limbo really, so actually did 2 jam projects back to back most recently, but the first one was for private (mostly). Thought the first one had some potential, even sent it to several publishers and investors, of which 2 (Mythwright (publisher), and Griffin (VC)) replied with interest but required a full prototype/vertical slice do go further. Which is out of my current budget because I'm seriously broke beyond belief and need money right now to survive; not 6 months from now and a maybe, I'll be dead or homeless by then. So I decided to give it a …",
+    "published": "Tue, 19 May 2026 09:18:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-19T11:01:59.386479"
+  },
+  "7df10360d754": {
+    "id": "7df10360d754",
+    "title": "Great game idea, brand new coder.",
+    "link": "https://gamedev.net/forums/topic/719974-great-game-idea-brand-new-coder",
+    "summary": "I have a game idea that i think is great, but i just think it is going to be too hard for me because I’m brand new to coding and can’t even do art. I just really need some help. I don’t have the time on my hands to put the plan into motion as I am only 15 and have sports and other things to worry about, but i just can’t let the idea slip out of my head. No matter what i do I just keep thinking of how great the game could be if made by the …",
+    "published": "Tue, 19 May 2026 09:27:55 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-19T11:01:59.386512"
+  },
+  "e133b53d53c6": {
+    "id": "e133b53d53c6",
+    "title": "Sony increasing the price of PlayStation Plus for new customers",
+    "link": "https://www.gamedeveloper.com/business/sony-increasing-the-price-of-playstation-plus-for-new-customers",
+    "summary": "The change will effectively require new Essential subscribers to pay $1 more per month.",
+    "published": "Tue, 19 May 2026 09:22:07 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-19T11:02:03.467289"
   }
 }
