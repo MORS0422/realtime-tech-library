@@ -4778,5 +4778,75 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-19T21:19:15.101323"
+  },
+  "04b7c25a8005": {
+    "id": "04b7c25a8005",
+    "title": "Celsys releases Clip Studio Paint 5",
+    "link": "https://www.cgchannel.com/2026/05/celsys-releases-clip-studio-paint-5/",
+    "summary": "Check out the latest features in the digital painting software for comics and concept art, including the new 3D hand model for pose references.",
+    "published": "Wed, 20 May 2026 06:00:27 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-20T10:45:02.032936"
+  },
+  "59609a58a652": {
+    "id": "59609a58a652",
+    "title": "New motion graphics tool Caddis puts a node graph in every layer",
+    "link": "https://www.cgchannel.com/2026/05/new-motion-graphics-tool-caddis-puts-a-node-graph-in-every-layer/",
+    "summary": "Interesting After Effects alternative combines a familiar layer workflow with the procedural power of nodes. Currently free in beta.",
+    "published": "Tue, 19 May 2026 09:50:31 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-20T10:45:02.032960"
+  },
+  "ad25f769abbe": {
+    "id": "ad25f769abbe",
+    "title": "Mocap Actor Looking for Projects",
+    "link": "https://gamedev.net/blogs/entry/2297955-mocap-actor-looking-for-projects",
+    "summary": "Hi all, I’m a UK-based motion capture actor currently looking for opportunities in video game, film, and animation projects. I’m particularly interested in collaborating with indie studios and student productions, though I’m open to a range of project types. My showreel and performance CV are linked below. Please feel free to reach out via Discord for enquiries or additional details. Discord : watarixzy Mocap Showreel Performance CV (Google doc) Thanks for reading!",
+    "published": "Tue, 19 May 2026 21:18:50 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-20T10:49:47.970770"
+  },
+  "34e661abbfca": {
+    "id": "34e661abbfca",
+    "title": "Former Housemarque game director launches new studio Cosmic Division",
+    "link": "https://www.gamedeveloper.com/business/former-housemarque-game-director-launches-new-studio-cosmic-division",
+    "summary": "The Finnish studio is working on a new single-player franchise for PC and consoles.",
+    "published": "Wed, 20 May 2026 10:36:42 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-20T10:49:49.890926"
+  },
+  "9cd97c6d449e": {
+    "id": "9cd97c6d449e",
+    "title": "Embracer to spin off major video game franchises and studios",
+    "link": "https://www.gamedeveloper.com/business/embracer-to-spin-off-major-video-game-franchises-and-studios",
+    "summary": "A host of major franchises including Tomb Raider and Metro will soon be housed within a new standalone segment called Fellowship Entertainment.",
+    "published": "Wed, 20 May 2026 09:54:47 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-20T10:49:49.890949"
+  },
+  "98f64a24d3c4": {
+    "id": "98f64a24d3c4",
+    "title": "'Our ambitions are as big as the Wii:' How the Nex Playground is targeting the global market",
+    "link": "https://www.gamedeveloper.com/business/-our-ambitions-are-as-big-as-the-wii-the-heady-dreams-powering-the-nex-playground",
+    "summary": "After outselling Xbox in the United States, could the Nex Playground eventually eclipse one of Nintendo's best-selling consoles?",
+    "published": "Wed, 20 May 2026 08:48:34 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-20T10:49:49.890962"
+  },
+  "350fde485c9a": {
+    "id": "350fde485c9a",
+    "title": "Sony is being sued for alleged tariff 'double recovery windfall'",
+    "link": "https://www.gamedeveloper.com/business/sony-is-being-sued-for-allegedly-benefiting-from-tariff-refunds",
+    "summary": "The lawsuit argues Sony will receive a 'double recovery windfall,' which should be passed on to consumers instead.",
+    "published": "Tue, 19 May 2026 19:23:11 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-20T10:49:49.890973"
   }
 }
