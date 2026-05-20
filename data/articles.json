@@ -4848,5 +4848,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-20T10:49:49.890973"
+  },
+  "7e9fb953f252": {
+    "id": "7e9fb953f252",
+    "title": "Looking for help on my boat wake",
+    "link": "https://realtimevfx.com/t/looking-for-help-on-my-boat-wake/30954",
+    "summary": "Im making a wake for a big boat, I’ve been trying and trying but I just cant get a really nice result. Right now its a mesh trail which I’ve seen used in grass/snow shaders that leaves a trail. Issues with this is I lose distance to field option on the sea shader because its used for this. so no outlines for objects/boat in the water. I gotta choose either fade the edges properly and lose density in the trail or fade it less and the density increases. Overall I just dont like this approach, there is a bit more to it. If you are intrested or want to see anything else that may help send a message. Im looking for another solution, I don’t like this wake and I’d much rather have stuff interract with the water whilst not fully faking it like this. Ive seen projects even indie projects online with great looking water but I have no clue how to approach something like that (example: https://www.reddit.com/r/IndieDev/comments/1saetyy/taking_sandbox_game_quite_literally_with/?share_id=ordrfncVYi9TQ1VbjI-DE&amp;utm_content=2&amp;utm_medium=android_app&amp;utm_name=androidcss&amp;utm_source=share&amp;utm_term=1 ) Every tip is welcome, approaches resources ive missed let me know! 1 post - 1 participant Read full topic",
+    "published": "Wed, 20 May 2026 16:21:05 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-05-20T21:47:14.153786"
+  },
+  "f1298ced42ad": {
+    "id": "f1298ced42ad",
+    "title": "Ubisoft's net bookings are down 54% year-on-year",
+    "link": "https://www.gamedeveloper.com/business/ubisoft-s-net-bookings-are-down-54-year-on-year",
+    "summary": "The publisher is undergoing 'One of the most ambitious transformations in the company's history,' Ubisoft's CEO said amid layoffs and studio closures.",
+    "published": "Wed, 20 May 2026 18:08:03 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-20T21:51:57.609109"
+  },
+  "c7342f537597": {
+    "id": "c7342f537597",
+    "title": "Xbox adds Matthew Ball and Scott Van Vliet to leadership team",
+    "link": "https://www.gamedeveloper.com/business/report-xbox-adds-matthew-ball-and-scott-van-vliet-to-leadership-team",
+    "summary": "Industry analyst Matthew Ball will be the new chief strategy officer, and Van Vliet will be the next CTO.",
+    "published": "Wed, 20 May 2026 17:37:50 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-20T21:51:57.609130"
+  },
+  "f77d70fb7516": {
+    "id": "f77d70fb7516",
+    "title": "Hasbro cancels Dungeons &amp; Dragons game led by Respawn veterans",
+    "link": "https://www.gamedeveloper.com/business/hasbro-cancels-dungeons-dragons-game-led-by-respawn-veteran",
+    "summary": "The partnership between Giant Skull and Wizards of the Coast comes to a close less than a year after being announced.",
+    "published": "Wed, 20 May 2026 16:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-20T21:51:57.609142"
+  },
+  "a7757997c7c1": {
+    "id": "a7757997c7c1",
+    "title": "Embracer chairman says cost control 'does not get enough respect' after presiding over years of layoffs",
+    "link": "https://www.gamedeveloper.com/business/embracer-ceo-says-cost-control-does-not-get-enough-respect-",
+    "summary": "'The reality is that we have worked hard to retain as many people as possible through a very difficult period.'",
+    "published": "Wed, 20 May 2026 15:55:59 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-20T21:51:57.609154"
+  },
+  "1a77d680b641": {
+    "id": "1a77d680b641",
+    "title": "UK publisher EdCorp breaks cover after signing Garbage Country",
+    "link": "https://www.gamedeveloper.com/business/uk-publisher-edcorp-breaks-cover-after-signing-garbage-country",
+    "summary": "The fledgling company will fund, market, and develop original and licensed titles for PC and console.",
+    "published": "Wed, 20 May 2026 15:25:14 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-20T21:51:57.609165"
   }
 }
