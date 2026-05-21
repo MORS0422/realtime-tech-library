@@ -4908,5 +4908,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-20T21:51:57.609165"
+  },
+  "1b35f0782f97": {
+    "id": "1b35f0782f97",
+    "title": "Adobe releases Photoshop 27.7",
+    "link": "https://www.cgchannel.com/2026/05/adobe-releases-photoshop-27-7/",
+    "summary": "See the new features in the image editing app, including the option to run the AI model for the Remove tool locally, not in the cloud.",
+    "published": "Thu, 21 May 2026 09:50:32 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-21T11:16:38.845472"
+  },
+  "385ee381c763": {
+    "id": "385ee381c763",
+    "title": "Introduction to Integration Methods",
+    "link": "https://gamedev.net/blogs/entry/2297958-introduction-to-integration-methods",
+    "summary": "",
+    "published": "Thu, 21 May 2026 08:42:06 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-21T11:21:18.924374"
+  },
+  "f8c35de58ffb": {
+    "id": "f8c35de58ffb",
+    "title": "How I developed the artstyle for my main character",
+    "link": "https://gamedev.net/forums/topic/719990-how-i-developed-the-artstyle-for-my-main-character",
+    "summary": "My first project was a failure. One reason for this was a principle that I carry since conceiving the first ideas: Your main character as an art asset has a special meaning. In my favorite games I know the game characters intimately, every animation frame, every pixel, every effect. I mean duh, you spend hours upon hours of staring at this one asset and studying it to a ridiculous degree. Your main character has to look and feel \"fun\" for many hours. Among all the art that is sort of throwaway, the main character always stays on the screen. In …",
+    "published": "Thu, 21 May 2026 09:49:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-21T11:21:18.924414"
+  },
+  "4898710df51c": {
+    "id": "4898710df51c",
+    "title": "Potatuk - Sketchbook",
+    "link": "https://realtimevfx.com/t/potatuk-sketchbook/30959",
+    "summary": "Hi everyone! After almost 3 years of making stylized VFX, I think it’s a good time to start studying semi-realistic and realistic effects. I recently started freelancing and I need to expand my skillset, and where better to track my progress than here? To make these effects I mainly use the JangaFX suite, Substance Designer, and Blender. For now I prefer not to use Houdini, but I might integrate it in the future if needed. At this point I want to produce a lot of VFX without polishing too much, testing different approaches and elements. Any feedback and advice are welcome . Here are my first two studies. Ice Attack - YouTube Poison Attack - YouTube 1 post - 1 participant Read full topic",
+    "published": "Thu, 21 May 2026 09:31:57 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-05-21T11:16:41.061148"
   }
 }
