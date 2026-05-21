@@ -4948,5 +4948,75 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-05-21T11:16:41.061148"
+  },
+  "3d0eabd05c84": {
+    "id": "3d0eabd05c84",
+    "title": "Autodesk releases 3ds Max 2027.1",
+    "link": "https://www.cgchannel.com/2026/05/autodesk-releases-3ds-max-2027-1/",
+    "summary": "Check out the changes to the 3D modeling and rendering software, including updates to Smart Bevel and the Data Channel modifier.",
+    "published": "Thu, 21 May 2026 12:15:49 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-21T21:22:57.544151"
+  },
+  "b2c0ad9d327e": {
+    "id": "b2c0ad9d327e",
+    "title": "Autodesk releases Maya 2027.1",
+    "link": "https://www.cgchannel.com/2026/05/autodesk-releases-maya-2027-1/",
+    "summary": "Check out the new features in the 3D modeling and animation app, like OpenTimelineIO support and updates to LookdevX and Bifrost.",
+    "published": "Thu, 21 May 2026 11:36:19 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-21T21:22:57.544175"
+  },
+  "e0c4a5434c4d": {
+    "id": "e0c4a5434c4d",
+    "title": "I am making a souls game I can’t pay with anything but I can give u 100 credit for what you do but I need a 3d modeler and a coder",
+    "link": "https://gamedev.net/forums/topic/719980-i-am-making-a-souls-game-i-cant-pay-with-anything-but-i-can-give-u-100-credit-for-what-you-do-but-i-need-a-3d-modeler-and-a-coder",
+    "summary": "Souls like game is like Elden ring and dark souls and I need a coder and a 3D modeler. Still hiring",
+    "published": "Thu, 21 May 2026 20:12:29 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-21T21:27:37.288162"
+  },
+  "feab244d9507": {
+    "id": "feab244d9507",
+    "title": "Destiny 2's active development will end in June",
+    "link": "https://www.gamedeveloper.com/business/destiny-2-s-active-development-will-end-in-june",
+    "summary": "The game's next live service content update will be its last.",
+    "published": "Thu, 21 May 2026 19:43:45 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-21T21:27:41.746258"
+  },
+  "ac30686843d7": {
+    "id": "ac30686843d7",
+    "title": "Splinter Cell designer says modern lighting has made stealth games harder to read",
+    "link": "https://www.gamedeveloper.com/design/splinter-cell-designer-says-modern-lighting-have-made-stealth-games-harder-to-read",
+    "summary": "Clint Hocking says lighting direction, as well as tools like ambient occlusion, have an impact on stealth games.",
+    "published": "Thu, 21 May 2026 15:03:10 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-21T21:27:41.746280"
+  },
+  "345e546c39f1": {
+    "id": "345e546c39f1",
+    "title": "Opinion: Lars Wingefors is out of his mind",
+    "link": "https://www.gamedeveloper.com/business/opinion-lars-wingefors-is-out-of-his-mind",
+    "summary": "One of the video game industry's most infamous execs is still attempting to rewrite reality.",
+    "published": "Thu, 21 May 2026 13:58:52 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-21T21:27:41.746302"
+  },
+  "ab3f73246ebe": {
+    "id": "ab3f73246ebe",
+    "title": "LATAM indie devs lay out how to improve your text animation",
+    "link": "https://www.gamedeveloper.com/art/latam-indie-devs-lay-out-how-to-improve-your-text-animation",
+    "summary": "Want people to read your text? Juice it up.",
+    "published": "Thu, 21 May 2026 13:51:23 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-21T21:27:41.746311"
   }
 }
