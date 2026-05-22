@@ -5018,5 +5018,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-21T21:27:41.746311"
+  },
+  "52e6b80ca725": {
+    "id": "52e6b80ca725",
+    "title": "Get 120+ free materials and assets from the new Mari Texture Library",
+    "link": "https://www.cgchannel.com/2026/05/get-120-free-smart-materials-and-assets-from-the-mari-texture-library/",
+    "summary": "Download free Mari Smart Materials created by leading VFX artists, plus general-purpose textures and HDRIs. For commercial use.",
+    "published": "Fri, 22 May 2026 08:36:23 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-22T10:44:41.912746"
+  },
+  "76f74f9d3937": {
+    "id": "76f74f9d3937",
+    "title": "Boris FX releases Sapphire 2026.5",
+    "link": "https://www.cgchannel.com/2026/05/boris-fx-releases-sapphire-2026-5/",
+    "summary": "Check out the changes to the set of effects plugins for compositing and video editing software, including a new real-world lens defocus effect.",
+    "published": "Fri, 22 May 2026 07:19:45 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-22T10:44:41.912770"
+  },
+  "4d7849e9c0ab": {
+    "id": "4d7849e9c0ab",
+    "title": "Enjoy my content",
+    "link": "https://gamedev.net/blogs/entry/2297962-enjoy-my-content",
+    "summary": "🎮 MANGO GAME 🥭 🔥 Explore a world full of fun and adventure! 🏃 Run, jump, and complete exciting challenges. 🎨 Enjoy colorful graphics and fun gameplay. 🚀 Easy to play and perfect for everyone. 📱 Download Mango Game now and start the adventure!Te envío esta aplicación que te puede interesar. https://www.appcreator24.com/app4023230-64lpwk",
+    "published": "Fri, 22 May 2026 09:44:28 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-22T10:49:22.674645"
+  },
+  "d1fcbb2e41b9": {
+    "id": "d1fcbb2e41b9",
+    "title": "Unity or Unreal for Remote Realtime VFX Jobs — Which Should I Focus on First?",
+    "link": "https://realtimevfx.com/t/unity-or-unreal-for-remote-realtime-vfx-jobs-which-should-i-focus-on-first/30963",
+    "summary": "Hi everyone, I’m currently trying to decide which engine I should seriously focus on as a realtime VFX artist — Unity or Unreal Engine. My main goal is to build strong enough skills within around 1 year to have a realistic chance of getting remote work or a remote studio job. I know both engines are valuable in the industry, but I’m unsure which path is better to start with. Would you recommend: Focusing deeply on one engine first? Learning both side-by-side from the beginning? Or becoming specialized in one before touching the other? I’d also love to hear how industry artists usually approach this. Do most realtime VFX artists work in both stylized and realistic art styles depending on the project, or do they usually stay closer to their personal preference/style? Right now my biggest confusion is: If someone gives 1 year of serious focused practice, which engine currently gives a better chance for remote opportunities as a VFX artist? Would really appreciate advice from people already working in the industry. Thanks! 1 post - 1 participant Read full topic",
+    "published": "Fri, 22 May 2026 05:29:43 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-05-22T10:44:43.909569"
   }
 }
