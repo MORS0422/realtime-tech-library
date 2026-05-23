@@ -5098,5 +5098,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-22T21:09:34.108665"
+  },
+  "185cd946a11c": {
+    "id": "185cd946a11c",
+    "title": "So, i cheated a little... AND IT'S GREAT!",
+    "link": "https://gamedev.net/blogs/entry/2297964-so-i-cheated-a-little-and-its-great",
+    "summary": "So, I cheated a little. As mentioned in one of the previous posts I was going to switch over to game creator 2 inside unity to help streamline the process. Well, as it turns out, streamlining the streamlining was actually a more fun option. So i went and purchased RVR's template kit for RPG's so that, with this, I may be able to flesh out the game to something much larger in scope! I've still got a hell of a lot of bugs to work out yet, as it turns out, the melee system is a bit finnicky. The weapons …",
+    "published": "Sat, 23 May 2026 13:46:40 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-23T20:46:24.988743"
+  },
+  "3aaaf29e8e68": {
+    "id": "3aaaf29e8e68",
+    "title": "Composer seeking Free/PWYC work",
+    "link": "https://gamedev.net/forums/topic/719995-composer-seeking-freepwyc-work",
+    "summary": "Hi everyone! Im a composer based in Canada looking to gain scoring credits/experience. My music is on my website: digitalarcadiamusic.works . Im looking forward to hearing from you!",
+    "published": "Sat, 23 May 2026 19:15:01 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-23T20:46:24.988761"
   }
 }
