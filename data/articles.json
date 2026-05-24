@@ -5138,5 +5138,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-24T09:54:30.951625"
+  },
+  "e03a180a22a9": {
+    "id": "e03a180a22a9",
+    "title": "Learning OpenGL Part 3: Lighting and Normals",
+    "link": "https://gamedev.net/blogs/entry/2297968-learning-opengl-part-3-lighting-and-normals",
+    "summary": "So color: Color is light that bounces from an object right into your eyeballs. The object absorbs some rays and then what bounces of is the color you see in your eye. Ambient Lighting: So this is lighting that like bounces around from places to places and end up scattered everywhere, light you know reflects. Kind of the main attribute of light is that it yknow reflects. Anyways doing this calculation for Global Illumination is really expensive so we fake it with Ambient Lighting. So heres where we apply the ambient lighting. Its a really cheap thing we are doing …",
+    "published": "Sun, 24 May 2026 19:19:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-24T20:52:36.194669"
+  },
+  "017e6d3de628": {
+    "id": "017e6d3de628",
+    "title": "Yelena Rider: Hells & Shells (Godot Retro FPS) — Volunteer Recruitment (Artists & Composer)",
+    "link": "https://gamedev.net/forums/topic/720001-yelena-rider-hells-shells-godot-retro-fps-volunteer-recruitment-artists-composer",
+    "summary": "Here's a video from the game: View Tweet Yelena Rider: Hells &amp; Shells is a retro-inspired 3D FPS built in Godot, mixing PSX-style low-poly visuals, infernal punk aesthetics, grounded strafing combat, and dark humor. The game takes place in Nahar , a violent version of Hell filled with mercenaries, grotesque creatures, strange marketplaces, and opportunists trying to survive however they can. You play as Rider , someone who willingly enters Hell to recover something stolen from him. During his journey, he gets involved with Roxxy , a manipulative infernal merchant who runs a safe hub called Roxxy’s Oasis . The …",
+    "published": "Sun, 24 May 2026 20:11:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-24T20:52:36.194716"
   }
 }
