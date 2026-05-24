@@ -5118,5 +5118,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-23T20:46:24.988761"
+  },
+  "47234cedf75c": {
+    "id": "47234cedf75c",
+    "title": "How to Think Like an Indie (Without Losing Your Mind)",
+    "link": "https://gamedev.net/blogs/entry/2297967-how-to-think-like-an-indie-without-losing-your-mind",
+    "summary": "It’s so easy to be an armchair gamedev. Like you see all the devs on YouTube and watch projects progress on Reddit and you think “I could actually do this”. Sure, why can’t you make a game? Especially once you you’ve dabbled in a game engine, done a few tutorials, and gotten some mechanics working. You’ve even gotten Pong to work! Plus, you have this amazing idea for a video game which will blow peoples’ minds (if only you could actually make it). Our story so far: we decided to become gamedevs while traveling around South America in our camper …",
+    "published": "Sun, 24 May 2026 09:08:21 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-24T09:54:30.951579"
+  },
+  "e3a3f2b95dec": {
+    "id": "e3a3f2b95dec",
+    "title": "[Demo][PC] Astralis: Dawnblades - heroic fantasy tactical RPG, looking for feedback",
+    "link": "https://gamedev.net/forums/topic/719966-demopc-astralis-dawnblades-heroic-fantasy-tactical-rpg-looking-for-feedback",
+    "summary": "Hi everyone, I'm Benoit from Studio Gravenoire, a small self-funded French indie studio of three people. We are currently working on Astralis: Dawnblades, a heroic fantasy tactical RPG for PC, built with Godot. The game has a public Steam demo, and I am posting here mainly to get developer/player feedback on the first impression of the demo rather than to drop a link and disappear. Steam demo: https://store.steampowered.com/app/4233920/Astralis__Dawnblades/ What is Astralis: Dawnblades? Astralis: Dawnblades is a single-player tactical RPG where you lead the Dawnblades, an independent mercenary company. The core loop is: prepare your squads at the stronghold; assign recruits, …",
+    "published": "Sun, 24 May 2026 00:03:43 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-24T09:54:30.951625"
   }
 }
