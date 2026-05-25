@@ -5168,5 +5168,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-25T11:53:14.813554"
+  },
+  "70b1b4be8a4f": {
+    "id": "70b1b4be8a4f",
+    "title": "Leadwerks 5.1 Beta is Now Available, with Support for Potato PCs",
+    "link": "https://gamedev.net/blogs/entry/2297970-leadwerks-51-beta-is-now-available-with-support-for-potato-pcs",
+    "summary": "I'm excited to announce that after several months of work, the beta of Leadwerks 5.1 is now available on Steam . Version 5.1 is a significant update that brings a wealth of new features, enhancements, and optimizations designed to empower developers and elevate your 3D projects. What’s New in the 5.1 Beta? Efficient New Deferred Renderer The clustered forward+ renderer 5.0 launched with has been replaced with a new deferred renderer, to provide better performance and easier shader development. Many new optimizations have been implemented, such as the use of the stencil buffer for controlling decal visibility. The transparency system …",
+    "published": "Mon, 25 May 2026 18:51:57 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-25T21:04:54.685010"
+  },
+  "69735f39cd27": {
+    "id": "69735f39cd27",
+    "title": "Game idea: squad permadeath system where death switches playable characters",
+    "link": "https://gamedev.net/forums/topic/720008-game-idea-squad-permadeath-system-where-death-switches-playable-characters",
+    "summary": "A story-driven squad survival game where death is permanent and becomes part of the narrative. When the player dies, there is no reload screen. Instead, a short cinematic shows the character slowly dying while squad members react over radio communication. The perspective then switches to another surviving squad member in a different location, and the game continues naturally. Later in the game, players can return to the place where the previous character died and find their body still there, along with their equipment. Squad members may comment emotionally depending on who died and their relationship with them. The goal is …",
+    "published": "Mon, 25 May 2026 19:07:16 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-25T21:04:54.685048"
   }
 }
