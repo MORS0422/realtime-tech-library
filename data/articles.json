@@ -5158,5 +5158,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-24T20:52:36.194716"
+  },
+  "7318c477ce07": {
+    "id": "7318c477ce07",
+    "title": "Indie dev mistakes to avoid",
+    "link": "https://gamedev.net/forums/topic/719997-indie-dev-mistakes-to-avoid",
+    "summary": "I’m building a portrait-mode mobile game combining match-3 combat with stronghold progression/world map systems. I’ve reached the stage where I’m transitioning from pre-production into vertical slice development. For experienced Unity/mobile developers: what are the biggest architectural mistakes you see indie developers make at this stage that later become painful to undo?",
+    "published": "Mon, 25 May 2026 11:09:58 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-25T11:53:14.813554"
   }
 }
