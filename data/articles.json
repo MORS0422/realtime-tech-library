@@ -5188,5 +5188,65 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-25T21:04:54.685048"
+  },
+  "fd55836f1e2e": {
+    "id": "fd55836f1e2e",
+    "title": "Can an artist with no coding background realistically make a game using AI coding tools now?",
+    "link": "https://gamedev.net/forums/topic/720006-can-an-artist-with-no-coding-background-realistically-make-a-game-using-ai-coding-tools-now",
+    "summary": "Hi everyone, I’m mainly a 3D artist, not a programmer. Recently I’ve been trying AI coding tools like ChatGPT, Claude Code and Codex, and I’m surprised by how much they can already do. With AI assistance, I can now build simple gameplay systems and prototype ideas much faster than before. So I wanted to ask experienced developers here: Do you think AI tools are now good enough for a non-programmer to realistically make a small indie game alone? Curious to hear your experiences.",
+    "published": "Tue, 26 May 2026 19:02:18 +0000",
+    "source_name": "GameDev - Tech Art",
+    "category": "ta",
+    "fetched_at": "2026-05-26T21:38:32.147914"
+  },
+  "9d270f0e331a": {
+    "id": "9d270f0e331a",
+    "title": "Flamethrower (Unreal Engine 5)",
+    "link": "https://realtimevfx.com/t/flamethrower-unreal-engine-5/30985",
+    "summary": "A flamethrower vfx I made in unreal engine. Had the limitation on this one that I couldnt use houdini to simulate anything even textures. (Licensing issue). So its just substance designer textures and shaders. Feedback is always welcome, but this one is mostly to share! 1 post - 1 participant Read full topic",
+    "published": "Tue, 26 May 2026 14:24:55 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-05-26T21:38:33.085087"
+  },
+  "4d7bb5b2b5bb": {
+    "id": "4d7bb5b2b5bb",
+    "title": "Report: Latest Nintendo Switch 2 production estimates contrast hardware forecast",
+    "link": "https://www.gamedeveloper.com/business/report-nintendo-orders-to-assemble-20-million-switch-2-consoles",
+    "summary": "The company is reportedly planning to assemble 20 million units during the current fiscal year—a total that exceeds its latest hardware sales forecast.",
+    "published": "Tue, 26 May 2026 16:16:20 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-26T21:43:41.522255"
+  },
+  "b88612bac506": {
+    "id": "b88612bac506",
+    "title": "How Brazil's government boosts the local game industry",
+    "link": "https://www.gamedeveloper.com/business/inside-the-brazilian-government-s-model-for-boosting-its-game-industry",
+    "summary": "Brazil's robust government support for the game industry may be a model for other regions.",
+    "published": "Tue, 26 May 2026 15:43:16 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-26T21:43:41.522278"
+  },
+  "0d09863b3924": {
+    "id": "0d09863b3924",
+    "title": "Microsoft to pay $250M to settle lawsuit filed by aggrieved Activision Blizzard shareholders",
+    "link": "https://www.gamedeveloper.com/business/microsoft-to-pay-250m-to-settle-lawsuit-filed-by-aggrieved-activision-blizzard-shareholders",
+    "summary": "The lawsuit claimed former Activision Blizzard CEO Bobby Kotick hurriedly sold the company to avoid the consequences of sexual harassment allegations.",
+    "published": "Tue, 26 May 2026 14:41:35 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-26T21:43:41.522292"
+  },
+  "982566945221": {
+    "id": "982566945221",
+    "title": "Report: Wizards of the Coast is trying to discourage workers from unionizing",
+    "link": "https://www.gamedeveloper.com/business/report-wizards-of-the-coast-is-trying-to-discourage-workers-from-unionizing",
+    "summary": "'You could end up with more, the same, or less than you have now.'",
+    "published": "Tue, 26 May 2026 10:58:12 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-26T21:43:41.522304"
   }
 }
