@@ -5268,5 +5268,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-27T11:37:19.805351"
+  },
+  "7419f0f911a3": {
+    "id": "7419f0f911a3",
+    "title": "Book Review/Analysis: Dungeon Crawler Carl",
+    "link": "https://gamedev.net/blogs/entry/2297984-book-reviewanalysis-dungeon-crawler-carl",
+    "summary": "I recently started this series and want to record a few thoughts. Long story short, I love it and highly recommend it! Longer story comes with some caveats though. Also I noticed this somewhat amusing detail: every single book is bigger than the previous one. At least for the first 6 books that I own; here’s a photo of them stacked up in order, 1 on top and 6 on the bottom: I’d been hearing about this series for awhile, but I hadn’t read it because all the adoration was giving me overhyped vibes. I finally picked up the first …",
+    "published": "Wed, 27 May 2026 15:48:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-27T21:53:00.758053"
+  },
+  "1c16e259247e": {
+    "id": "1c16e259247e",
+    "title": "Report: Payment for some TheGamer staff now tied to per-article sessions",
+    "link": "https://www.gamedeveloper.com/business/report-payment-for-thegamer-writers-now-tied-to-per-article-sessions",
+    "summary": "Parent company Valnet described the new payment scheme as a 'new and exciting, performance-based bonus system.'",
+    "published": "Wed, 27 May 2026 15:02:25 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-27T21:53:02.881588"
+  },
+  "140813783ea8": {
+    "id": "140813783ea8",
+    "title": "The Witcher 3: Wild Hunt is getting a new expansion 12 years after launch",
+    "link": "https://www.gamedeveloper.com/business/the-witcher-3-is-getting-a-new-expansion-12-years-after-launch",
+    "summary": "CD Projekt Red is co-developing the expansion with studio Fool's Theory.",
+    "published": "Wed, 27 May 2026 14:35:30 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-27T21:53:02.881608"
   }
 }
