@@ -5248,5 +5248,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-26T21:43:41.522304"
+  },
+  "97eaf202620c": {
+    "id": "97eaf202620c",
+    "title": "What Should Someone Learn First In Game Development?",
+    "link": "https://gamedev.net/forums/topic/720011-what-should-someone-learn-first-in-game-development",
+    "summary": "Hi everyone, I work more on the growth and business side of the gaming industry, but I’ve recently been trying to understand the development side better. For someone completely new to game development, what would you recommend learning first? Unity, Unreal, C++, game design basics, or something else? Would love to hear what helped you most when starting out.",
+    "published": "Wed, 27 May 2026 11:12:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-05-27T11:37:18.157454"
+  },
+  "09350756a13a": {
+    "id": "09350756a13a",
+    "title": "PS5 exclusive Destruction AllStars shut down after five years",
+    "link": "https://www.gamedeveloper.com/business/ps5-exclusive-destruction-allstars-shut-down-after-five-years",
+    "summary": "The live service title launched in 2021 but has now been taken offline and removed from the Playstation Store.",
+    "published": "Wed, 27 May 2026 09:33:52 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-27T11:37:19.805351"
   }
 }
