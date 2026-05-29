@@ -5488,5 +5488,65 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-29T11:27:17.957733"
+  },
+  "ecc15266d684": {
+    "id": "ecc15266d684",
+    "title": "Boris FX releases Silhouette 2026",
+    "link": "https://www.cgchannel.com/2026/05/boris-fx-releases-silhouette-2026/",
+    "summary": "Sizeable update to the roto and paint tool adds new AI-based head, object and point tracking systems. See all the new features.",
+    "published": "Fri, 29 May 2026 10:54:46 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-29T21:49:05.481518"
+  },
+  "521433769426": {
+    "id": "521433769426",
+    "title": "Gearfall DEVLOG #0.5",
+    "link": "https://gamedev.net/blogs/entry/2298000-gearfall-devlog-05",
+    "summary": "Hello guys!! This is my first devlog of my upcoming game - \"Gearfall\"! Inspired by Factorio and Muck, the game will feature elements such as waves of enemies appearing. For now it has very small gameplay, but! I will do anything to make this game perfect! Nice to meet y'all! Wait 'till the new news! (All models are examples for now)",
+    "published": "Fri, 29 May 2026 19:36:08 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-29T21:49:16.145522"
+  },
+  "0b7eff1677a0": {
+    "id": "0b7eff1677a0",
+    "title": "Crafting Clair Obscur: Expedition 33's mournful tale ft. Jennifer Svedeberg-Yen",
+    "link": "https://www.gamedeveloper.com/design/crafting-clair-obscur-expedition-33-s-mournful-tale-ft-jennifer-svedeberg-yen",
+    "summary": "This month, GDC Content Marketing Manager Beth Elderkin chats with Sandfall Interactive lead writer and localization producer Jenniver Svedberg-Yen about the creative decisions that went into Clair Obscur: Expedition 33.",
+    "published": "Fri, 29 May 2026 15:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-29T21:49:20.044312"
+  },
+  "9d2290f19fac": {
+    "id": "9d2290f19fac",
+    "title": "Balatro publisher Playstack is being sold to GameSpot and Fandom parent company",
+    "link": "https://www.gamedeveloper.com/business/balatro-publisher-playstack-sold-to-gamespot-and-fandom-parent-company",
+    "summary": "The proposed majority takeover values the UK publisher at around $169 million.",
+    "published": "Fri, 29 May 2026 14:54:49 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-29T21:49:20.044332"
+  },
+  "5922902c53ed": {
+    "id": "5922902c53ed",
+    "title": "007 First Light has topped 1.5 million sales",
+    "link": "https://www.gamedeveloper.com/business/007-first-light-has-topped-1-5-million-sales",
+    "summary": "License to thrill.",
+    "published": "Fri, 29 May 2026 11:50:54 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-29T21:49:20.044342"
+  },
+  "995f09993613": {
+    "id": "995f09993613",
+    "title": "Micro-grants for indies, another hardware price hike, and Valnet sinks to new lows - Patch Notes #54",
+    "link": "https://www.gamedeveloper.com/business/micro-grants-for-indies-another-hardware-price-hike-and-valnet-sinks-to-new-lows-patch-notes-54",
+    "summary": "Plus: The Witcher 3 is getting a new expansion and Destruction AllStars is shutting down.",
+    "published": "Fri, 29 May 2026 10:45:07 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-05-29T21:49:20.044354"
   }
 }
