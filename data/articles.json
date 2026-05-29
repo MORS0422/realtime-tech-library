@@ -5458,5 +5458,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-28T21:51:17.574901"
+  },
+  "3cf02f3f3a94": {
+    "id": "3cf02f3f3a94",
+    "title": "Massive crowd simulation software gets free edition",
+    "link": "https://www.cgchannel.com/2026/05/massive-crowd-simulation-software-gets-free-edition/",
+    "summary": "New non-commercial Massive 101 edition makes it possible for any CG artist to try the crowd simulation tool created for The Lord of the Rings.",
+    "published": "Fri, 29 May 2026 09:05:44 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-05-29T11:22:42.844669"
+  },
+  "e195a2182268": {
+    "id": "e195a2182268",
+    "title": "Devlog 2026-05-29",
+    "link": "https://gamedev.net/blogs/entry/2297996-devlog-2026-05-29",
+    "summary": "Happy Friday! It's been a few weeks since I've posted a devlog. Most of you know why, but for those who don't, my newborn baby has arrived and is keeping us busy. &lt;3 I'm officially on baby leave and will likely be working at a much slower pace for at least another week or two, and I'm extremely grateful for all of my Patrons who make it possible. In the meantime, Tae has finished up another gorgeous portrait that will be in-game soon, and she is still working on the 10 community-made characters. I haven't been writing as much as …",
+    "published": "Fri, 29 May 2026 08:32:36 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-29T11:27:17.957690"
+  },
+  "f2234ad2b5c7": {
+    "id": "f2234ad2b5c7",
+    "title": "Solo Dev Seeking Feedback: A New Blockchain Gaming Model Focused on Adversarial Mechanics",
+    "link": "https://gamedev.net/forums/topic/719928-solo-dev-seeking-feedback-a-new-blockchain-gaming-model-focused-on-adversarial-mechanics",
+    "summary": "Hello gamedev.net Community, I've been heads-down in a project for more than a year or so, and I finally reached a point where I feel comfortable enough to share the high-level concept — and I need the collective wisdom of this community. I'm genuinely worried about whether this idea is fundamentally sound, or if I’m hopelessly overthinking it. I'm a solo developer, and this is an ambitious attempt to blend decentralized finance (DeFi), applied game theory , and game design into a platform I call \" Wrong Crowd \". I want to introduce it to you all and see if …",
+    "published": "Fri, 29 May 2026 03:49:48 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-29T11:27:17.957733"
   }
 }
