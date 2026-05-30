@@ -5548,5 +5548,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-05-29T21:49:20.044354"
+  },
+  "cbd613aba520": {
+    "id": "cbd613aba520",
+    "title": "XNormal VDM calculation",
+    "link": "https://gamedev.net/forums/topic/720019-xnormal-vdm-calculation",
+    "summary": "I am interested in implementing a vector displacement map baking system. This is like displacement maps, but has three color channels to move vertices in 3D. It seems like you would just need to find the nearest point between the high and low poly mesh, and encode the difference in an image. But I see stuff like this in XNormal and it's apparent they have something smarter. How are they calculating these overhangs?",
+    "published": "Sat, 30 May 2026 09:20:58 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-30T09:53:40.573453"
   }
 }
