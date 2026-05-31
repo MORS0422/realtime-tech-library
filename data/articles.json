@@ -5568,5 +5568,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-31T10:10:06.050960"
+  },
+  "2ed64906c148": {
+    "id": "2ed64906c148",
+    "title": "Survival mechanics [GEARFALL DEVLOG #2]",
+    "link": "https://gamedev.net/blogs/entry/2298004-survival-mechanics-gearfall-devlog-2",
+    "summary": "Hello guys!! This is what changed since DEVLOG #1: Content: Reworked character model Added First-Person Arm model. Added Punch and Idle(with item variations.) animations to FP Arm model. Reworked inventory design Added first enemy to the game Added ability to punch entities And finally: Added stats to the game! - HP, Hunger, Thirst BugFixes: fixed that you can infinitely pick up items. fixed ability to infinitely grab item in inventory(even when you unpress mouse button)",
+    "published": "Sun, 31 May 2026 16:07:10 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-31T20:53:15.621262"
+  },
+  "baf11d9121c7": {
+    "id": "baf11d9121c7",
+    "title": "C++26 Reflection Follow-up",
+    "link": "https://gamedev.net/forums/topic/720017-c26-reflection-follow-up",
+    "summary": "Like the OP from https://gamedev.net/forums/topic/719834-c26-reflection-in-angelscript/ , I'm interested in using C++26's new reflection system alongside AngelScript. I have nothing against the way application interface registration works—it offers a lot of control over what to register and how—but it introduces a lot of boilerplate, and most users probably won't care too much about registering object types etc. in specific ways. Moreover, it is quite easy for developers to introduce errors unwittingly. Since AngelScript itself probably shouldn't use reflection, I've started writing a separate library for it to explore how viable it is: https://github.com/CasualYT31/ReflectiveAngelScriptWrapper . So far so good, but I've only …",
+    "published": "Sun, 31 May 2026 20:49:51 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-05-31T20:53:15.621296"
   }
 }
