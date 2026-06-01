@@ -5688,5 +5688,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-01T13:30:50.975517"
+  },
+  "790e055a0ce5": {
+    "id": "790e055a0ce5",
+    "title": "Download Moonshot’s amazing free rigged Komodo dragon model",
+    "link": "https://www.cgchannel.com/2026/05/download-moonshots-amazing-free-rigged-komodo-dragon-model/",
+    "summary": "Get a production-ready 3D model of a lizard, with a full body and facial rig and muscle visualization, Maya, Alembic, FBX and OBJ format.",
+    "published": "Sun, 31 May 2026 14:17:15 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-01T22:31:06.255232"
+  },
+  "95f3ecc2144c": {
+    "id": "95f3ecc2144c",
+    "title": "Unity crashed bruh [NOT DEVLOG]",
+    "link": "https://gamedev.net/blogs/entry/2298008-unity-crashed-bruh-not-devlog",
+    "summary": "My Unity recently crashed and some of the project files were deleted, so there will be no devlogs for the time being. Good luck!",
+    "published": "Mon, 01 Jun 2026 13:58:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-01T22:31:15.588158"
+  },
+  "a94b8b7ac231": {
+    "id": "a94b8b7ac231",
+    "title": "UK social media ban could impact video game platforms",
+    "link": "https://www.gamedeveloper.com/business/uk-social-media-ban-could-impact-video-game-platforms",
+    "summary": "The news comes after the Labour government said it will take action to protect children using social media and began consulting parents on a possible ban.",
+    "published": "Mon, 01 Jun 2026 15:05:46 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-01T22:31:18.764141"
   }
 }
