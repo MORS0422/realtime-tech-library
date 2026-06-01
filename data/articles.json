@@ -5588,5 +5588,105 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-05-31T20:53:15.621296"
+  },
+  "5f042e00acb2": {
+    "id": "5f042e00acb2",
+    "title": "Luiz Elias releases Mush3D 3.0",
+    "link": "https://www.cgchannel.com/2026/06/luiz-elias-releases-mush3d-3-0/",
+    "summary": "Check out the new features in this major update to the neat standalone tool for editing animation caches created in other DCC software.",
+    "published": "Mon, 01 Jun 2026 11:15:16 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-01T13:30:39.092439"
+  },
+  "5c8c31a39d34": {
+    "id": "5c8c31a39d34",
+    "title": "Pilgway releases 3DCoat 2026 with new GPU texturing system",
+    "link": "https://www.cgchannel.com/2026/06/pilgway-releases-3dcoat-2026-and-3dcoattextura-2026/",
+    "summary": "Now in public beta: sculpting, retopology and 3D painting software gets new non-destructive node-based texturing system.",
+    "published": "Mon, 01 Jun 2026 09:14:21 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-01T13:30:39.092462"
+  },
+  "eb16a4c4ad24": {
+    "id": "eb16a4c4ad24",
+    "title": "Download Moonshot’s amazing rigged Komodo dragon model",
+    "link": "https://www.cgchannel.com/2026/05/download-moonshots-amazing-rigged-komodo-dragon-model/",
+    "summary": "Get a production-ready 3D model of a lizard, with a full body and facial rig and muscle visualization, Maya, Alembic, FBX and OBJ format.",
+    "published": "Sun, 31 May 2026 14:17:15 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-01T13:30:39.092477"
+  },
+  "6e75f813f8a1": {
+    "id": "6e75f813f8a1",
+    "title": "The Pixel Farm adds new point cloud toolset to PFTrack 26.05",
+    "link": "https://www.cgchannel.com/2026/05/the-pixel-farm-adds-new-point-cloud-toolset-to-pftrack-26-05/",
+    "summary": "Major update to the tracking app generates dense point clouds from a tracked shot for export in USD files, or to train Gaussian Splats.",
+    "published": "Sat, 30 May 2026 15:26:53 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-01T13:30:39.092490"
+  },
+  "869a076141d0": {
+    "id": "869a076141d0",
+    "title": "Alexey Vanzhula releases Modeler 26.3 for Houdini",
+    "link": "https://www.cgchannel.com/2026/05/alexey-vanzhula-releases-modeler-26-for-houdini/",
+    "summary": "Check out the new features in this varied update to the popular toolkit for hard surface and organic modeling in Houdini.",
+    "published": "Sat, 30 May 2026 14:00:05 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-01T13:30:39.092503"
+  },
+  "5a5a4500969a": {
+    "id": "5a5a4500969a",
+    "title": "First post and first C++ question",
+    "link": "https://gamedev.net/forums/topic/720028-first-post-and-first-c-question",
+    "summary": "Hello, I'm new here so I will start by the begining. My real name is Fabrice, I'm 45 and I live in France. I have decided a few days ago to really invest more time in \"hobbyist gamdev\" because I always wanted but never really done. Of course I've done some little games but never really completed or shared them. More recently, I have tested unity and godot engine and completed some mini games with that tools but I wanted something different so I returned to C++ and I've looked for a library. I have played a little with SFML …",
+    "published": "Mon, 01 Jun 2026 10:55:18 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-01T13:30:47.806874"
+  },
+  "d9671bf168c3": {
+    "id": "d9671bf168c3",
+    "title": "Dark Star Taliyah (Fan Art)",
+    "link": "https://realtimevfx.com/t/dark-star-taliyah-fan-art/31028",
+    "summary": "Dark Star Taliyah Q ability I made this week. Spent some time setting up a working gameplay version of the ability in blueprints as well to match actual league gameplay. Feel free to check out the better quality ArtStation post of it here! https://www.artstation.com/artwork/EzlzZn 1 post - 1 participant Read full topic",
+    "published": "Mon, 01 Jun 2026 01:38:53 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-01T13:30:41.269267"
+  },
+  "faccf12a257a": {
+    "id": "faccf12a257a",
+    "title": "June VFX Sketch[#68]: Glitch",
+    "link": "https://realtimevfx.com/t/june-vfx-sketch-68-glitch/31026",
+    "summary": "Glitch Prompt: Make an effect around the theme: Glitch . Timeline: June 1st → June 30th 11:59 CET Submitting : Create a new topic in the \" Events &gt; : Glitch \" category with your name and sketch number in the title (Like this: “Nnanka Chigau: Sketch #68 ” ), and post your updates to your topic during the month! When you are finished, Edit your first post so it holds the final effect in the form of Youtube/Vimeo Video or High-Quality GIFs. Please make sure to read this post with detailed rules if you are new to the sketches : About the Monthly VFX Sketches Events About Monthly VFX Sketches The sketches are a chance to work on something together with the community, to challenge yourself and to show off your skills in a risk-free environment. Each month there will be a prompt, however these prompts aren’t strict instructions. They are meant to get your creative gears turning, you are encouraged to interpret them how you want. Scoring and Winning: Community Voting Judging criteria: Showed process throughout the month Technically and artistically well… Sketch Hall of Fame (People who have Sketch Diamond - x3 wins!) : @Lush @Spyro @Torbach @HoldimProvae If you have any questions, tips or tricks, reply down below! Post on socials with vfxsketch Good luck, have fun! This text will be hidden 2 posts - 1 participant Read full topic",
+    "published": "Sun, 31 May 2026 01:30:25 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-01T13:30:41.269365"
+  },
+  "a49a9a7af29e": {
+    "id": "a49a9a7af29e",
+    "title": "Atari to acquire Crossy Road developer Hipster Whale",
+    "link": "https://www.gamedeveloper.com/business/atari-to-acquire-crossy-road-developer-hipster-whale",
+    "summary": "The deal could eventually cost Atari almost $40 million.",
+    "published": "Mon, 01 Jun 2026 12:04:53 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-01T13:30:50.975496"
+  },
+  "063f4f7609d1": {
+    "id": "063f4f7609d1",
+    "title": "Fable reboot delayed until February 2027",
+    "link": "https://www.gamedeveloper.com/business/fable-reboot-delayed-until-february-2027",
+    "summary": "Microsoft said it has decided to push the title out of a &quot;packed&quot; release window.",
+    "published": "Mon, 01 Jun 2026 11:19:17 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-01T13:30:50.975517"
   }
 }
