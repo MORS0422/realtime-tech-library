@@ -5768,5 +5768,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-02T12:00:13.997824"
+  },
+  "ed15a933d23d": {
+    "id": "ed15a933d23d",
+    "title": "Learning OpenGl Part 4: Materials and Specular Maps",
+    "link": "https://gamedev.net/blogs/entry/2298014-learning-opengl-part-4-materials-and-specular-maps",
+    "summary": "Materials: Were talking about materials in this chapter. So essentially a material is a collection of data that determines how light should bounce of a given object. It makes sense that a wooden surfaces thats not polished will shine less than a polished metal sheet right? thats essentially what materials are. So here inside our fragment shader we define a struct that functions as a collection for these different elements that can make up a material. Then in our code we define a uniform variable so we can change and access the material of an object during runtime. All the …",
+    "published": "Tue, 02 Jun 2026 16:27:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-02T22:19:25.780324"
+  },
+  "da7beeb112e9": {
+    "id": "da7beeb112e9",
+    "title": "Can anyone join my team?",
+    "link": "https://gamedev.net/forums/topic/720027-can-anyone-join-my-team",
+    "summary": "I'm looking for a programmer for my horror game, RESIDUAL.",
+    "published": "Tue, 02 Jun 2026 20:58:05 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-02T22:19:25.780337"
+  },
+  "0ea07dcdbe7c": {
+    "id": "0ea07dcdbe7c",
+    "title": "Tekken 8 game director Kohei Ikeda has left Bandai Namco",
+    "link": "https://www.gamedeveloper.com/business/tekken-8-game-director-kohei-ikeda-has-departed-bandai-namco",
+    "summary": "Ikeda worked at the Japanese company for two decades.",
+    "published": "Tue, 02 Jun 2026 14:40:38 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-02T22:19:29.032555"
+  },
+  "3dcc8e296113": {
+    "id": "3dcc8e296113",
+    "title": "PlayStation first-party game sales show a decline since 2020",
+    "link": "https://www.gamedeveloper.com/business/playstation-first-party-game-sales-are-in-decline",
+    "summary": "First-party game sales dropped from 58.4 million in FY20 to 28.9 million in FY24.",
+    "published": "Tue, 02 Jun 2026 14:31:49 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-02T22:19:29.032573"
   }
 }
