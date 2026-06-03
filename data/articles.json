@@ -5838,5 +5838,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-03T12:37:56.610003"
+  },
+  "33118b99595f": {
+    "id": "33118b99595f",
+    "title": "Collab Rites of fate",
+    "link": "https://gamedev.net/blogs/entry/2298020-collab-rites-of-fate",
+    "summary": "Looking to collaborate with game developers, artists, or designers interested in dark fantasy action RPGs. Working on a concept called: Rites of Fate: Souls of the Damned A co-op monster hunting RPG built around a simple question: What deserves saving, and what deserves sacrifice? Players hunt powerful creatures using customizable spell combinations rather than traditional classes. After major hunts, players choose the fate of monsters: SAVE Healing Support abilities Purity progression SACRIFICE Forbidden magic Corruption progression Greater power at a cost The world is set after a catastrophe known as The Fracture, where humanity's emotions, sins, regrets, and sacrifices created …",
+    "published": "Wed, 03 Jun 2026 19:18:40 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-03T22:25:52.146604"
+  },
+  "1f87e99268a4": {
+    "id": "1f87e99268a4",
+    "title": "Looking for Feedback on Gearomancer’s UI Screens",
+    "link": "https://gamedev.net/forums/topic/720021-looking-for-feedback-on-gearomancers-ui-screens",
+    "summary": "Hi everyone, We are Ditag Games, and we are currently developing Gearomancer, an indie bullet hell action-roguelite game for PC / Steam. While working on the UI side of the game, we wanted to share two screens with you. One is the character / Agent screen, and the other is the talent tree screen. Before Bullet Fest on June 8, we would like to get some outside feedback on these screens. After looking at the same screen for a long time, it can become harder to notice certain things, so feedback from both developers and players would be really valuable …",
+    "published": "Wed, 03 Jun 2026 22:22:54 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-03T22:25:52.146642"
+  },
+  "a22e366fc4f9": {
+    "id": "a22e366fc4f9",
+    "title": "PlayerUnknown Productions is laying off staff and halting development on Go Wayback",
+    "link": "https://www.gamedeveloper.com/business/playerunknown-productions-is-laying-off-staff-and-halting-development",
+    "summary": "The studio founded by Brendan 'PlayerUnknown' Greene will operate with a smaller team going forward.",
+    "published": "Wed, 03 Jun 2026 16:14:23 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-03T22:25:55.247405"
+  },
+  "b4dc973b6506": {
+    "id": "b4dc973b6506",
+    "title": "Update: Team17 has laid off members of its marketing and communications department",
+    "link": "https://www.gamedeveloper.com/business/team17-has-laid-off-members-of-its-marketing-and-communications-department",
+    "summary": "Two employees have been let go.",
+    "published": "Wed, 03 Jun 2026 14:58:09 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-03T22:25:55.247424"
+  },
+  "60365a10e0eb": {
+    "id": "60365a10e0eb",
+    "title": "Total consumer spending on games topped $60B in the US in 2025",
+    "link": "https://www.gamedeveloper.com/business/total-consumer-spending-on-games-topped-60b-in-the-us-in-2025",
+    "summary": "Over half of those surveyed by the ESA made in-game purchases.",
+    "published": "Wed, 03 Jun 2026 14:09:10 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-03T22:25:55.247435"
   }
 }
