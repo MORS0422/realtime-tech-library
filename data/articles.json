@@ -5808,5 +5808,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-02T22:19:29.032573"
+  },
+  "036c5d8677ae": {
+    "id": "036c5d8677ae",
+    "title": "(Unnamed Game) Dev Log Video 3 - Patrolling Enemy",
+    "link": "https://gamedev.net/blogs/entry/2298007-unnamed-game-dev-log-video-3-patrolling-enemy",
+    "summary": "",
+    "published": "Wed, 03 Jun 2026 12:17:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-03T12:37:53.665999"
+  },
+  "f6e2c0ab15a9": {
+    "id": "f6e2c0ab15a9",
+    "title": "Design Discussion: Reducing Inventory Stress in Loot-Based RPGs",
+    "link": "https://gamedev.net/forums/topic/720012-design-discussion-reducing-inventory-stress-in-loot-based-rpgs",
+    "summary": "Hello everyone. I am a university student from Korea, and I have recently been studying inventory management and item dismantling UX in loot-based RPGs and MMORPGs. One issue I became interested in is the amount of time players spend checking item stats before salvaging or dismantling equipment. In many games, players seem worried about accidentally destroying potentially valuable items, especially when random sub-stats or affixes are involved. Because of this, I started thinking about UI/UX features such as: filtering items with unwanted stats, sorting by sub-stat importance, highlighting “safe to dismantle” equipment, and confirmation windows with quick item previews. I …",
+    "published": "Wed, 03 Jun 2026 09:50:42 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-03T12:37:53.666040"
+  },
+  "17341d9ad5f7": {
+    "id": "17341d9ad5f7",
+    "title": "Mina the Hollower sells 300,000 copies in three days",
+    "link": "https://www.gamedeveloper.com/business/mina-the-hollower-sold-300-000-copies-in-three-days",
+    "summary": "Yacht Club Games previously indicated the title's performance would 'make or break' the studio.",
+    "published": "Wed, 03 Jun 2026 10:05:43 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-03T12:37:56.610003"
   }
 }
