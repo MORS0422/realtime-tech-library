@@ -5888,5 +5888,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-03T22:25:55.247435"
+  },
+  "0a491a0a23e0": {
+    "id": "0a491a0a23e0",
+    "title": "Blackmagic Design releases DaVinci Resolve 21.0",
+    "link": "https://www.cgchannel.com/2026/06/blackmagic-design-releases-davinci-resolve-21-0/",
+    "summary": "Now out of beta: discover key new features for VFX artists and colorists in the free color grading and editing app and its $295 Studio edition.",
+    "published": "Thu, 04 Jun 2026 07:30:13 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-04T10:57:34.690819"
+  },
+  "1a8163ef99b7": {
+    "id": "1a8163ef99b7",
+    "title": "Blackmagic Design releases Fusion Studio 21.0",
+    "link": "https://www.cgchannel.com/2026/06/blackmagic-design-releases-fusion-studio-21-0/",
+    "summary": "Now out of beta: 3D compositing app gets new motion graphics tools and updates to deep compositing, USD and lens correction workflows.",
+    "published": "Thu, 04 Jun 2026 07:00:59 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-04T10:57:34.690840"
+  },
+  "9a976896d3d0": {
+    "id": "9a976896d3d0",
+    "title": "Download 140+ free modular assets for building a sci-fi base",
+    "link": "https://www.cgchannel.com/2026/06/download-140-free-modular-assets-for-building-a-sci-fi-base/",
+    "summary": "Cloud Imperium Games artist Martin Milz's Modular SciFi Station asset pack sells for $44.99, but you can get it for free for the next two weeks.",
+    "published": "Thu, 04 Jun 2026 04:30:38 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-04T10:57:34.690851"
+  },
+  "ea1e45c09013": {
+    "id": "ea1e45c09013",
+    "title": "Nevercenter releases Silo 2026.1",
+    "link": "https://www.cgchannel.com/2026/06/nevercenter-releases-silo-2026/",
+    "summary": "Lightweight 3D modelling and UV mapping software gets a 100x boost in viewport rendering speed, plus full glTF support.",
+    "published": "Wed, 03 Jun 2026 08:52:03 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-04T10:57:34.690860"
+  },
+  "db01f68d28a5": {
+    "id": "db01f68d28a5",
+    "title": "(Unnamed Game) Dev Log Video 4 - Green Slime Enemy (art and animation need some more work)",
+    "link": "https://gamedev.net/blogs/entry/2298017-unnamed-game-dev-log-video-4-green-slime-enemy-art-and-animation-need-some-more-work",
+    "summary": "",
+    "published": "Thu, 04 Jun 2026 01:26:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-04T10:57:48.427619"
+  },
+  "d4e75d0e59a0": {
+    "id": "d4e75d0e59a0",
+    "title": "Amazon suggests IO Interactive might not return for 007 First Light sequel",
+    "link": "https://www.gamedeveloper.com/business/amazon-suggests-io-interactive-might-not-return-for-007-first-light-sequel",
+    "summary": "The U.S. company, which holds the rights to the James Bond franchise, has indicated it could take on publishing and perhaps even development duties.",
+    "published": "Thu, 04 Jun 2026 09:22:11 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-04T10:57:50.862736"
   }
 }
