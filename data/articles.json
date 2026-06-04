@@ -5948,5 +5948,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-04T10:57:50.862736"
+  },
+  "e5eb03056838": {
+    "id": "e5eb03056838",
+    "title": "Touching some grass in OpenGL - compute shaders and indirect draw",
+    "link": "https://gamedev.net/blogs/entry/2298023-touching-some-grass-in-opengl-compute-shaders-and-indirect-draw",
+    "summary": "testing my new grass implementation on my procedural 3d terrain terrain size is 300 x 300 meters here I used a high fog density value in order to hide the visible cut between grass covered areas and areas outside the maximum distance. Working on additional improvements in order to cover higher distances.",
+    "published": "Thu, 04 Jun 2026 20:25:52 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-04T21:27:24.247575"
+  },
+  "de8eaf95a405": {
+    "id": "de8eaf95a405",
+    "title": "I'd like your initial opinions on Cot, a Web dev language I invented",
+    "link": "https://gamedev.net/forums/topic/720034-id-like-your-initial-opinions-on-cot-a-web-dev-language-i-invented",
+    "summary": "Hi, everything is in Markdown because people still don't know how to code WYSIWYG editors, I'm sorry. If I portrayed it any other way, it'd eat itself alive, apparently... I'd like to introduce you to a project I've had in the works for a stupidly long time now. It's Web programming language that I call Cot. It has a fully-functioning compiler. I've made stuff that I use with it daily (most notably, a music player website that I've used for years, that scrapes YouTube playlists to import them, with support for shuffling multiple playlists at once). Cot fuses the roles …",
+    "published": "Thu, 04 Jun 2026 20:29:26 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-04T21:27:24.247615"
+  },
+  "2bf1ee05336e": {
+    "id": "2bf1ee05336e",
+    "title": "[Released] Real Fake Interiors - Unity3D Bake Tool + Shader: Fake rooms that look 3D from any angle!",
+    "link": "https://realtimevfx.com/t/released-real-fake-interiors-unity3d-bake-tool-shader-fake-rooms-that-look-3d-from-any-angle/31045",
+    "summary": "Tired of empty square fake rooms and flat cubemaps with paper-thin cutouts? Meet the next generation of fake interiors for Square, Rectangular and Tall rooms. Make rooms look 3D from any angle without using real geometry. Real Fake Interiors is a Unity shader and baking tool that takes a single room and lets you reuse it everywhere in your project. Features Multiple Room Sizes: Rectangular (2x1), Square (1x1), Tall (1x2) Fully editable with Amplify Shader Editor (optional) All-in-one, HDRP, URP, BiRP package “Deeper Room effect”, experimental No runtime components, shader only One-click Room Baker Tool High-quality depth and color baking Efficient coarse-to-fine raymarching with binary refinement Blue-noise jitter to reduce banding and repetition artifacts Multiple controls for performance tweaking Optional blinds / overlay texture mask support HDR cubemap exposure, tint, and rotation controls Per-instance UV tiling and material variation Preserves anisotropic filtering at grazing angles Assets are interchangeable, bake once and use on all renderers WebGL Support Fully editable with Amplify Shader Editor (optional). Grab the launch discount: Real Fake Interiors @AssetStore Learn more: Amplify Wiki - YouTube 1 post - 1 participant Read full topic",
+    "published": "Thu, 04 Jun 2026 15:58:42 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-04T21:27:17.208362"
+  },
+  "7a264739714b": {
+    "id": "7a264739714b",
+    "title": "Show my vfx i made for laser beam with Raycast tracing",
+    "link": "https://realtimevfx.com/t/show-my-vfx-i-made-for-laser-beam-with-raycast-tracing/31044",
+    "summary": "I have see some vfx laser, and try remake this with raycast tracing, shader graph, vfx graph and script C sharp control laser. Feel free to see and feedback to me My name is Andy. 1 post - 1 participant Read full topic",
+    "published": "Thu, 04 Jun 2026 14:48:53 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-04T21:27:17.208393"
+  },
+  "85301dba3abe": {
+    "id": "85301dba3abe",
+    "title": "Nintendo to debut a Switch 2 model with replaceable batteries in the EU",
+    "link": "https://www.gamedeveloper.com/business/nintendo-to-debut-a-switch-2-model-with-replaceable-batteries-in-the-eu",
+    "summary": "Starting in February 2027, batteries in many devices will need to be 'easily replaceable,' and Nintendo has signaled it will comply.",
+    "published": "Thu, 04 Jun 2026 17:18:34 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-04T21:27:25.981071"
+  },
+  "49b82341a79a": {
+    "id": "49b82341a79a",
+    "title": "How the Replaced devs fixed display bloat with a stylish gadget",
+    "link": "https://www.gamedeveloper.com/design/replaced-wingman",
+    "summary": "The Wingman was 'born out of design necessity.'",
+    "published": "Thu, 04 Jun 2026 13:37:02 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-04T21:27:25.981090"
   }
 }
