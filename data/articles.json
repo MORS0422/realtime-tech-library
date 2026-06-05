@@ -6008,5 +6008,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-04T21:27:25.981090"
+  },
+  "89d0f46fa093": {
+    "id": "89d0f46fa093",
+    "title": "Reallusion’s 3D character contest is back for 2026: $45,000 in prizes",
+    "link": "https://www.cgchannel.com/2026/06/reallusions-3d-character-contest-returns-for-2026-with-45000-in-prizes/",
+    "summary": "[Sponsored] Enter the 3D character design and animation contest to get access to the Reallusion tool suite and a chance to win cash prizes.",
+    "published": "Fri, 05 Jun 2026 05:00:26 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-05T11:21:46.516813"
+  },
+  "6449d7313730": {
+    "id": "6449d7313730",
+    "title": "#Pong - Devlog 2 - I can play versus the computer",
+    "link": "https://gamedev.net/blogs/entry/2298024-pong-devlog-2-i-can-play-versus-the-computer",
+    "summary": "In the previous post I shared a video but the player seems to have a problem so I hope today that will works. What's new In short, the 1 player mode is playable, nothing is perfect but that works 🙂 Some images of the game : Your surely dectect some little bugs and also that I am a poor player 😀. (if the video doesn't work that time too, I put the link here : Youtube And now ? Now I have to add the score of the match on the screen, correct some bugs too (If I succeed) and …",
+    "published": "Fri, 05 Jun 2026 03:03:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-05T11:21:57.189621"
+  },
+  "5f6fd8c877c7": {
+    "id": "5f6fd8c877c7",
+    "title": "Microsoft and Valve sued, PlayStation's first party downturn, and could a UK social media ban impact games? - Patch Notes #55",
+    "link": "https://www.gamedeveloper.com/business/atari-bags-a-very-cool-whale-playstation-s-first-party-downturn-and-could-a-uk-social-media-ban-impact-games-patch-notes-55",
+    "summary": "Plus: Atari acquires Hipster Whale and Mina the Hollower hits 300,000 sales.",
+    "published": "Fri, 05 Jun 2026 10:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-05T11:22:00.714049"
   }
 }
