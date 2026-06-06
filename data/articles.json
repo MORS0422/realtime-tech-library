@@ -6038,5 +6038,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-05T11:22:00.714049"
+  },
+  "38cf57f12e5c": {
+    "id": "38cf57f12e5c",
+    "title": "Generating walking/running/jumping sprites",
+    "link": "https://gamedev.net/forums/topic/720040-generating-walkingrunningjumping-sprites",
+    "summary": "Hi. I am trying to generate gamesprite and i have used both copilot and leonardo ai and i can not get it to work good. So i wonder if anyone has a good advice if there is some specific ai tool that do that well and if there is a specific prompt that can be used. Some simular prompt like: 2d, sideview, thin person, 4 frames walking, 2 frames jumping.",
+    "published": "Sat, 06 Jun 2026 09:44:58 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-06T09:58:11.901061"
+  },
+  "f5fece1b6a63": {
+    "id": "f5fece1b6a63",
+    "title": "Outer Space Cinematic: Ground Zero",
+    "link": "https://realtimevfx.com/t/outer-space-cinematic-ground-zero/31048",
+    "summary": "Hello everyone, Over the past few months, I’ve been working on a personal cinematic project designed to showcase a variety of VFX assets and techniques I’ve made. The goal was to bring different effects together in sequencer and explore how they could be continuously ramped up! Some of the systems and techniques used include: VDB workflows Flipbook-based effects Distortion shaders Various custom material and shader setups Even though I have been working in UE5 for over a year, this is my first time trying to composite like this. Please excuse my lack of skills!! Thank u for your interest in this post https://www.artstation.com/artwork/XJq98a - YouTube VFX Cinematic 1 post - 1 participant Read full topic",
+    "published": "Fri, 05 Jun 2026 23:27:02 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-06-06T09:58:04.512937"
+  },
+  "c06487a090ba": {
+    "id": "c06487a090ba",
+    "title": "Paramount unveils new 'unified' Paramount Games Studio",
+    "link": "https://www.gamedeveloper.com/business/paramount-games-studio-breaks-cover",
+    "summary": "The freshly unveiled studio will house all current Paramount and Skydance game studios moving forward.",
+    "published": "Fri, 05 Jun 2026 21:40:05 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-06T09:58:17.806224"
   }
 }
