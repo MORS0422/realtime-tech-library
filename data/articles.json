@@ -6068,5 +6068,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-06T09:58:17.806224"
+  },
+  "018465791067": {
+    "id": "018465791067",
+    "title": "Anyone looking for an ambient soundtrack for your game?",
+    "link": "https://gamedev.net/blogs/entry/2298027-anyone-looking-for-an-ambient-soundtrack-for-your-game",
+    "summary": "Hey! I'm not quite sure how this website works because I haven't used it until today lol. But I am a musician with experience in several fields. I've dabbled in soundtracking, and my specialty is ambient music similar to that in style of C418. Rates are very flexible :)",
+    "published": "Sat, 06 Jun 2026 23:15:32 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-07T10:24:29.754306"
+  },
+  "877a0a7550b7": {
+    "id": "877a0a7550b7",
+    "title": "Problem with Sounds in SFML 3",
+    "link": "https://gamedev.net/forums/topic/720044-problem-with-sounds-in-sfml-3",
+    "summary": "Hello, In my actual project where I use SFML 3 I try to add some sound effects, actually music works but when I try to play a sound nothing happen. I've tested several ways and places, I have checked the path of the file is ok, I have no compile errors, and the file open well in a media player (VLC) and I've tried with .wav, .ogg and .mp3 files too. The game run and don't crash, just no sound effect when it may be have one. The code I've used is in on case : sf::SoundBuffer buffer(\"Assets/Sounds/rebond_SFX.ogg\"); sf::Sound rebond …",
+    "published": "Sun, 07 Jun 2026 00:35:09 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-07T10:24:29.754348"
   }
 }
