@@ -6128,5 +6128,25 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-06-08T12:23:43.526916"
+  },
+  "aa3e51d05016": {
+    "id": "aa3e51d05016",
+    "title": "Ivan Ostanin: Sketch #68",
+    "link": "https://realtimevfx.com/t/ivan-ostanin-sketch-68/31067",
+    "summary": "I want to create some training objects that will trigger a glitch effect when hit. I want to try participating, but I’m not sure how much time I’ll have. If technical issues take up too much time, I’ll probably have to cancel my participation. I’ve only created a glitch effect once before, and I’m curious to see what I can come up with. I recently saw a few cool posts on X that inspired me, so I’ll use them as my main references: Hyperglitch plugin for AfterEffects multilayered motion I only have a few references for now. For this task, I will definitely need to use Scene Textures for Post Process Materials . I will need to create some stylized shaders, screen effects, and Screen Space UVs for Niagara. 1 post - 1 participant Read full topic",
+    "published": "Mon, 08 Jun 2026 17:15:21 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-06-08T21:46:35.443938"
+  },
+  "60f2921300dc": {
+    "id": "60f2921300dc",
+    "title": "How That's No Moon's Crossfire evolves the cover-based shooter",
+    "link": "https://www.gamedeveloper.com/design/how-that-s-no-moon-s-crossfire-evolves-the-cover-based-shooter",
+    "summary": "We visited the team behind the Crossfire reboot to learn how current technology is boosting their vision of a 'tactical action-adventure.'",
+    "published": "Mon, 08 Jun 2026 14:27:31 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-08T21:46:49.091263"
   }
 }
