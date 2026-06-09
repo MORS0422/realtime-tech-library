@@ -6188,5 +6188,115 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-06-09T10:55:52.168925"
+  },
+  "0413342ff724": {
+    "id": "0413342ff724",
+    "title": "Tutorial: Creating a Real-Time Horse Groom for Games",
+    "link": "https://www.cgchannel.com/2026/06/tutorial-creating-a-real-time-horse-groom-for-games/",
+    "summary": "Discover how to create creature grooms in Maya and optimize them for use in Unreal Engine with the Gnomon Workshop's masterclass.",
+    "published": "Tue, 09 Jun 2026 15:35:20 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-06-09T21:43:55.881513"
+  },
+  "c8b9ba07cc6e": {
+    "id": "c8b9ba07cc6e",
+    "title": "3DGS Render 5.0 lets you animate Gaussian Splats inside Blender",
+    "link": "https://www.cgchannel.com/2026/06/3dgs-render-5-0-lets-you-animate-gaussian-splats-inside-blender/",
+    "summary": "Kiri Innovations' free add-on now lets you transfer animation from proxy meshes - including rigged 3D characters - to 3DGS scans.",
+    "published": "Tue, 09 Jun 2026 14:51:19 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-09T21:43:55.881536"
+  },
+  "55cd0449ab61": {
+    "id": "55cd0449ab61",
+    "title": "Starting as an Extraction Shooter, then adding 5v5 and Survival modes later in Unreal? Is this a player-base/technical trap?",
+    "link": "https://gamedev.net/forums/topic/720055-starting-as-an-extraction-shooter-then-adding-5v5-and-survival-modes-later-in-unreal-is-this-a-player-basetechnical-trap",
+    "summary": "Hi everyone, My ultimate dream has always been to create a massive, realistic, survival game (like DayZ), but I also have loved the idea of things like extraction shooters (Escape from Tarkov), and 5v5 kind of games (like Rainbow Six Siege). I was wondering: what if I started a long-term project where I created a realistic extraction shooter (like Tarkov), then, once I get a larger team and more funding, I add a 5v5 mode (Siege) and a persistent survival open-world mode? (DayZ) Is this realistic or possible? Or will changing the core game loops across the modes create an …",
+    "published": "Tue, 09 Jun 2026 17:07:01 +0000",
+    "source_name": "GameDev - Tech Art",
+    "category": "ue",
+    "fetched_at": "2026-06-09T21:44:07.314418"
+  },
+  "3552cb7046de": {
+    "id": "3552cb7046de",
+    "title": "Synæsthesia: Sketch #68",
+    "link": "https://realtimevfx.com/t/synaesthesia-sketch-68/31077",
+    "summary": "Hi! This is my first time joining a monthly sketch event. I’m planning to make a glitchy portal effect, similar to the portal in across the spider-verse movie. 1 post - 1 participant Read full topic",
+    "published": "Tue, 09 Jun 2026 19:30:05 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-09T21:44:08.150303"
+  },
+  "531b55c853be": {
+    "id": "531b55c853be",
+    "title": "Manus: Sketch #68",
+    "link": "https://realtimevfx.com/t/manus-sketch-68/31076",
+    "summary": "Hello! I’m in the process of learning the simulations, so thought I could try some fun at making somethink like a glitchsplosion! I have no idea how it will turn out, but worth a shot! I love the explosions there are in Hades 2 and thought I could try to go for similar style, but glitchy! 1 post - 1 participant Read full topic",
+    "published": "Tue, 09 Jun 2026 15:55:10 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-09T21:44:08.150342"
+  },
+  "d99d2027081e": {
+    "id": "d99d2027081e",
+    "title": "Fire Attacks VFX pack for Unity",
+    "link": "https://realtimevfx.com/t/fire-attacks-vfx-pack-for-unity/31075",
+    "summary": "Hello fellow artists! I’ve just released an asset pack for Unity containing Fire VFX of different weapon categories including : Slashes, Heavy, Claw and Piercing. Attacks come with different variations and their own respective on hit impacts. Package also 2 shaders, 1 multi-feature particle system driven shader * with can be controlled via the custom data stream in Unity’s particle system and 1 Flame Shader. Youtube Preview link : Zyncope Fire Attack VFX preview Unity Link : Link to VFX pack in Unity Store Check out other versions of my attack VFX as well. Regular Attack VFX Youtube Preview link : Zyncope Attack VFX preview Unity link : Link to VFX pack in Unity Store Lightning Attack VFX Youtube Preview link : Zyncope Lightning Attack VFX preview Unity link : Link to VFX pack in Unity Store Please leave a comment about what you like/dislike or if there is anything you would like to see in the package! Thanks! 1 post - 1 participant Read full topic",
+    "published": "Tue, 09 Jun 2026 12:07:19 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-09T21:44:08.150412"
+  },
+  "4875e238784a": {
+    "id": "4875e238784a",
+    "title": "Nintendo of Europe to pay $40M fine for Joy-Con drift issues",
+    "link": "https://www.gamedeveloper.com/business/nintendo-of-europe-to-pay-40m-fine-for-joy-con-drift-issues",
+    "summary": "The company denies 'intentionally misleading consumers' about Joy-Con drifting problems.",
+    "published": "Tue, 09 Jun 2026 17:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-09T21:44:16.642776"
+  },
+  "b6ddc2803512": {
+    "id": "b6ddc2803512",
+    "title": "Xbox is rethinking strategy around Project Helix thanks to the memory crisis",
+    "link": "https://www.gamedeveloper.com/business/xbox-rethinking-strategy-around-project-helix-due-to-memory-crisis",
+    "summary": "The company says demand for Xbox consoles is outstripping supply, and the memory crisis is posing a 'severe limitation' on production speeds.",
+    "published": "Tue, 09 Jun 2026 14:38:41 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-09T21:44:16.642826"
+  },
+  "a79951f7c07d": {
+    "id": "a79951f7c07d",
+    "title": "Telltale Games is back, but can it learn from its past mistakes?",
+    "link": "https://www.gamedeveloper.com/production/can-telltale-games-learn-from-its-past-mistakes-",
+    "summary": "Telltale Games was once the standard-bearer for interactive storytelling. Its new leaders want to reclaim that title in a more sustainable way.",
+    "published": "Tue, 09 Jun 2026 14:11:41 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-09T21:44:16.642842"
+  },
+  "13725b0da16b": {
+    "id": "13725b0da16b",
+    "title": "007: First Light sales hit 3M in less than two weeks",
+    "link": "https://www.gamedeveloper.com/business/007-first-light-sales-hit-3m-in-less-than-two-weeks",
+    "summary": "'We are well above our forecasts at this point.'",
+    "published": "Tue, 09 Jun 2026 13:50:45 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-09T21:44:16.642851"
+  },
+  "9fc07e5d0e33": {
+    "id": "9fc07e5d0e33",
+    "title": "Xbox console exclusives are returning on a 'case-by-case' basis",
+    "link": "https://www.gamedeveloper.com/business/xbox-console-exclusives-are-returning-on-a-case-by-case-basis",
+    "summary": "'We want people to have a reason to get onboard with Xbox.'",
+    "published": "Tue, 09 Jun 2026 13:01:44 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-09T21:44:16.642861"
   }
 }
