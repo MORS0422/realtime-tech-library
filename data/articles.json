@@ -6148,5 +6148,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-08T21:46:49.091263"
+  },
+  "a620519eaac1": {
+    "id": "a620519eaac1",
+    "title": "Sneak peek: Houdini 22",
+    "link": "https://www.cgchannel.com/2026/06/sneak-peek-houdini-22/",
+    "summary": "See the new features due in the next major version of Houdini, from updates to Copernicus to tools to train, relight and rig Gaussian Splats.",
+    "published": "Mon, 08 Jun 2026 14:56:59 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-09T10:55:50.852526"
+  },
+  "3d83bf8a0df6": {
+    "id": "3d83bf8a0df6",
+    "title": "NeXus for Blender is now free in beta",
+    "link": "https://www.cgchannel.com/2026/06/sneak-peek-nexus-for-blender/",
+    "summary": "New Blender edition of the popular C4D particle and fluid simulation tool is free in beta for anyone who signs up for an Insydium account.",
+    "published": "Sat, 06 Jun 2026 09:00:43 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-09T10:55:50.852551"
+  },
+  "8f5d4f1a7ea5": {
+    "id": "8f5d4f1a7ea5",
+    "title": "Stefano Falubba: Sketch#68",
+    "link": "https://realtimevfx.com/t/stefano-falubba-sketch-68/31072",
+    "summary": "After some research I decided to join this challenge to study how to use the stencil buffer with Niagara. To test it out, I want to create a projectile that spawns particles in a zone only if there’s an object with a specific stencil value inside it, triggering a partial or full glitch effect on that object. I have two very good articles to explore stencil buffer and niagara, with two different approaches: one use post process for write in a dedicate buffer, and the other one use it for a mask. Hologram Stencil / Glitch stencil postprocess Try to my best for document all the step in the next week . 1 post - 1 participant Read full topic",
+    "published": "Tue, 09 Jun 2026 08:32:02 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-06-09T10:55:52.168871"
+  },
+  "5337a3c12cf5": {
+    "id": "5337a3c12cf5",
+    "title": "Jlazzaro Introduction and VFX breakdowns from Polyarc Games",
+    "link": "https://realtimevfx.com/t/jlazzaro-introduction-and-vfx-breakdowns-from-polyarc-games/31069",
+    "summary": "Hey RTVFX people! I’m a long-time lurker, but first-time poster. Until an unfortunate recent layoff , I’ve been doing VFX at Polyarc Games . This is a studio mostly known for the Moss VR games, but they’ll be releasing Moss 1+2 in Non-VR format as Moss: The forgotten Relic on July 16, 2026. Anyway, I’m planning to use this thread to post some breakdowns of VFX work I did while at Polyarc. I’m happy to answer any questions you might have and of course would love to hear any feedback! (Not sure if I need to do something special to make Imgur gifs embed properly.) 2 posts - 1 participant Read full topic",
+    "published": "Mon, 08 Jun 2026 23:48:02 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-09T10:55:52.168925"
   }
 }
