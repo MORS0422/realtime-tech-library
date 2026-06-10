@@ -6298,5 +6298,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-09T21:44:16.642861"
+  },
+  "95a63aafe796": {
+    "id": "95a63aafe796",
+    "title": "ZpriteForge v1.2 - The \"Pro Workflow\" Update (Custom Canvas, Retro Palettes & Spritesheets)",
+    "link": "https://gamedev.net/blogs/entry/2298036-zpriteforge-v12-the-pro-workflow-update-custom-canvas-retro-palettes-spritesheets",
+    "summary": "Hello everyone! 👋 Thank you so much for the amazing feedback on the recent updates. I’ve been working hard to bring ZpriteForge closer to desktop-level professional tools, and today’s v1.2 update is a massive leap forward. ✨ WHAT'S NEW IN V1.2: 📐 Custom Canvas Dimensions: You are no longer restricted to square grids! You can now type in any custom Width and Height (e.g., 64x32 or 128x64) and create the exact aspect ratio you need for your games. 🎨 Pre-made Retro Palettes: Working on a retro game? You can now instantly load classic palettes directly from the Colors menu. Choose …",
+    "published": "Wed, 10 Jun 2026 04:52:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-10T11:34:41.801541"
+  },
+  "fe12241a4216": {
+    "id": "fe12241a4216",
+    "title": "GL API design: Vertex buffers and immediate-mode rendering",
+    "link": "https://gamedev.net/forums/topic/720054-gl-api-design-vertex-buffers-and-immediate-mode-rendering",
+    "summary": "When using immediate mode rendering, you'd fill up a CPU side buffer with primitives, and then send it to the GPU, and then do a draw call. The basic limitation is that you cannot really buffer heterogeneous vertex types (such as some with a vertex attribute enabled, and some with a fallback value, or similar variations, maybe you want some field to be compressed most of the time, etc.). If you want to do so, you would have to set up the entire vertex array descriptor again, basically, and would have to do so for every switch in mode. Obviously …",
+    "published": "Wed, 10 Jun 2026 08:56:28 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-10T11:34:41.801591"
+  },
+  "b2fb71fdeff1": {
+    "id": "b2fb71fdeff1",
+    "title": "Xbox CEO unsure whether Activision Blizzard merger is paying off",
+    "link": "https://www.gamedeveloper.com/business/xbox-ceo-unsure-whether-activision-blizzard-merger-is-paying-off",
+    "summary": "'It's hard to say how to think about those decisions.'",
+    "published": "Wed, 10 Jun 2026 11:09:39 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-10T11:34:47.097992"
   }
 }
