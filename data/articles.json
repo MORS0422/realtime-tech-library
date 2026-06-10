@@ -6328,5 +6328,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-10T11:34:47.097992"
+  },
+  "582dfc5e2212": {
+    "id": "582dfc5e2212",
+    "title": "Maxon releases Redshift 2026.7",
+    "link": "https://www.cgchannel.com/2026/06/maxon-releases-redshift-2026-7/",
+    "summary": "Check out the new features in the GPU renderer, including updates to hex tiling, and support for DoF in real-time renderer Redshift Live.",
+    "published": "Wed, 10 Jun 2026 16:27:29 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-10T21:53:31.893118"
+  },
+  "c9be7fbca37b": {
+    "id": "c9be7fbca37b",
+    "title": "Maxon releases Cinema 4D 2026.3",
+    "link": "https://www.cgchannel.com/2026/06/maxon-releases-cinema-4d-2026-3/",
+    "summary": "3D animation and motion graphics software gets a new, completely redesigned UV Editor and UV tools. Check out all of the changes here.",
+    "published": "Wed, 10 Jun 2026 15:15:58 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-10T21:53:31.893142"
+  },
+  "9ea9e7af0105": {
+    "id": "9ea9e7af0105",
+    "title": "Do you have any recommendations on single-precision floating point libraries?",
+    "link": "https://gamedev.net/forums/topic/720059-do-you-have-any-recommendations-on-single-precision-floating-point-libraries",
+    "summary": "I've tried Boost Multi-Precision (Boost MP) and ttmath.org 's library, but neither emulate the single-precision float -- Boost MP's minimum precision is 16-bits instead of 8, and the case is similar for ttmath.org 's library. Do you have any recommendations on single-precision floating point libraries? I have a small code that snaps a double value to the closest float value below it, further quantizing it. The whole code is at: https://github.com/sjhalayka/mercury_gr_process The bare minimum part of the code is: custom_math::vector_3 grav_acceleration(const custom_math::vector_3&amp; pos, const custom_math::vector_3&amp; vel) { custom_math::vector_3 grav_dir = sun_pos - pos; const double distance = grav_dir.length(); grav_dir.normalize(); custom_math::vector_3 …",
+    "published": "Wed, 10 Jun 2026 21:02:57 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-10T21:53:39.573649"
+  },
+  "57b53e8df799": {
+    "id": "57b53e8df799",
+    "title": "Fake 3D Flipbook Rotation - how is it done?",
+    "link": "https://realtimevfx.com/t/fake-3d-flipbook-rotation-how-is-it-done/31084",
+    "summary": "Hey guys, an average Korean RTFX genious showed the fake 3D flipbook on his youtube channel: - YouTube One sequence is rendered from different angles, and those angles automatically switch depending on the rotation of the Niagara system itself. My question to you is: how is this done? How can this system-rotation-based switching between different flipbooks be set up purely in Niagara, using standard modules or Scratch Pad? Thanks🐘 1 post - 1 participant Read full topic",
+    "published": "Wed, 10 Jun 2026 21:32:56 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-06-10T21:53:32.995282"
+  },
+  "f1f40cef5dbd": {
+    "id": "f1f40cef5dbd",
+    "title": "Can't Photoshop layers \"Just be normal!\" ? (they can now)",
+    "link": "https://realtimevfx.com/t/cant-photoshop-layers-just-be-normal-they-can-now/31083",
+    "summary": "I know, there’s probably a million of these out there but I just wanted something quick and dirty that worked for me. Thought I share it with everyone, it’s free of course. I’m looking for requests and feedback, let me know what you need and maybe we can make this better for everyone that still needs quick and dirty normals on Photoshop. Features Normal Map Creation Normal Map Combine Normal Map Utils like Converting/Flipping Height to Normal and Normal to Height Presets Just select a layer, tweak your settings and apply. Check it out on Gumroad: Just be normal! (Photoshop Plugin) 1 post - 1 participant Read full topic",
+    "published": "Wed, 10 Jun 2026 16:44:17 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-10T21:53:32.995337"
+  },
+  "0371c6a43e0e": {
+    "id": "0371c6a43e0e",
+    "title": "Valve confirms it won't restock Steam Gift Cards",
+    "link": "https://www.gamedeveloper.com/business/valve-confirms-it-won-t-restock-steam-gift-cards",
+    "summary": "The company expects all retailers to be out of stock of Steam Gift Cards by the end of 2026.",
+    "published": "Wed, 10 Jun 2026 19:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-10T21:53:42.954110"
+  },
+  "077219fc5e04": {
+    "id": "077219fc5e04",
+    "title": "Ubisoft closing Winnipeg and Belgrade studios and making further layoffs",
+    "link": "https://www.gamedeveloper.com/business/ubisoft-closing-winnipeg-and-belgrade-studios-and-making-further-layoffs",
+    "summary": "The French publisher could eliminate up to 380 roles.",
+    "published": "Wed, 10 Jun 2026 16:59:59 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-10T21:53:42.954130"
+  },
+  "f3873765bd02": {
+    "id": "f3873765bd02",
+    "title": "ESA says anti-deepfake act could 'devastate' video game industry",
+    "link": "https://www.gamedeveloper.com/business/esa-says-anti-deepfake-act-could-devastate-video-game-industry",
+    "summary": "The No Fakes Act makes no distinction between harmful deepfakes and legitimate digital replicas, ESA argues.",
+    "published": "Wed, 10 Jun 2026 15:41:52 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-10T21:53:42.954143"
   }
 }
