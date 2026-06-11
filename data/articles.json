@@ -6408,5 +6408,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-10T21:53:42.954143"
+  },
+  "b04d174a9ceb": {
+    "id": "b04d174a9ceb",
+    "title": "Homing missiles UE5",
+    "link": "https://realtimevfx.com/t/homing-missiles-ue5/31094",
+    "summary": "Hello everyone, I wanted to share this personal project I have been working on recently. I wanted to focus on a realistic gameplay effect inspired by armored core. Flipbooks were made in EmberGen and use a 6 way-lighting material. I’m curious about your opinion and any feedback is always appreciated! - YouTube 1 post - 1 participant Read full topic",
+    "published": "Thu, 11 Jun 2026 09:52:08 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-06-11T12:05:41.640106"
+  },
+  "de7e34349a0e": {
+    "id": "de7e34349a0e",
+    "title": "Unreal Niagara For Loop Example",
+    "link": "https://realtimevfx.com/t/unreal-niagara-for-loop-example/31093",
+    "summary": "Couldn’t find much examples for For-Loops in Niagara. Here a simple Example where for each particle, I read the position of EVERY other particle (via for-loop) and draw a line. Can be useful for Plexus-VFX (e.g. [Niagara 5.1] Plexus Mini Tutorial ) 5 posts - 3 participants Read full topic",
+    "published": "Thu, 11 Jun 2026 08:51:44 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-06-11T12:05:41.640142"
+  },
+  "5f483909dad6": {
+    "id": "5f483909dad6",
+    "title": "Destruction Demo",
+    "link": "https://realtimevfx.com/t/destruction-demo/31092",
+    "summary": "Helloes! Thought I’d share my latest work. Created destruction in Unity with Houdini and a proper asset post processor tool. Took some time to setup the architechture and I will definitley re-use it to create other art pieces. Everything made by me except the rifle, arms and rifle animation. Destruction Demo 1 post - 1 participant Read full topic",
+    "published": "Thu, 11 Jun 2026 08:27:00 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-11T12:05:41.640169"
+  },
+  "b1a7f8cf38d9": {
+    "id": "b1a7f8cf38d9",
+    "title": "Xbox announces business 'reset' amid reports of layoffs and studio closures",
+    "link": "https://www.gamedeveloper.com/business/xbox-announces-business-reset-amid-reports-of-layoffs-and-studio-closures",
+    "summary": "Xbox CEO Asha Sharma said the video game division must display 'optimism and realism' as it moves forward.",
+    "published": "Thu, 11 Jun 2026 10:20:53 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-11T12:05:50.890143"
   }
 }
