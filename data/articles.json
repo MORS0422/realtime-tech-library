@@ -6448,5 +6448,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-11T12:05:50.890143"
+  },
+  "3c5ada7ef76d": {
+    "id": "3c5ada7ef76d",
+    "title": "IMS Creators: Turn complex logic into a visual system",
+    "link": "https://gamedev.net/blogs/entry/2298041-ims-creators-turn-complex-logic-into-a-visual-system",
+    "summary": "We continue to develop our editor as a universal control center for the world of your game. Today's update is dedicated to tools that will help you describe complex logic and turn it into a visual structure that is understandable to the engine, and make logic testing even faster. Read more",
+    "published": "Thu, 11 Jun 2026 13:21:19 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-11T21:56:24.988064"
+  },
+  "9bf18facf821": {
+    "id": "9bf18facf821",
+    "title": "Megamans MegaBuster-WIP Feedback",
+    "link": "https://realtimevfx.com/t/megamans-megabuster-wip-feedback/31096",
+    "summary": "Hey gang, I had/have a goal here of reimagining megamans mega buster to a modern setting like Destiny, or Mass Effect. If y’all are available for some feedback I would love that! https://imgur.com/a/NsvgSR4 These are the notes and reference I posted on the discord. Right now my problem is it doesnt feel powerful at all. like the starts, and then just…floats away out of the hand. my current solutoin is to just use a sphere to keep it simple, so I\"m not fighting the animation I chose. additionally. I think having some kinda transitionary muzzle flash element might be a good idea, but i’m not sure if i’m missing much bigger issues. 1 post - 1 participant Read full topic",
+    "published": "Thu, 11 Jun 2026 17:04:06 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-11T21:56:18.664761"
+  },
+  "639b46991de8": {
+    "id": "639b46991de8",
+    "title": "Unreal Niagara Fish WPO Example",
+    "link": "https://realtimevfx.com/t/unreal-niagara-fish-wpo-example/31095",
+    "summary": "Deforming a fish-mesh to let it wiggle is a common task. Took a while to get it running, though (thx to weird transforms). Notes Particles are aligned along velocity (set in Mesh Renderer ) Classic calculation but using the usual Object Position (Absolute) did NOT work! Had to use ObjectPivotPos ! Make gradient be aligned along the Particle Mesh (X-Axis) Offset Fish Mesh along the local right/left 3 posts - 2 participants Read full topic",
+    "published": "Thu, 11 Jun 2026 13:25:43 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-06-11T21:56:18.664804"
+  },
+  "b5f83e7a478e": {
+    "id": "b5f83e7a478e",
+    "title": "Report: Pokemon Go video scans may have been used for AI drone training",
+    "link": "https://www.gamedeveloper.com/business/report-pokemon-go-area-scans-sold-to-military-drone-technology-company",
+    "summary": "Nearly 30 billion scans made by players may be used for drones and military robots.",
+    "published": "Thu, 11 Jun 2026 14:37:45 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-11T21:56:27.503559"
+  },
+  "87511b0dc946": {
+    "id": "87511b0dc946",
+    "title": "Crimson Desert tops 6M sales within three months",
+    "link": "https://www.gamedeveloper.com/business/crimson-desert-tops-6m-sales-within-three-months",
+    "summary": "The gargantuan RPG initially sold 2 million copies within a day.",
+    "published": "Thu, 11 Jun 2026 13:31:16 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-11T21:56:27.503581"
+  },
+  "a4a6ce30f2c3": {
+    "id": "a4a6ce30f2c3",
+    "title": "Independent game publications revive bundles in defiance of 'cut-throat competitive market'",
+    "link": "https://www.gamedeveloper.com/business/indie-games-sites-bring-bundles-back-to-media-solidarity-feels-like-a-very-important-part-of-the-scene-right-now-",
+    "summary": "'Solidarity feels like a very important part of the scene right now.'",
+    "published": "Thu, 11 Jun 2026 11:19:59 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-11T21:56:27.503592"
   }
 }
