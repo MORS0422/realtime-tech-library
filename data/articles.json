@@ -6538,5 +6538,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-12T11:39:59.658187"
+  },
+  "b55c8a60552f": {
+    "id": "b55c8a60552f",
+    "title": "Devlog 2026-06-12",
+    "link": "https://gamedev.net/blogs/entry/2298047-devlog-2026-06-12",
+    "summary": "Happy Friday! Life goes on, and we have now managed to keep a helpless new human potato alive for just over 3 weeks. The little potato mostly sleeps, cries, poops, sleeps, and cries. They sometimes do all of them at once. The older potato loves the little potato very much, and it's endearing to see her faff over her potato sibling. The Toxic Yuri jam is on track and doing well. I have high hopes for this one. I also spent the week on boring infrastructure tasks for Infinite Stars. We've made some changes to how our data is stored, …",
+    "published": "Fri, 12 Jun 2026 17:57:28 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-12T21:26:50.189493"
+  },
+  "bc24d189be89": {
+    "id": "bc24d189be89",
+    "title": "Introducing MyHomeGames – A Retro Gaming & Emulation Hub for Home Computers",
+    "link": "https://gamedev.net/forums/topic/719999-introducing-myhomegames-a-retro-gaming-emulation-hub-for-home-computers",
+    "summary": "Hi everyone, I'm excited to introduce MyHomeGames , a project I've been working on as a passion-driven platform centered around retro gaming, software emulation, and vintage computer games. MyHomeGames is built for enthusiasts and developers who love classic titles and want to explore, preserve, and celebrate the golden era of home computing. The site features: In-depth reviews of retro games (like the Temple of Apshai trilogy and the Dunjonquest series) Tutorials and guides on emulation (SheepShaver, DOSBox, openMSX, MAME) Tips for managing digital game collections and backups Coverage of fan-made games and indie retro projects A focus on macOS (including …",
+    "published": "Fri, 12 Jun 2026 17:58:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-12T21:26:50.189534"
+  },
+  "be4f7122c7c7": {
+    "id": "be4f7122c7c7",
+    "title": "The art of game writing in 'non-narrative' games ft. Emma Kidwell and Harrison Pink",
+    "link": "https://www.gamedeveloper.com/design/the-art-of-game-writing-in-non-narrative-games-ft-emma-kidwell-and-harrison-pink",
+    "summary": "This week senior editor Bryant Francis sits down with narrative designer Harrison Pink and game writer Emma Kidwell for a conversation about the craft of creating narrative content in games that don’t strictly have a narrative focus.",
+    "published": "Fri, 12 Jun 2026 14:15:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-12T21:26:53.520126"
+  },
+  "4657a0bad5a3": {
+    "id": "4657a0bad5a3",
+    "title": "Playstack CEO pledges to be 'mindful' about growth after majority takeover",
+    "link": "https://www.gamedeveloper.com/business/playstack-ceo-pledges-to-be-mindful-about-growth-after-majority-takeover",
+    "summary": "The publisher also stressed that being sold to the owner of GameSpot and Fandom won't create a conflict of interest.",
+    "published": "Fri, 12 Jun 2026 12:40:12 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-12T21:26:53.520148"
   }
 }
