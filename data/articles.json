@@ -6508,5 +6508,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-11T21:56:27.503592"
+  },
+  "48edd31ebf26": {
+    "id": "48edd31ebf26",
+    "title": "Playgama releases Web Games Industry Map to show off the ecosystem",
+    "link": "https://gamedev.net/blogs/entry/2298044-playgama-releases-web-games-industry-map-to-show-off-the-ecosystem",
+    "summary": "Gaming lives everywhere: across platforms, messengers, media websites, standalone URLs, YouTube, Discord, airplane seat screens, and plenty of places we wouldn't have imagined a few years ago. Behind all of this is a web gaming ecosystem that has grown into hundreds of companies building engines, platforms, tools, monetization solutions, publishing services, analytics, and much more. We decided to capture that in a single industry map. Fortunately, Playgama ended up appearing more than once, which says something about the breadth of our own ecosystem 😄 The web gaming market is growing fast, and we're excited to help make it more visible. …",
+    "published": "Fri, 12 Jun 2026 09:30:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-12T11:39:57.813155"
+  },
+  "d98b9be3f950": {
+    "id": "d98b9be3f950",
+    "title": "Hello!",
+    "link": "https://gamedev.net/forums/topic/720056-hello",
+    "summary": "The key to happiness is gratitude. Thanks to everyone who participates here. I am grateful for gamedev.net",
+    "published": "Thu, 11 Jun 2026 23:13:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-12T11:39:57.813170"
+  },
+  "feab5c50e7f5": {
+    "id": "feab5c50e7f5",
+    "title": "Playstack sold, Xbox announces business 'reset,' and is generative AI poisoning the well? - Patch Notes #56",
+    "link": "https://www.gamedeveloper.com/business/playstack-sold-xbox-announces-business-reset-and-is-generative-ai-poisoning-the-well-patch-notes-55",
+    "summary": "Plus: Could an arbitration clause prevent families suing Roblox from taking the company to court?",
+    "published": "Fri, 12 Jun 2026 09:54:22 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-12T11:39:59.658187"
   }
 }
