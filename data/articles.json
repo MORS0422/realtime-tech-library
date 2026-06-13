@@ -6588,5 +6588,15 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-06-13T10:23:36.629099"
+  },
+  "939a3afd874d": {
+    "id": "939a3afd874d",
+    "title": "How My Crash Course in Game Art Taught Me to Let Go of Doubt and Just Do It",
+    "link": "https://gamedev.net/blogs/entry/2298051-how-my-crash-course-in-game-art-taught-me-to-let-go-of-doubt-and-just-do-it",
+    "summary": "A couple of years into game dev, our journey had already taken a fair few twists and turns, and with it, my art style. Coming from a traditional art background, I first dove into pixel art, before we pivoted to 3D models, and then eventually back to 2D art. This was great from certain points of view: one of the best things about trying different styles is that you get first hand experience with each, and have a realistic idea of what they involve. When we decided to go back to 2D art, I already knew that pixel art wasn’t …",
+    "published": "Sat, 13 Jun 2026 14:16:54 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-13T21:08:20.004705"
   }
 }
