@@ -6598,5 +6598,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-06-13T21:08:20.004705"
+  },
+  "2162847cabce": {
+    "id": "2162847cabce",
+    "title": "Scrut.Hut is now Developing",
+    "link": "https://gamedev.net/blogs/entry/2298052-scruthut-is-now-developing",
+    "summary": "Welcome to Scrut.Hut Blog My name is Charles Martin, and this blog serves as a place to share my work, ideas, research, and experiences in software engineering, game engine development, artificial intelligence, and high-performance C++ programming. I am the creator of the Scrut.Hut Homebrew Game Engine, a next-generation engine designed around dynamic systems, multithreaded execution, object-oriented architecture, extensibility, and performance-oriented design. Building a game engine from the ground up is a challenging and rewarding endeavor, and I intend to document many aspects of that journey here. In addition to engine development, I have a strong interest in artificial intelligence and …",
+    "published": "Sat, 13 Jun 2026 23:17:40 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-14T10:45:37.287243"
+  },
+  "e7fb45057679": {
+    "id": "e7fb45057679",
+    "title": "New free online VFX procedural textures with node base editor",
+    "link": "https://realtimevfx.com/t/new-free-online-vfx-procedural-textures-with-node-base-editor/31106",
+    "summary": "Hi, I’m working in a website with tools for VFX creation for realtime applications, the website is https://vfxparlor.com/ , where you can find tools to create VFX textures, process albedo or diffuse textures into PBR maps, use the regular editor or use a node based editor to generate textures without the need of paying Substance PAinter if you only want to create grayscale textures. Hope you like it, follow my tutorials: https://www.youtube.com/watch?v=0KeNlHj7A6o Thank you for your attention 2 posts - 2 participants Read full topic",
+    "published": "Sat, 13 Jun 2026 21:31:46 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-14T10:45:30.777205"
   }
 }
