@@ -6618,5 +6618,65 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-06-14T10:45:30.777205"
+  },
+  "f13b9a8eecec": {
+    "id": "f13b9a8eecec",
+    "title": "Download Gregor Weiss’s free bear creature rig",
+    "link": "https://www.cgchannel.com/2026/06/download-gregor-weisss-free-bear-creature-rig/",
+    "summary": "Get a free Maya creature rig with both body and facial controls, created using Maya character rigging framework BEAR.",
+    "published": "Sun, 14 Jun 2026 15:58:04 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-14T21:04:24.917753"
+  },
+  "dcfdbf9c395b": {
+    "id": "dcfdbf9c395b",
+    "title": "Tutorial: Snow Simulation Workflows in Houdini",
+    "link": "https://www.cgchannel.com/2026/06/tutorial-snow-simulation-workflows-in-houdini/",
+    "summary": "Master professional simulation workflows using Houdini's Vellum solver with The Gnomon Workshop's detailed six-hour tutorial.",
+    "published": "Sat, 13 Jun 2026 06:00:50 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-14T21:04:24.917775"
+  },
+  "65af0ce378fb": {
+    "id": "65af0ce378fb",
+    "title": "Boris FX releases Mocha Pro 2026.5",
+    "link": "https://www.cgchannel.com/2026/06/boris-fx-releases-mocha-pro-2026-5/",
+    "summary": "Planar and 3D tracking software gets AI-based point tracking tech for tracking previously impossible shots. See the other new features.",
+    "published": "Fri, 12 Jun 2026 08:39:32 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-14T21:04:24.917788"
+  },
+  "eb0bbd91b52d": {
+    "id": "eb0bbd91b52d",
+    "title": "Open 3D Foundation releases O3DE 2026.5",
+    "link": "https://www.cgchannel.com/2026/06/open-3d-foundation-releases-o3de-2026-5/",
+    "summary": "Open-source game engine gets new native particle system, updates to tonemapping and the physical sky, and automatic LOD generation.",
+    "published": "Thu, 11 Jun 2026 09:00:28 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-14T21:04:24.917800"
+  },
+  "c875dd97497b": {
+    "id": "c875dd97497b",
+    "title": "LF Builders of a map",
+    "link": "https://gamedev.net/blogs/entry/2298054-lf-builders-of-a-map",
+    "summary": "Hello, I am seeking for developers who can make me a polsih army game or help me with the map I am not that good with scritping and buildings 🙁 I am kinda poor and got no money if you can do it for free add me on discord -filipminecraft085",
+    "published": "Sun, 14 Jun 2026 15:29:34 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-14T21:04:32.721614"
+  },
+  "283b241c9106": {
+    "id": "283b241c9106",
+    "title": "FPS Collision Detection/Response with Stairs",
+    "link": "https://gamedev.net/forums/topic/720002-fps-collision-detectionresponse-with-stairs",
+    "summary": "Hi guys, I've done a good amount of research in to (swept sphere/ellipse) FPS collision detection/response with stairs and it seems the accepted solution is to teleport the player up when there is a collision. Unfortunately, the videos I've seen don't go in to detail about the issues that arise and I wonder if they're anything more than monetized YouTube content. My main issue is when you collide with a step and teleport up (positive y) you aren't actually on the next step and gravity kicks in causing an edge collision with the step you just teleported up to. The …",
+    "published": "Sun, 14 Jun 2026 18:05:50 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-14T21:04:32.721654"
   }
 }
