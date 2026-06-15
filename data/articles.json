@@ -6708,5 +6708,65 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-06-15T13:49:48.469204"
+  },
+  "2f14cb518ea6": {
+    "id": "2f14cb518ea6",
+    "title": "VAT Blood FX",
+    "link": "https://realtimevfx.com/t/vat-blood-fx/31127",
+    "summary": "Real-time Blood FX Using Houdini VAT and Unreal Engine Deferred Decals https://www.artstation.com/artwork/8BQ2GE 1 post - 1 participant Read full topic",
+    "published": "Mon, 15 Jun 2026 21:07:39 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-06-15T22:14:10.004419"
+  },
+  "f0bef3962871": {
+    "id": "f0bef3962871",
+    "title": "Looking for a real-time VFX",
+    "link": "https://realtimevfx.com/t/looking-for-a-real-time-vfx/31122",
+    "summary": "Hello everyone, I’m looking for a real-time VFX artist role links to my portfolio https://www.artstation.com/garnik con. Garnikarch@gmail.com 1 post - 1 participant Read full topic",
+    "published": "Mon, 15 Jun 2026 14:20:51 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-15T22:14:10.004449"
+  },
+  "4cc05880dad1": {
+    "id": "4cc05880dad1",
+    "title": "Report: Multiple Xbox game studio heads negotiating with Xbox to avoid closure",
+    "link": "https://www.gamedeveloper.com/business/report-compulsion-games-leadership-in-negotiations-with-xbox-potential-studio-closure",
+    "summary": "Update: Xbox's strategic reset appears to involve shutting down or divesting less-profitable studios.",
+    "published": "Mon, 15 Jun 2026 20:16:23 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-15T22:14:20.559981"
+  },
+  "ba2ab5eabbef": {
+    "id": "ba2ab5eabbef",
+    "title": "EA announces advertising platform to launch ads 'directly into gameplay'",
+    "link": "https://www.gamedeveloper.com/marketing/ea-announces-advertising-platform-to-launch-ads-directly-into-gameplay-",
+    "summary": "The new EA Advertising platform is launching with partnerships from Visa, Red Bull, Xfinity, Lowe's, Peacock, and Mountain Dew.",
+    "published": "Mon, 15 Jun 2026 19:05:16 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-15T22:14:20.560001"
+  },
+  "65790d738d80": {
+    "id": "65790d738d80",
+    "title": "Report: Two former Rare execs are leaving Xbox",
+    "link": "https://www.gamedeveloper.com/business/report-two-former-rare-execs-are-leaving-xbox",
+    "summary": "Head of Xbox Game Studios Craig Duncan and Xbox Game Studios chief of staff Louise O'Connor are leaving the outfit.",
+    "published": "Mon, 15 Jun 2026 16:59:02 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-15T22:14:20.560013"
+  },
+  "f563d41611de": {
+    "id": "f563d41611de",
+    "title": "Microsoft CEO says Xbox must become 'sustainable' as it reportedly considers major spinoff",
+    "link": "https://www.gamedeveloper.com/console/microsoft-ceo-says-xbox-must-become-sustainable-as-it-reportedly-considers-major-spinoff",
+    "summary": "'The challenge we have is we've not been monetizing that entertainment...if anything we've been subsidizing that entertainment.'",
+    "published": "Mon, 15 Jun 2026 15:06:39 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-15T22:14:20.560025"
   }
 }
