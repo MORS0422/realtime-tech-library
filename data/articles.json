@@ -6678,5 +6678,35 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-06-14T21:04:32.721654"
+  },
+  "f8454572fbeb": {
+    "id": "f8454572fbeb",
+    "title": "LightWave Digital releases LightWave 2026",
+    "link": "https://www.cgchannel.com/2026/06/lightwave-digital-releases-lightwave-2026/",
+    "summary": "Major update to the 3D modeling and animation software adds new physics-based layout, rigging, VFX and camera tracking tools.",
+    "published": "Mon, 15 Jun 2026 07:00:38 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-15T13:49:46.909676"
+  },
+  "ba597fb76e0d": {
+    "id": "ba597fb76e0d",
+    "title": "[Survey] Indie Game Developers: What Are Your Biggest Development Challenges?",
+    "link": "https://gamedev.net/forums/topic/720063-survey-indie-game-developers-what-are-your-biggest-development-challenges",
+    "summary": "Hello, I’m conducting a small survey aimed at independent game developers, hobbyists, students, solo developers, teams, and small studios. The goal is to better understand the challenges people face during game development: time management, budget constraints, motivation, tools, external feedback, visibility, finishing and publishing games, project abandonment, and more. A friend and I are exploring ideas for a future tool that could help creators make better progress on their projects. However, before building anything, we want to understand the real problems that game creators actually experience. The survey is anonymous and takes about 5 minutes to complete. If you're a …",
+    "published": "Mon, 15 Jun 2026 10:43:56 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-15T13:49:54.556422"
+  },
+  "279f734ba2ee": {
+    "id": "279f734ba2ee",
+    "title": "Check our new CC public VFX gallery",
+    "link": "https://realtimevfx.com/t/check-our-new-cc-public-vfx-gallery/31109",
+    "summary": "Hi, Check our new VFX public gallery and post your own: Texture Gallery — Shared Procedural Textures | VFX Parlor I delevertly say we are the best free open community to learn stylized procedural VFX, at least that is what I’m aming for, come by and experience what our free editor has to offer. Bye 5 posts - 2 participants Read full topic",
+    "published": "Sun, 14 Jun 2026 22:00:17 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-15T13:49:48.469204"
   }
 }
