@@ -6778,5 +6778,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-16T12:48:16.303227"
+  },
+  "b9106fd2f50c": {
+    "id": "b9106fd2f50c",
+    "title": "V-Ray for Blender Update 3 now runs on Linux",
+    "link": "https://www.cgchannel.com/2026/06/v-ray-for-blender-now-runs-on-linux/",
+    "summary": "Blender version of the renderer also gets a new Node Wrangler and GPU rendering on AMD GPUs, including in the free Community Edition.",
+    "published": "Tue, 16 Jun 2026 06:45:50 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-16T22:06:48.268223"
+  },
+  "ed79cd4d06f8": {
+    "id": "ed79cd4d06f8",
+    "title": "QuadSpinner releases Gaea 2.3",
+    "link": "https://www.cgchannel.com/2026/06/quadspinner-releases-gaea-2-3/",
+    "summary": "New version of the terrain design software adds new macro system and 16K baking, but release dates for Gaea 2.4 and 3.0 pushed back.",
+    "published": "Mon, 15 Jun 2026 14:11:40 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-16T22:06:48.268246"
+  },
+  "a92e4bd5808e": {
+    "id": "a92e4bd5808e",
+    "title": "Learning OpenGL Part: The End - Model loading",
+    "link": "https://gamedev.net/blogs/entry/2298055-learning-opengl-part-the-end-model-loading",
+    "summary": "So far weve only been using a cube and thats not very exciting is it. We probably want to expand beyond this cube if we want to make more impressive 3d graphics. We want to be able to import .fbx files that store the vertices data without us having to declare it everytime, just fetch the file and display that information accordingly. So lets do this. Assimp: Assimp is an open sourcce library that loads a model files data, once Assimp has loaded the file we can retrieve the data we need from Assimp. When you import the model it …",
+    "published": "Tue, 16 Jun 2026 13:50:43 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-16T22:06:56.153399"
+  },
+  "01ea09c7b6fd": {
+    "id": "01ea09c7b6fd",
+    "title": "Time-travel FPS metroidvania - Tempus Vitae",
+    "link": "https://gamedev.net/forums/topic/720070-time-travel-fps-metroidvania-tempus-vitae",
+    "summary": "Hey everyone! Since September of 2022 I've been working alonside my mates at Whiteboard Games on a time-travelling FPS metroidvania called Tempus Vitae . It's inspired by that one level in Titanfall 2 + Metroid Prime. You can wishlist it on Steam here: https://store.steampowered.com/app/2360820/Tempus_Vitae/ Let me know what you think of the concept!",
+    "published": "Tue, 16 Jun 2026 20:20:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-16T22:06:56.153427"
+  },
+  "e3bef3d8fdd9": {
+    "id": "e3bef3d8fdd9",
+    "title": "Ashimoz : Sketch#68",
+    "link": "https://realtimevfx.com/t/ashimoz-sketch-68/31140",
+    "summary": "hello everyone !! i came back from holiday yesterday to see a brand new monthly challenge! i’ll go with a projectile → aoe vfx and hope i’ll have enough time to finish it hahaha here some sketches ill probably do something along those lines or something 1 post - 1 participant Read full topic",
+    "published": "Tue, 16 Jun 2026 21:11:46 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-16T22:06:49.800676"
+  },
+  "394ad1a60803": {
+    "id": "394ad1a60803",
+    "title": "Analyzing Mouse: P.I. For Hire's audacious worldbuilding - Narrative Notebook #4",
+    "link": "https://www.gamedeveloper.com/design/analyzing-mouse-p-i-for-hire-s-audacious-worldbuilding-narrative-notebook",
+    "summary": "Fumi Games' Mouse: P.I. For Hire is more than a Steamboat Willy parody—but does its worldbuilding always stick the landing?",
+    "published": "Tue, 16 Jun 2026 14:08:07 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-16T22:06:57.660493"
+  },
+  "250aebb185d9": {
+    "id": "250aebb185d9",
+    "title": "Treyarch studio head steps down after 22 years",
+    "link": "https://www.gamedeveloper.com/business/treyarch-studio-head-steps-down-after-22-years",
+    "summary": "Two new co-studio heads will take over for Mark Gordon.",
+    "published": "Tue, 16 Jun 2026 14:05:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-16T22:06:57.660513"
+  },
+  "9acca1497c4a": {
+    "id": "9acca1497c4a",
+    "title": "Banned horror title Horses begins recouping development costs after selling 30,000 copies",
+    "link": "https://www.gamedeveloper.com/business/horses-begins-recouping-development-costs-after-selling-30-000-copies",
+    "summary": "Santa Ragione has earned $8,000 from those sales after paying back the title's private investors and director Andrea Lucco Borlera.",
+    "published": "Tue, 16 Jun 2026 13:18:12 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-16T22:06:57.660526"
   }
 }
