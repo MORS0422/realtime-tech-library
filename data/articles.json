@@ -6898,5 +6898,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-17T12:12:20.960021"
+  },
+  "cdd63e8ac34f": {
+    "id": "cdd63e8ac34f",
+    "title": "Update v1.2: The \"Smart Workflow\" Update is Here! 🚀 İçerik: Hello pixel artists and game devs! 🎨",
+    "link": "https://gamedev.net/blogs/entry/2298063-update-v12-the-smart-workflow-update-is-here-icerik-hello-pixel-artists-and-game-devs",
+    "summary": "We've been listening to your feedback, and today we're rolling out a massive quality-of-life update that will drastically speed up your drawing and animation process. No big UI changes—just pure, workflow-enhancing features! What's New in v1.2? 📸 Smart Palette Extractor: Ever found a perfect reference image but struggled to pick the colors? Just click the new Camera Icon in the Colors panel, upload any image, and ZpriteForge will instantly extract the 16 most dominant colors into a custom palette for you! 🔲 Auto-Outline Tool: Outlining sprites takes forever... until now. Click the new Square Icon in your Layers panel to …",
+    "published": "Wed, 17 Jun 2026 18:54:35 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-17T21:55:33.398605"
+  },
+  "85eed9ed45e9": {
+    "id": "85eed9ed45e9",
+    "title": "[HIRING] Looking for Unreal FX Artist",
+    "link": "https://realtimevfx.com/t/hiring-looking-for-unreal-fx-artist/31145",
+    "summary": "Hello everyone, We are looking for an Unreal VFX artist to help us explore the FX style and needs for our game. The game is a realistic action sports title, and we want to add various enhancements such as Speed Streaks, Impact Clouds, and so on. We are just entering this phase of game development, so this would not be a heavy commitment situation at this point. Eventually it would ramp up…however this is not a FX heavy game, so it would certainly be something you could do alongside other contracts. Some info: We use Unreal 5.3.2 It’s an Independent Contractor situation It would start immediately Pay would be hourly and based on your experience level. (we can discuss) Feel free to contact us at info@motionlogicstudios.com with portfolio examples. Thank you! 1 post - 1 participant Read full topic",
+    "published": "Wed, 17 Jun 2026 18:30:45 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-06-17T21:55:23.985940"
+  },
+  "9ed51ae601cc": {
+    "id": "9ed51ae601cc",
+    "title": "Sequence VFX - looking for feedback",
+    "link": "https://realtimevfx.com/t/sequence-vfx-looking-for-feedback/31144",
+    "summary": "Hey, I’ve been working with the seqeuncer with the goal of getting a solid feel on timing, working with animations and overall just improving my effects. I’m looking for any feedback and thoughts on the feel of my effects or the sequence in general, you can also share some idea’s, anything is welcome! Make sure to check out the full sequence here: https://youtu.be/WwSlO1U_f0s Thank you! 1 post - 1 participant Read full topic",
+    "published": "Wed, 17 Jun 2026 18:01:40 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-17T21:55:23.985972"
+  },
+  "7ada6cf2e947": {
+    "id": "7ada6cf2e947",
+    "title": "Don't Nod pursuing 'several levers' to secure financial future after Tencent decides against short-term investment",
+    "link": "https://www.gamedeveloper.com/business/don-t-nod-pursuing-several-levers-to-secure-financial-future-after-tencent-decides-against-short-term-investment",
+    "summary": "'While Tencent has decided not to make an additional investment in the studio in the short term, it continues to be a long-term shareholder of the company.'",
+    "published": "Wed, 17 Jun 2026 19:12:04 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-17T21:55:35.474412"
+  },
+  "8ed40f480c56": {
+    "id": "8ed40f480c56",
+    "title": "Unreal Engine 6 will merge UE5 and UEFN into 'a single, unified engine'",
+    "link": "https://www.gamedeveloper.com/programming/unreal-engine-6-will-merge-ue5-and-uefn-into-a-single-unified-engine-",
+    "summary": "Major changes to Unreal Engine include a change of programming model, tools for cross-game interoperability, and genAI pipeline features.",
+    "published": "Wed, 17 Jun 2026 18:44:50 GMT",
+    "source_name": "Game Developer",
+    "category": "ue",
+    "fetched_at": "2026-06-17T21:55:35.474430"
+  },
+  "54ae811a5ae3": {
+    "id": "54ae811a5ae3",
+    "title": "OtherSide Entertainment lays off 17 staff following game cancellation",
+    "link": "https://www.gamedeveloper.com/business/otherside-entertainment-lays-off-17-staff-following-game-cancellation",
+    "summary": "OtherSide says the current challenging video game landscape rendered codenamed project Argos 'unviable for now.'",
+    "published": "Wed, 17 Jun 2026 18:06:20 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-17T21:55:35.474439"
+  },
+  "63a07da41c5c": {
+    "id": "63a07da41c5c",
+    "title": "Report: Xbox was set on splitting with Ninja Theory when unveiling its new project",
+    "link": "https://www.gamedeveloper.com/business/report-xbox-was-set-on-splitting-with-ninja-theory-when-showing-its-new-project",
+    "summary": "Microsoft reportedly had already planned to sunset or split with Ninja Theory while presenting Senua during the latest showcase.",
+    "published": "Wed, 17 Jun 2026 15:34:55 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-17T21:55:35.474448"
+  },
+  "92902f090ada": {
+    "id": "92902f090ada",
+    "title": "Returnal director will be 'responsibly ambitious' to ensure his new studio prospers",
+    "link": "https://www.gamedeveloper.com/production/-the-game-is-the-boss-returnal-director-harry-krueger-wants-his-new-studio-to-live-forever",
+    "summary": "The Housemarque veteran explains how he intends to break new ground while remaining 'lean and mean'—and yes, that might involve the use of generative AI.",
+    "published": "Wed, 17 Jun 2026 14:29:05 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-17T21:55:35.474462"
   }
 }
