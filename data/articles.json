@@ -6858,5 +6858,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-16T22:06:57.660526"
+  },
+  "e35ab4e6a385": {
+    "id": "e35ab4e6a385",
+    "title": "Download a free 3D castle model in FBX format",
+    "link": "https://www.cgchannel.com/2026/06/download-a-free-3d-castle-model-in-fbx-format/",
+    "summary": "Get Dmitriy Dryzhak's White Castle model as a modular Unity or UE5 asset package, or in FBX format for use in any CG software.",
+    "published": "Wed, 17 Jun 2026 04:30:07 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-06-17T12:12:09.122533"
+  },
+  "18c0973c9b65": {
+    "id": "18c0973c9b65",
+    "title": "CRM64Pro GDK v0.18.0 Video, CDCv2 and Scene import update",
+    "link": "https://gamedev.net/blogs/entry/2298057-crm64pro-gdk-v0180-video-cdcv2-and-scene-import-update",
+    "summary": "CRM64Pro GDK v0.18.0 is now available, bringing the first public Video module, the new CDCv2 archive backend, and expanded EditorC64 workflows for Scene and animated tile content. This release continues the modernization work started in earlier versions, but moves the focus from GUI structure to media, archive storage and API consistency. The biggest user-facing additions are H.264 video playback, streamable CDC storage for large resources, and EditorC64 import tools that can turn animated GIF or H.264 video sources into animated tilesets for Scene workflows. Under the hood, v0.18.0 also standardizes file operations around SDL3 filesystem and I/O APIs, documents the …",
+    "published": "Tue, 16 Jun 2026 21:23:49 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-17T12:12:16.890329"
+  },
+  "9910203b9f37": {
+    "id": "9910203b9f37",
+    "title": "Looking for Feedback on Gearomancer’s UI Screens!",
+    "link": "https://gamedev.net/forums/topic/720020-looking-for-feedback-on-gearomancers-ui-screens",
+    "summary": "Hi everyone, We are Ditag Games, and we are currently developing Gearomancer, an indie bullet hell action-roguelite game for PC / Steam. While working on the UI side of the game, we wanted to share two screens with you. One is the character / Agent screen, and the other is the talent tree screen. Before Bullet Fest on June 8, we would like to get some outside feedback on these screens. After looking at the same screen for a long time, it can become harder to notice certain things, so feedback from both developers and players would be really valuable …",
+    "published": "Wed, 17 Jun 2026 07:29:03 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-17T12:12:16.890366"
+  },
+  "3d005cbc0ad7": {
+    "id": "3d005cbc0ad7",
+    "title": "Luna Abyss development team laid off by Kwalee",
+    "link": "https://www.gamedeveloper.com/business/luna-abyss-development-team-laid-off-by-kwalee",
+    "summary": "The UK publisher has made the entire development team redundant just weeks after the acclaimed shooter hit shelves.",
+    "published": "Wed, 17 Jun 2026 09:56:46 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-17T12:12:20.960021"
   }
 }
