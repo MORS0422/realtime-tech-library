@@ -6998,5 +6998,105 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-06-18T11:47:04.322187"
+  },
+  "84daed1acfbf": {
+    "id": "84daed1acfbf",
+    "title": "Get the free MetaHuman Animator Markerless Motion Capture plugin",
+    "link": "https://www.cgchannel.com/2026/06/get-the-free-metahuman-animator-markerless-mocap-plugin/",
+    "summary": "Epic Games' free mocap plugin extracts full-body and finger motion from phone or camera footage to transfer to MetaHuman characters.",
+    "published": "Thu, 18 Jun 2026 14:09:40 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-18T22:00:43.248021"
+  },
+  "4da485a21aaa": {
+    "id": "4da485a21aaa",
+    "title": "Adobe releases Photoshop 27.8",
+    "link": "https://www.cgchannel.com/2026/06/adobe-releases-photoshop-27-8/",
+    "summary": "Image editing software now supports OCIO 2.5 - and lets you use custom AI models trained on your own images with Generate Image.",
+    "published": "Thu, 18 Jun 2026 09:11:25 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-18T22:00:43.248046"
+  },
+  "e8af93d16d09": {
+    "id": "e8af93d16d09",
+    "title": "Adobe releases After Effects 26.3",
+    "link": "https://www.cgchannel.com/2026/06/adobe-releases-after-effects-26-3/",
+    "summary": "New features in the compositing and motion graphics app include DoF in the Advanced 3D renderer and a new Curl Noise effect.",
+    "published": "Thu, 18 Jun 2026 07:13:07 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-18T22:00:43.248060"
+  },
+  "0f19b8440b2c": {
+    "id": "0f19b8440b2c",
+    "title": "Unreal Engine 5.8 is here: discover its 5 key features for CG artists",
+    "link": "https://www.cgchannel.com/2026/06/see-5-key-features-for-cg-artists-in-unreal-engine-5-8/",
+    "summary": "Read our pick of the latest features in Unreal Engine, from Mesh Terrain to MetaHuman Crowds, by way of new rigging and animation tools.",
+    "published": "Wed, 17 Jun 2026 14:11:38 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-06-18T22:00:43.248074"
+  },
+  "de59eae15c73": {
+    "id": "de59eae15c73",
+    "title": "New horizons",
+    "link": "https://gamedev.net/blogs/entry/2298065-new-horizons",
+    "summary": "Been a hot minute since my last post. This time is very different. It's alarmingly dangerous, yet has potential in changing my life forever. This is not an exaggeration. Albeit, a painful and bittersweet one, which I'd wished to have never experienced, due to the what it cost and how much damage it has done. […] Sigh. So it seems that after a lifetime of hardship and tremendous efforts to combat it, I’m still unable to choose where my life goes or affect it in any shape or form: Have to accept what's given and stay quiet about it. Well, …",
+    "published": "Thu, 18 Jun 2026 13:20:48 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-18T22:00:52.724689"
+  },
+  "d3a370778f17": {
+    "id": "d3a370778f17",
+    "title": "[RevShare] [LFS] [Game Designer] 2D Sandbox MMO, 6 months in, fully playable",
+    "link": "https://gamedev.net/forums/topic/720078-revshare-lfs-game-designer-2d-sandbox-mmo-6-months-in-fully-playable",
+    "summary": "Brixonia is a 2D multiplayer sandbox MMO that has been in development for 6 months and is fully playable. Players build and explore worlds, splice seeds to discover new items, trade with each other, and progress through a quest driven journal system. The game features live multiplayer, world building, a player driven economy, farming, a store, and cave combat. I am looking for a systems focused game designer. Not a narrative designer. The role covers economy balance, progression feel, retention loops, and quest design. You do not need to code or make art. You need to think in systems and …",
+    "published": "Thu, 18 Jun 2026 16:48:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-18T22:00:52.724727"
+  },
+  "e629f3e48efd": {
+    "id": "e629f3e48efd",
+    "title": "Getting started in VFX for games",
+    "link": "https://realtimevfx.com/t/getting-started-in-vfx-for-games/31151",
+    "summary": "Hello everyone! I am really interested in learning how to create vfx for games but I don’t really know where to start from. I wanted to ask for great tutorials to learn basic stuff, whether free or paid. I’ve been following some Gabriel Aguiar tutorials but some of them are on older engine builds or I can’t manage to follow the tutorial properly and my vfx don’t end up looking the same. 1 post - 1 participant Read full topic",
+    "published": "Thu, 18 Jun 2026 20:00:46 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-18T22:00:44.812439"
+  },
+  "2383954edb50": {
+    "id": "2383954edb50",
+    "title": "'A new industry with a new identity:' How Canadian devs are faring in 2026",
+    "link": "https://www.gamedeveloper.com/business/-a-new-industry-with-a-new-identity-how-canadian-devs-are-faring-in-2026",
+    "summary": "We spoke to developers at Toronto Canada's XP Game Summit to see how they are getting by in increasingly tumultuous times.",
+    "published": "Thu, 18 Jun 2026 17:59:13 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-18T22:00:59.492113"
+  },
+  "a0376b8337a4": {
+    "id": "a0376b8337a4",
+    "title": "Pocketpair lead on generative AI: Gamers don't want it",
+    "link": "https://www.gamedeveloper.com/business/palworld-lead-on-genai-gamers-don-t-want-it",
+    "summary": "Pocketpair communications director and publishing manager John Buckley doesn't see genAI ever becoming too prominent.",
+    "published": "Thu, 18 Jun 2026 15:46:44 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-18T22:00:59.492133"
+  },
+  "69e32d5c838c": {
+    "id": "69e32d5c838c",
+    "title": "Vampire Survivors dev 'reviewing' Fortnite collab after Epic's AI announcement",
+    "link": "https://www.gamedeveloper.com/business/vampire-survivors-dev-reviewing-fortnite-collab-after-ai-usage-news",
+    "summary": "Poncle voiced its doubts mere hours after the collaboration's announcement.",
+    "published": "Thu, 18 Jun 2026 14:44:30 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-18T22:00:59.492144"
   }
 }
