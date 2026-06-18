@@ -6978,5 +6978,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-17T21:55:35.474462"
+  },
+  "1256b21c2dca": {
+    "id": "1256b21c2dca",
+    "title": "Gameplay Advance",
+    "link": "https://gamedev.net/blogs/entry/2298058-gameplay-advance",
+    "summary": "Hey, sharing the first gameplay footage of The Last Pole. The core loop is now functional end to end. In the clip you can see the player picking up the flashlight, messing around with the inventory, walking up to a sparking pole, selecting the right tool, performing the part swap, then heading to the electrical cabinet, unlocking it with a key, opening the door, and flipping the power switch. The lights come back on. View Tweet It's still very early. The level is built with placeholder geometry while the systems get locked in, but the interaction system, inventory, repair mechanics, …",
+    "published": "Thu, 18 Jun 2026 01:25:32 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-18T11:47:04.322147"
+  },
+  "7e15109a41c1": {
+    "id": "7e15109a41c1",
+    "title": "Looking for devs to help me make a game (unpaid)",
+    "link": "https://gamedev.net/forums/topic/720074-looking-for-devs-to-help-me-make-a-game-unpaid",
+    "summary": "Welcome to the Empire of Beasts Hi there, my name is Gomoryy, and welcome to the Empire of Beasts Game! This topic is centered around a world where crime, corruption, and dangerous experimentation have reshaped society. The setting takes place in a sprawling city controlled by criminal organizations, powerful syndicates, and competing law enforcement agencies. Illegal laboratories conduct experiments on human subjects, creating drugs capable of granting animal-like abilities and mutations. Some gain incredible powers, while others become something far more dangerous. For this, the primary inspiration is a third-person hero shooter where law enforcement and criminal factions battle for …",
+    "published": "Wed, 17 Jun 2026 23:10:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-18T11:47:04.322187"
   }
 }
