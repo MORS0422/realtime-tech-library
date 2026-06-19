@@ -7108,5 +7108,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-19T12:01:18.635155"
+  },
+  "f1c2998ae11f": {
+    "id": "f1c2998ae11f",
+    "title": "GameDev.net now has an MCP server",
+    "link": "https://gamedev.net/blogs/entry/2298072-gamedevnet-now-has-an-mcp-server",
+    "summary": "A lot of developers are doing more of their day-to-day work inside AI tools now - Claude, Cursor, ChatGPT, and whatever else people are wiring into their workflow this month. With over 27 years of history and archives even older, GameDev.net has a lot of old, useful, weirdly specific knowledge sitting in forum threads, tutorials, blogs, postmortems, and news coverage. So we’ve added a standard MCP endpoint that lets those tools search GameDev.net directly and cite what they find. The endpoint is https://gamedev.net/mcp/ If you haven’t run into MCP yet, it’s the Model Context Protocol. In practice, it means your …",
+    "published": "Fri, 19 Jun 2026 15:58:42 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-19T21:06:39.307148"
+  },
+  "a6d85f7680fe": {
+    "id": "a6d85f7680fe",
+    "title": "[Hobby/RevShare] Systems/Gameplay Programmer needed for Hard Sci-Fi Logistics Simulation (Publisher Interest from Hooded Horse)",
+    "link": "https://gamedev.net/forums/topic/720080-hobbyrevshare-systemsgameplay-programmer-needed-for-hard-sci-fi-logistics-simulation-publisher-interest-from-hooded-horse",
+    "summary": "Hi everyone, I am a game designer and systems architect working on a high-concept, hard sci-fi simulation game titled STRATEGIC PROTOCOL: HEAVY EARTH (Gardener’s Cradle) . Recently, the well-known strategy publisher Hooded Horse (publishers of Manor Lords, Terra Invicta, Against the Storm ) responded to my pitch. They are interested in the game's unique concept but, naturally, they need to see a 10-15 minute gameplay video and a stable, playable build (MVP) to move forward with a publishing contract. Since I focus entirely on systems design, math, and economics, I am looking for a talented programmer to partner with and …",
+    "published": "Fri, 19 Jun 2026 19:32:47 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-19T21:06:39.307190"
+  },
+  "919aa700042b": {
+    "id": "919aa700042b",
+    "title": "Hello everyone! I need some help :)",
+    "link": "https://realtimevfx.com/t/hello-everyone-i-need-some-help/31154",
+    "summary": "So I drew a texture and when applying it to the Sample Texture 2D it doesn’t look like what I made. I am really lost here and I would love some help! 1 post - 1 participant Read full topic",
+    "published": "Fri, 19 Jun 2026 13:58:26 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-19T21:04:15.550886"
+  },
+  "19e8195c2c96": {
+    "id": "19e8195c2c96",
+    "title": "Kabam consolidating LA office and making layoffs",
+    "link": "https://www.gamedeveloper.com/business/kabam-making-layoffs-after-choosing-to-consolidate-la-office",
+    "summary": "It's unclear how many roles have been eliminated at the Marvel Contest of Champions developer.",
+    "published": "Fri, 19 Jun 2026 15:24:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-19T21:06:42.546941"
+  },
+  "d2620173583f": {
+    "id": "d2620173583f",
+    "title": "Report: Former Xbox president Sarah Bond and Take-Two CEO Strauss Zelnick linked to Peter Thiel's secret society",
+    "link": "https://www.gamedeveloper.com/business/report-former-xbox-president-sarah-bond-and-take-two-ceo-strauss-zelnick-involved-in-peter-thiel-backed-secret-society",
+    "summary": "A series of leaks have tied multiple current and former video game industry execs to the controversial billionaire's invite-only 'Dialog' conference.",
+    "published": "Fri, 19 Jun 2026 14:09:13 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-19T21:06:42.546963"
   }
 }
