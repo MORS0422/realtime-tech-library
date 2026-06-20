@@ -7168,5 +7168,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "ue",
     "fetched_at": "2026-06-20T10:31:04.795929"
+  },
+  "ff011fed5949": {
+    "id": "ff011fed5949",
+    "title": "Unreal Engine - The \"EngineMisc\" in the low level memory tracker could be tricky for you.",
+    "link": "https://gamedev.net/blogs/entry/2298077-unreal-engine-the-enginemisc-in-the-low-level-memory-tracker-could-be-tricky-for-you",
+    "summary": "A quick share about my finding for the EngineMisc category under Unreal's LLM (Low level memory tracker, not the AI LLM). If you ever wonder why this category always shows a high amount of memory, then this knowledge might help 🙂. First of first, what does this EngineMisc mean exactly? From the UE documentation : Any low-level memory that is not tracked in any other category. We can agree that the description is too broad and couldn't really help us. After some codebase digging, I find the EngineMisc is actually measuring the scope of FEngineLoop::Tick() : void FEngineLoop::Tick() { SCOPED_NAMED_EVENT_TEXT(\"FEngineLoop::Tick\", …",
+    "published": "Sat, 20 Jun 2026 17:04:10 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-06-20T21:12:02.503385"
+  },
+  "b221590efa23": {
+    "id": "b221590efa23",
+    "title": "[Rev-Share] Solo Beginner looking for Unity Physics Programmer & 3D Artist (PICKUP RUNNER)",
+    "link": "https://gamedev.net/forums/topic/720082-rev-share-solo-beginner-looking-for-unity-physics-programmer-3d-artist-pickup-runner",
+    "summary": "Hello everyone, I am a very beginner indie developer using Unity 6, and I am working on my first project called \"PICKUP RUNNER\". It is an off-road logistics simulator inspired by SnowRunner, where players haul cargo and animals across challenging muddy trails. Current Status: Since I am a complete beginner and do not know how to code yet, I have only managed to set up a basic playable prototype in Unity with a controllable truck and a simple terrain with scattered hills. Who I am looking for: Unity Physics Programmer: To handle the coding, wheel friction, and mud mechanics. 3D …",
+    "published": "Sat, 20 Jun 2026 13:56:15 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-20T21:12:02.503443"
   }
 }
