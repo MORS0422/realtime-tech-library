@@ -7188,5 +7188,35 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-06-20T21:12:02.503443"
+  },
+  "bbe2fb3232a2": {
+    "id": "bbe2fb3232a2",
+    "title": "10 things CG artists need to know about Unreal Engine 6",
+    "link": "https://www.cgchannel.com/2026/06/10-things-cg-artists-need-to-know-about-unreal-engine-6/",
+    "summary": "The industry-changing real-time tool is about to enter a new era. Discover what UE6 means for games, VFX and visualization artists.",
+    "published": "Sun, 21 Jun 2026 05:48:29 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-06-21T11:11:57.431457"
+  },
+  "aee2956105f4": {
+    "id": "aee2956105f4",
+    "title": "Action Map with Regards to Deep Learning",
+    "link": "https://gamedev.net/blogs/entry/2298078-action-map-with-regards-to-deep-learning",
+    "summary": "I have been going over the subject of artificial intelligence. I have an old idea where you construct a something like a finite state machine with attributes located at each node. You use a Artificial Neural Network to traverse and transition states, where the artificial neural network can also encapsulate data. This way you can plan actions in a coordinated method. For example, in a Real Time Strategy the first action would be build a town hall; additional buildings and actions after.",
+    "published": "Sun, 21 Jun 2026 08:03:03 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-21T11:14:24.328635"
+  },
+  "2728790448ba": {
+    "id": "2728790448ba",
+    "title": "We’re Looking for Team Members and Community Members for a Medieval Strategy Game in Limited Beta",
+    "link": "https://gamedev.net/forums/topic/720083-were-looking-for-team-members-and-community-members-for-a-medieval-strategy-game-in-limited-beta",
+    "summary": "Hi everyone! I’m a back-end developer working on an online medieval strategy game focused on economy, alliances, diplomacy, and tactical conquest. The project has moved beyond the concept and initial development stage and is currently live in Limited Beta . At this stage, our main goal is to build an active community and a strong player base that can help test, improve, and grow the game. What We’re Looking For Sales Manager We’re looking for a results-driven person who can help develop partnerships, identify funding opportunities, and contribute to the project’s monetization and growth strategy. Marketing Manager Responsible for promoting …",
+    "published": "Sun, 21 Jun 2026 09:06:45 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-21T11:14:24.328676"
   }
 }
