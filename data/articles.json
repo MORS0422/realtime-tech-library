@@ -7268,5 +7268,75 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-22T13:30:17.555606"
+  },
+  "324253143a21": {
+    "id": "324253143a21",
+    "title": "Unity releases Unity 6.5: discover 5 key features for CG artists",
+    "link": "https://www.cgchannel.com/2026/06/unity-releases-unity-6-5-discover-5-key-features-for-cg-artists/",
+    "summary": "Unity artists get updates to the Shader and VFX Graphs, but OptiX denoising and the Built-In Render Pipeline are both deprecated.",
+    "published": "Mon, 22 Jun 2026 13:55:49 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-22T21:57:45.695970"
+  },
+  "a5ca486a067a": {
+    "id": "a5ca486a067a",
+    "title": "How do you diagnose mobile game ad revenue drops?",
+    "link": "https://gamedev.net/forums/topic/720087-how-do-you-diagnose-mobile-game-ad-revenue-drops",
+    "summary": "For developers monetizing mobile games with ads, what do you usually check first when revenue drops? I’m trying to organize a practical checklist for small teams: impressions fill rate / match rate eCPM country mix placement exposure ad source / mediation source My current thinking is that eCPM alone can be misleading. If revenue drops but eCPM is stable, the issue may be fill, traffic, placement exposure, or country mix. If traffic and fill stay stable but eCPM drops, then pricing, demand, or country mix may be more likely. Curious how other mobile game developers debug this in practice. What …",
+    "published": "Mon, 22 Jun 2026 20:38:27 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-22T21:57:53.526072"
+  },
+  "88b6e252c570": {
+    "id": "88b6e252c570",
+    "title": "Steam Machine pricing starts at $1,049 for 512GB model",
+    "link": "https://www.gamedeveloper.com/pc/steam-machine-pricing-starts-at-1-049-for-512gb-model",
+    "summary": "The Steam Machine price tag has soared past $1,000 (though not by much).",
+    "published": "Mon, 22 Jun 2026 20:07:34 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-22T21:57:56.343104"
+  },
+  "d62c0337d70c": {
+    "id": "d62c0337d70c",
+    "title": "Report: EA conducts layoffs in Hyderabad, India and the US",
+    "link": "https://www.gamedeveloper.com/business/report-ea-conducts-layoffs-in-hyderabad-india-and-the-us",
+    "summary": "The latest round of layoffs reportedly impacts workers across the 'recruitment, customer support, trust and safety, and IT teams.'",
+    "published": "Mon, 22 Jun 2026 18:05:56 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-22T21:57:56.343126"
+  },
+  "d2de4333af74": {
+    "id": "d2de4333af74",
+    "title": "Ubisoft eliminates 93 roles in San Francisco",
+    "link": "https://www.gamedeveloper.com/business/ubisoft-eliminates-93-roles-in-san-francisco",
+    "summary": "A California WARN notice shows 93 roles impacted.",
+    "published": "Mon, 22 Jun 2026 17:38:03 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-22T21:57:56.343137"
+  },
+  "af519bf6351c": {
+    "id": "af519bf6351c",
+    "title": "Godot confirms it tolerates 'some AI assistance' but rejects 'vibe coded' tag",
+    "link": "https://www.gamedeveloper.com/business/godot-confirms-it-tolerates-some-ai-assistance-but-rejects-vibe-coded-accusations",
+    "summary": "'Any slop PR is automatically rejected, as simple as that.'",
+    "published": "Mon, 22 Jun 2026 15:35:26 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-22T21:57:56.343147"
+  },
+  "3579a65e209c": {
+    "id": "3579a65e209c",
+    "title": "French union STJV to commence national strike outside Quantic Dream",
+    "link": "https://www.gamedeveloper.com/business/french-union-stjv-to-commence-national-strike-outside-quantic-dream",
+    "summary": "The strike will begin in Paris later this week in protest of ongoing layoffs and instability.",
+    "published": "Mon, 22 Jun 2026 14:49:33 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-22T21:57:56.343158"
   }
 }
