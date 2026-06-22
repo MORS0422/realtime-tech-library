@@ -7228,5 +7228,45 @@
     "source_name": "GameDev - Tech Art",
     "category": "ta",
     "fetched_at": "2026-06-21T21:08:14.231932"
+  },
+  "d60cace29207": {
+    "id": "d60cace29207",
+    "title": "Rasterizer Project - Part 1: Getting started",
+    "link": "https://gamedev.net/blogs/entry/2298079-rasterizer-project-part-1-getting-started",
+    "summary": "Were making a Rasterizer folks, exciting really. I would like to credit: I will be using these resources in my journey in making this rasterizer. https://haqr.eu/tinyrenderer/bresenham/ What is a Rasterizer? Its a part of the graphics pipeline that turns all that magical mathematical geometry, points lines and tirangles into colored pixels on a 2D image. Everything you see in a rendered game or 3D scene comes down to rasteriztion. The program has to decide which pixels on the screen correspond to which parts of what triangles, what colour they should be (how bright etc etc). So the basic idea is …",
+    "published": "Sun, 21 Jun 2026 23:38:19 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-22T13:30:14.756440"
+  },
+  "2ec0cfec6bed": {
+    "id": "2ec0cfec6bed",
+    "title": "Cozy Farming UI Kit — 2D UI Asset Pack with Interactive Demo",
+    "link": "https://gamedev.net/forums/topic/720088-cozy-farming-ui-kit-2d-ui-asset-pack-with-interactive-demo",
+    "summary": "Hi everyone! I’ve released the Cozy Farming UI Kit , a coordinated 2D interface collection for cozy farming games, life simulations, casual RPGs, visual novels, prototypes, and other warm, stylized projects. Try the interactive browser demo Explore the interface directly in your browser: Launch the Cozy Farming UI Kit Interactive Demo The demo lets you: switch between multiple farming HUD energy states; browse a functional inventory; select items and preview their details; test buttons, toggles, sliders, and favorite states; preview coordinated icons, panels, controls, and HUD elements; view 12 complete screen layouts. Everything shown in the interactive demo is built …",
+    "published": "Mon, 22 Jun 2026 10:44:21 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-22T13:30:14.756485"
+  },
+  "dbc22d666a4b": {
+    "id": "dbc22d666a4b",
+    "title": "'Larger budgets and longer schedules do not lead to better games:' Thank You For Your Application recoups dev costs in 22 hours",
+    "link": "https://www.gamedeveloper.com/business/-larger-budgets-and-longer-schedules-do-not-lead-to-better-games-thank-you-for-your-application-recoups-dev-costs-in-22-hours",
+    "summary": "The indie title was made by a team fresh out of university.",
+    "published": "Mon, 22 Jun 2026 10:54:50 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-22T13:30:17.555586"
+  },
+  "05d993cffd64": {
+    "id": "05d993cffd64",
+    "title": "Obituary: Ubisoft co-founder Claude Guillemot dies in plane crash",
+    "link": "https://www.gamedeveloper.com/business/obituary-ubisoft-co-founder-claude-guillemot-killed-in-plane-crash",
+    "summary": "Guillemot established the influential French publisher in 1986 alongside his brothers.",
+    "published": "Mon, 22 Jun 2026 09:32:02 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-22T13:30:17.555606"
   }
 }
