@@ -7368,5 +7368,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-23T10:57:38.259399"
+  },
+  "ab81d13af7c5": {
+    "id": "ab81d13af7c5",
+    "title": "Utilizing Statistical Information with Flow and Logic Depicted by Profiler Logs to Design New Structured Software",
+    "link": "https://gamedev.net/forums/topic/720094-utilizing-statistical-information-with-flow-and-logic-depicted-by-profiler-logs-to-design-new-structured-software",
+    "summary": "Brief Discloser of Information Regarding Scrut.Hut Game Studio, LLC Research into Game Engine Technology Statistical Analyzation with Structure Flow Depiction used for Designing Software Architecture Greetings, This should be very easy to follow I am already assuming, so this forum seemed like the best place to plant this idea. First you need efficient timers and profiler that is capable of logging all the sampled data corresponding to the order and depth of the statistics which still requires analyzation of samples; this is of course for objects, methods and blocks being regarded together. A diverging structure based on flow can be …",
+    "published": "Tue, 23 Jun 2026 11:52:53 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-23T21:27:08.399094"
+  },
+  "6d5fc2bbabe1": {
+    "id": "6d5fc2bbabe1",
+    "title": "PixelatedSourav || Sketch #2",
+    "link": "https://realtimevfx.com/t/pixelatedsourav-sketch-2/31170",
+    "summary": "Hey Guys, Pixelated Sourav here! Time to showcase my second sketch : Angel’s Judgement Breakdown Post : ArtStation Divine descent effect focused on scale contrast, iridescent fluid displacement, and volumetric energy build-up. 1 post - 1 participant Read full topic",
+    "published": "Tue, 23 Jun 2026 15:52:30 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-23T21:26:59.953413"
+  },
+  "7d55bca79007": {
+    "id": "7d55bca79007",
+    "title": "Stormhound: Sketch #68",
+    "link": "https://realtimevfx.com/t/stormhound-sketch-68/31169",
+    "summary": "Hello! I’ve decided to participate as well. I really like the theme, and since I’ve never done anything related to glitch before, I’ll do my best! Since I’m a bit late and only have a week to complete it, I’ve decided to go for a simple effect. The main idea is to have a character run and build up a charge. When the charge reaches its peak, the character will start glitching, and with a final dash, she will unleash a digital tornado. Of course, I’m planning to make the tornado and its impact compatible with the theme, so expect to see a cool, glitchy, digital looking tornado effect! 2 posts - 1 participant Read full topic",
+    "published": "Tue, 23 Jun 2026 15:44:49 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-06-23T21:26:59.953464"
+  },
+  "853ebb84afcb": {
+    "id": "853ebb84afcb",
+    "title": "How a 12 year wait made Alien Isolation 2 a better sequel",
+    "link": "https://www.gamedeveloper.com/design/how-a-12-year-wait-made-alien-isolation-2-a-better-sequel",
+    "summary": "We sat down with creative director Al Hope and animation director Simon Ridge to talk about Creative Assembly's big return to survival horror and the Alien franchise.",
+    "published": "Tue, 23 Jun 2026 14:40:48 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-23T21:27:12.647304"
+  },
+  "225bae2ab270": {
+    "id": "225bae2ab270",
+    "title": "Report: Tencent mulling exits from multiple Japanese studios",
+    "link": "https://www.gamedeveloper.com/business/report-tencent-mulling-exits-from-multiple-japanese-studios",
+    "summary": "The company went on an investment spree in Japan at the turn of the decade but is now purportedly keen to refocus its portfolio around UGC platforms.",
+    "published": "Tue, 23 Jun 2026 13:22:22 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-23T21:27:12.647328"
   }
 }
