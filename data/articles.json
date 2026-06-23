@@ -7338,5 +7338,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-22T21:57:56.343158"
+  },
+  "3efabba2909a": {
+    "id": "3efabba2909a",
+    "title": "Autodesk releases Arnold 7.5.2 with 3D Gaussian Splatting",
+    "link": "https://www.cgchannel.com/2026/06/autodesk-releases-arnold-7-5-2-with-support-for-gaussian-splatting/",
+    "summary": "Check out the new features in the production renderer, including the option to relight and render imported 3D Gaussian Splats.",
+    "published": "Tue, 23 Jun 2026 09:26:02 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-23T10:57:29.105364"
+  },
+  "f2946cb60059": {
+    "id": "f2946cb60059",
+    "title": "Play Classic Minesweeper Online – Free, Fast & Browser-Based",
+    "link": "https://gamedev.net/forums/topic/720092-play-classic-minesweeper-online-free-fast-browser-based",
+    "summary": "If you enjoyed the classic Windows Minesweeper, this online version brings the same nostalgic gameplay with modern improvements and extra features. Play Online Minesweeper This is a fully browser-based Minesweeper game that recreates the original experience many people remember from classic Windows systems, while adding more flexibility and modern convenience. Classic Gameplay You Already Know The rules stay true to the original Minesweeper: Click tiles to reveal hidden cells Avoid hidden mines Use logic to determine safe spaces Mark suspected mines with flags Clear the entire board to win The game keeps the same simple-but-deep logic puzzle mechanics that made …",
+    "published": "Tue, 23 Jun 2026 09:18:45 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-23T10:57:35.904361"
+  },
+  "799ed9d02c70": {
+    "id": "799ed9d02c70",
+    "title": "Valve is making it easier to build your own Steam Machine",
+    "link": "https://www.gamedeveloper.com/business/valve-is-making-it-easier-to-build-your-own-steam-machine",
+    "summary": "No reservation? No problem.",
+    "published": "Tue, 23 Jun 2026 10:29:07 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-23T10:57:38.259399"
   }
 }
