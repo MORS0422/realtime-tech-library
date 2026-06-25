@@ -7488,5 +7488,95 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-24T21:18:37.743588"
+  },
+  "42ea28683270": {
+    "id": "42ea28683270",
+    "title": "Epic Games releases RealityScan 2.2 with AMD GPU support",
+    "link": "https://www.cgchannel.com/2026/06/epic-games-releases-realityscan-2-2-with-amd-gpu-support/",
+    "summary": "Pro photogrammetry tool can now use both AMD consumer and workstation GPUs to speed up processing. Free to indie artists.",
+    "published": "Thu, 25 Jun 2026 09:22:11 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-25T10:37:13.646297"
+  },
+  "98a44c8cd1d3": {
+    "id": "98a44c8cd1d3",
+    "title": "New motion graphics tool Caddis puts a node graph in every layer",
+    "link": "https://www.cgchannel.com/2026/06/new-motion-graphics-tool-caddis-puts-a-node-graph-in-every-layer/",
+    "summary": "Updated: check out motion designer Mike Gaynor's neat After Effects alternative, currently free in beta - and now available for Windows.",
+    "published": "Thu, 25 Jun 2026 06:00:31 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-25T10:37:13.646320"
+  },
+  "feabd5aba240": {
+    "id": "feabd5aba240",
+    "title": "Adobe releases Substance 3D Painter 12.1",
+    "link": "https://www.cgchannel.com/2026/06/adobe-releases-substance-3d-painter-12-1/",
+    "summary": "Update to the 3D texture painting software for games and VFX reworks baking and UV unwrapping. Check out all of the new features.",
+    "published": "Wed, 24 Jun 2026 16:33:19 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-25T10:37:13.646335"
+  },
+  "717ae9f7a7fe": {
+    "id": "717ae9f7a7fe",
+    "title": "Reallusion releases free animation tool iClone Personal",
+    "link": "https://www.cgchannel.com/2026/06/reallusion-releases-free-animation-tool-iclone-personal/",
+    "summary": "New free edition of the real-time animation software can be used indefinitely, including on commercial projects - but there are limitations.",
+    "published": "Wed, 24 Jun 2026 14:15:04 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-25T10:37:13.646348"
+  },
+  "0850e2a2c807": {
+    "id": "0850e2a2c807",
+    "title": "EA’s Battlefield Studios backs the Godot Development Fund",
+    "link": "https://www.cgchannel.com/2026/06/eas-battlefield-studios-backs-the-godot-development-fund/",
+    "summary": "Battlefield 6 developer becomes the latest - and highest-profile Corporate Platinum sponsor - of the open-source game engine.",
+    "published": "Wed, 24 Jun 2026 04:30:21 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-25T10:37:13.646360"
+  },
+  "875e5214126f": {
+    "id": "875e5214126f",
+    "title": "TiltBump - mobile browser arcade game using phone tilt controls",
+    "link": "https://gamedev.net/forums/topic/720089-tiltbump-mobile-browser-arcade-game-using-phone-tilt-controls",
+    "summary": "Hi everyone, I made TiltBump, a small browser arcade game built around phone motion controls. You steer a ball by tilting your phone, bump blocks off the board, and try to survive through progressively harder levels. It also has daily goals, a leaderboard, bonus games, and experimental multiplayer rooms. Play here: https://tiltbump.com/ I am mainly looking for developer feedback on the first-run experience: whether the controls make sense quickly, whether early deaths feel fair, and whether the mobile browser motion-permission flow is clear enough. Desktop mouse controls are included as a fallback, but the intended experience is on a phone.",
+    "published": "Thu, 25 Jun 2026 08:42:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-25T10:37:20.770768"
+  },
+  "ee8adc8bcdd5": {
+    "id": "ee8adc8bcdd5",
+    "title": "Magic: The Gathering Arena developers have successfully unionized",
+    "link": "https://www.gamedeveloper.com/business/magic-the-gathering-arena-unionize-despite-allegations-of-interference",
+    "summary": "'Our dream is finally a reality.'",
+    "published": "Thu, 25 Jun 2026 10:12:57 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-25T10:37:23.459358"
+  },
+  "05480bd1d666": {
+    "id": "05480bd1d666",
+    "title": "Analysts attempt to make sense of Xbox's latest exclusivity pivot",
+    "link": "https://www.gamedeveloper.com/business/analysts-attempt-to-make-sense-of-xbox-s-exclusivity-mindset-shift",
+    "summary": "'It's remarkable for how long Microsoft let many of its leading brands languish.'",
+    "published": "Thu, 25 Jun 2026 09:04:12 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-25T10:37:23.459379"
+  },
+  "9ff98a39e3da": {
+    "id": "9ff98a39e3da",
+    "title": "Tim Sweeney says only hope for new games is to 'connect to economies of other games'",
+    "link": "https://www.gamedeveloper.com/business/tim-sweeney-says-only-hope-for-new-games-is-to-connect-to-economies-of-other-games-",
+    "summary": "To be successful, you must connect your game economies, says Epic Games CEO Tim Sweeney.",
+    "published": "Wed, 24 Jun 2026 20:30:11 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-25T10:37:23.459390"
   }
 }
