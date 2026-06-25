@@ -7578,5 +7578,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-25T10:37:23.459390"
+  },
+  "199e3607d9c2": {
+    "id": "199e3607d9c2",
+    "title": "KeyShot releases KeyShot 2026.2",
+    "link": "https://www.cgchannel.com/2026/06/keyshot-releases-keyshot-2026-2/",
+    "summary": "Rendering and visualization software gets Apple GPU support, a new cloud rendering service, and new subscription pricing.",
+    "published": "Thu, 25 Jun 2026 14:05:01 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-25T21:26:01.976676"
+  },
+  "68b0556dfa2e": {
+    "id": "68b0556dfa2e",
+    "title": "Vultures: launch on steam very very soon! (2021-2026)",
+    "link": "https://gamedev.net/forums/topic/720093-vultures-launch-on-steam-very-very-soon-2021-2026",
+    "summary": "HELLO! TODAYS A PROUD DAY, AND i'M UP AT 4:40AM RUNNING GARILLA MARKETING! SIGH https://www.indiedb.com/games/vultures1/news/vultures-releasing-very-soon",
+    "published": "Thu, 25 Jun 2026 15:37:08 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-25T21:26:13.294084"
+  },
+  "b0e4c9983641": {
+    "id": "b0e4c9983641",
+    "title": "Smitaa: Sketch #68",
+    "link": "https://realtimevfx.com/t/smitaa-sketch-68/31184",
+    "summary": "Jumping in super late on this one , not sure I’ll make it in time but the concept got me too excited to not try. The idea is a character mid-ability-cast. Her body starts fragmenting into large colored voxel chunks , cyan, magenta, yellow ,exploding outward from the energy point. What’s left behind is a ghost silhouette made entirely of particles. The memory of who she was, still holding shape before it dissolves. Building it in Unreal Engine 5 with Niagara + Post Process Materials. Build starts now. Fingers crossed I actually finish this Will drop progress updates in thread if I make it. 1 post - 1 participant Read full topic",
+    "published": "Thu, 25 Jun 2026 14:32:19 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-06-25T21:26:03.552387"
+  },
+  "e2178c53b10f": {
+    "id": "e2178c53b10f",
+    "title": "Meccha Chameleon sells 7M copies in first two weeks",
+    "link": "https://www.gamedeveloper.com/business/meccha-chameleon-sells-7m-copies-in-first-two-weeks",
+    "summary": "The hide-and-seek game is the latest multiplayer sensation.",
+    "published": "Thu, 25 Jun 2026 19:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-25T21:26:15.729719"
+  },
+  "52cf41b197ef": {
+    "id": "52cf41b197ef",
+    "title": "VR dev Combat Waffle Studios lays off staff",
+    "link": "https://www.gamedeveloper.com/business/vr-dev-combat-waffle-studios-lays-off-staff",
+    "summary": "The team behind Ghosts of Tabor 'remains confident' in the future of VR.",
+    "published": "Thu, 25 Jun 2026 18:10:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-25T21:26:15.729741"
+  },
+  "033bffd5a89c": {
+    "id": "033bffd5a89c",
+    "title": "Microsoft raises price of Xbox consoles once again, sunsets 2TB model",
+    "link": "https://www.gamedeveloper.com/console/microsoft-raises-price-of-xbox-consoles-once-again-sunsets-2tb-model",
+    "summary": "The cheapest Xbox console will now cost $499.99.",
+    "published": "Thu, 25 Jun 2026 17:05:50 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-25T21:26:15.729750"
+  },
+  "48a445ee78a0": {
+    "id": "48a445ee78a0",
+    "title": "Sony is laying off 'most' of the Destiny team and 'some' Marathon devs",
+    "link": "https://www.gamedeveloper.com/business/sony-is-laying-off-most-of-the-destiny-team-and-some-marathon-devs",
+    "summary": "Sony is also making reductions across SIE teams that support Bungie's operations.",
+    "published": "Thu, 25 Jun 2026 15:17:18 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-25T21:26:15.729760"
+  },
+  "6c87951ba6a4": {
+    "id": "6c87951ba6a4",
+    "title": "Italian studio 34BigThings regains independence from Embracer",
+    "link": "https://www.gamedeveloper.com/business/italian-studio-34bigthings-regains-independence-from-embracer",
+    "summary": "'Returning to full independence gives us absolute autonomy.'",
+    "published": "Thu, 25 Jun 2026 10:58:38 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-25T21:26:15.729770"
   }
 }
