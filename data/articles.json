@@ -7698,5 +7698,45 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-06-26T10:46:17.188351"
+  },
+  "fcec9f65a22c": {
+    "id": "fcec9f65a22c",
+    "title": "ZpriteForge v2: We Completely Redesigned Our Free Pixel Art Editor! 🎨",
+    "link": "https://gamedev.net/blogs/entry/2298094-zpriteforge-v2-we-completely-redesigned-our-free-pixel-art-editor",
+    "summary": "Hey everyone, Today, we just released a massive visual overhaul for ZpriteForge , our completely free , browser-based pixel art and animation tool! 🚀 Our goal has always been to provide game developers and digital artists with a powerful environment where they can draw and create sprite-sheets instantly, on any computer, without downloading any software. The core features of the app (layer system, timeline, etc.) were already quite strong, but we wanted our UI to reflect that same level of quality. ✨ What’s New in Today’s Update? Premium Glassmorphism UI: We ditched the boring flat colors! Now we have a …",
+    "published": "Fri, 26 Jun 2026 14:39:15 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-26T21:14:37.507698"
+  },
+  "52cfe59568f9": {
+    "id": "52cfe59568f9",
+    "title": "Anonymous functions and local variables",
+    "link": "https://gamedev.net/forums/topic/720096-anonymous-functions-and-local-variables",
+    "summary": "I'm trying to use anonymous functions to make code more readable and structured. But one thing at docs makes me sad: ( https://www.angelcode.com/angelscript/sdk/docs/manual/doc_script_anonfunc.html ) It is not yet possible for anonymous functions to access variables declared in the same scope as the function, i.e. they cannot be used as closures. Is there any chance that local variables become available to use in lambdas? For example, this code ten times more compact and easier to understand than others without lambda: void Initialize() { Register reg; reg.OnValueUpdated += function(const Value ∈ val) { ProcessReg(reg); }; } Converting this example to another using …",
+    "published": "Fri, 26 Jun 2026 18:37:56 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-26T21:14:37.507741"
+  },
+  "9bf7dade32e9": {
+    "id": "9bf7dade32e9",
+    "title": "Keywords has laid off 128 employees in San Francisco",
+    "link": "https://www.gamedeveloper.com/business/keywords-has-laid-off-128-employees-in-san-francisco",
+    "summary": "It's currently unclear what roles or departments have been impacted.",
+    "published": "Fri, 26 Jun 2026 12:04:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-26T21:14:39.411430"
+  },
+  "87fb674d1ae2": {
+    "id": "87fb674d1ae2",
+    "title": "Steam Machine sticker shock, even more Ubisoft layoffs, and another Xbox price hike - Patch Notes #58",
+    "link": "https://www.gamedeveloper.com/business/steam-machine-sticker-shock-even-more-ubisoft-layoffs-and-another-xbox-price-hike-patch-notes-58",
+    "summary": "Plus: Tencent reconsiders Japanese investments and the Nex Playground launches in the UK and Ireland.",
+    "published": "Fri, 26 Jun 2026 10:57:22 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-26T21:14:39.411442"
   }
 }
