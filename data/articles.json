@@ -7658,5 +7658,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-25T21:26:15.729770"
+  },
+  "2bd959f728bc": {
+    "id": "2bd959f728bc",
+    "title": "Boris FX releases Optics 2026.5 with AI-powered facial masking",
+    "link": "https://www.cgchannel.com/2026/06/boris-fx-releases-optics-2026/",
+    "summary": "Standalone app and plugin for adding cinematic effects to still images also now works with non-Adobe software, including Affinity.",
+    "published": "Fri, 26 Jun 2026 07:00:59 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-26T10:46:10.240626"
+  },
+  "0d232c1778a6": {
+    "id": "0d232c1778a6",
+    "title": "Adobe to acquire Topaz Labs",
+    "link": "https://www.cgchannel.com/2026/06/adobe-to-acquire-topaz-labs/",
+    "summary": "Adobe to buy pioneering developer of AI image enhancement and upscaling tools. Read our FAQs on what the deal means for CG artists.",
+    "published": "Fri, 26 Jun 2026 05:58:47 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-26T10:46:10.240654"
+  },
+  "9f492005d9fe": {
+    "id": "9f492005d9fe",
+    "title": "It's a fail...",
+    "link": "https://gamedev.net/blogs/entry/2298095-its-a-fail",
+    "summary": "Today, I have nothing to show no video or screenshot of the game. Why ? A few days ago, as I was near to finish to code the game and as I launched the compilation of my code to see the result of the recent lines of code a problem crash the game. Then I tried to correct the problem and it was like if all the code I have typed collapsed on himself. I started to do some modifications but the result was worse. Actually I don't yet have found where or what is the problem and I've done …",
+    "published": "Fri, 26 Jun 2026 10:10:06 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-26T10:46:17.188319"
+  },
+  "61a4c59215fb": {
+    "id": "61a4c59215fb",
+    "title": "[RevShare] i need team, 3D artist and programmer for Solo and Multiplayer CooP game",
+    "link": "https://gamedev.net/forums/topic/720098-revshare-i-need-team-3d-artist-and-programmer-for-solo-and-multiplayer-coop-game",
+    "summary": "The Core Idea: \"Hit and Lie or Hide\" is a 3D stealth-comedy sandbox game set in a large family home. The player controls a troublemaker whose goal is to prank and hit family members (like the little sister) and house guests, causing them to cry and complain to the parents. What the Game is About (The Mechanics): Hit: Sneak through corridors to prank/hit a victim without being seen. Lie: When Mom investigates, a timed dialogue forces you to choose: tell the truth and get punished, or lie to blame the victim. AI Suspicion: Repeated lies increase Mom's suspicion meter, changing …",
+    "published": "Fri, 26 Jun 2026 07:08:44 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-26T10:46:17.188351"
   }
 }
