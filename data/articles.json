@@ -7738,5 +7738,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-26T21:14:39.411442"
+  },
+  "b92f8b309dc9": {
+    "id": "b92f8b309dc9",
+    "title": "A journey from Windows-only to cross-platform: Porting my Vulkan renderer.",
+    "link": "https://gamedev.net/blogs/entry/2298098-a-journey-from-windows-only-to-cross-platform-porting-my-vulkan-renderer",
+    "summary": "Previously, I successfully got my custom renderer running on Linux, pushing my cross-platform experience to the next level. All major features are working as expected, including mesh shaders and ray tracing. Why this matters to me: My renderer originally started as a Windows-focused project (Win32 + DirectXMath), only the Vulkan API part can be re-used. So porting it required significant refactoring. During the process, I have to design proper platform abstraction, decouple engine and platform/input layers, deal with other platform-specific issues…etc. This practice is absolutely meaningful and worthwhile. And I'm happy to share the problems I dealt with and the …",
+    "published": "Sat, 27 Jun 2026 14:31:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-27T20:54:41.506821"
+  },
+  "0f753e57bb26": {
+    "id": "0f753e57bb26",
+    "title": "I wanna do music for Indie Games!!",
+    "link": "https://gamedev.net/forums/topic/720099-i-wanna-do-music-for-indie-games",
+    "summary": "Hi ! My name is notcuevas and I've been producing for 4 years. I do my own songs, I compose, I produce and I can mix too. Yesterday I did my first step in this industry and I uploaded a video in my YouTube channel, showing a new song inspired by the atmosphere of Minecraft and that feeling of nostalgia and discovery. If you like my music and you're making a video game, contact me!! notcuevasost@gmail.com Here you can listen my new song:",
+    "published": "Sat, 27 Jun 2026 11:11:40 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-27T20:54:41.506852"
+  },
+  "37637e44085e": {
+    "id": "37637e44085e",
+    "title": "Shortcut to restart niagara preview timeline",
+    "link": "https://realtimevfx.com/t/shortcut-to-restart-niagara-preview-timeline/31190",
+    "summary": "Hey everyone, does anyone know if there is a shortcut or an easier way to restart the Niagara timeline preview? For example, let’s say my timeline is 3 seconds long. I hit play, but after 1.5 seconds, I want to restart it from the beginning again. Is there any way to set up a shortcut for this? I usually iterate on VFX by replaying the same effect dozens of times, so having a quick way to reset/restart the preview would really improve my workflow. 1 post - 1 participant Read full topic",
+    "published": "Sat, 27 Jun 2026 19:16:59 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-06-27T20:54:34.336095"
   }
 }
