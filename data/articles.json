@@ -7768,5 +7768,25 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-06-27T20:54:34.336095"
+  },
+  "cc56b6aaa6e7": {
+    "id": "cc56b6aaa6e7",
+    "title": "My TRPG has A-star pathfinding with verticality",
+    "link": "https://gamedev.net/blogs/entry/2298102-my-trpg-has-a-star-pathfinding-with-verticality",
+    "summary": "As I’m building the prototype for my tactical RPG I needed to implement pathfinding for unit movement. Well an obvious library to use was my open-source A-star implementation, so I integrated that in. However that is completely 2D, whereas I wanted verticality in my maps, so I needed to modify it slightly. In this post I’m going to talk a bit about that change… By the way, there’s a good chance I’ll be announcing my game’s Steam page in my next blog post! If that isn’t done within a month, it’ll definitely be done within two months. While there’s still …",
+    "published": "Sat, 27 Jun 2026 22:58:26 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-28T10:23:08.105198"
+  },
+  "21c991f2396d": {
+    "id": "21c991f2396d",
+    "title": "I have a prototype but don't know my next production milestone. What would you do next?",
+    "link": "https://gamedev.net/forums/topic/720100-i-have-a-prototype-but-dont-know-my-next-production-milestone-what-would-you-do-next",
+    "summary": "I've spent the last few years designing a competitive melee combat game and recently commissioned a playable prototype to test the core combat loop. I also have a landing page, a long-term development plan, and have spent a lot of time thinking through production, funding, and future milestones. Where I'm stuck is what comes after the prototype. I've tried sharing footage, discussing the design online, and seeking feedback, but I don't feel like I'm generating the kind of momentum or connections that lead to experienced collaborators or clear next steps. I even invested in improving the prototype because I thought …",
+    "published": "Sun, 28 Jun 2026 08:27:17 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-28T10:23:08.105235"
   }
 }
