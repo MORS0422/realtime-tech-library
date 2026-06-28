@@ -7788,5 +7788,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-06-28T10:23:08.105235"
+  },
+  "8c974bfceca8": {
+    "id": "8c974bfceca8",
+    "title": "OPERATION OBLITERATION 2 IS NOW RELEASED!",
+    "link": "https://gamedev.net/blogs/entry/2298104-operation-obliteration-2-is-now-released",
+    "summary": "We are absolutely thrilled to announce that the worldwide launch of our game has been a success far beyond the projections. Seeing nearly three years of relentless hard work, late nights, and creative passion evolve into a successful launch is intensely fulfilling. Witnessing the explosive, response from players across the globe has been nothing short of surreal. We are still riding a massive wave of excitement, adrenaline, and profound gratitude. We truly couldn’t be happier with these initial results, and we want to say a massive thank you to everyone that joined the obliteration universe. This is just the beginning …",
+    "published": "Sun, 28 Jun 2026 13:27:56 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-28T20:55:57.030034"
+  },
+  "84bd31a20b3d": {
+    "id": "84bd31a20b3d",
+    "title": "A decision-making model for running a colony simulation.",
+    "link": "https://gamedev.net/forums/topic/720091-a-decision-making-model-for-running-a-colony-simulation",
+    "summary": "Hey, I'm working on a colony sim game, and right now I'm thinking about how to build the decision making system. So far I've settled on a setup where in the config file you tweak the weights of the character's stats, and those affect the overall weight of each decision. It seems to be working okay so far, but I'm wondering, are there any other approaches out there?",
+    "published": "Sun, 28 Jun 2026 17:53:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-28T20:55:57.030060"
   }
 }
