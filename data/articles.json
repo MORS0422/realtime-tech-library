@@ -7868,5 +7868,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-29T12:26:02.785792"
+  },
+  "e2ede96c27cd": {
+    "id": "e2ede96c27cd",
+    "title": "Adobe releases Substance 3D Sampler 6.0",
+    "link": "https://www.cgchannel.com/2026/06/adobe-releases-substance-3d-sampler-6/",
+    "summary": "Check out the new features in the material authoring and 3D capture software, including OpenPBR support and new material templates.",
+    "published": "Mon, 29 Jun 2026 14:40:14 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-06-29T21:19:56.902454"
+  },
+  "a6e03e8d18f2": {
+    "id": "a6e03e8d18f2",
+    "title": "Unpaid, hobby project",
+    "link": "https://gamedev.net/forums/topic/720107-unpaid-hobby-project",
+    "summary": "We are looking for 3D artists and coders for our game Rotting circuits. It's a open world sandbox survival game set in 2050, think terminator meets the walking dead. As a 3D artist you'll be working on the following in no particular order environment fabrication, prop fabrication and character creation. As a coder you will help build systems and help glue all the components that make the game functional together. For those who it concerns we are using the unity 6000.1.17f1 engine. What's in it for you: this is a perfect opportunity for someone looking to add to their portfolio …",
+    "published": "Mon, 29 Jun 2026 18:42:52 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-29T21:20:04.717234"
+  },
+  "b6121ee8001d": {
+    "id": "b6121ee8001d",
+    "title": "Radiation Effect Niagara system",
+    "link": "https://realtimevfx.com/t/radiation-effect-niagara-system/31203",
+    "summary": "Hello, this is my first post here! It’s a pleasure to share my latest work for New3dge: https://youtu.be/6ftddF_tbNo I made this using a material with parameters. I also used a flow map to create a liquid fuel effect. Additionally, I created a Niagara system with exposed parameters for environment artists**. The particles spawn on a static mesh to cover rocks in the environment. If you want to see more, here is the ArtStation post: https://www.artstation.com/artwork/zx2wgd 1 post - 1 participant Read full topic",
+    "published": "Mon, 29 Jun 2026 20:49:39 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-06-29T21:19:58.030133"
+  },
+  "4d305e2de366": {
+    "id": "4d305e2de366",
+    "title": "Supermassive Games CEO steps down following launch of Directive 8020",
+    "link": "https://www.gamedeveloper.com/business/supermassive-games-ceo-steps-down-following-launch-of-directive-8020",
+    "summary": "'I was honored to guide the studio through intense industry change.'",
+    "published": "Mon, 29 Jun 2026 13:29:30 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-29T21:20:07.331096"
   }
 }
