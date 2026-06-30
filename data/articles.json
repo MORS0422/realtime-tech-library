@@ -7908,5 +7908,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-29T21:20:07.331096"
+  },
+  "e4b0a023bf8c": {
+    "id": "e4b0a023bf8c",
+    "title": "Why Build an Application in Godot, Much Less a SUITE of them?!",
+    "link": "https://gamedev.net/blogs/entry/2298110-why-build-an-application-in-godot-much-less-a-suite-of-them",
+    "summary": "Why Build an Application in Godot, Much Less a Suite of Them? Greetings, fellow masoch-- erm, I mean DEVS! I get asked this one a lot. \"Plas, why build your app in Godot?\" Not why I picked it for games ; that part makes sense, but why I would pick it for creating a desktop application . Why would I use it for an entire suite of desktop applications? Why didn't I just use Electron, or Tauri, or React Native, or any of the actual app-dev frameworks that normal people use? The short answer, dear reader? It wasn't entirely planned. …",
+    "published": "Mon, 29 Jun 2026 21:24:50 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-30T10:52:02.003637"
+  },
+  "9a873348bfaa": {
+    "id": "9a873348bfaa",
+    "title": "nDreams co-founder launches indie game and music studio Atmospheric",
+    "link": "https://www.gamedeveloper.com/business/ndreams-co-founder-launches-indie-game-and-music-studio-atmospheric",
+    "summary": "'Atmospheric is about creating experiences that people don’t just play or listen to, but feel.'",
+    "published": "Tue, 30 Jun 2026 10:42:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-30T10:52:05.928315"
   }
 }
