@@ -7928,5 +7928,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-30T10:52:05.928315"
+  },
+  "1e2152bd401a": {
+    "id": "1e2152bd401a",
+    "title": "Rasterizer Project - Part 2: Lines and Optimization (Excited reaction)",
+    "link": "https://gamedev.net/blogs/entry/2298112-rasterizer-project-part-2-lines-and-optimization-excited-reaction",
+    "summary": "Hello there beautiful people, lets continue on this rasterizer. So now we want to draw lines between points inside of our image. How do we do this? Well firstly lets talk about linear interpolation. It works like this You take point A (origin point) and your point B (goal point), whats a point? well in 2D that comprises of a X and a Y coordinate. You calculate the X and Y cooridnate seperately in functions. What you do is you take A's x coordinate + (Bx - Ax) and * it by a scalar between 0 and 1. So in …",
+    "published": "Tue, 30 Jun 2026 18:31:16 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-30T21:23:28.992025"
+  },
+  "39ae2450161e": {
+    "id": "39ae2450161e",
+    "title": "Is ranged combat always better than melee combat?",
+    "link": "https://gamedev.net/forums/topic/720114-is-ranged-combat-always-better-than-melee-combat",
+    "summary": "Context: its about single player games with high level of synergy (like roguelikes and some sandboxes) I was playing Noita here, and I came up with interesting observations that have been bothering me since Path Of Exile 1. Ranged combat in most action (and turn-based) games is always fundamentally better than melee combat (or not? That's what I want to talk about). For example, if you have a 100 damage sword attack and a 100 damage bow shot, then a shot will always be better because it allows you to attack without approaching the enemy, and also interact with objects …",
+    "published": "Tue, 30 Jun 2026 18:55:11 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-06-30T21:23:28.992065"
+  },
+  "0d444401c514": {
+    "id": "0d444401c514",
+    "title": "Unreal Real-time Explosion FX",
+    "link": "https://realtimevfx.com/t/unreal-real-time-explosion-fx/31212",
+    "summary": "https://www.artstation.com/artwork/ndwk06 1 post - 1 participant Read full topic",
+    "published": "Tue, 30 Jun 2026 16:26:24 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-06-30T21:23:22.513844"
+  },
+  "93d214354eb7": {
+    "id": "93d214354eb7",
+    "title": "IO Interactive to lay off employees after Xbox pulls support for untitled fantasy game",
+    "link": "https://www.gamedeveloper.com/business/io-interactive-to-lay-off-employees-after-xbox-pulls-support-for-untitled-fantasy-game",
+    "summary": "Xbox's business reset is driving layoffs outside of Microsoft.",
+    "published": "Tue, 30 Jun 2026 18:17:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-30T21:23:31.567620"
+  },
+  "62f4e195833c": {
+    "id": "62f4e195833c",
+    "title": "Memory manufacturers sued in class action suit alleging price and supply fixing",
+    "link": "https://www.gamedeveloper.com/business/memory-manufacturers-sued-in-class-action-suit-alleging-price-and-supply-fixing",
+    "summary": "Samsung, SK Hynix, and Micron are being sued for allegedly fixing the supply and prices of memory.",
+    "published": "Tue, 30 Jun 2026 18:15:34 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-30T21:23:31.567641"
+  },
+  "3c7129b272f0": {
+    "id": "3c7129b272f0",
+    "title": "Report: Xbox considering sale or closure of Arkane, other studios, as layoffs loom",
+    "link": "https://www.gamedeveloper.com/business/report-xbox-considering-sales-or-closures-at-arkane-and-at-least-4-other-studios",
+    "summary": "As part of Microsoft's 'reset,' Arkane's Blade may be facing the chopping block, and the studio facing a potential sale or closure",
+    "published": "Tue, 30 Jun 2026 17:37:38 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-30T21:23:31.567654"
+  },
+  "dca2e0260dd7": {
+    "id": "dca2e0260dd7",
+    "title": "Opinion: Everything hurts and no one knows when the pain will end",
+    "link": "https://www.gamedeveloper.com/business/opinion-everything-hurts-and-no-one-knows-when-the-pain-will-end",
+    "summary": "The pain of industry layoffs runs deeper than you might think.",
+    "published": "Tue, 30 Jun 2026 17:24:52 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-30T21:23:31.567684"
+  },
+  "8a5a712c19b8": {
+    "id": "8a5a712c19b8",
+    "title": "Grand Theft Auto developers seek union recognition at Rockstar",
+    "link": "https://www.gamedeveloper.com/production/grand-theft-auto-developers-seek-union-recognition-at-rockstar",
+    "summary": "'Rockstar leads the industry in the games we create. We believe it can also lead the industry in how it treats the people who make them.'",
+    "published": "Tue, 30 Jun 2026 12:21:14 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-06-30T21:23:31.567699"
   }
 }
