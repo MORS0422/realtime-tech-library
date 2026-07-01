@@ -8008,5 +8008,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-06-30T21:23:31.567699"
+  },
+  "e51aca7b6a38": {
+    "id": "e51aca7b6a38",
+    "title": "Defold 1.13.0 has been released + summary of the first half of 2026",
+    "link": "https://gamedev.net/forums/topic/720119-defold-1130-has-been-released-summary-of-the-first-half-of-2026",
+    "summary": "Hi everyone! I’m Paweł, a long time Defold user, and now a fresh community and content manager in the Defold Foundation. We’ve recently released Defold 1.13.0 , and we also published a broader Mid-Year 2026 summary covering what changed in the engine, editor, web runtime, 3D workflow, extensions, examples, and documentation during the first half of the year. For anyone unfamiliar with it, Defold is a free game engine and editor with source available on Github focused on lightweight, high-performance game development for web, mobile, desktop and console platforms . It is well suited for teams and developers who are …",
+    "published": "Wed, 01 Jul 2026 08:46:15 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-01T11:18:51.345877"
+  },
+  "868c07200186": {
+    "id": "868c07200186",
+    "title": "Community Sketch Voting - Sketch #68: Glitch",
+    "link": "https://realtimevfx.com/t/community-sketch-voting-sketch-68-glitch/31222",
+    "summary": "Fascinating results everyone! Vote for your favorite submission by heading over to Sketch #68 - Glitch: Click Here Take a look at each entrant, then press the vote button on the top left to vote for your favorites! (Scroll up to the first post) **Check the original prompt here : ** June VFX Sketch[#68]: Glitch Vote timeline: July 1st → July 8th You can vote on your own entry! We just ask you be honest when rating your own entry and others. We’re all part of this small community and ask you to show respect and integrity at all times! Note: you must be trust level 2 or above to vote We’ll release the results on the 9th! (ish) Happy voting 2 posts - 2 participants Read full topic",
+    "published": "Wed, 01 Jul 2026 09:44:13 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-07-01T11:18:44.840722"
+  },
+  "e61fd21b1570": {
+    "id": "e61fd21b1570",
+    "title": "I'm working on a new free/open source 3D character and scene design tool and looking for feedback",
+    "link": "https://realtimevfx.com/t/im-working-on-a-new-free-open-source-3d-character-and-scene-design-tool-and-looking-for-feedback/31215",
+    "summary": "I’m part of a small team that’s working on building an entry level, free, open-source 3D character and scene creation tool called PoseStudio . The current available tools for 3D character and scene design is generally either robust, but intimidating to new users who don’t have a background in 3D design, or they’re easy to use but also frustratingly outdated, buggy, and limited in scope. We are starting PoseStudio because we want there to be something that is both free/open source, and high quality. We want to create a 3D tool that is modern, reliable, easy to use, and will continue to be shaped by the community it belongs to. We’re building Pose Studio using the Vulkan API rather than Open GL for the sake of cross-platform compatibility, but we’re still figuring out the workflows, UI, roadmap, etc. Feel free to check out the repo . If you’re interested in being involved, we have a lot of testing, dev, and general tasks we’re going to need help with. We’re also seeking feedback on: What would make something like this worth trying for you? What features matter most early on: posing, rigging, animation, asset import/export, UI simplicity, documentation? What issues have you experienced with existing character workflows? If you’re a developer, is the repo/contribution path clear enough to jump in? We’ll be hosting a BTS screenshare livestream on our Discord server This Thursday, 7/2/26 at 11 am ET to demo what we’ve got so far, take input, and answer questions. 1 post - 1 participant Read full topic",
+    "published": "Tue, 30 Jun 2026 21:33:40 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-07-01T11:18:44.840804"
+  },
+  "d3ae87148901": {
+    "id": "d3ae87148901",
+    "title": "Rockstar accused of ignoring pay inequity, mandating crunch, and weaponizing bonuses",
+    "link": "https://www.gamedeveloper.com/production/rockstar-accused-of-disregarding-pay-inequity-mandating-crunch-and-weaponising-bonuses",
+    "summary": "Multiple current Rockstar employees and union members based in the UK claim the Grand Theft Auto maker is failing its workforce.",
+    "published": "Wed, 01 Jul 2026 09:16:19 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-01T11:18:59.515226"
   }
 }
