@@ -8048,5 +8048,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-01T11:18:59.515226"
+  },
+  "2c393905e5e8": {
+    "id": "2c393905e5e8",
+    "title": "Check my new material made we my own procedural node editor",
+    "link": "https://realtimevfx.com/t/check-my-new-material-made-we-my-own-procedural-node-editor/31225",
+    "summary": "Video: https://youtu.be/KAhp34f4qJQ Check my last material, what do you think? It was made to improve and test my online node maerial editor with full procedural features. The editor has improved so much that now some nodes are restricted to premium members, the cost is 5 bucks a month, if you want to make material for fun, learn from others, consider visiting our community. If you don’t want to pay anything you don’t have too, just use the free nodes. The most important test it, and give us feed back about the tool. See ya! 3 posts - 2 participants Read full topic",
+    "published": "Wed, 01 Jul 2026 19:30:40 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-07-01T21:21:57.076565"
   }
 }
