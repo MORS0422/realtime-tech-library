@@ -8168,5 +8168,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-02T10:32:05.945220"
+  },
+  "bdaa6c2d2a77": {
+    "id": "bdaa6c2d2a77",
+    "title": "Inbibo releases Adonis 2.1 with AdonisML",
+    "link": "https://www.cgchannel.com/2026/07/inbibo-releases-adonis-2-1-with-adonisml/",
+    "summary": "Major update to the soft tissue simulation add-on for Maya and Houdini adds new machine learning toolset. See all the new features.",
+    "published": "Thu, 02 Jul 2026 13:16:08 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-02T20:57:52.909468"
+  },
+  "5e6ee6ea5ef6": {
+    "id": "5e6ee6ea5ef6",
+    "title": "Scrut.Hut is working on Stich Development Library",
+    "link": "https://gamedev.net/blogs/entry/2298115-scruthut-is-working-on-stich-development-library",
+    "summary": "I have completed the Scrut Development Library, and am working on Stich Development Library. This library is a general purpose library with high performance computing which would take advantage of parallel computing in the library. The library would also have memory facilities and data structures, plus a abstract base interface for a dynamic object that is extendable. Systems implementing functionality will be developed as part of the library and well organized. This will be used as a foundation for tools and Scrut.Hut Homebrew, and allow for compatibility between software. I am currently developing the mathematics part of the library first, …",
+    "published": "Thu, 02 Jul 2026 18:14:05 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-02T20:58:00.712022"
+  },
+  "5c0175a94565": {
+    "id": "5c0175a94565",
+    "title": "[REVSHARE] Steinvar (UE5 Fantasy Adventure RPG) – Looking for Team Members",
+    "link": "https://gamedev.net/forums/topic/720084-revshare-steinvar-ue5-fantasy-adventure-rpg-looking-for-team-members",
+    "summary": "Hello everyone! We're currently looking for new team members to join the development of Steinvar , an atmospheric fantasy adventure RPG built in Unreal Engine 5 . About the Project Steinvar is a story-driven fantasy adventure focused on exploration, environmental storytelling, restoration, and light-based gameplay. Players explore a mysterious northern island consumed by corruption, uncover forgotten secrets, restore ancient sanctuaries, and investigate the disappearance of the island's keeper. Current Status Active developmentP Playable build available Steam page live Demo planned for July 2026 Steam Next Fest participation planned for October 2026 Links Steam IndieDB itch.io Open Positions 3D Artist (Generalist) …",
+    "published": "Thu, 02 Jul 2026 17:15:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-07-02T20:58:00.712073"
+  },
+  "af08541075bb": {
+    "id": "af08541075bb",
+    "title": "Aletsux - Sketchbook",
+    "link": "https://realtimevfx.com/t/aletsux-sketchbook/31237",
+    "summary": "Hello! Thought it would be a good idea to make sketchbook myself after seeing many other inspiring ones. Think this could prove to be good motivation to keep improving and a nice way to see my progress. Feel free to leave any thoughts and feedback I’ll start with a Genshin inspired fan art I made fairly recently, an Ice Shield based on Diona’s ability from Genshin Impact! Check the Artstation post for a breakdown ArtStation - Ice ability study (Genshin Impact), Alex (Cheng-Che) Huang 2 posts - 1 participant Read full topic",
+    "published": "Thu, 02 Jul 2026 16:27:28 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-07-02T20:57:54.399965"
   }
 }
