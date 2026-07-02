@@ -8058,5 +8058,115 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-07-01T21:21:57.076565"
+  },
+  "a285924d12ae": {
+    "id": "a285924d12ae",
+    "title": "Foundry releases Mari 8.0 in open beta",
+    "link": "https://www.cgchannel.com/2026/07/foundry-releases-mari-8-0-in-open-beta/",
+    "summary": "Check out the new features in the 3D texture painting software, including new nodes for hex tiling, color grading and A/B comparisons.",
+    "published": "Thu, 02 Jul 2026 08:16:49 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-02T10:31:55.902702"
+  },
+  "9b8412739795": {
+    "id": "9b8412739795",
+    "title": "Foundry releases Nuke 17.1 in open beta",
+    "link": "https://www.cgchannel.com/2026/07/foundry-releases-nuke-17-1-in-open-beta/",
+    "summary": "Check out the changes to the compositing software, including relighting Gaussian splats and Hydra 2.0 support in the 3D viewer.",
+    "published": "Thu, 02 Jul 2026 07:20:07 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-02T10:31:55.902727"
+  },
+  "2bed005b12cf": {
+    "id": "2bed005b12cf",
+    "title": "Get 120 free modular 3D assets for building a desert city",
+    "link": "https://www.cgchannel.com/2026/07/get-120-free-modular-3d-assets-for-building-a-desert-city/",
+    "summary": "Download stock asset provider Laya Design's Unreal Engine Science Fiction Desert City Kit free from Fab for the next two weeks.",
+    "published": "Wed, 01 Jul 2026 15:59:33 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-07-02T10:31:55.902741"
+  },
+  "924f285b16e0": {
+    "id": "924f285b16e0",
+    "title": "Polygonflow releases Dash 1.12",
+    "link": "https://www.cgchannel.com/2026/06/check-out-the-new-features-in-ue5-world-building-tool-dash/",
+    "summary": "Check out the new features in the Unreal Engine 5 world building tool - like the option to stack objects vertically when laying out scenes.",
+    "published": "Tue, 30 Jun 2026 11:00:58 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-07-02T10:31:55.902754"
+  },
+  "ba6b3b213427": {
+    "id": "ba6b3b213427",
+    "title": "JangaFX just made effects tool VectorayGen available free",
+    "link": "https://www.cgchannel.com/2026/06/jangafx-just-made-effects-tool-vectoraygen-available-free/",
+    "summary": "Get the real-time effects specialist's free app for generating vector fields to control particle simulations for games, motion graphics and VFX.",
+    "published": "Tue, 30 Jun 2026 08:36:01 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-02T10:31:55.902767"
+  },
+  "ebf9080aff9e": {
+    "id": "ebf9080aff9e",
+    "title": "How to create color pallet gradient",
+    "link": "https://realtimevfx.com/t/how-to-create-color-pallet-gradient/31228",
+    "summary": "I was wondering how to creat a color pallet gradient like given image and what should be the file format. helping hands are much appriciated. thanks in advance. 2 posts - 2 participants Read full topic",
+    "published": "Thu, 02 Jul 2026 06:22:54 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-07-02T10:31:56.943271"
+  },
+  "f9127179f1e5": {
+    "id": "f9127179f1e5",
+    "title": "Union workers establish hardship fund to support devs impacted by layoffs",
+    "link": "https://www.gamedeveloper.com/business/union-workers-establish-hardship-fund-to-support-devs-impacted-by-layoffs",
+    "summary": "Game developers in the United States and Canada will be able to request up to $5,000 through the fund.",
+    "published": "Thu, 02 Jul 2026 10:20:16 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-02T10:32:05.945163"
+  },
+  "2e036e520a9d": {
+    "id": "2e036e520a9d",
+    "title": "Ubisoft taps former 2K president Christoph Hartmann to oversee Tom Clancy franchise",
+    "link": "https://www.gamedeveloper.com/business/ubisoft-taps-former-2k-president-christoph-hartmann-to-oversee-shooter-franchises",
+    "summary": "Hartmann will take charge of key franchises including Tom Clancy's The Division, Ghost Recon, and Splinter Cell.",
+    "published": "Thu, 02 Jul 2026 09:34:43 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-02T10:32:05.945185"
+  },
+  "f4f40552c74e": {
+    "id": "f4f40552c74e",
+    "title": "Godot to ban (almost all) AI coding contributions",
+    "link": "https://www.gamedeveloper.com/business/godot-to-ban-almost-all-ai-coding-contributions",
+    "summary": "Godot will still allow AI assistance like 'code completion, regex, or find and replace.'",
+    "published": "Wed, 01 Jul 2026 18:14:09 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-02T10:32:05.945197"
+  },
+  "de20c53f300b": {
+    "id": "de20c53f300b",
+    "title": "Krafton and Unknown Worlds founders settle Subnautica 2 legal dispute",
+    "link": "https://www.gamedeveloper.com/business/krafton-agrees-to-pay-bonuses-to-subnautica-2-studio-as-ceo-resigns",
+    "summary": "Krafton has agreed to dismiss all pending legal proceedings with Unknown Worlds. CEO Ted Gill will exit the company.",
+    "published": "Wed, 01 Jul 2026 15:38:20 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-02T10:32:05.945210"
+  },
+  "88cdff4f0544": {
+    "id": "88cdff4f0544",
+    "title": "OtherSide Entertainment lays off 18 from Thick as Thieves team",
+    "link": "https://www.gamedeveloper.com/business/otherside-entertainment-lays-off-18-from-thick-as-thieves-team",
+    "summary": "OtherSide has now laid off 36 employees in the last month.",
+    "published": "Wed, 01 Jul 2026 14:29:23 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-02T10:32:05.945220"
   }
 }
