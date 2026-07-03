@@ -8208,5 +8208,25 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-07-02T20:57:54.399965"
+  },
+  "38a1e47d4ce2": {
+    "id": "38a1e47d4ce2",
+    "title": "Mixos lets you paint PBR textures in your web browser",
+    "link": "https://www.cgchannel.com/2026/07/mixos-lets-you-paint-pbr-textures-in-your-web-browser/",
+    "summary": "New online tool lets you paint textures directly onto 3D models, or create new PBR materials by remixing a library of CC0 assets.",
+    "published": "Fri, 03 Jul 2026 07:11:21 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-03T10:29:31.676001"
+  },
+  "c413ffaf3942": {
+    "id": "c413ffaf3942",
+    "title": "I need help with my creature simulation game!",
+    "link": "https://gamedev.net/forums/topic/720126-i-need-help-with-my-creature-simulation-game",
+    "summary": "Some time ago, I started working on NPC creatures for my simulation game. I'm currently focused on refactoring the behavior code to an object-oriented system with automatic sorting based on priority. This is where I'm a bit stuck. You see, “motives” as they're called are supposed to be the primary driver of how creatures behave. These include health, hunger, and rest, with a sexual reproduction system planned for later. Motives are sorted and compared based on their fulfillment, which is basically the current value divided by the max value (for example, a creature with 10 max health and 5 health …",
+    "published": "Fri, 03 Jul 2026 04:46:58 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-03T10:29:39.383877"
   }
 }
