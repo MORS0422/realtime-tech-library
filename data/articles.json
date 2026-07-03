@@ -8228,5 +8228,55 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-07-03T10:29:39.383877"
+  },
+  "30b57fb796b3": {
+    "id": "30b57fb796b3",
+    "title": "Doctor Strange Portal VFX",
+    "link": "https://gamedev.net/blogs/entry/2298124-doctor-strange-portal-vfx",
+    "summary": "Buy Doctor Strange Portal VFX Buy It Here:",
+    "published": "Fri, 03 Jul 2026 18:25:31 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-03T20:59:43.591182"
+  },
+  "54ded6764262": {
+    "id": "54ded6764262",
+    "title": "Beta button bug",
+    "link": "https://gamedev.net/forums/topic/720123-beta-button-bug",
+    "summary": "I may have accidentally clicked the ‘Beta off’ button. So i have disabled beta and i'm back to the old layout. Where i can not reply to PMs for example, giving me an error like ‘failed to send message’. And i can not turn on beta again. Clicking the button again (which still says ‘off’ not ‘on’, although it is already off) reloads the page but does nothing. In case there is another to turn on beta mode i have not found it.",
+    "published": "Fri, 03 Jul 2026 16:12:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-03T20:59:43.591213"
+  },
+  "d9554ca04107": {
+    "id": "d9554ca04107",
+    "title": "Enginefall developer Red Rover Interactive is making layoffs",
+    "link": "https://www.gamedeveloper.com/business/enginefall-developer-red-rover-interactive-is-making-layoffs",
+    "summary": "The studio has raised $20 million since breaking cover three years ago.",
+    "published": "Fri, 03 Jul 2026 13:12:08 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-03T20:59:46.546204"
+  },
+  "b8608e4ef917": {
+    "id": "b8608e4ef917",
+    "title": "Cyberpunk 2077 has sold 40 million copies worldwide",
+    "link": "https://www.gamedeveloper.com/business/cyberpunk-2077-has-sold-40-million-copies-worldwide",
+    "summary": "From zero to hero.",
+    "published": "Fri, 03 Jul 2026 12:47:11 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-03T20:59:46.546224"
+  },
+  "c2d8f5da9e53": {
+    "id": "c2d8f5da9e53",
+    "title": "Rockstar workers hit back, PlayStation ditches physical discs, and chipmakers accused of price fixing -  Patch Notes #59",
+    "link": "https://www.gamedeveloper.com/business/rockstar-workers-hit-back-playstation-ditches-physical-discs-and-chipmakers-accused-of-price-fixing-patch-notes-58",
+    "summary": "Plus: Union creates hardship fund to support laid off developers and Xbox testing disc-to-digital feature.",
+    "published": "Fri, 03 Jul 2026 10:36:56 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-03T20:59:46.546236"
   }
 }
