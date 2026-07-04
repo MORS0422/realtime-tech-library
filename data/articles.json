@@ -8278,5 +8278,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-03T20:59:46.546236"
+  },
+  "6ce706dc1e5d": {
+    "id": "6ce706dc1e5d",
+    "title": "Free tutorial: Lighting Realistic Rainy Weather in Unreal Engine 5",
+    "link": "https://www.cgchannel.com/2026/07/free-tutorial-lighting-realistic-rainy-weather-in-unreal-engine/",
+    "summary": "Master production-proven workflows for creating weather effects in UE5 with The Gnomon Workshop's free masterclass.",
+    "published": "Sat, 04 Jul 2026 06:00:20 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-07-04T10:02:44.350350"
+  },
+  "984eddf9cfd5": {
+    "id": "984eddf9cfd5",
+    "title": "I’m building a small tool to diagnose mobile ad revenue drops",
+    "link": "https://gamedev.net/forums/topic/720131-im-building-a-small-tool-to-diagnose-mobile-ad-revenue-drops",
+    "summary": "Over the past few days, I’ve been reading discussions from mobile app and game developers about AdMob revenue drops, low match rate, unstable show rate, and confusing eCPM changes. One thing became clear: many revenue drops are misread at first. A lower revenue number does not always mean eCPM is the real problem. Sometimes the issue is earlier in the funnel: requests → matched ads → impressions → revenue For example: eCPM looks fine, but match rate drops requests are normal, but show rate is low impressions fall during certain hours one country or ad unit changes the blended average …",
+    "published": "Sat, 04 Jul 2026 02:07:01 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-04T10:02:51.264955"
   }
 }
