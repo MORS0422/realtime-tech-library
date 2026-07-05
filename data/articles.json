@@ -8328,5 +8328,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "ue",
     "fetched_at": "2026-07-05T10:06:13.021239"
+  },
+  "e5cdf4381cd2": {
+    "id": "e5cdf4381cd2",
+    "title": "Entropy Engine producing seeds for procedural game mechanics — feedback wanted",
+    "link": "https://gamedev.net/forums/topic/720101-entropy-engine-producing-seeds-for-procedural-game-mechanics-feedback-wanted",
+    "summary": "Hi everyone — I’m Colin, founder of Artphorm, and I’m building a small developer tool called QeNTROPY. QeNTROPY is an entropy seed engine for games, apps, experiments, and creative tools. The basic idea is: Instead of every game generating isolated local randomness, QeNTROPY provides a shared daily seed that developers can use to create synchronized daily experiences. For games, that could mean: everyone gets the same daily dungeon everyone gets the same puzzle layout everyone gets the same procedural challenge players can compare runs from the same seed developers can create replayable daily worlds “same seed, different choices” gameplay I …",
+    "published": "Sun, 05 Jul 2026 19:45:29 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-05T20:51:46.835580"
   }
 }
