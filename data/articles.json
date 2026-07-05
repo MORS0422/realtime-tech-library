@@ -8308,5 +8308,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-07-04T20:48:36.296822"
+  },
+  "9d80becb9717": {
+    "id": "9d80becb9717",
+    "title": "Online Block Blast Solver – A free puzzle tool for players and developers",
+    "link": "https://gamedev.net/blogs/entry/2298131-online-block-blast-solver-a-free-puzzle-tool-for-players-and-developers",
+    "summary": "I've been working on a free web tool called Online Block Blast Solver . It's designed for players who get stuck in Block Blast — a simple grid puzzle where you place blocks to clear rows and columns. The solver lets you draw your current 8×8 board and the next three blocks. It then simulates all possible placements, scores each outcome, and suggests the optimal move sequence. Why I built it: I kept getting stuck in Block Blast with no idea if I missed a good move or if the board was genuinely unwinnable. I wanted to understand the game's …",
+    "published": "Sun, 05 Jul 2026 05:34:35 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-05T10:06:13.021216"
+  },
+  "443bddca6bff": {
+    "id": "443bddca6bff",
+    "title": "Godot vs Unity vs Unreal Engine? Which to use on HP Victus 15 as a solo developer with no experience? I never seem to get a good solid answer on which is best to use as a solo game developer. I want the game to be 3D.",
+    "link": "https://gamedev.net/forums/topic/720134-godot-vs-unity-vs-unreal-engine-which-to-use-on-hp-victus-15-as-a-solo-developer-with-no-experience-i-never-seem-to-get-a-good-solid-answer-on-which-is-best-to-use-as-a-solo-game-developer-i-want-the-game-to-be-3d",
+    "summary": "Godot vs Unity vs Unreal Engine? Which to use on HP Victus 15 as a solo developer with no experience? I never seem to get a good solid answer on which is best to use as a solo game developer. I want the game to be 3D but everyone recommends me to start in 2D.",
+    "published": "Sun, 05 Jul 2026 09:30:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-07-05T10:06:13.021239"
   }
 }
