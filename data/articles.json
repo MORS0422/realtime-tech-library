@@ -8368,5 +8368,55 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-07-06T11:58:19.182988"
+  },
+  "f6ea3fb08d0c": {
+    "id": "f6ea3fb08d0c",
+    "title": "Accuracy of physics constraints",
+    "link": "https://gamedev.net/forums/topic/720141-accuracy-of-physics-constraints",
+    "summary": "Hello all, I've observed some weird behavior on my physics engine that I think is not a bug but a limitation of how constraints are usually defined and implemented in physics engines. But I might have understood the whole theory wrong so I'd like to hear your opinion on it. So, let me present my case with a simple example: imagine we have a static wall (no constraints, just static geometry) and we throw a ball at it. Given that the wall is static all the collision energy is transferred back to the ball which ends up doing all the …",
+    "published": "Mon, 06 Jul 2026 18:49:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-06T21:23:59.675027"
+  },
+  "9cce73c6eb1f": {
+    "id": "9cce73c6eb1f",
+    "title": "Nintendo is winding down original Switch sales in Europe",
+    "link": "https://www.gamedeveloper.com/business/nintendo-is-winding-down-switch-1-sales-in-europe",
+    "summary": "Nintendo will stop selling the original Switch console to retailers in February 2027.",
+    "published": "Mon, 06 Jul 2026 16:06:02 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-06T21:24:02.922534"
+  },
+  "b1af0491b213": {
+    "id": "b1af0491b213",
+    "title": "Xbox cutting 3,200 jobs and parting ways with Double Fine, Compulsion, Ninja Theory, and Undead Labs",
+    "link": "https://www.gamedeveloper.com/business/xbox-cutting-3-200-jobs-and-parting-ways-with-double-fine-compulsion-ninja-theory-and-undead-labs",
+    "summary": "'It is neither possible nor desirable to own every great independent studio.'",
+    "published": "Mon, 06 Jul 2026 14:01:08 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-06T21:24:02.922553"
+  },
+  "e5fe91d65e7e": {
+    "id": "e5fe91d65e7e",
+    "title": "Ingress developer Niantic Spatial shuttering New Zealand office",
+    "link": "https://www.gamedeveloper.com/business/ingress-developer-niantic-spatial-shuttering-new-zealand-office",
+    "summary": "The move comes with the company pivoting away from video games and entertainment.",
+    "published": "Mon, 06 Jul 2026 13:28:32 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-06T21:24:02.922564"
+  },
+  "bc36bbb07109": {
+    "id": "bc36bbb07109",
+    "title": "EVE Online's cross-platform game engine framework is now fully open source",
+    "link": "https://www.gamedeveloper.com/production/eve-online-s-cross-platform-game-engine-framework-is-now-fully-open-source",
+    "summary": "Carbon is the technology behind the sci-fi MMO's sprawling persistent universe.",
+    "published": "Mon, 06 Jul 2026 11:49:45 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-06T21:24:02.922574"
   }
 }
