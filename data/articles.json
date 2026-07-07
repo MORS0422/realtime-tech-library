@@ -8418,5 +8418,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-06T21:24:02.922574"
+  },
+  "0144d2405395": {
+    "id": "0144d2405395",
+    "title": "**Stylized Water VFX in Unreal Engine**",
+    "link": "https://realtimevfx.com/t/stylized-water-vfx-in-unreal-engine/31268",
+    "summary": "- YouTube Hi everyone! I’m excited to announce that our new “Stylized Water VFX” course is now open for enrollment! This 5-month program is designed to help you master stylized water effects in Unreal Engine. We are also offering our comprehensive “Stylized VFX Package,” the first of its kind in Korea, covering essential techniques for stylized game VFX. Course Details &amp; Links: Stylized Water VFX (New 5-Month Course): 린반 아카데미 Stylized VFX Package: 린반 아카데미 Connect with us: If you have any questions, feel free to reach out via Discord or KakaoTalk! Join our Discord: Rinban Academy 1 post - 1 participant Read full topic",
+    "published": "Tue, 07 Jul 2026 04:39:33 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-07-07T10:50:03.794974"
+  },
+  "f7f434b1a854": {
+    "id": "f7f434b1a854",
+    "title": "Report: Obsidian losing around one quarter of its staff to 'Xbox reset'",
+    "link": "https://www.gamedeveloper.com/business/report-obsidian-losing-around-one-quarter-of-its-staff-to-xbox-reset-",
+    "summary": "The Pentiment and The Outer Worlds studio is reportedly losing 60-70 employees in the cuts.",
+    "published": "Tue, 07 Jul 2026 00:04:26 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-07T10:50:12.761648"
   }
 }
