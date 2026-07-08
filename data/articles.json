@@ -8498,5 +8498,75 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-08T10:10:57.535754"
+  },
+  "59440af695e7": {
+    "id": "59440af695e7",
+    "title": "Otoy releases OctaneRender 2026.4",
+    "link": "https://www.cgchannel.com/2026/07/otoy-releases-octanerender-2026-4/",
+    "summary": "Check out the new features in the GPU production renderer, including updates to 3D Gaussian Splatting and the Neural Radiance Cache.",
+    "published": "Wed, 08 Jul 2026 04:30:56 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-08T21:00:18.018917"
+  },
+  "2604fa24a7ea": {
+    "id": "2604fa24a7ea",
+    "title": "Reallusion releases Headshot 3.1",
+    "link": "https://www.cgchannel.com/2026/07/reallusion-releases-headshot-3-0/",
+    "summary": "Check out the new features in the AI-powered Character Creator plugin for generating 3D digital doubles from reference photos.",
+    "published": "Wed, 08 Jul 2026 04:00:48 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-08T21:00:18.018941"
+  },
+  "2f7f9146e9d8": {
+    "id": "2f7f9146e9d8",
+    "title": "Get versions of the free Thinkbox tools that work with 3ds Max 2027",
+    "link": "https://www.cgchannel.com/2026/07/get-versions-of-the-free-thinkbox-tools-that-work-with-3ds-max-2027/",
+    "summary": "Get new versions of particle tools Krakatoa MX, Frost MX, Stoke MX and XMesh MX recompiled to support current versions of 3ds Max.",
+    "published": "Tue, 07 Jul 2026 04:00:54 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-08T21:00:18.018956"
+  },
+  "d5e8749ca4bf": {
+    "id": "d5e8749ca4bf",
+    "title": "Fighting game collision",
+    "link": "https://gamedev.net/forums/topic/720148-fighting-game-collision",
+    "summary": "I've been stuck trying to figure out how to program character collision in a 2D fighting game. Specifically for player movement, not for attacks. I'm using Godot, and my current implementation is to check for an overlap of both characters' collision boxes, measure the distance of the overlap, then move both characters horizontally by half the distance. This works fine; however, fighting games have corners, and players cannot go past the edge of the screen. So I have a check for whoever is in the corner, then make them not move, and make the opponent move the full distance. I …",
+    "published": "Wed, 08 Jul 2026 18:10:25 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-08T21:00:25.696550"
+  },
+  "dfe088f5bc15": {
+    "id": "dfe088f5bc15",
+    "title": "Blizzard eliminates 'small number' of roles in China",
+    "link": "https://www.gamedeveloper.com/business/blizzard-eliminates-small-number-of-roles-in-china",
+    "summary": "The news comes with Activision Blizzard's parent company cutting jobs across the board.",
+    "published": "Wed, 08 Jul 2026 16:29:36 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-08T21:00:28.360092"
+  },
+  "c7bc0cb5d23a": {
+    "id": "c7bc0cb5d23a",
+    "title": "Mobile game Mario Kart Tour is winding down",
+    "link": "https://www.gamedeveloper.com/business/mobile-game-mario-kart-tour-is-winding-down",
+    "summary": "There won't be an offline version, says Nintendo.",
+    "published": "Wed, 08 Jul 2026 15:50:47 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-08T21:00:28.360110"
+  },
+  "682c834cc8c9": {
+    "id": "682c834cc8c9",
+    "title": "Opinion: Welcome to the house of pain, brought to you by Xbox",
+    "link": "https://www.gamedeveloper.com/business/opinion-welcome-to-the-house-of-pain-brought-to-you-by-xbox",
+    "summary": "Don't mind the screams.",
+    "published": "Wed, 08 Jul 2026 14:29:29 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-08T21:00:28.360120"
   }
 }
