@@ -8478,5 +8478,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-07T21:17:57.160203"
+  },
+  "ecd532ddda68": {
+    "id": "ecd532ddda68",
+    "title": "Rasterizer Project - Part 3: Geometry",
+    "link": "https://gamedev.net/blogs/entry/2298145-rasterizer-project-part-3-geometry",
+    "summary": "So lets create a geomtry.h so we can actually calculate the 3d math we need for our rasterizer to work. Lets start with this struct. This is ofcourse a vector 2, 2 coordinates. Default constructor is asserting 0, 0 on them, otherwise you can declare them. The operator functions return asign so you can return a value of either the x of y via an integer. What helped me understand this is to think of like OpenGl VertexAttrib, or assigned textures in Opengl. You assign them to an int and via that reference you can access that component in the …",
+    "published": "Tue, 07 Jul 2026 22:14:17 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-08T10:10:54.690227"
+  },
+  "0af4e6dfb317": {
+    "id": "0af4e6dfb317",
+    "title": "'Used, abused, and discarded:' CWA Canada slams Microsoft over handling of Bethesda layoffs",
+    "link": "https://www.gamedeveloper.com/business/-employers-are-ruthless-cwa-canada-slams-microsoft-over-handling-of-bethesda-layoffs",
+    "summary": "The union claims around a dozen roles have been eliminated at Bethesda Game Studios Montreal.",
+    "published": "Wed, 08 Jul 2026 09:46:58 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-08T10:10:57.535754"
   }
 }
