@@ -8628,5 +8628,95 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-09T10:49:13.595941"
+  },
+  "32573938bf33": {
+    "id": "32573938bf33",
+    "title": "Zibra AI launches new real-time VFX technology ZibraGDS",
+    "link": "https://www.cgchannel.com/2026/07/zibra-ai-unveils-zibragds/",
+    "summary": "New tech compresses geometry caches from destruction, cloth and liquid sims by 'up to 92%' for real-time rendering in Unreal Engine.",
+    "published": "Thu, 09 Jul 2026 12:00:48 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-07-09T21:17:04.368861"
+  },
+  "a8279bbb72b0": {
+    "id": "a8279bbb72b0",
+    "title": "Try ByHand, Truong CG Artist’s free digital sculpting software",
+    "link": "https://www.cgchannel.com/2026/07/check-out-byhand-truong-cg-artists-free-digital-sculpting-software/",
+    "summary": "Promising new free application provides a 'clean, distraction-free space' for sculpting characters and creatures for games and VFX work.",
+    "published": "Thu, 09 Jul 2026 04:45:04 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-09T21:17:04.368886"
+  },
+  "2d6651afa28f": {
+    "id": "2d6651afa28f",
+    "title": "BG3 Harm Spell Sound Redesign",
+    "link": "https://gamedev.net/blogs/entry/2298150-bg3-harm-spell-sound-redesign",
+    "summary": "Baldur's Gate 3 Sound Redesign Hey there! Welcome to my first blog post 🙂 I wanted to share my BG3 Sound Redesign for the Cleric's Harm spell and what was going through my mind when I was redesign the sound. I would love to hear anyone's feedback and criticism. Since Harm is a high level necromancy spell with a devastating effect, I wanted to balance the ideas of necromancy, clerics and devastation. So the keywords in my mind were - evil, dark, church, powerful and also light. For the precast / preparation I wanted something “flowy” and gracious, since the …",
+    "published": "Thu, 09 Jul 2026 18:58:34 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-09T21:17:13.292570"
+  },
+  "146929991d4e": {
+    "id": "146929991d4e",
+    "title": "Building an always-on ad revenue monitor for AppLovin MAX studios (feedback welcome)",
+    "link": "https://gamedev.net/forums/topic/720159-building-an-always-on-ad-revenue-monitor-for-applovin-max-studios-feedback-welcome",
+    "summary": "I have been developing Yieldwatch for individuals and small studios monetizing via AppLovin MAX. This concept basically states that instead of going into the dashboard after you saw a problem, the tool monitors constantly and reports if this is a self-made issue or market one, plus benchmarking your eCPM/fill rate compared to other studios. Landing page (waitlist): https://adrevenuediagnostics.vercel.app Would really appreciate any feedback from users using MAX in terms of debugging revenue decreases — is \"is this me or the market\" what you actually go through when debugging such issues?",
+    "published": "Thu, 09 Jul 2026 19:17:52 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-09T21:17:13.292608"
+  },
+  "bd49ce39dc47": {
+    "id": "bd49ce39dc47",
+    "title": "UE5 Heterogeneous Volume: Low-density Houdini VDB smoke becomes dotted / pixelated",
+    "link": "https://realtimevfx.com/t/ue5-heterogeneous-volume-low-density-houdini-vdb-smoke-becomes-dotted-pixelated/31286",
+    "summary": "I’m exporting a Houdini Pyro smoke sim as an OpenVDB sequence and importing it into UE5.6. Workflow: Houdini Pyro → OpenVDB sequence → UE5 Sparse Volume Texture → Heterogeneous Volume Actor The issue happens in the thin, low-density smoke near the floor . The thicker smoke looks mostly fine, but the fading transparent smoke tail becomes dotted / pixelated / blocky / flickery instead of smoothly fading out. There is also a secondary issue where character shadows become blocky on the smoke volume. But I can disable/fake the shadow if needed. The main issue I want to solve is the low-density smoke itself becoming dotted/pixelated . With the help of AI, I tried several things to narrow down the cause: Issue Blocking Requests ON Streaming Mip Bias -1 / -2 Step Factor 0.5 / 0.25 Lighting Downsample Factor 0.1 Higher MRQ Temporal Samples density 16-bit / 8-bit import density-only import Houdini Blast to keep only density Houdini Volume Blur Houdini Volume Wrangle to remove low-density values In Houdini, I added a Volume Wrangle after the Pyro Solver to clean up the low-density smoke tail. I tried a soft cutoff like this: float cutoff = chf(\"cutoff\"); float softness = chf(\"softness\"); @density *= smooth(cutoff, cutoff + softness, @density); I also tried a hard cutoff: if (@density &lt; 0.03) { @density = 0; } Issue Blocking Requests ON helped the most. It made the artifacts smaller, but they are still visible. The original Houdini voxel size is 0.02. I tried 0.01, but UE crashed / ran out of memory during import. Has anyone solved this kind of low-density VDB smoke tail artifact in UE5 Heterogeneous Volumes / Sparse Volume Textures? Any advice on Houdini export settings, UE import settings, material setup, or actor settings would be appreciated. 1 post - 1 participant Read full topic",
+    "published": "Thu, 09 Jul 2026 14:07:34 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-07-09T21:17:06.125313"
+  },
+  "7041daf05ca5": {
+    "id": "7041daf05ca5",
+    "title": "Mario Item Box - [UE5]",
+    "link": "https://realtimevfx.com/t/mario-item-box-ue5/31282",
+    "summary": "Hi everyone! I want to show you a Mario Kart Item Box that I created in my free time! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Small explosion because it’s always nice - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Breakdown ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ The effect is created with 3 things I first created the box on 3DSMAX I flip faces We will now see the inside of the box - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Box got 3 parts Inside dot color Fresnel Outline Inside material - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Fresnel material - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Outline material ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Final Result - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - We only need the “ ? ” and the dot background now Sprite material - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Dot background material ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Final Result - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - All emitters - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Shader Complexity (Red part comes from the Fresnel) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - I don’t think I’ll push it further, but if you have some advice or feedback, that’s always nice for future VFX - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ↓ Reference ↓ Nick Baker https://www.artstation.com/artwork/nJk8QK Katsuo x.com Katsuo (@KatsuoDev_) on X @KatsuoDev_ Item Boxes (Themes) #VFX #RobloxDev #Roblox #RobloxVFX #MarioKartWorld 1 post - 1 participant Read full topic",
+    "published": "Thu, 09 Jul 2026 10:19:23 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-07-09T21:17:06.125519"
+  },
+  "409738a3df7b": {
+    "id": "409738a3df7b",
+    "title": "Eurogamer and VG247 veterans launch new independent site",
+    "link": "https://www.gamedeveloper.com/business/eurogamer-and-vg247-veterans-launch-new-independent-site",
+    "summary": "Respec believes that the audience seeking magazine-style games coverage is best served through independence.",
+    "published": "Thu, 09 Jul 2026 16:32:06 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-09T21:17:15.577075"
+  },
+  "4c43c167d28f": {
+    "id": "4c43c167d28f",
+    "title": "Fired Marathon director says he's settled lawsuit with Sony",
+    "link": "https://www.gamedeveloper.com/business/fired-marathon-director-says-he-s-settled-misconduct-lawsuit-with-sony",
+    "summary": "Christopher Barrett, who was fired by Sony for misconduct allegations, now has his name on Marathon's credits.",
+    "published": "Thu, 09 Jul 2026 14:27:09 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-09T21:17:15.577097"
+  },
+  "b7b94fd14fcc": {
+    "id": "b7b94fd14fcc",
+    "title": "A risk-averse video game industry is failing marginalized developers",
+    "link": "https://www.gamedeveloper.com/production/the-game-industry-is-failing-marginalized-developers",
+    "summary": "Nazih Fares has been inundated with praise when pitching 'spicy' card battler The Arab League of Misfits, so why has funding yet to materialize?",
+    "published": "Thu, 09 Jul 2026 11:59:33 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-09T21:17:15.577112"
   }
 }
