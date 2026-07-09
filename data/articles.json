@@ -8568,5 +8568,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-08T21:00:28.360120"
+  },
+  "245fc0ffc046": {
+    "id": "245fc0ffc046",
+    "title": "Check out free cross-platform retopology tool AutoRemesher",
+    "link": "https://www.cgchannel.com/2026/07/get-free-retopology-tool-autoremesher-and-its-blender-bridge/",
+    "summary": "Open-source app converts 3D scans or sculpts to clean, low-poly, all-quad geometry. Comes with an unofficial Blender bridge plugin.",
+    "published": "Thu, 09 Jul 2026 04:30:45 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-09T10:49:04.098659"
+  },
+  "b149bf3773f3": {
+    "id": "b149bf3773f3",
+    "title": "Brick eliminator game",
+    "link": "https://gamedev.net/forums/topic/720155-brick-eliminator-game",
+    "summary": "Created a brick eliminator game. Its at http://bismuth8311.itch.io/brickel Any ideas to improve it? Thanks.",
+    "published": "Thu, 09 Jul 2026 07:30:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-09T10:49:11.965160"
+  },
+  "a2ed3321e079": {
+    "id": "a2ed3321e079",
+    "title": "Mario Item Box - Breadown",
+    "link": "https://realtimevfx.com/t/mario-item-box-breadown/31282",
+    "summary": "Hi everyone! I want to show you a Mario Kart Item Box that I created in my free time! - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Small explosion because it’s always nice - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Breakdown ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ The effect is created with 3 things I first created the box on 3DSMAX I flip faces We will now see the inside of the box - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Box got 3 parts Inside dot color Fresnel Outline Inside material - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Fresnel material - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Outline material ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Final Result - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - We only need the “ ? ” and the dot background now Sprite material - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Dot background material ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Final Result - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - All emitters - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Shader Complexity (Red part comes from the Fresnel) - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - I don’t think I’ll push it further, but if you have some advice or feedback, that’s always nice for future VFX - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ↓ Reference ↓ Nick Baker https://www.artstation.com/artwork/nJk8QK Katsuo x.com Katsuo (@KatsuoDev_) on X @KatsuoDev_ Item Boxes (Themes) #VFX #RobloxDev #Roblox #RobloxVFX #MarioKartWorld 1 post - 1 participant Read full topic",
+    "published": "Thu, 09 Jul 2026 10:19:23 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-07-09T10:49:05.463199"
+  },
+  "edf08dec3418": {
+    "id": "edf08dec3418",
+    "title": "Sketch #68: Winners and Badges!",
+    "link": "https://realtimevfx.com/t/sketch-68-winners-and-badges/31280",
+    "summary": "WINNERS AND BADGES Here are your winners for last month’s sketch! In 1st place @Stormhound Stormhound: Sketch #68 68-Glitch [GlitchGif03] Final submission: [YouTube] Hello! I’ve decided to participate as well. I really like the theme, and since I’ve never done anything related to glitch before, I’ll do my best! Since I’m a bit late and only have a week to complete it, I’ve decided to go for a simple effect. The main idea is to have a character run and build up a charge. When the charge reaches its peak, the character will start glitching, and with a final dash, she will unleash a digital tornado. Of co… Second Place @ashimoz Ashimoz : Sketch#68 68-Glitch hello everyone !! i came back from holiday yesterday to see a brand new monthly challenge! i’ll go with a projectile → aoe vfx and hope i’ll have enough time to finish it hahaha here some sketches ill probably do something along those lines or something [Glitch_sketches] Congrats to the winners! Thanks again to all our participants, and see you on another sketch 1 post - 1 participant Read full topic",
+    "published": "Thu, 09 Jul 2026 07:39:08 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-07-09T10:49:05.463278"
+  },
+  "692342a86917": {
+    "id": "692342a86917",
+    "title": "Xbox had laid off 379 Zenimax workers in Maryland",
+    "link": "https://www.gamedeveloper.com/business/xbox-had-laid-off-379-zenimax-workers-in-maryland",
+    "summary": "That includes 213 employees at The Elder Scrolls Online developer ZeniMax Online Studios.",
+    "published": "Thu, 09 Jul 2026 07:42:46 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-09T10:49:13.595911"
+  },
+  "e6fe97f57442": {
+    "id": "e6fe97f57442",
+    "title": "Atari appoints Andreas Deptolla as president of Atari Europe",
+    "link": "https://www.gamedeveloper.com/business/atari-appoints-andreas-deptolla-as-president-of-atari-europe",
+    "summary": "Deptolla calls Europe a 'strategically important region for Atari.'",
+    "published": "Wed, 08 Jul 2026 14:30:07 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-09T10:49:13.595941"
   }
 }
