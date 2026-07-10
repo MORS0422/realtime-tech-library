@@ -8758,5 +8758,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-10T10:47:31.574595"
+  },
+  "29b36530dddc": {
+    "id": "29b36530dddc",
+    "title": "Chaos releases V-Ray 7.4 for Maya",
+    "link": "https://www.cgchannel.com/2026/07/chaos-releases-v-ray-7-4-for-maya/",
+    "summary": "Maya edition of the renderer gets support for AMD GPU rendering, and better support for Bifrost and rendering 3D Gaussian Splats.",
+    "published": "Fri, 10 Jul 2026 10:06:51 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-10T21:01:36.101385"
+  },
+  "13b73c260cee": {
+    "id": "13b73c260cee",
+    "title": "Devlog 2026-07-10",
+    "link": "https://gamedev.net/blogs/entry/2298154-devlog-2026-07-10",
+    "summary": "Happy Friday! It's an extra-happy one because (barring any critical bugs), I get to take a break from YOU&amp;! for a bit now that it's officially live! YOU&amp;! is very different to what we've done before. The writing style is different to what I'm used to, as it's very 'trapped in my head', which was a fun writing exercise. The artwork is unique, as it's the first time that Stoffies got to draw character art instead of grey spaceship interiors for Infinite Stars. It also has some great music from Astraeum, our newest team member. The subject matter of YOU&amp;! …",
+    "published": "Fri, 10 Jul 2026 12:03:19 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-10T21:01:43.952633"
+  },
+  "061754b9dd42": {
+    "id": "061754b9dd42",
+    "title": "[REVSHARE] Steinvar — Social Media & Community Manager + Video Production Specialist",
+    "link": "https://gamedev.net/forums/topic/720163-revshare-steinvar-social-media-community-manager-video-production-specialist",
+    "summary": "Hi everyone! We are expanding the team behind Steinvar , an indie Action-Adventure RPG currently in active production in Unreal Engine 5. We are currently looking for two specialists to join our international remote team: SOCIAL MEDIA &amp; COMMUNITY MANAGER Take ownership of the project's social media and community presence: develop and manage the content strategy, work with development materials, adapt content for different platforms, engage with the audience, analyze performance, and identify opportunities for organic growth, collaborations, and promotion. Full role description: https://docs.google.com/document/d/1Jrrymlu8IfZdXpUSIP7gulMYCstDq7ZAG-Gon4wrNsI/edit?usp=drive_link VIDEO PRODUCTION SPECIALIST Take ownership of video production for the project, including teasers, trailers, gameplay videos, …",
+    "published": "Fri, 10 Jul 2026 16:45:39 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-07-10T21:01:43.952677"
+  },
+  "483846484bf9": {
+    "id": "483846484bf9",
+    "title": "NexusMods CEO digs into the dynamics of video game modding ft. Victor Folmann",
+    "link": "https://www.gamedeveloper.com/pc/nexusmods-ceo-digs-into-the-dynamics-of-video-game-modding-ft-victor-folmann",
+    "summary": "Folmann believes the company can evolve from a file-hosting company to a bona fide user-generated content (UGC) platform.",
+    "published": "Fri, 10 Jul 2026 20:45:33 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-10T21:01:46.593918"
+  },
+  "74cc470df87c": {
+    "id": "74cc470df87c",
+    "title": "Own goal specialist Xbox rifles another into the roof of the net - Patch Notes #60",
+    "link": "https://www.gamedeveloper.com/business/the-state-of-play-after-a-truly-torrid-week-for-xbox-patch-notes-60",
+    "summary": "In a change to our scheduled programming, we break down how one of the most significant weeks in the recent history of Xbox unfolded.",
+    "published": "Fri, 10 Jul 2026 10:18:09 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-10T21:01:46.593938"
   }
 }
