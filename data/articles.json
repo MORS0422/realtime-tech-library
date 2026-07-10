@@ -8718,5 +8718,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-09T21:17:15.577112"
+  },
+  "2a4081d0045c": {
+    "id": "2a4081d0045c",
+    "title": "First 12 min Gameplay",
+    "link": "https://gamedev.net/blogs/entry/2298151-first-12-min-gameplay",
+    "summary": "I've uploaded the first 12 minutes of gameplay from The Last Pole . This early gameplay showcases the core experience currently being developed: preparing for repairs, gathering the correct tools and replacement parts, traveling through the blackout, repairing damaged electrical infrastructure, and restoring power to the city. The video also demonstrates several systems that are already implemented, including the inventory, ladder mechanics, repair interactions, and power restoration sequence. The project is still in active development, and many areas of the city, repair types, exploration mechanics, and environmental interactions are planned for future updates. As always, feedback is greatly appreciated. Watching …",
+    "published": "Fri, 10 Jul 2026 01:12:58 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-10T10:47:28.590105"
+  },
+  "59bca70904d4": {
+    "id": "59bca70904d4",
+    "title": "[RevShare / Portfolio] UE5 Movement-Focused FPS Seeking 3D Modelers & Animators",
+    "link": "https://gamedev.net/forums/topic/720160-revshare-portfolio-ue5-movement-focused-fps-seeking-3d-modelers-animators",
+    "summary": "Hey everyone, I’m currently working on an early prototype for a first-person movement-focused looter shooter built in Unreal Engine 5, and I’m looking for additional 3D artists and animators to help with visual development. The project is inspired by the FPS looter-shooter space that games like Destiny helped define, along with movement-focused shooters like Titanfall and Apex. The goal is not to clone any one game, but to build a fast combat sandbox centered around projectile-based weapons, movement abilities, loot/buildcrafting, enemy factions, and a near-future sci-fi/occult fantasy setting. The project is already underway. I’ve been handling most of the design, …",
+    "published": "Fri, 10 Jul 2026 07:46:26 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-07-10T10:47:28.590145"
+  },
+  "70791de732d9": {
+    "id": "70791de732d9",
+    "title": "'We mean business:' Xbox union workers fighting back with 'Save Our Devs' rally on July 15",
+    "link": "https://www.gamedeveloper.com/business/-we-mean-business-xbox-union-workers-fighting-back-with-save-our-devs-rally-on-july-15",
+    "summary": "The protest is being organized by union members at Bethesda Game Studios.",
+    "published": "Fri, 10 Jul 2026 09:02:11 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-10T10:47:31.574573"
+  },
+  "12cbcca4515e": {
+    "id": "12cbcca4515e",
+    "title": "Asha Sharma joins Federal Reserve advisory task force days after laying off thousands at Xbox",
+    "link": "https://www.gamedeveloper.com/business/asha-sharma-joins-federal-reserve-task-force-days-after-laying-off-thousands-at-xbox",
+    "summary": "Sharma certainly knows about 'the economic impact of new general-purpose technologies.'",
+    "published": "Thu, 09 Jul 2026 21:26:03 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-10T10:47:31.574595"
   }
 }
