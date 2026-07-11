@@ -8808,5 +8808,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-10T21:01:46.593938"
+  },
+  "e73bd00dc0ae": {
+    "id": "e73bd00dc0ae",
+    "title": "Tutorial: create cliff materials in Substance 3D Designer",
+    "link": "https://www.cgchannel.com/2026/07/tutorial-create-realistic-cliff-materials-in-substance-3d-designer/",
+    "summary": "Discover how to create game-ready materials with The Gnomon Workshop's detailed guide to modern environment art workflows.",
+    "published": "Sat, 11 Jul 2026 06:00:55 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-11T09:21:51.651418"
   }
 }
