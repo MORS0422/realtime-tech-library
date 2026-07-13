@@ -8858,5 +8858,65 @@
     "source_name": "CG Channel",
     "category": "ta",
     "fetched_at": "2026-07-13T10:54:07.702649"
+  },
+  "835f16e266f6": {
+    "id": "835f16e266f6",
+    "title": "Magic of Lies",
+    "link": "https://gamedev.net/blogs/entry/2298163-magic-of-lies",
+    "summary": "Material Layer Blend - a principle for combining material layers that creates a lightweight, quickly tunable system for blending surface effects - whether paint, dirt, rust, or scratches layered on top of one another. Control comes down to simple, clear parameters that set the order and intensity of each layer and decide which layer will dominate in the blend. Beyond texture blend patterns and channel selection, we added fine-grained control via inversion and per-pixel math operations. Reusing the same texture patterns also improves performance - reducing memory usage and simplifying streaming. Layered materials also make it possible to apply external, …",
+    "published": "Mon, 13 Jul 2026 16:18:06 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-13T20:52:26.075771"
+  },
+  "3532b1ad349f": {
+    "id": "3532b1ad349f",
+    "title": "Game-Ready Characters, Creatures & Environments",
+    "link": "https://gamedev.net/forums/topic/720157-game-ready-characters-creatures-environments",
+    "summary": "Hi everyone, I'm a 3D Game Artist specializing in high-quality, production-ready assets for real-time games. My expertise includes characters, creatures, props, and environments, with a strong emphasis on clean topology, optimization, and visual fidelity. I take on a limited number of commissions to ensure every project receives the attention and craftsmanship it deserves. I enjoy collaborating with developers who are passionate about creating memorable gaming experiences. If you're looking for a dependable 3D artist to bring your game or mod to life, feel free to send me a message with your project details. I'd be happy to see if we're …",
+    "published": "Mon, 13 Jul 2026 19:41:15 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-13T20:52:26.075810"
+  },
+  "56fa8970dfdd": {
+    "id": "56fa8970dfdd",
+    "title": "Destiny2 Glacier Grenade Re-Create",
+    "link": "https://realtimevfx.com/t/destiny2-glacier-grenade-re-create/31298",
+    "summary": "Using Blender and Unreal to remake the glacier grenade effect since it is the coolest looking ice in any game imo. Here are my meshes/pre-vis look in Blender. If anyone comes across this and has any advice to achieve the look, feel free to tell me. Anything from Niagara to normals to shader work. 3 posts - 1 participant Read full topic",
+    "published": "Mon, 13 Jul 2026 18:04:40 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-07-13T20:52:19.762894"
+  },
+  "f6208462ba3d": {
+    "id": "f6208462ba3d",
+    "title": "The Alters and Frostpunk developer 11 Bit Studios is laying off 20 employees",
+    "link": "https://www.gamedeveloper.com/business/the-alters-and-frostpunk-developer-11-bit-studios-is-laying-off-20-employees-",
+    "summary": "The studio said it has managed to mitigate the number of job cuts by transferring employees to other internal teams.",
+    "published": "Mon, 13 Jul 2026 15:27:53 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-13T20:52:28.018073"
+  },
+  "ca035eedb280": {
+    "id": "ca035eedb280",
+    "title": "Games Done Quick apologizes for partnering with Saudi-owned studio SNK",
+    "link": "https://www.gamedeveloper.com/business/games-done-quick-apologizes-for-partnering-with-saudi-owned-studio-snk",
+    "summary": "The speedrunning event cancelled a sponsored stream with SNK after community members sounded the alarm.",
+    "published": "Mon, 13 Jul 2026 14:39:33 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-13T20:52:28.018094"
+  },
+  "529069b74b8c": {
+    "id": "529069b74b8c",
+    "title": "'A kick in the teeth:' Game workers protest alleged misconduct at MindsEye developer Build A Rocket Boy",
+    "link": "https://www.gamedeveloper.com/business/-a-kick-in-the-teeth-game-workers-protest-alleged-misconduct-at-mindseye-developer-build-a-rocket-boy",
+    "summary": "'Whilst the goingson at BARB sound extreme, game workers know that shocking treatment from bosses is rife across the sector.'",
+    "published": "Mon, 13 Jul 2026 11:06:05 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-13T20:52:28.018107"
   }
 }
