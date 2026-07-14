@@ -8918,5 +8918,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-13T20:52:28.018107"
+  },
+  "aaca2cf3d182": {
+    "id": "aaca2cf3d182",
+    "title": "5 years ago I was asking this forum how to make sword slash trails in Unity. Now I built a tool for it — and I'd love your feedback",
+    "link": "https://realtimevfx.com/t/5-years-ago-i-was-asking-this-forum-how-to-make-sword-slash-trails-in-unity-now-i-built-a-tool-for-it-and-id-love-your-feedback/31306",
+    "summary": "I haven’t posted here in a while, but some of my last posts from years ago were actually about the exact problem of creating good sword slash trails in Unity. Which makes me especially happy to come back and post this here. For example, here’s me 5 years ago trying to figure out this exact problem: Help with Unity Trails/Ribbons - #2 by Revulpes I also remember reading this discussion while wondering why there wasn’t a more straightforward solution for this: [SOLVED] Unity Trail Renderer Issue. :( Fast forward five years, and I’ve now spent the last few months building SlashForge: A combat trail creator for Unity designed to make it easy to create, customize and reuse melee slash trails. But I need your help once more. The first version is now live on the Unity Asset Store. I tried to make it approachable enough that a game developer can quickly pick an existing trail and customize it to fit their game, while still giving vfx and technical artists deeper control through custom shaders and useful mesh data. Right now, for example: You can use custom materials/shaders The procedural mesh exposes useful data through vertex colors and UV channels for custom shader workflows Stretched UVs(UV0) Distance-Based UVs that stay in place (UV1) Segment lifetime(vertexColor.R) Whole strip lifetime(vertexColor.G) Strip ending/fade-out(vertexColor.B)) There’s optional Bezier smoothing between samples, which helps smoothen the angular/octagonal shapes you can get from fast movement or lower frame rates But I really want to push the technical-art side further, and that’s where I’d especially love feedback from this community. - YouTube I’m really curious to hear out from you, what would make this extremely useful for a VFX Artist, and how have you been solving slash trails nowadays? A few things I’m especially curious about: Does the workflow look intuitive or confusing? Would something like this actually solve any problems in your own workflow or would you initially think it’s more for non-TAs? What else would you want from a tool like this? What deeper controls or features would make it significantly more useful to you? Are there any obvious technical-art workflows or edge cases that I’m currently missing? I’d also really appreciate feedback on the Asset Store page itself. Unity Asset Store SlashForge - Combat Trail Creator | VFX Shaders | Unity Asset Store Add depth to your next project with SlashForge - Combat Trail Creator from Evernull Tools. Find this &amp; more VFX Shaders on the Unity Asset Store. Does the presentation leave any important questions unanswered? Is anything unclear or missing for someone who might actually consider using it? I built this on my own, so I’m especially looking for things I might be blind to at this point. Also tell me what you like about it as well. I can handle a little emotional support 1 post - 1 participant Read full topic",
+    "published": "Tue, 14 Jul 2026 15:25:27 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-07-14T20:53:50.065084"
+  },
+  "26c41406365d": {
+    "id": "26c41406365d",
+    "title": "Assassin's Creed Black Flag Resynced crosses 2 million in sales as studio strikes over proposed layoffs",
+    "link": "https://www.gamedeveloper.com/business/assassin-s-creed-black-flag-topped-2m-sales-on-its-first-day",
+    "summary": "Ubisoft sold over 2 million copies of Assassin's Creed Black Flag Resynced in 24 hours, all while its Barcelona studio striking over the proposed layoffs of 51 employees.",
+    "published": "Tue, 14 Jul 2026 19:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-14T20:53:57.952000"
+  },
+  "f00355563ee7": {
+    "id": "f00355563ee7",
+    "title": "Paramount confirms Mike Zaimont is employed by Avatar Legends dev",
+    "link": "https://www.gamedeveloper.com/business/paramount-confirms-mike-zaimont-previously-accused-of-sexual-harassment-is-employed-by-avatar-legends-dev",
+    "summary": "Zaimont 'holds a position as an individual developer' at Gameplay Group International. He was previously accused of sexual harassment during his time as CEO of Lab Zero Games.",
+    "published": "Tue, 14 Jul 2026 18:41:36 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-14T20:53:57.952025"
+  },
+  "df7ddb571b67": {
+    "id": "df7ddb571b67",
+    "title": "Compulsion Games posts call for business partners after Xbox spinoff",
+    "link": "https://www.gamedeveloper.com/business/compulsion-games-is-seeking-partners-after-xbox-spin-off",
+    "summary": "'We invite partners to leverage the talent and creativity of the award-winning team behind South of Midnight.'",
+    "published": "Tue, 14 Jul 2026 18:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-14T20:53:57.952036"
+  },
+  "7dc9c00be17e": {
+    "id": "7dc9c00be17e",
+    "title": "Studio founded by former Star Wars: Galaxy of Heroes GM lays off staff",
+    "link": "https://www.gamedeveloper.com/business/ex-star-wars-galaxy-of-heroes-gm-studio-lays-off-staff",
+    "summary": "Azra Games is 'reducing the size of its team' two years after raising $42 million in funding—and before it's even launched its debut game UnGodly.",
+    "published": "Tue, 14 Jul 2026 17:18:41 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-14T20:53:57.952053"
+  },
+  "f184cd32686e": {
+    "id": "f184cd32686e",
+    "title": "Spin Master lays off Paw Patrol: The Game devs two days after launch",
+    "link": "https://www.gamedeveloper.com/mobile/spin-master-lays-off-paw-patrol-the-game-devs-two-days-after-launch",
+    "summary": "Spin Master says Toronto-based Sago Mini Team will take over Originator Inc's development duties.",
+    "published": "Tue, 14 Jul 2026 14:02:12 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-14T20:53:57.952064"
   }
 }
