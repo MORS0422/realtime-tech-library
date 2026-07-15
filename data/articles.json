@@ -8998,5 +8998,105 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-15T09:55:52.770184"
+  },
+  "ea38c0f9abad": {
+    "id": "ea38c0f9abad",
+    "title": "Google open-sources GNM Head, its parametric human head model",
+    "link": "https://www.cgchannel.com/2026/07/google-open-sources-gnm-head-its-parametric-human-head-model/",
+    "summary": "Parametric model based on real-world scan data generates realistic 3D heads and facial expressions. Free Blender add-on available.",
+    "published": "Wed, 15 Jul 2026 10:30:30 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-15T20:53:15.848252"
+  },
+  "eb0605235d45": {
+    "id": "eb0605235d45",
+    "title": "Blender 5.2 LTS is here: discover its 5 key features",
+    "link": "https://www.cgchannel.com/2026/07/blender-5-2-lts-is-here-discover-its-5-key-features/",
+    "summary": "Read our pick of the latest features in the open-source 3D software, from cloth physics in Geometry Nodes to a big change to Cycles.",
+    "published": "Tue, 14 Jul 2026 15:42:06 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-15T20:53:15.848276"
+  },
+  "281717b72e86": {
+    "id": "281717b72e86",
+    "title": "Open-source material authoring software Material Maker 1.7 is out",
+    "link": "https://www.cgchannel.com/2026/07/open-source-material-authoring-software-material-maker-1-7-is-out/",
+    "summary": "Check out the new features in the free alternative to Substance 3D Designer, including a new Dynamic Sky Material. Now also on Steam.",
+    "published": "Tue, 14 Jul 2026 09:35:33 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-15T20:53:15.848290"
+  },
+  "31ce907c7dc4": {
+    "id": "31ce907c7dc4",
+    "title": "Esri releases CityEngine 2026",
+    "link": "https://www.cgchannel.com/2026/07/esri-releases-cityengine-2026/",
+    "summary": "Check out the new features in the procedural city generation software, including new tools for creating street layouts, and a Python 3 API.",
+    "published": "Mon, 13 Jul 2026 13:30:39 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-15T20:53:15.848303"
+  },
+  "b4a3cecc7e0a": {
+    "id": "b4a3cecc7e0a",
+    "title": "Abstract updates InstaLOD 2026",
+    "link": "https://www.cgchannel.com/2026/07/instalod-releases-instalod-2026/",
+    "summary": "Check out the new features in this powerful set of geometry optimization tools for games and VFX work. Free to indie artists.",
+    "published": "Mon, 13 Jul 2026 09:44:05 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-15T20:53:15.848314"
+  },
+  "2b0789e37548": {
+    "id": "2b0789e37548",
+    "title": "Former Epic Games VP appointed Saber Interactive's chief business officer",
+    "link": "https://www.gamedeveloper.com/business/former-epic-games-vp-appointed-saber-interactive-s-chief-business-officer",
+    "summary": "Steve Allison will oversee publishing, marketing, and revenue opportunities, reporting directly to CEO Matthew Karch.",
+    "published": "Wed, 15 Jul 2026 18:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-15T20:53:32.150955"
+  },
+  "a215fdef1734": {
+    "id": "a215fdef1734",
+    "title": "Dead Space co-creator Glen Schofield retires",
+    "link": "https://www.gamedeveloper.com/business/call-of-duty-co-director-glen-schofield-retires",
+    "summary": "Schofield had long tenures as manager of Dead Space maker Visceral Games as well as Call of Duty developer Sledgehammer Games.",
+    "published": "Wed, 15 Jul 2026 17:04:28 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-15T20:53:32.150978"
+  },
+  "904eae074281": {
+    "id": "904eae074281",
+    "title": "NYU opens incubator applications for New York City-area devs",
+    "link": "https://www.gamedeveloper.com/business/nyu-opens-incubator-applications-for-new-york-city-area-devs",
+    "summary": "The NYC Game Design Future Lab offers mentorship, workshop, and investor opportunities for Big Apple-based developers.",
+    "published": "Wed, 15 Jul 2026 15:32:52 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-15T20:53:32.150991"
+  },
+  "42f14673199f": {
+    "id": "42f14673199f",
+    "title": "UK union launches free resource to decode video game writing contracts",
+    "link": "https://www.gamedeveloper.com/production/uk-union-launches-free-resource-to-decode-video-game-writing-contracts",
+    "summary": "The Writers' Guild of Great Britain said it has witnessed an increase in poor practices around writing contracts in recent years.",
+    "published": "Wed, 15 Jul 2026 11:53:08 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-15T20:53:32.151003"
+  },
+  "621d1f24267a": {
+    "id": "621d1f24267a",
+    "title": "IWGB Game Workers union forms 'redundancy taskforce' to defend workers' rights",
+    "link": "https://www.gamedeveloper.com/business/iwgb-game-workers-union-forms-redundancy-taskforce-to-defend-workers-rights",
+    "summary": "'With training, solidarity and support, workers can stand up to bosses who use redundancy to cover for their own mismanagement and greed.'",
+    "published": "Wed, 15 Jul 2026 10:43:56 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-15T20:53:32.151037"
   }
 }
