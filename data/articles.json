@@ -8978,5 +8978,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-14T20:53:57.952064"
+  },
+  "29eb17e63b93": {
+    "id": "29eb17e63b93",
+    "title": "MatchKit is up. Here's what it is, and what it isn't.",
+    "link": "https://gamedev.net/forums/topic/720171-matchkit-is-up-heres-what-it-is-and-what-it-isnt",
+    "summary": "MatchKit started as my BSc thesis and then my MSc thesis. When I finished, it went into a repo and sat there. What it does It's a service. Players join a queue, MatchKit forms the teams, and you send the result back when the match ends. Ratings update, match history is written, and the next match the queue forms is a better one. Three calls. REST and Server-Sent Events, so any engine talks to it. What makes it different Most matchmakers balance two teams by comparing their mean rating. That works until it doesn't. MatchKit treats team formation as an …",
+    "published": "Wed, 15 Jul 2026 07:22:56 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-15T09:55:47.855586"
+  },
+  "782a63350b52": {
+    "id": "782a63350b52",
+    "title": "'The entire thing is going to fall apart:' Inside the latest round of mass layoffs at Xbox",
+    "link": "https://www.gamedeveloper.com/production/-good-work-is-not-going-to-save-your-job-at-this-company-laid-off-xbox-devs-condemn-microsoft",
+    "summary": "Multiple workers impacted by the latest job cuts at Xbox believe the decision will hamstring some studios.",
+    "published": "Wed, 15 Jul 2026 09:14:38 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-15T09:55:52.770184"
   }
 }
