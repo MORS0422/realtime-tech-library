@@ -9108,5 +9108,65 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-07-16T10:02:18.810871"
+  },
+  "df932d61e233": {
+    "id": "df932d61e233",
+    "title": "SideFX just released Houdini 22",
+    "link": "https://www.cgchannel.com/2026/07/sidefx-just-released-houdini-22/",
+    "summary": "Check out the latest features in Houdini, from a complete new 3D Gaussian Splatting toolset to major updates to KineFX and Copernicus.",
+    "published": "Thu, 16 Jul 2026 10:07:37 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-16T20:51:01.508004"
+  },
+  "6ffbe4cc63e7": {
+    "id": "6ffbe4cc63e7",
+    "title": "🎮 Building an AI Solver for a \"Simple\" Puzzle Game Was Much Harder Than Expected",
+    "link": "https://gamedev.net/blogs/entry/2298170-building-an-ai-solver-for-a-simple-puzzle-game-was-much-harder-than-expected",
+    "summary": "When most people look at Magic Sort or similar color sorting games, they assume they're straightforward. \"Just detect the colors and find the shortest path.\" That sounds simple... Until the game starts introducing mechanics like: ✅ Hidden tube segments ✅ Locked boxes ✅ Colored keys ✅ Curtain-covered tubes ✅ Tag tubes At that point it stops being a simple sorting puzzle and starts behaving more like a dynamic state machine. 🤔 The Biggest Challenge Wasn't the Solver Most discussions focus on search algorithms. In reality, the harder problem is understanding the board correctly before solving even begins. A modern puzzle …",
+    "published": "Thu, 16 Jul 2026 14:58:05 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-16T20:51:09.328887"
+  },
+  "20038d62b138": {
+    "id": "20038d62b138",
+    "title": "Unions take legal action against Microsoft for allegedly mishandling Xbox layoffs",
+    "link": "https://www.gamedeveloper.com/production/unions-take-legal-action-against-microsoft-for-allegedly-mishandling-xbox-layoffs",
+    "summary": "CWA Canada president Carmel Smyth claims the company 'unlawfully fired people without giving notice to or discussing it with the union.'",
+    "published": "Thu, 16 Jul 2026 16:10:27 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-16T20:51:12.966208"
+  },
+  "b48618215020": {
+    "id": "b48618215020",
+    "title": "'The goal of design is to efficiently communicate ideas'",
+    "link": "https://www.gamedeveloper.com/design/-the-goal-of-design-is-to-efficiently-communicate-ideas-",
+    "summary": "Revisiting Stone Librande's classic One Page Designs GDC talk, for a dose of the good stuff.",
+    "published": "Thu, 16 Jul 2026 15:35:52 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-16T20:51:12.966229"
+  },
+  "ff9566594f19": {
+    "id": "ff9566594f19",
+    "title": "ZeniMax Online Studios leadership included in Xbox mass layoffs",
+    "link": "https://www.gamedeveloper.com/business/zenimax-online-studios-leadership-is-part-of-the-379-laid-off-workers",
+    "summary": "The studio head, studio operations director, and studio game director join dozens of senior and lead positions cut by Xbox.",
+    "published": "Thu, 16 Jul 2026 15:35:13 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-16T20:51:12.966243"
+  },
+  "5ae25d86c996": {
+    "id": "5ae25d86c996",
+    "title": "Pokemon Go owner Scopely 'reorganizes' Stumble Guys team",
+    "link": "https://www.gamedeveloper.com/business/pokemon-go-owner-scopely-reorganizes-stumble-guys-team",
+    "summary": "The reorganization has affected a 'small number of employees.'",
+    "published": "Thu, 16 Jul 2026 14:40:27 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-16T20:51:12.966253"
   }
 }
