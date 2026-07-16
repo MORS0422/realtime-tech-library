@@ -9098,5 +9098,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-15T20:53:32.151037"
+  },
+  "39c9a9abdab6": {
+    "id": "39c9a9abdab6",
+    "title": "some new ideas",
+    "link": "https://gamedev.net/blogs/entry/2298168-some-new-ideas",
+    "summary": "Hey everyone! I wanted to share a quick update on my game project. I’ve been doing some serious brainstorming and have thought of a new way on how heroes can now interact with the map. but first a quick recap of lore 1. The Lore: Where It All Began To recap, the story centers around Aeterna Industries and a massive disaster. When a rebel group blew up the underground transport line (the Arteria ), two experimental serums mixed. This triggered \"The Unsyncing\" —a cataclysm where past, present, and future exist all at once. The survivors only made it because their …",
+    "published": "Thu, 16 Jul 2026 00:04:23 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-16T10:02:18.810871"
   }
 }
