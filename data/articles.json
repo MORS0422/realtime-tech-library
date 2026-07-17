@@ -9168,5 +9168,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-16T20:51:12.966253"
+  },
+  "ac024849553a": {
+    "id": "ac024849553a",
+    "title": "Khronos Group sponsors free glTF importer/exporter for 3ds Max",
+    "link": "https://www.cgchannel.com/2026/07/khronos-group-sponsors-free-gltf-importerexporter-for-3ds-max/",
+    "summary": "New open-source add-ons provide a long-overdue free way to import glTF files into 3ds Max, backed by the creator of the format.",
+    "published": "Fri, 17 Jul 2026 04:30:13 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-17T09:51:14.424611"
+  },
+  "f154814f5b86": {
+    "id": "f154814f5b86",
+    "title": "Devlog 2026-07-17",
+    "link": "https://gamedev.net/blogs/entry/2298173-devlog-2026-07-17",
+    "summary": "Happy Friday (Again!? Yes, again.) YOU&amp;!'s launch has been so-so compared to our other releases, as expected given the heavy subject matter. Taking into account that we have close to zero visibility from the jam, it's doing alright for a game we aren't actively promoting. The rating is currently at 4.6/5 across several votes, which is a welcome validation. We'll continue adding the content that didn't make the submission deadline at a slower pace. Franco has finished up the beach background for the one missing scene, and I took the liberty of adding one of Lochem's sprites from a 'sexy …",
+    "published": "Fri, 17 Jul 2026 08:03:16 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-17T09:51:21.987063"
+  },
+  "fb31d47783f2": {
+    "id": "fb31d47783f2",
+    "title": "Looking for people interested in building an MMO-lite experience for Oblivion Remastered",
+    "link": "https://gamedev.net/forums/topic/720179-looking-for-people-interested-in-building-an-mmo-lite-experience-for-oblivion-remastered",
+    "summary": "Hi everyone, Our vision is to build a persistent MMO-style multiplayer experience for Oblivion Remastered. The technical foundation for this project would be ReadyM's OblivionMP framework , which already makes multiplayer in Oblivion Remastered possible. Rather than reinventing the wheel, the idea is to build systems and content on top of that foundation (It is very similar to FiveM in GTA 5). Instead of creating a traditional RP server, we'd like to create a world that feels closer to a modern online RPG while preserving everything that makes Oblivion special. Players should be able to explore Cyrodiil together, tackle challenging …",
+    "published": "Fri, 17 Jul 2026 09:23:36 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-17T09:51:21.987101"
   }
 }
