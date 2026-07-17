@@ -9198,5 +9198,45 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-07-17T09:51:21.987101"
+  },
+  "b7df147f254a": {
+    "id": "b7df147f254a",
+    "title": "Steam hardware survey reveals a SHOCKING TRUTH hidden in plain sight",
+    "link": "https://gamedev.net/forums/topic/720177-steam-hardware-survey-reveals-a-shocking-truth-hidden-in-plain-sight",
+    "summary": "I've been meaning to go through the Steam hardware survey data by hand for a while, and I finally have results for you. I categorized the listed cards as follows: Old (31%): GEForce 10 series or earlier, or equivalent AMD or Intel GPUs. Modern mid-range (43%): GEForce 2000 series, or any GEForce card ending in \"50\" or \"60\", or equivalent GPUs. High-end (26%): GEForce 3070 and above, or equivalent GPUs. Observations: There's a lot of holdouts using GPUs that are 10+ years old. Most of the people who have upgraded since then have been pushed into the mid-range, where they …",
+    "published": "Fri, 17 Jul 2026 18:00:35 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-17T20:46:47.720646"
+  },
+  "a523f3bc55fe": {
+    "id": "a523f3bc55fe",
+    "title": "ZA/UM Studios to lay off up to 32 workers two months after releasing Zero Parades: For Dead Spies",
+    "link": "https://www.gamedeveloper.com/business/za-um-studios-to-lay-off-up-to-32-workers-two-months-after-releasing-zero-parades-for-dead-spies",
+    "summary": "'This changes the shape of ZA/UM, but not its purpose. Our artistic standards remain unchange; we will persist.'",
+    "published": "Fri, 17 Jul 2026 18:36:58 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-17T20:46:49.932869"
+  },
+  "00b313688164": {
+    "id": "00b313688164",
+    "title": "Todd Howard says 'the timing is right' for a collaboration with Obsidian",
+    "link": "https://www.gamedeveloper.com/business/todd-howard-says-the-timing-is-right-for-a-collaboration-with-obsidian",
+    "summary": "Fallout franchise director Todd Howard confirms a new Fallout game is in the works with sister studio Obsidian Entertainment.",
+    "published": "Fri, 17 Jul 2026 16:25:56 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-17T20:46:49.932893"
+  },
+  "88fb51a31fdb": {
+    "id": "88fb51a31fdb",
+    "title": "Labor unions challenge Xbox, GameStop CEO says physical game sales are 'irrelevant,' and Glen Schofield retires - Patch Notes #61",
+    "link": "https://www.gamedeveloper.com/business/labor-unions-challenge-xbox-gamestop-ceo-says-physical-game-sales-are-irrelevant-and-glen-schofield-retires-patch-notes-61",
+    "summary": "Plus: A free 'good practice guide' for video game writing contracts in the UK.",
+    "published": "Fri, 17 Jul 2026 11:31:46 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-17T20:46:49.932906"
   }
 }
