@@ -9238,5 +9238,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-17T20:46:49.932906"
+  },
+  "450e084a3657": {
+    "id": "450e084a3657",
+    "title": "[WIP] Chroniques IA — An AI Game Master RPG platform for persistent campaigns and modular rules, looking for honest feedback",
+    "link": "https://gamedev.net/forums/topic/720173-wip-chroniques-ia-an-ai-game-master-rpg-platform-for-persistent-campaigns-and-modular-rules-looking-for-honest-feedback",
+    "summary": "Hello everyone, I am currently developing Chroniques IA , a web-based role-playing platform designed around an AI Game Master, persistent campaigns, modular game systems, and structured long-term memory. The project is still at a very early stage — closer to an alpha of an alpha than to a finished product. I am also a beginner developer, and I use AI tools to help me learn, design, code, test, document, and gradually improve the application. Why I started this project I regularly play role-playing campaigns with AI Game Masters, but I often encounter the same problem: each platform includes a few …",
+    "published": "Sat, 18 Jul 2026 06:22:06 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-18T09:18:12.840316"
   }
 }
