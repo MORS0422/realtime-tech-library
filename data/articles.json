@@ -9258,5 +9258,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-07-18T20:39:57.492671"
+  },
+  "3ee0b779faa7": {
+    "id": "3ee0b779faa7",
+    "title": "Game Developers: Have You Ever Been Treated Like a Corporate Cybersecurity Risk?",
+    "link": "https://gamedev.net/forums/topic/720187-game-developers-have-you-ever-been-treated-like-a-corporate-cybersecurity-risk",
+    "summary": "This isn't an attack on cybersecurity. Every company needs good security. I'm genuinely curious whether other game developers have had similar experiences. I sometimes wonder if many corporate cybersecurity policies are written with office software, web applications, and enterprise development in mind, without considering how different game development really is. Game and simulation development is a very different discipline. I've known simulation and game developers who went through intense vetting simply because they had legitimate development files, tools, SDKs, or assets that weren't on an approved list. Sometimes there wasn't even clear documentation explaining what was allowed or how to …",
+    "published": "Sun, 19 Jul 2026 06:11:49 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-19T09:47:05.775238"
   }
 }
