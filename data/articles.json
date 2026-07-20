@@ -9318,5 +9318,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-20T10:45:23.322212"
+  },
+  "27e9cbcff71f": {
+    "id": "27e9cbcff71f",
+    "title": "ArcBrush 1.5 is an interesting $49 node-based image editor",
+    "link": "https://www.cgchannel.com/2026/07/arcbrush-1-5-is-an-interesting-49-node-based-image-editor/",
+    "summary": "Inexpensive cross-platform Photoshop alternative gets new 32-bit pipeline, Crytomatte support and new compositing nodes.",
+    "published": "Mon, 20 Jul 2026 04:30:28 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-20T21:04:56.110232"
+  },
+  "e5957c5066d2": {
+    "id": "e5957c5066d2",
+    "title": "Dusk Light",
+    "link": "https://gamedev.net/blogs/entry/2298184-dusk-light",
+    "summary": "Lumen is a real-time system for dynamic lighting and reflections. It reacts to movement and time-of-day changes and works well with Nanite (a technology for highly detailed models). Lumen handles indirect and diffuse light, as well as highlights - direct light and shadows are computed by a separate real-time system. We tune the quality of Lumen and shadows through quality levels and global scene settings to balance image quality and performance. This approach delivers a realistic atmosphere without long light baking and extra files. For perfectly mirror-like surfaces and clear glass, we use dedicated reflection methods. Lumen and Nanite are …",
+    "published": "Mon, 20 Jul 2026 11:39:15 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-07-20T21:05:06.072821"
+  },
+  "9698d5f57237": {
+    "id": "9698d5f57237",
+    "title": "mirinori — Your Game Vision, Brought to Life Through Music",
+    "link": "https://gamedev.net/forums/topic/720110-mirinori-your-game-vision-brought-to-life-through-music",
+    "summary": "Hi, I'm asrai , founder of mirinori , a small game audio studio based in South Korea. I create original music for games, from quiet exploration themes to emotional story moments and cinematic boss battles. My goal isn't simply to write music that sounds good—it's to create something that feels like it truly belongs in your game. Here's what I can help with: Original BGM Cinematic music for trailers and cutscenes Seamlessly looping ambience Music tailored to your game's atmosphere and identity I enjoy working closely with developers, sharing ideas early, refining things together, and making sure the music grows …",
+    "published": "Mon, 20 Jul 2026 13:53:14 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-20T21:05:06.072859"
+  },
+  "523e729ae9c8": {
+    "id": "523e729ae9c8",
+    "title": "Netflix says its critically-panned FIFA World Cup video game was a 'top tier' performer",
+    "link": "https://www.gamedeveloper.com/business/netflix-says-its-critically-panned-fifa-world-cup-video-game-was-a-big-success",
+    "summary": "The streamer said the soccer sim delivered one of its 'most successful cloud game debuts' after launching on June 11.",
+    "published": "Mon, 20 Jul 2026 14:35:23 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-20T21:05:08.817572"
   }
 }
