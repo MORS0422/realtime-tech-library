@@ -9268,5 +9268,55 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-07-19T09:47:05.775238"
+  },
+  "aaf337753f4d": {
+    "id": "aaf337753f4d",
+    "title": "3Dflow releases 3DF Zephyr 9.0 with 3D Gaussian Splatting",
+    "link": "https://www.cgchannel.com/2026/07/3dflow-releases-3df-zephyr-9-0-with-3d-gaussian-splatting/",
+    "summary": "Photogrammetry software now generates 3D Gaussian Splats from source images or video, as well as point clouds and 3D meshes.",
+    "published": "Fri, 17 Jul 2026 15:14:37 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-20T10:45:12.524250"
+  },
+  "bb694d78f62a": {
+    "id": "bb694d78f62a",
+    "title": "The Character DNA MetaHuman add-on for Blender is now free",
+    "link": "https://www.cgchannel.com/2026/07/the-character-dna-metahuman-add-on-for-blender-is-now-free/",
+    "summary": "Base edition of Poly Hammer's Blender add-on for importing and exporting MetaHuman .dna files is now a free download.",
+    "published": "Fri, 17 Jul 2026 10:11:31 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-20T10:45:12.524273"
+  },
+  "f9549208c777": {
+    "id": "f9549208c777",
+    "title": "I'm trying to learn how to make games",
+    "link": "https://gamedev.net/blogs/entry/2298181-im-trying-to-learn-how-to-make-games",
+    "summary": "(How do I code?) My newbie journey of trying to make a game on my bad pc is starting and I'm gonna suck at this dude (I need a team)",
+    "published": "Mon, 20 Jul 2026 03:40:55 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-20T10:45:21.088466"
+  },
+  "be0a38104b9e": {
+    "id": "be0a38104b9e",
+    "title": "Realm of Echoes — real-time browser MMORPG, looking for onboarding and combat feedback",
+    "link": "https://gamedev.net/forums/topic/720182-realm-of-echoes-real-time-browser-mmorpg-looking-for-onboarding-and-combat-feedback",
+    "summary": "Hi GameDev.net — I’m one of the developers of Realm of Echoes, a real-time 3D fantasy MMORPG that runs directly in the browser. Play the current build (no download; guest access): https://realm-of-echoes-auth.realmofechoes.workers.dev/ GameDev.net project page: https://gamedev.net/projects/204-realm-of-echoes/ You can choose a Warrior or Mage and enter a shared world with real-time combat, other online heroes, chat, bosses, loot, equipment, abilities, parties, trading, guilds, and professions. The current campaign includes eight onboarding quests plus 180 regional quests across nine regions, with progression toward level 30. The browser client uses Three.js 0.185.0. A TypeScript Cloudflare Worker serves the client and authentication surface; the …",
+    "published": "Mon, 20 Jul 2026 09:13:05 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-20T10:45:21.088508"
+  },
+  "d73e8aab79de": {
+    "id": "d73e8aab79de",
+    "title": "Two thirds of remaining Doom (2016) devs laid off during latest round of Xbox cuts",
+    "link": "https://www.gamedeveloper.com/production/two-thirds-of-doom-2016-development-team-laid-off-during-latest-round-of-xbox-cuts",
+    "summary": "'I've been a gamer my whole life. If you cut a stat in half everyone would call that nerfed.'",
+    "published": "Mon, 20 Jul 2026 09:56:02 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-20T10:45:23.322212"
   }
 }
