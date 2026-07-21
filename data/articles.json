@@ -9398,5 +9398,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-21T10:20:34.061249"
+  },
+  "2b50921e3200": {
+    "id": "2b50921e3200",
+    "title": "Foundry releases new AI-powered SmartRoto add-on for Nuke",
+    "link": "https://www.cgchannel.com/2026/07/foundry-releases-new-ai-powered-smartroto-add-on-for-nuke/",
+    "summary": "New AI-based plugin propagates roto splines across a shot, speeding up roto 'up to 4x'. See how it differs from AI matte-generation tools.",
+    "published": "Tue, 21 Jul 2026 17:07:04 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-21T21:00:26.537099"
+  },
+  "d5c939f3961b": {
+    "id": "d5c939f3961b",
+    "title": "Chaos releases V-Ray 7.4 for Blender",
+    "link": "https://www.cgchannel.com/2026/07/chaos-releases-v-ray-7-4-for-blender/",
+    "summary": "New features in the Blender edition of the renderer include a quick caustics system, UDIM support, and conversion of Cycles to V-Ray lights.",
+    "published": "Tue, 21 Jul 2026 10:42:34 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-21T21:00:26.537123"
+  },
+  "fd310671f98d": {
+    "id": "fd310671f98d",
+    "title": "CRM64Pro GDK v0.19.0 Particle effects, 2D lighting and Universal VTT maps",
+    "link": "https://gamedev.net/blogs/entry/2298191-crm64pro-gdk-v0190-particle-effects-2d-lighting-and-universal-vtt-maps",
+    "summary": "CRM64Pro GDK v0.19.0 is now available, introducing the first public Particle module, a lightweight 2D lighting pipeline, and complete EditorC64 workflows for authoring effects and importing Universal VTT maps. This release focuses on dynamic visuals that remain practical for 2D games. Particle effects can be created from built-in presets or designed from a blank emitter, previewed in real time, and stored directly in CDC resources. The new lighting API adds ambient light, soft point lights, spotlights, and immediate occluders without requiring a separate scene renderer. Alongside these additions, v0.19.0 improves image-target rendering, software drawing performance, Scene reliability, validation, and renderer-state …",
+    "published": "Tue, 21 Jul 2026 19:21:50 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-21T21:00:34.194542"
+  },
+  "9b58ad913702": {
+    "id": "9b58ad913702",
+    "title": "A game with no heads up display elements ?",
+    "link": "https://gamedev.net/forums/topic/720192-a-game-with-no-heads-up-display-elements",
+    "summary": "Hello. I am making an FPS game and was wondering if not having a HUD is a bad idea. I was thinking about dead space: the HP of the player is displayed on the character's armor, the weapon ammo on a hologram which activates when the player is focusing to shoot, and the interaction with the vending and crafting systems comes up as a hologram as well. I think some Metro games display stats on the character's watch in first person. And of course fallout which has most of its inventory and quest system displayed on the pip boy. There …",
+    "published": "Tue, 21 Jul 2026 18:30:48 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-21T21:00:34.194580"
+  },
+  "13604cf7783a": {
+    "id": "13604cf7783a",
+    "title": "Former Wreckreation team starts up new studio working on sequel",
+    "link": "https://www.gamedeveloper.com/business/former-wreckreation-team-starts-up-new-studio-working-on-sequel",
+    "summary": "&quot;The games we make don't really belong to us once they're out in the world. Players spend hundreds of hours with them. They notice things you've forgotten. They challenge your assumptions. And, if you listen, they make your games better.&quot;",
+    "published": "Tue, 21 Jul 2026 19:37:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-21T21:00:36.370222"
+  },
+  "f0ec24e10d94": {
+    "id": "f0ec24e10d94",
+    "title": "Pentiment director emphasizes the importance of RPG players not controlling everything",
+    "link": "https://www.gamedeveloper.com/design/pentiment-director-emphasizes-the-importance-of-rpg-players-not-controlling-everything",
+    "summary": "Pentiment director Josh Sawyer argues in favor of going against the idea of 'I'm the protagonist, I can literally do anything' in RPGs.",
+    "published": "Tue, 21 Jul 2026 19:00:44 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-21T21:00:36.370247"
+  },
+  "eaa26389fe4f": {
+    "id": "eaa26389fe4f",
+    "title": "What developers can learn from this generation of game criticism",
+    "link": "https://www.gamedeveloper.com/design/what-developers-can-learn-from-this-generation-of-games-criticism",
+    "summary": "Hour-long video essays analyzing game design are garnering millions of views. What can developers learn and utilize from the format?",
+    "published": "Tue, 21 Jul 2026 17:05:01 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-21T21:00:36.370260"
+  },
+  "32d82d6e8383": {
+    "id": "32d82d6e8383",
+    "title": "Report: Splitgate dev 1047 games lays off staff",
+    "link": "https://www.gamedeveloper.com/business/report-splitgate-dev-1047-games-lays-off-staff",
+    "summary": "The reported layoffs come less than a month since the launch of Titanfall-inspired shooter Empulse.",
+    "published": "Tue, 21 Jul 2026 14:01:04 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-21T21:00:36.370272"
   }
 }
