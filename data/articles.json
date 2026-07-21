@@ -9358,5 +9358,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-20T21:05:08.817572"
+  },
+  "2a9c5d6f76db": {
+    "id": "2a9c5d6f76db",
+    "title": "Basic Game Engine Design - Easy for Everyone, Let us Simplify Here",
+    "link": "https://gamedev.net/forums/topic/720170-basic-game-engine-design-easy-for-everyone-let-us-simplify-here",
+    "summary": "Greetings Everyone, I went back to the basics. My game engine is not quite as simple as the one I am discussing here. It is not as much an engine as much as a library. But we have to get past that, as you can still make an editor, with tools, and progress from there. The basic architecture is as follows. Layered Structure Core Domain System Then you will have the namespaces global, and project. Everything including global and project would be in a namespace called engine. Each layer would be encapsulated and managed structurally by classed called the same …",
+    "published": "Tue, 21 Jul 2026 08:10:05 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-21T10:20:31.999528"
+  },
+  "e0c11e4a258f": {
+    "id": "e0c11e4a258f",
+    "title": "Nintendo says consumers are not legally entitled to tariff refunds",
+    "link": "https://www.gamedeveloper.com/business/nintendo-says-consumers-are-not-legally-entitled-to-tariff-rebate",
+    "summary": "'Nintendo or one of its retailers set a price for each product, and consumers decided whether that price was worth paying.'",
+    "published": "Tue, 21 Jul 2026 09:31:02 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-21T10:20:34.061212"
+  },
+  "b632fd2a507c": {
+    "id": "b632fd2a507c",
+    "title": "Edge of Memories developer Midgar Studio is being liquidated",
+    "link": "https://www.gamedeveloper.com/business/edge-of-memories-developer-midgar-studio-is-being-liquidated",
+    "summary": "The French studio is owned by Nacon, which filed for insolvency earlier this year.",
+    "published": "Tue, 21 Jul 2026 08:43:06 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-21T10:20:34.061234"
+  },
+  "558a0b44a092": {
+    "id": "558a0b44a092",
+    "title": "Unity unveils Unity 7 roadmap with update path that won't break your build",
+    "link": "https://www.gamedeveloper.com/programming/unity-unveils-unity-7-roadmap-with-update-path-that-won-t-break-your-build",
+    "summary": "Unity 7 will operate on top of the same architecture powering Unity 6, while still offering improvements and new tools for developers.",
+    "published": "Tue, 21 Jul 2026 02:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-21T10:20:34.061249"
   }
 }
