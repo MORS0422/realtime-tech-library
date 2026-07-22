@@ -9478,5 +9478,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-21T21:00:36.370272"
+  },
+  "657acba22ad5": {
+    "id": "657acba22ad5",
+    "title": "Making a chat bot play video games.",
+    "link": "https://gamedev.net/forums/topic/720139-making-a-chat-bot-play-video-games",
+    "summary": "This thread is about exploring the idea of using existing human language processing algorithms to build a universal video game AI player (an AI player that can play any type of game). Lets take a particular type of game: RTS. The starting point is that I think you can have laws expressed in human language. You can have two types of laws, general laws and special laws. General laws will tell our AI player how to play a game of a certain genre (in our case it's an RTS) special laws will teach the AI player about the particularities of …",
+    "published": "Wed, 22 Jul 2026 08:26:04 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-22T10:19:52.750118"
+  },
+  "46d8d679d247": {
+    "id": "46d8d679d247",
+    "title": "Alpha Dog Games returns to independence two years after being shuttered by Xbox",
+    "link": "https://www.gamedeveloper.com/business/alpha-dog-games-returns-to-independence-two-years-after-being-shuttered-by-xbox",
+    "summary": "'We're incredibly excited to have the name we put so much effort and pride into building back in our hands.'",
+    "published": "Wed, 22 Jul 2026 09:11:05 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-22T10:19:54.606045"
   }
 }
