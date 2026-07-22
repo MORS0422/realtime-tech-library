@@ -9498,5 +9498,95 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-22T10:19:54.606045"
+  },
+  "b26f7a908665": {
+    "id": "b26f7a908665",
+    "title": "Majutori development worklog (example)",
+    "link": "https://gamedev.net/blogs/entry/2298193-majutori-development-worklog-example",
+    "summary": "The following is a copy of our most current worklog. This example will be left here for anyone interested in the project or anyone interested in observing my workflow and developmental descision-making. This was partially generated using A.I. assistance - overall direction of development and game planning was made strictly by the human brain and mind, and this worklog and the accompanying development guide (only viewable by development staff) would not have been possible without elaborate creative foundations and over 20 years of experience in the genre. This worklog is subject to be erased from this project to preserve privacy …",
+    "published": "Wed, 22 Jul 2026 17:49:16 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-22T20:58:40.729935"
+  },
+  "af890e677ca2": {
+    "id": "af890e677ca2",
+    "title": "Feedback Requested: Peaceful Alpine Megacity Builder / Exploration Game",
+    "link": "https://gamedev.net/forums/topic/720197-feedback-requested-peaceful-alpine-megacity-builder-exploration-game",
+    "summary": "Hi everyone, I'd appreciate feedback on the design , rather than the technical feasibility. The core idea is a post-scarcity future where humanity lives in spectacular mountain cities after much of the lowlands became difficult to inhabit. Key mechanics: Huge walkable mountain megacity. Rivers, waterfalls and forests integrated into the city. No money or mandatory jobs. Players build homes, treehouses or skyscrapers over time. Construction happens gradually rather than instantly. Public transport connects the city. Focus is exploration, creativity and social interaction rather than combat or survival. The goal is to create a world players genuinely wish they could live …",
+    "published": "Wed, 22 Jul 2026 20:26:34 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-22T20:58:40.729979"
+  },
+  "e7c3f53b00c5": {
+    "id": "e7c3f53b00c5",
+    "title": "Graphic Programmer (Shader/VFX)🎮",
+    "link": "https://realtimevfx.com/t/graphic-programmer-shader-vfx/31339",
+    "summary": "[HIRING] Hey everyone We’re looking for a Graphic Programmer to join a Ukrainian hyper-casual mobile game studio, 300M+ downloads. Product — hyper-casual mobile games where every visual detail matters — satisfying effects, smooth animations, and shaders that make players think “wait, how did they do that?” What you’ll be doing: • Writing shaders and developing new graphics technologies • Creating satisfying visual effects and animations • Optimizing unconventional graphics for mobile devices • Working on hyper-casual titles with potential expansion to PC What we’re looking for: • Experience with shaders, rendering, and animations • Strong math: trigonometry, vector math, matrices • Understanding of tweens/easings • Creative and artistic eye — style, color, composition • Unity/HLSL (Unreal/GLSL also fine), understanding of mobile GPU Fully remote, flexible schedule Small team, no bureaucracy, no rigid deadlines Open to Ukrainian and Belarusian candidates If it sounds interesting, feel free to reply here or DM me. Happy to share more details Don’t forget to send me your portfolio 1 post - 1 participant Read full topic",
+    "published": "Wed, 22 Jul 2026 12:43:48 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-07-22T20:58:32.409190"
+  },
+  "cbfa5bcfee64": {
+    "id": "cbfa5bcfee64",
+    "title": "System that allows to make slash effects in 10 seconds",
+    "link": "https://realtimevfx.com/t/system-that-allows-to-make-slash-effects-in-10-seconds/31336",
+    "summary": "Hi, I created this system to make sword slashes creation very easy. While I was spending a year building this system, two similar tools from other developers appeared. But mine is better and more polished - YouTube Soon will be available here: https://assetstore.unity.com/packages/slug/390582?aid=1100lpot2 Epic Sword Slash Effects System is a procedural solution for creating smooth sword, weapon, and slash trails in Unity. It supports multiple material layers, reusable presets, custom UVs, low-FPS curve smoothing, alpha fading, particle effects, and shader-based dissolve. Multiple weapons can be controlled by one Animation Event component, with optional continuous operation without an Animator. Dissolve starts from the value assigned in the material and uses MaterialPropertyBlock, allowing multiple trails to safely share one material. The pack includes 23 presets weapon-following sword slash effects designed for RPGs, action games, fantasy battles, arena combat and stylized character abilities. These effects are made to follow sword movement and help make attacks feel more powerful, responsive and polished. These trails can be added to anything, not just characters with an animator! Features: Weapon-following slash effects Great for melee combat and fantasy abilities Suitable for RPGs, action games, hack-and-slash games and arena battles High-quality real-time visual effects Easy to use and customize Works well for player attacks, enemy attacks, skills and special moves Supports standard and custom materials This asset is designed for developers who want to quickly add polished sword combat effects to their Unity projects. 1 post - 1 participant Read full topic",
+    "published": "Wed, 22 Jul 2026 10:35:57 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-07-22T20:58:32.409270"
+  },
+  "fdbd149225e1": {
+    "id": "fdbd149225e1",
+    "title": "Microsoft launches Xbox backward compatibility for PC",
+    "link": "https://www.gamedeveloper.com/business/microsoft-launches-xbox-backward-compatibility-for-pc",
+    "summary": "After a month of brutal news, Microsoft is launching Xbox backward compatibility on PC.",
+    "published": "Wed, 22 Jul 2026 15:57:53 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-22T20:58:43.715472"
+  },
+  "4c9a7f9ec9fc": {
+    "id": "4c9a7f9ec9fc",
+    "title": "A Kinect game that debuted in 2013 has been revived in the year of our lord 2026",
+    "link": "https://www.gamedeveloper.com/business/a-kinect-game-that-debuted-in-2013-has-been-revived-in-the-year-of-our-lord-2026",
+    "summary": "Freefall Racers is returning to screens after 13 years via Nex Playground.",
+    "published": "Wed, 22 Jul 2026 15:31:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-22T20:58:43.715492"
+  },
+  "9ddbc87787f7": {
+    "id": "9ddbc87787f7",
+    "title": "Splatoon Raiders started off as a tower defense game",
+    "link": "https://www.gamedeveloper.com/design/splatoon-raiders-started-as-a-tower-defense-game-but-its-splatoon-ness-got-lost",
+    "summary": "Director Yoshihiko Ito shares insight about the importance of maintaining the series' key strengths when prototyping new ideas.",
+    "published": "Wed, 22 Jul 2026 14:27:14 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-22T20:58:43.715505"
+  },
+  "c5692cf774bf": {
+    "id": "c5692cf774bf",
+    "title": "'Human Fall Flat 2 is cancelled. We are making Human Fall Flat 3:' No Brakes Games founder looks back on a defining decade",
+    "link": "https://www.gamedeveloper.com/production/-human-fall-flat-2-is-cancelled-we-are-making-human-fall-flat-3-no-brakes-games-founder-looks-back-on-a-defining-decade",
+    "summary": "Tomas Sakalauskas turned a passion project into a global franchise that has topped 60 million players. But what did they learn along the way?",
+    "published": "Wed, 22 Jul 2026 14:20:33 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-22T20:58:43.715517"
+  },
+  "b71c4c731ebe": {
+    "id": "b71c4c731ebe",
+    "title": "Hasbro records $56M write down after scrapping 'several' video games",
+    "link": "https://www.gamedeveloper.com/business/hasbro-records-56m-write-down-after-scrapping-several-video-games",
+    "summary": "The company said it is doubling down on projects with 'franchise potential and meaningful opportunities beyond the initial game.'",
+    "published": "Wed, 22 Jul 2026 10:54:10 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-22T20:58:43.715528"
   }
 }
