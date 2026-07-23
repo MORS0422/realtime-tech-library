@@ -9588,5 +9588,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-22T20:58:43.715528"
+  },
+  "53dc59b40de0": {
+    "id": "53dc59b40de0",
+    "title": "Autodesk releases 3ds Max 2026.2 with editable Gaussian Splats",
+    "link": "https://www.cgchannel.com/2026/07/autodesk-releases-3ds-max-2026-2-with-editable-gaussian-splats/",
+    "summary": "Sizeable update makes it possible to import, edit, relight and render 3DGS data inside the 3D software. Check out its other new features.",
+    "published": "Wed, 22 Jul 2026 15:49:23 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-23T10:14:20.453026"
+  },
+  "94cb82c197f5": {
+    "id": "94cb82c197f5",
+    "title": "Maya 2026.2 lets you train your own AI animation models",
+    "link": "https://www.cgchannel.com/2026/07/maya-2026-2-lets-you-train-your-own-ai-animation-models/",
+    "summary": "New 'Bring Your Own Data' feature lets studios train models for Maya's MotionMaker system using their own keyframe or mocap data.",
+    "published": "Wed, 22 Jul 2026 14:01:23 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-23T10:14:20.453049"
+  },
+  "77496c2f4223": {
+    "id": "77496c2f4223",
+    "title": "Sisir is a promising new free standalone hair grooming tool",
+    "link": "https://www.cgchannel.com/2026/07/sisir-is-a-promising-new-free-standalone-hair-grooming-tool/",
+    "summary": "Neat tool provides an interactive guide-based workflow for creating hair and fur grooms for use in apps like Blender, Maya and UE5.",
+    "published": "Wed, 22 Jul 2026 08:47:37 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-07-23T10:14:20.453064"
+  },
+  "95c6b1113a45": {
+    "id": "95c6b1113a45",
+    "title": "Artificial Intelligence Work in Progress",
+    "link": "https://gamedev.net/blogs/entry/2265538-artificial-intelligence-work-in-progress",
+    "summary": "I've got a broad production level puzzle I've been trying to figure out and I've never been sure if I've been working with all of the pieces. I'll try to explain the problem and my considerations. 1) I need to create AI for all of my characters and it needs to be good enough that it's convincing. 2) My approach has been to quickly write Finite State Machine scripts in C++. It has worked well enough. 3) During development, I change stuff in my game and I will be adding in new mechanics. 4) Every time I change something important, …",
+    "published": "Thu, 23 Jul 2026 05:27:54 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-23T10:14:26.864562"
+  },
+  "cfd00ae49e23": {
+    "id": "cfd00ae49e23",
+    "title": "✨Yo! Pixel artist here 👀",
+    "link": "https://gamedev.net/forums/topic/720204-yo-pixel-artist-here",
+    "summary": "I will draw and animate everything you need for your project, characters, backgrounds, objects, interface, etc. Ready to help out beginner game developers! I can fully handle map and character design to ease your workload and speed up your game development process Discord: d402 Portfolio: https://www.artstation.com/ahvassa",
+    "published": "Thu, 23 Jul 2026 07:00:19 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-23T10:14:26.864589"
   }
 }
