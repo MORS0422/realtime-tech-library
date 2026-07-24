@@ -9688,5 +9688,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-23T20:56:07.912556"
+  },
+  "c77f57c07153": {
+    "id": "c77f57c07153",
+    "title": "Maxon releases Redshift 2026.8",
+    "link": "https://www.cgchannel.com/2026/07/maxon-releases-redshift-2026-8/",
+    "summary": "Check out the new features in the renderer, including a procedural Scratches shader and a high-altitude layer in the Clouds object.",
+    "published": "Fri, 24 Jul 2026 08:38:07 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-24T20:56:36.905033"
+  },
+  "2015a5b8b928": {
+    "id": "2015a5b8b928",
+    "title": "Lux Aeterna turned time into a procedural system in The Dinosaurs",
+    "link": "https://www.cgchannel.com/2026/07/lux-aeterna-turned-time-into-a-procedural-system-in-the-dinosaurs/",
+    "summary": "Discover how a shared Houdini timeline driving environmental FX powered the multi-million-year timelapses in the Netflix series.",
+    "published": "Fri, 24 Jul 2026 06:44:16 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-24T20:56:36.905056"
+  },
+  "8a8aaa29a9df": {
+    "id": "8a8aaa29a9df",
+    "title": "Pilgway releases 3DCoat 2026 and 3DCoatTextura 2026",
+    "link": "https://www.cgchannel.com/2026/07/pilgway-releases-3dcoat-2026-and-3dcoattextura-2026/",
+    "summary": "Check out the changes to the sculpting, retopology and painting tools - including a complete new node-based texturing system.",
+    "published": "Thu, 23 Jul 2026 09:00:21 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-24T20:56:36.905069"
+  },
+  "ca3b48f67185": {
+    "id": "ca3b48f67185",
+    "title": "Autodesk releases Arnold 7.5.3",
+    "link": "https://www.cgchannel.com/2026/07/autodesk-releases-arnold-7-5-3/",
+    "summary": "Production renderer gets new BSDF nodes for toon shading and new Accelerated Viewport mode for Maya users. See all the changes.",
+    "published": "Thu, 23 Jul 2026 08:20:17 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-24T20:56:36.905081"
+  },
+  "9e6d99fa2a6c": {
+    "id": "9e6d99fa2a6c",
+    "title": "Best Free-to-Try Seedance 2.0 Workflow for Stable Game Trailer Shot Tests (Then Scale With API)",
+    "link": "https://gamedev.net/blogs/entry/2298200-best-free-to-try-seedance-20-workflow-for-stable-game-trailer-shot-tests-then-scale-with-api",
+    "summary": "When a small game team is preparing a Steam page, pitch deck, or first teaser, it often needs one or two moving shots before the final build can deliver them. The wrong response is to generate a whole trailer from a broad prompt and present it as the game. That creates a trust problem fast, especially when a generated character, environment, or interface does not match the real project. The more useful early-stage job is narrower: test the direction of a shot . Is the game's hero more readable in a slow push-in? Does moving fog make the location feel …",
+    "published": "Fri, 24 Jul 2026 10:27:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-24T20:56:50.819557"
+  },
+  "0dd42fb5f9b8": {
+    "id": "0dd42fb5f9b8",
+    "title": "Black Flag Resynced beats annual sales expectations in two weeks",
+    "link": "https://www.gamedeveloper.com/business/black-flag-resynced-beats-annual-sales-expectations-in-two-weeks",
+    "summary": "Publisher Ubisoft shared the news after confirming the remake has sold over 3.5 million copies worldwide.",
+    "published": "Fri, 24 Jul 2026 14:16:53 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-24T20:56:52.942765"
+  },
+  "0136dad2cd12": {
+    "id": "0136dad2cd12",
+    "title": "How Jackbox Games navigated the post-pandemic sales slump ft. Mike Bilder",
+    "link": "https://www.gamedeveloper.com/business/how-jackbox-games-navigated-the-post-pandemic-sales-slump-ft-mike-bilder",
+    "summary": "Jackbox Games CEO Mike Bilder joins the show to discuss how the Jackbox Party Pack developers survived the decline of sales after the end of the 2020 COVID-19 pandemic lockdowns.",
+    "published": "Fri, 24 Jul 2026 14:15:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-24T20:56:52.942792"
+  },
+  "9b6e6a20d89e": {
+    "id": "9b6e6a20d89e",
+    "title": "Saudi-led EA buyout receives EU approval, Xbox trials ad-supported game streaming, and Poinpy is eternal - Patch Notes #62",
+    "link": "https://www.gamedeveloper.com/business/saudi-led-ea-buyout-receives-eu-approval-xbox-trials-ad-supported-game-streaming-and-poinpy-is-eternal-patch-notes-62",
+    "summary": "Plus: Bethesda union workers hit back at Xbox and some never-before-seen Pokemon designs.",
+    "published": "Fri, 24 Jul 2026 10:29:22 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-24T20:56:52.942803"
   }
 }
