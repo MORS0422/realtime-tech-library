@@ -9818,5 +9818,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-07-26T09:53:35.046130"
+  },
+  "506ab95c0f20": {
+    "id": "506ab95c0f20",
+    "title": "Remake of C64 game Heart of Africa (follow-up to Seven Cities of Gold)",
+    "link": "https://gamedev.net/forums/topic/720211-remake-of-c64-game-heart-of-africa-follow-up-to-seven-cities-of-gold",
+    "summary": "Hi, do you still remember Heart of Africa (follow-up to Seven Cities of Gold)? I always thought it deserved a modern remake, but nobody developed one, so I decided to do that myself :). While keeping the stylized depiction of the original, I added a 3D view for settlements and did my best to implement Africa as it was in the 1890s accurately: real historic geography and elevation data, diverse wildlife interactions, regional and seasonal climate, authentic clothing, etc. You can follow the project's progress here: https://github.com/PatrickVonMassow/Heart-of-Africa-Remake The current PoC is playable directly in modern browsers without downloading or installing …",
+    "published": "Sun, 26 Jul 2026 16:54:23 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-26T20:51:05.382262"
+  },
+  "de4f2f50ff00": {
+    "id": "de4f2f50ff00",
+    "title": "Wistoria Magic",
+    "link": "https://realtimevfx.com/t/wistoria-magic/31361",
+    "summary": "Hi! I’m Ricky, i’m new to Unreal VFX or Realtime FX especially for games cause my work before are VFX for Film and it’s really different than i thought! This is my first time post here, i’m still learning and decide to create FX after watching a bunch of tutorial. So i’m watching this anime series called Wistoria: Wand and Sword . This series grab my attention cause the Directing and Storytelling is i would say great. [Wistoria: Wand and Sword] I want to recreate the magic used in this series, maybe start with fire. I’m still at the magic circles, maybe i’m going to make the fire later on. Magic Circles Texture for Magic Circles with RGB Channel Pack for individual animation on Niagara. If there’s some advice or feedback, gladly i would hear it! Well yeah, that’s it! Thanks! 1 post - 1 participant Read full topic",
+    "published": "Sun, 26 Jul 2026 16:08:31 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-07-26T20:50:57.751117"
   }
 }
