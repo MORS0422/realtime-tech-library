@@ -9778,5 +9778,45 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-07-25T09:42:22.669812"
+  },
+  "0ad19ae4ba57": {
+    "id": "0ad19ae4ba57",
+    "title": "World Machine ‘Dragontail Peak’ now runs on macOS and Linux",
+    "link": "https://www.cgchannel.com/2026/07/world-machine-software-ships-world-machine-dragontail-peak/",
+    "summary": "Big update to the formerly Windows-only terrain software adds support for new platforms - and for VDM-based 'true 3D' terrain.",
+    "published": "Sat, 25 Jul 2026 09:59:38 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-26T09:53:25.988574"
+  },
+  "7f0301739fad": {
+    "id": "7f0301739fad",
+    "title": "Maxon releases Red Giant 2026.5",
+    "link": "https://www.cgchannel.com/2026/07/maxon-releases-red-giant-2026-5/",
+    "summary": "Check out the new features in the plugins for motion design and VFX, including zoom and aspherical lens support in Real Lens Flares.",
+    "published": "Sat, 25 Jul 2026 06:00:46 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-26T09:53:25.988598"
+  },
+  "9a27c3df65de": {
+    "id": "9a27c3df65de",
+    "title": "Added My Third Hobby Game",
+    "link": "https://gamedev.net/blogs/entry/2262581-added-my-third-hobby-game",
+    "summary": "So, I sat down to see what this MonoGame thing was all about. I used to mess with XNA back around version 2. Well, I have to say...I liked it. Easy to get up and running. Joust was one of my favorite games from the 80's. [ Here ] is a link to my hobby remake version. (follow to google drive download location)",
+    "published": "Sun, 26 Jul 2026 02:45:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-26T09:53:35.046094"
+  },
+  "4836aa9f8725": {
+    "id": "4836aa9f8725",
+    "title": "Corrupt(?) XACT3 Sound Bank when attaching RPC to streaming sound",
+    "link": "https://gamedev.net/forums/topic/720210-corrupt-xact3-sound-bank-when-attaching-rpc-to-streaming-sound",
+    "summary": "I am presently (still) using the ancient XACT3 sound toolkit/API as my underlying audio layer in my own custom (Win64) C++ engine. This has been working fine for quite some time, but I have recently come across an issue that appears to be a bug in the content generation pipeline and/or XACT runtime that I'm hoping maybe someone has seen before (and hopefully has a workaround for). I'll go ahead and state beforehand that I do realize this is an ancient and deprecated API, and that it's quite likely that I'll move myself off it and just use XAudio2 directly …",
+    "published": "Sun, 26 Jul 2026 03:02:06 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-26T09:53:35.046130"
   }
 }
