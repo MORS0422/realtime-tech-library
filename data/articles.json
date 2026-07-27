@@ -9838,5 +9838,45 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-07-26T20:50:57.751117"
+  },
+  "bce9579ff2db": {
+    "id": "bce9579ff2db",
+    "title": "How do you turn playtester comments into issues you can actually fix?",
+    "link": "https://gamedev.net/forums/topic/720213-how-do-you-turn-playtester-comments-into-issues-you-can-actually-fix",
+    "summary": "I’ve been reviewing how I collect feedback on small game prototypes, and I keep running into the same problem. A tester says something like: I got stuck here. The tutorial was confusing. Something broke after I clicked this. I wasn’t sure what the game wanted me to do. The comment may be valid, but by the time I read it I’m usually missing most of the context: which build they were playing; where they were in the game; what happened immediately before the problem; what they expected to happen; whether it happened once or consistently; their device, browser or operating …",
+    "published": "Mon, 27 Jul 2026 10:17:40 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-27T11:13:32.821432"
+  },
+  "ca93aac2ab6b": {
+    "id": "ca93aac2ab6b",
+    "title": "ShapeMeshing: From 2D Animation to Real-Time 3D Effects",
+    "link": "https://realtimevfx.com/t/shapemeshing-from-2d-animation-to-real-time-3d-effects/31362",
+    "summary": "I’ve mentioned ShapeMeshing on the RealTime VFX forum before, and I’m pleased to finally share the conclusion of an eight-year development journey. ShapeMeshing is a suite of tools for transforming 2D animation into 3D. It allows artwork created through traditional 2D animation workflows to exist as dimensional assets that can be lit, shaded, viewed from moving cameras, and incorporated into real-time scenes, and of course, it’s entirely built with real-time applications in mind. The tools have been used in countless RT-projects to date, and I’m hoping to expand the user base. The goal is to preserve the graphic design of hand-authored 2D while gaining the spatial and rendering advantages of 3D. This opens up possibilities for stylized effects, motion graphics and animated assets that would be difficult to create using conventional simulation or modelling alone. The complete paper is now available through the ACM Digital Library: https://dl.acm.org/doi/10.1145/3757376.3771394 The ShapeMeshing tools are available for B2B sharing. We have already been in discussions with Pixar and The Third Floor, and we are interested in hearing from other studios, developers, and real-time teams who would like to explore the technology. For more information, visit: https://www.marza.com/shapemeshing/ You can also contact MZProduction@marza.com with the subject line “ShapeMeshing.” Cheers! 1 post - 1 participant Read full topic",
+    "published": "Mon, 27 Jul 2026 01:45:17 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-07-27T11:13:26.723756"
+  },
+  "973ef4e4aaff": {
+    "id": "973ef4e4aaff",
+    "title": "SIGGRAPH 2026 Links",
+    "link": "https://blog.selfshadow.com/2026/07/26/siggraph-2026-links/",
+    "summary": "Session Recordings Real-Time Live! Courses A Whirlwind Introduction to Computer Graphics Advances in Real-time Rendering in Games (to appear) AI for Creative Visual Content Generation Editing and Understanding (CVEU 2026) (to appear) An Introduction to Neural Shading Fluid Simulation with the Lattice Boltzmann Method GPU Ray Tracing using NVIDIA OptiX and OWL How to write a Vulkan application in 2026 Moving Mobile Graphics (to appear) NVIDIA: Advanced Real-Time Volume Graphics",
+    "published": "Sun, 26 Jul 2026 15:08:57 -0700",
+    "source_name": "Self Shadow - Graphics Programming",
+    "category": "render",
+    "fetched_at": "2026-07-27T11:13:28.952735"
+  },
+  "8b3b758e5afe": {
+    "id": "8b3b758e5afe",
+    "title": "Atari and Universal to create movies based on classic properties including Asteroids and Missile Command",
+    "link": "https://www.gamedeveloper.com/business/atari-and-universal-to-create-movies-based-on-classic-properties-including-asteroids-and-missile-command",
+    "summary": "Atari boss Wade Rosen said the company hopes to bring the 'spirit of our iconic brand and games to a new medium.'",
+    "published": "Mon, 27 Jul 2026 11:03:59 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-27T11:13:34.331000"
   }
 }
