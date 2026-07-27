@@ -9878,5 +9878,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-27T11:13:34.331000"
+  },
+  "3df573665923": {
+    "id": "3df573665923",
+    "title": "Abstract adds a new 2D painting system to InstaMAT 2026-07",
+    "link": "https://www.cgchannel.com/2026/07/abstract-releases-instamat-2026-07-with-a-new-2d-painting-system/",
+    "summary": "Material authoring and 3D painting app now lets you paint directly onto a mesh's UVs in a dedicated 2D viewport. See all the new features.",
+    "published": "Mon, 27 Jul 2026 14:16:56 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-27T21:04:52.169794"
+  },
+  "98a3723db3b9": {
+    "id": "98a3723db3b9",
+    "title": "Autodesk releases Flame 2027.1",
+    "link": "https://www.cgchannel.com/2026/07/autodesk-releases-flame-2027/",
+    "summary": "New features in the compositing, finishing and effects software include Isolate and Pixel Expression nodes, and ProRes RAW support.",
+    "published": "Mon, 27 Jul 2026 06:00:27 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-27T21:04:52.169820"
+  },
+  "3873068fc9b7": {
+    "id": "3873068fc9b7",
+    "title": "Tutorial: Creating a Charged Energy Beam in Unreal Engine",
+    "link": "https://www.cgchannel.com/2026/07/tutorial-creating-a-charged-energy-beam-in-unreal-engine/",
+    "summary": "Create an energy effect suitable for a games cinematic using UE5's Niagara and Sequencer with The Gnomon Workshop's new tutorial.",
+    "published": "Mon, 27 Jul 2026 04:30:25 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-07-27T21:04:52.169835"
+  },
+  "08b0efc354b3": {
+    "id": "08b0efc354b3",
+    "title": "Engine VI Update",
+    "link": "https://gamedev.net/blogs/entry/2298206-engine-vi-update",
+    "summary": "Developer Diary — Engine VI Progress Development on Engine VI has continued at a steady pace, with much of the recent work focused on strengthening the engine's foundation rather than adding flashy new features. The architecture continues to evolve around a data-driven design, separating authored game content from persistent player state to keep the engine maintainable and save files compact. I've also been refining the player interface, notifications, and quest systems while continuing to improve the underlying GUI, scripting, and persistence layers. These changes may not be immediately visible, but they'll make building future adventure games significantly faster and more …",
+    "published": "Mon, 27 Jul 2026 19:06:21 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-27T21:04:59.913675"
   }
 }
