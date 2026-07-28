@@ -9968,5 +9968,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-28T10:28:44.117717"
+  },
+  "008fff58d88f": {
+    "id": "008fff58d88f",
+    "title": "new portfolio and new project bugged",
+    "link": "https://gamedev.net/forums/topic/720216-new-portfolio-and-new-project-bugged",
+    "summary": "on the dashboard at https://gamedev.net/manage/ there is a quick action section, if I click on the \"new project\" button it just reload the dashboard and if I click the \"new portfolio\" it just leads to a \"game over\" page. the same if I try to access the same function through the \"+create\" button on the top right of the screen. How the hell did other members create portfolios and projects?",
+    "published": "Tue, 28 Jul 2026 19:05:26 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-28T21:02:29.985227"
+  },
+  "4e3c4809a498": {
+    "id": "4e3c4809a498",
+    "title": "Wizards of the Coast president John Hight is stepping down",
+    "link": "https://www.gamedeveloper.com/business/wizards-of-the-coast-president-john-hight-to-step-down",
+    "summary": "Hight will continue to earn $800,000 annually in his new advisor role, as well as netting an annual cash bonus award.",
+    "published": "Tue, 28 Jul 2026 14:15:18 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-28T21:02:31.945786"
+  },
+  "621238aabc21": {
+    "id": "621238aabc21",
+    "title": "Quest maker Meta is having its cake and eating it",
+    "link": "https://www.gamedeveloper.com/business/quest-maker-meta-spending-billions-on-ai-data-centre-while-lamenting-the-ai-driven-component-shortage",
+    "summary": "Meta has confirmed it will spend billions on a new AI data center in Texas just months after raising Quest prices due to an AI-driven memory shortage.",
+    "published": "Tue, 28 Jul 2026 11:47:47 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-28T21:02:31.945808"
   }
 }
