@@ -9918,5 +9918,55 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-07-27T21:04:59.913675"
+  },
+  "12447a00f89f": {
+    "id": "12447a00f89f",
+    "title": "Otoy releases OctaneRender 2027.1 in alpha",
+    "link": "https://www.cgchannel.com/2026/07/otoy-releases-octanerender-2027-1-in-alpha/",
+    "summary": "Updated for Alpha 2: next major version of the GPU renderer adds neat options for recreating iridescent and ultra-reflective materials.",
+    "published": "Tue, 28 Jul 2026 07:00:43 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-28T10:28:31.245876"
+  },
+  "ce60e7d47e16": {
+    "id": "ce60e7d47e16",
+    "title": "RandomControl releases Maverick Studio and Maverick Indie 2026.1",
+    "link": "https://www.cgchannel.com/2026/07/randomcontrol-releases-maverick-studio-and-maverick-indie-2026-1/",
+    "summary": "See the the new features in the physically based GPU renderers, including a new cutaway render system and fSpy camera matching.",
+    "published": "Tue, 28 Jul 2026 07:00:39 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-28T10:28:31.245904"
+  },
+  "f1bebffa01ba": {
+    "id": "f1bebffa01ba",
+    "title": "Custom Shaders for Unit and Target Selection",
+    "link": "https://gamedev.net/blogs/entry/2298208-custom-shaders-for-unit-and-target-selection",
+    "summary": "Recently I’ve been blogging a lot of specific tasks that were done for my TRPG , so to continue with that theme I decided to talk about a couple custom shaders I wrote for selecting things. Here are gifs showing the two shaders I’ll be talking about: As is typical for most repeating animations, both shaders are built around the game’s time and the sine function. Unity passes the time value in to shaders, so that gives a simple number that increases smoothly. Meanwhile, sin() returns oscillating values (between 0 and 1) that can be used for a variety of …",
+    "published": "Tue, 28 Jul 2026 01:49:25 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-28T10:28:41.228247"
+  },
+  "b06d1735125b": {
+    "id": "b06d1735125b",
+    "title": "Rum Barrel Run – A Small Endless Runner Made with Unity",
+    "link": "https://gamedev.net/forums/topic/720215-rum-barrel-run-a-small-endless-runner-made-with-unity",
+    "summary": "Hi everyone, I would like to introduce Rum Barrel Run , a small endless runner that I created with Unity. The goal is simple: run along an endless track, dodge the incoming rum barrels, and survive for as long as possible. The player has three lives, so timing, movement, and quick reactions are important. Your score increases during the run, and the best result can be saved to an online high-score leaderboard. Players can therefore compare their scores and compete for the top position. Download: https://gamedevcafe.de/filebase/index.php?download/38/ Main features Endless runner gameplay Increasing challenge Three-life system Online high-score leaderboard German and …",
+    "published": "Tue, 28 Jul 2026 09:43:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-28T10:28:41.228292"
+  },
+  "fdc114b49ce7": {
+    "id": "fdc114b49ce7",
+    "title": "'I have been hunted down by HR reps, lawyers, and comms people:' Developers discuss the pain and prevalence of side work clauses",
+    "link": "https://www.gamedeveloper.com/production/-i-have-been-hunted-down-by-hr-reps-lawyers-and-comms-people-developers-discuss-the-pain-and-prevalence-of-side-work-clauses",
+    "summary": "How an industry renowned for creativity is actively stifling it.",
+    "published": "Tue, 28 Jul 2026 08:36:09 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-28T10:28:44.117717"
   }
 }
