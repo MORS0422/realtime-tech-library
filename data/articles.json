@@ -10058,5 +10058,95 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-29T10:32:56.631762"
+  },
+  "f37eeff2c25d": {
+    "id": "f37eeff2c25d",
+    "title": "Physical Atmosphere² generates insanely detailed Blender skies",
+    "link": "https://www.cgchannel.com/2026/07/physical-atmosphere-2-generates-insanely-detailed-blender-skies/",
+    "summary": "Successor to the popular PSA add-on adds true spectral atmospheres to Blender scenes - complete with real-world air pollution effects.",
+    "published": "Wed, 29 Jul 2026 11:08:47 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-29T20:46:32.028039"
+  },
+  "8e914b97a31e": {
+    "id": "8e914b97a31e",
+    "title": "RTX Render for Character Creator and iClone is now in open beta",
+    "link": "https://www.cgchannel.com/2026/07/try-the-open-beta-of-rtx-render-for-character-creator-and-iclone/",
+    "summary": "New path tracing render mode lets users render 3D characters inside Reallusion's software with 'near-offline render quality'.",
+    "published": "Wed, 29 Jul 2026 09:53:49 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-29T20:46:32.028062"
+  },
+  "d49d813c4fbd": {
+    "id": "d49d813c4fbd",
+    "title": "ASWF and DreamWorks Animation release MoonRay 2026.29",
+    "link": "https://www.cgchannel.com/2026/07/aswf-and-dreamworks-animation-release-moonray-2026-29/",
+    "summary": "Latest open-source version of the production renderer used on movies like The Bad Guys 2 adds work-in-progress MaterialX support.",
+    "published": "Tue, 28 Jul 2026 14:17:40 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-29T20:46:32.028076"
+  },
+  "765d7fdaed62": {
+    "id": "765d7fdaed62",
+    "title": "Pixar releases RenderMan 27.3",
+    "link": "https://www.cgchannel.com/2026/07/pixar-releases-renderman-27-3/",
+    "summary": "See the latest features in Pixar's production renderer, including native MaterialX and Cryptomatte support in RenderMan XPU.",
+    "published": "Tue, 28 Jul 2026 10:18:21 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-29T20:46:32.028088"
+  },
+  "159e04234dce": {
+    "id": "159e04234dce",
+    "title": "BG3 Lightning Bolt Sound Redesign",
+    "link": "https://gamedev.net/blogs/entry/2298212-bg3-lightning-bolt-sound-redesign",
+    "summary": "BG3 Lightning Bolt Sound Redesign Hey there! Wanted to share my redesign of the Lightning Bolt spell from Baldur's Gate 3. When I started this redesign, I tried to figure out what the feeling should be when the player would cast this spell. Being one of my favourite lightning spells from BG3 and DnD 5e, I wanted to bring a sense of power and devastation to the design. Lightning is very fun to design in my opinion, for the sound sources I used chip bags, crumpled paper, duct tape (ripping it from the roll and off of a window, which …",
+    "published": "Wed, 29 Jul 2026 17:45:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-29T20:46:40.751901"
+  },
+  "0b57b1a94966": {
+    "id": "0b57b1a94966",
+    "title": "creating a new game looking for ppl \"unpaid for now\"",
+    "link": "https://gamedev.net/forums/topic/720212-creating-a-new-game-looking-for-ppl-unpaid-for-now",
+    "summary": "Welcome to the Empire of Beasts Hi there, my name is Gomoryy, and welcome to the Empire of Beasts Game! This topic is centered around a world where crime, corruption, and dangerous experimentation have reshaped society. The setting takes place in a sprawling city controlled by criminal organizations, powerful syndicates, and competing law enforcement agencies. Illegal laboratories conduct experiments on human subjects, creating drugs capable of granting animal-like abilities and mutations. Some gain incredible powers, while others become something far more dangerous. For this, the primary inspiration is a third-person hero shooter where law enforcement and criminal factions battle for …",
+    "published": "Wed, 29 Jul 2026 18:38:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-29T20:46:40.751939"
+  },
+  "4526b36d23b2": {
+    "id": "4526b36d23b2",
+    "title": "Subnautica 2 and PUBG bolster Krafton's Q2 revenue",
+    "link": "https://www.gamedeveloper.com/business/subnautica-2-and-pubg-bolster-krafton-s-q2-revenue",
+    "summary": "The company reports revenue up 94.9 percent to $889.1 million.",
+    "published": "Wed, 29 Jul 2026 16:30:38 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-29T20:46:42.621001"
+  },
+  "6646570e09dd": {
+    "id": "6646570e09dd",
+    "title": "Tencent-owned Lightspeed LA is laying off staff",
+    "link": "https://www.gamedeveloper.com/business/tencent-owned-lightspeed-la-is-laying-off-staff",
+    "summary": "The Last Sentinel developer attributes the job cuts to a shift in creative and development direction for the project.",
+    "published": "Wed, 29 Jul 2026 15:14:34 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-29T20:46:42.621022"
+  },
+  "ba72ae7e6ed7": {
+    "id": "ba72ae7e6ed7",
+    "title": "Epic Games hires former head of Blizzard's Battle.net",
+    "link": "https://www.gamedeveloper.com/business/epic-games-hires-former-head-of-blizzard-s-battle-net",
+    "summary": "Martin Keely is now vice president and general manager of Epic Games Store and Epic Online Services.",
+    "published": "Wed, 29 Jul 2026 14:01:18 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-29T20:46:42.621035"
   }
 }
