@@ -9998,5 +9998,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-28T21:02:31.945808"
+  },
+  "3f8db0c6eec5": {
+    "id": "3f8db0c6eec5",
+    "title": "Make GameDev.net Yours: Avatars, Badges, and Founding Supporters",
+    "link": "https://gamedev.net/blogs/entry/2298210-make-gamedevnet-yours-avatars-badges-and-founding-supporters",
+    "summary": "Much of the latest GameDev.net updates shares one theme: making GameDev.net feel more like a place where you can build an identity, be recognized for what you contribute, and make your corner of the site your own. Build your own avatar You can now create an avatar directly from your profile settings instead of uploading a photo. Choose a style, customize it, shuffle until something clicks, and change it again whenever you want. You can also add frames, backdrops, effects, and identity accents around either a built avatar or your own uploaded image. Some cosmetics come with GameDev Pro , …",
+    "published": "Tue, 28 Jul 2026 22:15:55 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-29T10:32:54.209872"
+  },
+  "a87fca5967fe": {
+    "id": "a87fca5967fe",
+    "title": "I Almost Gave Up on My 2D Game — Until I Found aifps",
+    "link": "https://gamedev.net/forums/topic/720218-i-almost-gave-up-on-my-2d-game-until-i-found-aifps",
+    "summary": "As a solo indie dev, animation nearly killed my project. Drawing 24 frames per walk cycle, then again for attack, jump, idle… weeks vanished. I was ready to quit. Then I stumbled upon aifps — a web tool that turns a single character PNG into 2D frame animations using AI. Skeptical at first, I tried it. Uploaded my forest spirit, picked \"walk\" preset, hit generate. Thirty seconds later, I had an 60-frame cycle. Not perfect, but consistent enough to use. The chroma-key controls let me export transparent PNGs straight into my engine. Now my workflow: draw one reference → generate …",
+    "published": "Wed, 29 Jul 2026 07:26:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-29T10:32:54.209927"
+  },
+  "1b43102000c5": {
+    "id": "1b43102000c5",
+    "title": "EA boss awarded $38.6M after year of franchise success, studio layoffs, and GenAI adoption",
+    "link": "https://www.gamedeveloper.com/business/ea-boss-awarded-38-6m-after-year-of-franchise-success-studio-layoffs-and-genai-adoption",
+    "summary": "Long-serving CEO Andrew Wilson has held the role since 2013.",
+    "published": "Wed, 29 Jul 2026 10:10:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-29T10:32:56.631716"
+  },
+  "d0724c5bfe61": {
+    "id": "d0724c5bfe61",
+    "title": "Double Fine making layoffs after being jettisoned by Xbox",
+    "link": "https://www.gamedeveloper.com/business/double-fine-making-layoffs-after-being-jettisoned-by-xbox",
+    "summary": "'Only the survival of our studio would ever make us consider such a painful action.'",
+    "published": "Wed, 29 Jul 2026 09:18:16 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-29T10:32:56.631738"
+  },
+  "7ac6f8f9be3f": {
+    "id": "7ac6f8f9be3f",
+    "title": "Resident Evil Requiem has sold over 8M units",
+    "link": "https://www.gamedeveloper.com/business/resident-evil-requiem-has-sold-over-8m-units",
+    "summary": "The cumulative Resident Evil series unit sales currently sit at 213 million.",
+    "published": "Tue, 28 Jul 2026 16:36:21 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-29T10:32:56.631750"
+  },
+  "cf90b7d02590": {
+    "id": "cf90b7d02590",
+    "title": "Obituary: TaleWorlds Entertainment co-founder İpek Yavuz has passed away",
+    "link": "https://www.gamedeveloper.com/business/obituary-taleworlds-co-founder-i-pek-yavuz-has-passed-away",
+    "summary": "Yavuz co-founded the Mount &amp; Blade studio in 2005 alongside her husband Armagan Yavuz.",
+    "published": "Tue, 28 Jul 2026 15:31:03 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-29T10:32:56.631762"
   }
 }
