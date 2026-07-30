@@ -10168,5 +10168,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-30T10:18:46.438849"
+  },
+  "4455648acd16": {
+    "id": "4455648acd16",
+    "title": "Realtime snow with vfx, but not only vfx",
+    "link": "https://realtimevfx.com/t/realtime-snow-with-vfx-but-not-only-vfx/31375",
+    "summary": "Half a year making snow. Wanted to make it better than in most indie games, where snow is just triangles pressed into the ground. For this I studied many AAA implementations and made my own. Visually the snow uses smoothing, a Lagrangian particle system to transfer snow, mist clouds as VFX, opaque triangles as snow particles. Technically it has a lot of interesting stuff and I tried to describe it in a YouTube video: https://youtu.be/pfaewyfFrKM I have a short demonstration video, but this format isn’t accepted here, so I’m only sharing images. A bit about how it technically works: Unity URP shader, fully written in HLSL+ShaderLab. It uses tessellation, handles light and normals, a glitter effect, and displaces vertices according to the provided mask. That’s what’s under the hood, and on the surface there’s a CPU script that calls ComputeShaders for the GPU pipeline and the JobSystem (Multithreading) for the CPU pipeline. Both pipelines duplicate the algorithms mathematically, but in different languages: C#/HLSL. In those algorithms: sphere handling, smoothing. VFX. 1 post - 1 participant Read full topic",
+    "published": "Thu, 30 Jul 2026 13:44:26 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-07-30T21:01:00.729295"
+  },
+  "b1e089a0a913": {
+    "id": "b1e089a0a913",
+    "title": "Narrative Notebook #5: UNBEATABLE's music video vibes can't be beat",
+    "link": "https://www.gamedeveloper.com/design/narrative-notebook-5-unbeatable-s-music-video-vibes-can-t-be-beat",
+    "summary": "'Music doesn't make us feel things. Music IS feeling. Art IS feeling.'",
+    "published": "Thu, 30 Jul 2026 15:29:57 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-30T21:03:23.789480"
+  },
+  "d7f93537dbcb": {
+    "id": "d7f93537dbcb",
+    "title": "The truth behind the resurrection of Poinpy",
+    "link": "https://www.gamedeveloper.com/business/the-truth-behind-the-resurrection-of-poinpy",
+    "summary": "Back from the dead and better than ever.",
+    "published": "Thu, 30 Jul 2026 13:46:41 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-30T21:03:23.789497"
+  },
+  "9e8025aeacaf": {
+    "id": "9e8025aeacaf",
+    "title": "Unity brings dedicated engine support to Netflix Games",
+    "link": "https://www.gamedeveloper.com/business/unity-brings-dedicated-engine-support-to-netflix-games",
+    "summary": "The engine maker said it wants to help developers produce titles for Netflix's multi-platform ecosystem.",
+    "published": "Thu, 30 Jul 2026 13:15:32 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-30T21:03:23.789510"
+  },
+  "4237271422c3": {
+    "id": "4237271422c3",
+    "title": "If knowledge is power, why are game companies setting it alight?",
+    "link": "https://www.gamedeveloper.com/production/if-knowledge-if-power-why-are-game-companies-choosing-impotence-",
+    "summary": "I wonder who knows the answer to that finicky production question? Let's hope they weren't just laid off.",
+    "published": "Thu, 30 Jul 2026 10:06:34 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-30T21:03:23.789522"
   }
 }
