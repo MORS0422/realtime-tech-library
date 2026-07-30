@@ -10148,5 +10148,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-29T20:46:42.621035"
+  },
+  "965479b761ca": {
+    "id": "965479b761ca",
+    "title": "Inspector Designer Pro – A visual tool for creating custom Unity inspectors without editor scripting",
+    "link": "https://gamedev.net/forums/topic/720224-inspector-designer-pro-a-visual-tool-for-creating-custom-unity-inspectors-without-editor-scripting",
+    "summary": "Hi everyone, Over the last few years of developing Unity projects, I noticed I kept writing the same kinds of CustomEditor and PropertyDrawer scripts just to make inspectors easier to use. It worked, but it quickly became repetitive and added a lot of maintenance overhead. To solve that, I built Inspector Designer Pro , a Unity Editor extension that lets you visually customize any MonoBehaviour inspector—without writing editor scripting. Instead of creating custom inspectors in C#, you can organize and style them through a visual editor. Some of the features include: 12 built-in field types (Sliders, Progress Bars, Knobs, Reorderable …",
+    "published": "Thu, 30 Jul 2026 03:31:39 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-30T10:18:44.046357"
+  },
+  "8e3e1ac61d3f": {
+    "id": "8e3e1ac61d3f",
+    "title": "Xbox hardware revenue fell by $1.7 billion during fiscal 2026",
+    "link": "https://www.gamedeveloper.com/business/xbox-hardware-revenue-fell-by-1-7-billion-during-fiscal-2026",
+    "summary": "Flagging Xbox sales have become the new normal for Microsoft.",
+    "published": "Thu, 30 Jul 2026 09:18:02 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-30T10:18:46.438849"
   }
 }
