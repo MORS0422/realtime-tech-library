@@ -10238,5 +10238,85 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-07-31T10:32:02.922562"
+  },
+  "8e649c538b93": {
+    "id": "8e649c538b93",
+    "title": "Reallusion launches AccuFace 2",
+    "link": "https://www.cgchannel.com/2026/07/reallusion-launches-accuface-2/",
+    "summary": "Check out the changes to the AI video mocap add-on for iClone, like support for CC5 HD characters, control curves, and AMD GPUs.",
+    "published": "Fri, 31 Jul 2026 10:08:58 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-31T20:57:50.367253"
+  },
+  "70e67de8d6b0": {
+    "id": "70e67de8d6b0",
+    "title": "Check out this free Gaussian Splatting plugin for After Effects",
+    "link": "https://www.cgchannel.com/2026/07/check-out-this-free-gaussian-splatting-plugin-for-after-effects/",
+    "summary": "Open-source tool from the creators of 3D scanning app Kiri Engine gets 3DGS data into After Effects for use in compositing and motion graphics.",
+    "published": "Thu, 30 Jul 2026 08:17:46 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-07-31T20:57:50.367276"
+  },
+  "bea2f4d23ddc": {
+    "id": "bea2f4d23ddc",
+    "title": "Devlog 2026-07-31",
+    "link": "https://gamedev.net/blogs/entry/2298222-devlog-2026-07-31",
+    "summary": "​Happy Friday! Again! It took some doing, but Veera's second intimate scene is in the Patreon version. It's a bit short, due to all the unique aspects (Male vs Female MC, dominant vs submissive choice, and then, regardless of your choice, a dominant vs submissive branch based on your established personality) It was meant to be released with the rest of the content we've been cooking up, but due to a sick toddler (again/still), we couldn't get all of it done in time, and I didn't want to disappoint anyone by delaying it. The good news is we'll have another …",
+    "published": "Fri, 31 Jul 2026 14:47:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-31T20:57:59.707740"
+  },
+  "8c4ba1b1d560": {
+    "id": "8c4ba1b1d560",
+    "title": "I require some help with my Soul Ops Game. (Game where you protect a soul from bosses like ones from undertale AUs)",
+    "link": "https://gamedev.net/forums/topic/720230-i-require-some-help-with-my-soul-ops-game-game-where-you-protect-a-soul-from-bosses-like-ones-from-undertale-aus",
+    "summary": "I'm pretty much the architect in my own little situation. I've tried to make a soul ops game which is supposed to be a continuation of a soul ops game i remember, called Soul Ops Annihilation. If you don't know, Soul Ops Annihilation is a game on roblox which was popular, having alot of things, like secrets, bosses, characters, etc. My soul ops game would've been a continuation for soul ops annihilation, and would've had more soul ops games combined, like Typical Soul Ops, Soul Ops Retro Boss Rush and Scarlet Conquest, including a bit of Totally Not A Retro …",
+    "published": "Fri, 31 Jul 2026 19:51:23 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-31T20:57:59.707776"
+  },
+  "9e0b4102f94c": {
+    "id": "9e0b4102f94c",
+    "title": "EA clears US regulatory approvals in take-private deal",
+    "link": "https://www.gamedeveloper.com/business/ea-says-all-regulatory-approvals-have-been-cleared-for-its-take-private-deal",
+    "summary": "Saudi Arabia's divisive EA buyout looks set to go through next week.",
+    "published": "Fri, 31 Jul 2026 19:06:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-31T20:58:03.138541"
+  },
+  "835d7c44731f": {
+    "id": "835d7c44731f",
+    "title": "Xbox CEO declares priorities after 'reset'",
+    "link": "https://www.gamedeveloper.com/business/xbox-ceo-declares-priorities-after-reset-",
+    "summary": "Xbox CEO Asha Sharma lays out a plan to get Xbox back on track after the latest round of layoffs.",
+    "published": "Fri, 31 Jul 2026 15:45:42 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-31T20:58:03.138562"
+  },
+  "c9181347d2ae": {
+    "id": "c9181347d2ae",
+    "title": "GDC Side Quest - A Sit-Down With The Indomitable Sam Beart",
+    "link": "https://www.gamedeveloper.com/audio/gdc-side-quest-a-sit-down-with-the-indomitable-sam-beart",
+    "summary": "Acclaimed actor Samantha Beart joins us for this month's edition of GDC Side Quest on the Game Developer Podcast.",
+    "published": "Fri, 31 Jul 2026 14:15:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-31T20:58:03.138575"
+  },
+  "5dff5d887d9b": {
+    "id": "5dff5d887d9b",
+    "title": "Double Fine cuts staff, Xbox's revenue decline, and Leon Kennedy pays off - Patch Notes #63",
+    "link": "https://www.gamedeveloper.com/business/xbox-perpetual-hardware-revenue-decline-leon-kennedy-pays-off-and-double-fine-cuts-staff-patch-notes-63",
+    "summary": "Plus: The developer of Buckshot Roulette launches a horror subversion of Mario Party.",
+    "published": "Fri, 31 Jul 2026 13:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-07-31T20:58:03.138586"
   }
 }
