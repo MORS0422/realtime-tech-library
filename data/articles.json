@@ -10218,5 +10218,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-07-30T21:03:23.789522"
+  },
+  "df95a1c72258": {
+    "id": "df95a1c72258",
+    "title": "I made a browser-based Text Effects Editor for game UI, logos, and banners",
+    "link": "https://gamedev.net/forums/topic/720225-i-made-a-browser-based-text-effects-editor-for-game-ui-logos-and-banners",
+    "summary": "Hey everyone! I wanted to share a small tool I’ve been building and would love to hear what you think: Text Effects Editor https://grom-games.com/game.php?game=text-effects-editor It’s a browser-based editor for creating stylized text effects and exporting them as transparent PNGs. The idea is to make it easier to create game UI labels, logo text, thumbnails, banners, stickers, and other quick typography assets without opening a full graphics editor every time. Some features: Layered text effects with groups Fill, stroke, gradients, patterns, noise, shadows, glow, blur, wave, distort, blend/composite effects Drag-and-drop effect ordering Import/export JSON presets Export transparent PNG Copy PNG directly …",
+    "published": "Fri, 31 Jul 2026 08:50:28 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-07-31T10:32:09.007656"
+  },
+  "aabf741a6049": {
+    "id": "aabf741a6049",
+    "title": "VFX Mesh Lab — free Unity editor tool for VFX-ready meshes",
+    "link": "https://realtimevfx.com/t/vfx-mesh-lab-free-unity-editor-tool-for-vfx-ready-meshes/31378",
+    "summary": "Hey everyone—I’ve released VFX Mesh Lab, a free and open-source Unity editor tool for building specialized VFX meshes without leaving Unity. A couple of months ago, I released VFX Texture Lab for quick texture operations inside the editor. While working on that project, I kept noticing a similar interruption with meshes: leaving Unity for every small slash, shockwave, ribbon, card, or shader-data adjustment. This tool is focused on that part of the workflow. Main features: 14 procedural base shapes Seven VFX-oriented starting templates Curve-driven shape controls and ordered modifiers Specialized Arc controls for tapered and mirrored slash shells UV projections and transforms Vertex colors and packed Vector4 data in UV1, UV2, and UV3 Preview modes for UVs, normals, topology, wireframe, vertex colors, and backfaces Reusable recipe presets Native Unity Mesh output Reference-preserving updates for existing standalone Mesh assets It is intentionally not a replacement for Blender, Houdini, or another full modeling package. The goal is to make small, frequent VFX mesh iterations faster and easier to inspect. The generator is editor-only. Generated assets are standard Unity meshes and have no runtime package dependency. Current requirements: Unity 6+ and URP. Repo and installation: github.com GitHub - PudinKiller/VFXMeshLab: Editor-only procedural VFX mesh generator for... Editor-only procedural VFX mesh generator for Unity 6+ URP. I’d especially value feedback on three things: Which VFX-specific shape is still missing? What data do you regularly pack into vertex colors or UV channels? What would prevent you from using this in production? 1 post - 1 participant Read full topic",
+    "published": "Thu, 30 Jul 2026 21:14:12 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-07-31T10:32:02.922562"
   }
 }
