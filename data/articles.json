@@ -10338,5 +10338,25 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-08-01T09:52:27.673169"
+  },
+  "335d03b101bc": {
+    "id": "335d03b101bc",
+    "title": "Devlog #2: Planning \"Underground\" (Andrax Studio)",
+    "link": "https://gamedev.net/blogs/entry/2298226-devlog-2-planning-underground-andrax-studio",
+    "summary": "Hello, yes, I understand that I have been gone for many days, but I am still looking for people for the project. You can write to me on Telegram @Mikedevims (Telegram) Rus: Здравствуйте, да, я понимаю, что меня не было много дней, но я всё ещё ищу людей для проекта. Вы можете написать мне в Telegram @Mikedevims (Telegram)",
+    "published": "Sat, 01 Aug 2026 17:07:46 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-01T20:42:35.832877"
+  },
+  "d4f0695fc8ed": {
+    "id": "d4f0695fc8ed",
+    "title": "Coreball – a one-button browser timing game, looking for feel feedback",
+    "link": "https://gamedev.net/forums/topic/720232-coreball-a-one-button-browser-timing-game-looking-for-feel-feedback",
+    "summary": "Hi everyone — I’m Ren, helping document and review the interaction design of Coreball, a small browser game built around a single action: launch a pin into a rotating core without colliding with the pins already attached. The game is playable here: https://coreball.gg/ What I’m specifically trying to evaluate is whether the timing window feels readable rather than arbitrary. The early stages keep the rotation easy to follow, while later patterns ask the player to anticipate spacing and rotation changes. There is no install or account requirement, so a complete playtest can be very short. I would especially appreciate feedback …",
+    "published": "Sat, 01 Aug 2026 18:02:44 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-01T20:42:35.832919"
   }
 }
