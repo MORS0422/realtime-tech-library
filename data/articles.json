@@ -10358,5 +10358,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-08-01T20:42:35.832919"
+  },
+  "740edd78df98": {
+    "id": "740edd78df98",
+    "title": "Better Graphics and Lower System Requirements in Leadwerks 5.1",
+    "link": "https://gamedev.net/blogs/entry/2298227-better-graphics-and-lower-system-requirements-in-leadwerks-51",
+    "summary": "​ Leadwerks Game Engine 5.1 is a major update of our game development technology, with better graphics and lower system requirements, including support for integrated graphics. Optimized Deferred Renderer with MSAA Although Leadwerks 5.0 launched with a clustered forward+ renderer , after extensive testing we felt the deferred lighting approach we've used since 2008 offers better support for large numbers of lights and decals. That's why Leadwerks 5.1 introduces an all-new MSAA-enabled deferred renderer with stencil-based optimizations and advanced support for transparency. \"Modern Apartment Interior\" using Khronos PBR neutral tone mapping, scene licensed CC Attribution: Katydid Improved Terrain Terrain rendering …",
+    "published": "Sat, 01 Aug 2026 21:44:42 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-02T09:50:46.518174"
+  },
+  "0d13b7d20176": {
+    "id": "0d13b7d20176",
+    "title": "In a turn-based strategy game, how does utility AI take global objectives into account?",
+    "link": "https://gamedev.net/forums/topic/720234-in-a-turn-based-strategy-game-how-does-utility-ai-take-global-objectives-into-account",
+    "summary": "I'm developing AI for a strategy game in the style of Advance Wars. When it is AI’s turn, it performs the highest-scoring action (Attack, Capture, etc.) for each unit it controls. However, if a unit cannot perform any action (that is, if there is nothing within its range to interact with), it either stays where it is or moves to random locations (Movement action). How can this problem be solved? For example, advancing toward the enemy's headquarters or advancing toward the current front line, for example",
+    "published": "Sun, 02 Aug 2026 08:46:04 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-02T09:50:46.518207"
   }
 }
