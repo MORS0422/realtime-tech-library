@@ -10378,5 +10378,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-08-02T09:50:46.518207"
+  },
+  "6152444d7a65": {
+    "id": "6152444d7a65",
+    "title": "Finding What Matters: Smarter News, Research, and Industry Directories",
+    "link": "https://gamedev.net/blogs/entry/2298215-finding-what-matters-smarter-news-research-and-industry-directories",
+    "summary": "In my last update , I wrote about the more personal side of what we've been building: avatars, badges, profile customization, and new ways to recognize the people who contribute to GameDev.net . This time, I want to cover the other half of the work: making GameDev.net better at helping you find useful information. That includes a new research hub, smarter news search, better technical release coverage, weekly digests, and public directories for game studios and schools. A new directory of game studios We've launched a public game studio directory covering studios, publishers, tool makers, middleware companies, and service providers …",
+    "published": "Sun, 02 Aug 2026 15:01:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-02T20:48:20.136281"
   }
 }
