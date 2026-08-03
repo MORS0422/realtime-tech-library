@@ -10388,5 +10388,65 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-08-02T20:48:20.136281"
+  },
+  "e011200ad45a": {
+    "id": "e011200ad45a",
+    "title": "Motion graphics tool Caddis 1.0 puts a node graph in every layer",
+    "link": "https://www.cgchannel.com/2026/08/new-motion-graphics-tool-caddis-puts-a-node-graph-in-every-layer/",
+    "summary": "Motion designer Mike Gaynor's neat After Effects alternative is now out of beta - and features new tracking, instancing and shading systems.",
+    "published": "Mon, 03 Aug 2026 08:00:31 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-03T11:15:55.585201"
+  },
+  "eeabc623f6e3": {
+    "id": "eeabc623f6e3",
+    "title": "Autodesk open-sources Golaem for Houdini and Unreal Engine",
+    "link": "https://www.cgchannel.com/2026/08/autodesk-open-sources-golaem-for-houdini-and-unreal-engine/",
+    "summary": "Add-ons for loading caches from the Maya crowd simulation add-on now available under an Apache 2.0 license, alongside Golaem 9.3.2.",
+    "published": "Mon, 03 Aug 2026 07:00:02 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-08-03T11:15:55.585228"
+  },
+  "61a1342dadc6": {
+    "id": "61a1342dadc6",
+    "title": "The Gnomon Workshop releases Introduction to ZBrush 2026",
+    "link": "https://www.cgchannel.com/2026/08/the-gnomon-workshop-releases-introduction-to-zbrush-2026/",
+    "summary": "Get up to speed with the digital sculpting software with Madeleine Scott-Spencer's popular training course, updated for ZBrush 2026.",
+    "published": "Mon, 03 Aug 2026 04:00:15 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-03T11:15:55.585242"
+  },
+  "65d48619ee19": {
+    "id": "65d48619ee19",
+    "title": "Escape Motions releases Rebelle 8.3",
+    "link": "https://www.cgchannel.com/2026/08/escape-motions-releases-rebelle-8/",
+    "summary": "Unusual update to the natural media painting app makes it possible to export the paint surface as a heightmap for use in 3D software.",
+    "published": "Sat, 01 Aug 2026 06:30:31 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-03T11:15:55.585256"
+  },
+  "712fa7160dd1": {
+    "id": "712fa7160dd1",
+    "title": "Phzical Inst. — 8 browser-based gamer skill tests. Think you're good? Prove it.",
+    "link": "https://gamedev.net/forums/topic/720238-phzical-inst-8-browser-based-gamer-skill-tests-think-youre-good-prove-it",
+    "summary": "Gamers talk. Scores don't lie. I built PHZICAL INST., a free browser-based challenge built around one idea: if you think you're good at games, prove it on the leaderboard. There are eight short tests, each focused on a different gaming skill: • Reaction Time — raw reactions and impulse control • Aim Training — speed and accuracy • Skillshot — movement prediction • Racing Dodge — dynamic vision • AoE Dodge — survival and positioning • Just Guard — defensive timing • Lock-On Tracking — target tracking and reacquisition • Last Hit — health prediction and timing It is built …",
+    "published": "Mon, 03 Aug 2026 09:25:46 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-03T11:16:02.933712"
+  },
+  "de0517c835f5": {
+    "id": "de0517c835f5",
+    "title": "Niagara: Killing particles based on Skeletal Mesh Vertex Color Data",
+    "link": "https://realtimevfx.com/t/niagara-killing-particles-based-on-skeletal-mesh-vertex-color-data/31390",
+    "summary": "First time really getting into scratch pad modules in Niagara. I want to create a vertical dissolve from top to bottom and I’m trying to figure out how to kill particles based on the alpha vertex color data of a skeletal mesh using a float input, but I’m not really sure where I’m going wrong. This seems like a fairly simple task and I’m just missing something really obvious. Any help would be greatly appreciated! This is my current Niagara Scratch Module: It’s setup up pretty much exactly like my shader. I assumed I could just sample the skeletal mesh and set the position and then resample the same skeletal mesh within the scratch pad to kill the particles based on where their position is. However, I don’t know how to get the position data and utilize it with the vertex color. 2 posts - 1 participant Read full topic",
+    "published": "Mon, 03 Aug 2026 08:22:35 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-08-03T11:15:56.999080"
   }
 }
