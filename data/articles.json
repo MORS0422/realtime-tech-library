@@ -10448,5 +10448,55 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-08-03T11:15:56.999080"
+  },
+  "79733f322de9": {
+    "id": "79733f322de9",
+    "title": "APHA 0.1",
+    "link": "https://gamedev.net/blogs/entry/2298230-apha-01",
+    "summary": "",
+    "published": "Mon, 03 Aug 2026 17:46:29 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-03T20:57:15.683522"
+  },
+  "bb9cfab9e3de": {
+    "id": "bb9cfab9e3de",
+    "title": "How Silent Hill: Townfall gets deep into its protagonist's headspace",
+    "link": "https://www.gamedeveloper.com/design/how-silent-hill-townfall-gets-deep-into-its-protagonist-s-headspace",
+    "summary": "We spoke with Silent Hill series producer Motoi Okamoto and game director Jon McKellan about embracing analog horror and fully immersing players in a new perspective.",
+    "published": "Mon, 03 Aug 2026 18:07:30 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-03T20:57:18.106885"
+  },
+  "11f4bbfd349f": {
+    "id": "11f4bbfd349f",
+    "title": "Report: FIFA World Cup developer Refactor Games shuttered by Delphi Interactive",
+    "link": "https://www.gamedeveloper.com/production/report-refactor-games-shuttered-by-delphi-interactive",
+    "summary": "The international soccer simulator only launched onto Netflix in June.",
+    "published": "Mon, 03 Aug 2026 16:01:21 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-03T20:57:18.106905"
+  },
+  "da34befe78a8": {
+    "id": "da34befe78a8",
+    "title": "Xbox hardware now costs a lot more in the UK and Europe",
+    "link": "https://www.gamedeveloper.com/business/xbox-hardware-now-costs-a-lot-more-in-the-uk-and-europe",
+    "summary": "Consumers will be expected to pay up to 50 percent more for some console hardware.",
+    "published": "Mon, 03 Aug 2026 14:55:23 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-03T20:57:18.106916"
+  },
+  "cf341ad796c9": {
+    "id": "cf341ad796c9",
+    "title": "PlayStation 5 sales have topped 95 million units worldwide",
+    "link": "https://www.gamedeveloper.com/business/playstation-5-sales-have-topped-95-million-units-worldwide",
+    "summary": "Sony has also secured over $510 million in U.S. tariff refunds.",
+    "published": "Mon, 03 Aug 2026 11:39:02 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-03T20:57:18.106926"
   }
 }
