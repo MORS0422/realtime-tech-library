@@ -10538,5 +10538,65 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-08-04T10:30:47.872798"
+  },
+  "0b8a5ef8762b": {
+    "id": "0b8a5ef8762b",
+    "title": "Free open-source UE5 content automation: JSON to DataAssets to live editor updates",
+    "link": "https://gamedev.net/blogs/entry/2298232-free-open-source-ue5-content-automation-json-to-dataassets-to-live-editor-updates",
+    "summary": "A free, open-source Unreal Engine 5 editor toolchain is available for developers working on data-heavy projects. The core idea is simple: change game content as plain JSON, and the editor-side pipeline carries the update end to end — it detects the changed data, regenerates typed DataAssets, and propagates the new definition into actors already placed in the editor scene, without a C++ recompile or manual asset rebuilding. This makes content text-based, version-controlled, diffable, reviewable, and safer for scripts, CI, and AI agents to propose. The pipeline is split into four public plugins: - **ProjectDefinitionGenerator** (`Plugins/Editor/ProjectDefinitionGenerator`) — watches JSON-backed definitions, validates …",
+    "published": "Tue, 04 Aug 2026 18:42:56 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-08-04T21:05:10.947420"
+  },
+  "7ce4997cedc6": {
+    "id": "7ce4997cedc6",
+    "title": "Xerath Updated VFX - League of Legends Fan Art",
+    "link": "https://realtimevfx.com/t/xerath-updated-vfx-league-of-legends-fan-art/31397",
+    "summary": "Recently I’ve been playing Xerath in League of Legends and, if you didn’t know, his ability effects were made around 10 years ago, soo… This time I decided to create my own, VGU for Xerath’s abilities (VFX). I decided to create this to push my limits, explore and challenge the boundaries of what I’m capable, at my current level as a VFX artist. The textures presented were all created by me, using Photoshop and Substance Designer. The shaders were created in UE5 alongside the effects, and the 3D models for the effects were created in Blender. This is a VFX fan art, I am not affiliated with Riot Games in any way, character models, animations, and environments belong to them. - YouTube https://www.artstation.com/artwork/Qxrn2E?notification_id=8351442296 1 post - 1 participant Read full topic",
+    "published": "Tue, 04 Aug 2026 13:02:00 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-08-04T21:05:02.795490"
+  },
+  "ebb53a0978e8": {
+    "id": "ebb53a0978e8",
+    "title": "EA is now owned by Saudi Arabia and Donald Trump's son-in-law",
+    "link": "https://www.gamedeveloper.com/business/ea-is-now-owned-by-saudi-arabia-and-donald-trump-s-son-in-law",
+    "summary": "The U.S. publisher has been taken private in a deal worth $55 billion.",
+    "published": "Tue, 04 Aug 2026 20:25:02 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-04T21:05:13.364392"
+  },
+  "9968c7819ae0": {
+    "id": "9968c7819ae0",
+    "title": "Devs raise $130,000 in just five days to support laid-off peers",
+    "link": "https://www.gamedeveloper.com/business/the-game-industry-hardship-fund-bundle-surpasses-130-000",
+    "summary": "The game industry hardship fund bundle, meant to support game workers during ongoing mass layoffs, is over halfway through its goal of 200,000 USD.",
+    "published": "Tue, 04 Aug 2026 18:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-04T21:05:13.364414"
+  },
+  "d8e7f438f8ba": {
+    "id": "d8e7f438f8ba",
+    "title": "Amid child safety lawsuits, Roblox says it 'continues' to push toward a standard for digital safety",
+    "link": "https://www.gamedeveloper.com/business/amid-child-safety-lawsuits-roblox-says-it-continues-to-set-a-standard-for-digital-safety",
+    "summary": "Roblox Corp is defending its ability to set the 'global standard' for healthy, safe, and age-appropriate digital engagement—all against the backdrop of multiple lawsuits accusing the company of endangering children.",
+    "published": "Tue, 04 Aug 2026 17:24:10 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-04T21:05:13.364434"
+  },
+  "e8bccc67cf68": {
+    "id": "e8bccc67cf68",
+    "title": "Live service revenue dominates in EA's last fiscal report ahead of Saudi deal",
+    "link": "https://www.gamedeveloper.com/business/live-service-revenue-dominates-in-ea-s-last-fiscal-report-ahead-of-saudi-merger",
+    "summary": "The company's take-private deal with a consortium led by Saudi Arabia's sovereign wealth fund is expected to conclude later today.",
+    "published": "Tue, 04 Aug 2026 10:34:49 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-04T21:05:13.364459"
   }
 }
