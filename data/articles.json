@@ -10498,5 +10498,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-03T20:57:18.106926"
+  },
+  "bd0a2b037c63": {
+    "id": "bd0a2b037c63",
+    "title": "Get 60,000+ free 3D assets for Maya, Godot and Rhino",
+    "link": "https://www.cgchannel.com/2026/08/get-60000-free-3d-assets-for-maya-godot-and-rhino-from-blendkit/",
+    "summary": "Formerly Blender-only asset library Blendkit is now available to users of other CG software. Check out its free 3D models, materials, and HDRIs.",
+    "published": "Tue, 04 Aug 2026 07:11:30 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-04T10:30:46.379988"
+  },
+  "104cfb51ee35": {
+    "id": "104cfb51ee35",
+    "title": "Volinga Plugin Pro lets you relight 4DGS data inside Unreal Engine",
+    "link": "https://www.cgchannel.com/2026/08/volinga-plugin-pro-lets-you-relight-4dgs-data-inside-unreal-engine/",
+    "summary": "Updated: UE5 plugin is a 'major leap' in Gaussian Splatting workflows for VFX and virtual production. Check out its key features.",
+    "published": "Tue, 04 Aug 2026 06:00:13 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-08-04T10:30:46.380014"
+  },
+  "fe9f85d68447": {
+    "id": "fe9f85d68447",
+    "title": "How do you automate repetitive tasks during game development?",
+    "link": "https://gamedev.net/forums/topic/720240-how-do-you-automate-repetitive-tasks-during-game-development",
+    "summary": "often find myself repeating the same sequence of clicks and keyboard shortcuts while testing or using game development tools. Do you use macro software (such as TinyTask or AutoHotkey), custom scripts, or built-in editor features to automate repetitive tasks? What has worked best for your workflow, and are there any tools you'd recommend?",
+    "published": "Tue, 04 Aug 2026 09:26:19 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-04T10:30:54.861627"
+  },
+  "8dd00b7217bd": {
+    "id": "8dd00b7217bd",
+    "title": "Strength Buff FX (WIP)",
+    "link": "https://realtimevfx.com/t/strength-buff-fx-wip/31395",
+    "summary": "Hey! everyone. Hope ya’ll doing well. Working on this physical strength buff for an ARPG. Still iterating on the timing. I’m conflicted on weather to keep the ground destruction mesh or completely remove it. Currently it’s using a placeholder. The aim is to create a buff that feels powerful and impactful while keeping the character readable during gameplay. 1 post - 1 participant Read full topic",
+    "published": "Tue, 04 Aug 2026 07:00:54 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-04T10:30:47.872798"
   }
 }
