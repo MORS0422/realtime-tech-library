@@ -10598,5 +10598,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-04T21:05:13.364459"
+  },
+  "751e906c374d": {
+    "id": "751e906c374d",
+    "title": "Is BiteTheBytes’ Material Creator the new Substance 3D Designer?",
+    "link": "https://www.cgchannel.com/2026/08/material-creator-will-be-a-true-alternative-to-substance-3d-designer/",
+    "summary": "See what we know about the World Creator developer's promising upcoming node-based material authoring app for games and VFX.",
+    "published": "Wed, 05 Aug 2026 09:14:26 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-05T10:28:25.162336"
+  },
+  "e05be53c5eca": {
+    "id": "e05be53c5eca",
+    "title": "See EDI’s high-octane VFX breakdown for Motorvalley",
+    "link": "https://www.cgchannel.com/2026/08/see-edis-high-octane-vfx-breakdown-for-motorvalley/",
+    "summary": "Check out the Italian studio's breakdown of the CG cars and eye-catching stunt effects for the Netflix motor sport drama.",
+    "published": "Wed, 05 Aug 2026 06:22:19 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-05T10:28:25.162358"
+  },
+  "56a9240db7dd": {
+    "id": "56a9240db7dd",
+    "title": "Climate Game",
+    "link": "https://gamedev.net/forums/topic/720244-climate-game",
+    "summary": "I am working on my climate crisis game again. I have got my sprites to draw to the screen with a copy from a fixed position. I don't know what to add to my game. I am kind of lean on ideas.",
+    "published": "Wed, 05 Aug 2026 05:28:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-05T10:28:32.812542"
   }
 }
