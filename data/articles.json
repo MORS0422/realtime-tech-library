@@ -10628,5 +10628,75 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-08-05T10:28:32.812542"
+  },
+  "094a7e2d2738": {
+    "id": "094a7e2d2738",
+    "title": "Drag[en]gine 1.33 and DEMoCap 0.9 Released",
+    "link": "https://gamedev.net/blogs/entry/2298235-dragengine-133-and-democap-09-released",
+    "summary": "Drag[en]gine 1.33 Release Download Drag[en]gine 1.33 This release contains the following main additions besides other improvements and fixes: OpenGL: Improved screen space reflections with HiZ refinement and quality control parameter. Enhanced shadow casting with screen space techniques to avoid surface acne. Bullet Physics: Added support for rig collision shape generation and automatic shape generation for model collision rigs. DragonScript: Improved camera directors with bone attaching support and enhanced animation behavior state management. Blender Add-On: Enhanced UV map handling with UI widget for selection and added \"export bone\" support for complex animation workflows. DEIGDE: Added meta properties system with animator editor …",
+    "published": "Wed, 05 Aug 2026 16:15:11 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-05T21:01:37.121037"
+  },
+  "d888c7a4c0b7": {
+    "id": "d888c7a4c0b7",
+    "title": "Mirroring a VR view",
+    "link": "https://gamedev.net/forums/topic/720247-mirroring-a-vr-view",
+    "summary": "I was wondering how best to display the VR view to a window, for the purpose of recording videos? Showing two eye views is very distracting. Rendering a third camera placed in front of the user's head will slow the framerate. Is there some known method of combining the two eye views into something that looks good enough for non-VR viewing?",
+    "published": "Wed, 05 Aug 2026 19:07:08 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-05T21:01:37.121057"
+  },
+  "33d6eac03660": {
+    "id": "33d6eac03660",
+    "title": "Rengifs : Sketch #69",
+    "link": "https://realtimevfx.com/t/rengifs-sketch-69/31405",
+    "summary": "Hi First challenge for me! I’ll do my best 2 posts - 1 participant Read full topic",
+    "published": "Wed, 05 Aug 2026 11:37:59 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-05T21:01:30.801401"
+  },
+  "21af1a9c160e": {
+    "id": "21af1a9c160e",
+    "title": "Publisher Secret Mode opens development studio to support internal projects",
+    "link": "https://www.gamedeveloper.com/business/publisher-secret-mode-opens-development-studio-to-support-internal-projects",
+    "summary": "The news comes a year after Secret Mode laid off a 'small number' of staff when it went independent.",
+    "published": "Wed, 05 Aug 2026 18:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-05T21:01:39.199101"
+  },
+  "e31f39495c01": {
+    "id": "e31f39495c01",
+    "title": "Candy Crush maker King has declined staff's collective bargaining agreement",
+    "link": "https://www.gamedeveloper.com/business/candy-crush-maker-king-has-declined-staff-s-collective-bargaining-agreement",
+    "summary": "The Microsoft-owned studio says its current benefits are 'in line with, or exceed' what the agreement would offer.",
+    "published": "Wed, 05 Aug 2026 17:01:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-05T21:01:39.199122"
+  },
+  "fc54526cec30": {
+    "id": "fc54526cec30",
+    "title": "Policymakers across Europe told to do more to support local game industry",
+    "link": "https://www.gamedeveloper.com/production/policymakers-across-europe-told-to-do-more-to-support-game-industry",
+    "summary": "'The productive capacity and exceptional dynamics of the games industry are indispensable, and it is high time they were put to greater use.'",
+    "published": "Wed, 05 Aug 2026 14:02:20 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-05T21:01:39.199132"
+  },
+  "e140ce2a9c34": {
+    "id": "e140ce2a9c34",
+    "title": "Coffee Stain bullish despite underperformance of Deep Rock Galactic spinoff",
+    "link": "https://www.gamedeveloper.com/business/coffee-stain-bullish-despite-underperformance-of-deep-rock-galactic-spinoff",
+    "summary": "Meanwhile, the company's popular Roblox title, Welcome to Bloxburg, generated $2.1 million during Q1.",
+    "published": "Wed, 05 Aug 2026 11:14:49 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-05T21:01:39.199141"
   }
 }
