@@ -10848,5 +10848,55 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "ue",
     "fetched_at": "2026-08-07T08:51:05.371982"
+  },
+  "3679998a3912": {
+    "id": "3679998a3912",
+    "title": "Designing a browser-local word-grid practice game",
+    "link": "https://gamedev.net/blogs/entry/2298240-designing-a-browser-local-word-grid-practice-game",
+    "summary": "I built Squaredle 2 as a lightweight word-grid practice game that runs entirely in the browser. The design goal was to make Daily, Express, Unlimited, and Solver modes feel immediate without requiring an account or sending puzzle progress to a server. For developers, the interesting constraint is keeping the interaction loop fast while preserving shareable routes and accessible controls. A solver is useful for learning patterns, while the practice modes keep the core experience playable on desktop and mobile. You can try the finished browser-local game here: https://squaredle2.org/ I would be interested in feedback on the input flow, grid readability, …",
+    "published": "Fri, 07 Aug 2026 16:58:10 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-07T20:33:51.101794"
+  },
+  "c555b834f884": {
+    "id": "c555b834f884",
+    "title": "Pushing the limits in Simulating a City, One Page at a Time",
+    "link": "https://www.gamedeveloper.com/design/pushing-the-limits-in-simulating-a-city-one-page-at-a-time",
+    "summary": "In which famed designer Stone Librande chronicles the design process of SimCity (2013) and the one-page design paradigm.",
+    "published": "Fri, 07 Aug 2026 17:08:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-07T20:33:54.302823"
+  },
+  "2ecab344f33c": {
+    "id": "2ecab344f33c",
+    "title": "GTA V surpasses 230 million sales months before GTA VI touches down",
+    "link": "https://www.gamedeveloper.com/business/gta-v-surpasses-230-million-sales-months-before-gta-vi-touches-down",
+    "summary": "Those sales were delivered across three console generations.",
+    "published": "Fri, 07 Aug 2026 15:34:18 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-07T20:33:54.302844"
+  },
+  "54bbf59aac92": {
+    "id": "54bbf59aac92",
+    "title": "What devs need to know about localization, ft. Concha Fernandez Alvarez, Aurelie Perrin, and Guido Di Carlo",
+    "link": "https://www.gamedeveloper.com/production/what-devs-need-to-know-about-localization-ft-concha-fernandez-alvarez-aurelie-perrin-and-guido-di-carlo",
+    "summary": "We're breaking down what developers need to know about working with localizers to bring their games to different languages.",
+    "published": "Fri, 07 Aug 2026 14:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-07T20:33:54.302858"
+  },
+  "e93f47068544": {
+    "id": "e93f47068544",
+    "title": "EA taken private by Saudi Arabia, GTA marketing jumps the shark, and Devolver's huge mistake - Patch Notes #64",
+    "link": "https://www.gamedeveloper.com/business/ea-taken-private-by-saudi-arabia-gta-marketing-jumps-the-shark-and-devolver-s-huge-mistake-patch-notes-64",
+    "summary": "Plus: You need to listen to the new single from The Avalanches.",
+    "published": "Fri, 07 Aug 2026 11:03:10 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-07T20:33:54.302869"
   }
 }
