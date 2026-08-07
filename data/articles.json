@@ -10708,5 +10708,135 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-08-06T10:32:51.315681"
+  },
+  "e75295179f9b": {
+    "id": "e75295179f9b",
+    "title": "Nekki releases Cascadeur 2026.2 with animation layers",
+    "link": "https://www.cgchannel.com/2026/08/nekki-releases-cascadeur-2026-2-with-animation-layers/",
+    "summary": "Varied update to the AI-assisted animation tool adds new animation layer system, easing controls for interpolation, and BVH import.",
+    "published": "Thu, 06 Aug 2026 14:06:14 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-07T00:50:56.553624"
+  },
+  "7891b852dd30": {
+    "id": "7891b852dd30",
+    "title": "Armature is a free AI-assisted standalone character rigging tool",
+    "link": "https://www.cgchannel.com/2026/08/armature-is-a-free-ai-assisted-standalone-character-rigging-tool/",
+    "summary": "Games artist Adrian Melian's tool rigs and skins characters and exports USD files for use in Maya, UE5 or Blender. Free to indie artists.",
+    "published": "Thu, 06 Aug 2026 12:41:05 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-08-07T00:50:56.553647"
+  },
+  "05582a819ad7": {
+    "id": "05582a819ad7",
+    "title": "Adobe releases Photoshop 27.9.1",
+    "link": "https://www.cgchannel.com/2026/08/adobe-releases-photoshop-27-9-1/",
+    "summary": "See the new features in the image editing app, including updates to the Remove tool and the option to save and restore font lists.",
+    "published": "Thu, 06 Aug 2026 07:28:52 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-07T00:50:56.553661"
+  },
+  "f23b5290b3f0": {
+    "id": "f23b5290b3f0",
+    "title": "See FutureWorks’ VFX breakdown for Indian epic Kantara: Chapter 1",
+    "link": "https://www.cgchannel.com/2026/08/see-futureworks-vfx-breakdown-for-indian-epic-kantara-chapter-1/",
+    "summary": "Check out the studio's breakdown of its VFX for the epic mythological fantasy, the second-highest-grossing Indian movie of 2025.",
+    "published": "Thu, 06 Aug 2026 06:20:11 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-07T00:50:56.553672"
+  },
+  "418a3d6d5ab8": {
+    "id": "418a3d6d5ab8",
+    "title": "Looking to hire people for dunyZ",
+    "link": "https://gamedev.net/blogs/entry/2298237-looking-to-hire-people-for-dunyz",
+    "summary": "Looking to hire people I am the CEO of dunyZ We’re just a small company one person that’s me I’m looking to hire people to build games in unreal engine if you wish to join Enter this WhatsApp group and send a message. https://chat.whatsapp.com/ELERGtYnrOh9XG5cgXB0M2?s=cl&amp;p=i&amp;mlu=4&amp;amv=0 If our game the Colombian race makes money I will pay everyone that help I really need developers also the first one that joins the group I will ask for an application. Just write a message about your life and why you want this you could also write a secondary part if you want to become …",
+    "published": "Thu, 06 Aug 2026 16:02:57 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-08-07T00:51:04.431155"
+  },
+  "de0ff23729a3": {
+    "id": "de0ff23729a3",
+    "title": "Understanding the manager pattern for an enemy state machine.",
+    "link": "https://gamedev.net/forums/topic/720252-understanding-the-manager-pattern-for-an-enemy-state-machine",
+    "summary": "So I have an enemy with 3 states, a manager, and a couple motors. So far the manager only controls state changes and runs the state update() of whichever state is selected. The manager defines three enums for each of the three states, then each state is represented by its own script. What I want to know is how I should organize and split data among states and manager. Should manager contain all the data and each state and motor access the manager to retrieve their data? Or should each state script have its own data. I understand that data …",
+    "published": "Thu, 06 Aug 2026 22:22:40 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-07T00:51:04.431188"
+  },
+  "d6e0ffcc35d6": {
+    "id": "d6e0ffcc35d6",
+    "title": "My first VFX portfolio",
+    "link": "https://realtimevfx.com/t/my-first-vfx-portfolio/31407",
+    "summary": "Hi, I’d like to share what I’ve been doing as a newbie for a few months now in VFX for my portfolio. https://www.artstation.com/tymofiisukhina/albums/15138819 1 post - 1 participant Read full topic",
+    "published": "Thu, 06 Aug 2026 19:03:00 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-07T00:50:57.493280"
+  },
+  "4eac064b69f1": {
+    "id": "4eac064b69f1",
+    "title": "Brais' Sketchbook",
+    "link": "https://realtimevfx.com/t/brais-sketchbook/31406",
+    "summary": "Hi everyone — I’m Brais, based in Barcelona. I studied game development and I’ve spent the last 4 years in the R&amp;D department of a TV production company, working across virtual production, internal tool development, and 3D for broadcast sets. Real-time VFX and tech art are what I actually want to do, so I’m starting this sketchbook to learn properly and get feedback. First piece: a stylized explosion. Full quality version: - YouTube Almost everything here is mesh-based rather than sprite-based, and the smoke runs on a procedural material I built to be reusable. The base material Before building the system I made a single procedural material meant to be reused across different meshes, fully parameter-driven. Everything is exposed so I can build a new look just by creating material instances. Current feature set: Modifiable panner and swirl Fake lighting Animated gradient curve Atlas curve Posterization Inflate Noise Dissolve, plus edge dissolve with emissive …and a few more In this explosion the smoke is driven mostly by the animated gradient curve and the dissolve, but the same material with different settings gives me these two examples: Material instance parameters (click for more details) It took me a while to build, but I hope to get a lot of use out of it in future projects. Breakdown Each part of the system, in build order: Initial blast — two sphere meshes with material from above, no sprites. Debris — a burst using event location to spawn ribbons. Shockwave — a disk mesh with radial UVs (U=0 at the centre, U=1 at the rim), on its own dedicated material. Heat distortion shockwave — same idea, refraction only. Blast mark — a plane on the ground. Smoke — a few cloud meshes at different positions, rotations and scales. One trick I like Two copies of the same mesh with inverted faces in the same system, sharing everything except the material colour. It lets the inside of the volume read differently from the outside. Any feedback is very welcome. I’ll keep using this thread to post new effects as I make them. 1 post - 1 participant Read full topic",
+    "published": "Thu, 06 Aug 2026 16:24:57 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-07T00:50:57.493409"
+  },
+  "8321ac206be9": {
+    "id": "8321ac206be9",
+    "title": "Nintendo Switch 2 hardware sales are down 34.4 percent year-on-year",
+    "link": "https://www.gamedeveloper.com/business/nintendo-switch-2-unit-sales-are-down-34-4-percent-year-on-year",
+    "summary": "The company's annual hardware forecast remains unchanged despite that downturn.",
+    "published": "Thu, 06 Aug 2026 16:47:36 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-07T00:51:06.912382"
+  },
+  "cda41a7c8a4f": {
+    "id": "cda41a7c8a4f",
+    "title": "Unity sells Supersonic publishing business to Tripledot for $40M",
+    "link": "https://www.gamedeveloper.com/business/unity-sells-supersonic-publishing-biz-to-tripledot-for-40m",
+    "summary": "Tripledot says the acquisition will better position it in 'the age of AI in gaming' and give it access to talent in Israel.",
+    "published": "Thu, 06 Aug 2026 16:17:44 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-07T00:51:06.912402"
+  },
+  "e7d39a6aa4c0": {
+    "id": "e7d39a6aa4c0",
+    "title": "Halo Studios jettisons long-serving contractors after launch of Halo: Campaign Evolved",
+    "link": "https://www.gamedeveloper.com/production/halo-studios-jettisons-long-serving-contractors-after-launch-of-halo-campaign-evolved",
+    "summary": "Some of those departing worked at the Washington studio for multiple years.",
+    "published": "Thu, 06 Aug 2026 14:21:21 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-07T00:51:06.912414"
+  },
+  "f709764f7f03": {
+    "id": "f709764f7f03",
+    "title": "Rockstar wants you to pay Netflix to watch the next GTA VI trailer before it's released to the masses",
+    "link": "https://www.gamedeveloper.com/marketing/rockstar-wants-you-to-pay-netflix-to-watch-the-next-gta-vi-trailer",
+    "summary": "The 'extended preview' will be available exclusively on Netflix for six hours before heading to YouTube.",
+    "published": "Thu, 06 Aug 2026 12:37:24 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-07T00:51:06.912426"
+  },
+  "1c7a5dc26b81": {
+    "id": "1c7a5dc26b81",
+    "title": "Devolver wants to delist because indie publishing is not 'compatible' with public trading",
+    "link": "https://www.gamedeveloper.com/business/devolver-wants-to-delist-because-indie-publishing-is-not-compatible-with-public-trading",
+    "summary": "The indie publisher claims public trading has created a 'valuation disconnect that does not take account of the lifetime and long-tail revenue delivery inherent in the video games business.'",
+    "published": "Thu, 06 Aug 2026 11:45:40 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-07T00:51:06.912440"
   }
 }
