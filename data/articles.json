@@ -10838,5 +10838,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-07T00:51:06.912440"
+  },
+  "df5f963e2c46": {
+    "id": "df5f963e2c46",
+    "title": "Help with Correct Programming Language and Graphics Library for Non-Editor Focused Game",
+    "link": "https://gamedev.net/forums/topic/720251-help-with-correct-programming-language-and-graphics-library-for-non-editor-focused-game",
+    "summary": "I want to make a small procedurally generated game. An engine such as Godot, Unity, or Unreal is overkill for the project. I began to make the game using Godot with C# and found myself not enjoying the inherently OOP programming style and ultimately not using the editor much at all. Rust High performance and memory safety is important to me, so I naturally gravitated towards Rust. The two graphics library options seem to boil down to WGPU and various bindings like SDL3 via sdl3-sys. My issue is that I am spending more time making a wrapper and worrying about …",
+    "published": "Fri, 07 Aug 2026 07:26:14 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-08-07T08:51:05.371982"
   }
 }
