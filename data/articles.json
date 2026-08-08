@@ -10918,5 +10918,15 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-08-08T08:32:45.766601"
+  },
+  "b9e7cd7767a7": {
+    "id": "b9e7cd7767a7",
+    "title": "Dev Log - 8 Major Fixes!",
+    "link": "https://gamedev.net/blogs/entry/2298242-dev-log-8-major-fixes",
+    "summary": "I scoped the review to every file touched by today's session rather than a diff). 229/229 tests were green before I started and stayed green after every fix. 8 of 9 verified candidates were fixed directly; 1 (a magic-special dispatch spread across four functions) came back REFUTED — the four touchpoints all delegate to one shared specialGateFor , so the drift scenario I worried about isn't actually constructible, and it's not in the findings list. Fixed (8): src/server/combat.js:167 — deriveOffenceDefence was overwriting fighter.def / atk with the unstyled raw values on every fight and every style switch, silently discarding melee/ranged/magic's …",
+    "published": "Sat, 08 Aug 2026 17:16:54 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-08T20:21:42.055380"
   }
 }
