@@ -10928,5 +10928,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-08-08T20:21:42.055380"
+  },
+  "6f942147bdd9": {
+    "id": "6f942147bdd9",
+    "title": "Combat rework, the West Reach & friends",
+    "link": "https://gamedev.net/blogs/entry/2298243-combat-rework-the-west-reach-friends",
+    "summary": "Combat now runs on seven trainable skills — Attack, Strength, Defence, HP, Magic, Prayer, Range — instead of one flat level. Melee and Ranged fighters pick an attack style (Accurate, Aggressive, Defensive, Controlled / Accurate, Rapid, Longrange) that shapes how they fight, including which signature move it unlocks. Wizards cast from a five-spell book, from Wind Strike up to Arcane Burst, unlocking as Magic levels up. Ward and Fervor prayers add toggled combat buffs. Melee weapons wear down with use and can be repaired at an anvil. The West Reach: your own homestead farm, buildable and shareable with friends. The …",
+    "published": "Sat, 08 Aug 2026 23:42:42 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-09T08:34:32.606293"
   }
 }
