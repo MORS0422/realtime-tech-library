@@ -10958,5 +10958,55 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-08-10T09:12:25.942068"
+  },
+  "94e3c3beeb0e": {
+    "id": "94e3c3beeb0e",
+    "title": "GGDB.pro - Good Gamer's Database",
+    "link": "https://gamedev.net/blogs/entry/2298246-ggdbpro-good-gamers-database",
+    "summary": "I’ve launched a platform that I believe gamers and game developers will really love:You can create your own professional portfolio, organize your game library, and when applying to a game studio, showcase your skills and experience with a single link.Think of it like IMDb and LinkedIn, but built specifically for the game industry.There’s a lot more to it, but I don’t want to bore you with too many details. If you’re interested, you can learn more about the idea here: https://medium.com/@fatihunal1989/good-gamers-database-what-is-ggdb-and-what-s-it-for-e72e23628024 And if you’d like to visit the platform: https://www.ggdb.pro If you like the idea, there’s more coming soon. Members …",
+    "published": "Mon, 10 Aug 2026 14:28:27 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-10T20:34:59.904465"
+  },
+  "fca5943ddac9": {
+    "id": "fca5943ddac9",
+    "title": "Any Tips for Development Documentation?",
+    "link": "https://gamedev.net/forums/topic/720214-any-tips-for-development-documentation",
+    "summary": "I've been struggling a lot with my projects for games and software. I work with C/C++ and prefer to not use any game engines. It was going okay but the entire time I was struggling with actually committing to one project and adding onto it. I realised that my somewhat significant issue with development is the lack of planning ahead. I tend to start programming with a concept in mind and not think about any actual features that I want, which result in me getting confused half-way through the development and adding a bunch of unnecessary features, and, later on, …",
+    "published": "Mon, 10 Aug 2026 17:22:14 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-10T20:34:59.904500"
+  },
+  "551d8295d427": {
+    "id": "551d8295d427",
+    "title": "The video game site backed by Walmart has laid off its editorial team",
+    "link": "https://www.gamedeveloper.com/business/the-video-game-site-backed-by-walmart-has-laid-off-its-editorial-team",
+    "summary": "Restart launched in December 2024 and had a five-person editorial team.",
+    "published": "Mon, 10 Aug 2026 16:31:01 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-10T20:35:02.248560"
+  },
+  "bc2a5229ac42": {
+    "id": "bc2a5229ac42",
+    "title": "EVE Online studio hires former Icelandic minister to lead autonomous AI efforts",
+    "link": "https://www.gamedeveloper.com/business/eve-online-studio-hires-former-icelandic-minister-to-lead-autonomous-ai-efforts",
+    "summary": "Fenris Creations (formerly known as CCP Games) went independent earlier this year and secured a minority investment from Google.",
+    "published": "Mon, 10 Aug 2026 15:02:54 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-10T20:35:02.248579"
+  },
+  "01c4d047edd2": {
+    "id": "01c4d047edd2",
+    "title": "Unity credits AI advertising platform for driving its 'best quarter ever'",
+    "link": "https://www.gamedeveloper.com/business/unity-credits-ai-advertising-platform-for-driving-its-best-quarter-ever-",
+    "summary": "Unity's revenue grew 24 percent year-over-year thanks to revenue from Unity Vector AI.",
+    "published": "Mon, 10 Aug 2026 13:46:23 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-10T20:35:02.248590"
   }
 }
