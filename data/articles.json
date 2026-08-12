@@ -11138,5 +11138,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-11T20:37:07.029611"
+  },
+  "5c83646bde9a": {
+    "id": "5c83646bde9a",
+    "title": "Check out DNEG’s gritty VFX breakdown for Motor City",
+    "link": "https://www.cgchannel.com/2026/08/check-out-dnegs-gritty-vfx-breakdown-for-motor-city/",
+    "summary": "See how the effects for the 1970s-set action thriller were created: from CG recreations of Detroit to wince-inducing combat sequences.",
+    "published": "Wed, 12 Aug 2026 08:52:03 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-12T09:06:12.666297"
+  },
+  "d3eb3af786f5": {
+    "id": "d3eb3af786f5",
+    "title": "MediaPlane 2.0 puts a nonlinear editor inside Maya",
+    "link": "https://www.cgchannel.com/2026/08/mediaplane-2-0-puts-a-nonlinear-editor-inside-maya/",
+    "summary": "Neat add-on lets animators import and scrub through reference video directly inside Maya - and now to edit entire reference sequences.",
+    "published": "Wed, 12 Aug 2026 04:30:49 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-12T09:06:12.666319"
+  },
+  "afb87652f2f1": {
+    "id": "afb87652f2f1",
+    "title": "'One flag for each laid off dev:' Union workers stage unmissable protest for Xbox boss Asha Sharma",
+    "link": "https://www.gamedeveloper.com/business/-one-flag-for-each-laid-off-dev-union-members-stage-unmissable-protest-for-xbox-boss-asha-sharma",
+    "summary": "It would be difficult to ignore the giant inflatable rat on the lawn.",
+    "published": "Wed, 12 Aug 2026 08:45:10 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-12T09:06:21.843552"
+  },
+  "fd52170826de": {
+    "id": "fd52170826de",
+    "title": "Former Ubisoft Barcelona devs launch Dark Ritual Studios",
+    "link": "https://www.gamedeveloper.com/business/former-ubisoft-barcelona-devs-launch-dark-ritual-studios",
+    "summary": "The news comes after Ubisoft moved to lay off of 51 employees at its Barcelona office.",
+    "published": "Tue, 11 Aug 2026 16:40:19 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-12T09:06:21.843601"
   }
 }
