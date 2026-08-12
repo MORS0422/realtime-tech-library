@@ -11178,5 +11178,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-12T09:06:21.843601"
+  },
+  "ac32380dde01": {
+    "id": "ac32380dde01",
+    "title": "Ephere releases Ornatrix 4 for Cinema 4D",
+    "link": "https://www.cgchannel.com/2026/08/ephere-releases-ornatrix-4-for-cinema-4d/",
+    "summary": "Check out the new features in the wide-ranging update to the Cinema 4D edition of the hair, fur and feather-generation add-on.",
+    "published": "Wed, 12 Aug 2026 14:15:40 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-12T20:36:17.790006"
+  },
+  "c947bed9d76b": {
+    "id": "c947bed9d76b",
+    "title": "OGame",
+    "link": "https://gamedev.net/blogs/entry/2296199-ogame",
+    "summary": "if you are a fan of browser-based space strategy games, OGame Life offers a unique and challenging universe where you can build your empire, command powerful fleets, and compete against other commanders from around the world. Unlike traditional games, OGame Life combines real-time strategy with dynamic events, alliances, and deep economic systems, giving you endless possibilities to expand and conquer. Whether you prefer peaceful trading or full-scale wars, the choice is yours. Join now and prove your skills among the stars: Play OGame Life Now .",
+    "published": "Wed, 12 Aug 2026 15:38:01 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-12T20:36:25.486748"
+  },
+  "dad3ae7f326d": {
+    "id": "dad3ae7f326d",
+    "title": "In case you wanna make a game like Wolf3d...",
+    "link": "https://gamedev.net/forums/topic/720273-in-case-you-wanna-make-a-game-like-wolf3d",
+    "summary": "I made a quick Python raycaster: I think it is pretty educational. import pygame import math import sys import winsound # --- Config --- WIDTH, HEIGHT = 800, 400 MAP_W, MAP_H = 16, 16 FOV = math.pi / 3 # 60 degrees HALF_FOV = FOV / 2 NUM_RAYS = 200 MAX_DEPTH = 16 TILE = 64 # for 2-D minimap # Simple map (1 = wall) world = [ 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1, 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1, 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1, 1,0,0,1,1,1,0,0,0,1,1,1,0,0,0,1, 1,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1, 1,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1, 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1, 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1, 1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1, 1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1, 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1, 1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1, 1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1, 1,0,0,1,1,1,0,0,0,1,1,1,0,0,0,1, 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1, 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1, ] def get_map(x, y): if 0 &lt;= x &lt; MAP_W and 0 &lt;= y &lt; …",
+    "published": "Wed, 12 Aug 2026 19:58:42 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-12T20:36:25.486793"
+  },
+  "153ab1c44f7a": {
+    "id": "153ab1c44f7a",
+    "title": "How would you create this smoke effect?",
+    "link": "https://realtimevfx.com/t/how-would-you-create-this-smoke-effect/31438",
+    "summary": "Hi everyone! I’m trying to recreate the smoke effect shown in the GIF below. What techniques would you use to achieve something like this? Flipbook, particles, VFX Graph, Houdini simulation, or a combination? I’d love to hear how you would approach it. 1 post - 1 participant Read full topic",
+    "published": "Wed, 12 Aug 2026 13:42:08 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-12T20:36:19.015058"
+  },
+  "cedaca5a17d7": {
+    "id": "cedaca5a17d7",
+    "title": "Amazon to rescind its publisher role on Lost Ark and Throne and Liberty by early 2027",
+    "link": "https://www.gamedeveloper.com/business/amazon-to-rescind-its-publisher-role-on-lost-ark-and-throne-and-liberty-by-early-2027",
+    "summary": "Amazon Games is returning the MMOs to their respective developers.",
+    "published": "Wed, 12 Aug 2026 16:38:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-12T20:36:28.242959"
+  },
+  "ba0a356e6c5b": {
+    "id": "ba0a356e6c5b",
+    "title": "Developers expect generative AI to impact roles and team sizes in the next three years",
+    "link": "https://www.gamedeveloper.com/business/developers-expect-generative-ai-to-impact-roles-and-team-sizes-in-the-next-three-years",
+    "summary": "A survey taken by 100 speakers at this year's Gamescom Dev Conference showcases hesitation and mixed feelings on generative AI use.",
+    "published": "Wed, 12 Aug 2026 14:42:54 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-12T20:36:28.242982"
+  },
+  "04f5c1469f06": {
+    "id": "04f5c1469f06",
+    "title": "Meccha Chameleon tops 20M sales in two months",
+    "link": "https://www.gamedeveloper.com/business/meccha-chameleon-tops-20m-sales-in-two-months",
+    "summary": "The hide-and-seek sensation continues to surpass milestones.",
+    "published": "Wed, 12 Aug 2026 14:09:41 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-12T20:36:28.242992"
+  },
+  "8a7e7889fab3": {
+    "id": "8a7e7889fab3",
+    "title": "Epic Games sells ArtStation and Sketchfab to KitBash",
+    "link": "https://www.gamedeveloper.com/business/epics-sells-artstation-and-sketchfab-to-kitbash",
+    "summary": "The Fortnite maker purchased both platforms in 2021.",
+    "published": "Wed, 12 Aug 2026 13:54:15 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-12T20:36:28.243002"
   }
 }
