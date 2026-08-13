@@ -11258,5 +11258,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-12T20:36:28.243002"
+  },
+  "10f605bc2fa7": {
+    "id": "10f605bc2fa7",
+    "title": "See how Untold Studios created Masters of the Universe titles",
+    "link": "https://www.cgchannel.com/2026/08/see-how-untold-studios-created-masters-of-the-universe-titles/",
+    "summary": "See the simulations beneath the skin of the animated title sequence for the new live-action movie in Mattel's He-Man media franchise.",
+    "published": "Thu, 13 Aug 2026 06:23:42 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-13T09:05:13.396916"
+  },
+  "6898d3e15492": {
+    "id": "6898d3e15492",
+    "title": "Robotics Game Idea only have document",
+    "link": "https://gamedev.net/forums/topic/720266-robotics-game-idea-only-have-document",
+    "summary": "I'm new here and I'm not sure where to post my game idea. I have a videogame concept and storyline, but don't have experience in development or art. Where can I post my idea for others to look at?",
+    "published": "Thu, 13 Aug 2026 00:09:36 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-13T09:05:21.036252"
+  },
+  "5a17a98856fc": {
+    "id": "5a17a98856fc",
+    "title": "Beginner Graphics Programming Study Guide",
+    "link": "https://gamedev.net/tutorials/programming/graphics/beginner-graphics-programming-study-guide-r6168",
+    "summary": "Introduction About This is a roadmap for learning basic graphics programming on one’s own, from free online resources. While graphics as a field isn’t tied to any specific programming language, tool, platform, or graphics API, for this guide I’ve chosen to use: C++ : Programming language in which CPU side code is written; the bulk of what we call programming tends to just be CPU programming. clang / g++ : Compiler taking C++ sources and converting them into executable/linkable binary files. CMake : The build system, used to generate OS+hardware specific build commands for any platform with the tools available …",
+    "published": "Thu, 13 Aug 2026 05:36:57 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-13T09:05:21.036293"
+  },
+  "ed07b377c7f9": {
+    "id": "ed07b377c7f9",
+    "title": "PBJayz: Sketch #69",
+    "link": "https://realtimevfx.com/t/pbjayz-sketch-69/31440",
+    "summary": "Heres my idea for this topic. I had an idea from an old game from kid days of De Blob. In short the game was about painting a world back to color when some enemy ink creatures were trying to remove all color. My idea is to have one of the inks sort of remove the color form a billboard, spray it back with some ink. Afterwards, we have another character come back and repaint the sign with color. And sort of loop loop that whole idea. I wanna try to make some character models and rig and animate this whole scene, but we will see how far i can go with that. It is a skill i wanna grow and develop. I def will make the vfx before i dip into characters. 2 posts - 2 participants Read full topic",
+    "published": "Wed, 12 Aug 2026 22:18:44 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-13T09:05:14.756100"
   }
 }
