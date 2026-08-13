@@ -11298,5 +11298,75 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-08-13T09:05:14.756100"
+  },
+  "58219412e439": {
+    "id": "58219412e439",
+    "title": "Can a 3D game be translated into an engine-independent intermediate representation?",
+    "link": "https://gamedev.net/blogs/entry/2298253-can-a-3d-game-be-translated-into-an-engine-independent-intermediate-representation",
+    "summary": "I've been working on an experimental 3D runtime in Go around a question that I haven't seen explored much from an engine architecture perspective: Can a 3D game be reverse-engineered, understood as a source program, and translated into a sufficiently general Intermediate Representation (IR) that can then be executed by a runtime that was never designed for that game? The important distinction is that I'm not trying to emulate or reproduce the original game engine. The model I'm experimenting with is closer to a compiler: Original game | Engine-specific frontend | Semantic reconstruction | Intermediate Representation | Independent runtime / …",
+    "published": "Thu, 13 Aug 2026 10:21:12 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-13T20:35:26.711072"
+  },
+  "abfd6d53410c": {
+    "id": "abfd6d53410c",
+    "title": "[PAID] Looking for a Unity VFX Artist – Stylized Mobile Tower Defense",
+    "link": "https://realtimevfx.com/t/paid-looking-for-a-unity-vfx-artist-stylized-mobile-tower-defense/31446",
+    "summary": "Looking for a Unity VFX Artist – Stylized Mobile Tower Defense Hi! I’m looking for a VFX Artist to help create effects for my stylized top-down mobile Tower Defense game built in Unity . I’m mainly looking for someone who can create polished and satisfying gameplay VFX such as: Tower attacks and projectiles Elemental effects (Fire, Storm, Nature, etc.) Hit, impact and explosion effects Trails, abilities and upgrade effects Enemy and boss effects The game has a colorful, stylized visual direction, so I’m looking for effects that are clean, readable from a top-down perspective and visually satisfying without being overly realistic . Since this is a mobile game, good performance and optimization are also important. Requirements: • Experience creating real-time VFX for games • Experience with Unity • Good understanding of Particle Systems / shaders • Ability to match an existing stylized art direction • Mobile optimization is a plus Paid freelance work Remote If you’re interested, please send me a DM with your portfolio/showreel, rates if u have, and availability . Thanks! 1 post - 1 participant Read full topic",
+    "published": "Thu, 13 Aug 2026 13:14:53 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-13T20:35:18.960736"
+  },
+  "57bf3265722c": {
+    "id": "57bf3265722c",
+    "title": "Netflix closing Oxenfree developer Night School Studio and Moonloot Games",
+    "link": "https://www.gamedeveloper.com/business/netflix-closing-oxenfree-developer-night-school-studio-and-moonloot-games",
+    "summary": "'We believe we can operate more strategically and efficiently within our Games business, and as a result are eliminating some additional Games roles'",
+    "published": "Thu, 13 Aug 2026 19:54:15 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-13T20:35:29.676559"
+  },
+  "f01ca759302c": {
+    "id": "f01ca759302c",
+    "title": "2K announces new Vancouver-based AAA studio led by EA veteran",
+    "link": "https://www.gamedeveloper.com/business/2k-announces-new-vancouver-based-studio-led-by-ea-veteran",
+    "summary": "After almost two decades at EA, Aaron McHardy will act as vice president, executive producer, and head of Small Axe Studios.",
+    "published": "Thu, 13 Aug 2026 16:38:33 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-13T20:35:29.676582"
+  },
+  "15f4683b419f": {
+    "id": "15f4683b419f",
+    "title": "Xsolla rolls out publishing tools to keep players 'engaged' after the first purchase",
+    "link": "https://www.gamedeveloper.com/business/xsolla-rolls-out-publishing-tools-to-keep-players-engaged-after-the-first-purchase",
+    "summary": "The commerce company wants to give studios more ways to drive repeat purchases.",
+    "published": "Thu, 13 Aug 2026 15:16:47 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-13T20:35:29.676594"
+  },
+  "17cb4a389cdc": {
+    "id": "17cb4a389cdc",
+    "title": "Saber Interactive to add Rideshare 'Stimulator' AI disclosure after public controversy",
+    "link": "https://www.gamedeveloper.com/business/saber-interactive-denies-replacing-writers-with-ai-on-rideshare-stimulator-",
+    "summary": "'Neither Saber nor Unigine have replaced any writers with AI for Rideshare or any other game.'",
+    "published": "Thu, 13 Aug 2026 14:31:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-13T20:35:29.676605"
+  },
+  "7022cc623e63": {
+    "id": "7022cc623e63",
+    "title": "Opinion: Deprofessionalization could foster toxic work environments on small teams",
+    "link": "https://www.gamedeveloper.com/production/opinion-deprofessionalization-could-foster-toxic-work-environments-on-small-teams",
+    "summary": "As smaller teams see bigger success, how will the game industry protect professional standards of conduct?",
+    "published": "Thu, 13 Aug 2026 13:36:46 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-13T20:35:29.676615"
   }
 }
