@@ -11398,5 +11398,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-08-14T09:02:11.579120"
+  },
+  "77977ef4a586": {
+    "id": "77977ef4a586",
+    "title": "VFX and UI for a spellbook in my game",
+    "link": "https://realtimevfx.com/t/vfx-and-ui-for-a-spellbook-in-my-game/31462",
+    "summary": "Prototype of a spellbook that I created for my game. I handled everything from the initial concept to the Unity implementation, including animations, VFX, and programming. The spellbook is fully functional. https://www.youtube.com/watch?v=ItHEGfc0k7I 1 post - 1 participant Read full topic",
+    "published": "Fri, 14 Aug 2026 15:02:39 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-14T20:24:34.846078"
+  },
+  "bc33e3fbea8e": {
+    "id": "bc33e3fbea8e",
+    "title": "Scabby versus Sharma, Twitch's GenAI admission, and Netflix shutters more studios - Patch Notes #65",
+    "link": "https://www.gamedeveloper.com/business/scabby-versus-sharma-twitch-s-genai-admission-and-netflix-shutters-more-studios-patch-notes-65",
+    "summary": "Plus: Big sales for Big Walk and some welcome preservation news.",
+    "published": "Fri, 14 Aug 2026 10:51:43 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-14T20:24:45.580137"
   }
 }
