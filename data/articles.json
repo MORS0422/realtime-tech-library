@@ -11438,5 +11438,35 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-08-15T08:19:53.828881"
+  },
+  "6c8554b08898": {
+    "id": "6c8554b08898",
+    "title": "Why Great Games Need Great Music (And How the Right Score Changes Everything)",
+    "link": "https://gamedev.net/blogs/entry/2298261-why-great-games-need-great-music-and-how-the-right-score-changes-everything",
+    "summary": "How Music Can Transform a Video Game: A Composer’s Perspective By Valentijn Hoogwerf Video games have evolved into one of the most powerful storytelling mediums in the world. While visuals and gameplay often receive the spotlight, music is what gives a game its emotional identity. The right song or score can turn a memorable scene into an unforgettable one. As both a songwriter and composer, I’ve spent years creating music for artists, film and television productions, including Disney projects, as well as developing my own catalog of cinematic songs. That experience has shown me one consistent truth: great music doesn’t …",
+    "published": "Sat, 15 Aug 2026 10:19:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-15T20:15:08.554412"
+  },
+  "e9b04d9247dc": {
+    "id": "e9b04d9247dc",
+    "title": "Game engine audio -- constraints and best practices",
+    "link": "https://gamedev.net/forums/topic/720285-game-engine-audio-constraints-and-best-practices",
+    "summary": "I'm trying to integrate SDL_mixer into my game engine. I want to do this to produce feature-complete demos for my portfolio, but I also want to do it in such a way that I can minimize how much I'll need to revisit my engine's audio system in the future. I understand that the overall process for loading and playing a sound goes something like: Initialize SDL_mixer Create as many tracks as I'll want simultaneous sounds in my game Load the audio clips I'll need for a particular game/level Push audio clips to the tracks, with additional data for effects as …",
+    "published": "Sat, 15 Aug 2026 19:16:37 +0000",
+    "source_name": "GameDev - Tech Art",
+    "category": "ta",
+    "fetched_at": "2026-08-15T20:14:58.855251"
+  },
+  "50939e436cbe": {
+    "id": "50939e436cbe",
+    "title": "3d physics environment as an alternative approach to creating 3d computer games",
+    "link": "https://gamedev.net/forums/topic/720286-3d-physics-environment-as-an-alternative-approach-to-creating-3d-computer-games",
+    "summary": "3d computer games are often criticized for looking realistic but feeling static - just like \"walking through a 3d scene\" with limited interaction. Even if these games utilize physics simulation in some aspects, overall they present inconsistent, unconvincing interactions and behaviors. 3d physics environment addresses this by introducing alternative approach to creating computer games, where the application development model is built around physics simulation instead of around rendering or scene graphs - this model eliminates entire classes of bugs and enables the creation of unified, emergent, consistent worlds that feel more real and more dynamic. We invite you to read …",
+    "published": "Sat, 15 Aug 2026 19:23:10 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-15T20:15:08.554448"
   }
 }
