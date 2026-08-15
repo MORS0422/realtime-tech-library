@@ -11418,5 +11418,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-14T20:24:45.580137"
+  },
+  "8bdcf79b2760": {
+    "id": "8bdcf79b2760",
+    "title": "Auras, Effect Stacking, Resistances & GF/MF/Bonus XP stats",
+    "link": "https://gamedev.net/blogs/entry/2298259-auras-effect-stacking-resistances-gfmfbonus-xp-stats",
+    "summary": "What it do squad! This week was a little different. I started off with the usual development routine, but halfway through the week I got some outside inspiration that pushed me to finally publicly announce ecks RPG. That was a huge step, and naturally, announcing it meant I immediately decided the public repository needed to be cleaned up for guests. 😂 What started as a documentation cleanup turned into three days of expanding and organizing the public-facing side of the project. The repository went from roughly 70–80 documents to 168 and growing. I also updated screenshots, put together a five-minute …",
+    "published": "Sat, 15 Aug 2026 00:43:49 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-15T08:19:53.828866"
+  },
+  "5c1d9e335727": {
+    "id": "5c1d9e335727",
+    "title": "race car game",
+    "link": "https://gamedev.net/forums/topic/720284-race-car-game",
+    "summary": "So, I worked on a racecar game: http://bismuth8311.itch.io/kargame Any feedback is appreciated.",
+    "published": "Fri, 14 Aug 2026 23:29:34 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-15T08:19:53.828881"
   }
 }
