@@ -11478,5 +11478,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-08-16T08:21:02.482138"
+  },
+  "46d26ddb6e34": {
+    "id": "46d26ddb6e34",
+    "title": "How to resize images locally before upload without giving up privacy",
+    "link": "https://gamedev.net/blogs/entry/2298263-how-to-resize-images-locally-before-upload-without-giving-up-privacy",
+    "summary": "Most web upload flows send original pixels before they consider dimensions or file size. For privacy-conscious tools, the browser can do the work first: decode with createImageBitmap, cap dimensions and pixel count, draw to a canvas, export a derived Blob, and upload only if the user chooses. I built IncreaseImages to make this workflow approachable. It resizes JPG, PNG, and WebP images in the browser, supports target file-size guidance, and keeps the original on the user’s device. Try the browser-local tool: https://increaseimages.org/ The same pattern is useful for avatars, CMS uploads, and forms with strict byte limits. Test large images, …",
+    "published": "Mon, 17 Aug 2026 06:54:21 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-17T08:35:24.198244"
   }
 }
