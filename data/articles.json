@@ -11488,5 +11488,55 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-08-17T08:35:24.198244"
+  },
+  "bd6aa1a054f0": {
+    "id": "bd6aa1a054f0",
+    "title": "ALIS 1.0.0: first free playable Windows build — walk a reconstructed real city district",
+    "link": "https://gamedev.net/blogs/entry/2298264-alis-100-first-free-playable-windows-build-walk-a-reconstructed-real-city-district",
+    "summary": "The first free playable build of ALIS is out for Windows. ALIS is an early single-player prototype — not a finished game. It reconstructs a real city district you can walk through, with a metabolism simulation running underneath: vitals follow real medical timelines, and a dying state cannot simply be powered through. In this build: - a walkable reconstruction of a real place - the vitals and metabolism system driving survival - the full source, open for inspection and contribution Not in yet: polished gameplay loops, tuned performance, final content. This is a prototype for early testers and curious developers, …",
+    "published": "Mon, 17 Aug 2026 08:13:09 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-17T20:18:49.779423"
+  },
+  "b2196ea78e9d": {
+    "id": "b2196ea78e9d",
+    "title": "How Forbidden Solitaire brought solitaire games to the forefront",
+    "link": "https://www.gamedeveloper.com/design/how-forbidden-solitaire-brought-solitaire-games-to-the-forefront",
+    "summary": "Its success has allowed Grey Alien Games to reach out to more Steam players than ever.",
+    "published": "Mon, 17 Aug 2026 14:51:26 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-17T20:18:52.273598"
+  },
+  "20387e5a41df": {
+    "id": "20387e5a41df",
+    "title": "Inner Pocket is a new indie publisher looking to champion 'curiosity games'",
+    "link": "https://www.gamedeveloper.com/business/inner-pocket-is-a-new-indie-publishing-label-that-wants-to-champion-intimate-experiences",
+    "summary": "The indie publisher has been established by a group of Critical Reflex, Gaijin Entertainment, and Nozomu Games veterans.",
+    "published": "Mon, 17 Aug 2026 14:15:46 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-17T20:18:52.273619"
+  },
+  "c06861aeaba8": {
+    "id": "c06861aeaba8",
+    "title": "Pokemon Pokopia has topped 5 million sales worldwide",
+    "link": "https://www.gamedeveloper.com/business/pokemon-pokopia-has-topped-5-million-sales-worldwide",
+    "summary": "I choose you.",
+    "published": "Mon, 17 Aug 2026 13:14:14 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-17T20:18:52.273629"
+  },
+  "0b26889f4dc1": {
+    "id": "0b26889f4dc1",
+    "title": "Barbie and Hot Wheels owner Mattel launches Mattel Game Studios",
+    "link": "https://www.gamedeveloper.com/business/barbie-and-hot-wheels-owner-mattel-launches-mattel-game-studios",
+    "summary": "The toy company wants to develop, publish, and operate video games based on its sprawling brand portfolio.",
+    "published": "Mon, 17 Aug 2026 11:15:50 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-17T20:18:52.273640"
   }
 }
