@@ -11538,5 +11538,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-17T20:18:52.273640"
+  },
+  "c80f27b4ecec": {
+    "id": "c80f27b4ecec",
+    "title": "Stylized Water & Ocean Combat VFX (Work in Progress)",
+    "link": "https://realtimevfx.com/t/stylized-water-ocean-combat-vfx-work-in-progress/31478",
+    "summary": "Description: Currently working on a Stylized Real-Time Water &amp; Wave VFX project built in Unreal Engine . My goal with this project is to capture the vibrant, artistic essence of stylized liquid motion—ranging from powerful ocean wave explosions and character skill effects to deep underwater caustics and lighting. Key Technical &amp; Visual Focus: Custom Shader development for stylized water textures and iridescent refraction. Niagara Particle System for dynamic splashes, ripples, and ambient bubble elements. Dynamic timing and impact weight for fluid combat integration. Feedback and suggestions are always welcome! Stay tuned for updates. YouTube 260817 new 스타일라이즈드 해일 이펙트 제작과정 스라드 6개월차 강의를 제작중입니다바다속 궁극기를 확인해보세요! 1 post - 1 participant Read full topic",
+    "published": "Tue, 18 Aug 2026 01:27:11 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-08-18T08:27:40.491494"
+  },
+  "33506f6eeabb": {
+    "id": "33506f6eeabb",
+    "title": "WINGS really, really wants to fund your neat indie video game",
+    "link": "https://www.gamedeveloper.com/business/wings-really-really-wants-to-fund-your-neat-indie-video-game",
+    "summary": "The indie investor, which is committed to empowering women and gender-marginalized devs, is introducing new funding pathways for PC projects of all shapes and sizes.",
+    "published": "Tue, 18 Aug 2026 08:00:49 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-18T08:27:49.294327"
   }
 }
