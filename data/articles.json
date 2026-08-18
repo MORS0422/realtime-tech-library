@@ -11558,5 +11558,105 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-18T08:27:49.294327"
+  },
+  "d2bad4bd1acd": {
+    "id": "d2bad4bd1acd",
+    "title": "Check out benuts’ 1980s-tastic VFX breakdown for Police Flash 80",
+    "link": "https://www.cgchannel.com/2026/08/check-out-benuts-1980s-tastic-vfx-breakdown-for-police-flash-80/",
+    "summary": "Check out benuts' VFX breakdown for the cop comedy - from stunts and gunfire to an eye-replacement for a cartoon aubergine costume.",
+    "published": "Tue, 18 Aug 2026 06:00:48 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-18T20:15:50.542046"
+  },
+  "5d14a57c3fd3": {
+    "id": "5d14a57c3fd3",
+    "title": "ArtDeck is a new alternative to PureRef that supports video",
+    "link": "https://www.cgchannel.com/2026/08/artdeck-is-a-new-alternative-to-pureref-that-supports-video/",
+    "summary": "$6 app collects visual reference for art, animation and motion graphics projects into organized boards, and can import and step through videos.",
+    "published": "Tue, 18 Aug 2026 04:30:23 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-18T20:15:50.542070"
+  },
+  "6e1be40e7155": {
+    "id": "6e1be40e7155",
+    "title": "See ReDefine’s VFX breakdown of Indian war drama Ikkis",
+    "link": "https://www.cgchannel.com/2026/08/see-redefines-vfx-breakdown-of-indian-war-drama-ikkis/",
+    "summary": "Check out ReDefine's making-of for the tank combat sequences, some visceral, recreating events from the 1971 India-Pakistan war.",
+    "published": "Mon, 17 Aug 2026 07:55:46 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-18T20:15:50.542104"
+  },
+  "2c8b870293fa": {
+    "id": "2c8b870293fa",
+    "title": "New CG software you may have missed: 16 August 2026",
+    "link": "https://www.cgchannel.com/2026/08/new-cg-software-you-may-have-missed-16-august-2026/",
+    "summary": "See the week's other updates to CG tools, like V-Ray 7.4 for Cinema 4D, Storm HydroFX 1.5, and free motion graphics tool Autograph 2026.1.",
+    "published": "Mon, 17 Aug 2026 04:30:29 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-18T20:15:50.542118"
+  },
+  "993cbec99ffb": {
+    "id": "993cbec99ffb",
+    "title": "Tutorial: Tracking & Compositing VFX for Film & TV",
+    "link": "https://www.cgchannel.com/2026/08/tutorial-tracking-compositing-vfx-for-film-tv/",
+    "summary": "Master common real-world production workflows with The Gnomon Workshop's essential new visual effects tutorial.",
+    "published": "Sat, 15 Aug 2026 06:00:15 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-18T20:15:50.542129"
+  },
+  "a3b8fe70f6a6": {
+    "id": "a3b8fe70f6a6",
+    "title": "First Steampunk era preview screenshots",
+    "link": "https://gamedev.net/blogs/entry/2298269-first-steampunk-era-preview-screenshots",
+    "summary": "Hello everyone! Today, we’re excited to share the first screenshots of the Steampunk Era in Age After Age. Take a look at how the city, technologies, and atmosphere evolve in this new age! Hope you will like them! Waiting for your feedback, and here is also a quick reminder: Meet us at GamesCom 2026 Cologne at Hall 10.2, Booth F-021g We will bring new special demo for this event for you to try! See you there!",
+    "published": "Tue, 18 Aug 2026 12:41:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-18T20:15:58.306177"
+  },
+  "532cd8f6df9c": {
+    "id": "532cd8f6df9c",
+    "title": "Memory crisis is driving uncertainty over PlayStation 6's launch date",
+    "link": "https://www.gamedeveloper.com/business/memory-crisis-is-causing-uncertainty-over-playstation-6",
+    "summary": "Sony CEO Hiroki Totoki says the company is yet to fix a date for the PlayStation 6 launch.",
+    "published": "Tue, 18 Aug 2026 17:16:55 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-18T20:16:00.127249"
+  },
+  "cd391fe86e72": {
+    "id": "cd391fe86e72",
+    "title": "Deus Ex director Warren Spector is retiring after nearly 45 years in game dev",
+    "link": "https://www.gamedeveloper.com/business/deus-ex-director-warren-spector-is-retiring-after-43-years",
+    "summary": "Spector 'thinks' he's retiring for good, despite having ideas for three games he'd love to make.",
+    "published": "Tue, 18 Aug 2026 17:14:19 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-18T20:16:00.127270"
+  },
+  "aa288af313ce": {
+    "id": "aa288af313ce",
+    "title": "Roblox being investigated by U.S. Senate after reporting 65,381 instances of suspected child abuse in 2025",
+    "link": "https://www.gamedeveloper.com/business/roblox-being-investigated-by-u-s-senate-after-reporting-65-381-instances-of-suspected-child-abuse-in-2025",
+    "summary": "'Let us be clear: children on your platform are hurting. Congress will not look the other way.'",
+    "published": "Tue, 18 Aug 2026 10:22:11 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-18T20:16:00.127282"
+  },
+  "74a7b8267203": {
+    "id": "74a7b8267203",
+    "title": "Arco tops 100,000 sales in two years and breaks even",
+    "link": "https://www.gamedeveloper.com/business/arco-breaks-even-after-topping-100-000-sales",
+    "summary": "One member of the development team described the achievement as 'incredible.'",
+    "published": "Tue, 18 Aug 2026 09:28:08 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-18T20:16:00.127293"
   }
 }
