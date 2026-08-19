@@ -11658,5 +11658,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-18T20:16:00.127293"
+  },
+  "21579644db1f": {
+    "id": "21579644db1f",
+    "title": "Email notifications",
+    "link": "https://gamedev.net/forums/topic/720298-email-notifications",
+    "summary": "Industry news are fine but where did the this and that currently take place on the forums update go?",
+    "published": "Wed, 19 Aug 2026 00:42:17 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-19T08:28:55.298982"
+  },
+  "a66bec1911ca": {
+    "id": "a66bec1911ca",
+    "title": "'I feel dirty:' EA workers trapped in a maelstrom of cynicism and doubt after Saudi buyout",
+    "link": "https://www.gamedeveloper.com/business/-i-feel-dirty-ea-workers-trapped-in-a-maelstrom-of-after-following-saudi-buyout",
+    "summary": "Multiple current EA employees share their views on how the publisher's seismic $55 billion take-private will impact the people behind its popular franchises.",
+    "published": "Wed, 19 Aug 2026 08:13:19 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-19T08:28:57.695685"
   }
 }
