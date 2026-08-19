@@ -11678,5 +11678,105 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-19T08:28:57.695685"
+  },
+  "4a88682b7710": {
+    "id": "4a88682b7710",
+    "title": "Scantic trains 3D Gaussian Splats entirely on your phone",
+    "link": "https://www.cgchannel.com/2026/08/scantic-trains-gaussian-splats-entirely-on-your-phone/",
+    "summary": "New iOS app generates 3DGS scans of objects and environments entirely on your phone, without cloud processing. The base app is free.",
+    "published": "Wed, 19 Aug 2026 14:52:34 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-19T20:19:29.062938"
+  },
+  "d80abc189286": {
+    "id": "d80abc189286",
+    "title": "See how Storm Studios created its VFX for Season 2 of Percy Jackson",
+    "link": "https://www.cgchannel.com/2026/08/see-storm-studios-vfx-breakdown-for-season-2-of-percy-jackson/",
+    "summary": "Discover how the studio created custom solvers to attach CG barnacles to the surface of the Sirens for the fantasy TV series.",
+    "published": "Wed, 19 Aug 2026 06:54:30 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-19T20:19:29.062957"
+  },
+  "92624a16d694": {
+    "id": "92624a16d694",
+    "title": "CreativeRates tells you how much other people are earning in VFX",
+    "link": "https://www.cgchannel.com/2026/08/creativerates-tells-you-how-much-other-people-are-earning-in-vfx/",
+    "summary": "New site shows real-world pay data for jobs in VFX, animation, games and motion graphics, submitted anonymously by other users.",
+    "published": "Wed, 19 Aug 2026 04:30:30 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-19T20:19:29.062967"
+  },
+  "912e52ea2a88": {
+    "id": "912e52ea2a88",
+    "title": ".gr2 optimizer radgame tools granny 2.11",
+    "link": "https://gamedev.net/blogs/entry/2298272-gr2-optimizer-radgame-tools-granny-211",
+    "summary": "\"The majority of this project was developed with the assistance of Gemini.\" \"The world is a guesthouse. Man will stay in it only briefly, yet he is a guest with many duties, and in a short lifetime he is responsible for preparing the provisions necessary for eternal life.\" &gt;preprocessorx86.exe ListCommands The Granny Preprocessor supports the following 71 commands. Note that a '*' following a command name indicates that it is batchable. AddTextTrack * : Add text_tracks from the command line AddTexture : Adds a texture to the file specified with '-database' BindMeshes * : Combines root level elements of the …",
+    "published": "Wed, 19 Aug 2026 10:05:41 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-19T20:19:36.123845"
+  },
+  "c0b4dbb7b7fe": {
+    "id": "c0b4dbb7b7fe",
+    "title": "How I Choose a Prebuilt Mobile Game Project That Runs Perfectly",
+    "link": "https://gamedev.net/forums/topic/720303-how-i-choose-a-prebuilt-mobile-game-project-that-runs-perfectly",
+    "summary": "I’m not building from scratch. I want to buy a prebuilt mobile game project, customize it, and launch faster. But after reviewing many marketplace projects, I learned one important thing: a project can look amazing in screenshots and still perform badly on real Android devices. So here is the exact checklist I now use before buying any mobile game source code project. 1) I verify real Android performance first Before buying, I check if the seller shows: Real Android gameplay video (not only editor footage) FPS and device test info (mid-range phones, not just flagship) APK demo or test build …",
+    "published": "Wed, 19 Aug 2026 17:10:56 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-19T20:19:36.123874"
+  },
+  "38bc8b6d3a03": {
+    "id": "38bc8b6d3a03",
+    "title": "Dark Waters Tornado",
+    "link": "https://realtimevfx.com/t/dark-waters-tornado/31484",
+    "summary": "Hello again! This was my take on a Tornado VFX. This time I decided to create something much simpler and in a shorter time frame then all my previous visual effects! The main theme of the color palette was “Dark Waters Vladimir” from League of Legends, and took inspiration from Galio’s Q ability. Hope you like it! - YouTube https://www.artstation.com/artwork/mOzW9y 1 post - 1 participant Read full topic",
+    "published": "Wed, 19 Aug 2026 14:23:08 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-19T20:19:29.824209"
+  },
+  "1466fde08287": {
+    "id": "1466fde08287",
+    "title": "Harvey Smith and fellow Arkane Austin veterans announce a new studio, Black Pony Immersive",
+    "link": "https://www.gamedeveloper.com/business/harvey-smith-and-fellow-arkane-austin-veterans-launch-a-new-studio",
+    "summary": "Black Pony Immersive will design and develop first-person action RPGs.",
+    "published": "Wed, 19 Aug 2026 16:35:10 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-19T20:19:38.457702"
+  },
+  "b91a93a3d4a6": {
+    "id": "b91a93a3d4a6",
+    "title": "Triple-A vets and accessibility experts launch new game dev co-op: Raze and Rebuild Studio",
+    "link": "https://www.gamedeveloper.com/business/triple-a-vets-and-accessibility-experts-launch-new-game-dev-co-op-raze-and-rebuild-studio",
+    "summary": "Raze and Rebuild Studio hopes to make the most of its co-op structure.",
+    "published": "Wed, 19 Aug 2026 15:09:17 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-19T20:19:38.457720"
+  },
+  "0ddf4307fb27": {
+    "id": "0ddf4307fb27",
+    "title": "Report: PlayStation scales back live service ambitions for Horizon Hunters Gathering, reassigns devs",
+    "link": "https://www.gamedeveloper.com/business/report-playstation-reworks-horizon-live-service-game-after-negative-feedback",
+    "summary": "PlayStation-owned Guerrilla Games is reportedly stripping out the live service component of Horizon Hunters Gathering following poor feedback.",
+    "published": "Wed, 19 Aug 2026 13:43:14 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-19T20:19:38.457730"
+  },
+  "d54779c61476": {
+    "id": "d54779c61476",
+    "title": "Human: Fall Flat veterans launch new UK studio Pretty Cool Games",
+    "link": "https://www.gamedeveloper.com/business/human-fall-flat-veterans-launch-new-uk-studio-pretty-cool-games",
+    "summary": "The studio is hiring after securing financing for its debut project.",
+    "published": "Wed, 19 Aug 2026 10:34:39 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-19T20:19:38.457738"
   }
 }
