@@ -11818,5 +11818,65 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-08-20T08:29:42.290033"
+  },
+  "586cd7ae752b": {
+    "id": "586cd7ae752b",
+    "title": "See how Vine FX created 150 VFX shots for Enola Holmes 3",
+    "link": "https://www.cgchannel.com/2026/08/see-how-vine-fx-created-150-vfx-shots-for-enola-holmes-3/",
+    "summary": "See a VFX breakdown for the Victorian era mystery drama, from subtle invisible effects to creative sequences visualizing Enola's thoughts.",
+    "published": "Thu, 20 Aug 2026 05:27:45 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-20T20:20:57.309009"
+  },
+  "4848b8a0c2f7": {
+    "id": "4848b8a0c2f7",
+    "title": "Version 0.0.1",
+    "link": "https://gamedev.net/blogs/entry/2298275-version-001",
+    "summary": "What is V0.0.1? Version 0.0.1 is NOT version 0.1! This is just an early version that im sharing so people can test the game in it's current state. What will change: -Sounds -Music (Will be added) -Features &amp; Gameplay -Hazards &amp; Enemies",
+    "published": "Thu, 20 Aug 2026 11:54:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-20T20:21:11.290627"
+  },
+  "fa0078f1dc55": {
+    "id": "fa0078f1dc55",
+    "title": "how do i turn a fun game loop to a Complete commercial game",
+    "link": "https://gamedev.net/forums/topic/720276-how-do-i-turn-a-fun-game-loop-to-a-complete-commercial-game",
+    "summary": "i am working on my first ever commercial steam game , i used to make a small games for game jams and some were very fun , i start to work on a serious game and started by making a fun game loop that seems to be fun and tested it with some players (game concept : pixel art 2d shooter platformer where you fight wave after wave of flying enemys in an arena , every 4 waves you will be offerd 3 perks to choose one from , and the other two will never appear again in the run …",
+    "published": "Thu, 20 Aug 2026 12:49:47 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-20T20:21:11.290655"
+  },
+  "575997f148e5": {
+    "id": "575997f148e5",
+    "title": "NixieFX, a browser-based particle editor for Three.js and PixiJS",
+    "link": "https://realtimevfx.com/t/nixiefx-a-browser-based-particle-editor-for-three-js-and-pixijs/31492",
+    "summary": "Hi everyone. I am part of the team working on NixieFX, and I would like to share the current editor with the community. NixieFX is focused on real-time effects for web games using Three.js and PixiJS. The editor includes multi-emitter timelines, curves, gradients, shape emission, velocity and forces, noise, plane collision, flipbooks, trails, sub-emitters, and a node-based material workflow. We wanted the authoring experience to feel familiar to artists coming from engine-style particle systems while still fitting a web development pipeline. Projects remain as plain JSON in a local folder, and exports include backend diagnostics so limitations are visible before integration. The PixiJS and Three.js runtimes share a deterministic simulation, but each has its own rendering path. The goal is portability where it is practical, not a promise that every 3D material or mesh effect will look identical in 2D. The editor is free to use here: NixieFX — Particle &amp; VFX Editor I would be grateful for feedback on the timeline and material workflow, especially from artists who regularly move effects between authoring tools and runtime teams. 2 posts - 2 participants Read full topic",
+    "published": "Thu, 20 Aug 2026 08:42:12 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-20T20:20:58.684501"
+  },
+  "a35d54b3efe0": {
+    "id": "a35d54b3efe0",
+    "title": "Makers Fund expands game industry footprint through $250 million investment round",
+    "link": "https://www.gamedeveloper.com/business/makers-fund-expands-game-industry-footprint-after-closing-250-million-investment-round",
+    "summary": "Makers general partner Jay Chi said the VC firm was 'founded on the belief that creators are the constant.'",
+    "published": "Thu, 20 Aug 2026 15:39:24 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-20T20:21:14.423519"
+  },
+  "327eeb4aa34f": {
+    "id": "327eeb4aa34f",
+    "title": "Hundreds of union workers rally across North America to protest Xbox layoffs",
+    "link": "https://www.gamedeveloper.com/business/hundreds-of-union-workers-rally-across-north-america-to-protest-xbox-layoffs",
+    "summary": "CWA members and supporters are keeping pressure on Microsoft after the company announced plans to eliminate 3,200 roles across Xbox during the current fiscal year.",
+    "published": "Thu, 20 Aug 2026 08:57:26 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-20T20:21:14.423560"
   }
 }
