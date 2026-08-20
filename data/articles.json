@@ -11778,5 +11778,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-19T20:19:38.457738"
+  },
+  "48c5696eb40c": {
+    "id": "48c5696eb40c",
+    "title": "First-Pass Tests for an AI-Generated 3D Level in Unity: Reachability, Collisions, and Performance",
+    "link": "https://gamedev.net/blogs/entry/2298273-first-pass-tests-for-an-ai-generated-3d-level-in-unity-reachability-collisions-and-performance",
+    "summary": "I’m working on a small experiment: taking an AI-generated 3D scene into Unity and checking whether it can become a simple playable level without manually rebuilding every part of the scene. I want to be careful about what “playable” means here. I’m not trying to show that AI can produce a finished game in one click. A generated scene can look convincing and still fail as soon as a player tries to walk through it. The floor may be missing a collider, a doorway may be blocked by an invisible box, or an important object may be placed somewhere the …",
+    "published": "Wed, 19 Aug 2026 20:55:52 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-20T08:29:48.093315"
+  },
+  "2ef5231322dc": {
+    "id": "2ef5231322dc",
+    "title": "What if different game studios built their own solar systems in one shared game?",
+    "link": "https://gamedev.net/forums/topic/720305-what-if-different-game-studios-built-their-own-solar-systems-in-one-shared-game",
+    "summary": "I was discussing this with AI and decided to post here. Might be a stupid question but what the hell 😄 I was thinking about games like Star Citizen and No Man's Sky and the problem they run into when it comes to scale. If you procedurally generate millions or billions of planets, eventually a lot of them start feeling like variations of the same thing. But if you go in the opposite direction and actually handcraft cities, planets, etc., there's only so much a single studio can realistically build. So you basically have this tradeoff where procedural generation gives …",
+    "published": "Wed, 19 Aug 2026 22:17:02 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-20T08:29:48.093357"
+  },
+  "ede8b4b9e2a4": {
+    "id": "ede8b4b9e2a4",
+    "title": "Ground Energy Pulse",
+    "link": "https://realtimevfx.com/t/ground-energy-pulse/31488",
+    "summary": "Hihi everyone! I want to start sharing some of my work here, so I thought I’d start with this ground energy pulse. This was made during one of my Twitch streams a long time ago. For this one, I wanted to recreate an effect from the game Enigma of Fear . The game is based on a TRPG, and the effect in the game didn’t quite match how I imagined the energy would look in the TRPG, so I wanted to make my own version. 1 post - 1 participant Read full topic",
+    "published": "Thu, 20 Aug 2026 01:29:31 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-20T08:29:42.289965"
+  },
+  "c734cb941cc0": {
+    "id": "c734cb941cc0",
+    "title": "New Unreal Engine Stylized Water VFX Course",
+    "link": "https://realtimevfx.com/t/new-unreal-engine-stylized-water-vfx-course/31487",
+    "summary": "- YouTube Product Link 린반 아카데미 Hello everyone! I’m excited to share that my new Unreal Engine VFX course, Maelstrom , is finally released! In this course, we dive deep into creating stylized water effects, specifically focusing on tsunamis and whirlpools using Unreal Engine. What you’ll learn: How to create stylized water shaders and textures Niagara particle systems for dynamic water motion Techniques for crafting tsunamis, whirlpools, and splash interactions Watch the Trailer: https://youtu.be/sWuC6OzJcWY How to Join (For International Students): If you are joining from outside Korea, please check out the step-by-step sign-up and verification guide here: 린반 아카데미 Feel free to ask any questions or leave your feedback. Hope you find it useful for your stylized VFX journey! 1 post - 1 participant Read full topic",
+    "published": "Thu, 20 Aug 2026 00:43:05 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-08-20T08:29:42.290033"
   }
 }
