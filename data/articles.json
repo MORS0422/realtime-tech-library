@@ -11878,5 +11878,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-20T20:21:14.423560"
+  },
+  "32ee1fd6327a": {
+    "id": "32ee1fd6327a",
+    "title": "[Unpaid/Portfolio] Looking for a Real-Time VFX Artist for a Stylized Indie Game (Unity)",
+    "link": "https://realtimevfx.com/t/unpaid-portfolio-looking-for-a-real-time-vfx-artist-for-a-stylized-indie-game-unity/31500",
+    "summary": "This project is a complete remaster of a previously released title (DOD), upgrading it with modern graphics and a unique visual identity. This is a global collaboration project between teams in South Korea (Chungkang College) and Finland company. *Also, this is an unpaid role, so there will be no separate compensation for participating in the project. 1. Why We Are Expanding the Team During our first semester, a small team aimed to visually remaster the previous release of DOD to fit modern graphic trends while recycling existing assets. However, we identified several fundamental issues: Lack of a clear, unified art direction and visual inconsistencies from reusing old assets. Repetitive and uninspired combat mechanics lacking unique appeal. Issues with controls and hit impact/feedback. A need for distinct character roles to make co-op multiplayer actually fun. Repetitive stage structures and content design flaws. To address these issues post-milestone, our global team has decided on a massive overhaul driven by three core strategies: 2. Open Positions 3D Environment Modeler: 2 2D Character Concept Artist: 2 2D Environment Concept Artist: 2 UI/UX Designer: 1 VFX Artist: 2 We primarily use Blender, Unity, and Substance 3D Painter (among other relevant tools). 3. Art Direction Low-Poly · Stylized · Oil-Painting Shaders · Sky Cubemaps We are blending Western-preferred stylized aesthetics with the grim, bleak, and heavy atmosphere of Dark Fantasy. The goal is to depict a desperate, ruined world as if it were an oil painting. We aim to turn the technical limitations of low-poly into a highly distinct and charming visual signature exclusive to our game. Desired VFX Style: 2D VFX style inspired by Arcane How to Apply If you are interested in joining, please reach out to the contact below with your portfolio attached Contact: [yeaeun661@gmail.com] 5. Development Roadmap Month Key Milestones July Graphics &amp; Stage R&amp;D / Asset creation for ‘Kane Bridge’ region &amp; Playable character ‘Tolki’ August Content and System Polishing September New Region / Playable ‘Cardan’ / Creature expansion (Boss, Elite, Normal) / Beta Launch October New Region / Playable ‘Agol’ / Creature expansion / Bug Testing &amp; Feedback November New Region / Playable ‘Heluna’ / Creature expansion / Bug Testing / Chronicle update December~ Ongoing Region &amp; Creature expansion / Live Operations 1 post - 1 participant Read full topic",
+    "published": "Thu, 20 Aug 2026 20:39:22 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-21T08:32:06.382345"
   }
 }
