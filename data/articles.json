@@ -11888,5 +11888,65 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-08-21T08:32:06.382345"
+  },
+  "75d4f7576e80": {
+    "id": "75d4f7576e80",
+    "title": "See VFX breakdowns for Season 3 of Foundation in one place",
+    "link": "https://www.cgchannel.com/2026/08/see-vfx-breakdowns-for-season-3-of-foundation-in-one-place/",
+    "summary": "Watch breakdowns of the epic CG environments from the sci-fi series from Rodeo FX and Framestore - the latter VES Award-nominated.",
+    "published": "Fri, 21 Aug 2026 09:30:43 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-21T20:18:12.268279"
+  },
+  "2cdc6abcba38": {
+    "id": "2cdc6abcba38",
+    "title": "Foundry releases Nuke 17.1",
+    "link": "https://www.cgchannel.com/2026/08/foundry-releases-nuke-17-1/",
+    "summary": "Check out the changes to the compositing software, including relighting Gaussian splats and Hydra 2.0 support in the 3D viewer.",
+    "published": "Fri, 21 Aug 2026 04:30:07 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-21T20:18:12.268303"
+  },
+  "1612948a5f1a": {
+    "id": "1612948a5f1a",
+    "title": "Playgama releases Wrap, completing its infrastructure for scaling games on standalone websites",
+    "link": "https://gamedev.net/blogs/entry/2298279-playgama-releases-wrap-completing-its-infrastructure-for-scaling-games-on-standalone-websites",
+    "summary": "Games on their own domains now have a full stack behind them — publishing, monetization, and growth. Playgama releases Wrap , a free service that turns an HTML5 game into a standalone website — with its own domain, built-in monetization via Playgama Ad, ready-made UX, in-game purchases, SEO, and player analytics out of the box. Publishing takes three steps and about five minutes: integrate the open-source Playgama Bridge SDK, upload the game, then configure and publish it in the console. Updates sync automatically. The only thing the developer pays for is the domain — and they own it outright. Playgama …",
+    "published": "Fri, 21 Aug 2026 12:14:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-21T20:18:20.302661"
+  },
+  "430454517890": {
+    "id": "430454517890",
+    "title": "Take-Two subpoenas Microsoft and Discord in bid to halt extensive Grand Theft Auto VI leak",
+    "link": "https://www.gamedeveloper.com/business/rockstar-subpoenas-microsoft-and-discord-in-bid-to-halt-extensive-grand-theft-auto-vi-leak",
+    "summary": "Take-Two is racing to halt a series of GTA VI leaks from an entity known as &quot;Cyberleek&quot; that may have access to a playable build of the game.",
+    "published": "Fri, 21 Aug 2026 20:03:39 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-21T20:18:22.123266"
+  },
+  "2eed53142708": {
+    "id": "2eed53142708",
+    "title": "We're finally talking about AI, ft. David 'Rez' Graham and Luke Dicken",
+    "link": "https://www.gamedeveloper.com/programming/we-re-finally-talking-about-ai-ft-david-rez-graham-and-luke-dicken",
+    "summary": "We're chatting about AI and AI techniques, but it's also a conversation about the nature of work and the inherent value of AI in game development.",
+    "published": "Fri, 21 Aug 2026 14:45:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-21T20:18:22.123289"
+  },
+  "9d0b9862c86f": {
+    "id": "9d0b9862c86f",
+    "title": "EA staff worries over Saudi buyout, Grand Theft Auto 6 leaks, and Peak's last major update - Patch Notes #66",
+    "link": "https://www.gamedeveloper.com/business/ea-staff-worries-over-saudi-buyout-grand-theft-auto-6-leaks-and-peak-s-last-major-update-patch-notes-66",
+    "summary": "Plus: The Duskbloods sounds like a design shakeup for FromSoftware.",
+    "published": "Fri, 21 Aug 2026 12:32:53 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-21T20:18:22.123300"
   }
 }
