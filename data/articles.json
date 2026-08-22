@@ -11948,5 +11948,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-21T20:18:22.123300"
+  },
+  "3daf5d314a55": {
+    "id": "3daf5d314a55",
+    "title": "Data-Driven Cameras",
+    "link": "https://gamedev.net/blogs/entry/2298280-data-driven-cameras",
+    "summary": "What it do everyone! This week I really thought I was going to push Effects and Stats farther, but my mind decided it wanted to work on Cameras instead. Naturally, I've setup a csv -&gt; .tres pipeline like with all of my systems. As I mentioned in my announcement post, until I have a 3d scene to test I am limited to 2d but I have confirmed that the pipeline is functional. I then pushed the same camera profiles to be used for the MiniMap where I have spent the majority of my week working on wiring up NPC/Storage/Treasure and …",
+    "published": "Sat, 22 Aug 2026 00:06:59 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-22T08:21:02.634508"
   }
 }
