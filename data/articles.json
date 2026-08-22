@@ -11958,5 +11958,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-08-22T08:21:02.634508"
+  },
+  "67e1025506d0": {
+    "id": "67e1025506d0",
+    "title": "Master Cinematic Matte Painting for Production",
+    "link": "https://www.cgchannel.com/2026/08/master-cinematic-matte-painting-for-production/",
+    "summary": "Create environments for VFX and game cinematics using Blender, Photoshop and Nuke with The Gnomon Workshop's tutorial.",
+    "published": "Sat, 22 Aug 2026 06:00:51 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-22T20:15:05.683287"
+  },
+  "5e1850cb2fbb": {
+    "id": "5e1850cb2fbb",
+    "title": "Fully modeled backrooms game with actuall lore",
+    "link": "https://gamedev.net/blogs/entry/2298281-fully-modeled-backrooms-game-with-actuall-lore",
+    "summary": "The game is about the popular liminal space backrooms. Its not gonna be like the other backrooms games. Mine wont have a random map generator but instead fully modeled 5-10km map of diffrent kind of rooms. Game also will have its own lore. The game will also include chases and puzzles (puzzles will proggres the game instead of making the playthrough longer).",
+    "published": "Sat, 22 Aug 2026 12:35:50 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-22T20:15:13.249333"
   }
 }
