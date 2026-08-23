@@ -11988,5 +11988,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-08-23T08:21:38.733527"
+  },
+  "07ed655e8177": {
+    "id": "07ed655e8177",
+    "title": "Exploring some general gameplay ideas, looking for feedback.",
+    "link": "https://gamedev.net/forums/topic/720320-exploring-some-general-gameplay-ideas-looking-for-feedback",
+    "summary": "This is a follow up to the thought of making the AI face some clear cut decisions, decisions that make a sea of difference on how things playout in the end. In a blog post I presented the idea of placing the AI in a handicaped position where his HQ has only two resource patches nearby (while the enemy has three resource patches nearby). Continuing on that trend and I have started working on the practical side of things: the gameplay. I am trying to emphasize the ability to start low on resources and still win the game. Therefore I …",
+    "published": "Sun, 23 Aug 2026 17:17:26 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-23T20:14:59.956333"
   }
 }
