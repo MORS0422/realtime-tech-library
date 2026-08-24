@@ -12038,5 +12038,65 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-08-24T08:39:56.338474"
+  },
+  "7c5d4fece84d": {
+    "id": "7c5d4fece84d",
+    "title": "CLO Virtual Fashion releases Marvelous Designer 2026.1",
+    "link": "https://www.cgchannel.com/2026/08/clo-virtual-fashion-releases-marvelous-designer-2026-1/",
+    "summary": "Check out the changes to the 3D clothing design app, including new tools for painting wrinkles into fabric - and ripping it apart along seams.",
+    "published": "Mon, 24 Aug 2026 12:55:23 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-24T20:21:52.822119"
+  },
+  "faa23e17390b": {
+    "id": "faa23e17390b",
+    "title": "Free scripts writer, idea writer for game.",
+    "link": "https://gamedev.net/blogs/entry/2298282-free-scripts-writer-idea-writer-for-game",
+    "summary": "Hi everyone! ​I am an aspiring game script writer looking to join a game development team. I can write storylines, lore, and full scripts for all types of games, but my absolute specialty and favorite genre is Horror . ​I pride myself on writing extraordinary, out-of-the-box, and truly unique scripts. I am constantly brainstorming, and I am currently working on many more amazing ideas. ​📝 My Writing Sample / Game Concept Pitch: To give you an idea of my writing style and creativity, I have prepared a detailed concept pitch for a Psychological Horror / Action / Supernatural Romance game. …",
+    "published": "Mon, 24 Aug 2026 11:46:56 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-24T20:22:01.078164"
+  },
+  "e4b7a3645846": {
+    "id": "e4b7a3645846",
+    "title": "Two weeks into building Cube Engines — the small things that actually mattered",
+    "link": "https://gamedev.net/forums/topic/720330-two-weeks-into-building-cube-engines-the-small-things-that-actually-mattered",
+    "summary": "I've written a bit here before about the games themselves. This time I want to talk about the process — specifically, the small decisions that turned out to matter way more than I expected once real strangers started playing. The name that had to change Pyramid used to be called \"Ponzi Pyramid.\" It made sense to me as a builder — it's a self-aware joke about the shape of the mechanic, players joining and the structure growing until it collapses. What I underestimated was how that name reads to someone who's never talked to me, never seen the code, never …",
+    "published": "Mon, 24 Aug 2026 19:02:55 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-24T20:22:01.078204"
+  },
+  "58a2667e2371": {
+    "id": "58a2667e2371",
+    "title": "[PAID] Senior Freelance Unity VFX / Technical Artist — Stylized Mobile Auto-Battler",
+    "link": "https://realtimevfx.com/t/paid-senior-freelance-unity-vfx-technical-artist-stylized-mobile-auto-battler/31519",
+    "summary": "[PAID] Freelance Unity VFX / Technical Artist – Stylized Mobile Game Hi! I’m looking for an experienced freelance Unity VFX / Technical Artist to help bring the combat VFX of a stylized mobile auto-battler to final quality. The game has a colorful, stylized art direction. I’m looking for effects with bold shapes, clear timing and strong readability at mobile scale , while still having enough personality to feel specific to the game. Brawl Stars is a useful reference for gameplay clarity, but not something I want to replicate visually. There are already functional VFX in the game, but they are not at the final quality bar yet. Depending on each effect, the work may involve polishing and restructuring what exists or rebuilding it from scratch. I’m looking for someone with strong visual design instincts who can translate gameplay intent and broad art direction into a compelling effect, rather than needing a fully prescribed visual solution. I can provide gameplay context, references and feedback, but I want the artist to contribute ideas, propose what will work best visually and take ownership through final in-game integration. What I’m looking for A strong portfolio of stylized, gameplay-focused real-time VFX . Solid Unity experience and confidence working directly in an existing project. Strong visual design instincts and the ability to propose solutions from gameplay intent and broad references. Strong sense of timing, shape language and visual hierarchy during fast gameplay. Comfortable combining particles, shaders, meshes, trails and textures to build and integrate effects directly in Unity. Able to make effects feel grounded in the game world, with appropriate scale, depth, ground interaction and environmental cohesion. Ability to create parameterized effects whose size, color or intensity can respond to gameplay. Good understanding of mobile performance and overdraw constraints. I’m not looking for realistic VFX, generic particle effects or standalone assets without in-game integration. The goal is to build a cohesive and performant VFX language that feels made for this game. Scope We would begin with one paid gameplay-VFX pilot . If the collaboration works well, there is further work available across player abilities and combat feedback such as hits, impacts and enemy reactions. If interested, please send me a DM with: Your portfolio or reel, with relevant stylized gameplay VFX shown in-engine or in a gameplay context. A short note about your Unity and mobile experience. Your hourly/day rate or typical pricing for comparable work. Your availability. As visual fit is important for this project, I’ll only be able to consider applications that include relevant stylized gameplay VFX work. Remote freelance. 1 post - 1 participant Read full topic",
+    "published": "Mon, 24 Aug 2026 12:34:11 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-24T20:21:54.158420"
+  },
+  "7e2093aaa961": {
+    "id": "7e2093aaa961",
+    "title": "Mutter and Blue Prince among winners at Gamescom Dev Awards 2026",
+    "link": "https://www.gamedeveloper.com/business/mutter-and-blue-prince-among-winners-at-gamescom-dev-awards-2026",
+    "summary": "Six winners were crowned in Cologne.",
+    "published": "Mon, 24 Aug 2026 16:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-24T20:22:04.478395"
+  },
+  "ec9807a18dfb": {
+    "id": "ec9807a18dfb",
+    "title": "'Each event has to feel local and relevant to its market:' Gamescom wants responsible expansion after record-breaking year",
+    "link": "https://www.gamedeveloper.com/business/-each-event-has-to-feel-local-and-relevant-to-its-market-gamescom-boss-wants-responsible-expansion-after-record-breaking-year",
+    "summary": "Gamescom 2026 is about to deliver its biggest show in history, so where does the industry expo head next?",
+    "published": "Mon, 24 Aug 2026 09:23:12 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-24T20:22:04.478418"
   }
 }
