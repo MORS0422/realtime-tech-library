@@ -12118,5 +12118,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-25T08:34:30.164284"
+  },
+  "6eb0988d6288": {
+    "id": "6eb0988d6288",
+    "title": "Check out promising new Blender retopology tool Smart Remesh",
+    "link": "https://www.cgchannel.com/2026/08/check-out-promising-new-blender-retopology-tool-smart-remesh/",
+    "summary": "Context-aware add-on turns both organic characters and hard-surface models into clean quad geometry, preserving vertex positions.",
+    "published": "Tue, 25 Aug 2026 13:29:58 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-25T20:20:46.437986"
+  },
+  "ebf46752e6ab": {
+    "id": "ebf46752e6ab",
+    "title": "Rasterizer Project - Part 4: Triceratops Wireframe",
+    "link": "https://gamedev.net/blogs/entry/2298283-rasterizer-project-part-4-triceratops-wireframe",
+    "summary": "Okay so its time to define our model class both its .h file and cpp file. Lets start with the .h file. First lets define a vector list made of of different vec3 that our model consists of and then lets. Then we store each face inside the int list. What is a face? Well every 3 vertexpositions we can draw a triangle, that triangle is the face. Then for our public class stuff. Our constructor takes a string path (constant so we dont fuzz about with it accidentally later on). Then our functions, quite simple. Constant get functions because …",
+    "published": "Tue, 25 Aug 2026 15:02:59 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-25T20:20:54.896562"
+  },
+  "7a1165271561": {
+    "id": "7a1165271561",
+    "title": "Multi Shot Projectile",
+    "link": "https://realtimevfx.com/t/multi-shot-projectile/31532",
+    "summary": "Been working on an archer’s skill effect. Currently the effects are pretty readable, maybe distortion’s too high. 1 post - 1 participant Read full topic",
+    "published": "Tue, 25 Aug 2026 09:01:39 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-25T20:20:48.070566"
+  },
+  "9f3268cdd1c3": {
+    "id": "9f3268cdd1c3",
+    "title": "Riot Games is winding down 2XKO active development in December",
+    "link": "https://www.gamedeveloper.com/business/riot-games-is-winding-down-fighter-2xko-in-december-2026",
+    "summary": "Riot says it hasn't seen 'enough players stick with the game to get to a path toward sustainability.'",
+    "published": "Tue, 25 Aug 2026 17:01:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-25T20:20:57.667225"
+  },
+  "3185c9807952": {
+    "id": "3185c9807952",
+    "title": "Report: Among Us 3D co-dev Schell Games lays off staff",
+    "link": "https://www.gamedeveloper.com/business/report-among-us-3d-dev-schell-games-lays-off-staff",
+    "summary": "Schell Games has provided multiple interviews over the years on avoiding layoffs.",
+    "published": "Tue, 25 Aug 2026 15:28:59 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-25T20:20:57.667247"
+  },
+  "a27fedd46321": {
+    "id": "a27fedd46321",
+    "title": "Irish browser games start-up Entity raises $5M in funding for 'console-quality games for the 'new web' era'",
+    "link": "https://www.gamedeveloper.com/business/irish-browser-games-start-up-entity-raises-5m-in-funding-for-console-quality-games-for-the-new-web-era-",
+    "summary": "The 'next-generation gaming platform' will launch in 2027.",
+    "published": "Tue, 25 Aug 2026 14:46:56 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-25T20:20:57.667259"
+  },
+  "3267d1676b7e": {
+    "id": "3267d1676b7e",
+    "title": "Journey maker thatgamecompany announces thatgamepublisher",
+    "link": "https://www.gamedeveloper.com/business/journey-maker-thatgamecompany-announces-thatgamepublisher",
+    "summary": "Profit from Sky: Children of the Light will support the initiative.",
+    "published": "Tue, 25 Aug 2026 14:10:19 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-25T20:20:57.667270"
+  },
+  "c3c667ca7607": {
+    "id": "c3c667ca7607",
+    "title": "W4 Games raises $18M to expand its international team",
+    "link": "https://www.gamedeveloper.com/business/w4-games-raises-18m-to-expand-its-international-team",
+    "summary": "W4 Games has also signed a multi-year strategic partnership with Tencent to scale its business and the Godot ecosystem in Asia.",
+    "published": "Tue, 25 Aug 2026 14:06:03 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-25T20:20:57.667282"
   }
 }
