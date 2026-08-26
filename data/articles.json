@@ -12198,5 +12198,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-25T20:20:57.667282"
+  },
+  "fdb3f31f9cbf": {
+    "id": "fdb3f31f9cbf",
+    "title": "Check out Framestore’s explosive VFX breakdown for War Machine",
+    "link": "https://www.cgchannel.com/2026/08/check-out-framestores-explosive-vfx-breakdown-for-war-machine/",
+    "summary": "See how Framestore created a deadly CG killing machine informed as much by dinosaurs as robots for the military sci-fi action film.",
+    "published": "Wed, 26 Aug 2026 06:00:17 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-26T08:35:28.314601"
+  },
+  "cb6ebdf46bf9": {
+    "id": "cb6ebdf46bf9",
+    "title": "The problem: your design lives in 5 places and nothing is connected",
+    "link": "https://gamedev.net/blogs/entry/2298286-the-problem-your-design-lives-in-5-places-and-nothing-is-connected",
+    "summary": "Stop juggling notes across docs and chats - keep your whole game design in one local project you own. Read more",
+    "published": "Tue, 25 Aug 2026 15:15:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-26T08:35:35.998807"
+  },
+  "47a09f1c3d9c": {
+    "id": "47a09f1c3d9c",
+    "title": "UE5.5 Niagara — How can I keep animated smoke close to a moving skeletal mesh without using Local Space?",
+    "link": "https://realtimevfx.com/t/ue5-5-niagara-how-can-i-keep-animated-smoke-close-to-a-moving-skeletal-mesh-without-using-local-space/31543",
+    "summary": "Hello ! Hello I hope I can get some help, I’m creating a black and purple shadow aura for an animated monster in Unreal Engine 5.5. The Niagara system is attached to the character Blueprint and contains three emitters. The particles are spawned using Skeletal Mesh Location with triangle surface sampling. When the monster moves, the world-space smoke stays behind and creates a very long trail. Enabling Local Space keeps the effect attached, but makes the smoke movement look too rigid. I would like the smoke to: remain close to the animated body; follow the character’s general movement; retain some soft secondary motion; create only a very short trail; continue sampling the deformed skeletal mesh. Would Mesh Reproduction Sprites be appropriate for the closest layer? For the other emitters, should I use inherited owner velocity, an attraction force, or another method to constrain particles near the animated mesh? I used smoke design but probably this is not the best way, in my mind I imagine like fire on all the monster but in shadow style, if someone has some tips ot video maybe. Thank you! 2 posts - 2 participants Read full topic",
+    "published": "Tue, 25 Aug 2026 23:55:20 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-08-26T08:35:29.672500"
+  },
+  "26dea66cc805": {
+    "id": "26dea66cc805",
+    "title": "Modular Approach to AOE VFX Breakdown",
+    "link": "https://realtimevfx.com/t/modular-approach-to-aoe-vfx-breakdown/31540",
+    "summary": "Hey all, this is my first post here as a memeber, I’ve been lurking for a long time. I’ve been in the games industry for a really long time and as an artist have served as environment artist, VFX artist, UI artist, generalist, Principal artist, Art manager, Art Director, etc., across AAA to indie to mobile and VR. My most recent gig was a small indie studio that ran out of funding before we could go into early access and though I technically served as art director, there were only two artists including me on the core team and our vendors. But, one of the several areas I took complete ownership of was our VFX. It’s very possible that none of the stuff I’m sharing is new to this community or maybe not even interesting, but I thought it was a pretty successful strategy for our game. The bulk of the work was focused on our combat effects and we had a need for potentially thousands of unique variants of projectiles, AOE’s, buffs and debuffs, impacts, etc. So I came up with a modular approach in UE5 (5.3 is where we ended for reference) that would allow for rapid scaling and content variation without the time and monetary cost of a traditional workflow. So, using AOE’s as an example category, I broke down what an AOE typically needed to be in our game into X-number of component types. Within each component type, I authored multiple Niagara system variations with each variation sharing a set of user parameters that would hook into data tables later. These params would typically control things like linear color, scale, duration, etc., as well as sometime some specific params associated with what that particular component type needed to do (for instance an initiation flash\\burst might have params that a ground eruption wouldn’t and vice versa). Once this “library” of Niagara systems was created and they were hooked into data tables to describe and control their component type designation, the assembly of a full effect would then happen soley in the tables, with params being adjusted there. In my Artstation I made some slides to do a breakdown of one of these assemblies and some of its individual components and some of the material and Niagara work I did as well. I picked this “Ice Pool” to showcase because it used some of the more complicated Niagara systems and material graphs I had to create. Since I’m a new user here, I can only imbed a single item so if you want to go to my Art Station to see the full breakdown of how I did our modular projectiles system as well as seeing it all in action in game play and screen captures of each assembly, please do! Ice Pool Breakdown Page on Artstation capture of Ice Pool in context 1 post - 1 participant Read full topic",
+    "published": "Tue, 25 Aug 2026 21:44:19 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-08-26T08:35:29.672642"
   }
 }
