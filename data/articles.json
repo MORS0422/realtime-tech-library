@@ -12238,5 +12238,85 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-08-26T08:35:29.672642"
+  },
+  "49cdfadff336": {
+    "id": "49cdfadff336",
+    "title": "Apple unveils new M5 Ultra and M6 processors",
+    "link": "https://www.cgchannel.com/2026/08/apple-unveils-new-m5-ultra-and-m6-processors/",
+    "summary": "Check out the specs for Apple's 'most powerful chip ever', and see how it performs in CG applications like Nuke and Redshift.",
+    "published": "Wed, 26 Aug 2026 08:11:49 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-08-26T22:38:42.491996"
+  },
+  "d436b4d18cd2": {
+    "id": "d436b4d18cd2",
+    "title": "One Timer Is Never Enough: Six Social Modes in a 4 to 16 Player Deduction Game",
+    "link": "https://gamedev.net/blogs/entry/2298290-one-timer-is-never-enough-six-social-modes-in-a-4-to-16-player-deduction-game",
+    "summary": "Disclosure: I founded Werewolf Club, the live video game used as the case study in this article. Pacing a synchronous social deduction game is not one decision made well. It is six different decisions that happen to share a clock. The night wants private inputs resolved quickly. The day wants many people to feel heard. Nomination wants synchronized secrecy. A defense wants one protected voice. At four and sixteen players, the same fixed discussion window buys radically different amounts of speech. I reviewed a complete recorded Werewolf Club session, eleven players, five nights, five trials, and verdicts of 3 to …",
+    "published": "Wed, 26 Aug 2026 20:50:57 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-26T22:38:49.758007"
+  },
+  "c9b2e97eceb8": {
+    "id": "c9b2e97eceb8",
+    "title": "[RevShare] 3D Platformer in Unity 6 (15-person team) looking for Level Designer + 3D Art team (low-poly)",
+    "link": "https://gamedev.net/forums/topic/720340-revshare-3d-platformer-in-unity-6-15-person-team-looking-for-level-designer-3d-art-team-low-poly",
+    "summary": "Hey! I'm Christian, Director and Dev Lead at Keratea Studio. We're about 15 people working on LYN, a 3D platformer where you play as a pangolin exploring themed worlds, each with its own visual twist. Think temporary transformations, companion characters, collectibles, light combat, boss fights, and a low-poly art style we're pretty proud of. We build in Unity 6 (URP). The movement already feels good: full jump system with coyote time and variable height, a physics-based ball form, ground pound, crouch mechanics, edge detection. On top of that we have a working HUD, collectibles, hazard/respawn/checkpoints, keys and doors, cutscenes, and …",
+    "published": "Wed, 26 Aug 2026 19:50:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-26T22:38:49.758036"
+  },
+  "a0eeff27aa59": {
+    "id": "a0eeff27aa59",
+    "title": "Obituary: Actor Tim Curry, celebrated for his work in games, has passed at age 80",
+    "link": "https://www.gamedeveloper.com/audio/obituary-actor-tim-curry-celebrated-for-his-work-in-games-has-passed-at-age-80",
+    "summary": "The charismatic star of stage and screen also lent his likeness to a number of celebrated video games.",
+    "published": "Wed, 26 Aug 2026 20:08:56 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-26T22:38:51.200717"
+  },
+  "782e2f430949": {
+    "id": "782e2f430949",
+    "title": "Rockstar Games 'heartbroken' by Grand Theft Auto 6 leaks",
+    "link": "https://www.gamedeveloper.com/business/rockstar-games-heartbroken-by-grand-theft-auto-6-leaks",
+    "summary": "The Grand Theft Auto 6 maker has responded to the game's massive leaks.",
+    "published": "Wed, 26 Aug 2026 18:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-26T22:38:51.200735"
+  },
+  "fc79f77f59b2": {
+    "id": "fc79f77f59b2",
+    "title": "Playdate maker Panic is refunding tariff fees to customers",
+    "link": "https://www.gamedeveloper.com/business/playdate-maker-is-refunding-tariff-fees-to-customers",
+    "summary": "'It's just not our money to keep, and it felt really good to give it back.'",
+    "published": "Wed, 26 Aug 2026 18:21:55 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-26T22:38:51.200745"
+  },
+  "47beccbfdf6f": {
+    "id": "47beccbfdf6f",
+    "title": "Xbox officially announces disc to digital program",
+    "link": "https://www.gamedeveloper.com/business/xbox-officially-announces-disc-to-digital-program",
+    "summary": "The Verge reported this program back in July.",
+    "published": "Wed, 26 Aug 2026 17:58:25 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-26T22:38:51.200752"
+  },
+  "138c4178e402": {
+    "id": "138c4178e402",
+    "title": "CD Projekt Red to distribute The Witcher 3: The Wild Hunt on Blizzard's Battle.net",
+    "link": "https://www.gamedeveloper.com/business/cd-projekt-red-and-blizzard-enter-a-partnership",
+    "summary": "The remastered rendition of The Witcher 3: Wild Hunt is coming to Battle.net, along with the new upcoming expansion and a Diablo IV collab.",
+    "published": "Wed, 26 Aug 2026 17:30:18 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-26T22:38:51.200762"
   }
 }
