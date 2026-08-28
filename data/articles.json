@@ -12478,5 +12478,75 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-28T03:58:21.864801"
+  },
+  "3293c1903866": {
+    "id": "3293c1903866",
+    "title": "Nanobots",
+    "link": "https://gamedev.net/blogs/entry/2298295-nanobots",
+    "summary": "Previously, having many detailed objects caused sharp FPS drops and required manual LODs. Now Nanite renders highly detailed models in real time without manual LODs: the engine streams detail where the player looks and simplifies distant objects, keeping the scene smooth. Nanite prebuilds an optimized hierarchy of geometry and splits it into clusters, dynamically adjusting their detail by distance and visibility. We enable it deliberately - we profile and use it where it delivers real gains. In Unreal, we use visualization modes to see how Nanite groups triangles into clusters, how detail changes with distance, where overdraw occurs, and which …",
+    "published": "Fri, 28 Aug 2026 09:06:59 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-08-28T19:49:48.672023"
+  },
+  "8986af4d2eb1": {
+    "id": "8986af4d2eb1",
+    "title": "Niagara Debugger won't show anything: Solution",
+    "link": "https://realtimevfx.com/t/niagara-debugger-wont-show-anything-solution/31599",
+    "summary": "Small Niagara Debugger “Cheat Sheet” because I often forgot what to do when I enabled it but didn’t see anything in the Viewport: 1 post - 1 participant Read full topic",
+    "published": "Fri, 28 Aug 2026 14:03:06 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-08-28T19:49:41.785543"
+  },
+  "321d4647e518": {
+    "id": "321d4647e518",
+    "title": "How to create this post process",
+    "link": "https://realtimevfx.com/t/how-to-create-this-post-process/31594",
+    "summary": "It’s a galaxy like post process with only the character excluded. I’m lost, all I’ve tried has produced some mild results. My thanks in advance. 1 post - 1 participant Read full topic",
+    "published": "Fri, 28 Aug 2026 06:49:49 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-28T19:49:41.785574"
+  },
+  "0eed73cc0ee0": {
+    "id": "0eed73cc0ee0",
+    "title": "GDC Side Quest - Inside Austin Wintory's Collaborative Composing Process",
+    "link": "https://www.gamedeveloper.com/audio/gdc-side-quest-inside-austin-wintory-s-collaborative-composing-process",
+    "summary": "This month, celebrated composer Austin Wintory joins content marketing manager Beth Elderkin for a conversation about his creative process.",
+    "published": "Fri, 28 Aug 2026 14:15:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-28T19:49:51.056416"
+  },
+  "05c93e517b4e": {
+    "id": "05c93e517b4e",
+    "title": "Panic refunds tariff fees, 1047 Games pivots from Splitgate, and Gamescom Dev grows - Patch Notes #67",
+    "link": "https://www.gamedeveloper.com/business/panic-refunds-tariff-fees-1047-games-pivots-from-splitgate-and-gamescom-dev-grows-patch-notes-67",
+    "summary": "Plus: No More Room in Hell 2 surpasses 1 million players after exiting a pivotal Early Access period.",
+    "published": "Fri, 28 Aug 2026 13:47:47 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-28T19:49:51.056445"
+  },
+  "10d136526f3f": {
+    "id": "10d136526f3f",
+    "title": "Warlock's magic system was built on game-bending player choices",
+    "link": "https://www.gamedeveloper.com/design/warlock-s-magic-system-was-built-on-game-breaking-player-choices",
+    "summary": "It's not a bug, it's a feature.",
+    "published": "Fri, 28 Aug 2026 12:03:43 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-28T19:49:51.056455"
+  },
+  "6a1fe7b22d1f": {
+    "id": "6a1fe7b22d1f",
+    "title": "Spanish union calls for ongoing strike action at Ubisoft Mobile Barcelona",
+    "link": "https://www.gamedeveloper.com/business/spanish-union-calls-for-ongoing-strike-action-at-ubisoft-mobile-barcelona",
+    "summary": "'The strike was communicated to the company in early August; however, the workers' representatives are still awaiting a response.'",
+    "published": "Fri, 28 Aug 2026 09:57:07 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-28T19:49:51.056468"
   }
 }
