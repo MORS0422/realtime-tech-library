@@ -12438,5 +12438,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-27T18:43:53.048749"
+  },
+  "b884bab1ebdd": {
+    "id": "b884bab1ebdd",
+    "title": "RPG Party Movement",
+    "link": "https://gamedev.net/blogs/entry/2298294-rpg-party-movement",
+    "summary": "Continuing with the “features in my game” theme from last post , this month I implemented party movement. While on the overworld the entire party will form a line following the leader’s movements, and here’s what I ended up making: As you can see, the party doesn’t just start/stop exactly with the leader. Instead, there’s a quick ramp up where the followers have a delay before they start moving, as well as a delay to stopping that causes the line to collapse a little. It’s a subtle effect I landed on after showing off what I was working on and …",
+    "published": "Thu, 27 Aug 2026 23:51:23 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-28T03:58:18.943299"
+  },
+  "bfea0828b601": {
+    "id": "bfea0828b601",
+    "title": "[Released] Mass Battle Framework – GPU combat and animation for 200,000+ Unity units",
+    "link": "https://gamedev.net/forums/topic/720341-released-mass-battle-framework-gpu-combat-and-animation-for-200000-unity-units",
+    "summary": "Hi everyone, I am releasing Mass Battle Framework, a GPU-first large-scale combat and animation framework for Unity 6 URP. This is not a separate technology demo. It is a focused, reusable distillation of the large-battle technology developed for the game shown in the X post below. The game and the commercial framework share the same technical direction and will continue to evolve together. In the recorded Castle Siege demo, more than 200,000 units are deployed over the course of the battle, with roughly 182,000 living units at one captured point. The counters remain visible in the video. This is a …",
+    "published": "Fri, 28 Aug 2026 01:20:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-28T03:58:18.943334"
+  },
+  "4ba0e1a332b5": {
+    "id": "4ba0e1a332b5",
+    "title": "Elias : Sketch #69",
+    "link": "https://realtimevfx.com/t/elias-sketch-69/31592",
+    "summary": "Hey! I thought I’d give this theme a shot Since I’m a bit late I decided to keep things simple The idea is to gather colors from the world and convert them into a colorless energy then be harnessed into a beam attack that weakens colored creatures, allowing their souls to be absorbed. the blocking 1 post - 1 participant Read full topic",
+    "published": "Fri, 28 Aug 2026 02:05:09 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-28T03:58:11.118788"
+  },
+  "f30022e0c09c": {
+    "id": "f30022e0c09c",
+    "title": "How you (yes, you) can benefit from 1-on-1 synchronous playtesting",
+    "link": "https://www.gamedeveloper.com/design/how-you-yes-you-can-benefit-from-1-on-1-synchronous-playtesting",
+    "summary": "In his 2026 GDC Festival of Gaming talk, designer Brian Cronin makes the case for one-on-one playtesting.",
+    "published": "Thu, 27 Aug 2026 16:48:40 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-28T03:58:21.864801"
   }
 }
