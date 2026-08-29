@@ -12578,5 +12578,25 @@
     "source_name": "CG Channel",
     "category": "ta",
     "fetched_at": "2026-08-29T13:32:00.205348"
+  },
+  "1f16b75470a3": {
+    "id": "1f16b75470a3",
+    "title": "FiveBlocksFall 1.7 update and new trailer video",
+    "link": "https://gamedev.net/blogs/entry/2298303-fiveblocksfall-17-update-and-new-trailer-video",
+    "summary": "What's new in 1.7: 🎵 New Music Track A new background track has been added to give the game a more defined atmosphere during play. It’s subtle, minimal, and designed to support the rhythm of the gameplay. 👻 Tricky Ghost Piece (Bonus/Malus System) The Ghost Piece now includes a dynamic bonus/malus percentage that rewards or penalizes your placement accuracy. Two new sound cues make the feedback immediate and easy to read, helping players understand when they’ve gained a bonus or triggered a malus. Approfondisci: Tricky Ghost Piece 🌐 MySocialScore Toggle You can now enable or disable MySocialScore directly from the …",
+    "published": "Sat, 29 Aug 2026 17:02:02 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-29T22:10:39.553290"
+  },
+  "514ca500f6d4": {
+    "id": "514ca500f6d4",
+    "title": "13 years making music, two years of game composing – but I still feel stuck. Anyone else?",
+    "link": "https://gamedev.net/forums/topic/720351-13-years-making-music-two-years-of-game-composing-but-i-still-feel-stuck-anyone-else",
+    "summary": "Hey guys, I composing videogame music in retro style for about 2 years now. Earlier this year, I launched a new website at the beginning of this year and one of the developers I worked for even asked me to do music and narration for his future projects. I post regularly on game dev sub reddits, share my work in Discord groups, and check Work with Indies for gigs. But here’s the thing: Sometimes I feel like I’m not doing enough. I get this guilt for not \"hustling\" harder – even though I can’t control who I get to work …",
+    "published": "Sat, 29 Aug 2026 20:53:08 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-29T22:10:39.553329"
   }
 }
