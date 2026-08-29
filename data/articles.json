@@ -12548,5 +12548,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-28T19:49:51.056468"
+  },
+  "af9ec673a1bb": {
+    "id": "af9ec673a1bb",
+    "title": "Fog of War, Extended Maps & A Whole Lot of Credits",
+    "link": "https://gamedev.net/blogs/entry/2298300-fog-of-war-extended-maps-a-whole-lot-of-credits",
+    "summary": "What it do everyone! This week ended up being a pretty wild mix of world systems, map exploration, and UI work . I started by taking the Fog of War system further, then built out the Extended Overlay Map , and somehow ended up spending a significant chunk of the week rebuilding the entire Credits system. I am still chasing a weird stutter bug while moving, and it appeared to be related to the camera smoothing when following the player. I had begun by refactoring the fog system into chunks, and then switched the camera from being attached to the …",
+    "published": "Sat, 29 Aug 2026 01:09:55 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-29T02:38:22.618440"
+  },
+  "c9de84bb154c": {
+    "id": "c9de84bb154c",
+    "title": "const int global variable contains it's previous value at every other run of the script.",
+    "link": "https://gamedev.net/forums/topic/720338-const-int-global-variable-contains-its-previous-value-at-every-other-run-of-the-script",
+    "summary": "Hello. I my project, for every script I load, I inject a global variable with it's own ID, like this: scriptModule-&gt;AddScriptSection(\"abcd\", fmt::format(\"const int thisScript = {};\", unit_id).c_str()); However, without any modification to the C++ code (only to one included script), this variable started exhibiting a glitch - for every odd invocation of a script, it contains exactly the value from the previous run. I debug-stepped into asCBuilder::CompileGlobalVariables() and saw that the value is set correctly. (Please ignore the values in the screenshots, they come from multiple tests). However, when hitting a breakpoint in a function invoked by the script with …",
+    "published": "Fri, 28 Aug 2026 20:35:41 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-29T02:38:22.618485"
   }
 }
