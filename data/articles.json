@@ -12668,5 +12668,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-08-31T15:44:53.297749"
+  },
+  "d942bd9944a3": {
+    "id": "d942bd9944a3",
+    "title": "The design document and the code have diverged again - make them agree through regular JSON.",
+    "link": "https://gamedev.net/blogs/entry/2298310-the-design-document-and-the-code-have-diverged-again-make-them-agree-through-regular-json",
+    "summary": "Are you always at war with the fact that some data is written in the dock, and the engine sees completely different ones? We tell you how a single file can permanently save you from desynchronization. Read more",
+    "published": "Mon, 31 Aug 2026 17:57:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-31T23:33:28.400584"
+  },
+  "2e3917e60fba": {
+    "id": "2e3917e60fba",
+    "title": "Realityjam Rematch",
+    "link": "https://gamedev.net/forums/topic/720358-realityjam-rematch",
+    "summary": "🕹️ We're excited to announce RealityJam Rematch: a live online competition and showcase taking place September 14th and 15th. We built this event to skip the usual gatekeeping and fast-track new creators straight into games industry careers. We're awarding 10 full scholarships ($6,000 / £4,750 each) into RealityJam's 12-month Scion Foundation Program; a $80,000 total prize pool. Supported by Unity, it's a paid pre-apprenticeship where you work on our live RPG MMO, 5th Dimension, from day one: https://store.steampowered.com/app/3435630/5th_Dimension/ 💰 Key benefits: Earn while you learn: 90% revenue share on tradeable in-game assets (up to $10,000/year), plus 50% ad revenue on …",
+    "published": "Mon, 31 Aug 2026 22:29:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-08-31T23:33:28.400630"
+  },
+  "5d3be303edc6": {
+    "id": "5d3be303edc6",
+    "title": "What is a good way to create a dirt kickup texture?",
+    "link": "https://realtimevfx.com/t/what-is-a-good-way-to-create-a-dirt-kickup-texture/31623",
+    "summary": "should i just paint it in PS? whats a good workflow for something like this? I am comfortable in houdini, i could also make an animated texture, though i dont think its the most optimal way to do it. 1 post - 1 participant Read full topic",
+    "published": "Mon, 31 Aug 2026 20:07:47 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-08-31T23:33:20.806901"
+  },
+  "64e92bf322bc": {
+    "id": "64e92bf322bc",
+    "title": "Housemarque co-founder Ilari Kuittinen exits from studio",
+    "link": "https://www.gamedeveloper.com/business/housemarque-co-founder-ilari-kuittinen-retires-from-studio",
+    "summary": "'Strive to be a better professional, and a better human being.'",
+    "published": "Mon, 31 Aug 2026 17:29:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-31T23:33:31.020867"
+  },
+  "72fe906e187e": {
+    "id": "72fe906e187e",
+    "title": "Report: 13TB of Steam data leaked after users access 'publicly accessible endpoint'",
+    "link": "https://www.gamedeveloper.com/pc/report-13tb-of-steam-data-leaked-after-users-access-publicly-accessible-endpoint-",
+    "summary": "The leaked data apparently includes beta builds and screenshots of pre-release Valve titles—and games from other publishers like EA and WB Games.",
+    "published": "Mon, 31 Aug 2026 15:07:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-08-31T23:33:31.020895"
   }
 }
