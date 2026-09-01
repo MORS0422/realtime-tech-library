@@ -12748,5 +12748,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-01T12:57:36.122227"
+  },
+  "52c117d97d43": {
+    "id": "52c117d97d43",
+    "title": "Hmm, someone wrote \"increase twice\" in a field - but the engine needs the number 2",
+    "link": "https://gamedev.net/blogs/entry/2298316-hmm-someone-wrote-increase-twice-in-a-field-but-the-engine-needs-the-number-2",
+    "summary": "Give each field a real type so its value behaves predictably and is validated - string, text, number, integer, and checkbox (boolean). A typed value carries its behavior from the editor, through the balance table, to the engine Read more",
+    "published": "Tue, 01 Sep 2026 14:51:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-01T22:18:09.681668"
+  },
+  "6014be459575": {
+    "id": "6014be459575",
+    "title": "Realityjam Rematch Live Competition (Sept 14-15): Win a $6K Unity Scion Foundation Scholarship",
+    "link": "https://gamedev.net/forums/topic/720362-realityjam-rematch-live-competition-sept-14-15-win-a-6k-unity-scion-foundation-scholarship",
+    "summary": "🕹️ We're excited to announce RealityJam Rematch; a live online competition and showcase event taking place September 14th and 15th. We designed this event to bypass traditional gatekeeping and fast-track the next generation of creators directly into games industry careers. We're awarding 10 full scholarships (valued at $6,000 / £4,750 each) into Realityjam's 12-month Scion Foundation Program, with a total prize pool valued at $80,000. Supported by Unity, the program is a high-impact industry pre-apprenticeship where you'll gain practical experience working on our live RPG MMO, 5th Dimension, from day one: https://store.steampowered.com/app/3435630/5th_Dimension/ 💰 Key benefits: Earn while you learn: 90% …",
+    "published": "Tue, 01 Sep 2026 11:24:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-01T22:18:09.681718"
+  },
+  "1a1ee05461c4": {
+    "id": "1a1ee05461c4",
+    "title": "Realistic Waterfall based on Snoqualmie falls",
+    "link": "https://realtimevfx.com/t/realistic-waterfall-based-on-snoqualmie-falls/31632",
+    "summary": "Most up to date progress: Still planning to update some elements in this video, but it’s my most most current, full length capture. https://vimeo.com/1221012075/9e6e75fa53 Hello everyone, this project came from an unlikely source of inspiration. The 2026 FIFA world cup took place in North America. This resulted in a series videos being posted across social media where non-Americans were showing excitement about things in the USA. I happened upon a video of a European girl visiting Snoqualmie falls , which is a location I have visited before as well. I really loved the shapes being created by the water and mist coming off the falls in this video and wanted to see if I could replicate these things. Most of my professional work over the last few years has been more in the stylized realm, so this sounded like a good opportunity to work on a more realistic personal project, which I haven’t done in quite a while. I’m actually quite far along in the project at the time of me making this post, but since I took progress pics and videos along the way, I’ll do my best to share how things developed, from start to finish. And of course, feedback, questions, and critiques are all welcome! 3 posts - 1 participant Read full topic",
+    "published": "Tue, 01 Sep 2026 18:22:49 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-01T22:18:03.157363"
+  },
+  "c58f1f2d96b8": {
+    "id": "c58f1f2d96b8",
+    "title": "Report: Savvy Games Group CEO Brian Ward departs company",
+    "link": "https://www.gamedeveloper.com/business/report-savvy-games-group-ceo-brian-ward-departs-company",
+    "summary": "'As Savvy embarks on its next period of transformational growth, this is the right time for new leadership for that evolution.'",
+    "published": "Tue, 01 Sep 2026 21:42:52 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-01T22:18:11.912525"
+  },
+  "dba8a1d80546": {
+    "id": "dba8a1d80546",
+    "title": "The majority of Doom: The Dark Ages' DLC got made 'in three or four months'",
+    "link": "https://www.gamedeveloper.com/business/the-majority-of-doom-the-dark-ages-dlc-got-made-in-three-or-four-months",
+    "summary": "The team reportedly worked 60 to 80 hour weeks to get the project out the door.",
+    "published": "Tue, 01 Sep 2026 18:03:04 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-01T22:18:11.912549"
+  },
+  "e43a39389dc4": {
+    "id": "e43a39389dc4",
+    "title": "Aggro Crab launches publishing label to splash that Peak cash",
+    "link": "https://www.gamedeveloper.com/business/aggro-crab-launches-publishing-label-to-splash-that-peak-cash",
+    "summary": "The studio wants to support 'intense, stylized games with an attitude' - but isn't interested in 'generative AI slop.'",
+    "published": "Tue, 01 Sep 2026 17:02:48 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-01T22:18:11.912562"
+  },
+  "4f6ae3e7bff2": {
+    "id": "4f6ae3e7bff2",
+    "title": "Sega-owned Rovio is shutting down its Copenhagen studio",
+    "link": "https://www.gamedeveloper.com/business/sega-owned-rovio-is-shutting-down-its-copenhagen-studio",
+    "summary": "The closure follows the cancellation of Sonic Blitz and the exact number of redundancies are yet to be confirmed.",
+    "published": "Tue, 01 Sep 2026 15:37:36 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-01T22:18:11.912575"
+  },
+  "29fd3c205e67": {
+    "id": "29fd3c205e67",
+    "title": "Paradox Interactive's Afterworld wants to entice new players to grand strategy with tasty RPG hooks",
+    "link": "https://www.gamedeveloper.com/design/paradox-interactive-s-afterworld-wants-to-entice-new-players-to-grand-strategy-with-tasty-rpg-hooks",
+    "summary": "Game director Dan Lind explains the appeal of strategy in grand strategy games, and how to invite new players into a sprawling game.",
+    "published": "Tue, 01 Sep 2026 13:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-01T22:18:11.912588"
   }
 }
