@@ -12828,5 +12828,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-01T22:18:11.912588"
+  },
+  "6064cd48746e": {
+    "id": "6064cd48746e",
+    "title": "See Trend VFX’s seven-minute VFX breakdown for slave drama Asad",
+    "link": "https://www.cgchannel.com/2026/09/see-trend-vfxs-seven-minute-vfx-breakdown-for-slave-drama-asad/",
+    "summary": "Watch the Egyptian studio's epic making-of for Moon Knight director Mohamed Diab's new movie, from crowds and cities to a CG baby.",
+    "published": "Wed, 02 Sep 2026 07:58:46 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-02T12:27:06.290329"
+  },
+  "d9f3b04b6ad3": {
+    "id": "d9f3b04b6ad3",
+    "title": "Nevercenter releases Silo 2026.2",
+    "link": "https://www.cgchannel.com/2026/09/nevercenter-releases-silo-2026/",
+    "summary": "Check out the new features in the lightweight 3D modelling and UV mapping tool, including improved FBX, GLB and USD import,",
+    "published": "Wed, 02 Sep 2026 04:00:03 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-02T12:27:06.290347"
+  },
+  "4427720702e4": {
+    "id": "4427720702e4",
+    "title": "Adobe releases Photoshop 27.10",
+    "link": "https://www.cgchannel.com/2026/08/adobe-releases-photoshop-27-10/",
+    "summary": "Update brings prompt-based image editing to Photoshop, including a complete new AI Assisted Editor. See how it works here.",
+    "published": "Tue, 01 Sep 2026 04:00:49 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-02T12:27:06.290357"
+  },
+  "635bfbc42cff": {
+    "id": "635bfbc42cff",
+    "title": "Maya tutorial: The Principles of Physics in Action Scenes",
+    "link": "https://www.cgchannel.com/2026/08/maya-tutorial-the-principles-of-physics-in-action-scenes/",
+    "summary": "Discover how understanding real-world physics principles helps animators create better shots with The Gnomon Workshop's tutorial.",
+    "published": "Sat, 29 Aug 2026 06:00:02 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-02T12:27:06.290376"
+  },
+  "8fbf85e6307c": {
+    "id": "8fbf85e6307c",
+    "title": "Impact Crater",
+    "link": "https://realtimevfx.com/t/impact-crater/31636",
+    "summary": "Been learning a lot from Lee Ki Song’s Signature courses. Tried to implement as many things as I could in this FX. The Niagara graph’s gotten too big and it’s a pain to manage it now. In this project I also implemented the camera shake inside Niagara via the component renderer. And implemented the VAT inside Niagara too. It embarrassingly took quite some time to make the VAT work inside Niagara. It turned out I had to use ‘Real Time instancing’ inside Labs VAT tool in Houdini and use the ‘legacy parameters and instancing’ inside the material instance. 1 post - 1 participant Read full topic",
+    "published": "Wed, 02 Sep 2026 09:54:32 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-09-02T12:27:07.670384"
   }
 }
