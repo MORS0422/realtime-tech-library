@@ -12878,5 +12878,55 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-09-02T12:27:07.670384"
+  },
+  "023dfa69b035": {
+    "id": "023dfa69b035",
+    "title": "Making particle VFX deterministic so we could screenshot-test them in CI",
+    "link": "https://gamedev.net/blogs/entry/2298317-making-particle-vfx-deterministic-so-we-could-screenshot-test-them-in-ci",
+    "summary": "Short devlog about a testing problem rather than an art one. VFX regressions are close to invisible in code review. Somebody nudges an emitter velocity curve, the diff is three numbers in a JSON file, and nobody notices until a build looks subtly wrong two weeks later. We wanted particle effects covered by the same kind of automated check as the rest of the codebase, and the blocker turned out not to be tooling. It was determinism. Why you cannot normally diff a particle effect Two things make a stock particle system unrepeatable: Unseeded randomness. Every spawn pulls from a …",
+    "published": "Wed, 02 Sep 2026 18:33:48 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-02T22:15:13.681305"
+  },
+  "6ad17ca17b61": {
+    "id": "6ad17ca17b61",
+    "title": "Fuzzy Brain is on the Asset Store!",
+    "link": "https://gamedev.net/forums/topic/720369-fuzzy-brain-is-on-the-asset-store",
+    "summary": "I would like to proudly announce my latest asset, Fuzzy Brain, has been accepted to the asset store! Fuzzy Brain is a Unity asset that gives you a different way to build game logic. It separates decision-making logic from behavior implementation, which keeps your code cleaner and more focused while making behaviors easier to create, modify, reuse, and maintain. It is a great tool for solo developers wanting to keep their code clean and manageable while building complex, flexible game logic. But also great for teams with designers with little to no coding experience. Fuzzy Brain is fully integrated in …",
+    "published": "Wed, 02 Sep 2026 19:18:15 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-02T22:15:13.681343"
+  },
+  "a69a4240daf6": {
+    "id": "a69a4240daf6",
+    "title": "Fire arrow at Rest",
+    "link": "https://realtimevfx.com/t/fire-arrow-at-rest/31640",
+    "summary": "Made Fire Arrow 1 post - 1 participant Read full topic",
+    "published": "Wed, 02 Sep 2026 22:09:59 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-02T22:15:07.491167"
+  },
+  "11ae7dc14f29": {
+    "id": "11ae7dc14f29",
+    "title": "Impact and Muzzle Flash Realistic",
+    "link": "https://realtimevfx.com/t/impact-and-muzzle-flash-realistic/31638",
+    "summary": "hey guys I made this muzzle flash and Concrete Impact effect in Unreal using houdini and a mini tutorial, let me know what you think https://www.artstation.com/artwork/ayGWkz 1 post - 1 participant Read full topic",
+    "published": "Wed, 02 Sep 2026 15:20:41 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-09-02T22:15:07.491196"
+  },
+  "9d0755fb2560": {
+    "id": "9d0755fb2560",
+    "title": "Nexus Mods is acquiring database and analytics site SteamDB",
+    "link": "https://www.gamedeveloper.com/business/nexus-mods-is-acquiring-database-and-analytics-site-steamdb",
+    "summary": "Nexus Mods wants to grant SteamDB resources and the 'long-term stability it deserves.'",
+    "published": "Wed, 02 Sep 2026 17:27:45 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-02T22:15:15.527417"
   }
 }
