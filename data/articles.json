@@ -12928,5 +12928,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-02T22:15:15.527417"
+  },
+  "196a341bff8e": {
+    "id": "196a341bff8e",
+    "title": "Andras Ketzer releases FluidNinja Live 2 for Unreal Engine",
+    "link": "https://www.cgchannel.com/2026/09/andras-ketzer-releases-fluidninja-live-2-for-unreal-engine/",
+    "summary": "Long-awaited major update to the popular VFX system for Unreal Engine improves performance, and adds new ways to control sims.",
+    "published": "Thu, 03 Sep 2026 07:05:04 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-09-03T12:28:10.824871"
+  },
+  "95ac2acb5cf2": {
+    "id": "95ac2acb5cf2",
+    "title": "See Wētā FX’s spectacular new VFX breakdown for House of the Dragon",
+    "link": "https://www.cgchannel.com/2026/09/check-out-weta-fxs-spectacular-new-breakdown-for-house-of-the-dragon/",
+    "summary": "See how the international VFX powerhouse created the Battle of the Gullet for Season 3 of the Game of Thrones prequel series.",
+    "published": "Thu, 03 Sep 2026 05:20:58 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-03T12:28:10.824902"
+  },
+  "a6fe051b7ae9": {
+    "id": "a6fe051b7ae9",
+    "title": "tyFlow 2.1 adds PhysX-powered vehicle rigging and simulation",
+    "link": "https://www.cgchannel.com/2026/09/tyflow-2-1-adds-physx-powered-vehicle-rigging-and-simulation/",
+    "summary": "Popular 3ds Max multiphysics plugin gets a complete new vehicle toolset, along with new Gaussian Splatting features.",
+    "published": "Thu, 03 Sep 2026 04:36:13 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-03T12:28:10.824916"
+  },
+  "af264344448b": {
+    "id": "af264344448b",
+    "title": "Absolute Cinema Zoe | League Of Legends VFX Fan Art",
+    "link": "https://realtimevfx.com/t/absolute-cinema-zoe-league-of-legends-vfx-fan-art/31642",
+    "summary": "I have Created a VFX Fan Art for a Made up skin for Zoe. I called It “Absolute Cinema” It is inspired by the amazing Concept of Geoffrey Amesse for Inktober 2025 - YouTube 3 posts - 1 participant Read full topic",
+    "published": "Thu, 03 Sep 2026 07:35:31 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-03T12:28:11.761071"
+  },
+  "5eaf4015633e": {
+    "id": "5eaf4015633e",
+    "title": "CD Projekt Red won't be abandoning physical releases",
+    "link": "https://www.gamedeveloper.com/business/cd-projekt-red-won-t-be-abandoning-physical-releases",
+    "summary": "'What you can definitely expect from us is to put out a box that's going to make it worth your while.'",
+    "published": "Thu, 03 Sep 2026 10:55:48 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-03T12:28:21.416257"
   }
 }
