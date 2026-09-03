@@ -12978,5 +12978,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-03T12:28:21.416257"
+  },
+  "785a1bd91c94": {
+    "id": "785a1bd91c94",
+    "title": "GeneBloom — cozy greenhouse breeding game on Steam ($2.99)",
+    "link": "https://gamedev.net/forums/topic/720367-genebloom-cozy-greenhouse-breeding-game-on-steam-299",
+    "summary": "Hey, I made this one. GeneBloom is a tiny cozy genetics greenhouse tycoon on Steam, $2.99. You breed flowers for colors and mutations, sell them to picky/quirky customers, upgrade the greenhouse. Theres a lazy cat and a squirrel that steals plants which is kind of the whole personality of the game. Pixel art refresh is live. https://store.steampowered.com/app/4696820/GeneBloom/ Im the solo dev so grain of salt. If anyone wants to try it I can send a key, no obligation.",
+    "published": "Thu, 03 Sep 2026 20:13:44 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-03T22:08:30.525843"
+  },
+  "c0fc0fd7dd78": {
+    "id": "c0fc0fd7dd78",
+    "title": "Supercell's acquisition of Metacore expected to close this month",
+    "link": "https://www.gamedeveloper.com/business/supercell-s-acquisition-of-metacore-expected-to-close-this-month",
+    "summary": "Once the deal is closed, Merge Mansion will officially become part of Supercell's live games portfolio.",
+    "published": "Thu, 03 Sep 2026 16:06:04 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-03T22:08:33.653730"
+  },
+  "44d9ba1b5485": {
+    "id": "44d9ba1b5485",
+    "title": "Gamecity Hamburg launches second round of prototype funding",
+    "link": "https://www.gamedeveloper.com/business/gamecity-hamburg-launches-second-round-of-prototype-funding",
+    "summary": "The organization is offering up to €80,000 to developers based or operating in the region.",
+    "published": "Thu, 03 Sep 2026 14:49:10 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-03T22:08:33.653752"
   }
 }
