@@ -13048,5 +13048,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-04T12:25:48.419910"
+  },
+  "13923987cd5e": {
+    "id": "13923987cd5e",
+    "title": "Making the Framework Game-Ready",
+    "link": "https://gamedev.net/blogs/entry/2298329-making-the-framework-game-ready",
+    "summary": "What it do everyone! This week was a much more productive week , and pretty much every day ended with something meaningful moving forward. Even Monday — when I had no patch notes — turned out to be productive. I spent the day chasing what I thought was a Fog of War / player vision bug... Only to eventually discover that there wasn't actually a bug. 😂 I'll get into that one in the video because it was definitely one of those debugging sessions where you spend hours looking in the wrong place before realizing what was actually happening. Overall, …",
+    "published": "Fri, 04 Sep 2026 20:35:29 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-04T22:00:29.991284"
+  },
+  "b6b3734450d5": {
+    "id": "b6b3734450d5",
+    "title": "[FREE PROJECT HANDOVER] Two Advanced Unity 2D Games Looking for New Developers / Teams",
+    "link": "https://gamedev.net/forums/topic/720372-free-project-handover-two-advanced-unity-2d-games-looking-for-new-developers-teams",
+    "summary": "Hello everyone, I am looking for serious and motivated developers, or small development teams, interested in taking over one of two advanced Unity 2D game projects that I originally created and developed. I am offering the projects for free. This is not a paid position, employment offer, or commissioned job. I am not asking for payment, funding, or a mandatory revenue share. My main goal is simply to give these projects a chance to be completed and released rather than leaving them unfinished. The projects 1. Multi Rotation Ball An experimental 2D platform game built around unusual rotation-based gameplay mechanics. …",
+    "published": "Fri, 04 Sep 2026 21:03:04 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-04T22:00:29.991324"
+  },
+  "787e216e68d6": {
+    "id": "787e216e68d6",
+    "title": "Strategically making Star Wars Zero Company, ft. Greg Foertsch",
+    "link": "https://www.gamedeveloper.com/production/strategically-making-star-wars-zero-company-ft-greg-foertsch",
+    "summary": "Bit Reactor CEO and Star Wars Zero Company creative director Greg Foertsch discusses the development of the latest adventure from the world of Star Wars.",
+    "published": "Fri, 04 Sep 2026 14:15:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-04T22:00:32.669969"
   }
 }
