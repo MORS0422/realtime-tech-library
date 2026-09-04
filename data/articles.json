@@ -13008,5 +13008,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-03T22:08:33.653752"
+  },
+  "63547abd5a5a": {
+    "id": "63547abd5a5a",
+    "title": "ArmorPaint 1.0 is out after eight years in early access",
+    "link": "https://www.cgchannel.com/2026/09/armorpaint-1-0-is-out-after-eight-years-in-early-access/",
+    "summary": "The first 'official' release of the popular open-source 3D texture painting app is ready to download. Check out its new features.",
+    "published": "Fri, 04 Sep 2026 10:16:18 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-04T12:25:38.927399"
+  },
+  "2b0df4e6daf2": {
+    "id": "2b0df4e6daf2",
+    "title": "Discover Milk VFX’s Unreal Engine pipeline for Surviving Earth",
+    "link": "https://www.cgchannel.com/2026/09/discover-milk-vfxs-unreal-engine-pipeline-for-surviving-earth/",
+    "summary": "Discover how the VFX studio used UE5 from previs through to post to create the CG environments for the natural history documentary series.",
+    "published": "Fri, 04 Sep 2026 07:29:17 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-09-04T12:25:38.927419"
+  },
+  "0c0a9689f246": {
+    "id": "0c0a9689f246",
+    "title": "Call for Sound Designers: Join the BamSFX Marketplace! 🔊",
+    "link": "https://gamedev.net/blogs/entry/2298324-call-for-sound-designers-join-the-bamsfx-marketplace",
+    "summary": "Hey there, fellow sound designers! 👋 BamSFX is officially opening its doors to new sellers. If you are a sound designer with existing sound effect packs, we want to hear from you. 👉 Apply here: https://lnkd.in/dax5AG5y (Or visit bamsfx.com and click \"Become a seller\" in the top right corner) The Short Version: A while ago, we announced that our marketplace, bamsfx.com , would soon be onboarding new sellers. That time has finally arrived! 🎉 Our Mission BamSFX targets small video game studios and individual developers, providing them with high-quality, professional, and financially accessible sound effects. To do this, we need …",
+    "published": "Fri, 04 Sep 2026 10:58:54 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-04T12:25:46.100059"
+  },
+  "26814ac43c02": {
+    "id": "26814ac43c02",
+    "title": "Xbox to cap Cloud Gaming hours for Game Pass subscribers",
+    "link": "https://www.gamedeveloper.com/cloud/xbox-to-cap-cloud-gaming-hours-for-game-pass-subscribers",
+    "summary": "Game Pass subscribers will no longer have unlimited access to Xbox's Cloud Gaming service.",
+    "published": "Thu, 03 Sep 2026 23:40:49 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-04T12:25:48.419910"
   }
 }
