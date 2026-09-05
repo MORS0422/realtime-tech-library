@@ -13078,5 +13078,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-04T22:00:32.669969"
+  },
+  "f3060ae791fc": {
+    "id": "f3060ae791fc",
+    "title": "Tutorial: Introduction to Compositing in Nuke",
+    "link": "https://www.cgchannel.com/2026/09/tutorial-introduction-to-compositing-in-nuke/",
+    "summary": "Learn the fundamentals of compositing in the VFX industry-leading software with The Gnomon Workshop's beginner-friendly guide.",
+    "published": "Sat, 05 Sep 2026 06:00:45 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-05T11:31:56.956710"
+  },
+  "fb9384e3ee3c": {
+    "id": "fb9384e3ee3c",
+    "title": "Dynamically Repositioned UI, now in ToyMaker",
+    "link": "https://gamedev.net/blogs/entry/2298331-dynamically-repositioned-ui-now-in-toymaker",
+    "summary": "I thought making simple resizable UI layouts for ToyMaker would be easy, after implementing 3D graphics and physics. Apparently not. Here's what I've been working on the past week or two. The idea is pretty simple: There's a UI container whose size matches the size of the viewport (the window). UI elements are positioned relative to specific reference coordinates on the container. Elements anchored to the top-left of the container, stay at the top left, likewise with elements at the center and other parts of the container. My implementation isn't particularly sophisticated, and it kinda just gets the job done. …",
+    "published": "Sat, 05 Sep 2026 06:54:36 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-05T11:32:05.550722"
   }
 }
