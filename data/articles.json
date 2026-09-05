@@ -13098,5 +13098,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-09-05T11:32:05.550722"
+  },
+  "e22c6a15fd3b": {
+    "id": "e22c6a15fd3b",
+    "title": "Building HashForge: Turning a Simple Browser Mining Idea Into a Full Game",
+    "link": "https://gamedev.net/blogs/entry/2298333-building-hashforge-turning-a-simple-browser-mining-idea-into-a-full-game",
+    "summary": "When I first started working on HashForge, the idea was much smaller than what it has become. The original concept was simple: create a browser game where players could build a virtual mining setup and gradually improve it over time. But I quickly ran into a problem. If the entire game revolves around watching numbers increase, how do you keep the player involved? That question changed the direction of the project. Making the Player Actually Play Instead of turning HashForge into a pure idle game, I started adding small arcade games. The idea was that progression shouldn't only come from …",
+    "published": "Sat, 05 Sep 2026 18:47:45 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-05T21:50:26.568775"
   }
 }
