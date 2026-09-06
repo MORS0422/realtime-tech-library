@@ -13118,5 +13118,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-09-06T11:52:52.991661"
+  },
+  "70a1acd0d2af": {
+    "id": "70a1acd0d2af",
+    "title": "How to polish an effect?",
+    "link": "https://realtimevfx.com/t/how-to-polish-an-effect/31655",
+    "summary": "Hi! My first post on the forums! I am working on this burst + projectile effect. I want to polish it more. but I don’t quite know how/what it means to polish effect. Link to a video of the effect I am talking about. - YouTube To boil it down to an actual question: How do I improve the quality of this effect? What are some usual points that FX artist polish first? Of course any other feedback or ideas are welcome! Thank you for reading! 1 post - 1 participant Read full topic",
+    "published": "Sun, 06 Sep 2026 15:41:11 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-06T21:53:46.138594"
   }
 }
