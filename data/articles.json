@@ -13128,5 +13128,25 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-09-06T21:53:46.138594"
+  },
+  "705f86dc058f": {
+    "id": "705f86dc058f",
+    "title": "My Journey to Video Game Development",
+    "link": "https://gamedev.net/blogs/entry/2269256-my-journey-to-video-game-development",
+    "summary": "One evening, back in April 2005, my older brother, Matthew, called me into his room. Upon entering, I saw that he was playing a game on our computer. It wasn't just any game...it was a game he made himself! It featured me as Power Micah, an alter ego of mine in my series \"The Adventures of Micah\", and Trekker, the antagonist. We were fighting one another in the same format as most old school fighting video games. Very impressed, I asked Matthew about it, who then proceeded to tell me how it was done. It was revealed he had a …",
+    "published": "Mon, 07 Sep 2026 03:48:03 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-07T13:52:15.603926"
+  },
+  "a391333e1f7c": {
+    "id": "a391333e1f7c",
+    "title": "Stylized Fireball Projectile",
+    "link": "https://realtimevfx.com/t/stylized-fireball-projectile/31658",
+    "summary": "Hey guys wanted to share my latest piece, Id appreciate the feedback! Stylized fireball projectile, built in Unity URP. The Fire is procedural, using triplanar noise to avoid seams. The color bands come from step nodes and lineart comes from offsetting those steps slightly. Anticipation, projectile and impact all follow the same technique for coloring and lineart. 1 post - 1 participant Read full topic",
+    "published": "Sun, 06 Sep 2026 22:41:02 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-07T13:52:09.671985"
   }
 }
