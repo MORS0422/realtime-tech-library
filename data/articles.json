@@ -13148,5 +13148,25 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-09-07T13:52:09.671985"
+  },
+  "c259499d07dc": {
+    "id": "c259499d07dc",
+    "title": "Stop making duplicates, let's put things in order with the help of structures and enumerations",
+    "link": "https://gamedev.net/blogs/entry/2298341-stop-making-duplicates-lets-put-things-in-order-with-the-help-of-structures-and-enumerations",
+    "summary": "Due to a trivial typo in the type, the engine simply loses sight of the character. We tell you how enumerations help to restore order and avoid breakdowns in the code Read more",
+    "published": "Mon, 07 Sep 2026 16:47:00 +0000",
+    "source_name": "GameDev - Tech Art",
+    "category": "ta",
+    "fetched_at": "2026-09-07T22:26:48.190287"
+  },
+  "4c4a013a265c": {
+    "id": "4c4a013a265c",
+    "title": "🚀 Season:One Has Launched! Get Our Free Season:One Founders Ship Skin!",
+    "link": "https://gamedev.net/forums/topic/720385-seasonone-has-launched-get-our-free-seasonone-founders-ship-skin",
+    "summary": "👑Can you dethrone Shuyin12 our Number 1 pilot in Season:One? 🚀Season:One players get the Founders Ship skin FREE! 🕹️Blast through waves of crypto-themed asteroids in the most addictive retro arcade reboot on the web. ⭐Collect power-ups, chase high scores, master the grind, climb the leaderboard 🌐Play anywhere — desktop or mobile, same account &amp; progress 👉https://team-united-designs.itch.io/biteroids-asteroids-bitcoin-arcade 👉biteroidsarcade.com",
+    "published": "Mon, 07 Sep 2026 20:07:52 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-07T22:26:56.899367"
   }
 }
