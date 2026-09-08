@@ -13168,5 +13168,65 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-09-07T22:26:56.899367"
+  },
+  "46c81e007213": {
+    "id": "46c81e007213",
+    "title": "See how Folks created the CG crowds for Chad Powers Season 1",
+    "link": "https://www.cgchannel.com/2026/09/see-how-folks-created-the-cg-crowds-for-chad-powers-season-1/",
+    "summary": "Discover how the visual effects studio created CG stadiums packed with over 90,000 fans for the college football comedy drama.",
+    "published": "Tue, 08 Sep 2026 09:34:50 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-08T12:30:49.191114"
+  },
+  "6b52957b2eee": {
+    "id": "6b52957b2eee",
+    "title": "New CG software you may have missed: 7 September 2026",
+    "link": "https://www.cgchannel.com/2026/09/new-cg-software-you-may-have-missed-7-september-2026/",
+    "summary": "Discover what's new in CG tools including LiquiGen, Unity, and free apps RealityScan Mobile, 3DGS Render for Blender, and Sisir.",
+    "published": "Mon, 07 Sep 2026 17:17:29 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-08T12:30:49.191137"
+  },
+  "b7efaf85697a": {
+    "id": "b7efaf85697a",
+    "title": "Exchange",
+    "link": "https://gamedev.net/blogs/entry/2298348-exchange",
+    "summary": "One of the key locations is an abandoned shopping mall, based on a real place. We conveyed an atmosphere of desolation and looting - silence, dust, and traces of haste. Rare resources may still be hidden here; exploring the supermarket remains tense and necessary for progression.",
+    "published": "Tue, 08 Sep 2026 09:03:32 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-08T12:30:56.972631"
+  },
+  "0f2c00f8a952": {
+    "id": "0f2c00f8a952",
+    "title": "Cursor Wars — What if your cursor was the player?",
+    "link": "https://gamedev.net/forums/topic/720387-cursor-wars-what-if-your-cursor-was-the-player",
+    "summary": "I've been working on a multiplayer browser game where the player is literally a mouse cursor. It has factions, real-time combat, health, kills, chat and a minimap. The project is still evolving, so I'd love feedback from other developers on the gameplay and multiplayer side. Play it here: https://roncool.cc.cd/cursorwars",
+    "published": "Tue, 08 Sep 2026 10:19:01 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-08T12:30:56.972653"
+  },
+  "847e0a1f5451": {
+    "id": "847e0a1f5451",
+    "title": "Start beginner",
+    "link": "https://realtimevfx.com/t/start-beginner/31667",
+    "summary": "Hello everyone in the community! I’ve recently started studying VFX and Unreal Engine. It all began when I watched a YouTube video about game effects; I fell in love with it instantly it was like love at first sight and I’ve been diving deep into my studies ever since. Creating my first effect was an amazing experience. I’m currently taking a VFX course on Udemy that covers everything from beginner to advanced levels, and I’m learning a lot from every topic covered. However, I’m unsure about what to study next is there a roadmap of some kind? From what I’ve seen, VFX covers a wide range of areas, such as shapes, materials, color theory, timing, and more. I’d love to ask for your help with a “study guide” or even just some tips; that would be incredibly helpful. Thanks to everyone here! 1 post - 1 participant Read full topic",
+    "published": "Tue, 08 Sep 2026 11:50:24 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-09-08T12:30:50.546457"
+  },
+  "8373d5ed6fc1": {
+    "id": "8373d5ed6fc1",
+    "title": "Don't Nod considering laying off 90 workers in France",
+    "link": "https://www.gamedeveloper.com/business/don-t-nod-considering-laying-off-90-workers-in-france",
+    "summary": "The Life is Strange developer has warned it might not have the runway to continue operating beyond January 31, 2027.",
+    "published": "Tue, 08 Sep 2026 11:14:25 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-08T12:31:01.475390"
   }
 }
