@@ -13228,5 +13228,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-08T12:31:01.475390"
+  },
+  "d37ebb77245d": {
+    "id": "d37ebb77245d",
+    "title": "Welcome to Ron.cool",
+    "link": "https://gamedev.net/blogs/entry/2298352-welcome-to-roncool",
+    "summary": "Welcome to Ron.cool I've been building a lot of random things lately, so I decided to put everything I've made into one place. Ron.cool is basically my personal collection of games, experiments, tools, coding projects and weird ideas. There's a bit of everything: Games — Cursor Wars, SPACE COMMANDER, Flappy.exe, Cursor Maze, Orbit and more. Space stuff — Explore Space and What's That Star? Experiments — Particles, Emoji Rain, What If?, Button Press and other weird interactive projects. Coding projects — RonScript, 3D engine experiments and other things I'm messing around with. Tools — Frame Scrubber, Fake Screenshot Generator, Crack …",
+    "published": "Tue, 08 Sep 2026 15:32:50 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-08T22:16:53.514493"
+  },
+  "b484c5071801": {
+    "id": "b484c5071801",
+    "title": "Riot Games is considering making premium titles, says co-founder",
+    "link": "https://www.gamedeveloper.com/business/riot-games-marc-merrill-says-company-is-considering-making-premium-games",
+    "summary": "'Not every game needs to be infinite.'",
+    "published": "Tue, 08 Sep 2026 21:14:23 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-08T22:16:56.439577"
+  },
+  "1d16c442e91d": {
+    "id": "1d16c442e91d",
+    "title": "Report: EA is using genAI for commentator voiceover in NHL 27",
+    "link": "https://www.gamedeveloper.com/business/report-ea-s-nhl-27-is-using-genai-to-create-voiceover-claims-a-sports-commentator",
+    "summary": "Veteran sports commentator John Buccigross claims EA showed him the tech using his voice for in-game commentary in NHL 27.",
+    "published": "Tue, 08 Sep 2026 18:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-08T22:16:56.439599"
+  },
+  "91230842bdf2": {
+    "id": "91230842bdf2",
+    "title": "Tim Schafer says Double Fine's unique games can be commercial hits if they can find their audience",
+    "link": "https://www.gamedeveloper.com/business/tim-schafer-we-never-actively-tried-to-make-a-game-we-thought-was-going-to-lose-money",
+    "summary": "The Double Fine head says the studio was not profitable under Xbox.",
+    "published": "Tue, 08 Sep 2026 17:14:18 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-08T22:16:56.439611"
+  },
+  "e41e1fa16784": {
+    "id": "e41e1fa16784",
+    "title": "Report: FuturLab lays off devs without informing team leads or managers",
+    "link": "https://www.gamedeveloper.com/business/report-futurlab-makes-layoffs-without-informing-team-leads-or-managers",
+    "summary": "Sources have also accused the Powerwash Simulator developer of obfuscating the truth by asking staff to refer to those laid off as 'the leavers.'",
+    "published": "Tue, 08 Sep 2026 13:23:06 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-08T22:16:56.439624"
   }
 }
