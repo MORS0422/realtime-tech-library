@@ -13328,5 +13328,65 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-09-09T12:37:24.853448"
+  },
+  "43ecc3287211": {
+    "id": "43ecc3287211",
+    "title": "Adobe releases After Effects 26.5 and new AI Assistant in beta",
+    "link": "https://www.cgchannel.com/2026/09/adobe-releases-after-effects-26-5-and-new-ai-assistant-in-beta/",
+    "summary": "Check out the new features in compositing and motion graphics app, including the new agentic AI Assistant in the current beta build.",
+    "published": "Wed, 09 Sep 2026 16:13:46 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-09T22:09:28.942615"
+  },
+  "dd526833ab90": {
+    "id": "dd526833ab90",
+    "title": "[RevShare] [Programmer] Looking for Developer(s) Interested in a 3D Platformer / Collectathon",
+    "link": "https://gamedev.net/forums/topic/720399-revshare-programmer-looking-for-developers-interested-in-a-3d-platformer-collectathon",
+    "summary": "Raykou &amp; Bodu Hi! I'm Robert, from Sweden, and I've been developing the concept and design for a game called Raykou &amp; Bodu . I'm primarily a game designer and writer rather than a programmer or artist , and I've reached the point where I would like to see if there are any developers here who find the project interesting and might want to explore turning it into an actual game together. I'm not looking for someone to simply “make my game for me.” I'm looking for a collaborator (or eventually a small team) who genuinely likes the concept and …",
+    "published": "Wed, 09 Sep 2026 17:23:40 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-09T22:09:37.935856"
+  },
+  "d06069a43838": {
+    "id": "d06069a43838",
+    "title": "Mark Cerny and Geoff Keighley launch university-affiliated fellowship program",
+    "link": "https://www.gamedeveloper.com/business/mark-cerny-and-geoff-keighley-launch-university-affiliated-fellowship-program",
+    "summary": "The program, called Nova Games Foundation, aims to offer six-figure grants to 20 young game designers each year.",
+    "published": "Wed, 09 Sep 2026 20:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-09T22:09:40.616484"
+  },
+  "4e4c70cc269e": {
+    "id": "4e4c70cc269e",
+    "title": "Planet Zoo maker Frontier Developments' adjusted operating profit jumps 62 percent",
+    "link": "https://www.gamedeveloper.com/business/planet-zoo-maker-frontier-developments-adjusted-operating-profit-jumps-62-percent",
+    "summary": "Frontier reports multiple 'company records' as revenue grows 16 percent in FY2026.",
+    "published": "Wed, 09 Sep 2026 18:24:38 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-09T22:09:40.616505"
+  },
+  "d5f73005cdef": {
+    "id": "d5f73005cdef",
+    "title": "Trump Administration takes down Tetris clone after company warns it takes copyright violation 'very seriously'",
+    "link": "https://www.gamedeveloper.com/business/trump-administration-takes-down-tetris-clone-after-company-warns-it-takes-copyright-violation-very-seriously-",
+    "summary": "Build The Wall has been knocked down.",
+    "published": "Wed, 09 Sep 2026 15:36:38 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-09T22:09:40.616514"
+  },
+  "307f1049c90a": {
+    "id": "307f1049c90a",
+    "title": "Blizzard union workers ratify historic contract covering 1,900 employees",
+    "link": "https://www.gamedeveloper.com/production/blizzard-union-workers-ratify-historic-contract-covering-1-900-employees",
+    "summary": "Union members have secured guardrails around generative AI usage, layoff protections, remote and hybrid work benefits, and more.",
+    "published": "Wed, 09 Sep 2026 12:59:56 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-09T22:09:40.616526"
   }
 }
