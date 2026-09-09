@@ -13278,5 +13278,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-08T22:16:56.439624"
+  },
+  "4a89ad3956e1": {
+    "id": "4a89ad3956e1",
+    "title": "Blackmagic Design releases Fusion Studio 21.1",
+    "link": "https://www.cgchannel.com/2026/09/blackmagic-design-releases-fusion-studio-21/",
+    "summary": "Free update to the 3D compositing app adds new Krokodove motion graphics tools, and updates to deep compositing and lens correction.",
+    "published": "Wed, 09 Sep 2026 06:00:59 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-09T12:37:23.691901"
+  },
+  "8b21f30fd202": {
+    "id": "8b21f30fd202",
+    "title": "Blackmagic Design releases DaVinci Resolve 21.1",
+    "link": "https://www.cgchannel.com/2026/09/blackmagic-design-releases-resolve-21-1/",
+    "summary": "Discover key features for VFX artists and colorists in this sizeable update to the free grading and editing app and its $295 Studio edition.",
+    "published": "Tue, 08 Sep 2026 13:31:33 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-09T12:37:23.691925"
+  },
+  "6260244183ae": {
+    "id": "6260244183ae",
+    "title": "What if you could build a computer by dragging components onto a virtual motherboard?",
+    "link": "https://gamedev.net/blogs/entry/2298353-what-if-you-could-build-a-computer-by-dragging-components-onto-a-virtual-motherboard",
+    "summary": "What if you could connect a CPU, a video chip, RAM, and then press \"Play\" to watch it come to life? This is the fantasy that guided Symphony's development from day one. It includes: A custom multi-pass AST-to-Bytecode Go compiler built from scratch. A Microkernel OS simulation featuring an asynchronous message router that manages isolated user-space processes, complete with a built-in SSH server. A Virtual Machine implementing a cooperative lock-free scheduler for goroutines and channels. Every piece of hardware is a self-contained software object. The framework prioritizes physical fidelity over high-level emulation, modeling complex behaviors like exact bus arbitration. Currently, …",
+    "published": "Wed, 09 Sep 2026 10:38:04 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-09T12:37:31.248110"
+  },
+  "53b5fa058161": {
+    "id": "53b5fa058161",
+    "title": "im makeing a physics sim platform 2d",
+    "link": "https://gamedev.net/forums/topic/720395-im-makeing-a-physics-sim-platform-2d",
+    "summary": "Hey, I’ve been working on a project called Physics Sims. It’s a browser-based platform where people can make physics projects, check out other creations, and compete in physics contests. make a account or test account if you want It’s still being developed, but I’m getting it ready for the upcoming releases and figured I’d share it here. (also does guildlines mean tos) https://axis-8685a.web.app Would be cool to hear what you think. it has 33 users and a dream tbh lol lamo anyways bye :) :D",
+    "published": "Tue, 08 Sep 2026 22:25:25 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-09T12:37:31.248145"
+  },
+  "ed39c3027ff2": {
+    "id": "ed39c3027ff2",
+    "title": "Footstep dilemma T_T",
+    "link": "https://realtimevfx.com/t/footstep-dilemma-t-t/31670",
+    "summary": "Hey everyone! Hope you are all having a great week! I’m getting ready for autumn, working on a rain weather system, and I’m struggling with turning the footsteps on and off in accordance with the rain and could use some help T_T I want a little water splash to come up when it’s raining and stop when it’s not raining. Which really doesn’t sound that crazy - but I have been banging my head on it for about two weeks. I looked at some tutorials online but they always have the same weather So I figure I could really use the eyes of the smart cookies here at real-time VFX. The spawn rate rain is working so I assume it’s the burst nature of my emitter that’s causing the problem - somehow it doesn’t acknowledge that the index has changed - is there a way around this? Alternatively, I might have the wrong idea all together and need to change setup entirely. Has anyone set up a footstep system before and figured out how to alter it’s output depending on what’s happening in a blueprint? Would really appreciate people’s experiences, thoughts, and ideas on tackling this one. 1 post - 1 participant Read full topic",
+    "published": "Wed, 09 Sep 2026 11:51:46 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-09T12:37:24.853448"
   }
 }
