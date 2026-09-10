@@ -13438,5 +13438,75 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-09-10T12:36:42.676354"
+  },
+  "389299378f50": {
+    "id": "389299378f50",
+    "title": "SuperSplat Editor 3.0 is a huge performance update",
+    "link": "https://www.cgchannel.com/2026/09/playcanvas-releases-supersplat-editor-3-0/",
+    "summary": "Big update to the free online tool for viewing and editing 3D Gaussian Splats lets you visualize tens of millions of Gaussians smoothly.",
+    "published": "Thu, 10 Sep 2026 15:25:39 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-10T22:11:00.503172"
+  },
+  "c5368338d5ad": {
+    "id": "c5368338d5ad",
+    "title": "Setting up the connection between the elements so that the document does not fall apart",
+    "link": "https://gamedev.net/blogs/entry/2298360-setting-up-the-connection-between-the-elements-so-that-the-document-does-not-fall-apart",
+    "summary": "Is the logic broken again because of the changes? We tell you how to set up connections once and not worry anymore Read more",
+    "published": "Thu, 10 Sep 2026 15:53:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-10T22:11:09.875006"
+  },
+  "2c9260dd2e34": {
+    "id": "2c9260dd2e34",
+    "title": "New to Game Composing, Where do I start?",
+    "link": "https://gamedev.net/forums/topic/720406-new-to-game-composing-where-do-i-start",
+    "summary": "I've been producing for a little over 2 years now and 90% of the feedback I've got has been \"You should make video game music.\" I've thought this idea over for a few weeks and I decided that's what I want to do. Where do I even start? Are there websites like this one that give people good outreach to game developers to secure a position? Is it a stable salary or would it be commission based? Is it even a good job to get into? Am I ready for something like that based off of my music? Etc, etc.",
+    "published": "Thu, 10 Sep 2026 21:46:49 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-10T22:11:09.875030"
+  },
+  "30586b035da3": {
+    "id": "30586b035da3",
+    "title": "Data Channel Writer unreliable",
+    "link": "https://realtimevfx.com/t/data-channel-writer-unreliable/31679",
+    "summary": "Hello! I’m trying to use niagara data channel writer interface to spawn a particles upon collision. I have an issue where it’s not working until I change any parameter in the niagara data channel asset. Then if the system gets put to sleep by a niagara effect type or if I go to another level the append to the writer stops working until I mess with the NDC asset again… example: - YouTube Anyone has experienced this? ( on 5.8.2 ) Thanks! 1 post - 1 participant Read full topic",
+    "published": "Thu, 10 Sep 2026 17:05:30 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-09-10T22:11:01.805125"
+  },
+  "a3635d9c6d4a": {
+    "id": "a3635d9c6d4a",
+    "title": "Xbox to publish Kojima Productions' Physint after PlayStation ditches project",
+    "link": "https://www.gamedeveloper.com/business/xbox-to-publish-kojima-productions-physint-after-playstation-ditches-project",
+    "summary": "Xbox is committing to the project during a significant period of change for the company that has so far included mass layoffs and after numerous canceled publishing partnerships.",
+    "published": "Thu, 10 Sep 2026 19:35:18 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-10T22:11:13.090522"
+  },
+  "6f4e41d6840a": {
+    "id": "6f4e41d6840a",
+    "title": "'Ship a good game, learn from it, and build from there:' Lessons from going indie after a decade at id Software",
+    "link": "https://www.gamedeveloper.com/production/-ship-a-good-game-learn-from-it-and-build-from-there-lessons-from-going-indie-after-a-decade-at-id-software",
+    "summary": "We sit down with Doom Eternal art director Tony Garza and fellow id alum Richard O'Neal to hear about their journey into the world of indie development through Turnkey Games.",
+    "published": "Thu, 10 Sep 2026 18:56:42 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-10T22:11:13.090542"
+  },
+  "7d1825246839": {
+    "id": "7d1825246839",
+    "title": "'Justice at last feels within reach:' Fired Rockstar workers rally in Glasgow as union busting tribunal begins",
+    "link": "https://www.gamedeveloper.com/production/-justice-at-last-feels-within-reach-fired-rockstar-workers-rally-in-glasgow-as-union-busting-tribunal-begins",
+    "summary": "The hearing is expected to conclude on October 16, 2026.",
+    "published": "Thu, 10 Sep 2026 13:48:57 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-10T22:11:13.090560"
   }
 }
