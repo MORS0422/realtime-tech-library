@@ -13388,5 +13388,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-09T22:09:40.616526"
+  },
+  "d00c6f59d5b8": {
+    "id": "d00c6f59d5b8",
+    "title": "Maxon releases Redshift 2026.9",
+    "link": "https://www.cgchannel.com/2026/09/maxon-releases-redshift-2026-9/",
+    "summary": "Check out the new features in the GPU production renderer, including updates to new real-time render engine Redshift Live.",
+    "published": "Thu, 10 Sep 2026 07:16:05 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-10T12:36:41.546839"
+  },
+  "692e94385ef5": {
+    "id": "692e94385ef5",
+    "title": "Discover Future Associate’s VFX and postvis for Mortal Kombat II",
+    "link": "https://www.cgchannel.com/2026/09/discover-future-associates-postvis-and-vfx-for-mortal-kombat-ii/",
+    "summary": "Discover the studio's EmberGen-augmented postvis and final VFX for the martial arts movie's Red Throne Room and Netherworld sequences.",
+    "published": "Thu, 10 Sep 2026 05:53:58 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-10T12:36:41.546862"
+  },
+  "aacf401ec059": {
+    "id": "aacf401ec059",
+    "title": "How AI Is Changing Video Game Localization in 2027",
+    "link": "https://gamedev.net/blogs/entry/2298358-how-ai-is-changing-video-game-localization-in-2027",
+    "summary": "Game launches used to follow a fairly predictable order. Studios would release the English version first and add other languages later, usually after a market had proven its value. That approach is becoming harder to sustain. Today, many publishers plan their target markets much earlier, before localization and voice recording even begin. AI localization services are making that broader rollout more practical. The bigger issue is the sheer amount of content studios now have to localize. A live-service game may need to localize new updates across fifteen or more languages every week. A mobile app might need store copy and …",
+    "published": "Thu, 10 Sep 2026 09:38:11 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-10T12:36:50.408962"
+  },
+  "abdaa62c2b5a": {
+    "id": "abdaa62c2b5a",
+    "title": "Short Research Survey on Video Game Bug Trends",
+    "link": "https://gamedev.net/forums/topic/720402-short-research-survey-on-video-game-bug-trends",
+    "summary": "I’m Norihiro Yoshida. I am a professor in computer science at Ritsumeikan University in Japan. One of my graduate students is conducting research for a master’s thesis on bug trends in video games. We are looking for people with game development experience to complete a short anonymous survey on bug trends across time, platforms, genres, and update patches. The survey takes approximately 5 minutes to complete. Survey link: https://forms.gle/NKGyvAaus7J1sQsU6 Responses from developers, QA testers, and others involved in game development would be very valuable to this research. Thank you very much for your time and cooperation.",
+    "published": "Thu, 10 Sep 2026 07:30:35 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-10T12:36:50.409000"
+  },
+  "d48c93398dfc": {
+    "id": "d48c93398dfc",
+    "title": "Sketch #69: Winners and Badges!",
+    "link": "https://realtimevfx.com/t/sketch-69-winners-and-badges/31677",
+    "summary": "WINNERS AND BADGES Here are your winners for last month’s sketch! In 1st place @EliasAyberk Elias : Sketch #69 69-Colorless day 3 update [Souler3-] Second Place @Rengifs Rengifs : Sketch #69 69-Colorless Update 2 [ezgif-441fc15d23949266] I need to work on timing and loading but that almost done ! Congrats to the winners! Thanks again to all our participants, and see you on another sketch 1 post - 1 participant Read full topic",
+    "published": "Thu, 10 Sep 2026 12:21:09 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-10T12:36:42.676354"
   }
 }
