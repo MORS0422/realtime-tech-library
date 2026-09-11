@@ -13538,5 +13538,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-11T12:30:09.162652"
+  },
+  "073e4231c72c": {
+    "id": "073e4231c72c",
+    "title": "World Time and Dynamic Weather",
+    "link": "https://gamedev.net/blogs/entry/2298365-world-time-and-dynamic-weather",
+    "summary": "What it do everyone! Welcome back for another week, which honestly, started slow. I relaxed most of the weekend and honestly wasn't sure what I wanted to work on. Then late Sunday night I got motivated to add World Time to the framework and as usual, it turned into way more than just adding a timer. I started by giving the world its own calendar and clock, with Earth as the default reference. Once that was working, I started using the time data to drive other systems. Starting with dynamic weather because that was the original intent. Then I decided …",
+    "published": "Fri, 11 Sep 2026 20:10:48 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-11T22:09:03.279022"
+  },
+  "f2626e87d97c": {
+    "id": "f2626e87d97c",
+    "title": "What information would you want to keep visible beside the board while playing, and what would you use it for?",
+    "link": "https://gamedev.net/forums/topic/720409-what-information-would-you-want-to-keep-visible-beside-the-board-while-playing-and-what-would-you-use-it-for",
+    "summary": "I'm Fredrik, the developer of ABCx3. What information would you want to keep visible beside the board while playing, and what would you use it for? Chat and remaining tiles are already available. Would word definitions deserve their own panel, or would something else be more useful? 13-second layout clip on Facebook: https://www.facebook.com/520887215/videos/pcb.4544984505786114/1442036221202300",
+    "published": "Fri, 11 Sep 2026 15:55:40 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-11T22:09:03.279048"
+  },
+  "409e27fd76f6": {
+    "id": "409e27fd76f6",
+    "title": "Hotshark4 :: Sketchbook",
+    "link": "https://realtimevfx.com/t/hotshark4-sketchbook/31682",
+    "summary": "Alright I’m finally taking the step of creating a sketchbook - hoping to showcase and improve on some different vfx for the games I’m working on. Would love to get time to just create and practice VFX generally but at the moment I’ll be creating and learning as I work. For context I’m currently working for Trickbyte Games, a small indie studio in the UK where I am doing all the vfx, audio/music and marketing. Currently we’re working on two games, our baby: Apricity and recent game P.O.P: Price of Penance. They are both sort of toon shaded and stylised games so the fx has to work within that. On the side I’m also working on my own game - pending name. This site has been great for inspiration, using the search feature to find effects similar to what I want to create - hopefully I can add to that database for others with some different fx 2 posts - 1 participant Read full topic",
+    "published": "Fri, 11 Sep 2026 13:26:30 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-11T22:08:55.908126"
+  },
+  "3fc3c317c825": {
+    "id": "3fc3c317c825",
+    "title": "An honest opinion or defamation? A solicitor outlines the legal nuance",
+    "link": "https://www.gamedeveloper.com/business/an-honest-opinion-or-defamation-a-solicitor-outlines-the-legal-nuance",
+    "summary": "Rockstar has accused a group of former workers of defaming the studio on Discord—but what does that term actually mean in a legal sense?",
+    "published": "Fri, 11 Sep 2026 13:27:31 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-11T22:09:08.286759"
   }
 }
