@@ -13508,5 +13508,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-10T22:11:13.090560"
+  },
+  "09555cdfdac0": {
+    "id": "09555cdfdac0",
+    "title": "12 years ago I wrote a Wolfenstein 3D clone from scratch in Go (No engine, just OpenGL + Custom Physics)",
+    "link": "https://gamedev.net/blogs/entry/2298364-12-years-ago-i-wrote-a-wolfenstein-3d-clone-from-scratch-in-go-no-engine-just-opengl-custom-physics",
+    "summary": "Hey everyone, I was recently digging through some old files and stumbled upon a personal test project I wrote over 12 years ago. It’s a retro, Wolfenstein-style 3D clone, and I thought the community here might appreciate the technical side of it. The biggest constraint (and the most fun part) of this project was that I didn't use any external game engines (no Unity, Godot, etc.). Everything is built entirely from scratch in Go, relying solely on raw OpenGL. Here is what’s going on under the hood: Custom Raycasting: I built a completely custom 2.5D raycasting engine from the ground …",
+    "published": "Fri, 11 Sep 2026 06:56:26 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-11T12:30:05.684550"
+  },
+  "0e7270066076": {
+    "id": "0e7270066076",
+    "title": "A few questions regarding collision detection orer of operations and world orientation",
+    "link": "https://gamedev.net/forums/topic/720405-a-few-questions-regarding-collision-detection-orer-of-operations-and-world-orientation",
+    "summary": "I'm starting to implement rigid body collision detection and for the first time the order of operations AND the world orientations seams to matter for the correct result of the procedures, but I'm not sure how to proceed. Lets start for the easy one, what is the practical order to move the game objects and detect collisions between them? My first instinct was to move everything and than check for collisions, but this makes it difficult to understand what hit what and when, makes it even more difficult to decide what happens after the collision itself. What I'm thinking now …",
+    "published": "Fri, 11 Sep 2026 10:49:21 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-11T12:30:05.684588"
+  },
+  "f8a5a0649152": {
+    "id": "f8a5a0649152",
+    "title": "Rockstar and fired GTA developers outline core arguments during union busting tribunal",
+    "link": "https://www.gamedeveloper.com/production/rockstar-and-fired-gta-developers-outline-core-arguments-during-union-busting-tribunal",
+    "summary": "Both parties have set out their stall in legal documents obtained by Game Developer.",
+    "published": "Fri, 11 Sep 2026 10:26:10 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-11T12:30:09.162652"
   }
 }
