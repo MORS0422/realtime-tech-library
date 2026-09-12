@@ -13578,5 +13578,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-11T22:09:08.286759"
+  },
+  "6e392040ad90": {
+    "id": "6e392040ad90",
+    "title": "Hozex Engine – A new 3D game engine focused on making game development easier",
+    "link": "https://gamedev.net/forums/topic/720410-hozex-engine-a-new-3d-game-engine-focused-on-making-game-development-easier",
+    "summary": "Hi everyone, I'm an independent developer from NEXIOR GAME, and I've been working on my own 3D game engine called Hozex Engine. Hozex is designed to make 3D game development faster and easier by providing ready-to-use tools directly inside the editor. Some of the current features include: • 3D rendering • Lighting and shadows • Physics and collision • Camera and character systems • Animation tools • Built-in AI tools • 3D scene editing • Materials and asset management • Editor viewport and scene tools I'm currently continuing to develop Hozex and improve the overall workflow and tools. I'd really …",
+    "published": "Sat, 12 Sep 2026 09:28:30 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-12T11:53:28.486531"
+  },
+  "c9f4d23de492": {
+    "id": "c9f4d23de492",
+    "title": "How do you review verified targets before scaling?",
+    "link": "https://realtimevfx.com/t/how-do-you-review-verified-targets-before-scaling/31689",
+    "summary": "I would start with a small target batch, keep one article per site or domain, and review verified URLs before raising volume. That makes it easier to separate list failures from proxy, captcha, account, or engine problems. If you loved this short article and you want to receive more details about submission quality notes kindly visit our own page. 1 post - 1 participant Read full topic",
+    "published": "Sat, 12 Sep 2026 09:48:28 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-12T11:53:21.770820"
   }
 }
