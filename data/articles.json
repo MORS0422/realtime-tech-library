@@ -13638,5 +13638,15 @@
     "source_name": "CG Channel",
     "category": "ta",
     "fetched_at": "2026-09-13T13:02:45.880337"
+  },
+  "f1c404a5da2d": {
+    "id": "f1c404a5da2d",
+    "title": "Videos on game programming in a minimalist language similar to Forth.",
+    "link": "https://gamedev.net/forums/topic/720411-videos-on-game-programming-in-a-minimalist-language-similar-to-forth",
+    "summary": "I’m making videos of recreational programming sessions where I build video games using my own minimalist language. I’ve already uploaded episodes covering a version of Boulder Dash (a famous classic game), and I’m currently working on series for two original games. For the past few years, I've been developing a minimalist, self-hosted stack machine environment and programming language heavily inspired by Chuck Moore’s ColorForth and the broader Forth philosophy. The core motivation behind r3 was simple: zero bloat and instant feedback . Modern game development often requires multi-gigabyte engines, complex toolchains, and heavy standard libraries. I wanted to see how …",
+    "published": "Sun, 13 Sep 2026 20:43:47 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-13T22:00:48.003241"
   }
 }
