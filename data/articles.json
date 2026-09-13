@@ -13618,5 +13618,25 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-09-12T21:53:13.449744"
+  },
+  "6cf8364fcc4a": {
+    "id": "6cf8364fcc4a",
+    "title": "New CG software you may have missed: 13 September 2026",
+    "link": "https://www.cgchannel.com/2026/09/new-cg-software-you-may-have-missed-13-september-2026/",
+    "summary": "Check out the week's other updates to CG tools, like HDR Light Studio, free Maya rigging toolset mGear, and SwitchX, Beeble's VFX AI model.",
+    "published": "Sun, 13 Sep 2026 06:00:06 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-13T13:02:45.880313"
+  },
+  "b7e99bd2c699": {
+    "id": "b7e99bd2c699",
+    "title": "Tutorial: Concept Art & Matte Painting for Film",
+    "link": "https://www.cgchannel.com/2026/09/tutorial-concept-art-matte-painting-for-film/",
+    "summary": "Master professional techniques in Photoshop and Maya with ILM Art Director Igor Staritsin's masterclass for The Gnomon Workshop.",
+    "published": "Sat, 12 Sep 2026 06:00:54 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-13T13:02:45.880337"
   }
 }
