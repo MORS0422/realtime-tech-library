@@ -13678,5 +13678,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-14T14:38:47.476669"
+  },
+  "e766ec7a481c": {
+    "id": "e766ec7a481c",
+    "title": "VFX portfolio and recruitment site Zerply is closing later this month",
+    "link": "https://www.cgchannel.com/2026/09/vfx-portfolio-and-recruitment-site-zerply-is-closing-later-this-month/",
+    "summary": "Well-regarded VFX and animation industry resource shuts down on 28 September. Redirect your URL and retrieve your assets before then.",
+    "published": "Mon, 14 Sep 2026 06:00:37 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-14T22:54:07.258403"
+  },
+  "9b2c3d896799": {
+    "id": "9b2c3d896799",
+    "title": "See making-ofs for Gnomon’s Best of Term Award-winning projects",
+    "link": "https://www.cgchannel.com/2026/09/see-tech-breakdowns-of-gnomon-best-of-term-award-winning-projects/",
+    "summary": "Watch tech breakdowns of award-winning projects from students at the leading CG school, like this Alien: Romulus-inspired Houdini simulation.",
+    "published": "Mon, 14 Sep 2026 05:30:24 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-14T22:54:07.258426"
+  },
+  "3b089e33c30c": {
+    "id": "3b089e33c30c",
+    "title": "Stop wasting time on each file. Edit the entire collection in one table",
+    "link": "https://gamedev.net/blogs/entry/2298372-stop-wasting-time-on-each-file-edit-the-entire-collection-in-one-table",
+    "summary": "Forget about routine balancing. The collection transfers all the data into a single table: one row - one map. Make any changes and apply them to the entire pack of cards in just one save. Read more",
+    "published": "Mon, 14 Sep 2026 18:01:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-14T22:54:15.850963"
+  },
+  "7bc147a6e875": {
+    "id": "7bc147a6e875",
+    "title": "What Small Tools Do You Find Most Useful During Game Development?",
+    "link": "https://gamedev.net/forums/topic/720421-what-small-tools-do-you-find-most-useful-during-game-development",
+    "summary": "When working on a game project, there are often small tasks that take more time than expected, such as calculating values, converting units, checking text, formatting data, or quickly testing something before adding it to the actual project. I'm curious what kinds of small tools or utilities other game developers keep using during development. Do you prefer dedicated desktop tools, browser-based utilities, scripts, or features built directly into your engine? What are some simple tools you find surprisingly useful in your everyday game development workflow?",
+    "published": "Mon, 14 Sep 2026 18:59:45 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-14T22:54:15.850990"
+  },
+  "99d1f051c291": {
+    "id": "99d1f051c291",
+    "title": "Valve's Steam Frame pricing starts at $1,059",
+    "link": "https://www.gamedeveloper.com/extended-reality/valve-s-steam-frame-will-retail-for-1-059",
+    "summary": "Valve is also rolling out a developer kit for VR developers targeting its new headset.",
+    "published": "Mon, 14 Sep 2026 18:04:06 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-14T22:54:20.248878"
   }
 }
