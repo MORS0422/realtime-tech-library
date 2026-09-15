@@ -13748,5 +13748,95 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-09-15T13:03:19.139952"
+  },
+  "fd68dba07a7f": {
+    "id": "fd68dba07a7f",
+    "title": "Canva releases Affinity 3.3 as part of the Canva ProSuite",
+    "link": "https://www.cgchannel.com/2026/09/canva-releases-affinity-3-3/",
+    "summary": "Major update to the free image editing and vector design software adds scores of new features, new AI models, and a new scripting system.",
+    "published": "Tue, 15 Sep 2026 19:03:58 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-15T22:37:53.776663"
+  },
+  "c94dc44b2ed7": {
+    "id": "c94dc44b2ed7",
+    "title": "Kosmo Ultimate NEW BIG UPDATE SOON",
+    "link": "https://gamedev.net/blogs/entry/2298375-kosmo-ultimate-new-big-update-soon",
+    "summary": "KOSMO Ultimate — New Skin System Update I’ve just added a new skin system to KOSMO Ultimate ! 🎮 I wanted to give players another reason to keep playing and getting higher kill counts, so I added unlockable skins based on kills. 🔓 Skin Unlocks 🔴 Red — 25 kills 🟢 Green — 50 kills 🟣 Purple — 100 kills Black — 250 kills The skins are unlocked as you progress, giving you something extra to work toward while playing. KOSMO Ultimate is a 2D wave shooter made with Godot . The game focuses on fast action, surviving enemy waves, …",
+    "published": "Tue, 15 Sep 2026 16:25:53 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-15T22:38:02.691761"
+  },
+  "9a4cdc81e2ab": {
+    "id": "9a4cdc81e2ab",
+    "title": "Looking for an experienced games industry partner",
+    "link": "https://gamedev.net/forums/topic/720425-looking-for-an-experienced-games-industry-partner",
+    "summary": "Hi all, I am looking to connect with someone experienced in the games industry who might be interested in exploring a slightly unusual idea with me. I am a 40+ year old male, my background is in investment, M&amp;A and capital markets, primarily in Europe and Australia. Whilst I am not from the games industry I have invested in this space before and also a life long gamer. I am looking for a partner who can work with me to look for opportunities to acquire neglected/dormant games &amp; IP from solo developers and small studios. We would also try and …",
+    "published": "Tue, 15 Sep 2026 17:57:16 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-15T22:38:02.691822"
+  },
+  "ceb8ee51c5c8": {
+    "id": "ceb8ee51c5c8",
+    "title": "How to make alpha mask",
+    "link": "https://realtimevfx.com/t/how-to-make-alpha-mask/31709",
+    "summary": "Hey I was wondering how you make a proper anime styalized alpha mask, erosion mask and warp mask I use substance designer if that help any advice is helpful please and thank you😁 1 post - 1 participant Read full topic",
+    "published": "Tue, 15 Sep 2026 22:22:20 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-15T22:37:55.191898"
+  },
+  "df7d9cfb0b1e": {
+    "id": "df7d9cfb0b1e",
+    "title": "Roblox will allow devs to release games as standalone apps on other stores",
+    "link": "https://www.gamedeveloper.com/business/roblox-will-allow-devs-to-release-games-as-standalone-apps-on-other-stores",
+    "summary": "Roblox will soon let developers bring games to other platforms, though they'll still 'benefit from the same revenue-share economics' of the Roblox app.",
+    "published": "Tue, 15 Sep 2026 19:52:45 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-15T22:38:06.510072"
+  },
+  "9937f768ae99": {
+    "id": "9937f768ae99",
+    "title": "Bungie is overhauling Marathon from its original extraction shooter vision",
+    "link": "https://www.gamedeveloper.com/business/bungie-is-overhauling-marathon-from-its-original-extraction-shooter-vision",
+    "summary": "Bungie says addressing player feedback requires the team to 'change both what we're building and how we deliver it,'",
+    "published": "Tue, 15 Sep 2026 19:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-15T22:38:06.510116"
+  },
+  "97fd191ca2ee": {
+    "id": "97fd191ca2ee",
+    "title": "Wardogs lead says the studio won't hire people who decry crunch on social media",
+    "link": "https://www.gamedeveloper.com/business/wardogs-lead-says-the-studio-won-t-hire-people-who-decry-crunch-on-social-media",
+    "summary": "'If you care about the work you’re making and the result of what you make here, you’ll feel really valued. If you don’t, you will feel slave-driven.'",
+    "published": "Tue, 15 Sep 2026 18:05:13 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-15T22:38:06.510135"
+  },
+  "3e50bf3c1e53": {
+    "id": "3e50bf3c1e53",
+    "title": "Why does this prominent Washington state politician think video games can be 'soft power?'",
+    "link": "https://www.gamedeveloper.com/business/why-does-this-prominent-washington-state-politician-think-video-games-can-be-soft-power-",
+    "summary": "Washington secretary of state Steve Hobbs pitched developers on the notion of video games as 'soft power' during SLICE and PAX West 2026.",
+    "published": "Tue, 15 Sep 2026 15:10:18 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-15T22:38:06.510149"
+  },
+  "b635bc871fb7": {
+    "id": "b635bc871fb7",
+    "title": "Bohemia Interactive acquires minority stake in Everwind developer Enjoy Studio",
+    "link": "https://www.gamedeveloper.com/business/bohemia-interactive-acquires-minority-stake-in-everwind-developer-enjoy-studio",
+    "summary": "'We want to make the best games we can together.'",
+    "published": "Tue, 15 Sep 2026 13:19:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-15T22:38:06.510159"
   }
 }
