@@ -13728,5 +13728,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-14T22:54:20.248878"
+  },
+  "0e993aefa988": {
+    "id": "0e993aefa988",
+    "title": "ray-traced desert slot machine",
+    "link": "https://gamedev.net/forums/topic/720424-ray-traced-desert-slot-machine",
+    "summary": "I made a desert-themed slot machine: https://bismuth83.neocities.org/desert-machine-cpu Any feedback?",
+    "published": "Tue, 15 Sep 2026 04:17:27 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-15T13:03:26.072109"
+  },
+  "34082f347cf6": {
+    "id": "34082f347cf6",
+    "title": "Looking for help on how special effects materials are made",
+    "link": "https://realtimevfx.com/t/looking-for-help-on-how-special-effects-materials-are-made/31708",
+    "summary": "Hi everyone, I’m a junior VFX artist. A lot of times when I make effects, I end up using materials made by others. I want to know if there are any tutorials that show how to create the kinds of materials below.（Because English is not my native language and my English is pretty bad, I often use translations, so I hope everyone can understand.） 4 posts - 1 participant Read full topic",
+    "published": "Tue, 15 Sep 2026 11:17:23 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-15T13:03:19.139952"
   }
 }
