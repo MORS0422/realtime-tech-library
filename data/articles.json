@@ -13968,5 +13968,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-17T12:57:19.265137"
+  },
+  "f0a52cc5f082": {
+    "id": "f0a52cc5f082",
+    "title": "Overscoping in Game Design: Why I Think Having Too Many Ideas Is Actually a Good Thing",
+    "link": "https://gamedev.net/blogs/entry/2298386-overscoping-in-game-design-why-i-think-having-too-many-ideas-is-actually-a-good-thing",
+    "summary": "Everybody always says: keep it small. Keep it simple. Don't overscope. Let your game do one or two things. Only. And at first, I thought: yeah. That makes sense. Don't think too deep or you loose precious time. Make something you can actually finish. Pick one or two mechanics quickly and focus on making them good and ship the game. Logical. Letting Ideas Grow But I do love letting an idea grow into something more naturally. I love sitting on the balcony with a cup of tea, my notebook and my imagination, and just building game systems in my head. …",
+    "published": "Thu, 17 Sep 2026 15:29:01 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-17T22:35:40.892672"
+  },
+  "f8f6a052471c": {
+    "id": "f8f6a052471c",
+    "title": "Sword slash texture",
+    "link": "https://realtimevfx.com/t/sword-slash-texture/31720",
+    "summary": "Hey, I am trying to make an anime sword slash VFX, but I don’t know where to start on the texture. If possible, I’d like some help, please. And thank you. Ps my dog says hi 1 post - 1 participant Read full topic",
+    "published": "Thu, 17 Sep 2026 16:41:23 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-17T22:35:33.626347"
+  },
+  "04de6a52aca2": {
+    "id": "04de6a52aca2",
+    "title": "Take-Two CEO Strauss Zelnick says GTA VI needs to be 'marketed aggressively' despite global brand awareness",
+    "link": "https://www.gamedeveloper.com/marketing/strauss-zelnick-says-gta-vi-needs-to-be-marketed-aggressively-despite-global-brand-awareness",
+    "summary": "Take-Two Interactive CEO Strauss Zelnick says 'we cannot convince people something that something that's bad is good.'",
+    "published": "Thu, 17 Sep 2026 17:49:42 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-17T22:35:43.181201"
+  },
+  "59aa41873586": {
+    "id": "59aa41873586",
+    "title": "Nex Playground maker secures over $150 million to expand globally",
+    "link": "https://www.gamedeveloper.com/business/nex-playround-maker-secures-over-150-million-to-expand-globally",
+    "summary": "'This investment gives us the resources to bring active play to millions more families around the world.'",
+    "published": "Thu, 17 Sep 2026 13:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-17T22:35:43.181219"
+  },
+  "2672bfc987cd": {
+    "id": "2672bfc987cd",
+    "title": "PAX East",
+    "link": "https://www.gamedeveloper.com/keyword/pax-east",
+    "summary": "",
+    "published": "2027-04-22T07:00:00.000Z",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-17T22:35:43.181243"
+  },
+  "925b6c6107f8": {
+    "id": "925b6c6107f8",
+    "title": "DICE Summit",
+    "link": "https://www.gamedeveloper.com/events/dice-summit",
+    "summary": "",
+    "published": "2027-02-16T08:00:00.000Z",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-17T22:35:43.181251"
   }
 }
