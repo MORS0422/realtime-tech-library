@@ -14028,5 +14028,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-17T22:35:43.181251"
+  },
+  "6abd41058835": {
+    "id": "6abd41058835",
+    "title": "See the speakers for the 2026 Digital Storytelling conference",
+    "link": "https://www.cgchannel.com/2026/09/see-the-speakers-for-the-2026-digital-storytelling-conference/",
+    "summary": "20th anniversary edition of the cool, chic Oslo-based VFX festival features sessions on the making of Sinners and Project Hail Mary.",
+    "published": "Fri, 18 Sep 2026 06:00:19 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-18T12:35:30.355504"
+  },
+  "0ddb56fae9d1": {
+    "id": "0ddb56fae9d1",
+    "title": "Free tutorial: Painting a Battle-Worn Titan in Photoshop",
+    "link": "https://www.cgchannel.com/2026/09/free-tutorial-painting-a-battle-worn-titan-in-photoshop/",
+    "summary": "Master professional concept art and illustration techniques with The Gnomon Workshop's free half-hour video tutorial.,",
+    "published": "Thu, 17 Sep 2026 19:50:26 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-18T12:35:30.355528"
+  },
+  "43ea1e41c77b": {
+    "id": "43ea1e41c77b",
+    "title": "Animating core effects in Unreal with ZBrush and Maya",
+    "link": "https://realtimevfx.com/t/animating-core-effects-in-unreal-with-zbrush-and-maya/31724",
+    "summary": "Hello, I am new here, and my background is character art, however I would like to expand my skillets and also try create animated materials, animated textures and some character VFX as well. If there is somewhere a dedicated tutorial I would appreciate a point or a link to it. My focus is games, so final rendering Marmoset or Unreal 5. I work with both. Here is the reference of the effect I am talking about: https://www.artstation.com/artwork/n059no and here https://www.artstation.com/artwork/Wqn5y - those are not my works (examples) As far as Im concerned it’s using a mesh. As character artist I was responsible to create a sculpt of the core effect, as I have done that in a studio, and due to time constraints and overwork I had no time to follow with VFX dept on how they made it. I read it would require a flow texture, to move in the direction of the sculpt? But how to create it based on the sculpt itself, where do you bake flow map, and I supposed you can edit in PS, can you get flow map from high poly? Im guessing I would need the core to have a separate UV set as well, in case I would need to animate in UE5 with some panner I am guessing? So what are the steps to assemble it, is my question. Any direction and advice is greatly appreciated. Thank you. 1 post - 1 participant Read full topic",
+    "published": "Fri, 18 Sep 2026 05:32:52 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-09-18T12:35:31.742978"
+  },
+  "3417dc4e13ee": {
+    "id": "3417dc4e13ee",
+    "title": "King workers call strike after collective agreement negotiations stall",
+    "link": "https://www.gamedeveloper.com/production/king-workers-call-strike-after-collective-agreement-negotiations-stall",
+    "summary": "Unionized employees at the Candy Crush studio will down tools on September 25 if the impasse cannot be overcome.",
+    "published": "Fri, 18 Sep 2026 12:03:39 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-18T12:35:41.312067"
+  },
+  "e72a9bf70d52": {
+    "id": "e72a9bf70d52",
+    "title": "Game Conference MX (GCMX)",
+    "link": "https://www.gamedeveloper.com/events/untitled",
+    "summary": "",
+    "published": "2026-11-13T08:00:00.000Z",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-18T12:35:41.312095"
+  },
+  "165926af7dd6": {
+    "id": "165926af7dd6",
+    "title": "gamescom",
+    "link": "https://www.gamedeveloper.com/events/gamescom",
+    "summary": "",
+    "published": "2027-08-23T07:00:00.000Z",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-18T12:35:41.312110"
+  },
+  "1e9843007e0b": {
+    "id": "1e9843007e0b",
+    "title": "SLICE",
+    "link": "https://www.gamedeveloper.com/events/slice",
+    "summary": "",
+    "published": "2026-09-02T07:00:00.000Z",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-18T12:35:41.312122"
+  },
+  "c2940dee4463": {
+    "id": "c2940dee4463",
+    "title": "Unreal Fest",
+    "link": "https://www.gamedeveloper.com/events/unreal-fest",
+    "summary": "",
+    "published": "2026-06-16T07:00:00.000Z",
+    "source_name": "Game Developer",
+    "category": "ue",
+    "fetched_at": "2026-09-18T12:35:41.312133"
   }
 }
