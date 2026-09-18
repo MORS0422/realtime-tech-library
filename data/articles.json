@@ -14108,5 +14108,45 @@
     "source_name": "Game Developer",
     "category": "ue",
     "fetched_at": "2026-09-18T12:35:41.312133"
+  },
+  "b58c8d1cfb26": {
+    "id": "b58c8d1cfb26",
+    "title": "(Airship Trader) Dev Blog #2 - I Broke the Movement and Made It Better",
+    "link": "https://gamedev.net/blogs/entry/2298394-airship-trader-dev-blog-2-i-broke-the-movement-and-made-it-better",
+    "summary": "While I was working on the controller setup yesterday, I noticed that the way I had envisioned the movement mechanic wasn't actually very dynamic. It was rather mechanical. I didn't like it, so I decided to overhaul the movement system and try to make something that is actually fun to play. This also means that controller is now the main control input instead of mouse and keyboard. That's something I can easily add later, though. And honestly, it is way more fun this way now! Digging Deeper Changing the movement system meant quite a bit of digging and research on …",
+    "published": "Fri, 18 Sep 2026 13:59:59 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-18T22:09:48.286282"
+  },
+  "78dd4fe45f66": {
+    "id": "78dd4fe45f66",
+    "title": "Esoteric and Occult Adjacent Game Ideas",
+    "link": "https://gamedev.net/forums/topic/720438-esoteric-and-occult-adjacent-game-ideas",
+    "summary": "I'm looking to put together a small group for people interested in the overlap between esoteric traditions, occult philosophy, consciousness, mythology, comparative religion, speculative ideas, and games. The basic idea: get together and actually do something gaming designing adjacent with these interests: • Tabletop RPGs with occult, mythological, philosophical, or paranormal themes • Board/card games involving strategy, symbolism, divination, mythology, or hidden information • Video games with interesting philosophical, esoteric, post-apocalyptic, or metaphysical themes • Occasional tarot/oracle/geomancy or other divination experiments, approached as exploration rather than dogma • Short presentations or discussions about subjects like Gnosticism, Sufism, mythology, consciousness, folklore, …",
+    "published": "Fri, 18 Sep 2026 20:02:02 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-18T22:09:48.286316"
+  },
+  "da728c8bb90c": {
+    "id": "da728c8bb90c",
+    "title": "MiHoYo awarded $112,000 by Chinese court after AI voice service dupes Genshin Impact characters",
+    "link": "https://www.gamedeveloper.com/business/mihoyo-awarded-112-000-by-chinese-court-after-ai-voice-service-dupes-genshin-impact-characters",
+    "summary": "A Shanghai court ruling may signal how Chinese courts will rule on genAI usage.",
+    "published": "Fri, 18 Sep 2026 15:15:39 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-18T22:09:50.323733"
+  },
+  "00b09508aa6d": {
+    "id": "00b09508aa6d",
+    "title": "How toolmakers like ARM work with devs, ft. Peter Hodges",
+    "link": "https://www.gamedeveloper.com/art/how-toolmakers-like-arm-work-with-devs-ft-peter-hodges",
+    "summary": "ARM's Peter Hodges joins us for a conversation about game development tools and the 1969 7-minute short film Lemon.",
+    "published": "Fri, 18 Sep 2026 14:35:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-18T22:09:50.323749"
   }
 }
