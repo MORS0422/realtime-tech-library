@@ -14148,5 +14148,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-18T22:09:50.323749"
+  },
+  "81c34da30a72": {
+    "id": "81c34da30a72",
+    "title": "How would you version reference-based concept generation in a game-art pipeline?",
+    "link": "https://gamedev.net/forums/topic/720442-how-would-you-version-reference-based-concept-generation-in-a-game-art-pipeline",
+    "summary": "I am looking at reference-based image generation as a pre-production step for game art, and the part I keep coming back to is versioning rather than prompting. If a concept is built from several references, I think the generation request needs to behave more like an asset manifest: - source IDs and a declared role for each reference, such as subject, composition, lighting/color, or secondary detail - a short list of what may change and what must remain recognizable - the selected model and current output settings captured with the request - a rights/provenance note for every source - an …",
+    "published": "Sat, 19 Sep 2026 05:49:09 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-19T12:12:17.967313"
   }
 }
