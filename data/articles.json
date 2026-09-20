@@ -14208,5 +14208,15 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-09-20T12:48:02.769703"
+  },
+  "75a82a2b3689": {
+    "id": "75a82a2b3689",
+    "title": "New CG software you may have missed: 20 September 2026",
+    "link": "https://www.cgchannel.com/2026/09/new-cg-software-you-may-have-missed-20-september-2026/",
+    "summary": "Check out the week's other updates to CG tools, like animation library builder Animcraft, game engine Unigine, and OctaneRender.",
+    "published": "Sun, 20 Sep 2026 06:00:39 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-20T22:06:15.258471"
   }
 }
