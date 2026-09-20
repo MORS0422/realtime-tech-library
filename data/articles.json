@@ -14178,5 +14178,35 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "ue",
     "fetched_at": "2026-09-19T22:02:14.841894"
+  },
+  "1317d2109a7b": {
+    "id": "1317d2109a7b",
+    "title": "Devlog 1 - Where Is Father?",
+    "link": "https://gamedev.net/blogs/entry/2298399-devlog-1-where-is-father",
+    "summary": "Hi, this is the first devlog I wanted to share that I am making this game. So far i have made a couple buildings. I am still a beginner so not much I could make. I got 5 NPCs now. Not gonna be much of spoiler. We have Harumi - Toy Store Owner, Rhioka - Hardware Store Owner, Hiruka - Visitor Officer, Kairuu - Ramen Shop Owner, Nesha Li - Council Leader Yes, the UI is simple, as this game will be MVP (Minimum Viable Product) and I also don't have money ;-; This game will contain 6 months of …",
+    "published": "Sun, 20 Sep 2026 03:23:19 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-20T12:48:09.342313"
+  },
+  "463b0e5dfb73": {
+    "id": "463b0e5dfb73",
+    "title": "[Feedback wanted] Flux — a logic puzzle game based on Fire and Water",
+    "link": "https://gamedev.net/forums/topic/720417-feedback-wanted-flux-a-logic-puzzle-game-based-on-fire-and-water",
+    "summary": "Hi everyone! I’m building FLUX , a mobile-first logic puzzle game where every grid is filled with Fire or Water. You solve each puzzle using clues that show how many times the element changes in each row and column. There is also an extra rule: no two rows or columns can be identical. You can play it here: https://flux.clavmind.com I’m looking for honest feedback from people who enjoy logic puzzles. If you have a few minutes, I’d really appreciate it if you could play a few levels and tell me: Were the rules clear without reading the tutorial? Did the …",
+    "published": "Sun, 20 Sep 2026 11:53:23 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-20T12:48:09.342348"
+  },
+  "250642c77f8a": {
+    "id": "250642c77f8a",
+    "title": "AI is able to create super complex effects now",
+    "link": "https://realtimevfx.com/t/ai-is-able-to-create-super-complex-effects-now/31737",
+    "summary": "I created 50+ different effects using AI in Unity and they are good in motion. What do you think about this? 4 posts - 2 participants Read full topic",
+    "published": "Sat, 19 Sep 2026 22:39:26 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-20T12:48:02.769703"
   }
 }
