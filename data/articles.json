@@ -14218,5 +14218,25 @@
     "source_name": "CG Channel",
     "category": "ta",
     "fetched_at": "2026-09-20T22:06:15.258471"
+  },
+  "d230331970fa": {
+    "id": "d230331970fa",
+    "title": "When your characters come to life: Designing the Residents of Dark Coffee",
+    "link": "https://gamedev.net/blogs/entry/2298406-when-your-characters-come-to-life-designing-the-residents-of-dark-coffee",
+    "summary": "How a cast of coffee-shop visitors became a network of friendships, rivalries, romance, and secrets. About six months ago, both of us lost our jobs. We are artists, and we have been working in game development and related fields for more than ten years. Between the two of us, we've worked on mobile games, PC games, animation, 3D modeling, and quite a few other things. So when we suddenly found ourselves having to start over anyway, we decided to try something we had wanted to do for a long time: make our own game. That game became Dark Coffee , …",
+    "published": "Mon, 21 Sep 2026 13:34:36 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-21T14:45:48.139461"
+  },
+  "76afe7f0ef63": {
+    "id": "76afe7f0ef63",
+    "title": "Henriesarts - Sketchbook",
+    "link": "https://realtimevfx.com/t/henriesarts-sketchbook/31742",
+    "summary": "(topic deleted by author) 1 post - 1 participant Read full topic",
+    "published": "Mon, 21 Sep 2026 06:57:30 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-21T14:45:39.619707"
   }
 }
