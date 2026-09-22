@@ -14308,5 +14308,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-22T13:00:20.812677"
+  },
+  "531eeef9b193": {
+    "id": "531eeef9b193",
+    "title": "Looking for playtesters — Sunderborn (logic puzzle, first 15–20 minutes)",
+    "link": "https://gamedev.net/forums/topic/720448-looking-for-playtesters-sunderborn-logic-puzzle-first-1520-minutes",
+    "summary": "Looking for new players to test Sunderborn, a logic puzzle game. As a thank-you, we may send a Steam key to the first 10 especially active testers who provide detailed feedback and, if possible, a screen recording. Completing the form alone does not guarantee a key. We want to understand how the first 15–20 minutes feel: what is clear, what is confusing, and whether you want to keep playing. Puzzle experience is not required — honest first impressions matter most. itch.io page: https://painless-games.itch.io/sunderborn Steam demo (free): https://store.steampowered.com/app/4100300/Sunderborn/?utm_source=gamedev_net&amp;utm_medium=community_post&amp;utm_campaign=old_demo_playtest_sep2026 If you would like to help: Play for about 15–20 minutes. Fill in …",
+    "published": "Tue, 22 Sep 2026 21:29:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-22T22:40:11.776572"
+  },
+  "7b87f0d6e3d7": {
+    "id": "7b87f0d6e3d7",
+    "title": "How would I achieve an FXs like this?",
+    "link": "https://realtimevfx.com/t/how-would-i-achieve-an-fxs-like-this/31749",
+    "summary": "Hello! I am in the middle of a project, and I want to recreate something like the dash FX in this game (the smoke on the ground). I have not done any effects like that before how would u guys approach it? Especially how it fades away. - YouTube 1 post - 1 participant Read full topic",
+    "published": "Tue, 22 Sep 2026 14:22:28 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-22T22:37:47.538267"
+  },
+  "a35539e7da88": {
+    "id": "a35539e7da88",
+    "title": "'We want to keep it very simple:' How Nex Playground is beating expectations during a hardware crisis",
+    "link": "https://www.gamedeveloper.com/business/-we-want-to-keep-it-very-simple-how-nex-playrground-is-beating-expectations-during-a-hardware-crisis",
+    "summary": "'If we don't create margin we can't continue to invest in software, and our software costs are going up every year—significantly.'",
+    "published": "Tue, 22 Sep 2026 15:15:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-22T22:40:14.609263"
+  },
+  "e1964f0a5a6e": {
+    "id": "e1964f0a5a6e",
+    "title": "Escape From Tarkov dev wants to bet on 'risky' games with its new publishing arm",
+    "link": "https://www.gamedeveloper.com/business/escape-from-tarkov-dev-wants-to-bet-on-risky-games-with-its-new-publishing-arm",
+    "summary": "Battlestate Games Publishing aims to provide publishing support to 'hardcore' games.",
+    "published": "Tue, 22 Sep 2026 14:34:35 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-22T22:40:14.609284"
+  },
+  "86944ae856a0": {
+    "id": "86944ae856a0",
+    "title": "Xbox continues 'reset' with Halo Studios layoffs and Undead Labs divestment",
+    "link": "https://www.gamedeveloper.com/business/xbox-continues-reset-with-halo-studios-layoffs-and-undead-labs-divestment",
+    "summary": "Activision is developing the next Halo title, and Ninja Theory is being shuttered.",
+    "published": "Tue, 22 Sep 2026 14:18:45 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-22T22:40:14.609295"
   }
 }
