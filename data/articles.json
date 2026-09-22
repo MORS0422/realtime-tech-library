@@ -14288,5 +14288,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-21T22:57:59.545949"
+  },
+  "2f1b3ebf9c62": {
+    "id": "2f1b3ebf9c62",
+    "title": "A game HUD should observe the wallet, not own it",
+    "link": "https://gamedev.net/blogs/entry/2298408-a-game-hud-should-observe-the-wallet-not-own-it",
+    "summary": "In ROADFORGE, coins earned during combat are the same currency spent in the workshop. Adding a visible gold counter sounds like a small interface task. The important decision was that the counter and its animation must never become a second wallet. This development note explains that boundary, the tests used to check it, and what the device evidence does not yet establish. It is a focused implementation lesson, not a general claim about secure online economies. One wallet, several views The existing reward path saved pickups into the same gameplay service used for purchases and upgrades. We kept that ownership …",
+    "published": "Tue, 22 Sep 2026 10:13:47 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-22T13:00:18.281495"
+  },
+  "58e1f8e21cae": {
+    "id": "58e1f8e21cae",
+    "title": "'Do not': Rockstar outlines modding rules before GTA VI touches down",
+    "link": "https://www.gamedeveloper.com/production/-do-not-rockstar-outlines-modding-rules-before-gta-vi-touches-down",
+    "summary": "Official Rockstar storylines, characters, and other elements from the studio's 'established continuity' are off-limits.",
+    "published": "Tue, 22 Sep 2026 12:33:14 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-22T13:00:20.812677"
   }
 }
