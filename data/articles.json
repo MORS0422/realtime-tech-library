@@ -14388,5 +14388,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-23T13:14:12.574520"
+  },
+  "b0553e83181c": {
+    "id": "b0553e83181c",
+    "title": "The Beast examples",
+    "link": "https://gamedev.net/blogs/entry/2298416-the-beast-examples",
+    "summary": "Description WebGPU engine focus performance but also mimic major engines features inspired by the original matrix-engine for WebGL. It uses the wgpu-matrix npm package as a replacement for gl-matrix to handle model-view-projection matrices. Published on npm as: matrix-engine-wgpu (not always updated on last - recommended is to use github clone) From [1.18.7] ver npm package is much more stable and usable. All examples can be done by npm services not just github clone. You can also use public provides like unpkg.com etc. You can use PREFIX for textures or objects paths. The-Beast is friendly with codepen, worker physics bridge will …",
+    "published": "Wed, 23 Sep 2026 21:35:57 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-23T22:37:04.435245"
+  },
+  "d696ec3721ac": {
+    "id": "d696ec3721ac",
+    "title": "Discord re-introduces age verification policy based on 'account signal' methodology",
+    "link": "https://www.gamedeveloper.com/business/discord-re-introduces-age-verification-policy-with-new-methods",
+    "summary": "Discord says it has built an age estimation model based on 'account signals' to determine an user's age group.",
+    "published": "Wed, 23 Sep 2026 18:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-23T22:37:07.119863"
+  },
+  "209a8008f98e": {
+    "id": "209a8008f98e",
+    "title": "Report: Bethesda president tells Obsidian staff it won't lose 'creative identity' after merge",
+    "link": "https://www.gamedeveloper.com/business/report-bethesda-president-tells-obsidian-staff-it-won-t-lose-creative-identity-after-merge",
+    "summary": "Bethesda president Jill Braff is reportedly calling Obsidian's merging with Bethesda 'primarily a change in reporting structure.'",
+    "published": "Wed, 23 Sep 2026 17:03:46 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-23T22:37:07.119886"
   }
 }
