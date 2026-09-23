@@ -14358,5 +14358,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-22T22:40:14.609295"
+  },
+  "159437d57adc": {
+    "id": "159437d57adc",
+    "title": "Devlog 1 - Inventory, Interaction, Pick-up and Drop Systems",
+    "link": "https://gamedev.net/blogs/entry/2298415-devlog-1-inventory-interaction-pick-up-and-drop-systems",
+    "summary": "I’m excited to officially start sharing my game development journey! 🎮 Today, I’m proud to present the first video in my devlog series, where I’ll be documenting the development of my game, sharing the systems I’m building, and showing how the project evolves over time. For the first devlog, I’m showcasing my Inventory System, including its integration with player stats and consumables. This is just the beginning, and I’m looking forward to sharing more as the game continues to grow! 🚀",
+    "published": "Wed, 23 Sep 2026 11:22:21 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-23T13:14:08.417986"
+  },
+  "8c35d54b7f27": {
+    "id": "8c35d54b7f27",
+    "title": "Spirit Records: Korean Realm",
+    "link": "https://gamedev.net/forums/topic/720466-spirit-records-korean-realm",
+    "summary": "A card RPG based on Korean mythology and folklore. https://play.google.com/store/apps/details?id=com.keygames.spiritrecords.korea.google",
+    "published": "Wed, 23 Sep 2026 08:59:31 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-23T13:14:08.418002"
+  },
+  "05cb337d6937": {
+    "id": "05cb337d6937",
+    "title": "Undead Labs makes 'significant' layoffs after splitting from Xbox",
+    "link": "https://www.gamedeveloper.com/business/undead-labs-makes-significant-layoffs-after-splitting-from-xbox",
+    "summary": "Microsoft signalled its intent to divest the Seattle-based studio earlier this year.",
+    "published": "Wed, 23 Sep 2026 11:22:24 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-23T13:14:12.574520"
   }
 }
