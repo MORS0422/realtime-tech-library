@@ -14438,5 +14438,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-24T13:07:39.708645"
+  },
+  "593b315c156f": {
+    "id": "593b315c156f",
+    "title": "Foundry releases Mari 8.0 in open beta",
+    "link": "https://www.cgchannel.com/2026/09/foundry-releases-mari-8-0-in-open-beta/",
+    "summary": "Updated for Beta 2: 3D texture painting software gets new Tri-Planar Tiled and Hex Tile nodes, plus support for A/B comparisons.",
+    "published": "Thu, 24 Sep 2026 16:00:49 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-24T22:55:29.374112"
+  },
+  "360a7d75ed95": {
+    "id": "360a7d75ed95",
+    "title": "Otoy releases OctaneRender 2027.1 in alpha",
+    "link": "https://www.cgchannel.com/2026/09/otoy-releases-octanerender-2027-1-in-alpha/",
+    "summary": "Updated for Alpha 3: next major version of the GPU renderer can now bake SDFs to meshes, to use as proxy geometry in simulations.",
+    "published": "Thu, 24 Sep 2026 14:00:43 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-24T22:55:29.374138"
+  },
+  "18a568713949": {
+    "id": "18a568713949",
+    "title": "Check out Vine FX’s VFX breakdown for Alice and Steve",
+    "link": "https://www.cgchannel.com/2026/09/check-out-vine-fxs-vfx-breakdown-for-alice-and-steve/",
+    "summary": "Watch the studio's breakdown of a blazing building, with simulated fire, smoke and particles, from the finale of the Disney+ 'wrong-com'.",
+    "published": "Thu, 24 Sep 2026 13:00:50 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-24T22:55:29.374152"
+  },
+  "98767330dcc1": {
+    "id": "98767330dcc1",
+    "title": "Adobe acquires Topaz Labs",
+    "link": "https://www.cgchannel.com/2026/09/adobe-to-acquire-topaz-labs/",
+    "summary": "Adobe buys pioneering developer of AI image enhancement and upscaling tools. Read our FAQs on what the deal means for CG artists.",
+    "published": "Thu, 24 Sep 2026 04:30:47 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-24T22:55:29.374167"
+  },
+  "66b653f4dfea": {
+    "id": "66b653f4dfea",
+    "title": "Change a card stat and Godot reloads it - automatically",
+    "link": "https://gamedev.net/blogs/entry/2298419-change-a-card-stat-and-godot-reloads-it-automatically",
+    "summary": "Re-exporting by hand after every balance tweak is a habit it's too easy to skip. Auto-export watches your collection, regenerates the files on save, and the exported JSON is the exact file your Godot scene loads Read more",
+    "published": "Thu, 24 Sep 2026 18:44:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-24T22:57:51.569418"
+  },
+  "e1cde92de907": {
+    "id": "e1cde92de907",
+    "title": "Someone stole my game",
+    "link": "https://gamedev.net/forums/topic/720469-someone-stole-my-game",
+    "summary": "So I made Atomic Dawn 1 on August 29th 2026. Then this person I don't know who posted another game a couple days ago and copied the style of my game and name. Someone please help me and tell me if it's a misunderstanding, I am really pissed.",
+    "published": "Thu, 24 Sep 2026 20:10:06 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-24T22:57:51.569438"
+  },
+  "e36a4363b38e": {
+    "id": "e36a4363b38e",
+    "title": "Meta announces new VR glasses that weigh about 100 grams and cost $1,300",
+    "link": "https://www.gamedeveloper.com/business/meta-announces-new-vr-glasses-that-weight-about-100-grams-and-cost-1-300",
+    "summary": "There will be new Tetris Effect, Beat Saber, and Ace Attorney games coming to the platform as well.",
+    "published": "Thu, 24 Sep 2026 19:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-24T22:57:53.509132"
+  },
+  "c96f5620af20": {
+    "id": "c96f5620af20",
+    "title": "Former Avalanche Studios chief Natalie Francis joins Massive Entertainment as managing director",
+    "link": "https://www.gamedeveloper.com/business/former-avalanche-studios-chief-natalie-francis-joins-massive-entertainment-as-managing-director",
+    "summary": "Francis will step into the role starting October 1st following Thomas Andren's recent appoint as general manager for the creative network.",
+    "published": "Thu, 24 Sep 2026 17:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-24T22:57:53.509154"
   }
 }
