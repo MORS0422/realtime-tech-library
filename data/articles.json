@@ -14528,5 +14528,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-25T13:12:11.842586"
+  },
+  "d61f4f059642": {
+    "id": "d61f4f059642",
+    "title": "Void Runner",
+    "link": "https://gamedev.net/blogs/entry/2298407-void-runner",
+    "summary": "🚀 VOID RUNNER — THE BIG UPDATE Void Runner is getting a big new update . When I first started working on Void Runner, the idea was simple: move fast, avoid danger, survive as long as possible, and beat your best score. But after spending more time developing the game, I wanted to push it further. This update is about making every run feel more exciting, unpredictable, and worth coming back to. 🌌 A BIGGER VOID The Void is no longer just a place filled with obstacles. The environments have been expanded and improved to make each section feel more …",
+    "published": "Fri, 25 Sep 2026 15:11:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-25T23:02:59.730930"
+  },
+  "3e387b989e0a": {
+    "id": "3e387b989e0a",
+    "title": "Angelscript equivalent of C++ void*",
+    "link": "https://gamedev.net/forums/topic/720472-angelscript-equivalent-of-c-void",
+    "summary": "For my game engine I'm trying to bind my VFS to AngelScript. From what I've read, there's no direct equivalent to the C++: void* So before I try anything else I thought I'd ask here. These are the two C++ member functions that I want to bind: bool Write(const void* buffer, size_t bytes); bool Read(void* buffer, size_t bytes); I know you can do a uint8 array but I feel like that is a bit clunky. Some relevant links to the source: https://github.com/Cattle-Engine/Runtime/blob/main/include/engine/common/fs/file_provider.hpp https://github.com/Cattle-Engine/Runtime/blob/main/include/engine/scripting/bindings/vfs/as_ifile.hpp https://github.com/Cattle-Engine/Runtime/blob/main/include/engine/common/fs/vfs.hpp (EDIT: Modified to remove the Markdown style code blocks)",
+    "published": "Fri, 25 Sep 2026 18:16:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-25T23:02:59.730970"
+  },
+  "80139a9c17e8": {
+    "id": "80139a9c17e8",
+    "title": "GDC Side Quest - Exploring co-development opportunities with Sam Carlisle",
+    "link": "https://www.gamedeveloper.com/production/gdc-side-quest-exploring-co-development-opportunities-with-sam-carlisle",
+    "summary": "XDS Spark co-founder Sam Carlisle and GDC Festival of Gaming content marketing manager Beth Elderkin discuss the evolving world of co-development.",
+    "published": "Fri, 25 Sep 2026 18:37:03 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-25T23:03:03.247452"
   }
 }
