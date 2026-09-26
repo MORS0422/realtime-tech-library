@@ -14558,5 +14558,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-25T23:03:03.247452"
+  },
+  "04eeb3f6cb13": {
+    "id": "04eeb3f6cb13",
+    "title": "Devlog Life of Alex - Ep.2 Illumination Systems",
+    "link": "https://gamedev.net/blogs/entry/2298423-devlog-life-of-alex-ep2-illumination-systems",
+    "summary": "In this devlog, I’m showcasing the Flashlight, Lantern, and Battery Systems I’ve built for my game in Unreal Engine 5 using Blueprints. Both light sources are fully integrated with the inventory system and can be equipped, used, dropped, and swapped. The flashlight and lantern each maintain their own battery level, while the UI displays the remaining charge of the currently equipped light. The system also handles switching between the flashlight and lantern, including correctly shutting down the previous light, stopping its battery drain, and transferring control to the newly equipped device. Systems showcased: Flashlight system Lantern system Battery consumption Independent …",
+    "published": "Sat, 26 Sep 2026 06:09:47 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-09-26T12:38:48.753019"
+  },
+  "d56618ad160a": {
+    "id": "d56618ad160a",
+    "title": "Earth’s Wrath, a stylized earthbending AoE VFX",
+    "link": "https://realtimevfx.com/t/earth-s-wrath-a-stylized-earthbending-aoe-vfx/31765",
+    "summary": "Hey everyone, I recently finished Earth’s Wrath, a stylized AoE effect inspired by the earthbending in Avatar: The Last Airbender. It was a really fun project to continue exploring Unreal Engine and Niagara, especially with all the rock smashing involved I’d really appreciate any feedback, thank youu https://www.artstation.com/artwork/Y8GGPK 1 post - 1 participant Read full topic",
+    "published": "Sat, 26 Sep 2026 11:20:37 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-09-26T12:36:29.073756"
   }
 }
