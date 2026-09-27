@@ -14588,5 +14588,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-09-27T13:30:32.609125"
+  },
+  "33cf81ffd040": {
+    "id": "33cf81ffd040",
+    "title": "Change Camera to Hide, enable looking left/right *solved*",
+    "link": "https://gamedev.net/blogs/entry/2298428-change-camera-to-hide-enable-looking-leftright-solved",
+    "summary": "After many years of thinking about making a game, I finally took it upon myself to dabble in hopes of figuring out if this is something I can do. Of all the engines, UE5 was the one I heard about the most. Everyone I speak to about UE5 raves about how feasible the Blueprints make game dev. I am not completely sold, yet. There's a certain void of information for me, right now, when it comes to Blueprints. This void might just be an absence of programming knowledge, as I only dabbled in programming briefly a lifetime ago. Who can …",
+    "published": "Sun, 27 Sep 2026 19:45:12 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-09-27T22:47:19.508855"
+  },
+  "716b78cd67fa": {
+    "id": "716b78cd67fa",
+    "title": "Android playtesters wanted for Last Rank, a turn-based strategy game",
+    "link": "https://gamedev.net/forums/topic/720488-android-playtesters-wanted-for-last-rank-a-turn-based-strategy-game",
+    "summary": "Hi everyone, I'm preparing a closed Google Play test for Last Rank, a turn-based strategy game made for Android. The test is not open yet, so I'm putting together a small list of interested players now and will send invitations as soon as Google activates it. I'm especially looking for people who enjoy tactical or turn-based games. I want to find out whether the rules make sense without extra explanation, whether the first sessions feel fair and engaging, and how the game behaves on different Android devices. Testing details: • Android 8 or newer • Stay enrolled and keep the …",
+    "published": "Sun, 27 Sep 2026 20:28:14 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-27T22:47:19.508893"
   }
 }
