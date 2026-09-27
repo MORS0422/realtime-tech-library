@@ -14578,5 +14578,15 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-09-26T12:36:29.073756"
+  },
+  "6d87751d5739": {
+    "id": "6d87751d5739",
+    "title": "Making the Interface Part of the Comic: UI Design in Dark Coffee",
+    "link": "https://gamedev.net/blogs/entry/2298427-making-the-interface-part-of-the-comic-ui-design-in-dark-coffee",
+    "summary": "We had one particular goal for the interface in Dark Coffee : it shouldn't feel like something simply placed on top of the game. Dark Coffee is a cozy horror visual novel we're developing as a two-person team, with an art style inspired by old printed comics: heavy outlines, imperfect shapes, paper textures, halftones, and scenes divided into panels. Once that visual language was established, we ran into a problem: A clean modern interface looked completely wrong. If the world itself looked like an old paper comic, then the menus, settings, dialogue boxes, buttons, and other UI elements had to …",
+    "published": "Sun, 27 Sep 2026 11:27:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-27T13:30:32.609125"
   }
 }
