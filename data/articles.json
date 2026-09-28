@@ -14608,5 +14608,75 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-09-27T22:47:19.508893"
+  },
+  "a0a7737472b4": {
+    "id": "a0a7737472b4",
+    "title": "Heavy Grace",
+    "link": "https://gamedev.net/blogs/entry/2298431-heavy-grace",
+    "summary": "We continuously run scenes and objects across different locations and scenarios to keep the project stable. In Unreal Engine we use profilers - GPU/CPU, Nanite and texture/streaming visualizers, plus material/shader complexity. They show FPS, hardware load, memory usage per texture and per object, and how light, shadows, shaders, and material layers (MLB) behave. This lets us quickly spot bottlenecks - dense foliage, heavy materials, or overly detailed models. We then adjust scenes and assets based on the metrics: tune LOD/Nanite, materials, and lighting to keep the balance between photorealism and smooth performance. The player gets a living, natural world, and …",
+    "published": "Mon, 28 Sep 2026 09:05:44 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-09-28T16:21:24.052891"
+  },
+  "d07b5821f675": {
+    "id": "d07b5821f675",
+    "title": "HexaWars - Please rate my multiplayer turn-based strategy game",
+    "link": "https://gamedev.net/forums/topic/720489-hexawars-please-rate-my-multiplayer-turn-based-strategy-game",
+    "summary": "Hi! I'd really appreciate any feedback. I'm making the beta version of my project, currently using the working title HexaWars , publicly available for the first time: project on the gamedev.net: https://gamedev.net/projects/433-hexawars/ project on itch.io for download: https://iustat.itch.io/hexawars At the moment, login is available only through an itch.io account . The game is available for Windows 64-bit . You can either download it directly from the itch.io page or install it through the itch.io desktop client. HexaWars is a multiplayer strategy game played on a hexagonal map with fog of war . The main feature of the game is that …",
+    "published": "Mon, 28 Sep 2026 13:41:39 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-28T16:21:24.052939"
+  },
+  "6e76892d4068": {
+    "id": "6e76892d4068",
+    "title": "Can I join the RTVFX Discord server?",
+    "link": "https://realtimevfx.com/t/can-i-join-the-rtvfx-discord-server/31776",
+    "summary": "Invite link pls!!! 1 post - 1 participant Read full topic",
+    "published": "Mon, 28 Sep 2026 03:22:26 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-28T16:21:10.341421"
+  },
+  "1e77d2476e7b": {
+    "id": "1e77d2476e7b",
+    "title": "[UE5 Niagara] How to spawn an effect randomly within a specific area? (Unity Sub-emitter equivalent)",
+    "link": "https://realtimevfx.com/t/ue5-niagara-how-to-spawn-an-effect-randomly-within-a-specific-area-unity-sub-emitter-equivalent/31775",
+    "summary": "I’m switching from Unity to UE5 and still wrapping my head around Niagara. I’ve got this base effect working (see attached GIF/screenshot), but I want to make it spawn randomly within a specific area instead of just playing in one fixed spot. In Unity, I’d usually use sub-emitters for this, but I’m not sure about the best approach in Niagara. Could anyone point me in the right direction? Any node suggestions or tutorial links would be a huge help. Thanks! 4 posts - 2 participants Read full topic",
+    "published": "Mon, 28 Sep 2026 02:43:30 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-09-28T16:21:10.341471"
+  },
+  "f02861eb3d4e": {
+    "id": "f02861eb3d4e",
+    "title": "Water Drop Ripple — UE5 VFX",
+    "link": "https://realtimevfx.com/t/water-drop-ripple-ue5-vfx/31773",
+    "summary": "Hey everyone! This is my very first VFX project — a water drop ripple effect built in Unreal Engine 5. The effect is triggered on collision using a Blueprint setup: when an object hits the surface, it sends the hit location and time to the material via dynamic parameters (HitPoint and HitTime), which drives the ripple expansion. Mask: Decay: I also added a bit of noise to the ring so it doesn’t look too uniform and feels more organic. I’m just starting my journey into VFX and would love to hear your feedback! Any tips on what I could add or improve are very welcome. artstation 1 post - 1 participant Read full topic",
+    "published": "Mon, 28 Sep 2026 02:35:52 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-09-28T16:21:10.341520"
+  },
+  "6a1f6c0bd2a9": {
+    "id": "6a1f6c0bd2a9",
+    "title": "[HIRING] Senior Unity VFX Artist @ Omnilojo Singapore (On Site)",
+    "link": "https://realtimevfx.com/t/hiring-senior-unity-vfx-artist-omnilojo-singapore-on-site/31772",
+    "summary": "Hi, I am Bervyn Chua, Talent Acquisition Sourcer at Omnilojo (Singapore), and we are looking to grow our game art team on our realistic-style mobile game projects with a Senior VFX Artist . We will be working together to design and deliver high-impact, performant real-time effects—from character skill casting and combat feedback to environmental atmosphere—for our globally successful mobile titles in Unity. This job is based in Singapore (On-site with relocation and work pass support available). Qualifications: High craft proficiency in real-time VFX using Unity (Particle System, Shader Graph, materials) Solid understanding of realistic-style VFX, color, motion, timing, and combat feedback Performance optimization mindset balancing visual fidelity and runtime efficiency Strong cross-disciplinary collaboration with animation, design, and programming teams Experience or strong fundamentals in character skills, combat interactions, and environmental effects Feel free to contact me at bervyn.chua@omnilojo.com for any questions or more information! https://www.artstation.com/jobs/dd57 1 post - 1 participant Read full topic",
+    "published": "Mon, 28 Sep 2026 02:14:29 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-09-28T16:21:10.341603"
+  },
+  "eb02052a345f": {
+    "id": "eb02052a345f",
+    "title": "Microsoft CEO says Xbox is simply 'streamlining' after cutting over 5,750 jobs in three years",
+    "link": "https://www.gamedeveloper.com/production/microsoft-ceo-says-xbox-is-streamlining-after-laying-off-5-750-workers-in-three-years",
+    "summary": "The company has also divested or shuttered a number of key studios such as Double Fine, Compulsion, Tango Gameworks, and more in recent years.",
+    "published": "Mon, 28 Sep 2026 12:16:59 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-28T16:21:26.609690"
   }
 }
