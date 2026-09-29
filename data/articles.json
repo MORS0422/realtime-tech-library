@@ -14778,5 +14778,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-29T14:31:30.510109"
+  },
+  "272708ed3676": {
+    "id": "272708ed3676",
+    "title": "TheGameMusicStudio: Who I Am",
+    "link": "https://gamedev.net/blogs/entry/2298443-thegamemusicstudio-who-i-am",
+    "summary": "Hi everyone! I am a new video game composer, and I am new to this community. I've been writing music for 10 years now and as a 22-year-old just starting out, I am following my passion, as many of you are, for video games. Video games have been a huge part of my life. My favorite video game series is the Legend of Zelda, and my favorite video game composer is Koji Kondo. The main instrument that I play is the piano, although I play other instruments, piano is the main one I play. I am excited to work and …",
+    "published": "Tue, 29 Sep 2026 17:29:06 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-29T23:21:17.086495"
+  },
+  "0b11dff545af": {
+    "id": "0b11dff545af",
+    "title": "Steam's discounts and events tab will soon be fully algorithm-driven",
+    "link": "https://www.gamedeveloper.com/pc/steam-s-discounts-and-events-tab-will-soon-be-fully-algorithm-driven",
+    "summary": "Steam announced a new set of changes for its discounts and events tab that will impact which games players see.",
+    "published": "Tue, 29 Sep 2026 21:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-29T23:21:19.534072"
+  },
+  "075ec9781c97": {
+    "id": "075ec9781c97",
+    "title": "Former Dying Light franchise lead joins Bloober Team horror imprint Broken Mirror Games",
+    "link": "https://www.gamedeveloper.com/business/former-dying-light-franchise-lead-joins-bloober-team-horror-imprint-broken-mirror-games",
+    "summary": "'If you’re a developer, studio, or creator working on something interesting in horror, give me a shout!'",
+    "published": "Tue, 29 Sep 2026 20:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-29T23:21:19.534098"
+  },
+  "a1c41f721a2d": {
+    "id": "a1c41f721a2d",
+    "title": "Naughty Dog is working on new The Last Of Us 'projects'",
+    "link": "https://www.gamedeveloper.com/console/naughty-dog-is-working-on-new-the-last-of-us-projects-",
+    "summary": "Naughty Dog is signaling what comes next for the studio after it finishes Intergalactic.",
+    "published": "Tue, 29 Sep 2026 17:52:48 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-29T23:21:19.534108"
+  },
+  "f2ab9aa13f57": {
+    "id": "f2ab9aa13f57",
+    "title": "Control Resonant director lays out case for avoiding excessive 'yellow paint'",
+    "link": "https://www.gamedeveloper.com/design/control-resonant-director-lays-out-case-for-avoiding-excessive-yellow-paint-",
+    "summary": "'It has to feel like it’s on you to make a decision on what to do with those elements that you see within the world.'",
+    "published": "Tue, 29 Sep 2026 15:33:32 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-29T23:21:19.534122"
   }
 }
