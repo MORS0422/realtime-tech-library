@@ -14698,5 +14698,85 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-09-29T00:06:59.707310"
+  },
+  "f16278b6fda3": {
+    "id": "f16278b6fda3",
+    "title": "Explore Monkey Rave Production’s VFX for In the Hand of Dante",
+    "link": "https://www.cgchannel.com/2026/09/see-monkey-rave-productions-vfx-breakdown-for-in-the-hand-of-dante/",
+    "summary": "Watch the Armenian studio's breakdown of its ocean simulation and CG environments for Julian Schnabel's literary drama.",
+    "published": "Tue, 29 Sep 2026 13:17:22 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-29T14:31:15.944924"
+  },
+  "4c744dbb6c0b": {
+    "id": "4c744dbb6c0b",
+    "title": "New CG software you may have missed: 28 September 2026",
+    "link": "https://www.cgchannel.com/2026/09/new-cg-software-you-may-have-missed-28-september-2026/",
+    "summary": "Discover what's new in CG tools including Shapelab Lite, Sisir and Tripo Studio, plus new anatomy reference app Portrait Studio Pro.",
+    "published": "Tue, 29 Sep 2026 04:30:14 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-29T14:31:15.944947"
+  },
+  "b6a900f3bc93": {
+    "id": "b6a900f3bc93",
+    "title": "Get free VFX image viewer and video playback tool DJV 3.6",
+    "link": "https://www.cgchannel.com/2026/09/get-free-vfx-image-viewer-and-video-playback-tool-djv-3-6/",
+    "summary": "Check out the new shot review toolset in ex-Lucasfilm developer Darby Johnston's open-source image viewer for VFX and animation.",
+    "published": "Mon, 28 Sep 2026 04:30:31 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-29T14:31:15.944961"
+  },
+  "8c9e79f7c515": {
+    "id": "8c9e79f7c515",
+    "title": "Download 130+ free FBX mocap moves from Anderson Rohr",
+    "link": "https://www.cgchannel.com/2026/09/download-130-free-fbx-mocap-moves-from-anderson-rohr/",
+    "summary": "Get free mocap moves of common activities in FBX format for use in animation, games or VFX work. Licensed for commercial use.",
+    "published": "Mon, 28 Sep 2026 04:00:44 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-29T14:31:15.944973"
+  },
+  "87733ff3e960": {
+    "id": "87733ff3e960",
+    "title": "See Redchillies.vfx’s breakdown for The Ba***ds of Bollywood",
+    "link": "https://www.cgchannel.com/2026/09/check-out-redchillies-vfxs-breakdown-for-the-bads-of-bollywood/",
+    "summary": "Watch a making-of for the effects from Netflix's satirical action drama, including the high-octane climactic CG car chase.",
+    "published": "Fri, 25 Sep 2026 06:00:24 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-09-29T14:31:15.944985"
+  },
+  "c0facc0704a3": {
+    "id": "c0facc0704a3",
+    "title": "Replacing 26 Unity models without breaking prefab references",
+    "link": "https://gamedev.net/blogs/entry/2298441-replacing-26-unity-models-without-breaking-prefab-references",
+    "summary": "A model replacement can look perfect in Blender and still break a Unity scene. In one ROADFORGE asset pass, the risk was not only geometry: existing prefabs and resources already pointed to imported model assets. Replacing those files with new Unity identities would make the update harder to review and potentially disconnect references. The pass covered 26 Blender-authored FBX exports: 20 enemy models, five wheel models and one player vehicle. We treated it as a controlled replacement of reviewed assets, not a bulk import into fresh paths. Keep the reviewed export separate from the live asset The export folder held …",
+    "published": "Tue, 29 Sep 2026 12:53:54 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-29T14:31:27.819826"
+  },
+  "0295178f50a3": {
+    "id": "0295178f50a3",
+    "title": "Robo Arena — rebuild fallen teammates and link your ultimates in a browser robot FPS",
+    "link": "https://gamedev.net/forums/topic/720495-robo-arena-rebuild-fallen-teammates-and-link-your-ultimates-in-a-browser-robot-fps",
+    "summary": "I lead the planning and design of Robo Arena, a free browser team shooter with robot heroes. When an ally falls, recover their core to rebuild them. Activate your ultimate alongside a nearby teammate to link the two abilities. Try the training arena without an account. Online team matches and friend rooms require a GameNow account. No installation is needed. Play: https://roboarena.gamenow.us/?lang=en I'd like feedback on whether the core-recovery and linked-ultimate rules are clear when you first play.",
+    "published": "Tue, 29 Sep 2026 03:30:02 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-29T14:31:27.819857"
+  },
+  "3da0849461c2": {
+    "id": "3da0849461c2",
+    "title": "'We were constantly overshooting our capacity:' Arc Raiders exec says success resulted in burnout",
+    "link": "https://www.gamedeveloper.com/production/-we-were-constantly-overshooting-our-capacity-arc-raiders-exec-explains-success-resulted-in-burnout",
+    "summary": "Aleksander Grøndal admits Embark has struggled to balance the needs of millions of players with those of its workforce.",
+    "published": "Tue, 29 Sep 2026 14:10:05 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-29T14:31:30.510109"
   }
 }
