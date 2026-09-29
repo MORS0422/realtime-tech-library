@@ -14678,5 +14678,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-28T16:21:26.609690"
+  },
+  "0f9900a8525f": {
+    "id": "0f9900a8525f",
+    "title": "Create multiple objects with the AI assistant",
+    "link": "https://gamedev.net/blogs/entry/2298435-create-multiple-objects-with-the-ai-assistant",
+    "summary": "The bestiary is a content problem, not a design one. The AI assistant drafts a whole roster from one prompt - typed zombies that land in your Enemies folder with the same properties every enemy has, ready for your review pass Read more",
+    "published": "Mon, 28 Sep 2026 18:08:53 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-29T00:06:59.707288"
+  },
+  "3a4e0f441317": {
+    "id": "3a4e0f441317",
+    "title": "Looking for a long-term collaborator for Contrail — a playable airline management sim",
+    "link": "https://gamedev.net/forums/topic/720492-looking-for-a-long-term-collaborator-for-contrail-a-playable-airline-management-sim",
+    "summary": "Hi! I’ve been working on Contrail: Airline Sim , a single-player airline management game that started as something I really wanted to play myself. There’s already a playable build with flight scheduling, fleet management, cabin design, connecting passengers, airport operations, maintenance and AI airlines. Scheduling and cabin design are two parts I’ve put a lot of thought into. I’ve been working on it mostly by myself, and I’d love to find someone to make it with, rather than someone to work for me . I’m looking for a long-term collaborator who likes management games and wants to bring their own …",
+    "published": "Mon, 28 Sep 2026 20:45:58 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-29T00:06:59.707310"
   }
 }
