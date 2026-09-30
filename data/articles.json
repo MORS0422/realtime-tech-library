@@ -14828,5 +14828,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-29T23:21:19.534122"
+  },
+  "c5f637fe3a9c": {
+    "id": "c5f637fe3a9c",
+    "title": "Attack Sequence (with dice)",
+    "link": "https://gamedev.net/blogs/entry/2298448-attack-sequence-with-dice",
+    "summary": "I’m getting very close to publishing my game’s Steam page! This is exciting and part of me wanted to have it out in September, but then I remembered Next Fest is in October and I decided not to announce my game right before it. Instead of getting lost in that frenzy, I’m going to announce right after it, which means the end of October. In the meantime, I’m working on the polishing up the prototype so I can record clips for the trailer. Although I still need to replace the prototype walls and floor, I’ve already put in sprites for …",
+    "published": "Wed, 30 Sep 2026 09:02:56 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-30T23:22:47.652417"
+  },
+  "385ce5edb8cf": {
+    "id": "385ce5edb8cf",
+    "title": "[Tool] PNG Stomp 1.0  Batch image compression for Windows",
+    "link": "https://gamedev.net/forums/topic/720499-tool-png-stomp-10-batch-image-compression-for-windows",
+    "summary": "Hi everyone, I’ve released PNG Stomp 1.0, a Windows desktop tool for batch image compression through TinyPNG. https://irontuskgames.itch.io/irontusk-png-stomp I built it for my own game dev workflow. My renders and other art assets, mostly PNGs, were often much larger than I wanted, even after exporting them from Photoshop or other apps. I wanted an easy way to compress a whole folder without processing each image manually. Just drag in a folder or individual files, choose where to save the compressed copies, and hit Compress. Features Processes images in folders and their subfolders. Supports PNG, JPG/JPEG, WebP and AVIF. Accepts files …",
+    "published": "Wed, 30 Sep 2026 22:57:46 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-09-30T23:22:47.652444"
+  },
+  "ad29689c8cec": {
+    "id": "ad29689c8cec",
+    "title": "Suda 51's Grasshopper Manufacture splits from NetEase",
+    "link": "https://www.gamedeveloper.com/business/suda-51-s-grasshopper-manufacture-splits-from-netease",
+    "summary": "Suda51 strikes out on his own again.",
+    "published": "Wed, 30 Sep 2026 19:37:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-30T23:22:50.072493"
+  },
+  "8f0ffa786508": {
+    "id": "8f0ffa786508",
+    "title": "Ubisoft Montreal employees launch collective action to preserve hybrid work schedule",
+    "link": "https://www.gamedeveloper.com/production/ubisoft-montreal-employees-launch-collective-action-to-preserve-hybrid-work-schedule",
+    "summary": "A petition is the first action.",
+    "published": "Wed, 30 Sep 2026 17:54:59 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-09-30T23:22:50.072511"
   }
 }
