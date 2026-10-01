@@ -14868,5 +14868,95 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-09-30T23:22:50.072511"
+  },
+  "5b2cebafd3da": {
+    "id": "5b2cebafd3da",
+    "title": "Check out Koala FX’s vertiginous VFX breakdown for Fall 2",
+    "link": "https://www.cgchannel.com/2026/10/check-out-koala-fxs-vertiginous-vfx-breakdown-for-fall-2/",
+    "summary": "See how the studio created the CG environments for the fragile mountain plank walk for the climbing-themed survival thriller.",
+    "published": "Thu, 01 Oct 2026 07:55:41 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-01T15:00:04.615813"
+  },
+  "a299f54be9ab": {
+    "id": "a299f54be9ab",
+    "title": "Maxon releases Cinema 4D 2026.4 with a new MCP Server",
+    "link": "https://www.cgchannel.com/2026/09/maxon-releases-cinema-4d-2026-4-with-a-new-mcp-server/",
+    "summary": "New AI connection makes it possible to use Claude or ChatGPT to control tasks in the 3D animation and motion graphics software.",
+    "published": "Wed, 30 Sep 2026 14:52:39 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-01T15:00:04.615835"
+  },
+  "d5947a420d40": {
+    "id": "d5947a420d40",
+    "title": "See how Framestore created a CG battlefield for Lioness Season 3",
+    "link": "https://www.cgchannel.com/2026/09/see-how-framestore-created-a-cg-battlefield-for-lioness-season-3/",
+    "summary": "Watch a breakdown of the studio's 3D environments, matte painting and explosion simulations for the spy thriller series.",
+    "published": "Wed, 30 Sep 2026 07:40:50 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-01T15:00:04.615846"
+  },
+  "777a50769b7d": {
+    "id": "777a50769b7d",
+    "title": "Chaos releases Vantage 3.4",
+    "link": "https://www.cgchannel.com/2026/09/chaos-releases-vantage-3-4/",
+    "summary": "Check out the new features in the real-time ray tracing renderer, including OpenPBR support and updates to smoke and fire sims.",
+    "published": "Tue, 29 Sep 2026 15:24:10 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-01T15:00:04.615855"
+  },
+  "b0f51b6f7e6e": {
+    "id": "b0f51b6f7e6e",
+    "title": "Connect any AI tool to your GDD via MCP",
+    "link": "https://gamedev.net/blogs/entry/2298450-connect-any-ai-tool-to-your-gdd-via-mcp",
+    "summary": "Your assistant is inside the app - but the AI tool you use every day could work with your design too. MCP exposes the project over a standard protocol: one click and the local server is running, copy the URL and OpenCode, Cursor or any MCP client exchanges data with your game design Read more",
+    "published": "Thu, 01 Oct 2026 08:05:06 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-01T15:00:17.260206"
+  },
+  "9895bb2a2178": {
+    "id": "9895bb2a2178",
+    "title": "Games' Character AI Sucks.  Consider this an Intervention -> FISHBOWL CHALLENGE 2026!",
+    "link": "https://gamedev.net/forums/topic/720502-games-character-ai-sucks-consider-this-an-intervention-fishbowl-challenge-2026",
+    "summary": "September 30, 2026 - the 1st Annual \"FISHBOWL CHALLENGE.\" (Fishbowl Jam? Goldfish Jam? Goldfish Challenge? anyways...) (This is a FAKE ANNOUNCEMENT, but real game design questions and ideas are wrapped inside. If anyone wants to make the FISHBOWL CHALLENGE A REALITY, that would be awesome!) THESIS: 1) Games can be made much more interesting if NPCs (Non-Player Characters) behaved in more \"interesting\" ways. 2) Games with more interesting NPCs will DRAMATICALLY INCREASE the global audience of interactive digital entertainment. I believe ABYSMAL character AI is a big part of why video games/interactive digital entertainment are stuck in Chris Hecker's \"cultural …",
+    "published": "Thu, 01 Oct 2026 10:26:18 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-01T15:00:17.260239"
+  },
+  "36af89c8455f": {
+    "id": "36af89c8455f",
+    "title": "I'm trying to create the best blood! Need feedback",
+    "link": "https://realtimevfx.com/t/im-trying-to-create-the-best-blood-need-feedback/31787",
+    "summary": "I’m working on realistic blood VFX and could use a fresh pair of eyes! I want to make the movement, splashes, and surface interaction feel convincing. What looks off to you, and what would you improve? - YouTube 2 posts - 1 participant Read full topic",
+    "published": "Thu, 01 Oct 2026 07:02:09 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-01T15:00:06.029234"
+  },
+  "4b72d65dd147": {
+    "id": "4b72d65dd147",
+    "title": "Dimension Rift! Please check and support my new work!",
+    "link": "https://realtimevfx.com/t/dimension-rift-please-check-and-support-my-new-work/31786",
+    "summary": "My latest VFX work for the Race of the Nine Worlds trailer is now on ArtStation! Check out the full effect on ArtStation . If you enjoy it, a like or comment on the project would mean a lot and help more people discover my work. Thanks for your support! https://www.artstation.com/artwork/ndJDbo?notification_id=8487473438 1 post - 1 participant Read full topic",
+    "published": "Thu, 01 Oct 2026 06:45:50 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-01T15:00:06.029263"
+  },
+  "60286be6f0e7": {
+    "id": "60286be6f0e7",
+    "title": "An Idea for Avoiding Sort Issues in a Common Explosion FX Setup",
+    "link": "https://realtimevfx.com/t/an-idea-for-avoiding-sort-issues-in-a-common-explosion-fx-setup/31785",
+    "summary": "An Idea for Avoiding Sort Issues in a Common Explosion FX Setup Let’s assume the shockwave is red and the explosion is blue . If the red shockwave has a Sort value of 1 and the blue explosion has a Sort value of 0 , or vice versa, where the red is 0 and the blue is 1 , it can cause unwanted visual interference between the two effects. So, I came up with an idea to separate the ring-shaped shockwave into front and back sections relative to the camera . I divided the ring-shaped resource into two halves based on the camera position, and then selectively killed the particles so that one half exists in front of the camera-facing side and the other half exists behind it. With this setup, if the final Sort order is: Red = 2 → Blue = 1 → Green = 0 the resources are sorted in a consistent order, which prevents them from visually interfering with each other. This is the approach I came up with so far. If there are more effective ways to handle this kind of sorting issue, I’d love to hear your ideas and share solutions so we can improve the technique together. Thank you! 1 post - 1 participant Read full topic",
+    "published": "Thu, 01 Oct 2026 06:06:32 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-01T15:00:06.029326"
   }
 }
