@@ -15008,5 +15008,55 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-10-02T14:22:47.670019"
+  },
+  "04e05c84d031": {
+    "id": "04e05c84d031",
+    "title": "See Rodeo FX’s VFX breakdown for FM ‘Protect Your Purpose’",
+    "link": "https://www.cgchannel.com/2026/10/see-rodeo-fxs-vfx-breakdown-of-its-new-ad-for-fm-insurance/",
+    "summary": "See a breakdown of effects ranging from stormy ocean waves to a ribbon of liquid metal from the new ad for the property insurance firm.",
+    "published": "Fri, 02 Oct 2026 14:15:33 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-02T23:29:46.639317"
+  },
+  "f1bdb3b016b6": {
+    "id": "f1bdb3b016b6",
+    "title": "Insydium releases NeXus 2026.1 in beta",
+    "link": "https://www.cgchannel.com/2026/10/insydium-releases-nexus-2026-1-in-beta/",
+    "summary": "Big update to the particle-based simulation add-on for Blender and Cinema 4D adds a neat new unified multi-material solver.",
+    "published": "Fri, 02 Oct 2026 04:30:32 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-02T23:29:46.639341"
+  },
+  "1f42e765fb0e": {
+    "id": "1f42e765fb0e",
+    "title": "Creating Hand-Drawn Atmospheric Fog in Unity for Dark Coffee",
+    "link": "https://gamedev.net/blogs/entry/2298462-creating-hand-drawn-atmospheric-fog-in-unity-for-dark-coffee",
+    "summary": "Hi everyone! Today I would like to share the process of creating spooky atmospheric fog for our game Dark Coffee. First, I drew the fog itself, making a sketch, the base, and the line art on top. Then I cut it up and added a noise filter to create an aged paper effect. After that, I created a separate folder in the assets and added the images to Unity. For these images, I used the Generate Mipmap setting so the image wouldn’t get blurry, and I completely disabled compression. After I prepared all the assets, I started assembling the fog …",
+    "published": "Fri, 02 Oct 2026 17:00:23 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-02T23:29:55.829769"
+  },
+  "c46d06a3121c": {
+    "id": "c46d06a3121c",
+    "title": "making a fighting game but need help understanding how to make it deterministic",
+    "link": "https://gamedev.net/forums/topic/720480-making-a-fighting-game-but-need-help-understanding-how-to-make-it-deterministic",
+    "summary": "I don't under stand how fighting games are able to be made and be deterministic at the same time. For example how am I supposed to keep track of the players position without using float!? Let alone accelerate them at a fixed reasonable speed? I don't know how I would do this and I really need help. I used gemini to help me write a vector3 fixed point class but I'm still not confident that this is good enough to use it. using System; using Godot; namespace ProjectKazen.Framework.Util; public class FixedPoint { protected const int Shift = 16; protected const …",
+    "published": "Fri, 02 Oct 2026 21:16:19 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-02T23:29:55.829806"
+  },
+  "2a6ee780a058": {
+    "id": "2a6ee780a058",
+    "title": "Reigns developer Nerial enters 'hibernation mode,' lays off staff",
+    "link": "https://www.gamedeveloper.com/business/nerial-to-enter-hibernation-mode-and-lay-off-developers",
+    "summary": "The studio that gave birth to Reigns is ending operations—for now.",
+    "published": "Fri, 02 Oct 2026 21:31:04 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-02T23:29:58.535428"
   }
 }
