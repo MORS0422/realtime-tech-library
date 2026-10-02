@@ -14978,5 +14978,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-01T23:37:44.091378"
+  },
+  "051898429c55": {
+    "id": "051898429c55",
+    "title": "How to work with the AI assistant in your GDD without an internet connection",
+    "link": "https://gamedev.net/blogs/entry/2298459-how-to-work-with-the-ai-assistant-in-your-gdd-without-an-internet-connection",
+    "summary": "How do you run an AI agent with no cloud and no internet? Ollama runs the model locally, IMS Creators talks to it privately over a local port with the same functionality Read more",
+    "published": "Fri, 02 Oct 2026 11:35:15 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-02T14:25:08.363724"
+  },
+  "c5f6b7b52f46": {
+    "id": "c5f6b7b52f46",
+    "title": "New here! What's the best way to offer programming services or post Open for Work on GameDev.net?",
+    "link": "https://gamedev.net/forums/topic/720506-new-here-whats-the-best-way-to-offer-programming-services-or-post-open-for-work-on-gamedevnet",
+    "summary": "What is the proper forum or category to share that I'm / my team is open for work? Any advice, tips, or pointers on how to connect with the community properly would be greatly appreciated. Happy to be here and excited to learn from you all! Thanks in advance!",
+    "published": "Fri, 02 Oct 2026 12:36:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-02T14:25:08.363746"
+  },
+  "d9f2bebed24e": {
+    "id": "d9f2bebed24e",
+    "title": "UE5 VFX: SwordStrike Groundcrack",
+    "link": "https://realtimevfx.com/t/ue5-vfx-swordstrike-groundcrack/31792",
+    "summary": "I am finally done with my Sword Strike VFX Piece!!! A lot of elements are applied here but it was basically a way for me to learn about how to make realistic cracks. This is done in Unreal Engine 5.5 Assets are from sketchfab, vfx is done by yours truly I still need to post it on Artstation after tweaking… more last steps… 2 posts - 1 participant Read full topic",
+    "published": "Fri, 02 Oct 2026 12:50:00 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-10-02T14:22:47.670019"
   }
 }
