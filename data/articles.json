@@ -15078,5 +15078,15 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-10-03T12:56:44.710809"
+  },
+  "0b04a77ed888": {
+    "id": "0b04a77ed888",
+    "title": "[TOOL] Batch image compression for Windows",
+    "link": "https://gamedev.net/forums/topic/720499-tool-batch-image-compression-for-windows",
+    "summary": "Hi everyone, I’ve released PNG Stomp, a Windows desktop tool for batch image compression through TinyPNG. https://irontuskgames.itch.io/irontusk-png-stomp I built it for my own game dev workflow. My renders and other art assets, mostly PNGs, were often much larger than I wanted, even after exporting them from Photoshop or other apps. I wanted an easy way to compress a whole folder without processing each image manually. Just drag in a folder or individual files, choose where to save the compressed copies, and hit Compress. Features Processes images in folders and their subfolders. Supports PNG, JPG/JPEG, WebP and AVIF. Accepts files and …",
+    "published": "Sat, 03 Oct 2026 21:43:06 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-03T22:36:23.352220"
   }
 }
