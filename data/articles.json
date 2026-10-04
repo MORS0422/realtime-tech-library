@@ -15088,5 +15088,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-03T22:36:23.352220"
+  },
+  "ae82d71a6276": {
+    "id": "ae82d71a6276",
+    "title": "A Unity handover should survive a second machine",
+    "link": "https://gamedev.net/blogs/entry/2298465-a-unity-handover-should-survive-a-second-machine",
+    "summary": "A game opening on its original developer's computer is a useful demonstration. It is not yet a reproducible handover. That machine can hide the exact editor installation, a locally cached dependency, a signing setup or a forgotten configuration file. The practical question is whether a second authorized developer can reconstruct the intended working environment from the delivered instructions and assets. Here is a review procedure a small studio and a commissioning team can agree on before the final delivery. It is a proposed checklist, not a claim that every project needs the same tooling or that ROADFORGE has passed this …",
+    "published": "Sun, 04 Oct 2026 11:51:15 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-04T13:36:48.225401"
+  },
+  "558f28f47bef": {
+    "id": "558f28f47bef",
+    "title": "Only 24 Steam wishlists before an October launch: what should I prioritize?",
+    "link": "https://gamedev.net/forums/topic/720512-only-24-steam-wishlists-before-an-october-launch-what-should-i-prioritize",
+    "summary": "I'm making a roguelike card game and aiming to release this October. I currently have only 24 Steam wishlists, and I don't have a playable demo. With limited time before launch, what would you prioritize to reach players who enjoy deckbuilders: improving the store page, sharing short gameplay clips, or contacting small creators? What would you measure to tell whether an approach is actually bringing interested players?",
+    "published": "Sun, 04 Oct 2026 13:25:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-04T13:36:48.225429"
   }
 }
