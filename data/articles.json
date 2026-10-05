@@ -15108,5 +15108,75 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-04T13:36:48.225429"
+  },
+  "fc79540b3f97": {
+    "id": "fc79540b3f97",
+    "title": "Alexey Vanzhula releases Modeler 26.3 for Houdini",
+    "link": "https://www.cgchannel.com/2026/10/alexey-vanzhula-releases-modeler-26-for-houdini/",
+    "summary": "Latest update to the popular toolkit for hard surface and organic modeling reworks subdivision workflow to match Houdini 22.",
+    "published": "Mon, 05 Oct 2026 06:00:05 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-05T16:41:47.687315"
+  },
+  "76a6a7ad6a7f": {
+    "id": "76a6a7ad6a7f",
+    "title": "New 3D software you may have missed: 4 October 2026",
+    "link": "https://www.cgchannel.com/2026/10/new-3d-software-you-may-have-missed-4-october-2026/",
+    "summary": "Discover what's new in CG tools like new motion graphics app Caddis, and the new VFX features in generative video AI model LTX.",
+    "published": "Sun, 04 Oct 2026 14:14:57 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-05T16:41:47.687332"
+  },
+  "1202768389b4": {
+    "id": "1202768389b4",
+    "title": "The Pixel Farm lifts feature restrictions on PFTrack Solo",
+    "link": "https://www.cgchannel.com/2026/10/the-pixel-farm-lifts-feature-restrictions-on-pftrack-solo/",
+    "summary": "Freelancers and solo artists can now use every node in the heavyweight camera tracking app, including photogrammetry and stereo solving.",
+    "published": "Sun, 04 Oct 2026 09:00:20 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-05T16:41:47.687339"
+  },
+  "bee7e5970954": {
+    "id": "bee7e5970954",
+    "title": "I'm 17, I shipped a 3D open source island adventure game",
+    "link": "https://gamedev.net/blogs/entry/2298466-im-17-i-shipped-a-3d-open-source-island-adventure-game",
+    "summary": "I'm a 17-year-old solo dev, and I just released CRAFTLANDER, a first-person island adventure game I made over 11 months, starting in November 2025. The entire project is open source under the MIT license here . Where I started I started learning to code in Python when I was 8 years old. Later, I started learning how to make games using Blender, back when Blender was both a game engine and 3D modeling software. That was version 2.7.9. I then heard that the game engine would be discontinued in version 2.8. Around that time in May of 2019, when I …",
+    "published": "Mon, 05 Oct 2026 09:11:43 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-05T16:41:56.994482"
+  },
+  "13097d6e222f": {
+    "id": "13097d6e222f",
+    "title": "Whata do you suggest ?",
+    "link": "https://gamedev.net/forums/topic/720523-whata-do-you-suggest",
+    "summary": "Hello! I've a graphic designer for the past 9Y and i decided to start developing games. I was always curious about it, but never gave it a chance and don't where to start! I'm curious about C++, but some people that i should learn C first, so should i do that first ? And yes later on i want to start developing in Unity but for now i want to learn the language (with SFML or Raylib) Where should i start ? Is there good books or videos (or maybe both) ?",
+    "published": "Mon, 05 Oct 2026 15:16:49 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-05T16:41:56.994502"
+  },
+  "08c1796256f7": {
+    "id": "08c1796256f7",
+    "title": "How to make Color ramps",
+    "link": "https://realtimevfx.com/t/how-to-make-color-ramps/31800",
+    "summary": "Hey I was trying to figure out how color ramps worked all I know it that is if you have a valve you can use that value to pick a color off the color ramp that about it and how to make them in substance designer to use in unity shader graph. Any help is appreciated 1 post - 1 participant Read full topic",
+    "published": "Mon, 05 Oct 2026 15:31:20 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-05T16:41:49.026748"
+  },
+  "2468552981a1": {
+    "id": "2468552981a1",
+    "title": "Why it's still worth making immersive sims ft. Harvey Smith &amp; Ben Horne",
+    "link": "https://www.gamedeveloper.com/design/why-it-s-still-worth-making-immersive-sims-ft-harvey-smith-ben-horne",
+    "summary": "Celebrated game designer Harvey Smith and former Arkane Austin executive producer Ben Horne lay out their vision for Black Pony Immersive.",
+    "published": "Mon, 05 Oct 2026 15:59:58 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-05T16:41:59.848600"
   }
 }
