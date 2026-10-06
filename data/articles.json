@@ -15278,5 +15278,55 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-06T14:39:19.036428"
+  },
+  "b98a856e95cc": {
+    "id": "b98a856e95cc",
+    "title": "Your design is stuck on one laptop - create a game project in your browser",
+    "link": "https://gamedev.net/blogs/entry/2298476-your-design-is-stuck-on-one-laptop-create-a-game-project-in-your-browser",
+    "summary": "Three people are waiting on the one person who owns the file. A cloud project gives the same game design document a home anyone can open: create it from scratch in the browser, no install, no archive to pass around Read more",
+    "published": "Tue, 06 Oct 2026 19:32:27 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-06T23:30:11.639341"
+  },
+  "61045650d88a": {
+    "id": "61045650d88a",
+    "title": "Developers for a Indie Sandbox game where you can publish your own minigame.",
+    "link": "https://gamedev.net/forums/topic/720535-developers-for-a-indie-sandbox-game-where-you-can-publish-your-own-minigame",
+    "summary": "I need help to create a game where people can make, play, and collaborate to make minigames with custom music, characters (original or not), and mechanics. This game will not be similar to roblox where you have to create your game from scratch. You are going to have templates and pre-existing work to build on with pre-written scripts, custom scripts, pre-made builds, custom builds. This game will have built-in mod support with a mod menu, and it will make it easy to create your own mods. There will be a part of the minigame creator to create your own music. …",
+    "published": "Tue, 06 Oct 2026 21:31:12 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-06T23:30:11.639371"
+  },
+  "38e107ffaf21": {
+    "id": "38e107ffaf21",
+    "title": "GameStop, other retailers to sell used PlayStation 5 Pro units for 66 percent over MSRP",
+    "link": "https://www.gamedeveloper.com/console/gamestop-other-retailers-to-sell-used-playstation-5-pro-units-for-66-percent-over-msrp",
+    "summary": "The advanced PlayStation 5 console is already both highly sought-after and hard to find. Now retailers are pricing it well above MSRP.",
+    "published": "Tue, 06 Oct 2026 18:54:21 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-06T23:30:13.948041"
+  },
+  "6f6c01445338": {
+    "id": "6f6c01445338",
+    "title": "Unlead Labs studio head says they were 'irresponsibly transparent' in preparing staff for layoffs",
+    "link": "https://www.gamedeveloper.com/business/unlead-labs-studio-head-says-they-were-irresponsibly-transparent-in-preparing-staff-for-layoffs",
+    "summary": "Studio head Philip Holt says he was being incredibly candid with employees as layoffs loomed.",
+    "published": "Tue, 06 Oct 2026 17:12:41 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-06T23:30:13.948059"
+  },
+  "b21bc5918a4e": {
+    "id": "b21bc5918a4e",
+    "title": "Co-dev case study: How Blackbird Interactive and Secret Mode helped Escape the Backrooms ride the Backrooms hype wave",
+    "link": "https://www.gamedeveloper.com/production/co-dev-case-study-how-blackbird-interactive-and-secret-mode-helped-escape-the-backrooms-ride-the-backrooms-hype-wave",
+    "summary": "A co-dev partnership helped Fancy's hit game Escape The Backrooms reach over 4 million players.",
+    "published": "Tue, 06 Oct 2026 15:06:28 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-06T23:30:13.948069"
   }
 }
