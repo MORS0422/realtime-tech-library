@@ -15178,5 +15178,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-05T16:41:59.848600"
+  },
+  "ba8914357688": {
+    "id": "ba8914357688",
+    "title": "MegaStorm Systems logo and website updates",
+    "link": "https://gamedev.net/blogs/entry/2298469-megastorm-systems-logo-and-website-updates",
+    "summary": "We have updated the MegaStorm Systems logo and changed the menu’s active-section marker to match its yellow accents. We also adjusted navigation on smaller screens. These are small refinements to the website refresh, with more improvements to the site and project documentation to follow. CRM64Pro v0.80.0 is also coming in the next few days, with an updated logo and a fully working GDK that is nearing completion. Read more",
+    "published": "Mon, 05 Oct 2026 18:16:31 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-06T01:04:15.021955"
+  },
+  "1c73c8bca93d": {
+    "id": "1c73c8bca93d",
+    "title": "I built a world with infinite depth",
+    "link": "https://gamedev.net/forums/topic/720494-i-built-a-world-with-infinite-depth",
+    "summary": "There's a lot more to this, but this is a custom engine I've been working on for 3ish years. This is a WIP. The worlds have infinite depth. It's not quite implemented yet, but the depth will have levels. This whole demo stays at under ~350MB of RAM. I could really use an artist that knows how to do 3d modeling / animation. Happy to answer any questions. https://digdeep.itch.io/digdeep",
+    "published": "Mon, 05 Oct 2026 21:13:29 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-06T01:04:15.021977"
+  },
+  "646895378d81": {
+    "id": "646895378d81",
+    "title": "What do SDF do?",
+    "link": "https://realtimevfx.com/t/what-do-sdf-do/31801",
+    "summary": "Hey I’ve been trying to figure out what a 2D SDF are used for and how they work for unity shader graph?? And any information is helpful please and thanks.I’m practicing styalized Vfx so preferably info for that of it make any difference 1 post - 1 participant Read full topic",
+    "published": "Mon, 05 Oct 2026 20:20:06 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-06T01:04:08.469417"
+  },
+  "afff400cf6fd": {
+    "id": "afff400cf6fd",
+    "title": "Arc Raiders and The Finals set for TV and film adaptations from Backrooms co-producer",
+    "link": "https://www.gamedeveloper.com/business/arc-raiders-and-the-finals-set-for-tv-and-film-adaptations-from-backrooms-co-producer",
+    "summary": "The Sweden-based Embark Studios has secured adaptations for both of its multiplayer shooters, The Finals and ARC Raiders.",
+    "published": "Mon, 05 Oct 2026 18:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-06T01:04:17.614038"
+  },
+  "d719d168c3ce": {
+    "id": "d719d168c3ce",
+    "title": "Report: Ninja Theory lays off workers after failing to spin off from Xbox",
+    "link": "https://www.gamedeveloper.com/business/report-ninja-theory-lays-off-workers-after-failing-to-spin-off-from-xbox",
+    "summary": "The developer of the Hellblade titles and the recently-announced Senua is reportedly cutting jobs after attempts to divest the studio from the parent company were unsuccessful.",
+    "published": "Mon, 05 Oct 2026 16:45:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-06T01:04:17.614058"
   }
 }
