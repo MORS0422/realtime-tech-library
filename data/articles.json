@@ -15228,5 +15228,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-06T01:04:17.614058"
+  },
+  "303836fedacb": {
+    "id": "303836fedacb",
+    "title": "Adobe releases Photoshop 27.11",
+    "link": "https://www.cgchannel.com/2026/10/adobe-releases-photoshop-27-11/",
+    "summary": "See the new features in the image-editing software, including a new AI-powered Enhance Edge option for creating cleaner cutouts of hair.",
+    "published": "Tue, 06 Oct 2026 09:36:50 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-06T14:39:11.292416"
+  },
+  "b89ad722b579": {
+    "id": "b89ad722b579",
+    "title": "See Rodeo FX’s VFX breakdowns for House of the Dragon Season 3",
+    "link": "https://www.cgchannel.com/2026/10/see-rodeo-fxs-vfx-breakdowns-for-house-of-the-dragon-season-3/",
+    "summary": "See two excellent VFX breakdowns, one showcasing the full range of Rodeo FX's work; the other focusing on the dragon Silverwing.",
+    "published": "Tue, 06 Oct 2026 07:32:04 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-06T14:39:11.292441"
+  },
+  "c4307e94cdef": {
+    "id": "c4307e94cdef",
+    "title": "Improve your Creature Animation for Film & VFX",
+    "link": "https://www.cgchannel.com/2026/10/improve-your-creature-animation-for-film-vfx/",
+    "summary": "Discover the practical reality of creating professional animation for VFX with The Gnomon Workshop's Maya tutorial for junior artists.",
+    "published": "Tue, 06 Oct 2026 04:30:09 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-06T14:39:11.292455"
+  },
+  "ad27bf3c5509": {
+    "id": "ad27bf3c5509",
+    "title": "Virtualord development update: September 2026",
+    "link": "https://gamedev.net/blogs/entry/2298475-virtualord-development-update-september-2026",
+    "summary": "September 2026 has been another very productive month for Virtualord! I managed to complete the development of 2 new alpha releases and also to launch a first playtest session on Steam. Releasing something on Steam was extremely exciting, even if it was just a temporary build, but it also gave me a lot of experience I am going to need for the upcoming demo release. Version 0.6.13 released After an experimental build (0.6.11) that was never released publicly , on the 23rd of September I released version 0.6.13 , which is the first one released on Steam and that people …",
+    "published": "Tue, 06 Oct 2026 11:43:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-06T14:39:19.036385"
+  },
+  "ed109b0c074d": {
+    "id": "ed109b0c074d",
+    "title": "Create a game in two months with no experience.",
+    "link": "https://gamedev.net/forums/topic/720518-create-a-game-in-two-months-with-no-experience",
+    "summary": "Hi everyone! I’m a beginner with Unity, and I’d really appreciate some advice from more experienced developers. For my final project at my institute, I have about two months to create a game from scratch . I’m thinking about making a small 2D game with RPG elements . I’m not trying to make anything huge or overly ambitious — I mainly want to create something small, complete, and actually playable that I can realistically finish within the deadline. I have some programming experience with Python , but I’m completely new to Unity and C#. I initially thought Unity used C++, …",
+    "published": "Tue, 06 Oct 2026 14:32:19 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-06T14:39:19.036428"
   }
 }
