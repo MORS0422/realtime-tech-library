@@ -15378,5 +15378,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-07T14:59:49.591986"
+  },
+  "243d39a37ab0": {
+    "id": "243d39a37ab0",
+    "title": "Would you play a 3D zombie auto-shooter with city liberation, looting and persistent progression?",
+    "link": "https://gamedev.net/forums/topic/720536-would-you-play-a-3d-zombie-auto-shooter-with-city-liberation-looting-and-persistent-progression",
+    "summary": "Hi everyone, I’m currently developing a solo indie game in Unity called ZombieAutoShooter . It’s a stylized-realistic 3D zombie survival auto-shooter designed primarily for mobile. The core idea is not just “survive for 10 minutes and reset.” Instead, the game is built around a longer campaign where you gradually liberate an infected city district by district . The first chapter takes place in New York City , with 10 main districts plus a hidden Secret Area. The current gameplay direction includes: Automatic targeting and shooting Manual movement, sprint and dodge roll Different firearms: pistol, SMG, shotgun, assault rifle, sniper rifle …",
+    "published": "Wed, 07 Oct 2026 23:32:08 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-07T23:58:36.768130"
+  },
+  "49d8a523bb59": {
+    "id": "49d8a523bb59",
+    "title": "Sword Slash Trail VFX UE5",
+    "link": "https://realtimevfx.com/t/sword-slash-trail-vfx-ue5/31810",
+    "summary": "Hi everyone! I’m excited to share my second project as an aspiring VFX Programmer. For this piece, I created a sword slash trail effect, focusing on making it look sharp, juicy, and impactful. Through this project, I dove deeper into Unreal Engine 5, learning how to sync particles with animations and master the Niagara simulation system. I’m highly motivated to take my skills to the next level and create truly stunning, AAA-grade visual effects. I would love to get your feedback! Please let me know what you think and share any tips on how I can improve or optimize this effect. Best regards and have a great day! artstation 1 post - 1 participant Read full topic",
+    "published": "Wed, 07 Oct 2026 21:07:12 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-10-07T23:58:29.384595"
+  },
+  "f21de692183d": {
+    "id": "f21de692183d",
+    "title": "Star Wars Zero Company developer Bit Reactor brings back 'over half' of furloughed staff",
+    "link": "https://www.gamedeveloper.com/business/star-wars-zero-company-developer-bit-reactor-brings-back-over-half-of-furloughed-staff",
+    "summary": "The studio suspended the majority of its staff ahead of the tactical Star Wars title's launch. Now it's bringing back many suspended employees.",
+    "published": "Wed, 07 Oct 2026 18:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-07T23:58:39.584709"
+  },
+  "3c348f5abc89": {
+    "id": "3c348f5abc89",
+    "title": "Former Activision Blizzard CEO Bobby Kotick named to the board of post-merger Skydance",
+    "link": "https://www.gamedeveloper.com/business/former-activision-ceo-bobby-kotick-named-to-the-board-of-post-merger-skydance",
+    "summary": "From the convergence of Paramount and WB comes a newly-formed company that has tapped Kotick to sit on its board.",
+    "published": "Wed, 07 Oct 2026 17:19:05 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-07T23:58:39.584725"
+  },
+  "25cf96cba7c9": {
+    "id": "25cf96cba7c9",
+    "title": "Electronic Arts' leveraged buyout faces a bondholder battle",
+    "link": "https://www.gamedeveloper.com/business/electronic-arts-leveraged-buyout-faces-a-bondholder-battle",
+    "summary": "The acquisition of Electronic Arts required taking on a lot of debt, and some bondholders are reportedly demanding more cash.",
+    "published": "Wed, 07 Oct 2026 15:13:19 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-07T23:58:39.584731"
   }
 }
