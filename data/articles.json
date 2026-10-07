@@ -15328,5 +15328,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-06T23:30:13.948069"
+  },
+  "604dc7631c02": {
+    "id": "604dc7631c02",
+    "title": "The architecture of Game of Ur (2023-2026)",
+    "link": "https://gamedev.net/blogs/entry/2298480-the-architecture-of-game-of-ur-2023-2026",
+    "summary": "I adapted a version of the Royal Game of Ur using my custom 3D C++ &amp; OpenGL game engine, ToyMaker. I developed this over the course of 3-4 years, between 2023 and 2026, as I learned graphics programming and game development. You can download and play the game from Itch, or the releases page of the Game of Ur GitHub repo. Game of Ur is a competitive, two-player board game. The player who moves all 5 of their pieces to the end of the course first, wins the game. The variant implemented in this adaptation is based on a paper …",
+    "published": "Wed, 07 Oct 2026 11:44:36 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-07T14:59:47.466161"
+  },
+  "e1af15ffbfc3": {
+    "id": "e1af15ffbfc3",
+    "title": "Did you know: Blender's Geometry Nodes can be used to generate textures",
+    "link": "https://realtimevfx.com/t/did-you-know-blenders-geometry-nodes-can-be-used-to-generate-textures/31808",
+    "summary": "Lurker here (until now). Just wanted to share a random tip that might be useful for other people: Geometry Nodes is something I find really useful for preparing art or assets for both vfx and environment art. But it doesn’t technically provide a way to output textures which would be a useful feature for baking certain kinds of geometry data into maps. However, you can create a grid mesh and assign the grid a material that displays a high precision color or number attribute. Then set the camera to orthographic and have it match the aspect ratio of the grid and render to exr/tiff/png etc and you have a texture. An example node setup I tried was baking ambient occlusion to a texture by sampling using ray casts 1 post - 1 participant Read full topic",
+    "published": "Wed, 07 Oct 2026 09:26:56 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-07T14:59:41.132202"
+  },
+  "f922b5e0f607": {
+    "id": "f922b5e0f607",
+    "title": "Arc Overload, a real-time stylized lightning ability VFX",
+    "link": "https://realtimevfx.com/t/arc-overload-a-real-time-stylized-lightning-ability-vfx/31806",
+    "summary": "Hey everyone, I recently finished Arc Overload, a real-time stylized lightning ability VFX. I created this in Unreal Engine 5 using Niagara. It was a really fun project to work on, especially with all the lightning tendrils integrated with the characters and animations I’d really appreciate any feedback, thank youu https://www.artstation.com/artwork/8vBNVw 1 post - 1 participant Read full topic",
+    "published": "Wed, 07 Oct 2026 08:36:18 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-10-07T14:59:41.132243"
+  },
+  "23a6c39611a5": {
+    "id": "23a6c39611a5",
+    "title": "Unity unveils Unity Spark, an prompt-based tool for Google's AI games platform",
+    "link": "https://www.gamedeveloper.com/programming/unity-unveils-unity-spark-an-prompt-based-tool-for-google-s-ai-games-platform",
+    "summary": "Unity's new tool allows prompt-based game development, working in collaboration with Google AI.",
+    "published": "Wed, 07 Oct 2026 12:05:56 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-07T14:59:49.591965"
+  },
+  "7fb2e0b931b0": {
+    "id": "7fb2e0b931b0",
+    "title": "Google debuts new 'experimental' AI game platform named Google Playground",
+    "link": "https://www.gamedeveloper.com/business/google-debuts-new-ai-game-platform-named-google-playground",
+    "summary": "A platform for people who want to play games made by AI.",
+    "published": "Tue, 06 Oct 2026 20:14:47 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-07T14:59:49.591986"
   }
 }
