@@ -15548,5 +15548,55 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-09T14:52:53.448584"
+  },
+  "b115b57636b0": {
+    "id": "b115b57636b0",
+    "title": "How We Made Unreal Engine Localization Easier Without Rebuilding Our Game",
+    "link": "https://gamedev.net/blogs/entry/2298487-how-we-made-unreal-engine-localization-easier-without-rebuilding-our-game",
+    "summary": "When we first started working on localization for our Unreal Engine game, the first version of our plugin was pretty simple. We had a few Blueprint functions. You'd get the VeluTranslate Subsystem, provide a translation key, and connect it to a TextBlock. And it worked. For a basic menu with a handful of buttons, that was enough. But as the plugin grew, we started thinking more about how other developers would actually use it in their own projects. We didn't just want to keep adding features. We wanted localization to fit naturally into the way people already build games in …",
+    "published": "Fri, 09 Oct 2026 18:42:52 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-10-09T23:46:12.022708"
+  },
+  "2c1780c9d4df": {
+    "id": "2c1780c9d4df",
+    "title": "Double free during foreach loop of array<string> with custom array and string addons",
+    "link": "https://gamedev.net/forums/topic/720542-double-free-during-foreach-loop-of-arraystring-with-custom-array-and-string-addons",
+    "summary": "Hello, I'm working on Rust bindings to AngelScript to embed into my game engine. I'm writing custom addons that are functionally the same as the official \"stdlib\" ones you made. The addons I've made that are in question here are the array and string addon. A decent amount of the code is basically translated to Rust from the actual C++ addons. I understand this question may be out of scope since its bindings, but I was hoping you might be able to give me some insight into AngelScript that could help me debug this issue. The current problem is that …",
+    "published": "Fri, 09 Oct 2026 23:34:55 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-09T23:46:12.022743"
+  },
+  "bd68ae124230": {
+    "id": "bd68ae124230",
+    "title": "Generating flip-books in substance designer",
+    "link": "https://realtimevfx.com/t/generating-flip-books-in-substance-designer/31819",
+    "summary": "I want to actually generate the animated frames directly inside Substance Designer from scratch, and then pack them into a flipbook grid. Does anyone have a good workflow or custom node setup for driving time/animation steps across an grid in Designer to produce procedural flipbooks? 1 post - 1 participant Read full topic",
+    "published": "Fri, 09 Oct 2026 20:49:09 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-09T23:46:04.497414"
+  },
+  "4fbc2f004cff": {
+    "id": "4fbc2f004cff",
+    "title": "Ubisoft to sunset Rainbow Six Mobile just seven months after launch",
+    "link": "https://www.gamedeveloper.com/mobile/ubisoft-to-sunset-rainbow-six-mobile-just-seven-months-after-launch",
+    "summary": "The tactical mobile shooter was only globally released earlier this year.",
+    "published": "Fri, 09 Oct 2026 17:05:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-09T23:46:14.314389"
+  },
+  "efa1601610a8": {
+    "id": "efa1601610a8",
+    "title": "Report: Double Fine's union drive collapsed due to miscommunication and culture clash",
+    "link": "https://www.gamedeveloper.com/business/report-double-fine-s-union-drive-collapsed-under-miscommunications-and-culture-clash",
+    "summary": "It appears the question of union eligibility crashed headlong into Double Fine Productions' decades-old company culture.",
+    "published": "Fri, 09 Oct 2026 14:49:18 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-09T23:46:14.314411"
   }
 }
