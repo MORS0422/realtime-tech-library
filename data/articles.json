@@ -15538,5 +15538,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-09T00:05:45.699043"
+  },
+  "bbb8b409cb17": {
+    "id": "bbb8b409cb17",
+    "title": "Build the Game",
+    "link": "https://gamedev.net/blogs/entry/2298485-build-the-game",
+    "summary": "Use one pipeline for many cities and world extensions: playable, deterministic, open source. Watch https://youtu.be/zZOI2uBskSA",
+    "published": "Fri, 09 Oct 2026 09:03:30 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-09T14:52:53.448584"
   }
 }
