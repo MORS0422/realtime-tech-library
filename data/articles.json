@@ -15598,5 +15598,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-09T23:46:14.314411"
+  },
+  "bb6afe930a4a": {
+    "id": "bb6afe930a4a",
+    "title": "See how Rebel Unit flooded London for The End We Start From",
+    "link": "https://www.cgchannel.com/2026/10/see-how-rebel-unit-flooded-london-for-the-end-we-start-from/",
+    "summary": "Watch a breakdown of the studio's award-nominated VFX for the survival movie, including a semi submerged CG Fleet Street.",
+    "published": "Fri, 09 Oct 2026 06:00:20 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-10T14:08:38.628841"
+  },
+  "e5edae24d8db": {
+    "id": "e5edae24d8db",
+    "title": "Andrax Studio Website Launch & Underground Development Update #3",
+    "link": "https://gamedev.net/blogs/entry/2298490-andrax-studio-website-launch-underground-development-update-3",
+    "summary": "Hey everyone! 👋 I have some updates about Andrax Studio and my game project, Underground! 🌐 Andrax Studio — New Website The new Andrax Studio website is now available! You can visit it here: https://andraxstudio.netlify.app/ The website provides information about Andrax Studio, its projects, and ways to get in touch with me. 🎮 Underground — Development Update I'm still looking for people to join the Underground project. I haven't found the right team members yet, but I'm continuing my search! If you're interested in collaborating, joining the project, or learning more, feel free to contact me. My contact information is …",
+    "published": "Sat, 10 Oct 2026 01:12:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-10T14:08:45.979931"
+  },
+  "6dc791fe5206": {
+    "id": "6dc791fe5206",
+    "title": "Hi everyone! New here – sharing my free, handcrafted game UI kit",
+    "link": "https://gamedev.net/forums/topic/720556-hi-everyone-new-here-sharing-my-free-handcrafted-game-ui-kit",
+    "summary": "Hi everyone! I'm new to the GameDev.net community, so I thought I'd start by introducing myself and sharing something I made a while ago. I'm an independent software developer working under the name OvionLab . My interests cover quite a few areas, including macOS and iOS development, web applications, security tools, and of course, game development. A couple of years ago, I created a small UI asset pack called Mini Casual UI Kit . I originally made it as a personal creative project and decided to release it for free, hoping other developers might find it useful. It's been available …",
+    "published": "Sat, 10 Oct 2026 13:21:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-10T14:08:45.979972"
   }
 }
