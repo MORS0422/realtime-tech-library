@@ -15648,5 +15648,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-10T23:08:02.756365"
+  },
+  "e2296800024f": {
+    "id": "e2296800024f",
+    "title": "MSVC x64: native function returning an aggregate with default member initialisers loses its return value",
+    "link": "https://gamedev.net/forums/topic/720560-msvc-x64-native-function-returning-an-aggregate-with-default-member-initialisers-loses-its-return-value",
+    "summary": "asGetTypeTraits&lt;T&gt;() sets asOBJ_APP_CLASS_CONSTRUCTOR for a struct whose only \"constructor\" is the implicit one produced by default member initialisers ( int a = 0; ). That is correct as far as std::is_trivially_default_constructible goes, but on MSVC x64 the flag is part of COMPLEX_RETURN_MASK ( as_config.h , the _M_X64 block), so AngelScript treats the type as returned in memory through a hidden pointer. MSVC doesn't return it that way. Its x64 convention returns a 1, 2, 4 or 8 byte user-defined type in RAX as long as it has no user-defined constructor, destructor or copy assignment operator, and an implicit constructor from …",
+    "published": "Sun, 11 Oct 2026 09:37:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-11T14:33:31.898837"
+  },
+  "4fb6df8402a3": {
+    "id": "4fb6df8402a3",
+    "title": "UE5 Projectile Effect",
+    "link": "https://realtimevfx.com/t/ue5-projectile-effect/31824",
+    "summary": "Hey everyone! This is my third VFX project in Unreal Engine 5. I’m really happy to say I managed to create this one in just a single day (my previous effects took about a week each!). This time, I worked on a fireball projectile featuring an air-slicing shockwave and a dynamic trail. Through this project, I dove into Ribbon emitters and learned how to properly stretch textures across meshes using tiling and Dynamic Parameters. I’d love to hear your thoughts, feedback, and any tips on how I can improve this effect further. All the best! artstation 1 post - 1 participant Read full topic",
+    "published": "Sun, 11 Oct 2026 06:22:46 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-10-11T14:33:23.165725"
   }
 }
