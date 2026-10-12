@@ -15678,5 +15678,45 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-11T23:22:33.107054"
+  },
+  "7e5c309e1212": {
+    "id": "7e5c309e1212",
+    "title": "Check out Roxel Creative’s eerie VFX breakdown for Backrooms",
+    "link": "https://www.cgchannel.com/2026/10/check-out-roxel-creatives-eerie-vfx-breakdown-for-backrooms/",
+    "summary": "See a brilliantly unsettling VFX breakdown of the CG environments from the psychological thriller, like the aptly named Vertigo Room.",
+    "published": "Mon, 12 Oct 2026 08:40:57 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-12T17:14:13.176974"
+  },
+  "c14080970484": {
+    "id": "c14080970484",
+    "title": "BiteTheBytes unveils World Creator 4",
+    "link": "https://www.cgchannel.com/2026/10/bitethebytes-unveils-world-creator-4/",
+    "summary": "Big update to the terrain generator will let you create complete planets. Check out its other new features and release date.",
+    "published": "Mon, 12 Oct 2026 06:30:03 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-12T17:14:13.177020"
+  },
+  "cdf4b7d01c54": {
+    "id": "cdf4b7d01c54",
+    "title": "Digital Whisper",
+    "link": "https://gamedev.net/blogs/entry/2298500-digital-whisper",
+    "summary": "Uncompressed textures quickly eat up VRAM, drop FPS, and break scene smoothness, so we strictly control their compression for stable performance. We pick the right format for each job: masks - single channel with minimal detail loss; normals - efficient two-channel compression; color textures - a balance of quality and speed. We enable virtual textures with prioritized streaming: nearby objects get textures first, distant ones stream on demand and only their visible parts. We use mip levels - at distance the texture detail is reduced without changing geometry, which saves memory and speeds up rendering. Unreal profilers give us snapshots …",
+    "published": "Mon, 12 Oct 2026 12:03:47 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-10-12T17:14:22.459199"
+  },
+  "d911d65c1113": {
+    "id": "d911d65c1113",
+    "title": "[Paid] Consistent PNG canvases for game UI images — $10 resizing service",
+    "link": "https://gamedev.net/forums/topic/720574-paid-consistent-png-canvases-for-game-ui-images-10-resizing-service",
+    "summary": "Have UI icons or portraits with mixed dimensions, but need them to fit the same space without cutting off the edges? I can prepare your supplied images on one agreed canvas, keeping their proportions and adding transparent padding around them. The $10 Fiverr starter covers 1-20 static PNG/JPEG files, one canvas size and two-day delivery. You receive PNG files in a ZIP plus a dimensions report, with one correction using the same agreed canvas/padding settings. Fiverr buyer fees may apply. Larger images shrink to fit; smaller images stay their original size. Original input files remain untouched. Each source must fit …",
+    "published": "Mon, 12 Oct 2026 14:27:35 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-12T17:14:22.459235"
   }
 }
