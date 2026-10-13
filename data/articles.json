@@ -15738,5 +15738,35 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-10-13T01:45:34.680302"
+  },
+  "e2daf020989d": {
+    "id": "e2daf020989d",
+    "title": "Nice archive, gamedev.net",
+    "link": "https://gamedev.net/blogs/entry/2298505-nice-archive-gamedevnet",
+    "summary": "I just found the old post that was the one that got me working on Double Action: Boogaloo back in the day: https://gamedev.net/forums/topic/609640-double-action-animator-needed/?utm_source=copy_link&amp;utm_medium=share&amp;utm_campaign=2026_usershare_forum_topic",
+    "published": "Tue, 13 Oct 2026 03:58:44 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-13T15:29:34.270121"
+  },
+  "6c165ed443b3": {
+    "id": "6c165ed443b3",
+    "title": "Level Up FX (WIP)",
+    "link": "https://realtimevfx.com/t/level-up-fx-wip/31833",
+    "summary": "Heya! Creatin’ a level up FX for an MMO. FX is still in it’s early stages. Just dialing down all the numbers. Blinking Overlay Mat 1 post - 1 participant Read full topic",
+    "published": "Tue, 13 Oct 2026 12:53:02 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-13T15:29:24.629200"
+  },
+  "1f835656c5a9": {
+    "id": "1f835656c5a9",
+    "title": "Owlchemy CEO: VR is still an emerging market because it hasn't passed the 'cafe test'",
+    "link": "https://www.gamedeveloper.com/extended-reality/owlchemy-ceo-vr-is-still-an-emerging-market-because-it-hasn-t-passed-the-cafe-test-",
+    "summary": "Andrew Eiche also claims layoffs are becoming commonplace within the VR industry because some companies refuse to meet audiences with what they want.",
+    "published": "Tue, 13 Oct 2026 13:15:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-13T15:29:36.787198"
   }
 }
