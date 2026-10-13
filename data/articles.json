@@ -15718,5 +15718,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-12T17:14:22.459235"
+  },
+  "8040b2d38d6d": {
+    "id": "8040b2d38d6d",
+    "title": "Stylized Smoke Cloud Effect",
+    "link": "https://gamedev.net/blogs/entry/2298502-stylized-smoke-cloud-effect",
+    "summary": "Tiniest update on my journey, today. One of the mechanics I wanted my game to have is a smoke cloud that can spawn at player's feet for obfuscating purposes to lose enemy aggro. I thought a stylized effect would look extra cute, but I may switch to a smokier smoke in the future. I would have liked to see a greater particle effect and I can't seem to change the color to a darker red. But for now, for the sake of my own sanity, this is where I am going to leave it until I learn more about the …",
+    "published": "Mon, 12 Oct 2026 20:52:23 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-13T01:45:42.905442"
+  },
+  "52334c8e9156": {
+    "id": "52334c8e9156",
+    "title": "UE5 Footsteps Effect",
+    "link": "https://realtimevfx.com/t/ue5-footsteps-effect/31830",
+    "summary": "Hey everyone, this is my 4th VFX! Today I created a footstep dust effect in UE5, and I also added a small decal to leave a footprint/dirt mark on the ground. I’d love to get some feedback and advice on how I can improve this effect. Cheers! 2 posts - 2 participants Read full topic",
+    "published": "Mon, 12 Oct 2026 21:08:54 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-10-13T01:45:34.680302"
   }
 }
