@@ -15768,5 +15768,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-13T15:29:36.787198"
+  },
+  "bd8b33fbcfee": {
+    "id": "bd8b33fbcfee",
+    "title": "Edit in the browser, launch on desktop: one loop without version confusion",
+    "link": "https://gamedev.net/blogs/entry/2298512-edit-in-the-browser-launch-on-desktop-one-loop-without-version-confusion",
+    "summary": "Changed a value in the browser but the game still uses the old one? Two-way sync will bring the change to your local folder, auto-export will update the engine file, and comments will keep the discussion right on the element. Read more",
+    "published": "Tue, 13 Oct 2026 19:05:58 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-13T23:33:00.013483"
+  },
+  "e8ea9427fd43": {
+    "id": "e8ea9427fd43",
+    "title": "[Game project] Searching for answers, and maybe collaborators ? [sci-fi / isometric / roguelite / strategy / Turn-based]",
+    "link": "https://gamedev.net/forums/topic/720564-game-project-searching-for-answers-and-maybe-collaborators-sci-fi-isometric-roguelite-strategy-turn-based",
+    "summary": "Hello there ! This is gonna be a very, very, very, very long post. I did not know where that kind of thing should be posted so i decided to throw it here. (It seemed the most reasonable thing to do since i'm a beginner when it comes to coding, but not game dev). I've had multiple RPG Maker projects, but never succeeded to finish them. Either because it was nearly impossible to put my ideas into something proper, or because of financial issues 😢 (RIP ! BEING POOR SUCKS !) ANYWAY ! I'm come here because i have a …",
+    "published": "Tue, 13 Oct 2026 19:14:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-13T23:33:00.013520"
   }
 }
