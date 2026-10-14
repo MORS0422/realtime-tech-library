@@ -15838,5 +15838,35 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-10-14T13:14:13.647961"
+  },
+  "7fbddbbaf04e": {
+    "id": "7fbddbbaf04e",
+    "title": "One world, five platforms: notes from building a cross-platform MMORPG on Unreal Engine 5.8",
+    "link": "https://gamedev.net/blogs/entry/2298514-one-world-five-platforms-notes-from-building-a-cross-platform-mmorpg-on-unreal-engine-58",
+    "summary": "We are Astronaut Entertainment, a small independent studio from Türkiye. Our project, Ancient Online: Remastered, is a classic eastern-fantasy empire MMORPG rebuilt on Unreal Engine 5.8 for Windows, Linux, macOS, Android and iOS. It is still in development. This post is about the handful of technical decisions that shaped everything else. 1. One world means the server owns the truth Players on a phone and players on a desktop stand in the same field and fight the same monsters. That only works if no client is trusted. Our game server is authoritative: it runs the simulation at a fixed tick …",
+    "published": "Wed, 14 Oct 2026 15:09:32 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-10-14T22:55:42.874207"
+  },
+  "f95e076e53c4": {
+    "id": "f95e076e53c4",
+    "title": "Ubisoft to close Trials studio RedLynx, downsize Ubisoft Singapore",
+    "link": "https://www.gamedeveloper.com/business/ubisoft-to-close-trials-studio-redlynx-downsize-ubisoft-singapore",
+    "summary": "The decisions will ultimately impact over 120 jobs between the two studios as part of Ubisoft's ongoing restructuring efforts.",
+    "published": "Wed, 14 Oct 2026 22:08:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-14T22:55:46.945953"
+  },
+  "8644ef73f9f1": {
+    "id": "8644ef73f9f1",
+    "title": "No more hand-written code? Epic's Disney project reportedly shifts to 'AI-First' development",
+    "link": "https://www.gamedeveloper.com/programming/no-more-hand-written-code-epic-s-disney-project-reportedly-shifts-to-ai-first-development",
+    "summary": "Developers working on the upcoming Star Wars and Marvel shooter have been reportedly instructed to lean heavily on AI, especially during the creation of code and art.",
+    "published": "Wed, 14 Oct 2026 20:24:47 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-14T22:55:46.945976"
   }
 }
