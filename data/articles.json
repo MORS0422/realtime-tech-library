@@ -15928,5 +15928,35 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-10-15T13:00:22.014269"
+  },
+  "fcb68477a6f4": {
+    "id": "fcb68477a6f4",
+    "title": "I built a 2d sprite art modeler and didn't stop",
+    "link": "https://gamedev.net/blogs/entry/2298521-i-built-a-2d-sprite-art-modeler-and-didnt-stop",
+    "summary": "Hello! I'm Mimby. I thought I'd use this first post to introduce a little side quest I've been working on over the past month. It's called IsoPxl , and you can think of it as a 2D sprite art modeler in 3D. Does that make sense? Essentially, it's a 3D modeling tool designed for creating sprite art, geared toward game developers and pixel-art artists. As someone born in the '80s, I'm one of those annoying people who can't stop talking about how great everything was back then. And that's sort of where IsoPxl began. I had this strange dream where …",
+    "published": "Thu, 15 Oct 2026 20:33:04 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-15T22:50:23.504408"
+  },
+  "aea48307b01a": {
+    "id": "aea48307b01a",
+    "title": "Ideas for the evolution of the RTS (Real-Time Strategy) Game",
+    "link": "https://gamedev.net/forums/topic/720611-ideas-for-the-evolution-of-the-rts-real-time-strategy-game",
+    "summary": "Core to the RTS game experience is the controlling many units, memorizing build paths for all factions (for offense and defensive purposes), placing buildings in optimal or strategic locations, and knowing the Rock+Paper+Scissors formulas that will allow you to defeat the specific army an opponent is fielding against you. Here are some ideas for mechanics that can be added to provide a more refreshing experience to the tried and true formula. 1) Recruiting of \"Generals\" that in turn will control and recruit it's own warriors/acolytes/soldiers. The player only controls the Generals, and the Generals will control the creatures it has …",
+    "published": "Thu, 15 Oct 2026 22:24:13 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-15T22:50:23.504443"
+  },
+  "d607c812aa27": {
+    "id": "d607c812aa27",
+    "title": "Caves of Qud: Diaspora breaks new ground by being the first early access DLC release on Steam",
+    "link": "https://www.gamedeveloper.com/pc/caves-of-qud-diaspora-breaks-new-ground-by-being-the-first-early-access-dlc-release-on-steam",
+    "summary": "The roguelike RPG is no longer in Steam Early Access, but its upcoming DLC Diaspora will be, marking untrodden ground for the in-development program.",
+    "published": "Thu, 15 Oct 2026 14:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-15T22:50:26.164508"
   }
 }
