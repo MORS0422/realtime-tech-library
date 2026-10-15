@@ -15868,5 +15868,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-14T22:55:46.945976"
+  },
+  "80d30024fee5": {
+    "id": "80d30024fee5",
+    "title": "Maxon releases Cinema 4D 2027.0",
+    "link": "https://www.cgchannel.com/2026/10/maxon-releases-cinema-4d-2027-0/",
+    "summary": "3D animation and motion graphics app gets a new object scattering system, and updates to liquid sims. Check out the other new features.",
+    "published": "Thu, 15 Oct 2026 09:27:31 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-15T13:00:20.756295"
+  },
+  "dcbaf73f481e": {
+    "id": "dcbaf73f481e",
+    "title": "Maxon releases ZBrush 2027.0 and ZBrush for iPad 2027.0",
+    "link": "https://www.cgchannel.com/2026/10/maxon-releases-zbrush-2027-0-and-zbrush-for-ipad-2027-0/",
+    "summary": "Check out the new features in the digital sculpting software, including the new UV Editor on desktop, and projection painting on iPad.",
+    "published": "Thu, 15 Oct 2026 06:50:34 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-15T13:00:20.756321"
+  },
+  "60358a26aad8": {
+    "id": "60358a26aad8",
+    "title": "Foundry releases Mari 8.0",
+    "link": "https://www.cgchannel.com/2026/10/foundry-releases-mari-8-0/",
+    "summary": "Latest major version of the 3D texture painting software adds new Tri-Planar Tiled and Hex Tile nodes, plus support for A/B comparisons.",
+    "published": "Thu, 15 Oct 2026 04:30:49 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-15T13:00:20.756334"
+  },
+  "bcff012a5aad": {
+    "id": "bcff012a5aad",
+    "title": "Third Alchemy",
+    "link": "https://gamedev.net/blogs/entry/2298517-third-alchemy",
+    "summary": "We move fast and efficiently by building our own automated tools. For example, a simple UI utility finds scene objects by name and by the materials they use - then performs bulk replace or reset across all matches. Perfect when you need to instantly filter and act on everything that uses, say, metal or glass. Instead of digging through hierarchies, we operate directly on the right parts of the scene - swap assets, optimize materials and environment. Integrated into the pipeline, these tools speed up routine work and free time for creativity and atmosphere.",
+    "published": "Thu, 15 Oct 2026 11:00:05 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-15T13:00:29.983611"
+  },
+  "4981202cbf2d": {
+    "id": "4981202cbf2d",
+    "title": "AS 2.39.0 release date",
+    "link": "https://gamedev.net/forums/topic/720600-as-2390-release-date",
+    "summary": "Andreas, what's the expected release date of 2.39.0 ?",
+    "published": "Thu, 15 Oct 2026 12:00:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-15T13:00:29.983623"
+  },
+  "930ca3ad60bf": {
+    "id": "930ca3ad60bf",
+    "title": "Niagara Magical Slashes",
+    "link": "https://realtimevfx.com/t/niagara-magical-slashes/31846",
+    "summary": "- YouTube 1 post - 1 participant Read full topic",
+    "published": "Thu, 15 Oct 2026 00:19:23 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-10-15T13:00:22.014269"
   }
 }
