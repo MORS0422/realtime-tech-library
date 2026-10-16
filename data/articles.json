@@ -15958,5 +15958,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-15T22:50:26.164508"
+  },
+  "74fb4fcf0f21": {
+    "id": "74fb4fcf0f21",
+    "title": "Project Nexus Runner v2.4.0 - 3D Action RPG made with Godot, looking for playtesters",
+    "link": "https://gamedev.net/forums/topic/720452-project-nexus-runner-v240-3d-action-rpg-made-with-godot-looking-for-playtesters",
+    "summary": "Hi everyone, I’ve been working on a 3D action RPG called Project Nexus Runner, built with Godot, and I’ve recently released the first public community build. The current version is v2.4.0 and includes 12 playable portals divided across 3 different regions, with different enemies, minibosses, bosses, progression and platforming challenges. Some of the current features include: • 12 playable worlds / portals • 3 regions with different enemy families • Sword combat, combos and Dash mechanics • Nexus abilities and Perfect Dash • Minibosses, Elite enemies and Boss fights • Leveling, XP and progression • NEX currency and permanent upgrades …",
+    "published": "Fri, 16 Oct 2026 12:22:04 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-16T12:56:26.268746"
   }
 }
