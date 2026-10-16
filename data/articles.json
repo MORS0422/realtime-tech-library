@@ -15968,5 +15968,55 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-16T12:56:26.268746"
+  },
+  "1e7261247d77": {
+    "id": "1e7261247d77",
+    "title": "Operation Obliteration 2 is now The Obliteration Universe!",
+    "link": "https://gamedev.net/blogs/entry/2298526-operation-obliteration-2-is-now-the-obliteration-universe",
+    "summary": "Operation Obliteration 2 is now The Obliteration Universe, a new multigame bundle! Four games 42 levels total! Jackbooted fascist terror continues stomping across Steam. Our battlefields are a hellish wasteland of mangled iron, screaming enemies, and high-velocity gunfire. The Reich survives in this twisted alternate-history nightmare, and you're here to put an end to it. No safe spaces. No hand-holding. No mercy. 42 LEVELS. FOUR LEGACY GAMES. TOTAL OBLITERATION. Two new legacy games bring 15 additional levels of chaotic, hard-core shooting action to the collection. Invade modern fascist headquarters, storm bio-weapons laboratories, and take the fight to their elite forces. …",
+    "published": "Fri, 16 Oct 2026 20:18:47 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-16T22:24:23.068690"
+  },
+  "ab4823690ff1": {
+    "id": "ab4823690ff1",
+    "title": "Kaivern - a persistent RPG built around one living world. Looking for professional feedback on technical feasibility",
+    "link": "https://gamedev.net/forums/topic/720534-kaivern-a-persistent-rpg-built-around-one-living-world-looking-for-professional-feedback-on-technical-feasibility",
+    "summary": "Hi everyone, I’ve been developing a game concept called KAIVERN. At this stage it is not a prototype and I am not presenting it as a finished game. It is a fairly extensive pre-production design. I have developed the world structure and history, lore, visual direction, states and cultures, core gameplay systems, progression, combat, economy, trade, physical item provenance, NPCs and relationships, exploration, multiplayer spaces, and an architectural concept for how these systems could coexist inside one continuously changing world. The central idea of KAIVERN is: Single History · Personal Presence · Shared Consequences KAIVERN is conceived as a persistent …",
+    "published": "Fri, 16 Oct 2026 17:58:59 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-16T22:24:23.068735"
+  },
+  "af97caa99bb6": {
+    "id": "af97caa99bb6",
+    "title": "Vertical Explosion",
+    "link": "https://realtimevfx.com/t/vertical-explosion/31858",
+    "summary": "Hi there. It’s been a while since i’m using this site for references and ideas. I’m an IT expert who started to work on VFXs recently. One of my friends suggested me to make some posts of my works here to get some feedbaks or advice, so here i am. I worked on a vertical explosion because it was something i liked to see when i was researching for ideas. I took some times but with the advices of my VFXs artists friends i was able to make something i like. https://www.artstation.com/artwork/ndddgX Don’t hesitate to give some critics, i try to improve myself on this world. Thanks 1 post - 1 participant Read full topic",
+    "published": "Fri, 16 Oct 2026 15:44:20 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-16T22:24:15.937379"
+  },
+  "756395470d9d": {
+    "id": "756395470d9d",
+    "title": "We released IlluGen 2.0!",
+    "link": "https://realtimevfx.com/t/we-released-illugen-2-0/31857",
+    "summary": "We’ve been working so hard to make the VFX tool of our dreams and we’re suddenly at version 2.0! I figured I’d make it’s own thread as this is such a massive upgrade. We’re working hard to de-fragment the VFX workflow for games and we are very, very close to being able to displace substance entirely for your workflows. If you want to see an interactive view of whats new you can go here: https://jangafx.com/roadmap/illugen/past-releases - YouTube As always, I’m curious if you have any feedback on the tool and what you need us to build! 1 post - 1 participant Read full topic",
+    "published": "Fri, 16 Oct 2026 13:42:32 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-16T22:24:15.937427"
+  },
+  "43f0fa617619": {
+    "id": "43f0fa617619",
+    "title": "Busting myths in game writing ft. Bruno Dias, Aysha Farah, &amp; Andrea Saravia Perez",
+    "link": "https://www.gamedeveloper.com/design/busting-myths-in-game-writing-ft-bruno-dias-aysha-farah-andrea-saravia-perez",
+    "summary": "Telling truths about how to tell great stories in video games.",
+    "published": "Fri, 09 Oct 2026 19:46:41 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-16T22:24:25.329419"
   }
 }
