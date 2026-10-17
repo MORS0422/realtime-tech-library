@@ -16018,5 +16018,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-16T22:24:25.329419"
+  },
+  "d25d18a2aca0": {
+    "id": "d25d18a2aca0",
+    "title": "Tripo integrates GPT-Image-2.5 Sunburst into its workflow",
+    "link": "https://www.cgchannel.com/2026/10/tripo-integrates-gpt-image-2-5-sunburst-into-its-image-to-3d-workflow/",
+    "summary": "[Sponsored] Discover how adding the new AI model to Tripo Studio has improved workflow when creating 3D assets from reference images.",
+    "published": "Fri, 16 Oct 2026 05:00:38 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-17T11:55:07.705694"
+  },
+  "bd0e3967e772": {
+    "id": "bd0e3967e772",
+    "title": "Fully deterministic Manhattan - 109,486 buildings, 84,096 road segments, 28,265 mapped trees",
+    "link": "https://gamedev.net/blogs/entry/2298528-fully-deterministic-manhattan-109486-buildings-84096-road-segments-28265-mapped-trees",
+    "summary": "The map shows how our pipeline sees raw data before generation - open data kindly shared by the OpenStreetMap community. The city uses real coordinates at 1:1 scale - about 14 by 13 km around the Empire State Building - and 97.6% of building heights come straight from the map. You can use the code to generate your own city in 3 stages - fetch, compile, build - fully repeatable: https://github.com/fallintodusk/alis",
+    "published": "Sat, 17 Oct 2026 09:51:13 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-17T11:55:15.069593"
+  },
+  "77fe2096785b": {
+    "id": "77fe2096785b",
+    "title": "Cinematic Fear – Horror Sample Pack for Video Game Music - Bluezone Corporation",
+    "link": "https://gamedev.net/forums/topic/720616-cinematic-fear-horror-sample-pack-for-video-game-music-bluezone-corporation",
+    "summary": "Bluezone Corporation has released Cinematic Fear , a royalty-free sample pack for creating dark, atmospheric soundtracks for horror and survival horror video games, as well as films, TV series, and trailers. The pack contains 119 sounds, including unsettling atmospheres, synthetic orchestral pads, low-frequency drones, distorted risers, transitions, metallic hits, and cinematic impacts. Created using hardware synthesizers, field recordings, and sound processing techniques, the collection provides a range of textures and effects for building tension, suspense, and unsettling environments. All sounds are supplied as stereo WAV files at 24-bit / 96 kHz and can be used in game audio workflows, with …",
+    "published": "Sat, 17 Oct 2026 10:23:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-17T11:55:15.069631"
   }
 }
