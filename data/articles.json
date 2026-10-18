@@ -16078,5 +16078,45 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-18T12:23:08.347083"
+  },
+  "6f87f86367a8": {
+    "id": "6f87f86367a8",
+    "title": "Maxon releases Redshift 2027.0",
+    "link": "https://www.cgchannel.com/2026/10/maxon-releases-redshift-2027-0/",
+    "summary": "GPU renderer gets a new fur procedural, ACES 2 support and updates to real-time render engine Redshift Live. See what else is new.",
+    "published": "Sun, 18 Oct 2026 10:30:45 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-18T22:09:36.294487"
+  },
+  "027746606770": {
+    "id": "027746606770",
+    "title": "See Magic Dust VFX’s breakdown for Outlander: Blood of My Blood",
+    "link": "https://www.cgchannel.com/2026/10/see-magic-dust-vfxs-breakdown-for-outlander-blood-of-my-blood/",
+    "summary": "See the studio's breakdown of its environment work for the historical drama series, including amplifying a real river into a raging torrent.",
+    "published": "Sun, 18 Oct 2026 06:00:58 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-18T22:09:36.294514"
+  },
+  "2aef498df753": {
+    "id": "2aef498df753",
+    "title": "Atomic Blastman Development at FULL THROTTLE",
+    "link": "https://gamedev.net/blogs/entry/2298535-atomic-blastman-development-at-full-throttle",
+    "summary": "Atomic Blastman October 2026 Progress Update Store Page Link: Atomic Blastman On Steam Registration Form: Steam Playtest Registration Form Official Website: Indiependent Games Studio If you want to take part in the playtest, be sure to join through Steam. It's entirely free! We've moved away from emailing product keys. First of all, I owe you an explanation. Things went quiet around here for a few months and Atomic Blastman has been delayed due to personal relocation reasons. Moving to an entirely different country for the first time is definitely an unforgettable experience that comes with a few months of \"what …",
+    "published": "Sun, 18 Oct 2026 16:37:11 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-18T22:09:48.542352"
+  },
+  "e37ecd6ffe8b": {
+    "id": "e37ecd6ffe8b",
+    "title": "new game dev megga platform muse wars",
+    "link": "https://gamedev.net/forums/topic/720624-new-game-dev-megga-platform-muse-wars",
+    "summary": "hello! launched this a few weeks ago: https://musewars.com/ it's a new game dev platform i made with ai",
+    "published": "Sun, 18 Oct 2026 16:57:52 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-18T22:09:48.542370"
   }
 }
