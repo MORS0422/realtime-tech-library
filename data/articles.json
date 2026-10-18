@@ -16058,5 +16058,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-17T21:56:00.552818"
+  },
+  "64a12b9944ab": {
+    "id": "64a12b9944ab",
+    "title": "Tiny Night Market is done: a cozy night market above your taskbar",
+    "link": "https://gamedev.net/blogs/entry/2298533-tiny-night-market-is-done-a-cozy-night-market-above-your-taskbar",
+    "summary": "Our third game is finished. Tiny Night Market reached 1.0 this week. It's a small idea: a tiny night market lives right above your taskbar. While you work, the stalls cook, sell and grow on their own. When you have a minute, help out at the stalls, toss a few rings, fill regulars' orders and wait for rare visitors, and watch one candied-hawthorn cart grow into a glowing street. It stays out of your way. The background is transparent and clicks pass straight through the empty space. When you watch a video or play a game in fullscreen it hides, …",
+    "published": "Sun, 18 Oct 2026 02:17:17 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-18T12:23:08.347048"
+  },
+  "016e98b16074": {
+    "id": "016e98b16074",
+    "title": "How to solve that of Linux X11 setting - \"xinput set-prop \"Coordinate Transformation Matrix\"\"; multiplies of cursor of mouse certain \"of computer\" movings?",
+    "link": "https://gamedev.net/forums/topic/720621-how-to-solve-that-of-linux-x11-setting-xinput-set-prop-coordinate-transformation-matrix-multiplies-of-cursor-of-mouse-certain-of-computer-movings",
+    "summary": "I am trying to by code set positionne of the cursor of the mouse against of Linux Mint Cinnamon setting - \"xinput set-prop \"SIGMACHIP Usb Mouse\" \"Coordinate Transformation Matrix\" 7.06 0 0 0 12 0 0 0 1\";, that setting multiplies movement of cursor of the mouse by 7,06 in horizontal movement and by 12 in vertical movement, in Engine of \"ReDot\", in spatial video games on web browser - cameras work not;, testing a video game from of it, ReDot, editor - when mode of cursor of the mouse \"captured\", that mode every moment moves of mouse cursor to …",
+    "published": "Sun, 18 Oct 2026 10:03:11 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-18T12:23:08.347083"
   }
 }
