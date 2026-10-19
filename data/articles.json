@@ -16118,5 +16118,55 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-18T22:09:48.542370"
+  },
+  "33bbb2993848": {
+    "id": "33bbb2993848",
+    "title": "New CG software you may have missed: 18 October 2026",
+    "link": "https://www.cgchannel.com/2026/10/new-cg-software-you-may-have-missed-18-october-2026/",
+    "summary": "Discover what's new in 10 key CG tools from Autograph, IlluGen, LiquiGen and Red Giant to Moho, ComfyUI and Nomad Sculpt.",
+    "published": "Mon, 19 Oct 2026 04:30:59 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-19T15:11:45.974814"
+  },
+  "0186ca9ef4f8": {
+    "id": "0186ca9ef4f8",
+    "title": "Godoom: One Runtime, Multiple Game Engines",
+    "link": "https://gamedev.net/blogs/entry/2298537-godoom-one-runtime-multiple-game-engines",
+    "summary": "About a month ago, I wrote about an experimental 3D runtime in Go that I started developing eight years ago, built around a question: Can worlds from fundamentally different game engines be translated into a common representation and executed by a single, engine-independent runtime? Since then, the project has progressed to something much more tangible. Godoom is now playable in a web browser, with levels from multiple classic games running through the same runtime. You can try it here: https://markel1974.itch.io/godoom This is not a collection of source ports The central idea behind Godoom remains unchanged: I am not trying to …",
+    "published": "Mon, 19 Oct 2026 08:49:42 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-19T15:11:53.286311"
+  },
+  "3a14c4bcb710": {
+    "id": "3a14c4bcb710",
+    "title": "Multithreading, scheduling in game engines with DAGs",
+    "link": "https://gamedev.net/forums/topic/720559-multithreading-scheduling-in-game-engines-with-dags",
+    "summary": "edit: DAG stands for Directed Acyclic Graph edit: tldr; can you use framegraphs to organize ALL the updates in one iteration of a game loop? As of now, the engine I'm working on is all single-threaded. Not modern, nor ideal, but it's allowed me to reason easily about what goes on in each frame, and focus on rendering, physics, infrastructure for scripting, resource management, systems, and other stuff without worrying about memory access and whatnot. I've hit a bottleneck with this approach, especially with physics compute. I'm also planning to redo the rendering pipeline to make it more configurable. I …",
+    "published": "Mon, 19 Oct 2026 13:04:30 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-19T15:11:53.286350"
+  },
+  "c42ff6a49a6c": {
+    "id": "c42ff6a49a6c",
+    "title": "Mech weapons VFX project",
+    "link": "https://realtimevfx.com/t/mech-weapons-vfx-project/31868",
+    "summary": "Hey folks! I’m working on a rather large personal project and I thought it’d be a good idea to add the continous updates here! The idea is to add FX to this Mech. I have a list of weapon FX I would like to do and once the base of all of these FX are done I might add more flavour to them with more variation etc. List of FX in the plan: Laser firing and impact FX Autocannon firing, tracer and impact FX Missile firing, smoke trail and impact FX I have made base FX for the laser and the autocannon. - YouTube - YouTube I did some extensive tinkering on the spark setup which is re-used throughout the different explosions and muzzle flashes. - YouTube Most, if not all textures are either made in Illugen or Embergen. 1 post - 1 participant Read full topic",
+    "published": "Mon, 19 Oct 2026 13:41:33 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-19T15:11:47.278433"
+  },
+  "0787fbb40786": {
+    "id": "0787fbb40786",
+    "title": "Looking for Work",
+    "link": "https://realtimevfx.com/t/looking-for-work/31865",
+    "summary": "Hello, my name is Michael and I recently graduated in May of 2026 and am currently looking for work. I an quick learner and so far have had to learn everything from scratch. I have worked on the game S.O.R.N. on steam as it’s only vfx artist, figuring out material work, simulation, and emitters all without little to no assistance in it. Here is my website with work I’ve done so far as well as a steam link to S.O.R.N. to see the final product. https://soarena00.wixsite.com/michael-madden-vfx 1 post - 1 participant Read full topic",
+    "published": "Sun, 18 Oct 2026 23:50:52 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-19T15:11:47.278479"
   }
 }
