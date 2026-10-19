@@ -16168,5 +16168,45 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-10-19T15:11:47.278479"
+  },
+  "7bff632258f8": {
+    "id": "7bff632258f8",
+    "title": "Tutorial: Creating Incendiary Burn FX for Game Characters",
+    "link": "https://www.cgchannel.com/2026/10/tutorial-creating-incendiary-burn-fx-for-game-characters/",
+    "summary": "Discover how to create a character destruction effect using UE5's Niagara toolset with The Gnomon Workshop's introductory tutorial.",
+    "published": "Mon, 19 Oct 2026 14:28:03 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-10-19T23:15:06.867210"
+  },
+  "3824f5848f2a": {
+    "id": "3824f5848f2a",
+    "title": "UE5 Grenade Explosion VFX",
+    "link": "https://realtimevfx.com/t/ue5-grenade-explosion-vfx/31871",
+    "summary": "Hey everyone, this is my 5th effect in UE5! I’ve created a grenade throw effect, complete with a dynamic trail and an impactful explosion. I would really appreciate any feedback or tips on how to improve it. Cheers! artstation 1 post - 1 participant Read full topic",
+    "published": "Mon, 19 Oct 2026 21:41:39 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-10-19T23:15:07.960712"
+  },
+  "fdb5a62a1662": {
+    "id": "fdb5a62a1662",
+    "title": "RocketWerkz' C# framework 'BRUTAL' is now available to all developers",
+    "link": "https://www.gamedeveloper.com/programming/rocketwerkz-c-framework-brutal-is-now-available-for-all-developers",
+    "summary": "Developers who want to complete control over their game's code have a new framework to lean on.",
+    "published": "Mon, 19 Oct 2026 20:57:38 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-19T23:15:18.032549"
+  },
+  "db571a10042e": {
+    "id": "db571a10042e",
+    "title": "Moonlighter developer delays public playtest of next game over concerns of AI cloning",
+    "link": "https://www.gamedeveloper.com/programming/moonlighter-developer-delays-public-playtest-of-next-game-over-concerns-of-ai-cloning",
+    "summary": "Digital Sun Games is narrowing its early testing of ReVamp to its Discord community following fears of generative AI-enabled cloning.",
+    "published": "Mon, 19 Oct 2026 17:08:14 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-19T23:15:18.032568"
   }
 }
