@@ -16238,5 +16238,85 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-10-20T13:12:13.425873"
+  },
+  "8f9f340b3919": {
+    "id": "8f9f340b3919",
+    "title": "Plasticity 2026.2 is out",
+    "link": "https://www.cgchannel.com/2026/10/plasticity-2026-2-is-out/",
+    "summary": "Popular 3D design tool gets a new system for building reusable asset libraries and a Curvature Analysis shader. See the other new features.",
+    "published": "Tue, 20 Oct 2026 08:35:36 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-20T22:52:58.023720"
+  },
+  "9e3f88d9083d": {
+    "id": "9e3f88d9083d",
+    "title": "Watch Raynault’s VFX breakdown for Mayday",
+    "link": "https://www.cgchannel.com/2026/10/watch-raynaults-vfx-breakdown-for-mayday/",
+    "summary": "Check out the studio's CG recreation of Washington D.C. for an eye-catching aerial shot from the Apple TV action comedy.",
+    "published": "Tue, 20 Oct 2026 07:23:08 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-20T22:52:58.023733"
+  },
+  "95f153375424": {
+    "id": "95f153375424",
+    "title": "Check out Digital Domain’s VFX breakdown for Disclosure Day",
+    "link": "https://www.cgchannel.com/2026/10/check-out-digital-domains-vfx-breakdown-for-disclosure-day/",
+    "summary": "See a four-minute breakdown of the effects for the sci-fi movie, including CG aliens and animals created with DD's new three-tier muscle system.",
+    "published": "Tue, 20 Oct 2026 04:00:38 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-20T22:52:58.023756"
+  },
+  "1a448699aa68": {
+    "id": "1a448699aa68",
+    "title": "🎮 Game Developers - Let's Connect, Create and Collaborate!",
+    "link": "https://gamedev.net/blogs/entry/2298539-game-developers-lets-connect-create-and-collaborate",
+    "summary": "🎮 Let's Build Amazing Games Together! Hey everyone! 👋 I'm passionate about game development and looking to connect with talented developers, designers, artists, and creative minds who love building games. Whether you're an experienced game developer, an indie creator, or just getting started, I'd love to connect and explore opportunities to collaborate! 🚀 Areas I'm Interested In Game Engines: Unity, Unreal Engine, Godot Programming: C++, C#, Python, JavaScript Game Development: 2D, 3D, Multiplayer, RPG, Simulation AI in Gaming: Intelligent NPCs, Procedural Generation, AI-Driven Gameplay Game Design: Gameplay Mechanics, Level Design, UI/UX Platforms: PC, Mobile, Web, and Console 🤝 Why Collaborate? …",
+    "published": "Tue, 20 Oct 2026 14:58:33 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-10-20T22:53:06.312656"
+  },
+  "e648fa74f247": {
+    "id": "e648fa74f247",
+    "title": "Space Game",
+    "link": "https://gamedev.net/forums/topic/720627-space-game",
+    "summary": "I am making a simple top down inner spaceship game. I am using tilemaps to draw the background and am able to get my sprite to move around the screen, my next step is to get the player sprite to collide with the wall images. Let me know what you think so far.",
+    "published": "Tue, 20 Oct 2026 21:56:44 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-20T22:53:06.312669"
+  },
+  "ffc61ea0eadd": {
+    "id": "ffc61ea0eadd",
+    "title": "Fuse Games CEO breaks down codev framework for Star Wars: Galactic Racer",
+    "link": "https://www.gamedeveloper.com/production/fuse-games-ceo-breaks-down-codev-framework-for-star-wars-galactic-racer",
+    "summary": "A model for making the most of distributed development.",
+    "published": "Tue, 20 Oct 2026 18:39:12 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-20T22:53:09.041456"
+  },
+  "66cd4b48dcc7": {
+    "id": "66cd4b48dcc7",
+    "title": "Innersloth co-founder warns devs: 'there are some very bad deals out there'",
+    "link": "https://www.gamedeveloper.com/business/outersloth-co-founder-warns-devs-there-are-some-very-bad-deals-out-there-",
+    "summary": "'There are some truly abysmal deals for games that do not deserve that.'",
+    "published": "Tue, 20 Oct 2026 16:01:46 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-20T22:53:09.041467"
+  },
+  "d77437def0c4": {
+    "id": "d77437def0c4",
+    "title": "Griffin Gaming Partners, Entertainment 360 jointly unveil production company Hitpoint Entertainment",
+    "link": "https://www.gamedeveloper.com/business/griffin-gaming-partners-entertainment-360-jointly-unveil-production-company-hitpoint-entertainment",
+    "summary": "A prominent game industry fund and Hollywood talent agency are teaming up to adapt games for TV and film.",
+    "published": "Tue, 20 Oct 2026 15:10:33 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-20T22:53:09.041474"
   }
 }
