@@ -16208,5 +16208,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-19T23:15:18.032568"
+  },
+  "1120891ae993": {
+    "id": "1120891ae993",
+    "title": "Rebel Cars PC demo on 22 October - seeking feedback on handling and AI opponents",
+    "link": "https://gamedev.net/forums/topic/720636-rebel-cars-pc-demo-on-22-october-seeking-feedback-on-handling-and-ai-opponents",
+    "summary": "I’m part of the Rebel Cars team. We’re preparing an early PC racing demo for Thursday, 22 October at 18:00 Greece time. The build is still in development, and we expect bugs and rough edges. We’re looking for useful feedback on two areas: how the cars respond to steering and braking, and how the AI opponents behave during races. If you test it, please share your input setup, what you expected to happen, and what actually happened. Reproducible issues are especially valuable to our team. Demo access updates will be shared with our Discord community: https://discord.gg/htfFnKxP7D We’re also planning a …",
+    "published": "Tue, 20 Oct 2026 10:09:17 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-20T13:12:21.244226"
+  },
+  "be75b43a16f5": {
+    "id": "be75b43a16f5",
+    "title": "Best Tools for Creating Seamless Textures for VFX (Including Chromatic Aberration)?",
+    "link": "https://realtimevfx.com/t/best-tools-for-creating-seamless-textures-for-vfx-including-chromatic-aberration/31876",
+    "summary": "Hi everyone! I’m wondering what tools or workflows you consider the best for creating seamless, tileable textures for real-time VFX. There are quite a few options out there, such as Photoshop, Substance 3D Designer, and other procedural tools, but I’m curious about what people actually use in their workflows and which tools you would recommend. Also, how would you go about creating a seamless texture with chromatic aberration? Since chromatic aberration separates color channels, I’m curious how to achieve the effect while keeping the texture perfectly tileable. I’d love to hear about your preferred tools, workflows, or any tips and tricks! Thanks in advance! 1 post - 1 participant Read full topic",
+    "published": "Tue, 20 Oct 2026 05:58:45 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-20T13:12:13.425835"
+  },
+  "cd9fc1d34797": {
+    "id": "cd9fc1d34797",
+    "title": "How to create this glowing edge fx",
+    "link": "https://realtimevfx.com/t/how-to-create-this-glowing-edge-fx/31875",
+    "summary": "im new to unity vfx and want to create this vfx so how can i created this vfx in unity, i had search alot of tutorials on youtube as well as google but not much result, so do i need to create a custom shader or i could just using vfx shader graph ? - YouTube im sorry in advance if i made a mistake about creating a new topic or being impolite since english is not my first language 1 post - 1 participant Read full topic",
+    "published": "Tue, 20 Oct 2026 04:02:13 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-20T13:12:13.425873"
   }
 }
