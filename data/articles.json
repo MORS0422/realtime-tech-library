@@ -16368,5 +16368,55 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-10-21T13:21:22.733744"
+  },
+  "3d238730caac": {
+    "id": "3d238730caac",
+    "title": "Universal Interaction & AI Adjustments",
+    "link": "https://gamedev.net/blogs/entry/2298543-universal-interaction-ai-adjustments",
+    "summary": "Something that has been growing in the back of my mind was the Interact key and how using \"e\" to interact with numerous different kinds of interactable elements would look in the blueprints. Initially I thought I would have to use Sequence to add the different types, but it turns out that it's way simpler than all that (yay). First of all, I figured out how to color code sections and made my player Event Graph super cute and organized. If you see below, I allowed a bunch of extra space for no reason at all. The interaction blueprints below …",
+    "published": "Wed, 21 Oct 2026 21:59:16 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-21T23:00:40.644113"
+  },
+  "e056be84e520": {
+    "id": "e056be84e520",
+    "title": "[Android / Godot] Oddbound — a branching fantasy story looking for playtest feedback",
+    "link": "https://gamedev.net/forums/topic/720651-android-godot-oddbound-a-branching-fantasy-story-looking-for-playtest-feedback",
+    "summary": "Hi everyone! I'm making Oddbound in Godot, and I'd love some fresh eyes on the Android closed beta. It's a reading-focused fantasy adventure with conversations and branching choices. The story starts at a parcel office. Your character has a job to do, letters to deliver, and no particular reason to go adventuring. Then a pendant refuses to stay behind when you leave it somewhere—and the voice attached to it wants your attention. A lot of the story is about that uncomfortable relationship. How much do you believe this stranger? When do you listen, argue, or refuse? Meanwhile, the people around …",
+    "published": "Wed, 21 Oct 2026 20:04:21 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-21T23:00:40.644149"
+  },
+  "4fa2d7303682": {
+    "id": "4fa2d7303682",
+    "title": "Can you give me some advice on how to improve",
+    "link": "https://realtimevfx.com/t/can-you-give-me-some-advice-on-how-to-improve/31894",
+    "summary": "Uploading: _MConverter.eu_Screen Recording 2026-10-21 161623.gif… Can someone give me some general advise on how to improve this styalized vfx 1 post - 1 participant Read full topic",
+    "published": "Wed, 21 Oct 2026 22:18:09 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-21T22:58:17.979487"
+  },
+  "3827b8e2112c": {
+    "id": "3827b8e2112c",
+    "title": "Paladin’s Sword Dance, a real-time stylized divine slash VFX sequence",
+    "link": "https://realtimevfx.com/t/paladin-s-sword-dance-a-real-time-stylized-divine-slash-vfx-sequence/31890",
+    "summary": "Hey everyone, I recently finished Paladin’s Sword Dance, a real-time stylized divine slash VFX sequence. https://www.artstation.com/artwork/zzz06q I created it in Unreal Engine 5 using Niagara. It was really fun building the effect around the Paladin’s various attack combos. The Paladin appreciates any feedback, thank youu 1 post - 1 participant Read full topic",
+    "published": "Wed, 21 Oct 2026 15:37:32 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-10-21T22:58:17.979520"
+  },
+  "34ef6a9da24a": {
+    "id": "34ef6a9da24a",
+    "title": "EA closes Mass Effect, Dragon Age creator BioWare after 30 years of game development",
+    "link": "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development",
+    "summary": "EA is reportedly laying off 400 employees, 50 of whom were the remaining staffers at BioWare.",
+    "published": "Wed, 21 Oct 2026 18:57:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-21T23:00:43.172202"
   }
 }
