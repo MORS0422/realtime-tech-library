@@ -16318,5 +16318,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-20T22:53:09.041474"
+  },
+  "0fba7392832a": {
+    "id": "0fba7392832a",
+    "title": "Reallusion’s 2026 3D Character Contest: meet the winners!",
+    "link": "https://www.cgchannel.com/2026/10/reallusions-2026-3d-character-contest-meet-the-winners/",
+    "summary": "[Sponsored] Discover the winning entries in the $45,000 character design and animation contest for users of Reallusion software.",
+    "published": "Wed, 21 Oct 2026 10:00:21 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-21T13:21:21.538840"
+  },
+  "7f5fe004908c": {
+    "id": "7f5fe004908c",
+    "title": "See Framestore’s VFX breakdown for period drama East of Eden",
+    "link": "https://www.cgchannel.com/2026/10/watch-framestores-vfx-breakdown-for-period-drama-east-of-eden/",
+    "summary": "Discover how the studio recreated early 20th century California in CG for the Netflix adaptation of John Steinbeck's classic novel.",
+    "published": "Wed, 21 Oct 2026 07:40:03 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-21T13:21:21.538864"
+  },
+  "9e70db31a1e9": {
+    "id": "9e70db31a1e9",
+    "title": "Game Jam",
+    "link": "https://gamedev.net/blogs/entry/2298541-game-jam",
+    "summary": "🎮🔥 Android Game Jam — The Android Game Development Challenge! 🔥🎮 Got a game idea and want to turn it into a real game? 👀 Learning Godot or game development? This is your chance to join the Android Game Jam! 🚀 📱 The Challenge: Create your own game and share it with other developers! 🗓️ Start Date: October 23, 2026 🏁 End Date: October 30, 2026 ✅ Participate solo or join a team of up to 6 people. ✅ Use free assets, paid assets, or your own creations, as long as you have permission to use them. Remember to credit …",
+    "published": "Wed, 21 Oct 2026 09:53:59 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-21T13:21:30.296604"
+  },
+  "340ca6014f14": {
+    "id": "340ca6014f14",
+    "title": "NIB 1.0.0 released — free visual 2D & 3D game editor with JavaScript and local MCP",
+    "link": "https://gamedev.net/forums/topic/720531-nib-100-released-free-visual-2d-3d-game-editor-with-javascript-and-local-mcp",
+    "summary": "Current release update / 21 October 2026 Current stable release: NIB 1.1.0 (released 17 October 2026). Download and release notes: https://github.com/MooradXO/NIB-Editor/releases/tag/v1.1.0 Official website and demos: https://thenibengine.com/ This post, its original screenshots and video document an earlier release. They have been kept as development history. Back up projects and follow the upgrade guide before moving to 1.1.0: https://github.com/MooradXO/NIB-Editor/blob/v1.1.0/docs/PUBLISHING.md#upgrade-the-editor Read the NIB 1.1.0 devlog Original announcement / 6 October 2026 Hi everyone! I'm Murad, the creator of NIB , a visual game editor and engine I've been building over the past several months. NIB 1.0.0, the first stable release, is now available …",
+    "published": "Wed, 21 Oct 2026 09:23:48 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-21T13:21:30.296652"
+  },
+  "7a8bcbb30c9c": {
+    "id": "7a8bcbb30c9c",
+    "title": "[PAID] Freelance Unity VFX Artist Wanted – Post-Apocalyptic Game",
+    "link": "https://realtimevfx.com/t/paid-freelance-unity-vfx-artist-wanted-post-apocalyptic-game/31884",
+    "summary": "We are looking for a talented freelance Unity VFX Artist to work on our upcoming post-apocalyptic game. Our game features massive desert environments, mechanical enemies, mechas, and intense combat scenarios. We’re looking for someone experienced in: Sand and dust effects (sandstorms, vehicle dust trails, sandworm movement, etc.) Mechanical enemy and mecha VFX Explosions, impacts, and environmental effects High-quality, optimized real-time VFX Unity Built-in Render Pipeline (required) This is a paid freelance opportunity , with the possibility of ongoing collaboration. If you’re interested, please send your portfolio, availability, and rates via DM. Looking forward to working with talented VFX artists! -ozi contact@massoftgames.com 1 post - 1 participant Read full topic",
+    "published": "Wed, 21 Oct 2026 04:54:45 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-21T13:21:22.733744"
   }
 }
