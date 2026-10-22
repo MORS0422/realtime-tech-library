@@ -16458,5 +16458,55 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-10-22T13:21:37.753806"
+  },
+  "24e55e0deca9": {
+    "id": "24e55e0deca9",
+    "title": "Two-week plans fall apart? Organize work into sprints and track deadlines on a Gantt chart",
+    "link": "https://gamedev.net/blogs/entry/2298547-two-week-plans-fall-apart-organize-work-into-sprints-and-track-deadlines-on-a-gantt-chart",
+    "summary": "When the plan is scattered across spreadsheets and chats, it becomes hard to tell how the work is progressing after just a couple of days. Create a sprint with dates and a goal, add tasks from the board, and track deadlines visually on the Board, List, Calendar, or Gantt chart. Read more",
+    "published": "Thu, 22 Oct 2026 19:01:33 +0000",
+    "source_name": "GameDev - Tech Art",
+    "category": "ta",
+    "fetched_at": "2026-10-22T22:54:31.708536"
+  },
+  "b8509e7ebe95": {
+    "id": "b8509e7ebe95",
+    "title": "Need help for my game",
+    "link": "https://gamedev.net/forums/topic/720498-need-help-for-my-game",
+    "summary": "I am currently making my own top down pixel metroidvania game called Greasepocalypse and I can't do it alone, I am not inexperienced but I require assistance. I won't beg but I need someone who can do music and someone who can do sprite work. Here's some of the artwork",
+    "published": "Thu, 22 Oct 2026 20:14:42 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-22T22:56:53.281368"
+  },
+  "8ea1872b8d91": {
+    "id": "8ea1872b8d91",
+    "title": "Need Help in creating this VFX in UE5",
+    "link": "https://realtimevfx.com/t/need-help-in-creating-this-vfx-in-ue5/31898",
+    "summary": "I need to create this vfx in UE5 Niagara but have no idea on how to go about it. do i need scratch pad modules for this . Can someone please help me understand how to go about it. 1 post - 1 participant Read full topic",
+    "published": "Thu, 22 Oct 2026 14:14:40 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-10-22T22:54:32.200110"
+  },
+  "48bf5ecf3f59": {
+    "id": "48bf5ecf3f59",
+    "title": "Opinion: Why words matter when we prioritize 'core teams' in game development",
+    "link": "https://www.gamedeveloper.com/production/opinion-why-prioritizing-success-of-core-teams-risks-devaluing-other-devs",
+    "summary": "How we describe game development will inevitably shape our processes.",
+    "published": "Thu, 22 Oct 2026 20:33:50 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-22T22:56:55.206182"
+  },
+  "dcc7526d2b2a": {
+    "id": "dcc7526d2b2a",
+    "title": "VR pioneer Owlchemy Labs jumps to XR for its next release",
+    "link": "https://www.gamedeveloper.com/extended-reality/vr-pioneer-owlchemy-labs-pivots-to-xr-for-its-next-release",
+    "summary": "Owlchemy Labs' new game Hyper Visor will be a launch title for HTC's XREAL Aura headset.",
+    "published": "Thu, 22 Oct 2026 14:37:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-22T22:56:55.206200"
   }
 }
