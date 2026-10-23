@@ -16528,5 +16528,35 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-23T13:02:45.023309"
+  },
+  "a6dfec46ab4c": {
+    "id": "a6dfec46ab4c",
+    "title": "One player profile for every game: building SpicaPlay",
+    "link": "https://gamedev.net/blogs/entry/2298553-one-player-profile-for-every-game-building-spicaplay",
+    "summary": "A growing set of instant browser games, shared XP and leaderboards, and no install. Notes from a solo builder on what's done and what isn't. Most casual browser games treat you like a stranger every time you show up. You play, you get a score, the tab closes and the score evaporates. SpicaPlay is my answer to that small, petty injustice: a web-first casual gaming platform where one player identity follows you from game to game, carrying XP, achievements, streaks and leaderboard spots. It's live, there's a growing set of games you can play right now, and there's nothing to …",
+    "published": "Fri, 23 Oct 2026 21:29:19 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-23T22:52:06.894598"
+  },
+  "535083379d2f": {
+    "id": "535083379d2f",
+    "title": "[Free] [Localization] [EN-PT] [Translator] Offering free English-to-Portuguese-BR/EU game translation",
+    "link": "https://gamedev.net/forums/topic/720662-free-localization-en-pt-translator-offering-free-english-to-portuguese-breu-game-translation",
+    "summary": "Hi everyone! My name is Felipe and I’m offering free translations of games from English into Portuguese , with a focus on making the text sound natural and enjoyable to play. Brazilian Portuguese: I’m a native speaker and can adapt the translation for Brazilian players. European Portuguese: I can also translate into this variant as a fluent speaker, though I’m not a native speaker. I can help with dialogue, menus, descriptions, subtitles, and other in-game text. To get started, send me a message with the game’s name, the approximate amount of text, and the file format. Availability and turnaround time …",
+    "published": "Fri, 23 Oct 2026 21:08:51 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-23T22:52:06.894636"
+  },
+  "b92673a0d5b5": {
+    "id": "b92673a0d5b5",
+    "title": "GameMaker's GMRT runtime will soon be free for all developers",
+    "link": "https://www.gamedeveloper.com/programming/gamemaker-s-gmrt-runtime-will-soon-be-free-for-all-commercial-devs",
+    "summary": "GameMaker's GMRT runtime will be free to use for all developers starting in 2027.",
+    "published": "Fri, 23 Oct 2026 17:51:14 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-23T22:52:08.748322"
   }
 }
