@@ -16508,5 +16508,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-22T22:56:55.206200"
+  },
+  "55e0e9ddf45d": {
+    "id": "55e0e9ddf45d",
+    "title": "Player Two Found: Build a Game Worth Sharing an Evening With",
+    "link": "https://gamedev.net/blogs/entry/2298550-player-two-found-build-a-game-worth-sharing-an-evening-with",
+    "summary": "Your friend is here. What are you playing? It’s getting cold outside. You’ve got snacks, company, and zero plans. You could spend the next half hour looking for something to play—or find a game that has you both asking for another round before the snacks are gone. That’s the moment behind Player Two Found, our new Playgama.ai challenge dedicated to two-player games. We’re inviting developers to build games that turn “What should we do?” into “Okay, one more round!” Build for the person sitting beside you There’s plenty to play on your own. When a friend comes over, finding something …",
+    "published": "Fri, 23 Oct 2026 09:57:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-23T13:02:45.023274"
+  },
+  "4b0b59bdd1fb": {
+    "id": "4b0b59bdd1fb",
+    "title": "Variable delta_t and how to deal with lag?",
+    "link": "https://gamedev.net/forums/topic/720650-variable-delta_t-and-how-to-deal-with-lag",
+    "summary": "Another basic question that the AI age don´t let me find a proper answer for :D (If the stupid search engine could just use the words I wrote, it would be so easy!!! I refuse to believe I'm the first person in the history of programing to make this question) My game loop is neat and time keeping is tight, it does exactly what is supposed to do. During the game, if the frame rate drops noticeably, all animations accelerate to compensate for the bigger delta_t. I didn't program it like that, it kinds of just happens and I was …",
+    "published": "Fri, 23 Oct 2026 07:39:53 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-23T13:02:45.023309"
   }
 }
