@@ -16578,5 +16578,45 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-24T12:25:48.079167"
+  },
+  "32412c0f5051": {
+    "id": "32412c0f5051",
+    "title": "Demo update: campaigns, 83 languages, and 616 MB less VRAM for the horde",
+    "link": "https://gamedev.net/blogs/entry/2298559-demo-update-campaigns-83-languages-and-616-mb-less-vram-for-the-horde",
+    "summary": "A new demo build of Withstand The Horde went up today. It is the same game as the full version, with the demo locks still in place. What changed * Campaigns keep their own save slots now. * 83 interface languages. * The terrain has its new look. * Units steer around obstacles instead of grinding into them. * The horde shows on the minimap. * 616 MB less VRAM. 4,000 zombies now cost 279 MB. * 1.6 s from launch to playable. Still free, still the same content: Builder, Scout and Soldier. The rest of the roster stays in …",
+    "published": "Sat, 24 Oct 2026 19:46:43 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-24T22:13:07.826735"
+  },
+  "49d05effee34": {
+    "id": "49d05effee34",
+    "title": "Goodbye Immersive Sims -> Hello Discovery Sims",
+    "link": "https://gamedev.net/forums/topic/720663-goodbye-immersive-sims-hello-discovery-sims",
+    "summary": "Goodbye Immersive Sims -&gt; Hello Discovery Sims October 22, 2026 (this document is a work-in-progress - https://github.com/MichaelOliveTree/KeystoneGameBlocks/blob/main/Design/blogs/Goodby_Immerisve_Sims_Hello_Discovery_Sims_Oct_22_2026.txt ) Tim Cain (Co-Creator of Fallout video game series) on what is an immersive sim. https://www.youtube.com/watch?v=iSF4xuEGgWs&amp;t=546s I'm totally not picking on Tim Cain. In fact, early in his talk he describes the difficulty in defining \"immersive simulations.\" Still, people trying to define \"immersive simulations\" invariably wind up speaking a lot of words. I think this is because the fundamental characteristic they are trying to describe and which is what actually draws audiences to these types of games, remains elusive. That elusive but fundamental …",
+    "published": "Sat, 24 Oct 2026 19:15:08 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-24T22:13:07.826775"
+  },
+  "3d639b2af6eb": {
+    "id": "3d639b2af6eb",
+    "title": "Projectile practice",
+    "link": "https://realtimevfx.com/t/projectile-practice/31909",
+    "summary": "This week i tried to create a projectile with the Akuma “GoHadoken” as inspiration. It’s was something i wanted to do since some times https://www.artstation.com/artwork/P44Z6Z Thanks for the feedbacks 1 post - 1 participant Read full topic",
+    "published": "Sat, 24 Oct 2026 14:00:08 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-24T22:10:48.736520"
+  },
+  "793c49a4d998": {
+    "id": "793c49a4d998",
+    "title": "Combat VFX Showreel - Hellblade II (2024) | Tobias Noller",
+    "link": "https://realtimevfx.com/t/combat-vfx-showreel-hellblade-ii-2024-tobias-noller/31908",
+    "summary": "- YouTube - YouTube Hello fellow VFX people! With Ninja Theory’s closure now on the horizon, I finally found the time to collect some of my work from Hellblade II: Senua’s Saga. I’m still quite proud of what we have achieved with a relatively small VFX team (around 4-6). I genuinely loved working at Ninja Theory, and from a VFX standpoint it was a chance to work on projects that felt truly special. If anybody has questions about anything Hellblade related (even if not VFX specific), don’t hesitate and post them below Hugs and thanks to everyone I got to build this with! 1 post - 1 participant Read full topic",
+    "published": "Sat, 24 Oct 2026 12:33:22 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-24T22:10:48.736569"
   }
 }
