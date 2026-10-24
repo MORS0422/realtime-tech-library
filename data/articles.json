@@ -16558,5 +16558,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-23T22:52:08.748322"
+  },
+  "d5cc135ec03e": {
+    "id": "d5cc135ec03e",
+    "title": "Dev update: the T-rex grows into its real size",
+    "link": "https://gamedev.net/blogs/entry/2298556-dev-update-the-t-rex-grows-into-its-real-size",
+    "summary": "Our tyrannosaur has been smaller than intended. An export bug shrank the model by about a fifth, so on the battlefield it read more like a big raptor than the apex it's meant to be. The T-rex now stands at its intended size, roughly 20% taller and longer, towering over villagers and triceratops. Its walk and run were re-timed so the feet actually plant on the ground. Sliding during rushes, starts and stomps dropped sharply. Every detailed unit's footsteps were matched to how fast it really moves, so herds and people look more grounded too. The clip shows before and …",
+    "published": "Sat, 24 Oct 2026 03:19:59 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-24T12:25:48.079134"
+  },
+  "680851dcc1f0": {
+    "id": "680851dcc1f0",
+    "title": "New to game development and need testing",
+    "link": "https://gamedev.net/forums/topic/720671-new-to-game-development-and-need-testing",
+    "summary": "Hello I am new to game development using AI to learn and understand the new growing tech of AI and having a hard time find testers for the couple of games i made on the RUN.World platform. Any help would be awesome i will post a link to my profile so you can see and choose which game to try im also focus on the online parts as it is hard to test with only 1 player. For online play you need to make an account both games can be played on mobile too. Thansk for taking the time to …",
+    "published": "Sat, 24 Oct 2026 11:35:10 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-24T12:25:48.079167"
   }
 }
