@@ -16658,5 +16658,15 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-10-25T12:53:43.946250"
+  },
+  "38bba6d66191": {
+    "id": "38bba6d66191",
+    "title": "Wayfarer UI — expedition inventory and shop assets with editable Godot examples ($3.99)",
+    "link": "https://gamedev.net/forums/topic/720673-wayfarer-ui-expedition-inventory-and-shop-assets-with-editable-godot-examples-399",
+    "summary": "Wayfarer UI is a digital interface pack for game developers. It combines angular inventory and shop artwork in two palettes, Midnight and Daybreak, with 24 illustrated items. The download includes SVG sources, transparent PNG exports, an icon atlas and an offline browser showcase. The editable Godot 4 reference project covers inventory, merchant, crafting, quests and settings, with reusable theme resources. The examples demonstrate interface behaviour; this is not a complete game or a production inventory backend. The native reference was tested in Godot 4.7.2 on Windows; other versions and engines have not been runtime-tested. Price: $3.99. Screenshots, the file list, …",
+    "published": "Sun, 25 Oct 2026 21:16:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-25T22:15:55.306637"
   }
 }
