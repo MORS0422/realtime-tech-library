@@ -16618,5 +16618,45 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-10-24T22:10:48.736569"
+  },
+  "be0978241034": {
+    "id": "be0978241034",
+    "title": "Cleaner dino motion: raptors and stegosaurus re-exported",
+    "link": "https://gamedev.net/blogs/entry/2298560-cleaner-dino-motion-raptors-and-stegosaurus-re-exported",
+    "summary": "We fixed the exporter that brings our dinosaur animations into Primeval, so the motion in game now matches what was animated. Raptor packs keep their feet planted on the run instead of sliding (the shot shows a pack flanking three clubmen, old export on the left, new on the right), and the stegosaurus finally stands at its rig's true size, 3.55 m instead of 3.30 m. Everything here is still work in progress: we're trying out how it looks and improving wherever things still feel off. The gameplay simulation is unchanged, this pass is all about presentation. The major update …",
+    "published": "Sun, 25 Oct 2026 01:08:12 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-25T12:56:03.961747"
+  },
+  "b4fba0a9b6a3": {
+    "id": "b4fba0a9b6a3",
+    "title": "[Free tool] Cutframe — sprite-sheet slicing, animation preview and PNG export in your browser",
+    "link": "https://gamedev.net/forums/topic/720677-free-tool-cutframe-sprite-sheet-slicing-animation-preview-and-png-export-in-your-browser",
+    "summary": "Hi everyone, I'm sharing Cutframe, a free browser tool for turning a sprite sheet into individual PNG frames. You can: • Open a PNG, JPEG or WebP sheet and define a grid, including margins and gaps. • Draw custom rectangular slices and select the frames you want. • Preview the selected frames as an animation. • Trim transparent edges, optionally use a shared canvas size, and export a ZIP with PNGs and a generic JSON manifest. Try it: https://cutframe-free.zesty-melon-2706.chatgpt.site/ No account is required. Image processing happens on your device. The online version sends optional anonymous usage counts to this site …",
+    "published": "Sun, 25 Oct 2026 07:06:27 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-25T12:56:03.961770"
+  },
+  "688f794aa5c0": {
+    "id": "688f794aa5c0",
+    "title": "[Hiring] Freelance VFX Artist: Pack Opening / Reveal Moments (Crown Cards) | Remote | Paid trial",
+    "link": "https://realtimevfx.com/t/hiring-freelance-vfx-artist-pack-opening-reveal-moments-crown-cards-remote-paid-trial/31916",
+    "summary": "Hey all, I’m Red from Crown Cards , a mobile collectibles app where users open card packs, sneaker boxes and watch chests. We’re looking for a VFX artist who can make every opening feel juicy : the build-up, the tease, and the explosion when a rare drops. Think gacha pulls, MagesBox-level polish and stylized anime VFX. If your reel makes people want to hit “open” again, we want to talk. What you’d work on Pack/box/chest opening VFX, from anticipation and reveal to the rare-pull payoff Rarity tiers that feel distinct: common feels nice, legendary feels huge Flow and transition animations around the opening experience Seasonal and live-ops drop effects as we grow What we’re looking for A strong stylized/gacha VFX reel. Reel over résumé. Great instinct for timing, anticipation, impact and game feel Solid with particles, shaders, glow/lighting and layering Unity experience (Spine/AE/Rive also welcome) (Primary unity) Mobile-friendly, performance-aware work The setup Remote, freelance/contract Starts with a paid sample effect , with ongoing work for the right fit Bonus for fast, quality delivery How to apply Email azarmisan@gmail.com with: Your reel or portfolio, plus the 2–3 pieces you’re proudest of that fit this Your availability and timezone Subject: “Crown Cards VFX – [your name]” Looking to move fast, so reach out ASAP! – Red, Crown Cards 1 post - 1 participant Read full topic",
+    "published": "Sun, 25 Oct 2026 09:40:13 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-25T12:53:43.946200"
+  },
+  "7b1f0142be03": {
+    "id": "7b1f0142be03",
+    "title": "[REV-SHARE] Looking for Unreal Engine 5 / Niagara VFX Artist — Gothic Fantasy FPS",
+    "link": "https://realtimevfx.com/t/rev-share-looking-for-unreal-engine-5-niagara-vfx-artist-gothic-fantasy-fps/31914",
+    "summary": "Hey everyone, I’m working on Project Gauntlet, a fast-paced gothic fantasy FPS in Unreal Engine 5, and I’m looking for someone interested in helping with Niagara VFX. The player uses two ancient magical gauntlets instead of conventional weapons, so effects are going to be a pretty big part of the game. I’m mainly looking for help with magical projectiles, glowing runes, repulsor shockwaves, explosions, impact effects, and making the different abilities feel powerful. The gameplay systems are already underway, including movement, combat, enemy AI, and physics interactions. Most of the visuals are still placeholders. I’m aiming for a darker gothic environment with more vibrant magical effects, but I don’t want the entire screen covered in particles every time the player attacks. Combat gets pretty fast, so readability matters. I’m relatively new to game development and use AI-assisted coding for much of the implementation. I’m currently recruiting artists and other collaborators to help get the project looking and feeling like an actual game. Compensation: This is a self-funded revenue-share opportunity. I can’t offer upfront or guaranteed payment, and any future share would need to be agreed upon in writing. The immediate goal is a polished 10–15-minute vertical slice for pitching to publishers. Funding and commercial success aren’t guaranteed. I’d love to find someone who enjoys experimenting with magical effects and wants some creative freedom rather than just following a list of instructions. If you’re interested, send me a message with some examples of your work, especially anything involving Unreal Engine or Niagara. Thanks! 1 post - 1 participant Read full topic",
+    "published": "Sun, 25 Oct 2026 09:40:03 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-10-25T12:53:43.946250"
   }
 }
