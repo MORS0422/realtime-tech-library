@@ -16698,5 +16698,105 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-10-26T14:45:43.377237"
+  },
+  "5f4872192e07": {
+    "id": "5f4872192e07",
+    "title": "See Image Engine’s breakdown for The Mandalorian and Grogu",
+    "link": "https://www.cgchannel.com/2026/10/watch-image-engines-vfx-breakdown-for-the-mandalorian-and-grogu/",
+    "summary": "Watch a VFX breakdown of the CG creatures from the Star Wars movie, including Gatori the fisherman and the giant frog that spits out Grogu.",
+    "published": "Mon, 26 Oct 2026 06:42:52 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-26T23:30:35.795831"
+  },
+  "a8524a370f11": {
+    "id": "a8524a370f11",
+    "title": "New CG software you may have missed: 25 October 2026",
+    "link": "https://www.cgchannel.com/2026/10/new-cg-software-you-may-have-missed-25-october-2026/",
+    "summary": "Our latest round-up of new CG tools ranges from texturing apps to a neat new Blender animation add-on - and a real-time AI renderer.",
+    "published": "Mon, 26 Oct 2026 04:30:19 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-26T23:30:35.795855"
+  },
+  "065bbf3e3d18": {
+    "id": "065bbf3e3d18",
+    "title": "See Lungundtrug’s beautiful VFX breakdown for Der Medicus II",
+    "link": "https://www.cgchannel.com/2026/10/see-lungundtrugs-beautiful-vfx-breakdown-for-der-medicus-ii/",
+    "summary": "This beautifully presented making-of for the CG environments from the historical drama is worth watching even if you don't know the movie.",
+    "published": "Mon, 26 Oct 2026 04:00:24 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-26T23:30:35.795870"
+  },
+  "c05cbaf9b8f1": {
+    "id": "c05cbaf9b8f1",
+    "title": "Adobe releases Substance 3D Painter 12.2",
+    "link": "https://www.cgchannel.com/2026/10/adobe-releases-substance-3d-painter-12-2/",
+    "summary": "Check out the new features in the 3D texturing software, including a brush-based workflow for fixing issues when baking maps.",
+    "published": "Sun, 25 Oct 2026 15:18:48 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-26T23:30:35.795883"
+  },
+  "80fcdff185c2": {
+    "id": "80fcdff185c2",
+    "title": "Zenaria x40 adds chat auto-translation to MU Online (BETA)",
+    "link": "https://gamedev.net/blogs/entry/2298563-zenaria-x40-adds-chat-auto-translation-to-mu-online-beta",
+    "summary": "Zenaria x40, a MU Online Season 6 Episode 3 server with a native client for Mac and Windows, now has chat auto-translation. The feature is in BETA. Write in your own language: players from Russia, Spain and Brazil read you in theirs, and you read them in yours. Normal chat and /post are translated. Languages: Russian, English, Spanish and Portuguese. Hover a line to see the original message. In classic MU everyone writes in their own language, and foreign players' messages stay unreadable. Now you can talk to players from other countries right in the game. You can try it …",
+    "published": "Mon, 26 Oct 2026 15:35:50 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-26T23:32:57.955259"
+  },
+  "327486e09b44": {
+    "id": "327486e09b44",
+    "title": "[Android] Lumen Vault — 20 free puzzles, looking for first-play feedback",
+    "link": "https://gamedev.net/forums/topic/720691-android-lumen-vault-20-free-puzzles-looking-for-first-play-feedback",
+    "summary": "Hi, I’m Ian from MoonyTech, developer of Lumen Vault. It’s a light-routing puzzle game for Android, made in Unity. You place and rotate mirrors and other optical pieces to guide colored beams into their receivers. The first 20 campaign puzzles are free, with no ads. No AI was used in the game. I recently updated the game and would like first-time Android players to try the opening. I’m checking whether the initial boards teach placing and turning pieces clearly, and whether the touch controls feel comfortable on different phones. Please start at campaign puzzle one. Try five puzzles for a …",
+    "published": "Mon, 26 Oct 2026 21:19:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-10-26T23:32:57.955294"
+  },
+  "bcfcda98c58d": {
+    "id": "bcfcda98c58d",
+    "title": "Do you step your noise in shader graph",
+    "link": "https://realtimevfx.com/t/do-you-step-your-noise-in-shader-graph/31927",
+    "summary": "I’m trying to make a stylized flame and was wondering when you make a shader for a stylized effect, do you step/posterize it? Please tell me because when I see an effect, it seems not to be. Please and thank you 1 post - 1 participant Read full topic",
+    "published": "Mon, 26 Oct 2026 20:36:38 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-26T23:30:37.033212"
+  },
+  "799ee52ccacd": {
+    "id": "799ee52ccacd",
+    "title": "Xbox reportedly turned down a $500 million deal from Netflix to adapt its video game properties",
+    "link": "https://www.gamedeveloper.com/business/xbox-reportedly-turned-down-a-500-million-deal-from-netflix-for-adapting-gaming-properties",
+    "summary": "A new report states that Netflix was looking to adapt a host of Xbox properties for a $500 million deal, but Xbox turned the streaming company down in hopes of upping the number.",
+    "published": "Mon, 26 Oct 2026 18:45:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-26T23:32:59.989446"
+  },
+  "4ba86c0fa021": {
+    "id": "4ba86c0fa021",
+    "title": "Xbox's first-ever COO is out after just three months",
+    "link": "https://www.gamedeveloper.com/console/xbox-coo-helen-chiang-leaves-role-shortly-after-its-creation",
+    "summary": "Three months after the role was created, cited by Xbox CEO Asha Sharma as necessary to make Xbox less fragmented, the inaugural Xbox COO is leaving her position with little fanfare.",
+    "published": "Mon, 26 Oct 2026 16:24:59 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-26T23:32:59.989468"
+  },
+  "aba17105d4c1": {
+    "id": "aba17105d4c1",
+    "title": "Obituary: Voice actor Eric Bauza has passed away at 46",
+    "link": "https://www.gamedeveloper.com/audio/obituary-voice-actor-eric-bauza-has-passed-away-at-46",
+    "summary": "The voice behind Bugs Bunny, Daffy Duck, and a host of other well-loved characters has passed away suddenly at age 46.",
+    "published": "Mon, 26 Oct 2026 15:24:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-26T23:32:59.989481"
   }
 }
