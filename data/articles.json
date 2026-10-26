@@ -16668,5 +16668,35 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-25T22:15:55.306637"
+  },
+  "e4448267b77e": {
+    "id": "e4448267b77e",
+    "title": "Inside Noah’s ark: separating atmosphere from the next task — The Word Journey, Oct 26",
+    "link": "https://gamedev.net/blogs/entry/2298564-inside-noahs-ark-separating-atmosphere-from-the-next-task-the-word-journey-oct-26",
+    "summary": "The Word Journey Bible game is available now on Google Play! Eden starts free; other stories have in-app purchases. October 26 — LoveJourney developer update Inside Noah’s ark: the first card reuses actual recorded gameplay. The rough sea sets the atmosphere, while the on-screen task explains what to do next. One retained recording does not verify every chapter or the current build’s controls. David’s story in everyday life: the second card imagines someone at a tram stop, curious about the biblical context of David’s story. The scene is AI-created fiction, not gameplay or a customer testimonial. These are today’s Instagram …",
+    "published": "Mon, 26 Oct 2026 13:27:29 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-26T14:48:07.205500"
+  },
+  "8baf64ca570a": {
+    "id": "8baf64ca570a",
+    "title": "What Should Developers Prioritize When Building a Cross-Platform Game?",
+    "link": "https://gamedev.net/forums/topic/720687-what-should-developers-prioritize-when-building-a-cross-platform-game",
+    "summary": "Developing a game for multiple platforms comes with several challenges. A game that runs smoothly on a PC may need different performance optimizations to deliver the same experience on mobile devices or consoles. Things like input handling, UI scaling, asset optimization, loading times, and device-specific performance can all affect the final experience. Developers also need to consider how much visual quality they can maintain without sacrificing responsiveness. I think testing early on different target devices can help identify problems before they become difficult to fix. For developers working on cross-platform projects, what has been your biggest challenge so far? Is …",
+    "published": "Mon, 26 Oct 2026 12:44:14 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-26T14:48:07.205540"
+  },
+  "6e36bbf89ad3": {
+    "id": "6e36bbf89ad3",
+    "title": "Sharing My Very First Ice Projectile VFX",
+    "link": "https://realtimevfx.com/t/sharing-my-very-first-ice-projectile-vfx/31926",
+    "summary": "Hi everybody! It’s my first post here, and I just finished my very first complete VFX project! I’m really excited to finally share it with you. I learned so much throughout this project.!Finally!Excited!I know there are still many things I can improve, and I’ll keep working on developing my skills. If you have any feedback or suggestions, please let me know! I’d really appreciate it. Thanks so much for taking the time to check it out! Full Video - YouTube 1 post - 1 participant Read full topic",
+    "published": "Mon, 26 Oct 2026 14:12:59 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-26T14:45:43.377237"
   }
 }
