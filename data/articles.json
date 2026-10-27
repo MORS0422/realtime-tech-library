@@ -16848,5 +16848,85 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-10-27T13:51:27.504846"
+  },
+  "fe6205c494d6": {
+    "id": "fe6205c494d6",
+    "title": "Give your team freedom to work on their tasks while keeping control over the rest of the project",
+    "link": "https://gamedev.net/blogs/entry/2298572-give-your-team-freedom-to-work-on-their-tasks-while-keeping-control-over-the-rest-of-the-project",
+    "summary": "A shared link gives access to the entire project, and one accidental change can disrupt the balance. To avoid this, configure rights for each role: grant full access, leave read-only or commenting access, or hide certain materials. If you need to restrict access to a specific folder or card, use the \\\"Set up access\\\" feature. Thanks to permission inheritance, you won't have to set rules manually for every element in the project. Read more",
+    "published": "Tue, 27 Oct 2026 18:17:57 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-27T23:27:47.029517"
+  },
+  "019c8863513c": {
+    "id": "019c8863513c",
+    "title": "Winter Holiday Market — 48 stylized props, five opening mechanisms and a free sample",
+    "link": "https://gamedev.net/forums/topic/720688-winter-holiday-market-48-stylized-props-five-opening-mechanisms-and-a-free-sample",
+    "summary": "I'm Chris from Game Dev Chris. Winter Holiday Market is a collection of 48 matching stylized props for seasonal villages, cozy shops and holiday quests. The Unity edition is available now through itch.io and Fab. The Unity Asset Store listing is still awaiting approval. The full pack is $14.99. It includes a market stall and displays, snowy trees, presents, a mailbox, fences and gate, fireplace pieces, food and toys. Three present lids, the mailbox door and the gate have separate hinge parts you can connect to your own game logic. The Unity edition includes 48 prefabs and three example scenes, …",
+    "published": "Tue, 27 Oct 2026 20:29:18 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-27T23:27:47.029556"
+  },
+  "925024932b9c": {
+    "id": "925024932b9c",
+    "title": "Crystal Rose Aurelion Fan Art + Breakdown",
+    "link": "https://realtimevfx.com/t/crystal-rose-aurelion-fan-art-breakdown/31934",
+    "summary": "Hello people, I wanna show you a project I’ve been working this last month. This is my attempt to replicate the art style of League of Legends changing the move set of Aurelion Sol inspired in the Crystal Rose skin set. - YouTube ` Also you can check the breakdown videos in my Artstation . ` Breakdown In this post i wanna show you piece by piece how i make the effect and what was the most difficult part. Spoiler : the crystal effect XD Q - Breath of Light As you can see the breakdown shows you all the part of the effect, overall only is a panning good textures but i want to show you how i make the “ crystal smoke ” It seems overcomplicated but only need to play with dissolve an added texture. Simple as this, using the dissolve texture to put this type of crystal effect i tried the distortion but the result didn’t made what i want, and this is the final smoke. E - Singularity Here you have a sneak peek of the breakdown. The most difficult part for me was the “ Crystal ” effect. My first approach was with the video tutorial of Sirhaian that makes a Crystal effect in a simple way. Check the video is super helpful !! - YouTube I changed a little bit the pipeline, in Maya u have the chance to put randomly the faces in rotation scale and position, I only changed rotation and position cause i need the scale later on. If i leave the face in the same scales maybe u could see the texture and it gonna bit a little weird, it is why i put the scale so little, in this way the face only gonna take the color and a bit of the texture doing better the crystal effect. Example with and without scale down. With this trick can make a different value of colors with one texture R - Falling Star The last effect, THE ULTIMATE. It was maybe the best part of the project i enjoyed a lot. Here the breakdown. I had already figured out how to make crystal, i started to do some geometry to make more juicy the effect, example, at the start of the explosion u can slightly see a crystal rose growing and disappearing. This is the result. To make more impactful the effect i made a distortion shader not to complicated but helps a lot. This is the setup in Amplify. Conclusion Overall I’m very proud with the result, I wanted to put this in writing so that future artists can improve, and in this way leave a little piece of myself for the future of the industry. This is not my last breakdown but if this helps anyone, it was worth it. Thanks for read this and hopefully you like it ^^. Any question u can share in the comments and i will response fast as possible. Links Artwork: https://www.artstation.com/artwork/G110od Twitter: Denyro ✨ (@DENYERUX) / X 1 post - 1 participant Read full topic",
+    "published": "Tue, 27 Oct 2026 13:55:50 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-27T23:25:28.140197"
+  },
+  "4b502e24060f": {
+    "id": "4b502e24060f",
+    "title": "Rockstar Games workers to vote on unionization right as Grand Theft Auto VI launches",
+    "link": "https://www.gamedeveloper.com/business/rockstar-workers-to-vote-on-unionization-ahead-of-grand-theft-auto-vi-release",
+    "summary": "Rockstar employees will have two weeks to decide if they want to recognize the IWGB Rockstar Game Workers Union.",
+    "published": "Tue, 27 Oct 2026 19:34:13 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-27T23:27:49.152666"
+  },
+  "61c229f1f48f": {
+    "id": "61c229f1f48f",
+    "title": "Warhorse Studios hit by an undetailed cybersecurity incident",
+    "link": "https://www.gamedeveloper.com/programming/warhorse-studios-hit-by-an-undetailed-cybersecurity-incident",
+    "summary": "The developer behind the Kingdom Come: Deliverance games has revealed that it has been hit by a 'serious' cybersecurity attack and is taking steps to assess the full impact.",
+    "published": "Tue, 27 Oct 2026 19:15:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-27T23:27:49.152689"
+  },
+  "308133520e58": {
+    "id": "308133520e58",
+    "title": "Crossy Road creator Matt Hall named Atari's EVP of Mobile",
+    "link": "https://www.gamedeveloper.com/mobile/crossy-road-creator-matt-hall-named-atari-s-evp-of-mobile",
+    "summary": "One of the mobile game industry's most well-known pioneers will spearhead Atari's own foray into mobile.",
+    "published": "Tue, 27 Oct 2026 18:45:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-27T23:27:49.152701"
+  },
+  "53b2223bf12e": {
+    "id": "53b2223bf12e",
+    "title": "Epic is updating its EULA to allow AI training on outputs from Unreal Engine and MetaHuman",
+    "link": "https://www.gamedeveloper.com/programming/epic-is-updating-the-eula-to-allow-ai-training-on-outputs-from-unreal-engine-and-metahuman",
+    "summary": "In a post on X, Epic CEO Tim Sweeney casually states that the EULA for using Epic's engine will allow for training AI on the output, though developers can still choose to restrict it for individual games.",
+    "published": "Tue, 27 Oct 2026 17:53:41 GMT",
+    "source_name": "Game Developer",
+    "category": "ue",
+    "fetched_at": "2026-10-27T23:27:49.152716"
+  },
+  "84a26157af06": {
+    "id": "84a26157af06",
+    "title": "Changing acquired studios' core identity consistently leads to doom, says Nightdive Studios CEO",
+    "link": "https://www.gamedeveloper.com/business/night-dive-studios-ceo-says-atari-is-demonstrating-right-way-to-do-acquisitions",
+    "summary": "Why don't large publishers acquire companies and let them do what they do best?",
+    "published": "Tue, 27 Oct 2026 14:47:20 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-27T23:27:49.152727"
   }
 }
