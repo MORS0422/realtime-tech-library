@@ -16798,5 +16798,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-26T23:32:59.989481"
+  },
+  "d3a0dd1b86c9": {
+    "id": "d3a0dd1b86c9",
+    "title": "Watch VFX breakdowns for Lanterns in one place",
+    "link": "https://www.cgchannel.com/2026/10/check-out-vfx-breakdowns-for-lanterns/",
+    "summary": "See breakdowns for the DC Universe superhero series, from CoSA VFX's invisible effects to Accenture Song's CG constructs.",
+    "published": "Tue, 27 Oct 2026 06:00:18 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-27T13:51:26.047736"
+  },
+  "52589cdf70c1": {
+    "id": "52589cdf70c1",
+    "title": "Open-source material authoring software Material Maker 1.8 is out",
+    "link": "https://www.cgchannel.com/2026/10/open-source-material-authoring-software-material-maker-1-8-is-out/",
+    "summary": "Check out the new features in the free alternative to Substance 3D Designer, including the option to export trim sheets for games.",
+    "published": "Tue, 27 Oct 2026 04:30:02 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-27T13:51:26.047759"
+  },
+  "ee9a4d673bd5": {
+    "id": "ee9a4d673bd5",
+    "title": "Dev update: fixing mesh tears on the dinos",
+    "link": "https://gamedev.net/blogs/entry/2298569-dev-update-fixing-mesh-tears-on-the-dinos",
+    "summary": "This round of work on Primeval is about cleaning up the dino models. During some attack and death poses, little seams could split open in the mesh, like the white sliver you can see on the raptor's leg in the \"before\" shot. We went through every unit and re-exported the fixed models, so the raptor, allosaurus, T-rex and the rest now hold together through their animations. It's still work in progress. We're trying out how everything looks and improving wherever things still feel off. Herds and packs have also been re-exported so their feet plant properly when they walk and …",
+    "published": "Tue, 27 Oct 2026 01:12:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-27T13:53:47.474735"
+  },
+  "bd88e87f6f12": {
+    "id": "bd88e87f6f12",
+    "title": "Testing single-image 3DGS for interactive asset previews",
+    "link": "https://gamedev.net/forums/topic/720696-testing-single-image-3dgs-for-interactive-asset-previews",
+    "summary": "Hi everyone — I'm sharing a test of using one product photo to create a rotatable 3D Gaussian Splatting (3DGS) preview with Mugen3D. I evaluated six categories: hard-surface toys, plush toys, designer figures, shoes, cosmetics, and watches. In this test, hard-surface toys, plush toys, and designer figures produced more stable silhouettes and materials. Shoes needed sample-based human review; cosmetics and watches were more sensitive to reflections, transparency, logos, and small text. For game developers, the relevant question is where this kind of asset could help with prototype viewers or interactive previews. The output is for visualization, not CAD or an …",
+    "published": "Tue, 27 Oct 2026 10:16:32 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-27T13:53:47.474772"
+  },
+  "dc86b2b1b53b": {
+    "id": "dc86b2b1b53b",
+    "title": "AAA GTAV Style Car Sim in HTML: Wheel-arch tire smoke (GTA V style) in a browser driving game, how do I get the pooling-then-ejecting look?",
+    "link": "https://realtimevfx.com/t/aaa-gtav-style-car-sim-in-html-wheel-arch-tire-smoke-gta-v-style-in-a-browser-driving-game-how-do-i-get-the-pooling-then-ejecting-look/31931",
+    "summary": "I’ve been working on a car simulator in HTML (three.js, no build step), and the part I’m stuck on is tire smoke. In GTA V and The Crew, the smoke pools in the wheel arch and gets shot backward along the car, like in this video: https://www.youtube.com/watch?v=7abWV46tXJo . I can’t get that pooling-then-ejecting behavior. Mine mostly drifts off the tyre. What I have for the smoke so far Emission driven by actual tyre slip Instanced sprites with an animated flipbook atlas Soft particles, using a depth texture so puffs fade where they meet the road or body Spawn points at the contact patch, the back of the tyre, and inside the wheel arch Occluder shapes to hide puffs that are inside the body A live settings panel (press J) for tweaking size, speed, lift and so on The rest of the game 6-DOF rigid body physics at 240 Hz, with independent suspension and tyre contacts, a slip-based tyre model, an LSD rear diff and a gearbox Ambient occlusion and bloom, a night mode, and one car (a McLaren F1) WASD to drive, Space for the handbrake, drag to orbit the camera, R to reset Most of this isn’t in its final form and I’ll keep improving it. I have big plans for it: large scenic natural environments you can explore, a quick wheel menu, and plenty more. I’ve been building it mostly with Claude. I’m not much of a coder, but I really enjoy making things. If you have feedback of any kind, I’d appreciate it, and I’d especially love to hear how you’d approach the smoke. Pointers on emitter setup, velocity or flow behavior, or how to keep puffs from clipping through the body would all help. Download (opens from index.html, no server needed): https://buzzheavier.com/l7clox84p61e?lang=en GitHub: VXZYSRR (VXZYS) · GitHub 1 post - 1 participant Read full topic",
+    "published": "Tue, 27 Oct 2026 09:43:13 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-27T13:51:27.504846"
   }
 }
