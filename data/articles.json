@@ -17028,5 +17028,15 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-28T23:50:11.583070"
+  },
+  "53513ac2649f": {
+    "id": "53513ac2649f",
+    "title": "Making a 2D horror scene react to the player",
+    "link": "https://gamedev.net/blogs/entry/2298580-making-a-2d-horror-scene-react-to-the-player",
+    "summary": "A corridor, a locked door and a visitor who says they are making the night rounds. That is the whole starting point of Someone at the Door , a small horror example I am building in TROK ENGINE. I wanted the room to do more than establish a mood. Looking around should give the player a reason to answer differently, and that answer should change the room in return. Watch the 1:31 demo: editor setup and gameplay . The original MP4 can also be downloaded there. The clue needs somewhere to go The staff notice says that night rounds have …",
+    "published": "Thu, 29 Oct 2026 12:56:43 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-29T14:55:06.577217"
   }
 }
