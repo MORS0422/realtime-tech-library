@@ -17038,5 +17038,55 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-29T14:55:06.577217"
+  },
+  "13e9999f95e9": {
+    "id": "13e9999f95e9",
+    "title": "Blender add-on MetaWrap turns 3D characters into MetaHumans",
+    "link": "https://www.cgchannel.com/2026/10/metawrap-turns-your-3d-characters-into-metahumans-in-blender/",
+    "summary": "Character artist Elvis Morelli's neat Blender tool suite turns existing sculpts, 3D scans or AI characters into Unreal Engine MetaHumans.",
+    "published": "Thu, 29 Oct 2026 10:48:25 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-10-29T23:44:45.796808"
+  },
+  "bc94280c53e0": {
+    "id": "bc94280c53e0",
+    "title": "Autodesk releases Arnold 7.5.4",
+    "link": "https://www.cgchannel.com/2026/10/autodesk-releases-arnold-7-5-4/",
+    "summary": "Sizeable update to the renderer adds a new Imager shader for building post effects, plus the option to pause and resume renders.",
+    "published": "Thu, 29 Oct 2026 04:30:59 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-29T23:44:45.796829"
+  },
+  "a08f91c5b8dc": {
+    "id": "a08f91c5b8dc",
+    "title": "How much time will a task take? Estimates and time tracking in the project",
+    "link": "https://gamedev.net/blogs/entry/2298583-how-much-time-will-a-task-take-estimates-and-time-tracking-in-the-project",
+    "summary": "In a meeting, a task seems simple and everyone is sure it will take a couple of days, but over time it's hard to remember what the estimate was based on. In IMS Creators, you can specify the expected time for each card in hours or story points, and then track actual time spent. This way you can compare plans with results and estimate future tasks more accurately based on real data, not guesswork. Read more",
+    "published": "Thu, 29 Oct 2026 17:39:08 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-29T23:47:08.466365"
+  },
+  "6d7628c8a8e9": {
+    "id": "6d7628c8a8e9",
+    "title": "Donald Glover to direct, star in Netflix adaptation of PUBG Battlegrounds",
+    "link": "https://www.gamedeveloper.com/business/netflix-adapts-krafton-pubg-to-be-written-and-led-by-donald-glover",
+    "summary": "An adaptation of the battle royale shooter has been picked up by Netflix, with protean entertainer Donald Glover to write, produce, and star in the adaptation.",
+    "published": "Thu, 29 Oct 2026 18:17:55 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-29T23:47:12.379340"
+  },
+  "dc8a0c19f4f8": {
+    "id": "dc8a0c19f4f8",
+    "title": "Xbox CEO says console demand is outstripping supply—but sales continue to drop",
+    "link": "https://www.gamedeveloper.com/console/xbox-ceo-says-console-demand-is-outstripping-supply-as-sales-continue-to-drop",
+    "summary": "Xbox CEO Asha Sharma insists that the demand for Xbox consoles is there, Microsoft simple cannot produce enough, a claim that may clash with Xbox's public sales data.",
+    "published": "Thu, 29 Oct 2026 17:35:37 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-29T23:47:12.379360"
   }
 }
