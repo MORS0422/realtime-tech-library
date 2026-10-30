@@ -17138,5 +17138,65 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-30T14:47:13.392238"
+  },
+  "500b5547a307": {
+    "id": "500b5547a307",
+    "title": "Dev update: Primeval v0.9.29 is live",
+    "link": "https://gamedev.net/blogs/entry/2298592-dev-update-primeval-v0929-is-live",
+    "summary": "Primeval v0.9.29 is live on itch now. This is a big update. It brings the game a lot closer to the look and feel I intend to have. The dinos in this build are substantially better than the original alpha that went up over two weeks ago. The new version feels much better and pulls you farther into the world. The dinos are starting to have personalities, their movements are much more fluid, and they have a real life cycle: they reproduce, eat, and fight each other. There are also way more dinos. Plenty is still being polished - a …",
+    "published": "Fri, 30 Oct 2026 16:58:53 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-30T23:27:42.586139"
+  },
+  "b976426ab0aa": {
+    "id": "b976426ab0aa",
+    "title": "Anthropic orders AI tool Claude to stop remaking video games",
+    "link": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
+    "summary": "Update: Anthropic has confirmed it's released an update to Opus 5.5 to &quot;steer&quot; Claude Code away from &quot;recreating someone else's specific game.&quot;",
+    "published": "Fri, 30 Oct 2026 18:52:20 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-30T23:27:46.024225"
+  },
+  "b46690d0f831": {
+    "id": "b46690d0f831",
+    "title": "Roblox growth slumps, but the company is betting big on AI to compensate",
+    "link": "https://www.gamedeveloper.com/business/roblox-growth-slumps-but-the-company-is-betting-big-on-ai-to-compensate",
+    "summary": "Roblox's quarterly financial results missed their daily active user goals, but the company plans to make up for it somehow with AI.",
+    "published": "Fri, 30 Oct 2026 18:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-30T23:27:46.024244"
+  },
+  "eb1530455ee4": {
+    "id": "eb1530455ee4",
+    "title": "John Romero's canceled game finds a new publisher amidst an overall scope change",
+    "link": "https://www.gamedeveloper.com/business/john-romero-canceled-game-finds-a-new-publisher-amidst-an-overall-scope-change",
+    "summary": "John Romero's game was canceled by Xbox and his studio was on the verge of total collapse, but a new publisher has picked it up and Romero has managed to retain some of his team.",
+    "published": "Fri, 30 Oct 2026 15:33:27 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-30T23:27:46.024256"
+  },
+  "dd79ade015c6": {
+    "id": "dd79ade015c6",
+    "title": "Report: EA shut down BioWare in favor of Star Wars: Battlefront sequel after previously decrying licensed games",
+    "link": "https://www.gamedeveloper.com/business/report-ea-shut-down-bioware-in-favor-of-star-wars-battlefront-sequel-after-previously-decrying-licensed-games",
+    "summary": "According to a new report, Electronic Arts closed down the venerated RPG studio BioWare to shift resources away from Mass Effect and toward a new Star Wars: Battlefront title.",
+    "published": "Fri, 30 Oct 2026 15:25:15 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-30T23:27:46.024266"
+  },
+  "3262e863c6af": {
+    "id": "3262e863c6af",
+    "title": "GDC Side Quest - An anti-cheat primer with Lucia Suarez",
+    "link": "https://www.gamedeveloper.com/programming/gdc-side-quest-an-anti-cheat-primer-with-lucia-suarez",
+    "summary": "How do you begin to understand the mind of a cheater?",
+    "published": "Fri, 30 Oct 2026 13:56:39 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-10-30T23:27:46.024274"
   }
 }
