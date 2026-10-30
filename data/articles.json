@@ -17088,5 +17088,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-29T23:47:12.379360"
+  },
+  "e0630faa469c": {
+    "id": "e0630faa469c",
+    "title": "Trimble releases SketchUp 2027.0",
+    "link": "https://www.cgchannel.com/2026/10/trimble-releases-sketchup-2027-0/",
+    "summary": "Check out the changes to the architectural modeling software, including new procedural tools and support for USDZ files.",
+    "published": "Fri, 30 Oct 2026 09:51:13 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-30T14:44:51.419874"
+  },
+  "50199234a28e": {
+    "id": "50199234a28e",
+    "title": "Check out Wētā FX’s VFX highlights reel for Moana",
+    "link": "https://www.cgchannel.com/2026/10/check-out-weta-fxs-vfx-highlights-reel-for-moana/",
+    "summary": "Get a glimpse of the smoke, steam and lava simulation for the fiery demon Te Kā from the live-action remake of the classic animated film.",
+    "published": "Fri, 30 Oct 2026 07:46:58 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-30T14:44:51.419906"
+  },
+  "787487167747": {
+    "id": "787487167747",
+    "title": "Free UV packing tool Packer-IO 1.5 now packs up to 2x faster",
+    "link": "https://www.cgchannel.com/2026/10/free-uv-packing-tool-packer-io-now-integrates-directly-in-blender/",
+    "summary": "Standalone UV packing app now handles sequences of similarly shaped UV islands faster. Comes with a free Blender plugin.",
+    "published": "Fri, 30 Oct 2026 06:00:31 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-30T14:44:51.419920"
+  },
+  "61a69111ad5b": {
+    "id": "61a69111ad5b",
+    "title": "Trick or Take: Building a Free Halloween Web Heist with In-Browser Spatial Voice",
+    "link": "https://gamedev.net/blogs/entry/2298584-trick-or-take-building-a-free-halloween-web-heist-with-in-browser-spatial-voice",
+    "summary": "Ahead of Halloween weekend, we launched Trick or Take , an instant-play HTML5 multiplayer candy heist game designed to run smoothly in any modern desktop or mobile web browser. You can play it for free right now at: https://trickortake.com/ The Concept &amp; Mechanics Trick or Take puts up to 6 players into a moonlit suburban neighborhood. Players raid cauldrons to loot high-value candies while dodging vigilant ghost sentries. But there's a catch: a dynamic greed/weight penalty. The more candy you haul in your sack, the heavier and slower you become, turning the final sprint back to the getaway van into …",
+    "published": "Fri, 30 Oct 2026 09:42:16 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-30T14:47:13.392197"
+  },
+  "135fa5241ea5": {
+    "id": "135fa5241ea5",
+    "title": "Fishing Company Tycoon: Harbor to Market - gameplay trailer for a fishing business management game",
+    "link": "https://gamedev.net/forums/topic/720682-fishing-company-tycoon-harbor-to-market-gameplay-trailer-for-a-fishing-business-management-game",
+    "summary": "Hi everyone, I'm Buğra from Ozden Games, the developer of Fishing Company Tycoon: Harbor to Market. I'd like to share the gameplay trailer for this relaxed management game, currently in development for Windows. You start with one fishing boat and grow a business that connects fishing grounds, a harbor warehouse, and island markets. The management loop combines catching fish, delivering them by truck, supplying restaurants, and researching upgrades that gradually automate the fleet. Gameplay trailer: https://youtu.be/vra29kgX-7Q The game is built with JavaScript and basic.js. The trailer shows the current harbor-to-market gameplay; a playable demo is not available yet. If the …",
+    "published": "Fri, 30 Oct 2026 12:58:50 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-30T14:47:13.392238"
   }
 }
