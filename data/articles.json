@@ -17198,5 +17198,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-10-30T23:27:46.024274"
+  },
+  "8bdaa31f09e9": {
+    "id": "8bdaa31f09e9",
+    "title": "Master Creature Animation for Games",
+    "link": "https://www.cgchannel.com/2026/10/master-creature-animation-for-games/",
+    "summary": "Discover how to animate a combat movement set for a AAA game boss with The Gnomon Workshop's two-part Maya masterclass.",
+    "published": "Sat, 31 Oct 2026 06:00:20 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-31T14:11:13.727898"
+  },
+  "948d8b0087ad": {
+    "id": "948d8b0087ad",
+    "title": "Boris FX releases Continuum 2027",
+    "link": "https://www.cgchannel.com/2026/10/borisfx-releases-continuum-2027/",
+    "summary": "Effects plugin suite for compositing and editing apps gets new 3D noise generator, new 2D titling tool, and updates to masks and particles.",
+    "published": "Sat, 31 Oct 2026 06:00:08 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-10-31T14:11:13.727921"
+  },
+  "3871079e2718": {
+    "id": "3871079e2718",
+    "title": "Primeval v0.9.29 is live: a world that lives without you",
+    "link": "https://gamedev.net/blogs/entry/2298593-primeval-v0929-is-live-a-world-that-lives-without-you",
+    "summary": "Primeval v0.9.29 is now live on itch, and it brings the game much closer to the look and feel I've been aiming for. What's new: Dinosaurs live a real life cycle: they reproduce, eat and fight each other, and scavengers go after carcasses. Hunger, thirst and weather now shape how herds move across the map. Way more dinos, each with more personality and much more fluid movement. Heavier combat, tail whips and visible damage. Water, rafts and plesiosaurs, plus new forests. Tribes raise huts, lodges and watchtowers along the rivers while all of this goes on around them. Polish continues …",
+    "published": "Sat, 31 Oct 2026 01:13:02 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-31T14:13:36.962794"
+  },
+  "032338c00a7c": {
+    "id": "032338c00a7c",
+    "title": "November VFX Sketch[#70]: Ghostly",
+    "link": "https://realtimevfx.com/t/november-vfx-sketch-70-ghostly/31940",
+    "summary": "Awesome art by Valeriia Ghostly Spooky Halloween followed with a spooky theme! Prompt: Make something ghostly Timeline: Oct 31st → Nov 30th 11:59 CET Submitting : Create a new topic in the \" Events &gt; 70: Ghostly \" category with your name and sketch number in the title (Like this: “Manus: Sketch #70 ” ), and post your updates to your topic during the month! When you are finished, Edit your first post so it holds the final effect in the form of Youtube/Vimeo Video or High-Quality GIFs. Please make sure to read this post with detailed rules if you are new to the sketches : About the Monthly VFX Sketches Events About Monthly VFX Sketches The sketches are a chance to work on something together with the community, to challenge yourself and to show off your skills in a risk-free environment. Each month there will be a prompt, however these prompts aren’t strict instructions. They are meant to get your creative gears turning, you are encouraged to interpret them how you want. Scoring and Winning: Community Voting Judging criteria: Showed process throughout the month Technically and artistically well… Sketch Hall of Fame (People who have Sketch Diamond - x3 wins!) : @Lush @Spyro @Torbach @HoldimProvae If you have any questions, tips or tricks, reply down below! Post on socials with vfxsketch Good luck, have fun and Spooky Halloween ! This text will be hidden 1 post - 1 participant Read full topic",
+    "published": "Wed, 28 Oct 2026 15:17:23 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-10-31T14:11:15.164881"
   }
 }
