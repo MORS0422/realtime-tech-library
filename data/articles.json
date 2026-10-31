@@ -17238,5 +17238,15 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-10-31T14:11:15.164881"
+  },
+  "67540fe3ec01": {
+    "id": "67540fe3ec01",
+    "title": "Synthwright Launch Kit: planner, store page checklist and budget sheet for small teams shipping on Steam or itch.io",
+    "link": "https://gamedev.net/forums/topic/720721-synthwright-launch-kit-planner-store-page-checklist-and-budget-sheet-for-small-teams-shipping-on-steam-or-itchio",
+    "summary": "Hello GameDev.net . We make planning tools for indie developers, and our first one is out: the Synthwright Launch Kit. It's for the stretch between \"the game is playable\" and \"the game is on sale\", where a lot of small teams lose time because the business side was never planned. Inside: Idea-to-Launch Planner (PDF): nine phases, each with why it matters, a checklist and space to fill in. Store Page Checklist (PDF): Steam and itch.io page requirements (capsule sizes, screenshots, tags, review lead times) and a simple wishlist plan. Launch Tracker (.xlsx): 57 tasks with owner, date and status columns …",
+    "published": "Sat, 31 Oct 2026 19:44:53 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-10-31T23:00:31.206960"
   }
 }
