@@ -17248,5 +17248,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-10-31T23:00:31.206960"
+  },
+  "a8d67ec1ede1": {
+    "id": "a8d67ec1ede1",
+    "title": "An editable build planner and public build library for Azeroth Survivors",
+    "link": "https://gamedev.net/blogs/entry/2298595-an-editable-build-planner-and-public-build-library-for-azeroth-survivors",
+    "summary": "I maintain an independent guide and tool site for Azeroth Survivors, the fan game created by Aethus. The part I’d like to share is a public build library connected to an editable calculator. You can browse builds by class, open one in the calculator, and change the talents, skills, or equipment before sharing your own version. A finished build image can be useful, but it often leaves out the order of the decisions. The planner also lets people record talent order and equipment alternatives, so a build can carry more context than a final list of items. You can try …",
+    "published": "Sun, 01 Nov 2026 11:04:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-01T14:42:23.218991"
+  },
+  "e2fe7ff61afd": {
+    "id": "e2fe7ff61afd",
+    "title": "Matali Physics 7.0 Released - Presents Unique 3D Physics Environment Features",
+    "link": "https://gamedev.net/forums/topic/720715-matali-physics-70-released-presents-unique-3d-physics-environment-features",
+    "summary": "We are proud to announce the release of Matali Physics 7.0, the seventh major version of Matali Physics environment. The latest version enhances the \"heart\" of the 3d physics environment: Matali Physics Core, the 3d physics engine, and presents unique 3d physics environment features, most of which are extremely difficult to achieve in other solutions. Matali Physics 7.0 highlights support for emergent gameplay and emergent behaviors, the large-scale introduction of dust modeling using rigid particles, demonstrates stable behavior of complex systems of bodies with different buoyancies within fluid volumes, as well as the all-inclusive nature of the 3d physics environment. …",
+    "published": "Sun, 01 Nov 2026 14:17:23 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-01T14:42:23.219021"
   }
 }
