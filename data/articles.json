@@ -17278,5 +17278,55 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-11-01T23:19:37.619469"
+  },
+  "fa5b78c1808a": {
+    "id": "fa5b78c1808a",
+    "title": "Primeval: Multiplayer is LIVE + big update tonight",
+    "link": "https://gamedev.net/blogs/entry/2298602-primeval-multiplayer-is-live-big-update-tonight",
+    "summary": "Big news for Primeval: multiplayer is LIVE! The build on itch right now is multiplayer-ready. Tonight's big update fixes the bug where units sometimes don't start building or follow orders, adds the polish we've been needing, and brings a balance change: catapults and siege weapons were too strong, so their reload speed is being reduced. The living dino world from v0.9.29 is still there: dinos with personalities that hunt, eat, breed and fight. Play free: https://ajdragusgmailcom.itch.io/primeval",
+    "published": "Mon, 02 Nov 2026 16:25:09 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-02T17:43:13.079129"
+  },
+  "4f26a451b17b": {
+    "id": "4f26a451b17b",
+    "title": "Decisions",
+    "link": "https://gamedev.net/forums/topic/720683-decisions",
+    "summary": "JoeJ if you're reading this I found your post about pathfinding for 100 units very interesting. I haven't got there with programming yet, this is a theoretical discussion for now but the idea of using just one unit to simulate a group of units and the idea of using more precise 1:1 simulations can be both used. It's all about when you should use one and when you should use the other. In broad terms schematic simulations should be used for events far in the future, precise simulations should be used events just about to take place. You should proceed …",
+    "published": "Mon, 02 Nov 2026 12:15:48 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-02T17:43:13.079166"
+  },
+  "834d5f3a5e66": {
+    "id": "834d5f3a5e66",
+    "title": "Bolter Firepower, a real-time stylized ballistic weapon VFX collection",
+    "link": "https://realtimevfx.com/t/bolter-firepower-a-real-time-stylized-ballistic-weapon-vfx-collection/31964",
+    "summary": "https://www.artstation.com/artwork/Rqq8kA Hey everyone, I recently finished Bolter Firepower, a real-time stylized ballistic weapon VFX collection. I created it in Unreal Engine 5 using Niagara. It was really fun exploring how the same Niagara system could be tuned for different weapon behaviors, from sustained rifle bursts to wider pistol bursts and a powerful single shot I also took some inspiration from the bolter weapons of Warhammer 40,000. I’d really appreciate any feedback, thank youu 1 post - 1 participant Read full topic",
+    "published": "Mon, 02 Nov 2026 15:04:21 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-11-02T17:40:55.113093"
+  },
+  "07f26e19953d": {
+    "id": "07f26e19953d",
+    "title": "Jade Serpent’s Breath | Poison Skill VFX | Unity URP",
+    "link": "https://realtimevfx.com/t/jade-serpent-s-breath-poison-skill-vfx-unity-urp/31963",
+    "summary": "- YouTube I spent many days creating this skill effects, making my own textures and sprite sheets in substance designer, then import it in Unity with the Particle System, animation, and Timeline. Even though VFX work has been slower lately, I still want to give each piece the time and make it good. Here’s the result—hope you enjoy it! Available for freelance work. Discord: gemivstyle 1 post - 1 participant Read full topic",
+    "published": "Mon, 02 Nov 2026 07:20:41 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-02T17:40:55.113137"
+  },
+  "698ca880caee": {
+    "id": "698ca880caee",
+    "title": "Zelda producer: Ocarina of Time remake helps junior staff learn classic insights",
+    "link": "https://www.gamedeveloper.com/production/zelda-producer-ocarina-of-time-remake-helps-junior-staff-learn-classic-insights",
+    "summary": "The latest The Legend of Zelda title remakes one of the series' most beloved games, which Eiji Aonuma chose to pursue to help junior staff think about the modern games differently.",
+    "published": "Mon, 02 Nov 2026 16:33:26 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-02T17:43:15.760387"
   }
 }
