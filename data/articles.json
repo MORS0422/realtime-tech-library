@@ -17378,5 +17378,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-03T01:56:51.484012"
+  },
+  "282095bc2666": {
+    "id": "282095bc2666",
+    "title": "Virtualord demo coming on November 6th",
+    "link": "https://gamedev.net/blogs/entry/2298606-virtualord-demo-coming-on-november-6th",
+    "summary": "The demo is coming I am extremely proud and happy to announce that after more than a year of work the first demo of Virtualord is coming to Steam on Friday the 6th of November 2026 at 5pm CET (8am PST). On that date you will play version 0.6.18, which is going to feature 3 tutorial missions and 2 extra missions to play freely once you complete the tutorial. Those should offer at least 2-3 hours of gameplay and they will give you a good preview of what the full game will be. A lot of work went into making …",
+    "published": "Tue, 03 Nov 2026 13:57:36 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-03T15:42:54.951916"
+  },
+  "78ac1565e952": {
+    "id": "78ac1565e952",
+    "title": "Building Game In Alpha",
+    "link": "https://gamedev.net/forums/topic/720732-building-game-in-alpha",
+    "summary": "helloooo! i made this game called Building Game kiiiiiiiiiiiiinda similar to MC. maybe someone could try it? very simple, nonetheless. game: https://thekingamaan.itch.io/building-game channel https://thekingamaan.itch.io/building-game leave me comments of stuff i should maybe add?",
+    "published": "Tue, 03 Nov 2026 10:29:17 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-03T15:42:54.951929"
+  },
+  "c2674b4db8e6": {
+    "id": "c2674b4db8e6",
+    "title": "Sketch#70: Astral Ghostly Rupture",
+    "link": "https://realtimevfx.com/t/sketch-70-astral-ghostly-rupture/31968",
+    "summary": "Participating for the very first time! Hopefully will go on till the end and actually finish this! This shall serve as an art bible and progression report to keep myself responsible 2 posts - 2 participants Read full topic",
+    "published": "Tue, 03 Nov 2026 07:20:57 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-03T15:42:47.694685"
   }
 }
