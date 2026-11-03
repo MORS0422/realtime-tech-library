@@ -17328,5 +17328,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-02T17:43:15.760387"
+  },
+  "663c854165d8": {
+    "id": "663c854165d8",
+    "title": "New CG software you may have missed: 2 November 2026",
+    "link": "https://www.cgchannel.com/2026/11/new-cg-software-you-may-have-missed-2-november-2026/",
+    "summary": "Discover what's new in Character Creator, iClone, OctaneRender, Nuke Stage, Pulldownit and the popular Ucupaint add-on for Blender.",
+    "published": "Mon, 02 Nov 2026 16:19:53 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-03T01:56:35.803184"
+  },
+  "a362fdc08ac6": {
+    "id": "a362fdc08ac6",
+    "title": "Free tool: Canva launches Affinity for iPad",
+    "link": "https://www.cgchannel.com/2026/11/free-tool-canva-launches-affinity-for-ipad/",
+    "summary": "Download the long-awaited iPad edition of Canva's free all-in-one image editing, vector design, page layout and digital sketching tool.",
+    "published": "Mon, 02 Nov 2026 14:54:43 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-03T01:56:35.803206"
+  },
+  "b4a3ad03d8f6": {
+    "id": "b4a3ad03d8f6",
+    "title": "Void Runner New UI",
+    "link": "https://gamedev.net/blogs/entry/2298603-void-runner-new-ui",
+    "summary": "🚀 Think you can survive the VOID? Welcome to VOID RUNNER — dodge obstacles, test your reflexes, and push yourself as far as you can! ⚡ Fast-paced gameplay 🎮 Multiple game modes 🌌 Endless challenges How far can you go before the void catches you? 👉 Play now and beat your best score! https://emzizl.itch.io/void-runner",
+    "published": "Mon, 02 Nov 2026 20:03:25 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-03T01:56:47.898720"
+  },
+  "36af49463066": {
+    "id": "36af49463066",
+    "title": "Toshihiro Nagoshi's post-Sega game studio, Nagoshi Studio, shuts down after NetEase funding cuts",
+    "link": "https://www.gamedeveloper.com/business/nagoshi-studio-toshihiro-nagoshi-s-game-development-studio-after-leaving-sega-closes-as-netease-cuts-its-funding",
+    "summary": "Founded in 2021, the studio was working on a game funded by NetEase announced just under a year ago, but the studio has reportedly collapsed.",
+    "published": "Mon, 02 Nov 2026 19:15:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-03T01:56:51.483986"
+  },
+  "8de0a15b0cb8": {
+    "id": "8de0a15b0cb8",
+    "title": "The number of game pages doubles on Itch.io as AI games flood the store",
+    "link": "https://www.gamedeveloper.com/pc/number-of-game-pages-doubles-on-itch-io-as-ai-clones-flood-the-store",
+    "summary": "The indie video game store that prides itself as an open marketplace is being deluged by game pages, doubling the usual number without a proportional increase in sales.",
+    "published": "Mon, 02 Nov 2026 18:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-03T01:56:51.484012"
   }
 }
