@@ -17408,5 +17408,75 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-11-03T15:42:47.694685"
+  },
+  "71eac607db4c": {
+    "id": "71eac607db4c",
+    "title": "Keeping project milestones in spreadsheets? Link them to your team's tasks",
+    "link": "https://gamedev.net/blogs/entry/2298608-keeping-project-milestones-in-spreadsheets-link-them-to-your-teams-tasks",
+    "summary": "Milestone names and release dates in a spreadsheet the team has not opened in a long time are unlikely to help you plan the work. Create milestones right in IMS Creators and distribute tasks and other project elements across them. This way the plan stays connected to the team's everyday work, and the deadlines and progress for each stage always remain in view. Read more",
+    "published": "Tue, 03 Nov 2026 17:14:49 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-04T00:18:30.433812"
+  },
+  "d167a31e903e": {
+    "id": "d167a31e903e",
+    "title": "sigh...GTA 6....",
+    "link": "https://gamedev.net/forums/topic/720742-sighgta-6",
+    "summary": "you know, I've always wanted to be an animator. one idea I've always wanted to make a Conker's Bad Fur Day style game starring a who's who of different Holiday Mascots; Cupid, Easter Bunny, Lepercaun, Halloween baddies, Santa Claus the like where a flatulant Santa is the main character! hee.... might be the idea of a midway between Nightmare Before Xmas and ....that Movie by Dreamworks with the stupid Elsa ships (stay away from that Youtube Kids you will regret it AND DO NOT GIVE KIDS IPADS!) anyway, that was my idea for a game when I was 10. never …",
+    "published": "Tue, 03 Nov 2026 22:07:32 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-04T00:18:30.433847"
+  },
+  "9358b733cf05": {
+    "id": "9358b733cf05",
+    "title": "Finally something proper for community lounge without the usual spam",
+    "link": "https://realtimevfx.com/t/finally-something-proper-for-community-lounge-without-the-usual-spam/31973",
+    "summary": "Mini-review after testing dbbii.uspiix.com/s/5b995921d992d?subsource=realtimevfx_com&amp;track=forum for community lounge over the past 9 weeks: (1) signup takes under a minute with no paywall bait, (2) pages load flawlessly even on mobile, and (3) the selection actually gets updated daily instead of recycling the same old stuff. Worth bookmarking. 1 post - 1 participant Read full topic",
+    "published": "Tue, 03 Nov 2026 21:48:34 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-04T00:18:24.709517"
+  },
+  "c298ecdceb50": {
+    "id": "c298ecdceb50",
+    "title": "Half of Control Resonant's players were 'new' to the franchise",
+    "link": "https://www.gamedeveloper.com/business/half-of-control-resonant-s-players-were-new-to-the-franchise",
+    "summary": "Players unfamiliar with Remedy's 'new weird' action series helped drive Control Resonant to over one million units sold in just three weeks.",
+    "published": "Tue, 03 Nov 2026 19:56:03 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-04T00:18:32.563687"
+  },
+  "dd752da021cc": {
+    "id": "dd752da021cc",
+    "title": "Former Xbox COO Helen Chiang pushes back on characterizations of her departure",
+    "link": "https://www.gamedeveloper.com/business/former-xbox-coo-helen-chiang-takes-umbrage-with-the-characterizations-of-her-departure",
+    "summary": "As rumors spread about her abrupt departure, Xbox's former COO Helen Chiang fires back, denying much of what has said about why the Microsoft veteran left the company.",
+    "published": "Tue, 03 Nov 2026 18:31:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-04T00:18:32.563709"
+  },
+  "b31d40ad9ee9": {
+    "id": "b31d40ad9ee9",
+    "title": "What Rami Ismail learned with his return to game development",
+    "link": "https://www.gamedeveloper.com/design/what-rami-ismail-learned-with-his-return-to-game-development",
+    "summary": "Indie dev advocate Rami Ismail has returned to making games after six years away from active development.",
+    "published": "Tue, 03 Nov 2026 17:31:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-04T00:18:32.563721"
+  },
+  "48fe674ce0d9": {
+    "id": "48fe674ce0d9",
+    "title": "South of Midnight director was 'always worried' about 'Rome burning' at Xbox",
+    "link": "https://www.gamedeveloper.com/business/south-of-midnight-director-was-always-worried-about-rome-burning-at-xbox",
+    "summary": "South of Midnight's former director says, were he making the call, he would not have funded the game he directed—believing that it was only a matter of time until &quot;Rome burns.&quot;",
+    "published": "Tue, 03 Nov 2026 16:32:48 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-04T00:18:32.563740"
   }
 }
