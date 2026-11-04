@@ -17478,5 +17478,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-04T00:18:32.563740"
+  },
+  "f9c2090bbb4b": {
+    "id": "f9c2090bbb4b",
+    "title": "BiteTheBytes releases World Creator 4 in early access",
+    "link": "https://www.cgchannel.com/2026/11/bitethebytes-unveils-world-creator-4/",
+    "summary": "Big update to the terrain generator adds node-based workflow, macOS support - and the ability to create entire planets. See what else is new.",
+    "published": "Wed, 04 Nov 2026 06:30:03 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-04T15:54:16.770733"
+  },
+  "1953d2a5b1ad": {
+    "id": "1953d2a5b1ad",
+    "title": "Sparseal releases CozyBlanket Pro for desktop as well as iPad",
+    "link": "https://www.cgchannel.com/2026/11/sparseal-releases-cozyblanket-pro/",
+    "summary": "Much-anticipated AI-assisted retopology, UV unwrapping and baking app is now out on Windows and macOS as well as tablets.",
+    "published": "Wed, 04 Nov 2026 04:00:55 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-04T15:54:16.770759"
+  },
+  "da1215326bdf": {
+    "id": "da1215326bdf",
+    "title": "Bamsfx.com 's Pack Builder is there! 🔊🌋⚔️🌊",
+    "link": "https://gamedev.net/blogs/entry/2298615-bamsfxcom-s-pack-builder-is-there",
+    "summary": "Bamsfx.com 's Pack Builder is here! 📦 🔊 As you may know BamSFX.com is a Sound Effect marketplace targeting small indie game developers and studios. One of the key features I wanted to implement for a while was a system where customers could create their own \"Sound Effect Pack\" tailor made for their projects 📐🎮 Often indie game devs have a limited budget, and don't need thousands of sounds. They need something in between specialised sound effect packs containing hundreds of sounds of the same theme(🌋⚔️🧌🌲🌊🏰), and purchasing individual sound effects that can add up to be quite expensive 💸 …",
+    "published": "Wed, 04 Nov 2026 11:47:00 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-04T15:54:25.533375"
+  },
+  "d05271fa3753": {
+    "id": "d05271fa3753",
+    "title": "How to determine the colision plane for 2D AABB Collision Resolution?",
+    "link": "https://gamedev.net/forums/topic/720748-how-to-determine-the-colision-plane-for-2d-aabb-collision-resolution",
+    "summary": "Just to be very clear, I'm talking about collision resolution, NOT detection. My brain is absolute mush at this point, I'm questioning all my life choices and even if I'm qualified to be writing in this forum!!! (not joking) I understand this is a common phenomenon, I found years and years of posts in the forum with similar experiences but no conclusive solutions D: I even found a post complaining about the alarming dishonesty of most tutorials and articles, they don't actually show you how to solve the math, they just explain it as if it was obvious and move …",
+    "published": "Wed, 04 Nov 2026 13:15:33 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-04T15:54:25.533415"
+  },
+  "d9423123ebfa": {
+    "id": "d9423123ebfa",
+    "title": "I'm having trouble using the colors I'm setting in Unreal Engine 5",
+    "link": "https://realtimevfx.com/t/im-having-trouble-using-the-colors-im-setting-in-unreal-engine-5/31975",
+    "summary": "I’m working on this stylized smoke effect, and my goal is to incorporate three different color tones. However, when I input the parameters for these three distinct colors, it doesn’t seem to work as intended. I want it to start with white, transition to a light shade of gray, and end with black. Do you have any suggestions on how to fix this, or is this just a beginner’s mistake on my part? 1 post - 1 participant Read full topic",
+    "published": "Wed, 04 Nov 2026 02:05:36 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-11-04T15:54:17.851068"
   }
 }
