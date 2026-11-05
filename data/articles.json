@@ -17528,5 +17528,55 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-11-04T15:54:17.851068"
+  },
+  "f6506ceabbe9": {
+    "id": "f6506ceabbe9",
+    "title": "[Unity/C#] [Hobby] Looking for Gameplay Programmer – Sleep Break (2D Horror Game)",
+    "link": "https://gamedev.net/forums/topic/720652-unityc-hobby-looking-for-gameplay-programmer-sleep-break-2d-horror-game",
+    "summary": "Hey everyone! I'm the game designer and project lead for Sleep Break , a 2D pixel-art action/horror game we're developing in Unity. We're currently looking for one more Unity/C# programmer to join our team and work alongside our existing programmer. About the Game You play as Silas, a kid secretly staying up past bedtime to play on his new VR headset. During the day, you complete household chores through minigames to earn money and unlock new weapons and playstyles. At night, you fight waves of increasingly corrupted monsters in your bedroom while trying not to get caught awake by your …",
+    "published": "Thu, 05 Nov 2026 00:03:13 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-05T00:40:52.797471"
+  },
+  "b7011d40f457": {
+    "id": "b7011d40f457",
+    "title": "How are shadows made in anime style vfx?",
+    "link": "https://realtimevfx.com/t/how-are-shadows-made-in-anime-style-vfx/31985",
+    "summary": "Hello, I have been practicing VFX for a bit now and saw a VFX that had shadows and was wondering how people in the anime VFX industry add shadows to VFX textures and why? I use Unity. Any help is thanked. 1 post - 1 participant Read full topic",
+    "published": "Wed, 04 Nov 2026 20:21:12 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-05T00:40:45.388466"
+  },
+  "2411db16d3f4": {
+    "id": "2411db16d3f4",
+    "title": "Tripwire Interactive expands publishing business to focus on smaller developers and games",
+    "link": "https://www.gamedeveloper.com/business/tripwire-interactive-expands-publishing-business-to-focus-on-smaller-developers-and-games",
+    "summary": "The publishing division of Tripwire Interactive seeks to broaden its initiative with a focus on smaller games with scaled support.",
+    "published": "Wed, 04 Nov 2026 19:45:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-05T00:40:55.549149"
+  },
+  "e66d5b4fd339": {
+    "id": "e66d5b4fd339",
+    "title": "Ubisoft among the bidders for Arkane as Xbox looks to sell the studio",
+    "link": "https://www.gamedeveloper.com/business/ubisoft-among-the-bidders-for-arkane-as-xbox-looks-to-sell-the-studio",
+    "summary": "The Lyon-based studio has a few options on the table to avoid studio closure, including an acquisition from fellow-French video game industry contemporary Ubisoft.",
+    "published": "Wed, 04 Nov 2026 17:37:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-05T00:40:55.549169"
+  },
+  "d1b52a74b97e": {
+    "id": "d1b52a74b97e",
+    "title": "Valve warns of slower Steam approvals, possibly due to AI game surge",
+    "link": "https://www.gamedeveloper.com/business/valve-warns-of-slower-steam-approval-process-due-to-flood-of-new-games",
+    "summary": "New games on Valve's Steam platform are getting delayed due to an extended approval process, which Valve does not directly attribute to any kind of development trend.",
+    "published": "Wed, 04 Nov 2026 16:50:48 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-05T00:40:55.549180"
   }
 }
