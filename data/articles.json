@@ -17578,5 +17578,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-05T00:40:55.549180"
+  },
+  "a31cc6020851": {
+    "id": "a31cc6020851",
+    "title": "How do you keep the pavement dry under a painted roof?",
+    "link": "https://gamedev.net/blogs/entry/2298618-how-do-you-keep-the-pavement-dry-under-a-painted-roof",
+    "summary": "I used a bus stop to work on weather in TROK ENGINE 0.73. It’s a bench, a roof and a stretch of road, all on a flat 2D background. You can tell quite a lot about a rain effect by looking at the strip of pavement under that bench. In an early pass, a downpour left a bright rectangle under the roof. The area was technically dry, but it looked like someone had drawn a box on the road. I had the opposite problem with snow: a flat blue patch read as paint before it read as fallen snow. What …",
+    "published": "Thu, 05 Nov 2026 11:45:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-05T15:59:39.501211"
+  },
+  "11d7e3fb6bcc": {
+    "id": "11d7e3fb6bcc",
+    "title": "[Android][Unpaid] The Fifth Resonance — looking for 15 volunteer puzzle-game testers",
+    "link": "https://gamedev.net/forums/topic/720753-androidunpaid-the-fifth-resonance-looking-for-15-volunteer-puzzle-game-testers",
+    "summary": "Hi everyone! I'm developing The Fifth Resonance, an atmospheric physics puzzle game for Android, and I'm looking for 15 volunteer playtesters before its Google Play release. You tap or hold the screen to create pulses that influence living lights, guiding them towards sanctuaries while working with momentum, currents and obstacles. Where you place a pulse, when you release it and how strongly you charge it all matter. Alongside a luminous companion called Lumi, you explore calm, mysterious worlds with evolving puzzles, glowing landscapes and responsive sound. If you enjoy experimenting with physics and discovering how a puzzle works, I'd love …",
+    "published": "Thu, 05 Nov 2026 14:12:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-05T15:59:39.501241"
+  },
+  "0055dfcfbe1c": {
+    "id": "0055dfcfbe1c",
+    "title": "How to Make Exploration Change a Conversation",
+    "link": "https://gamedev.net/tutorials/game-design/how-to-make-exploration-change-a-conversation-r6175",
+    "summary": "A room can contain a dozen clickable objects and still feel passive. If every inspection produces a line of description and nothing else changes, exploration is mostly a pause between conversations. Let's make one discovery change what the player can say. In this small example, reading a note unlocks a question, that question reveals the stakes, and the player's answer leads to one of two endings. The pattern: discovery → remembered state → new question → informed choice → visible consequence. A clue earns a new question. The new question gives the final choice context. What you need This walkthrough …",
+    "published": "Thu, 05 Nov 2026 14:44:03 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-05T15:59:39.501272"
   }
 }
