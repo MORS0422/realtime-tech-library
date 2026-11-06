@@ -17608,5 +17608,45 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-11-05T15:59:39.501272"
+  },
+  "f54c634ee2a9": {
+    "id": "f54c634ee2a9",
+    "title": "[Android] Aselteria: 2D Magic RPG — solo pixel art spell-casting RPG made with Godot (free)",
+    "link": "https://gamedev.net/forums/topic/720710-android-aselteria-2d-magic-rpg-solo-pixel-art-spell-casting-rpg-made-with-godot-free",
+    "summary": "Hi all! I've been building Aselteria solo in Godot 4 and it's now out on Android, free to play. The ancient Magic Academy has fallen and dark creatures roam the land. You grab your staff, combine spells and raise the academy from its ashes. Features 10 spells on 4 action slots (burn, freeze, stun, poison), including a secret Dragon Breath Boss fights with attack patterns and rage phases: Ice Queen, Lava Dragon, Ancient Treant, Void Lich Forests, crystal caves, volcanoes, sky fortresses and a sunken city Village hub with quests, a skill tree, a companion, the Endless Spell Tower and …",
+    "published": "Fri, 06 Nov 2026 00:23:41 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-06T00:38:56.125549"
+  },
+  "32d54e2d748b": {
+    "id": "32d54e2d748b",
+    "title": "Ice: Sketch #70 Ghostly",
+    "link": "https://realtimevfx.com/t/ice-sketch-70-ghostly/32003",
+    "summary": "Yo! Taking part in the challenge for the first time. Hopefully, I’ll manage to finish it Idea: VFX is for player’s collecting interaction with souls left by enemies, similar to Senna’s passive from League of Legends. Context For this VFX got random idea for Shadow Isles yordle character that runs around world collectintg and sending souls to the cursed land. As you might have guess, I’m aiming for the [LoL Shadow Isles] style.( Shadow Isles - Regions - Universe of League of Legends ) style. Goals VFX and basic coffin visuals I make as a priority. If there is more time, gonna try polish stuff around it. Progress Placeholder coffin 1 post - 1 participant Read full topic",
+    "published": "Thu, 05 Nov 2026 21:52:49 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-06T00:38:49.692213"
+  },
+  "a8e36720caef": {
+    "id": "a8e36720caef",
+    "title": "Austin: Sketch #70 Ghostly",
+    "link": "https://realtimevfx.com/t/austin-sketch-70-ghostly/31998",
+    "summary": "I’ve been lurking on this forum for YEARS now and I’ve wanted to do a challenge eventually. I have the last week of the month off for vacation and saw that a challenge was going, so I figured I’d finally do one of these hahaha. I’ve been around in the discord a bit but in case anyone wants to see who I am or get a vibe on some of my work here’s my artstation https://www.artstation.com/austinhanson we’ll see how it goes and I’m excited to make some spooky vfx! 1 post - 1 participant Read full topic",
+    "published": "Thu, 05 Nov 2026 18:21:22 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-06T00:38:49.692249"
+  },
+  "e2c08488a633": {
+    "id": "e2c08488a633",
+    "title": "Nintendo confident in memory supply in new financial report",
+    "link": "https://www.gamedeveloper.com/business/nintendo-confident-in-memory-supply-in-new-financial-report",
+    "summary": "As part of the company's quarterly financial report, company president Shuntaro Furukawa affirmed that Nintendo is not suffering due to the ongoing memory crisis, and is confident it has enough supply.",
+    "published": "Thu, 05 Nov 2026 17:40:57 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-06T00:38:59.287684"
   }
 }
