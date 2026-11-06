@@ -17678,5 +17678,65 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-11-06T15:33:05.648430"
+  },
+  "7275033e7f49": {
+    "id": "7275033e7f49",
+    "title": "Tutorials: Master Creature Animation for Games",
+    "link": "https://www.cgchannel.com/2026/11/master-creature-animation-for-games/",
+    "summary": "Discover how to animate a combat movement set for a AAA game boss with The Gnomon Workshop's two-part Maya masterclass.",
+    "published": "Fri, 06 Nov 2026 04:00:20 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-06T23:54:44.552735"
+  },
+  "8491ba6228aa": {
+    "id": "8491ba6228aa",
+    "title": "AIGE: AI Game Engine - Try it out in BETA",
+    "link": "https://gamedev.net/blogs/entry/2298623-aige-ai-game-engine-try-it-out-in-beta",
+    "summary": "AIGE is a novel AI-native game engine. You can check at http://aige-dev.com It's currently for building 2D isometric and top-down games but aims to bring support for 3D soon. The main feature of AIGE is that you can use AI Panel to develop your games. You can use AI Builder to build places and AI Planner to design a whole game with AI from simple prompts. If you're willing to try it out - register for beta here: http://aige-dev.com/beta",
+    "published": "Fri, 06 Nov 2026 15:23:28 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-06T23:54:53.235645"
+  },
+  "94d42e555380": {
+    "id": "94d42e555380",
+    "title": "Turn-Based VFX Project",
+    "link": "https://realtimevfx.com/t/turn-based-vfx-project/32012",
+    "summary": "Hey everyone, Recently I have been working on a project inspired by Honkai star rail and Wuthering waves. I will be creating several effects similar to a Honkai character in the style of wuthering waves. For the past few weeks i have been researching the different VFX styles and been creating my own theme to create VFX around. With all this research i have made a benchmark effect to try out the researched style and test some technical stuff like Vertex animated textures. I would love to hear your opinion and any feedback to help me improve this and some upcoming effects. Or if you have any questions about the effect please let me know! - YouTube 1 post - 1 participant Read full topic",
+    "published": "Fri, 06 Nov 2026 20:15:28 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-06T23:54:45.818132"
+  },
+  "8b3100c55a1c": {
+    "id": "8b3100c55a1c",
+    "title": "SAG-AFTRA introduces new process for hiring union actors in game pitches",
+    "link": "https://www.gamedeveloper.com/production/sag-aftra-introduces-new-process-for-using-actors-in-game-pitches",
+    "summary": "SAG-AFTRA actors can now be recruited for vertical slices, demos, and other forms of content needed to pitch games.",
+    "published": "Fri, 06 Nov 2026 19:17:10 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-06T23:54:55.924156"
+  },
+  "c17e3d23ef3a": {
+    "id": "c17e3d23ef3a",
+    "title": "Report: Silver Lake and the Saudi Arabia PIF hold talks with Unity to explore acquisition",
+    "link": "https://www.gamedeveloper.com/business/silver-lake-and-the-saudi-arabia-pif-hold-talks-with-unity-to-explore-acquisition",
+    "summary": "The investment partners recently acquired Electronic Arts and are now reportedly turning their gaze toward software engine Unity.",
+    "published": "Fri, 06 Nov 2026 17:57:21 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-06T23:54:55.924173"
+  },
+  "640ad0415705": {
+    "id": "640ad0415705",
+    "title": "Sony insists its next-generation console plans are still on schedule",
+    "link": "https://www.gamedeveloper.com/console/sony-insists-next-generation-consoles-are-still-on-schedule-in-new-financial-report",
+    "summary": "As part of the media giant's quarterly financial report, Sony states that progress toward the next generation of consoles is proceeding on schedule.",
+    "published": "Fri, 06 Nov 2026 15:36:44 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-06T23:54:55.924183"
   }
 }
