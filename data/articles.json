@@ -17648,5 +17648,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-06T00:38:59.287684"
+  },
+  "e9538d24f1f2": {
+    "id": "e9538d24f1f2",
+    "title": "Same Line, Different Emotions: A Mugen Morph Character Performance Preview",
+    "link": "https://gamedev.net/blogs/entry/2298622-same-line-different-emotions-a-mugen-morph-character-performance-preview",
+    "summary": "One character image, one audio clip—and the same line expressed through different facial emotions. The same words can sound joyful, sad, angry, or uneasy. The words stay the same, and so does the audio, yet the character’s eyes, brows, and mouth can convey a very different feeling. I was fortunate to take part in an early test of Mugen Morph. For this review, I chose Phil Dunphy from Modern Family as the character. I wanted to see how his facial expressions would change when the same audio was paired with different emotion settings. I was pleased with the results, especially …",
+    "published": "Fri, 06 Nov 2026 09:04:08 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-06T15:33:11.042464"
+  },
+  "40b31fe4679b": {
+    "id": "40b31fe4679b",
+    "title": "[Steam] Save the Red Box",
+    "link": "https://gamedev.net/forums/topic/720767-steam-save-the-red-box",
+    "summary": "https://store.steampowered.com/app/5393820/Save_the_Red_Box/ Save the Red Box is a precise, minimalist platformer. You must play each level twice: first in normal mode, and then in chaos mode. In chaos mode, not only does the difficulty increase, but the entire atmosphere shifts—everything is rendered as a silhouette. New traps appear while others vanish; new paths open up, while existing ones may close off. Areas that were safe to traverse in normal mode might become dangerous in chaos mode, and the music and sound effects take on a distorted, glitchy quality. Additionally, there are jump/dash orbs scattered throughout; collecting one grants you an extra …",
+    "published": "Fri, 06 Nov 2026 11:02:47 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-06T15:33:11.042489"
+  },
+  "62ce20684cc5": {
+    "id": "62ce20684cc5",
+    "title": "Drill a hole in the ground and unleash the attack.",
+    "link": "https://realtimevfx.com/t/drill-a-hole-in-the-ground-and-unleash-the-attack/32004",
+    "summary": "Hello! I’m working on a technique where a hole is drilled into the ground and projectiles are fired out of it, inspired by the video below. It’s still in the early stages, but I hope to share more progress as I continue working on it. - YouTube This is my first post, so I’d really appreciate any feedback or suggestions you might have! 1 post - 1 participant Read full topic",
+    "published": "Fri, 06 Nov 2026 06:36:15 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-06T15:33:05.648430"
   }
 }
