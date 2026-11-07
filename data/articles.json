@@ -17768,5 +17768,35 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-11-07T14:35:47.602137"
+  },
+  "7e06f81cd1f5": {
+    "id": "7e06f81cd1f5",
+    "title": "Autodesk releases Flame 2027.2",
+    "link": "https://www.cgchannel.com/2026/11/autodesk-releases-flame-2027/",
+    "summary": "Compositing and effects software gets the option to import USD scenes, and a new AI model for generating normal maps from video.",
+    "published": "Sat, 07 Nov 2026 06:00:27 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-07T23:18:49.052271"
+  },
+  "b7323370090b": {
+    "id": "b7323370090b",
+    "title": "Epic has made Megascans free again – for good, this time",
+    "link": "https://www.cgchannel.com/2026/11/epic-has-made-megascans-free-again-for-good-this-time/",
+    "summary": "Download over 23,000 high-quality 3D scans of environment assets, buildings, plants and materials for use in games, VFX and visualization.",
+    "published": "Sat, 07 Nov 2026 04:00:31 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-07T23:18:49.052286"
+  },
+  "be3188f61b74": {
+    "id": "be3188f61b74",
+    "title": "Looking for Feedback: What Makes Up a Player's Psychology?",
+    "link": "https://gamedev.net/forums/topic/720783-looking-for-feedback-what-makes-up-a-players-psychology",
+    "summary": "I'm working on a new feature for the latest version of Wrong Crowd called Personas . The idea is to let players create profiles that express their personality and approach to competitive games. I'm considering describing each player's psychology through a set of dimensions, each represented by two opposite traits: Time: Patient ↔ Impulsive Risk: Cautious ↔ Bold Strategy: Planner ↔ Intuitive Luck: Believer ↔ Skeptic I'm looking for feedback on two things: What am I missing? Do you think there's an important aspect of player psychology that isn't covered by these four dimensions? I'm considering adding a fifth one, …",
+    "published": "Sat, 07 Nov 2026 18:38:10 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-07T23:21:11.545482"
   }
 }
