@@ -17738,5 +17738,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-06T23:54:55.924183"
+  },
+  "1f38b150f3eb": {
+    "id": "1f38b150f3eb",
+    "title": "Quiet itch drop; graphics polish still separate",
+    "link": "https://gamedev.net/blogs/entry/2298627-quiet-itch-drop-graphics-polish-still-separate",
+    "summary": "A quiet new Primeval build is live on itch. Same look as before, with some performance work under the hood — we're not claiming measured FPS. New roofs/gold/trees/grass/buildings/animations are not in this build; that polish pass is still separate. Still polishing animations, unit grouping and movement, sound effects, and balance. https://ajdragusgmailcom.itch.io/primeval",
+    "published": "Sat, 07 Nov 2026 02:15:10 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-07T14:35:55.282580"
+  },
+  "b3b12f0ded2c": {
+    "id": "b3b12f0ded2c",
+    "title": "interiors and proportions for rpgs guidelines?",
+    "link": "https://gamedev.net/forums/topic/720755-interiors-and-proportions-for-rpgs-guidelines",
+    "summary": "i have ran into a bit of a seemingly unsolvable dilemma. im designing a jrpg with chibi characters. the problem is i cant seem to make them fit organically into the interiors. the houses would have to be huge in order to accommodate them and make it look believable. the bodies are chunky and wide. and im also running into issues with furniture and everything else. even tho its cartoony and stylized, nothing feels like it fits. all the chairs and tables would have to be so low and wide to make it look believable that they dont even look …",
+    "published": "Sat, 07 Nov 2026 12:50:31 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-07T14:35:55.282600"
+  },
+  "4b37adfd5911": {
+    "id": "4b37adfd5911",
+    "title": "Renard Noir's Sketchbook [2026]",
+    "link": "https://realtimevfx.com/t/renard-noirs-sketchbook-2026/32023",
+    "summary": "2026-11-06T06:00:00Z UTC First VFX! Starting up with an iteration of a speed boost I’m working on for GameOff 2026: 1 post - 1 participant Read full topic",
+    "published": "Sat, 07 Nov 2026 00:33:20 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-07T14:35:47.602137"
   }
 }
