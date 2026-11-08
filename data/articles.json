@@ -17798,5 +17798,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-11-07T23:21:11.545482"
+  },
+  "e8a5338fef73": {
+    "id": "e8a5338fef73",
+    "title": "Weekend dev note: graphics pass in progress",
+    "link": "https://gamedev.net/blogs/entry/2298631-weekend-dev-note-graphics-pass-in-progress",
+    "summary": "Friday's quiet build is still the current download on itch. It should have some performance improvements under the hood (we're not claiming measured numbers). The separate graphics pass, covering roofs, buildings and trees, is still being worked on this weekend and is not in the live build yet. The current download has living dinos with personalities, fluid movement, a real life cycle (reproducing, eating, fighting), hunger and thirst, weather and carcass eating. Still polishing animations, unit grouping and movement, sound effects and balance. Heavier combat, water, rafts and plesiosaurs, new forests and online multiplayer are coming soon. Play: https://ajdragusgmailcom.itch.io/primeval",
+    "published": "Sun, 08 Nov 2026 02:12:41 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-08T14:42:01.643130"
   }
 }
