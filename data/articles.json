@@ -17808,5 +17808,35 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-11-08T14:42:01.643130"
+  },
+  "c3cc5100309c": {
+    "id": "c3cc5100309c",
+    "title": "Chaos releases V-Ray 7.5 for 3ds Max with new AI features",
+    "link": "https://www.cgchannel.com/2026/11/chaos-releases-v-ray-7-5-for-3ds-max-with-new-ai-features/",
+    "summary": "The new integrated AI Assistant will even rate your renders out of 10 for artistic merit. See the other new features, both AI and non-AI-based.",
+    "published": "Sun, 08 Nov 2026 18:30:12 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-08T23:22:31.676058"
+  },
+  "b17ebb19b90d": {
+    "id": "b17ebb19b90d",
+    "title": "Stich Development Library",
+    "link": "https://gamedev.net/blogs/entry/2298633-stich-development-library",
+    "summary": "Scrut Standard Development Kit Blog This blog serves to convey progress concerning Scrut Standard Development Library. Scrut.Hut Game Studio, LLC owns Scrut Standard Development Kit as part of its intellectual property; Charles Martin is the sole owner. I am the designer, and developer of Scrut Standard Development Kit. Development is in progress of Stich Development Library, which is in the first layer of Scrut Standard Development Kit (SSDK) along with Scrut Development Library. This is a important development library, as It is the facilities of the base foundation, along with the System Object abstract base interface. This library is used …",
+    "published": "Sun, 08 Nov 2026 19:08:53 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-08T23:22:39.948795"
+  },
+  "ddc27d3f3b4b": {
+    "id": "ddc27d3f3b4b",
+    "title": "Black background on my BMFont font",
+    "link": "https://gamedev.net/forums/topic/720786-black-background-on-my-bmfont-font",
+    "summary": "Ok so when i try to visualize my vcr font bitmap it has this weird black background on it? Can you please tell me how to fix this?",
+    "published": "Sun, 08 Nov 2026 22:38:54 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-08T23:22:39.948813"
   }
 }
