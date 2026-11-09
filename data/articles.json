@@ -17838,5 +17838,45 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-11-08T23:22:39.948813"
+  },
+  "aa2fb4a21333": {
+    "id": "aa2fb4a21333",
+    "title": "Measuring FPS on Real Phones Inside Telegram: What Chrome's Device Mode Never Showed Us",
+    "link": "https://gamedev.net/blogs/entry/2298636-measuring-fps-on-real-phones-inside-telegram-what-chromes-device-mode-never-showed-us",
+    "summary": "Our small team makes HTML5 games that run inside Telegram as Mini Apps. For a long time we tested performance the way most web developers do: Chrome DevTools, device mode, CPU throttling on. The pages looked fine there. Then we tried the games on a few older phones and found screens with nothing moving on them running at 15 fps. Device mode changes the viewport and slows the CPU, but it's still Chrome's engine on your laptop's GPU. On iOS, Telegram runs your game in WebKit. On Android it uses a system WebView on whatever GPU the phone has. Nearly …",
+    "published": "Mon, 09 Nov 2026 16:04:46 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-09T18:08:44.265155"
+  },
+  "34dc27913996": {
+    "id": "34dc27913996",
+    "title": "Unreal Niagara Arrays (set/add data via For-Loop)",
+    "link": "https://realtimevfx.com/t/unreal-niagara-arrays-set-add-data-via-for-loop/32044",
+    "summary": "I provided some infos already here but I think this topic is too important (and niagara arrays too annoying) to burry it into a different thread. TL;DR You think by adding an attribute like Particles.Array[] , each particle gets its own unique array? Wrong! Arrays are shared data! Emitter.Array[] is shared per Emitter Particles.Array[] is shared per System (!) Arrays need to be set (not enough to just defined them in Parameters &gt; Emitter Attributes . The add/set behavior changes depending if Max Elements are defined or not! Adding/Setting Array Data via For-Loop in a Scratch Pad only works: for GPU Emitters In Particle Update &amp; Max Elements &gt; 0 : Loop is executed x times per particle &amp; per tick (!) Fail Behavior when Adding/Setting Data via For-Loop in Emitter Spawn : Loop is executed only once Emitter Update : Loop is executed only once per tick Particle Spawn &amp; Max Elements &gt; 0 : Loop is executed only once per particle (!) Particle Spawn &amp; Max Elements == 0 : Loop is not executed Particle Update &amp; Max Elements == 0 : Loop is not executed AI “Proof” I’ve uploaded these files from the Unreal Engine Source Code to Google AI und asked Do particles get their own unique array ? No, individual particles do not get their own unique arrays. Instead, there is one single array per Niagara System Instance (or Emitter Instance) . All particles within that context share and point to this exact same array. NiagaraDataInterfaceArrayNiagaraID.h NiagaraDataInterfaceArrayFunctionLibrary.h NiagaraDataInterfaceArrayImpl.h NiagaraDataInterfaceArray.h How to Debug Niagara Arrays ? There are two functions for getting data into your array. Open Attribute Spread Sheet Click Capture , Select your Array How to Add/Set Data via Scratch Pad There are two functions to get data into your array: Live Examples Setup # 1 GPU Emitter, spawning 3 Particles 3 Array Elements manually added [0.0 ,0.0, 0.0] as test Max Elements: 0 Fill My Array writes to Emitter.MyArray[] in Emitter Update using Add() Result Only 1 array element is added per tick (instead of 10, like the for-loop demands) Even with max elements at 100 it does not change anything. Setup # 2 GPU Emitter, spawning 3 Particles 3 Array Elements manually added [0.0 ,0.0, 0.0] as test Max Elements: 0 Fill My Array writes to Particles.MyArray[] in Particle Spawn using Add() Result Nothing is added to the array Setting Max Elements to 100 makes it work. Now we get 10 data entries per particle . 1 post - 1 participant Read full topic",
+    "published": "Mon, 09 Nov 2026 11:58:59 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-11-09T18:08:37.715856"
+  },
+  "d3d28a1a4a80": {
+    "id": "d3d28a1a4a80",
+    "title": "Report: Star Wars Zero Company developer Bit Reactor lays off an unspecified number of staff",
+    "link": "https://www.gamedeveloper.com/business/report-star-wars-zero-company-developer-bitreactor-lays-off-an-unspecified-number-of-staff",
+    "summary": "A few months after the game's release, it looked like maybe Bit Reactor was putting itself back together, but a new report indicates that the Star Wars tactical title's developer is suffering layoffs.",
+    "published": "Mon, 09 Nov 2026 17:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-09T18:08:46.888599"
+  },
+  "e017a48cee7d": {
+    "id": "e017a48cee7d",
+    "title": "World of Warcraft: Forever is the MMORPG's biggest launch as measured by peak concurrent players",
+    "link": "https://www.gamedeveloper.com/pc/world-of-warcraft-forever-is-the-mmorpg-s-biggest-launch-in-player-numbers",
+    "summary": "The highly-anticipated launch from Blizzard has been a bright spot in the Xbox portfolio.",
+    "published": "Mon, 09 Nov 2026 16:39:06 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-09T18:08:46.888617"
   }
 }
