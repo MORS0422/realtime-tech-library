@@ -17878,5 +17878,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-09T18:08:46.888617"
+  },
+  "7dbd23bfa415": {
+    "id": "7dbd23bfa415",
+    "title": "Monday dev note: polish continues",
+    "link": "https://gamedev.net/blogs/entry/2298641-monday-dev-note-polish-continues",
+    "summary": "Quick Monday update on Primeval. The quiet build we put on itch last week is still the live one, with some performance work under the hood. The bigger graphics pass (trees, grass, buildings and animations) is still in progress and is not in the live build yet, so we'll share it when it's ready rather than rush it. Meanwhile polish continues on animations, unit grouping and movement, sound effects and balance. The current build already has dinos with personalities and fluid movement, a real life cycle where dinos reproduce, eat and fight each other, hunger, thirst, weather and carcass eating, …",
+    "published": "Tue, 10 Nov 2026 02:14:39 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-10T02:29:04.578661"
+  },
+  "84e6f5b97cc0": {
+    "id": "84e6f5b97cc0",
+    "title": "Creating IOS/Android Game",
+    "link": "https://gamedev.net/forums/topic/720809-creating-iosandroid-game",
+    "summary": "Hello, my name is Marshall. For some time now, I have been planning to create a mobile game that leaves a lasting impression—one completely free of advertisements or \"pay-to-win\" mechanics. In short, the game will focus primarily on dungeons and boss raids, allowing up to 6 players to team up and coordinate their actions. Through gameplay, players will earn a currency used to upgrade their characters. The experience is designed to be fun and accessible for newcomers, while remaining engaging enough to encourage repeated play—whether solo or with friends. Unfortunately, I cannot share more specific details at this stage, but …",
+    "published": "Tue, 10 Nov 2026 00:59:10 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-10T02:29:04.578697"
+  },
+  "97744f249479": {
+    "id": "97744f249479",
+    "title": "Releasing a Game Demo? Legal Steps to Protect It from AI Clones",
+    "link": "https://gamedev.net/tutorials/business/business-and-law/releasing-a-game-demo-legal-steps-to-protect-it-from-ai-clones-r6177",
+    "summary": "RELEASING A GAME DEMO? LEGAL STEPS TO PROTECT IT FROM AI CLONES More than 8,000 game demos were showcased at Steam Next Fest in October, but some planned demos never made it. For example, Alliance Arts canceled the public demo of “Drunken Goddess Reflux” just a few days before the event. That same week, Digital Sun, the studio behind “Moonlighter,” canceled a planned public playtest for “ReVamp” and opted instead for a closed Discord test. Both cited the same reason: the fear that someone might recreate the game using AI tools before its release. The risk is real, as copycats …",
+    "published": "Mon, 09 Nov 2026 23:17:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-10T02:29:04.578735"
+  },
+  "85faeea9ff9a": {
+    "id": "85faeea9ff9a",
+    "title": "Tips for PS1-style horror VFX in Unity, and planning layered effects?",
+    "link": "https://realtimevfx.com/t/tips-for-ps1-style-horror-vfx-in-unity-and-planning-layered-effects/32050",
+    "summary": "Hey all! I’m a game art student in NZ, about to start making retro PS1-style horror VFX in Unity URP (blood, muzzle flashes, flickering lights, small explosions). I’ve read the Getting Started thread, which was super helpful. A couple of things it didn’t cover that I’m unsure about: For a PS1 look (pixelated textures, hard edges, no soft particles), is there anything I should know early on? How do you plan bigger effects like explosions that mix 3D mesh shapes and particles? How do you decide what’s a mesh, a flipbook, or plain particles? Any tips or examples would really help. Thanks heaps! 1 post - 1 participant Read full topic",
+    "published": "Tue, 10 Nov 2026 00:47:35 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-10T02:28:57.628225"
+  },
+  "7e04c8d5105c": {
+    "id": "7e04c8d5105c",
+    "title": "UV issue in unreal",
+    "link": "https://realtimevfx.com/t/uv-issue-in-unreal/32048",
+    "summary": "Hi everyone, I’m running into an issue with a mesh I’m importing from Blender to Unreal Engine. I’ve tried to solve it a few different ways without success. I set up the UVs in Blender specifically for a plaster effect: Here are my Unreal import settings and UV inspector: [grid] When testing the UVs with a simple checker grid material, the issue shows up here: Uploading: applied material issue.jpg… And here is how the issue looks with the full plaster material applied: I’ve tried tweaking several settings on import, but nothing has worked so far. Any suggestions on what might be causing this? 2 posts - 2 participants Read full topic",
+    "published": "Mon, 09 Nov 2026 23:46:43 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-11-10T02:28:57.628283"
   }
 }
