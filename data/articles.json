@@ -17928,5 +17928,65 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-11-10T02:28:57.628283"
+  },
+  "1514e233b57e": {
+    "id": "1514e233b57e",
+    "title": "Adobe releases Photoshop 28.0",
+    "link": "https://www.cgchannel.com/2026/11/adobe-releases-photoshop-28-0/",
+    "summary": "Big update to the image-editing software adds eye-catching AI relighting and trace erase features. Discover how they work.",
+    "published": "Tue, 10 Nov 2026 14:30:18 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-10T15:59:45.867964"
+  },
+  "74880e784e8a": {
+    "id": "74880e784e8a",
+    "title": "Otoy releases OctaneRender 2027.1 in beta",
+    "link": "https://www.cgchannel.com/2026/11/otoy-releases-octanerender-2027-1/",
+    "summary": "Updated for Beta 1: next major version of the GPU renderer adds a MCP Server, for building and rendering scenes with AI tools.",
+    "published": "Mon, 09 Nov 2026 17:00:43 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-10T15:59:45.867987"
+  },
+  "276cd66679d9": {
+    "id": "276cd66679d9",
+    "title": "Chaos releases Corona 16 for 3ds Max and Cinema 4D",
+    "link": "https://www.cgchannel.com/2026/11/chaos-releases-corona-16-for-3ds-max-and-cinema-4d/",
+    "summary": "Architectural renderer gets support for relighting Gaussian Splats and new parallax interiors system. Check out all the other new features.",
+    "published": "Mon, 09 Nov 2026 15:13:09 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-10T15:59:45.868000"
+  },
+  "4b9f12c1ca10": {
+    "id": "4b9f12c1ca10",
+    "title": "Watch WeFX’s visceral VFX breakdown for Neagley",
+    "link": "https://www.cgchannel.com/2026/11/see-wefxs-visceral-vfx-breakdown-for-crime-drama-neagley/",
+    "summary": "Check out the studio's detailed making-of for the Reacher spin-off series, including a pivotal - and wince-inducing - train accident.",
+    "published": "Mon, 09 Nov 2026 10:47:59 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-10T15:59:45.868012"
+  },
+  "cade9849932e": {
+    "id": "cade9849932e",
+    "title": "DevLog #1: Building Construction",
+    "link": "https://gamedev.net/blogs/entry/2298642-devlog-1-building-construction",
+    "summary": "We're continuing to work on XIRI: Oasis Cities and refining how buildings are assembled throughout the construction process. Construction Process - YouTube Short There's still work to be done, but we're making steady progress and will share more behind-the-scenes updates along the way. To keep up with development, you can follow us on our channels: YouTube Instagram Wishlist on Steam Thanks for following our progress and see you next time!",
+    "published": "Tue, 10 Nov 2026 13:13:30 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-10T15:59:54.512896"
+  },
+  "87c2476c5224": {
+    "id": "87c2476c5224",
+    "title": "Besimjanii: Sketch #70 Ghostly - Noosphere Rift",
+    "link": "https://realtimevfx.com/t/besimjanii-sketch-70-ghostly-noosphere-rift/32055",
+    "summary": "Hi everyone! This is my first sketch here. I’m learning real-time VFX in Unreal Engine 5.8 and Niagara. Idea: a rift in the air of the Zone, inspired by the S.T.A.L.K.E.R. universe. Through the crack you can see the Noosphere: the collective mind of humanity. Inside, ghostly clots of human thoughts drift in a grey void. Some are light, some are dark, because human thoughts are both good and bad. The idea and the story are mine. To visualize the first concept, I used an AI image generator: I described my idea and used the result only as a reference. All textures, materials and Niagara systems in the effect are made by me by hand. The idea also changed a lot during the work. Any feedback is welcome! Initial concept (AI-generated reference). The idea changed during the work: the rift became a thin diagonal crack, and instead of a mirror world, the Noosphere is visible inside. 2 posts - 1 participant Read full topic",
+    "published": "Tue, 10 Nov 2026 11:55:07 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-11-10T15:59:46.979536"
   }
 }
