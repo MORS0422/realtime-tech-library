@@ -17988,5 +17988,45 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-11-10T15:59:46.979536"
+  },
+  "a3e298e07a5b": {
+    "id": "a3e298e07a5b",
+    "title": "Adobe releases After Effects 27.0",
+    "link": "https://www.cgchannel.com/2026/11/adobe-releases-after-effects-27-0/",
+    "summary": "Check out the new features in the compositing and motion graphics app, from changes to the 3D toolset to the new agentic AI Assistant.",
+    "published": "Tue, 10 Nov 2026 16:56:07 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-11T00:22:29.313683"
+  },
+  "4d9fb3b9f4fe": {
+    "id": "4d9fb3b9f4fe",
+    "title": "Material & Niagara Collision - Smokebomb Update",
+    "link": "https://gamedev.net/blogs/entry/2298648-material-niagara-collision-smokebomb-update",
+    "summary": "It's been a while since I have been able to sit down and work on my UE5 journey. After a totally deserved vacation and the release of WoW Forever, I have been a bit busy. But I am finally back at work in UE5, and I have revisited my Smoke Bomb. One of my greatest points of frustration was the appearance of the smoke. It was bright red and somewhat glowy, which is NOT what we wanted. I beat my head against the wall for a while until I realized there are different blend modes inside of materials. With a …",
+    "published": "Tue, 10 Nov 2026 18:46:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-11-11T00:22:41.250319"
+  },
+  "0c7916727e40": {
+    "id": "0c7916727e40",
+    "title": "ARMv7 hard-float: argument corruption in native calls across the register/stack boundary",
+    "link": "https://gamedev.net/forums/topic/720811-armv7-hard-float-argument-corruption-in-native-calls-across-the-registerstack-boundary",
+    "summary": "I found an argument-marshalling bug in the ARM32 hard-float implementation of native calls in as_callfunc_arm.cpp. It can corrupt uint64/int64 arguments and, for some asCALL_CDECL_OBJLAST signatures, the object pointer. The basic failure is reproducible with the unmodified upstream AngelScript 2.39.0 engine. It occurs with ordinary AngelScript code calling a registered C++ function. The upstream reproduction used the source matching v2.39.0, commit cd01f495. Minimal example Register this native function: static asQWORD SelectU64(bool gate, asQWORD first, asQWORD second) { return gate ? second : first; } engine-&gt;RegisterGlobalFunction(\"uint64 SelectU64(bool, uint64, uint64)\", asFUNCTION(SelectU64), asCALL_CDECL); Then compile and execute: uint64 Run() { return SelectU64(true, uint64(4), uint64(16)); …",
+    "published": "Tue, 10 Nov 2026 22:34:58 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-11T00:22:41.250354"
+  },
+  "d7f7e70b6045": {
+    "id": "d7f7e70b6045",
+    "title": "Take-Two CEO: Grand Theft Auto VI pre-orders are exceeding expectations",
+    "link": "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations",
+    "summary": "It's not entirely clear what those expectations were, but Take-Two Interactive CEO Strauss Zelnick is boasting about the game's sales on the eve of its long-anticipated release.",
+    "published": "Tue, 10 Nov 2026 17:49:05 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-11T00:22:43.514648"
   }
 }
