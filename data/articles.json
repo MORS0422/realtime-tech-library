@@ -18028,5 +18028,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-11T00:22:43.514648"
+  },
+  "656e398af206": {
+    "id": "656e398af206",
+    "title": "Blender 5.3 is here: discover its 5 key features",
+    "link": "https://www.cgchannel.com/2026/11/blender-5-3-is-here-discover-its-5-key-features/",
+    "summary": "Read our pick of the latest features in the open-source 3D software, from 3D Gaussian Splatting to DLSS denoising and layered compositing.",
+    "published": "Wed, 11 Nov 2026 10:10:21 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-11T15:46:18.903129"
+  },
+  "2e41e9e24186": {
+    "id": "2e41e9e24186",
+    "title": "Non-programming options for cousin.",
+    "link": "https://gamedev.net/forums/topic/720819-non-programming-options-for-cousin",
+    "summary": "I have a cousin who wants to make 1 game in their life. Any recommendations for a non-programmer?",
+    "published": "Wed, 11 Nov 2026 11:47:33 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-11T15:46:26.941444"
   }
 }
