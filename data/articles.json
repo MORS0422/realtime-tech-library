@@ -18108,5 +18108,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-12T01:45:45.956856"
+  },
+  "72e9f5e02b28": {
+    "id": "72e9f5e02b28",
+    "title": "Improved AI Behaviors + Niagara Effect",
+    "link": "https://gamedev.net/blogs/entry/2298655-improved-ai-behaviors-niagara-effect",
+    "summary": "It seems I am still hung up on the small details, because I spent a chunk of the day working on the enemy AI's behaviors. I wasn't a fan of having to chase my enemy down to test my features, so I went ahead and decided to make a proximity alert for the enemy AI. Now, I am not sure if there is a better alternative, but I managed this with a sphere collision on the AI enemy blueprint and created an overlap event that, when triggered, would set the \"see player\" behavior of the AI behavior tree to true. …",
+    "published": "Thu, 12 Nov 2026 05:13:54 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-11-12T16:29:33.295723"
+  },
+  "2ecb60f5551b": {
+    "id": "2ecb60f5551b",
+    "title": "Nvidia CEO Jensen Huang resigns after potentially damaging marital affairs",
+    "link": "https://www.gamedeveloper.com/business/nvidia-ceo-jensen-huang-resigns-after-scandal",
+    "summary": "After multiple legally-compromising affairs came to light in the public, Nvidia CEO Jensen Huang has tendered his resignation as the head of one of the largest companies in the world.",
+    "published": "Thu, 12 Nov 2026 16:15:03 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-12T16:29:34.797223"
   }
 }
