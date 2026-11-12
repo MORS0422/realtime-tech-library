@@ -18048,5 +18048,65 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-11-11T15:46:26.941444"
+  },
+  "6bd199c10e51": {
+    "id": "6bd199c10e51",
+    "title": "Checklists instead of manual tracking: automatic task progress updates",
+    "link": "https://gamedev.net/blogs/entry/2298653-checklists-instead-of-manual-tracking-automatic-task-progress-updates",
+    "summary": "A card on the board and a checklist item can represent the same task. Bind them, and ticking the item automatically completes the card, while a task status change shows up in the checklist. The element's readiness percentage recalculates itself. Read more",
+    "published": "Wed, 11 Nov 2026 13:27:59 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-12T01:45:43.089489"
+  },
+  "f8adbdb91975": {
+    "id": "f8adbdb91975",
+    "title": "Vertex Animation in Games: How to Make It Art Directable, Performant, and Shippable",
+    "link": "https://realtimevfx.com/t/vertex-animation-in-games-how-to-make-it-art-directable-performant-and-shippable/32063",
+    "summary": "Making vertices move is easy. The reason it breaks in production is that most people treat it as a one-stage trick, when it’s actually a system: spaces, data, time, masks, pivots, passes. I’ve answered the “where do I even start with vertex animation?” question enough times that it needed to live somewhere. So it does now. It’s the full picture I’ve learned to teach - the building blocks every piece of motion is made from, and the production checks that decide whether your effect survives once it leaves the demo scene. The goal was always art-direction first: motion an artist can actually control, not just motion that plays back. Built and tested in Unity URP, with Blender 5.1 for the authoring and baking side. The failure states you’ll probably recognize: shadows freeze while the leaves move the whole forest sways in perfect unison, like a machine the effect pops out near the edge of the screen TAA smears geometry that looks correct https://www.artstation.com/blogs/degged/PQbOA/vertex-animation-in-games-how-to-make-it-art-directable-performant-and-shippable 2 posts - 2 participants Read full topic",
+    "published": "Wed, 11 Nov 2026 18:07:19 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-12T01:45:36.295443"
+  },
+  "f5c5aa67fa13": {
+    "id": "f5c5aa67fa13",
+    "title": "PlayStation 5 crosses 100 million consoles sold",
+    "link": "https://www.gamedeveloper.com/console/playstation-5-ships-100-million-consoles",
+    "summary": "The 2020 console has exceeded 100 million consoles shipped, matching much of the PlayStation console line.",
+    "published": "Wed, 11 Nov 2026 19:15:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-12T01:45:45.956808"
+  },
+  "2b1e95455478": {
+    "id": "2b1e95455478",
+    "title": "Tekken creator says he wishes hardware like the Xbox Series S 'wouldn’t be released'",
+    "link": "https://www.gamedeveloper.com/console/katsuhiro-harada-i-wish-hardware-like-the-xbox-series-s-wouldnt-be-released",
+    "summary": "The former general manager of Bandai Namco has some frustrations with Xbox's entry-level console and is not afraid to share them on a stage with other project leaders.",
+    "published": "Wed, 11 Nov 2026 18:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-12T01:45:45.956834"
+  },
+  "b378cfa756d0": {
+    "id": "b378cfa756d0",
+    "title": "The Legend of Zelda: Ocarina of Time exceeds 5 million copies sold in first week",
+    "link": "https://www.gamedeveloper.com/business/the-legend-of-zelda-ocarina-of-time-exceeds-5-million-copies-solid-in-first-week",
+    "summary": "The remake of the 1998 game becomes the second-highest selling Switch 2 title in only four days.",
+    "published": "Wed, 11 Nov 2026 17:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-12T01:45:45.956845"
+  },
+  "aa95e60c90ca": {
+    "id": "aa95e60c90ca",
+    "title": "Report: PlayStation's Fairgames cancelled, no devs to be laid off",
+    "link": "https://www.gamedeveloper.com/console/report-playstation-s-fairgame-cancelled-but-haven-studios-remains",
+    "summary": "After being announced in 2023, the online multiplayer shooter will never see the light of day, according to a new report.",
+    "published": "Wed, 11 Nov 2026 16:19:51 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-12T01:45:45.956856"
   }
 }
