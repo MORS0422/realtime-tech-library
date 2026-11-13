@@ -18208,5 +18208,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-13T00:50:24.144125"
+  },
+  "4f13db57fb49": {
+    "id": "4f13db57fb49",
+    "title": "Building Tarot Gothique 2026: a gothic French tarot card game as a mobile app",
+    "link": "https://gamedev.net/blogs/entry/2298663-building-tarot-gothique-2026-a-gothic-french-tarot-card-game-as-a-mobile-app",
+    "summary": "Tarot Gothique 2026 is a French tarot card game (jeu de tarot) with a gothic art direction, built as a mobile app for Android, with a Windows edition planned. Here are a few things I learned while making it. One codebase, two very different screens The game is written in Flutter. The same code runs on phones in portrait and on tablets and PCs in landscape, so most of the work went into layouts that keep every card readable: the table, the hand and the score panels all scale from the available space instead of fixed sizes. A 3D home …",
+    "published": "Fri, 13 Nov 2026 10:18:24 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-13T15:51:39.836916"
+  },
+  "5d282167c5e5": {
+    "id": "5d282167c5e5",
+    "title": "[Android] Neon Swarm: my first game, a mech survivor roguelike made with Godot (feedback welcome)",
+    "link": "https://gamedev.net/forums/topic/720751-android-neon-swarm-my-first-game-a-mech-survivor-roguelike-made-with-godot-feedback-welcome",
+    "summary": "Hi everyone, I'm a solo developer, and Neon Swarm is the first game I've ever released. I made it with Godot 4, and it came out on Google Play this week. I would be really grateful for your feedback. What it is: a portrait survivor roguelike. You steer a mech, your weapons fire on their own, and you level up mid-run by picking weapons and modules from three cards. 15 weapons, each with an evolved form, plus fusions 6 pilots with their own abilities, 8 maps and bosses No energy system. Ads are optional rewarded ads only, never during a …",
+    "published": "Fri, 13 Nov 2026 15:15:53 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-13T15:51:39.836951"
+  },
+  "0aa47c8bcb7a": {
+    "id": "0aa47c8bcb7a",
+    "title": "Rhythm learning",
+    "link": "https://realtimevfx.com/t/rhythm-learning/32085",
+    "summary": "Hi, veterans — I’m a newcomer who just started learning game VFX. I’d like to know why everyone keeps talking about this thing called “timing/rhythm.” I tried recreating some effects before, but a lot of people said my timing was off. I want to know — is timing something you need to study specifically? 1 post - 1 participant Read full topic",
+    "published": "Fri, 13 Nov 2026 13:02:11 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-13T15:51:16.023797"
+  },
+  "a7489db050db": {
+    "id": "a7489db050db",
+    "title": "Witcher 3 devs use AI to help Polish voice actor reprise role of Geralt after stroke",
+    "link": "https://www.gamedeveloper.com/production/polish-voice-actor-for-geralt-returns-for-the-witcher-3-with-ai",
+    "summary": "After a stroke left him unable to do the voice of the Witcher series' main character anymore, Jacek Rozenek consented to using AI for Witcher 3's next expansion.",
+    "published": "Fri, 13 Nov 2026 15:28:34 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-13T15:51:41.284159"
   }
 }
