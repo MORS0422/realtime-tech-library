@@ -18248,5 +18248,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-13T15:51:41.284159"
+  },
+  "763d0d8ef20c": {
+    "id": "763d0d8ef20c",
+    "title": "Devlog 2026-11-13",
+    "link": "https://gamedev.net/blogs/entry/2298666-devlog-2026-11-13",
+    "summary": ".o0O Happy Friday! It's been a productive Infinite Stars week, despite the many, many day job challenges I've been facing lately. (AI seems to make everyone an expert on everything these days. If you ask an AI, 'tell me why my service provider is wrong. Why should I not pay for the services I've received?' it's going to do what you asked and tell you why I'm wrong, and why you shouldn't pay me. Depending on how you phrased your prompt (eg, Am I being an idiot? Is my service provider right?) , it's very unlikely that your enterprise solution …",
+    "published": "Fri, 13 Nov 2026 15:37:18 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-14T00:35:54.850410"
+  },
+  "fdc4e557eb1e": {
+    "id": "fdc4e557eb1e",
+    "title": "Rase-Grotte — a tight helicopter-in-caves game, 16 worlds (Android, free)",
+    "link": "https://gamedev.net/forums/topic/720831-rase-grotte-a-tight-helicopter-in-caves-game-16-worlds-android-free",
+    "summary": "Hi, we're Hoplette, a small studio, and Rase-Grotte is our first game. The idea is deliberately tight: a helicopter in caves, hold to climb, release to dive. Around that rule we built 16 worlds to explore, 8 on Planet 1 and 8 on Vaporèle. The mood shifts from a disco glacier to a volcano that bursts into popcorn, then to Vaporèle's copper tunnels. The game is available in 16 languages. Players unlock skins and trails in the Hangar, grab bonus bubbles, and compare scores on Play Games leaderboards. Each mode has its own record: Classic, Hardcore and Ultra Hardcore. Free, …",
+    "published": "Fri, 13 Nov 2026 23:38:37 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-14T00:35:54.850435"
+  },
+  "7e4434556969": {
+    "id": "7e4434556969",
+    "title": "Newly-proposed EU law could place tight restrictions on free-to-play games",
+    "link": "https://www.gamedeveloper.com/business/european-union-proposes-digital-fairness-act-which-could-have-major-effects-on-game-development",
+    "summary": "The Digital Fairness Act, if adopted, could massively change the way some games are developed and published not just in Europe, but across the globe.",
+    "published": "Fri, 13 Nov 2026 18:32:59 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-14T00:35:58.474197"
+  },
+  "fb915a79ef75": {
+    "id": "fb915a79ef75",
+    "title": "Development secrets of Dressmaker, ft. Ruan Rothmann &amp; Sara Laubscher",
+    "link": "https://www.gamedeveloper.com/pc/development-secrets-of-dressmaker-ft-ruan-rothmann-sara-laubscher",
+    "summary": "Dressmaker is the kind of story indie devs dream of—so what did it take to bring the surprise hit of 2026 to life?",
+    "published": "Fri, 13 Nov 2026 16:05:43 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-14T00:35:58.474220"
   }
 }
