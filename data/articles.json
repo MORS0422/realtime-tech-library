@@ -18298,5 +18298,55 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-11-14T14:42:08.408149"
+  },
+  "3bf880e34b8c": {
+    "id": "3bf880e34b8c",
+    "title": "See how Framestore created Odin for Heart of the Beast",
+    "link": "https://www.cgchannel.com/2026/11/see-how-framestore-created-odin-the-cg-dog-for-heart-of-the-beast/",
+    "summary": "Watch the studio's VFX breakdown for the survival thriller, including the tissue simulation for wolves, bears and Odin the German Shepherd.",
+    "published": "Sat, 14 Nov 2026 04:30:06 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-15T15:12:02.421709"
+  },
+  "2494669bb12f": {
+    "id": "2494669bb12f",
+    "title": "Game-ready 3D characters: how to build a cast that fits your world",
+    "link": "https://www.cgchannel.com/2026/11/game-ready-3d-characters-how-to-build-a-cast-that-fits-your-world/",
+    "summary": "[Sponsored] Artists from online 3D marketplace RenderHub reveal how to create great NPC models - and what to look for when buying one.",
+    "published": "Thu, 12 Nov 2026 11:00:57 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-15T15:12:02.421724"
+  },
+  "36f68dfb0322": {
+    "id": "36f68dfb0322",
+    "title": "Discover how EDI created a photorealistic CG jaguar for Ferine",
+    "link": "https://www.cgchannel.com/2026/11/see-how-edi-created-a-photorealistic-cg-jaguar-for-ferine/",
+    "summary": "Watch the VFX studio's narrated breakdown for the horror movie, covering the shader development, fur groom and Maya character rig.",
+    "published": "Thu, 12 Nov 2026 08:47:12 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-15T15:12:02.421731"
+  },
+  "0106ee260bd3": {
+    "id": "0106ee260bd3",
+    "title": "[WIP][Browser] Sniper em Chamas: a free pixel-art action campaign in four languages",
+    "link": "https://gamedev.net/forums/topic/720801-wipbrowser-sniper-em-chamas-a-free-pixel-art-action-campaign-in-four-languages",
+    "summary": "Sniper em Chamas is a free, playable browser action campaign from Cogulezo Games, now available on itch.io . It mixes varied stages, pixel-art visuals, video scenes and 8-bit-style audio. Play the current preview: https://cogulezo-games.itch.io/sniper-em-chamas This is a work in progress, not a complete campaign. The current version ends with “Continua em breve” (“To be continued”). Text/interface languages: Brazilian Portuguese, English, Romanian and Japanese. Choose a language in the game menu. The translations were AI-assisted; Romanian and Japanese have not yet had native-speaker review. Original audio is preserved, with no new dubbing. Play with mouse/keyboard or touch/gestures. Controls vary by stage, …",
+    "published": "Sun, 15 Nov 2026 10:08:29 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-15T15:12:10.753976"
+  },
+  "cd10e3b50f63": {
+    "id": "cd10e3b50f63",
+    "title": "Jacob // VFX Sketchbook",
+    "link": "https://realtimevfx.com/t/jacob-vfx-sketchbook/32099",
+    "summary": "Hello! It’s been a while since I’ve posted on these forums~ ^^ I realized that, while I have previously posted some one-off projects, I never ended up making a little sketchbook thread for myself. I am finally sitting down to do this today, since I’ve really been meaning to find a space where I can more actively share and keep track of the various WIPs and R&amp;D I’m doing as I work on skill-building and leveling up my VFX portfolio. The past few years of pursuing a pivot back into games as a VFX artist have been a bit slow and scattered, for various reasons. It’s resulted in me not building out a solid portfolio of work or landing a VFX job yet, and as time went on I got more and more in my head (and less and less motivated/feeling comfy enough to put works/studies/strugglest/etc out there). I admittedly feel pretty bad about not being as far along as I would have liked to be at this point as a result. I know at present the industry is also upside down and navigating that has been a little weird as someone trying to break back in. But regardless, I’m reminding myself that the only way is forward, that there are still opportunities out there, and that ultimately I think VFX is cool and it’s a skill I want to get really good at, and I want to tell stories and build worlds in games! So, I’m aiming to just get out of my own way and post here more regularly so that I can get better at keeping myself accountable as I get back into a VFX study/creation routine, put myself out there more by posting work (even when things aren’t “perfect”), and hopefully connect more again with people in the VFX and tech art communities - To start off on sharing some WIPs, lately I’ve been working on some semi-realistic character skill abilities. I really like the ARPG style (Lost Ark, PoE2, Diablo, etc.), and I’ve got a handful of ability effects in the works that I’m making in that sort of style and putting together just as an Unreal sequencer timeline effect. When I’m done with that batch of planned portfolio pieces though, my plan is to shift gears to work on a little vertical slice playable demo of an ARPG scene where you can control a character and press buttons to activate abilities/attack enemies/destruct parts of the environment/etc. I think an interactive scene like that, even if simple, will be fun to create and hopefully make for a nice portfolio piece too! After that, there’s a different vertical slice interactive portfolio idea I’d like to build that will be more of an FPS destruction playground, since I am really enjoying using Houdini for various sims and want to practice some of those skills in an interactive demo scene as well. But for now, the current effect I’m working on finishing up is this dagger combo attack. There were some techniques I learned a few months ago when I went through Hailee’s VFX course on Coloso that I have done my best to internalize and rebuild, and am now trying to implement in my own skill ability effect: DaggerSkill v7 WIP Next steps on this: I’ve already fixed some of the initial slashes appearing slightly too early, and I turned off the camera bloom since that was adding some extra (and distracting) color that I wasn’t intending. I’m still trying to figure out how to best convey the stun effect, since the current yellow color and circular pulsing shape language of it isn’t reading right (feedback welcome!). And I’m not loving the meshes and shapes I’m currently using for the final dash-through attack so I want to tweak that a bit more (and am looking through references to see what might make sense). I also would ideally have the skeleton enemy dissolve away at the end after being downed (I just haven’t figured out how to do that yet haha). Some other feedback that I got is that some of the colors are still a little too bright, making it look a little more stylized than semi-realistic. So I’m currently adjusting the materials and colors so that the textures on the effects are a little more visible and ideally feels more grounded in the world. After I finish those updates, I’m not sure how much longer I want or should polish it, but ideally I’ll wrap it up soon and move on. I’d like to make sure I’m posing higher quality than not pieces to my portfolio, but at the same time I think right now getting momentum in creating again and making a bunch of different kinds of effects much more rapidly will be beneficial. So even if it this one ends up looking a little scrungly, I will try and get it close enough and move on to the next piece. Anyway thanks for reading, and feedback is welcome if you have any thoughts! 1 post - 1 participant Read full topic",
+    "published": "Sat, 14 Nov 2026 23:43:41 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-11-15T15:12:03.237985"
   }
 }
