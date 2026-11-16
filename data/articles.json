@@ -18378,5 +18378,55 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-11-15T23:40:59.219542"
+  },
+  "29742960c637": {
+    "id": "29742960c637",
+    "title": "Seven Checks Before an Environment Leaves Blockout",
+    "link": "https://gamedev.net/blogs/entry/2298673-seven-checks-before-an-environment-leaves-blockout",
+    "summary": "Detailing an environment too early is one of the most expensive mistakes a small team can make. Once a level is covered in final meshes, decals and lighting, every layout change costs hours instead of minutes. A short review gate at the end of blockout catches most of these problems while they are still cheap to fix. Here is the checklist we use as a starting point. 1. Scale is locked to the player Drop the player character, a door, a stair step and a crate into the scene and walk the space in first or third person. Doorways that …",
+    "published": "Mon, 16 Nov 2026 00:49:04 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-16T17:46:44.462795"
+  },
+  "f5addbb1b5ed": {
+    "id": "f5addbb1b5ed",
+    "title": "NO AI Looking for a small team to help develop an existing Unreal Engine game",
+    "link": "https://gamedev.net/forums/topic/720850-no-ai-looking-for-a-small-team-to-help-develop-an-existing-unreal-engine-game",
+    "summary": "I've been developing an indie action roguelite in Unreal Engine for around a year and I'm looking to bring together a small team of people to help take it to the next stage. The game is a third-person combat-focused roguelite, combining the fast-paced, arena-based combat of Hades with the action combat style of Zelda and Soulslike games. The project already has a playable tech demo, most of the core systems are in place, and I have an onboarding document and development plan outlining the game, its direction and what's left to do. I'm currently looking for people interested in joining …",
+    "published": "Mon, 16 Nov 2026 15:52:14 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-11-16T17:46:44.462823"
+  },
+  "d5d095052aaa": {
+    "id": "d5d095052aaa",
+    "title": "Paradox Interactive names new CEO",
+    "link": "https://www.gamedeveloper.com/business/paradox-interactive-names-a-new-ceo",
+    "summary": "Paradox Interactive's current CEO, Fredrik Wester, is retiring after having taken the reins again, passing on duties to deputy CEO Mattias Lilja.",
+    "published": "Mon, 16 Nov 2026 17:15:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-16T17:46:47.468257"
+  },
+  "87e5acac0ebc": {
+    "id": "87e5acac0ebc",
+    "title": "Xbox teases Project Helix as 'a console that is also capable of playing games from your PC'",
+    "link": "https://www.gamedeveloper.com/console/new-xbox-codenamed-helix-gets-a-few-new-details",
+    "summary": "Xbox has revealed some more information about the upcoming console, though stops short of anything concrete or explanatory.",
+    "published": "Mon, 16 Nov 2026 16:36:14 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-16T17:46:47.468275"
+  },
+  "e9b51b2560d1": {
+    "id": "e9b51b2560d1",
+    "title": "Unity's new fellowship program offers cash and dedicated support for indie devs",
+    "link": "https://www.gamedeveloper.com/business/unity-to-support-indies-with-cash-and-dedicated-support-through-new-fellowship-program",
+    "summary": "Ten selected developers will receive $50,000 as well as 'resources, support, and networks' for the final leg of their development journey.",
+    "published": "Mon, 16 Nov 2026 13:00:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-16T17:46:47.468285"
   }
 }
