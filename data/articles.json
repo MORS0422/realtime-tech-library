@@ -18428,5 +18428,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-16T17:46:47.468285"
+  },
+  "f3fa3ec8dec4": {
+    "id": "f3fa3ec8dec4",
+    "title": "Doomsday Demon Realm — we made a Windows tower defense around path-blocking tiles",
+    "link": "https://gamedev.net/forums/topic/720852-doomsday-demon-realm-we-made-a-windows-tower-defense-around-path-blocking-tiles",
+    "summary": "Hello, we are a small team (OscarStudio), and we made a Windows tower defense called Doomsday Demon Realm. The player defends a demon gate. What we wanted the design to turn on is the map itself. Gold tiles block the path. Cyan tiles deal damage. Instead of only placing units on a lane that is already drawn, you decide how the route is shaped and where the damage actually sits. We also did not want a roster of palette-swap towers. There are 13 demon generals, and each one has its own role. The campaign is 15 maps, with 3 loops, …",
+    "published": "Mon, 16 Nov 2026 23:16:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-17T02:43:28.950884"
+  },
+  "ee8c6f5478c8": {
+    "id": "ee8c6f5478c8",
+    "title": "Shigeru Miyamoto selected as inaugural Legend Award inductee at DICE Awards",
+    "link": "https://www.gamedeveloper.com/console/shigeru-miyamoto-selected-as-inaugural-legend-award-inductee-at-d-i-c-e-awards",
+    "summary": "Nintendo's early game director, creative fellow, and most famous face is named as the first Legend Award winner at the 30th annual D.I.C.E. awards.",
+    "published": "Mon, 16 Nov 2026 20:15:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-17T02:43:30.693324"
+  },
+  "f7ab11599f27": {
+    "id": "f7ab11599f27",
+    "title": "Riot unveils New Dawn, a major overhaul for League of Legends",
+    "link": "https://www.gamedeveloper.com/pc/riot-unveils-new-dawn-the-next-evolution-of-league-of-legends",
+    "summary": "At the League of Legends 2026 championship, Riot revealed a new era for League of Legends with a cinematic that's a bit brief on details.",
+    "published": "Mon, 16 Nov 2026 19:15:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-17T02:43:30.693343"
+  },
+  "c246aeaa991e": {
+    "id": "c246aeaa991e",
+    "title": "'It's common for there to be speculation and headlines:' Unity exec addresses acquisition rumors",
+    "link": "https://www.gamedeveloper.com/business/-it-s-common-for-there-to-be-speculation-and-headlines-unity-exec-addresses-acquisition-rumors",
+    "summary": "Unity senior vice president of product Adam Smith says speculation over M&amp;A tends to follow strong quarterly results.",
+    "published": "Mon, 16 Nov 2026 18:14:49 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-17T02:43:30.693352"
   }
 }
