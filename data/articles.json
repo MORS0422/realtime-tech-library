@@ -18468,5 +18468,55 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-17T02:43:30.693352"
+  },
+  "69e0e12ed970": {
+    "id": "69e0e12ed970",
+    "title": "Profiling a Mid-Range Android Build: A 45-Minute Memory and Frame-Time Pass",
+    "link": "https://gamedev.net/blogs/entry/2298678-profiling-a-mid-range-android-build-a-45-minute-memory-and-frame-time-pass",
+    "summary": "If a large share of your players are on mid-range and budget Android phones, as they are in India and many other mobile-first markets, the device on your desk is probably not the one that decides your reviews. A build that holds 60 fps on a flagship can stutter, heat up and get killed in the background on a phone with 4 GB of RAM and a mid-tier GPU. A full profiling sprint is not always possible. This is a short pass we'd run on every milestone build on one representative mid-range device. It takes about 45 minutes and catches …",
+    "published": "Tue, 17 Nov 2026 14:51:34 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-17T17:17:27.533195"
+  },
+  "f47e3131976f": {
+    "id": "f47e3131976f",
+    "title": "[Released][Android/iOS] Blackout City — a tough robot-swapping logic puzzle",
+    "link": "https://gamedev.net/forums/topic/720857-releasedandroidios-blackout-city-a-tough-robot-swapping-logic-puzzle",
+    "summary": "I just released Blackout City on Android and iOS. It is a turn-based logic puzzle you can play with one thumb — but moving one robot can make you rethink the whole team. Here is the basic swap in action. This gameplay clip uses the Korean interface; English screenshots are included below. Drag one robot along a route and it swaps places with the teammates it passes. Getting that robot to its destination is only part of the problem: you also have to leave the others where the next turn needs them. Move the shield to clear a route, and …",
+    "published": "Tue, 17 Nov 2026 14:06:30 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-17T17:17:27.533226"
+  },
+  "b53fc192174a": {
+    "id": "b53fc192174a",
+    "title": "Nori: Sketch #70 Ghostly - Soul Tear",
+    "link": "https://realtimevfx.com/t/nori-sketch-70-ghostly-soul-tear/32117",
+    "summary": "Hello everyone, I will be part taking part in the challenge as well. Excited to see all of the cool effects everyone will be creating. Idea: My idea for ghostly will be a soul tearing sword slash. The character will attack and enemy after which souls will burst forth from the tear. 1 post - 1 participant Read full topic",
+    "published": "Tue, 17 Nov 2026 15:17:44 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-17T17:17:20.343525"
+  },
+  "539d74180d07": {
+    "id": "539d74180d07",
+    "title": "UnitParticles – Unity-like particle workflow for Blender",
+    "link": "https://realtimevfx.com/t/unitparticles-unity-like-particle-workflow-for-blender/32116",
+    "summary": "Hi everyone Sorry in advance if this is not the right place to post this. I’d like to share a little free tool I’ve been working on, UnitParticles, a Blender addon inspired by Unity’s built-in particle system. I’ve always liked how accessible and straightforward Unity’s particle workflow is, especially for creating simple stylized VFX, so I wanted to bring a similar experience into Blender. The addon recreates Unity-like particle settings and controls, making it easier to quickly create simple particle effects directly in Blender, especially stylized VFX particles. Important Note: UnitParticles was developed with the assistance of Claude for coding, with the goal of creating a tool that gives creative control and flexibility, not replacing any artistic input. I’m personally against using AI to generate finished artistic content or replace the creative work of artists. However, I do see value in AI as a tool for developing artistic tools and improving creative workflows. Please if posting content that use any degree of AI intervention is not allowed I will remove the post immediately. The addon is available for Blender 5.2+ for free I’d love to have any feedback or suggestions Download: Gumroad UnitParticles _ Unity-like easy particles for Blender 5.2+ Do you like how the simple particles system works in Unity? I do and I always wanted an easy way to quickly add simple vfx to blender scenes, especially for... Price: USD 0.0 1 post - 1 participant Read full topic",
+    "published": "Tue, 17 Nov 2026 14:59:23 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-17T17:17:20.343600"
+  },
+  "e7f331147515": {
+    "id": "e7f331147515",
+    "title": "Take-Two lays off Firaxis employees on eve of Grand Theft Auto VI launch",
+    "link": "https://www.gamedeveloper.com/business/take-two-lays-off-firaxis-employees-on-eve-of-grand-theft-auto-vi-launch",
+    "summary": "Firaxis, a sibling studio to Take-Two's Rockstar Games, is known for games like Sid Meier's Civilization VII and Marvel's Midnight Suns.",
+    "published": "Tue, 17 Nov 2026 16:07:35 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-17T17:17:31.562613"
   }
 }
