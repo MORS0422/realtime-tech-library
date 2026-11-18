@@ -18518,5 +18518,65 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-17T17:17:31.562613"
+  },
+  "2981aad6087f": {
+    "id": "2981aad6087f",
+    "title": "Async auto-battlers at Steam's Auto Battler RPG Fest 2026",
+    "link": "https://gamedev.net/blogs/entry/2298679-async-auto-battlers-at-steams-auto-battler-rpg-fest-2026",
+    "summary": "Steam's Auto Battler RPG Fest 2026 runs from November 16 at 10:00am PST to November 23 at 10:00am PST . The official page is live at Steam's Auto-Battler RPG hub — you can also reach it from the themed event on the Steam homepage, or from Discounts &amp; Events. The Fest is for games where you sit and watch fights play out, with some kind of RPG growth — experience, levels, items, or other progression. The page is split into discounted games, free games, upcoming releases, and games with demos. Discounted titles often sit nearer the top, but a game …",
+    "published": "Tue, 17 Nov 2026 20:18:15 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-18T01:59:18.311186"
+  },
+  "d52c499b1c86": {
+    "id": "d52c499b1c86",
+    "title": "Faster Than Magellan: a free FTL style strategy game in open playtest, feedback wanted",
+    "link": "https://gamedev.net/forums/topic/720860-faster-than-magellan-a-free-ftl-style-strategy-game-in-open-playtest-feedback-wanted",
+    "summary": "Faster Than Magellan is a free strategy game in the spirit of FTL, set on Magellan's voyage around the world (1519 to 1522). You are the captain: choose a course across a chart that changes every voyage, keep the crew fed and the hull sound, call where the guns aim in a fight, and decide what to do at each landfall. Play free in your browser, with no install and no sign-up: https://galleygunpowder.com/pages/faster-than-magellan It is best on a computer; on a phone or tablet, hold it sideways. New to it? Start with the Practice voyage (about ten minutes). It is …",
+    "published": "Tue, 17 Nov 2026 16:59:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-18T01:59:18.311215"
+  },
+  "b5664dbe6a79": {
+    "id": "b5664dbe6a79",
+    "title": "Vote for the 2026 Real-Time VFX Awards!",
+    "link": "https://realtimevfx.com/t/vote-for-the-2026-real-time-vfx-awards/32123",
+    "summary": "Hey everyone! For the past 6 years, we at Beyond-FX have been putting together the Real-Time VFX Awards, a celebration of the incredible VFX work that rarely gets a spotlight at the big games award shows. It’s a passion project for us, and honestly one of our favorite parts of the year. The awards are completely community-driven. Every winner is decided by votes from you, the artists who make this work happen. How to take part: Pick your favorites across the 7 categories at the link below. Categories include Best Overall Real-Time VFX, Best Stylized VFX, Best Realistic VFX and more. Vote here: Real-Time VFX Awards 2026 | Choose Your Winners! We’d love to have your voice in this year’s show and we’ll be sharing the final video on Dec. 11, so keep an eye out! Thanks for being such an awesome community. Can’t wait to see what you pick. 1 post - 1 participant Read full topic",
+    "published": "Wed, 18 Nov 2026 00:10:19 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-18T01:59:12.227058"
+  },
+  "abbf1904cc4f": {
+    "id": "abbf1904cc4f",
+    "title": "European Game Worker unions publish manifesto warning against unchecked AI usage",
+    "link": "https://www.gamedeveloper.com/production/europe-s-game-worker-unions-publish-a-manifesto-warning-against-unchecked-ai-usage",
+    "summary": "Members in Ireland, Spain, and Milan have come together to outline concerns, grievances, pitfalls, and proposed solutions surrounding Generative AI use.",
+    "published": "Tue, 17 Nov 2026 21:21:17 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-18T01:59:21.575684"
+  },
+  "101fa158ee8d": {
+    "id": "101fa158ee8d",
+    "title": "Zelda and Grand Theft Auto headline the nominees for the 2027 Game Awards",
+    "link": "https://www.gamedeveloper.com/marketing/zelda-and-grand-theft-auto-headline-the-nominees-for-the-2027-game-awards",
+    "summary": "The numerous categories of The Game Awards were largely dominated by Grand Theft Auto VI and The Legend of Zelda: Ocarina of Time, but there's plenty to talk about in this year's nominees.",
+    "published": "Tue, 17 Nov 2026 19:29:31 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-18T01:59:21.575704"
+  },
+  "a297290cfe4e": {
+    "id": "a297290cfe4e",
+    "title": "This year's video game Grammy nominations reveal Academy's potential favor against songs with vocals",
+    "link": "https://www.gamedeveloper.com/audio/grammy-nominations-for-video-games-announced-unbeatable-developers-lament-the-preference-against-vocal-songs",
+    "summary": "The Grammys are celebrating a suite of stellar video game soundtracks—but one indie dev says the academy rejected their score for being heavy on vocals.",
+    "published": "Tue, 17 Nov 2026 17:30:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-18T01:59:21.575718"
   }
 }
