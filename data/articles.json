@@ -18578,5 +18578,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-18T01:59:21.575718"
+  },
+  "abd4f42c037b": {
+    "id": "abd4f42c037b",
+    "title": "Nevercenter releases Silo 2027.0",
+    "link": "https://www.cgchannel.com/2026/11/nevercenter-releases-silo-2027/",
+    "summary": "Significant update to the lightweight 3D modeling software adds a new script editor, and a MCP server to link it to external AI tools.",
+    "published": "Tue, 17 Nov 2026 10:21:03 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-18T16:52:33.632319"
+  },
+  "ad594f0398c5": {
+    "id": "ad594f0398c5",
+    "title": "Boris FX releases Sapphire 2027",
+    "link": "https://www.cgchannel.com/2026/11/boris-fx-releases-sapphire-2027/",
+    "summary": "Popular set of VFX plugins for compositing apps gets a new Halation effect and bubble noise. See all the other changes.",
+    "published": "Tue, 17 Nov 2026 09:17:33 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-18T16:52:33.632344"
+  },
+  "22a2a3d75013": {
+    "id": "22a2a3d75013",
+    "title": "Submit an offer to CG Channel’s Black Friday deals list",
+    "link": "https://www.cgchannel.com/2026/11/submit-an-offer-to-cg-channels-black-friday-deals-list/",
+    "summary": "We're starting work on our annual list of Black Friday, Cyber Week and New Year discounts for CG artists. Find out how to send in an offer.",
+    "published": "Mon, 16 Nov 2026 10:38:42 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-18T16:52:33.632359"
+  },
+  "daa4ec4c2977": {
+    "id": "daa4ec4c2977",
+    "title": "Watch a brilliant VFX breakdown for Hyundai ‘Little Warrior’",
+    "link": "https://www.cgchannel.com/2026/11/see-untold-studios-brilliant-vfx-breakdown-for-hyundai-little-warrior/",
+    "summary": "See how Untold Studios' designed, rigged and rendered a massive CG monster for an ad promoting research into childhood cancer.",
+    "published": "Mon, 16 Nov 2026 06:00:52 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-18T16:52:33.632372"
+  },
+  "6d5585182880": {
+    "id": "6d5585182880",
+    "title": "New CG software you may have missed: 15 November 2026",
+    "link": "https://www.cgchannel.com/2026/11/new-cg-software-you-may-have-missed-15-november-2026/",
+    "summary": "See what's new in 10 key CG tools, including Axiom, CityEngine, DaVinci Resolve, KeyShot, PFTrack, SwitchX, and free hair grooming app Sisir.",
+    "published": "Mon, 16 Nov 2026 04:00:19 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-18T16:52:33.632384"
+  },
+  "686df7daa6dd": {
+    "id": "686df7daa6dd",
+    "title": "Taking an Android Game to PC: A Two-Week Audit Plan Before You Commit to the Port",
+    "link": "https://gamedev.net/blogs/entry/2298682-taking-an-android-game-to-pc-a-two-week-audit-plan-before-you-commit-to-the-port",
+    "summary": "A lot of studios in India built their audience on Android first, and the next question is usually whether the same game can earn on Steam or another PC store. The port itself is rarely the hard part. The surprises come from assumptions the mobile build made quietly: touch-only input, a portrait-friendly UI, an ad-funded economy and a memory budget sized for a mid-range phone. Here is a two-week audit a small team can run before anyone signs off on a porting budget. Week 1, days 1-2: Inventory what the mobile build depends on List every plugin and SDK: ads, …",
+    "published": "Wed, 18 Nov 2026 14:42:13 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-18T16:52:40.459679"
+  },
+  "25fc09083d23": {
+    "id": "25fc09083d23",
+    "title": "[Android] Idle Internet Cafe Tycoon: feedback wanted on the first five minutes and the buy-or-hire choice",
+    "link": "https://gamedev.net/forums/topic/720656-android-idle-internet-cafe-tycoon-feedback-wanted-on-the-first-five-minutes-and-the-buy-or-hire-choice",
+    "summary": "Hi everyone, I'm a solo developer and I'd like fresh eyes on an Android idle tycoon I released on Google Play. You inherit your uncle's failing back-alley internet cafe, and a cat is the new boss. You start with 6 seats and a ramen counter, drag the machines into place, hire staff, and grow the shop through 6 stages. A day lasts 2 minutes (up to 3x speed), and your staff keep the shop open while the app is closed. Two things I can't judge myself anymore: 1. Does the first five minutes tell you what to buy first? Where …",
+    "published": "Wed, 18 Nov 2026 15:38:46 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-18T16:52:40.459714"
+  },
+  "2ad83b042444": {
+    "id": "2ad83b042444",
+    "title": "Archery VFX project",
+    "link": "https://realtimevfx.com/t/archery-vfx-project/32127",
+    "summary": "I want share with you my fantasy VFX https://www.artstation.com/artwork/JwE1wZ 1 post - 1 participant Read full topic",
+    "published": "Wed, 18 Nov 2026 08:39:47 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-18T16:52:34.849883"
   }
 }
