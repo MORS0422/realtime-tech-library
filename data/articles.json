@@ -18708,5 +18708,85 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-19T01:36:33.583740"
+  },
+  "04ed923d7494": {
+    "id": "04ed923d7494",
+    "title": "Autodesk releases 3ds Max 2027.3",
+    "link": "https://www.cgchannel.com/2026/11/autodesk-releases-3ds-max-2027-3/",
+    "summary": "Major update to the 3D software adds new agentic AI workflows, a new Arnold viewport, and the option to import 4D Gaussian Splats.",
+    "published": "Thu, 19 Nov 2026 12:27:45 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-19T16:59:16.201990"
+  },
+  "7585a35aabb5": {
+    "id": "7585a35aabb5",
+    "title": "Autodesk releases Maya 2027.3 with new agentic AI features",
+    "link": "https://www.cgchannel.com/2026/11/autodesk-releases-maya-2027-3-with-new-agentic-ai-features/",
+    "summary": "3D modeling and animation software gets an updated AI assistant and new MCP server. Check out all the other new features.",
+    "published": "Thu, 19 Nov 2026 09:48:34 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-19T16:59:16.202007"
+  },
+  "012c8b0b3dbb": {
+    "id": "012c8b0b3dbb",
+    "title": "Black Friday, Cyber Week and New Year 2026 deals for CG artists",
+    "link": "https://www.cgchannel.com/2026/11/black-friday-cyber-week-and-new-year-2026-deals-for-cg-artists/",
+    "summary": "Discover over 75 great seasonal discounts on CG software, plugins, stock assets and hardware - and keep checking back for new deals.",
+    "published": "Wed, 18 Nov 2026 15:12:42 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-19T16:59:16.202018"
+  },
+  "c5cd133390d7": {
+    "id": "c5cd133390d7",
+    "title": "A Free Image to Video Generator With No Signup: Storyboard a Game Mechanism in Five Seconds",
+    "link": "https://gamedev.net/blogs/entry/2298687-a-free-image-to-video-generator-with-no-signup-storyboard-a-game-mechanism-in-five-seconds",
+    "summary": "Disclosure: This article was prepared for Sea Imagine with AI assistance. A storyboard needs to answer a practical question: what should another person see, and when? A generated clip can help a small game team discuss a camera move before anyone builds an animation. It cannot establish whether the mechanism will be fun or whether the final game can run it. This walkthrough uses a fictional door and a glowing switch. The frames and prompts below are examples to adapt, not a report of a finished production test. Decide what the player needs to notice Write a one-sentence shot goal: …",
+    "published": "Thu, 19 Nov 2026 14:18:29 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-19T16:59:22.972235"
+  },
+  "64e4e6ad7f02": {
+    "id": "64e4e6ad7f02",
+    "title": "Starting with Potential",
+    "link": "https://gamedev.net/forums/topic/720866-starting-with-potential",
+    "summary": "Greetings everyone Do not give up if you just started coding. Higher education is great, but stay convicted at your craft. With time you will start to understand how to develop. Architecture is so much fun when designing, documentation is so great, and coding is the best. Eventually the code just flows without much time going deep into thought. This is my main suggestion. If you can describe in detail how something works, then you can code it. Learn some process of development, or craft methods that work for you. But remember, design documents own. Do not give up.",
+    "published": "Thu, 19 Nov 2026 15:43:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-19T16:59:22.972266"
+  },
+  "35661eaf6e4c": {
+    "id": "35661eaf6e4c",
+    "title": "Hovl: Sketch #70 Ghostly",
+    "link": "https://realtimevfx.com/t/hovl-sketch-70-ghostly/32139",
+    "summary": "Hi, I have an idea 1 post - 1 participant Read full topic",
+    "published": "Thu, 19 Nov 2026 14:38:15 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-19T16:59:17.182472"
+  },
+  "d0122d64d3c3": {
+    "id": "d0122d64d3c3",
+    "title": "Exercise rhythm",
+    "link": "https://realtimevfx.com/t/exercise-rhythm/32137",
+    "summary": "Hello, seniors — I find the motion animation of this little ball quite odd. I’ve searched for references as well, but I’m unable to identify the cause, Is it because I have too few frames? 1 post - 1 participant Read full topic",
+    "published": "Thu, 19 Nov 2026 11:57:12 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-19T16:59:17.182498"
+  },
+  "f831f686921d": {
+    "id": "f831f686921d",
+    "title": "Why greenlighting Dressmaker wasn't an easy decision to make",
+    "link": "https://www.gamedeveloper.com/marketing/why-greenlighting-dressmaker-wasn-t-an-easy-decision-to-make",
+    "summary": "Pre-production data said Dressmaker might not find an audience. Free Lives pushed past those numbers to make a bona fide hit.",
+    "published": "Thu, 19 Nov 2026 15:57:43 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-19T16:59:26.793257"
   }
 }
