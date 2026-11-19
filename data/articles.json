@@ -18658,5 +18658,55 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-11-18T16:52:34.849883"
+  },
+  "893a650b020e": {
+    "id": "893a650b020e",
+    "title": "Imagine Development Library",
+    "link": "https://gamedev.net/blogs/entry/2298683-imagine-development-library",
+    "summary": "Scrut Standard Development Kit Blog This blog serves to convey progress concerning Scrut Standard Development Library; this regards Imagine Development Library for OpenGL 4.5 Graphics Development. Scrut.Hut Game Studio, LLC owns Scrut Standard Development Kit as part of its intellectual property; Charles Martin is the sole owner. I am the designer, and developer of Scrut Standard Development Kit. Development is in progress of Imagine Development Library, which is in the second layer of Scrut Standard Development Kit (SSDK) along with the other domain subsystems. This is essential for graphics, as It is the facilities of the base windows management system, …",
+    "published": "Wed, 18 Nov 2026 19:47:36 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-19T01:36:31.842509"
+  },
+  "0216fdad6539": {
+    "id": "0216fdad6539",
+    "title": "Video of our game in progress",
+    "link": "https://gamedev.net/forums/topic/720864-video-of-our-game-in-progress",
+    "summary": "Here is a video of our game. All of the art was done by @Warp9 What do you think that I can do to spice things up?",
+    "published": "Wed, 18 Nov 2026 19:57:35 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-19T01:36:31.842523"
+  },
+  "aef22d22c130": {
+    "id": "aef22d22c130",
+    "title": "Aletsux: Sketch #70 - Nightmare beam",
+    "link": "https://realtimevfx.com/t/aletsux-sketch-70-nightmare-beam/32129",
+    "summary": "Hi! A bit late to the party but been wanting to work with ribbons, so thought of making a Beam attack! *Posting progress I’ve made over the few days I have worked on it so far Here’s some of the references I collected: Day 1: Putting together a Beam with three layers and playing with some color Day 2: Added a few more details and adjusted colors again. Should set up an environment before changing the colors again 1 post - 1 participant Read full topic",
+    "published": "Wed, 18 Nov 2026 17:24:12 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-19T01:36:26.353362"
+  },
+  "3774508d4a21": {
+    "id": "3774508d4a21",
+    "title": "Clair Obscur: Expedition 33's narrative lead wants to change game funding",
+    "link": "https://www.gamedeveloper.com/design/clair-obscur-expedition-33-s-narrative-lead-wants-to-change-game-funding",
+    "summary": "After winning numerous awards, Clair Obscur narrative lead Jennifer Svedberg-Yen wants to change the story about priorities in game funding.",
+    "published": "Wed, 18 Nov 2026 19:02:15 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-19T01:36:33.583719"
+  },
+  "75e142fa2096": {
+    "id": "75e142fa2096",
+    "title": "PlayStation emerges victorious in a $2.6 billion lawsuit alleging a digital monopoly",
+    "link": "https://www.gamedeveloper.com/console/playstation-emerges-victorious-in-a-2-6-billion-lawsuit-alleging-a-digital-monopoly",
+    "summary": "The now-dismissed lawsuit accused PlayStation of setting &quot;excessive and unfair prices&quot; in the UK, but will not proceed any further.",
+    "published": "Wed, 18 Nov 2026 18:14:35 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-19T01:36:33.583740"
   }
 }
