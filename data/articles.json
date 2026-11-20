@@ -18828,5 +18828,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-20T01:35:29.391212"
+  },
+  "1473d821fa97": {
+    "id": "1473d821fa97",
+    "title": "Watch VFX breakdowns for Backrooms in one place",
+    "link": "https://www.cgchannel.com/2026/11/watch-vfx-breakdowns-for-backrooms-in-one-place/",
+    "summary": "See brilliantly eerie breakdowns of the CG environments from the cult psychological thriller from Roxel Creative, Mr Wolf and CoSA VFX.",
+    "published": "Fri, 20 Nov 2026 07:00:57 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-20T16:35:42.442676"
+  },
+  "d22277b8c761": {
+    "id": "d22277b8c761",
+    "title": "Onboarding Offshore Unity Developers in India: An Eight-Point First-Sprint Pack",
+    "link": "https://gamedev.net/blogs/entry/2298692-onboarding-offshore-unity-developers-in-india-an-eight-point-first-sprint-pack",
+    "summary": "Adding two or three Unity developers from an offshore team in India to an existing project is now a routine move for studios in Bengaluru, Pune and Hyderabad as much as for clients in London or Austin. The developers are rarely the problem. What slows the first fortnight down is everything around them: access that arrives in pieces, a build nobody can reproduce on a fresh machine, and a definition of \"done\" that lives only in one lead's head. This is the pack we would have ready before an outside Unity developer writes their first line of code. 1. A …",
+    "published": "Fri, 20 Nov 2026 08:51:04 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-20T16:35:50.042131"
+  },
+  "99f90eccebb6": {
+    "id": "99f90eccebb6",
+    "title": "Rinban Academy Student Work | Can you spot what changed?",
+    "link": "https://realtimevfx.com/t/rinban-academy-student-work-can-you-spot-what-changed/32144",
+    "summary": "Rinban Academy Student Work | Can you spot what changed? Before and after feedback on a student portfolio piece that went on to land a full-time game studio job . Feedback doesn’t just make VFX prettier—it teaches you how a studio team reads an effect in motion. International students can enroll through individual PayPal links or through the RINBAN Academy website: 린반 아카데미 gamevfx #UnrealEngine vfx #GameArt portfolio #RinbanAcademy #GameDev rinban.com 린반 아카데미 게임 이펙트를 연구하여 여러분의 이펙트 능력을 더 성장하게 합니다 AAA급 부터 스타일라이즈드 까지 게임 이펙트를 알려드립니다 Rinban Academy Student Work | Can you spot what changed? 1 post - 1 participant Read full topic",
+    "published": "Fri, 20 Nov 2026 01:43:23 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-11-20T16:35:43.351153"
+  },
+  "6c4836347a57": {
+    "id": "6c4836347a57",
+    "title": "Is Control Resonant's protagonist a 'sad wet man?' ft. Mikael Kasurinen",
+    "link": "https://www.gamedeveloper.com/design/is-control-resonant-s-protagonist-a-sad-wet-man-ft-mikael-kasurinen",
+    "summary": "We're chatting with creative director Mikael Kasurinen about the process of making the challenging development decisions behind Control Resonant.",
+    "published": "Fri, 20 Nov 2026 15:14:40 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-20T16:35:51.770130"
   }
 }
