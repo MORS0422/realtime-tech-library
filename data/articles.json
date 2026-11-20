@@ -18788,5 +18788,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-19T16:59:26.793257"
+  },
+  "bee4612776c0": {
+    "id": "bee4612776c0",
+    "title": "Handing a Character from Concept to Rigging: A Seven-Point Checklist",
+    "link": "https://gamedev.net/blogs/entry/2298690-handing-a-character-from-concept-to-rigging-a-seven-point-checklist",
+    "summary": "A character can look finished in a concept painting and still cost a rigger two extra days once it reaches them. Most of that rework comes from small decisions nobody wrote down: how the arms rest, where the clothing layers separate, which colours are fixed and which can shift. Whether your concept artist, modeller and rigger sit in one office in Manchester or across three studios in different countries, this is the handover pack we would put together before a character leaves the design stage. 1. Lock the turnaround in a neutral pose Front, side and back views (and a …",
+    "published": "Thu, 19 Nov 2026 22:49:25 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-20T01:35:27.537290"
+  },
+  "a6e1d82ae736": {
+    "id": "a6e1d82ae736",
+    "title": "What is the best way to make ground trails",
+    "link": "https://realtimevfx.com/t/what-is-the-best-way-to-make-ground-trails/32142",
+    "summary": "Hello! I been wanting to make some ground trails on UE but I am not sure what would be the best way to do so. If using RTs or spawning decals. Ideally needs to be as performative as possible but I do know that spawning loads of decals is not the best idea. How would u recommend me to approach it? 1 post - 1 participant Read full topic",
+    "published": "Thu, 19 Nov 2026 23:18:23 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-20T01:35:21.517230"
+  },
+  "1f82ba0a5954": {
+    "id": "1f82ba0a5954",
+    "title": "Aletsux: Sketch #70 Ghostly",
+    "link": "https://realtimevfx.com/t/aletsux-sketch-70-ghostly/32129",
+    "summary": "Project: Nightmare Beam Hi! A bit late to the party but been wanting to work with ribbons, so thought of making a Beam attack! *Posting progress I’ve made over the few days I have worked on it so far Here’s some of the references I collected: Day 1: Putting together a Beam with three layers and playing with some color Day 2: Added a few more details and adjusted colors again. Should set up an environment before changing the colors again 1 post - 1 participant Read full topic",
+    "published": "Wed, 18 Nov 2026 17:24:12 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-20T01:35:21.517299"
+  },
+  "d946182817a2": {
+    "id": "d946182817a2",
+    "title": "Ubisoft lays off 166 in Canada across Montréal and Quebec City",
+    "link": "https://www.gamedeveloper.com/business/ubiosft-lays-off-166-in-canada",
+    "summary": "The cuts come from the Montréal and Quebec City offices, two studios that have historically benefited from sizable subsidies offered by the Canadian government to bolster the country's game development industry.",
+    "published": "Thu, 19 Nov 2026 17:53:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-20T01:35:29.391212"
   }
 }
