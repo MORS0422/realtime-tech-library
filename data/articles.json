@@ -18868,5 +18868,45 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-20T16:35:51.770130"
+  },
+  "ae05c0a9b6bc": {
+    "id": "ae05c0a9b6bc",
+    "title": "Tutorial: check out this essential Introduction to Unreal Engine 5",
+    "link": "https://www.cgchannel.com/2026/11/tutorial-check-out-this-essential-introduction-to-unreal-engine-5/",
+    "summary": "Master scene assembly, materials, lighting and rendering fundamentals with The Gnomon Workshop's detailed beginners' guide to UE5.",
+    "published": "Fri, 20 Nov 2026 16:28:16 +0000",
+    "source_name": "CG Channel",
+    "category": "ue",
+    "fetched_at": "2026-11-21T01:01:04.441215"
+  },
+  "5e5bc488dc0f": {
+    "id": "5e5bc488dc0f",
+    "title": "Shipping Your Mobile Game in Hindi and Other Indian Languages: An Eight-Point Text Pipeline Check",
+    "link": "https://gamedev.net/blogs/entry/2298694-shipping-your-mobile-game-in-hindi-and-other-indian-languages-an-eight-point-text-pipeline-check",
+    "summary": "Adding Hindi, Tamil, Telugu, Bengali or Marathi to a mobile game looks like a translation job on the production schedule. In practice, most of the problems show up in the text pipeline, not the spreadsheet: broken conjuncts, clipped vowel signs, fonts that bloat the build, and UI that was laid out for short English words. Here is the checklist we run before a single translated string goes into a build for Indian players. 1. Confirm your text renderer actually shapes Indic scripts Devanagari, Tamil and other Brahmic scripts need OpenType shaping: characters reorder, combine into conjuncts and take vowel signs …",
+    "published": "Fri, 20 Nov 2026 23:43:53 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-21T01:01:11.843361"
+  },
+  "89db9cad45d1": {
+    "id": "89db9cad45d1",
+    "title": "Grand Theft Auto VI is now the biggest video game launch in history",
+    "link": "https://www.gamedeveloper.com/business/grand-theft-auto-vi-is-officially-the-biggest-video-game-launch-ever",
+    "summary": "Day-one retails sales for Grand Theft Auto VI crossed $3.79 billion, and Take-Two sold 32.5 million copies before the game even released.",
+    "published": "Fri, 20 Nov 2026 21:50:59 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-21T01:01:14.166166"
+  },
+  "7e1c57c9efc5": {
+    "id": "7e1c57c9efc5",
+    "title": "Ubisoft misses forecast and bets big on AI development",
+    "link": "https://www.gamedeveloper.com/business/ubisoft-misses-forecast-and-bets-big-on-ai-development",
+    "summary": "The French publisher plunges on first-half year earnings, though has a few bright spots in its portfolio.",
+    "published": "Fri, 20 Nov 2026 18:37:58 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-21T01:01:14.166186"
   }
 }
