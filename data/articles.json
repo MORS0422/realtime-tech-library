@@ -18908,5 +18908,25 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-21T01:01:14.166186"
+  },
+  "776c620f516c": {
+    "id": "776c620f516c",
+    "title": "Before Your First Steam Build in Godot 4: An Eight-Point Export Checklist for Small Teams",
+    "link": "https://gamedev.net/blogs/entry/2298698-before-your-first-steam-build-in-godot-4-an-eight-point-export-checklist-for-small-teams",
+    "summary": "Plenty of small UK teams now prototype and ship in Godot 4, and the first time most of them think hard about exporting is the week before a Steam Next Fest demo or a publisher build is due. The editor makes exporting look like a single button, but the problems that turn up in a player's hands (missing files, saves that will not write, a build that behaves differently from the editor) are nearly always decided earlier. This is the checklist we suggest running through before the first build you upload to Steam. 1. Pin the engine version and match …",
+    "published": "Sat, 21 Nov 2026 07:49:20 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-21T15:51:16.537345"
+  },
+  "301bd578cef0": {
+    "id": "301bd578cef0",
+    "title": "RTS fight/siege multyplayer problem",
+    "link": "https://gamedev.net/forums/topic/720871-rts-fightsiege-multyplayer-problem",
+    "summary": "Hello I want to make RTS, multyplayer game but without armys and diffrent units. The ONLY unit you have is urself. Like in MMO (L2, WoW, Aion etc). And there will be 2 sides (consider it as side A and side B at the moment) You have to take control of enemy territory. 100% territory or maybe 80% atleast for win (coz it might take 1kkk time and will be no fun, dunno) So... for succes in game must be a lot of players to form some kind of army or gang for both sides But! i dont know how …",
+    "published": "Sat, 21 Nov 2026 14:51:30 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-21T15:51:16.537380"
   }
 }
