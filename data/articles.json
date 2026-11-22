@@ -18958,5 +18958,55 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-11-22T00:01:01.816638"
+  },
+  "ae811951c5c4": {
+    "id": "ae811951c5c4",
+    "title": "Building a Mobile Cricket Game for Indian Players: Eight Decisions to Settle Before Development Starts",
+    "link": "https://gamedev.net/blogs/entry/2298702-building-a-mobile-cricket-game-for-indian-players-eight-decisions-to-settle-before-development-starts",
+    "summary": "Cricket is the obvious sports genre for an Indian mobile audience, and it is also one of the easiest to under-scope. Players have watched thousands of overs on television, so they notice immediately when a cover drive looks wrong, when the field placings make no sense or when a chase feels scripted. Before a single bowling animation is commissioned, it is worth settling the following eight decisions with your team or development partner. 1. Pick the format, and the session length that comes with it A full T20 innings can take far longer than a typical mobile session. Decide early …",
+    "published": "Sun, 22 Nov 2026 08:52:49 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-22T15:50:46.072830"
+  },
+  "04ceff3628b9": {
+    "id": "04ceff3628b9",
+    "title": "Re: Crash on first draw call",
+    "link": "https://gamedev.net/forums/topic/720883-re-crash-on-first-draw-call",
+    "summary": "Following up from a prior topic that is locked due to being old. I wanted to share the solution finally. It appears that you can crash on the first draw with bad drivers. I had all my customers update their drivers but they were doing it on their dedicated gaming GPU. They also had integrated GPUs and those were the ones selected to render my application and cause the crash. The fix is either to force the application to render on dedicated card via Nvidia control panel or set this in your application. It appears maybe on newer settings you …",
+    "published": "Sun, 22 Nov 2026 15:05:46 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-22T15:50:46.072865"
+  },
+  "2e3434dc5843": {
+    "id": "2e3434dc5843",
+    "title": "Roblox is at the forefront of real-time FX industry",
+    "link": "https://realtimevfx.com/t/roblox-is-at-the-forefront-of-real-time-fx-industry/32163",
+    "summary": "A developer creating a custom particle editor for Roblox has, perhaps without even realising it, shown us what the future of our workflow with AI could look like over the next few years: in just 20 seconds of a one-minute trailer. Here’s the link with the timestamp. Watch those 20: VFX FORGE 3.0 I believe this is something that will inevitably appear in Niagara, Unity, Godot, Illugen (yes, Illugen) in the coming years. We’ll enter a single prompt, and a bunch of APIs will generate everything we need, from textures to meshes, and give us a finished effect. It looks incredible, and the way it’s shown in the video is just so cool. If you’ve never worked with Roblox, there’s a second reason this demonstration is impressive: Roblox Studio doesn’t have a mesh editor. On top of that, there are no tools for editing UVs directly. You have to rely on scripts and code to animate meshes and fake things like dissolves by swapping textures frame by frame. Like in 2003 or so. There are some seriously wild workarounds involved. So the result you see on screen is twice as impressive. Interesting that this plugin costs next to nothing. But someone who implements the same functionality in Unreal, simply by connecting third-party APIs through one convenient interface. or Epic themselves, if they eventually do it, could have a massive, industry-changing success on their hands. But guys, remember this moment: you’re reading about it here on the forum, and it appeared first in Roblox, made by some developer who’s clearly not even 30 yet. Maybe not even 20. P.S. please-please add the tag 1 post - 1 participant Read full topic",
+    "published": "Sun, 22 Nov 2026 06:42:39 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-11-22T15:50:40.227769"
+  },
+  "f4b3ad597f79": {
+    "id": "f4b3ad597f79",
+    "title": "Arcj: Sketch #70 Ghostly - Ghost Pirate's Wheel",
+    "link": "https://realtimevfx.com/t/arcj-sketch-70-ghostly-ghost-pirates-wheel/32161",
+    "summary": "Hi y’all! Jumping in a bit late here but still wanted to participate. My first time joining after seeing a few of the previous challenges and all of the amazing work! Been really busy with this college semester, but I really liked the theme of this sketch. I had an idea for a ghost pirate captain that can summon the ghost of a pirate ship by taking control of the ship’s steering wheel. Only have the concept for now… Love the work that everyone has put in so far, good luck y’all! 1 post - 1 participant Read full topic",
+    "published": "Sun, 22 Nov 2026 05:32:18 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-22T15:50:40.227838"
+  },
+  "f895b094dcb3": {
+    "id": "f895b094dcb3",
+    "title": "Keeping UV stretch on a sword trail when the mesh changes in 3ds Max",
+    "link": "https://realtimevfx.com/t/keeping-uv-stretch-on-a-sword-trail-when-the-mesh-changes-in-3ds-max/32159",
+    "summary": "I kept running into this when making sword trails in 3ds Max. I’d get the bright part of a slash exactly where I wanted it, then add a few segments to smooth the curve and have to shape the texture stretch again. I built a modifier called UVFX so I could keep adjusting the mesh after doing that UV work. Here’s a 32-second demo. In the opening shot, watch the spokes on the disk as I change the U offset. Turn Spokes Into a Swirl in 3ds Max | UVFX for Game VFX In the full walkthrough, 04:00 shows what happens to the mapping when I change the segment count on a spiral. At 08:00 I use material IDs to keep the two crossed cards in each slash in sync while staggering the slashes across the array. Stop Losing Your UVs When You Edit a Mesh | 3ds Max Game VFX Tutorial For those of you who build trails from strips or crossed cards, how do you preserve a hand-shaped UV stretch when the silhouette changes late in production? 1 post - 1 participant Read full topic",
+    "published": "Sun, 22 Nov 2026 00:32:48 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-22T15:50:40.227899"
   }
 }
