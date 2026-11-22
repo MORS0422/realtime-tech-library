@@ -18928,5 +18928,35 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-11-21T15:51:16.537380"
+  },
+  "272e7e215d54": {
+    "id": "272e7e215d54",
+    "title": "Producing Levels for a Mobile Puzzle Game with a Team in India: An Eight-Point Pipeline Check",
+    "link": "https://gamedev.net/blogs/entry/2298699-producing-levels-for-a-mobile-puzzle-game-with-a-team-in-india-an-eight-point-pipeline-check",
+    "summary": "Mobile puzzle games live or die on their level count. A match-3, sort or block puzzle that launches with 150 levels usually needs another 50 or more every few weeks to keep players around, and many publishers now build that pipeline with a development or content team in India working across the time difference. The levels themselves are rarely the hard part. The trouble comes from the way they are authored, tested and shipped, so here is the checklist we suggest settling before the first batch of levels is commissioned. 1. Make levels data, not scenes Store each level as …",
+    "published": "Sat, 21 Nov 2026 17:54:34 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-22T00:01:07.802677"
+  },
+  "23f292d541ba": {
+    "id": "23f292d541ba",
+    "title": "[Windows] BlackGold RPG Safe Merge — Merge RPG Maker MZ Projects Without Overwriting Your Work",
+    "link": "https://gamedev.net/forums/topic/720878-windows-blackgold-rpg-safe-merge-merge-rpg-maker-mz-projects-without-overwriting-your-work",
+    "summary": "BlackGold RPG Safe Merge — RPG Maker MZ Project Merging Utility Hello GameDev.net community! I'm introducing BlackGold RPG Safe Merge , a Windows desktop utility developed by BlackGold Toolworks to help RPG Maker MZ developers combine changes from different copies of the same project. The Problem When two developers work independently on the same RPG Maker MZ project, merging their modifications can be difficult. For example: Developer A modifies a merchant's dialogue. Developer B modifies a bridge guard's dialogue. Both developers save their changes in separate project copies. Simply replacing one map file with another can overwrite important work. What …",
+    "published": "Sat, 21 Nov 2026 20:51:04 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-22T00:01:07.802720"
+  },
+  "04e3224926d3": {
+    "id": "04e3224926d3",
+    "title": "Niagara postprocess Component renderer Issues",
+    "link": "https://realtimevfx.com/t/niagara-postprocess-component-renderer-issues/32152",
+    "summary": "Hello, amazing people! I’m trying to understand how BlendRadius behaves when Unbound is unchecked. In my case, changing the BlendRadius value doesn’t seem to have any effect.Has anyone experienced this issue or can explain how BlendRadius is supposed to work when Unbound is disabled? Any suggestions, insights, or help would be greatly appreciated! Thanks in advance! 1 post - 1 participant Read full topic",
+    "published": "Sat, 21 Nov 2026 17:00:30 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-11-22T00:01:01.816638"
   }
 }
