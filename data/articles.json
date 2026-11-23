@@ -19038,5 +19038,85 @@
     "source_name": "Realtime VFX",
     "category": "ue",
     "fetched_at": "2026-11-23T00:33:33.993448"
+  },
+  "67e3c99ebe98": {
+    "id": "67e3c99ebe98",
+    "title": "Escape Motions releases Rebelle 8.4",
+    "link": "https://www.cgchannel.com/2026/11/escape-motions-releases-rebelle-8/",
+    "summary": "Check out the latest features in the natural media painting software, including new controls for brushstrokes and texture overlays.",
+    "published": "Mon, 23 Nov 2026 06:30:31 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-23T19:43:57.647085"
+  },
+  "7a9e20b82cdb": {
+    "id": "7a9e20b82cdb",
+    "title": "Boris FX releases Silhouette 2027",
+    "link": "https://www.cgchannel.com/2026/11/boris-fx-releases-silhouette-2027/",
+    "summary": "Check out the new features in the roto and paint software, including new AI tools for object removal and generating editable roto shapes.",
+    "published": "Sun, 22 Nov 2026 04:00:36 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-23T19:43:57.647107"
+  },
+  "7472a44e9325": {
+    "id": "7472a44e9325",
+    "title": "What to Ask a Studio Before Commissioning a Desktop PC Game",
+    "link": "https://gamedev.net/blogs/entry/2298713-what-to-ask-a-studio-before-commissioning-a-desktop-pc-game",
+    "summary": "Commissioning a PC game from an external studio is mostly a conversation about risk. The pitch deck and the art samples tell you what a team can make on a good day; the answers to a handful of awkward questions tell you what happens on a bad one. Below are the questions we would want a UK publisher, funded founder or brand team to ask any studio before signing for a Windows, Mac or Steam release. None of them needs technical depth to ask, but the quality of the answers will tell you a great deal. 1. \"Which hardware are …",
+    "published": "Mon, 23 Nov 2026 16:47:47 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-23T19:44:05.285358"
+  },
+  "6baad102b516": {
+    "id": "6baad102b516",
+    "title": "\"I See Living People\" – Rethinking Death and Reloading in RPGs",
+    "link": "https://gamedev.net/forums/topic/720886-i-see-living-people-rethinking-death-and-reloading-in-rpgs",
+    "summary": "I'm primarily an RPG player, not a game designer or programmer. One thing that has always bothered me about RPGs is the way death interrupts the experience. You're immersed in a world, your character dies, and suddenly you're looking at a loading screen or a menu. Of course, I understand why save/load systems exist. I wouldn't want to play a long RPG without one. But I've been wondering whether the process of returning to an earlier point could become part of the game itself. That led me to a concept I call The Sixth Death. The basic idea is that …",
+    "published": "Mon, 23 Nov 2026 18:04:46 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-23T19:44:05.285395"
+  },
+  "3aa0653b5825": {
+    "id": "3aa0653b5825",
+    "title": "Voidblast, Lighting Strike, Frost Nova VFX UE5",
+    "link": "https://realtimevfx.com/t/voidblast-lighting-strike-frost-nova-vfx-ue5/32174",
+    "summary": "This is a collection of VFX I made over the course of two weeks for my portfolio. Professionally I am a Game Developer, but I like VFX the most and wanted to see if I could reach at least Mid Level as a VFX Artist. All effects are done in Unreal 5 Niagara and use Meshes, Distortion and various Materials. I think the timing is okay, but feedback is also welcome. Divine Lighting - Unreal Realtime-VFX by Kai Christoph Baumgart Frost Wave - Unreal Realtime-VFX by Kai Christoph Baumgart Void Blast - Unreal Realtime-VFX by Kai Christoph Baumgart 1 post - 1 participant Read full topic",
+    "published": "Mon, 23 Nov 2026 18:17:51 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-11-23T19:43:58.717270"
+  },
+  "90c0abff57e0": {
+    "id": "90c0abff57e0",
+    "title": "TassanaJ : Sketch #70 Ghostly",
+    "link": "https://realtimevfx.com/t/tassanaj-sketch-70-ghostly/32171",
+    "summary": "Sketch idea, some kind of magic circle to open a portal on the ground to… spooky town and unleash barrages of ghost explosion around the area, leaving behind spooky color fire. 1 post - 1 participant Read full topic",
+    "published": "Mon, 23 Nov 2026 10:49:00 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-23T19:43:58.717303"
+  },
+  "9b90c9e33686": {
+    "id": "9b90c9e33686",
+    "title": "New Godot VFX System",
+    "link": "https://realtimevfx.com/t/new-godot-vfx-system/32169",
+    "summary": "As a Game Developer and VFX Artist I have used Unreal Engine 5 a lot, but the recent developments in AI and Epics shift towards it and the Unity disaster have pushed me to look at open source alternatives like Godot. Now Godot is lightweight and an overall great engine, but its particle system and workflow are not really improving and lack behind Systems like Niagara. Since I don’t like AI taking away the creative process and I am not backend technical, I tried using LLM’s to instead create VFX Tools in Godot. Currently testing a new vibecoded VFX plugin for Godot that can compete with the Niagara workflow. The plan is to create a new tool that has all the features you expect as a VFX artist with easy of use and make it available free under an MIT license (I didn’t code it so I believe it should benefit all, since these LLM’s have been trained on lots of open source projects). I believe creating tools so you can be more creative and eleviate technical hurdles is a way better use of AI, then generatively creating full games and art. I might sell some extra templates and VFX I personally handcrafted using the tool, but they will be purely optional. The goal is to allow anyone an easy switch from Unreal to Godot as a VFX Artist without friction. So far the progress has been very good and the plugin seems promising. But before I publish this to some git repo, I wanted to get some feedback on this topic. Would you use some vibecoded particle system? What features does it have to include be used professional? Would you want it to support creating with AI or not? What should I name it Mango VFX or Rio VFX? Should I release an early version even if uncompleted and would you test it? Please let me know your thoughts 5 posts - 2 participants Read full topic",
+    "published": "Mon, 23 Nov 2026 08:41:44 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-11-23T19:43:58.717397"
+  },
+  "d550a05ae82a": {
+    "id": "d550a05ae82a",
+    "title": "Devs can now utilize the high-end ambient occlusion technique seen in EVE: Frontier",
+    "link": "https://www.gamedeveloper.com/programming/devs-can-now-utilize-high-end-ambient-occlusion-technique-seen-in-eve-frontier",
+    "summary": "CORTAO, a personal programming project by Fenris Creations developer Daniel Isheden, is being used for EVE: Frontier, and maybe your next game.",
+    "published": "Mon, 23 Nov 2026 15:10:00 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-23T19:44:07.471547"
   }
 }
