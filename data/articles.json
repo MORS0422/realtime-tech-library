@@ -19008,5 +19008,35 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-11-22T15:50:40.227899"
+  },
+  "996a792a28c6": {
+    "id": "996a792a28c6",
+    "title": "Working Across the IST Overlap: A Weekly Review Rhythm for a Dedicated Game Team in India",
+    "link": "https://gamedev.net/blogs/entry/2298708-working-across-the-ist-overlap-a-weekly-review-rhythm-for-a-dedicated-game-team-in-india",
+    "summary": "Most studios that bring on a dedicated team in India worry about the time difference before anything else. In practice the gap itself is rarely the problem. The problem is treating the few overlapping hours like any other part of the day, so that reviews, questions and approvals pile up and a simple question costs a full day. A deliberate weekly rhythm fixes most of that. Here is one way to structure it. 1. Map the real overlap, not the theoretical one India Standard Time does not observe daylight saving, so the overlap with the UK and the US shifts …",
+    "published": "Sun, 22 Nov 2026 23:52:17 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-23T00:33:39.866394"
+  },
+  "81ce6db6636c": {
+    "id": "81ce6db6636c",
+    "title": "[Web] GamerScroll — free daily rank history for the App Store, Google Play and Steam charts",
+    "link": "https://gamedev.net/forums/topic/720884-web-gamerscroll-free-daily-rank-history-for-the-app-store-google-play-and-steam-charts",
+    "summary": "Disclosure: I'm the solo developer who built and runs GamerScroll. App stores and Steam only show today's chart, so I built a free site that records them every day and keeps the history: https://gamerscroll.com What it records: - App Store and Google Play top-grossing and top-free charts for the US, Korea, Japan and Taiwan, up to #200 (China: App Store only) - Steam top 100 by concurrent players and top 100 by sales - A rank-history page for every game, weekly movers, new entries, and monthly/yearly/genre/publisher records No account, no revenue estimates (only recorded positions), five languages. Why it might …",
+    "published": "Sun, 22 Nov 2026 17:04:21 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-23T00:33:39.866430"
+  },
+  "c11c406e72c1": {
+    "id": "c11c406e72c1",
+    "title": "Alan Lee's Sketchbook [2026]",
+    "link": "https://realtimevfx.com/t/alan-lees-sketchbook-2026/32164",
+    "summary": "Hi everyone I’m Alan from Toronto, Canada . I started focusing on game VFX this year mainly through VFX Apprentice and tutorials online, and I have a background in indie dev using Unity with more stylized graphics, but I’m looking to learn Unreal and move towards a higher fidelity grim-dark style for isometric/top-down action games for 2027. I’m currently working on polishing a falling sky sword effect. Here’s a WIP of it so far. https://files.catbox.moe/5f26xf.mp4 All feedback is welcome and appreciated 1 post - 1 participant Read full topic",
+    "published": "Sun, 22 Nov 2026 17:10:43 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ue",
+    "fetched_at": "2026-11-23T00:33:33.993448"
   }
 }
