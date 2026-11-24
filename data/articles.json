@@ -19158,5 +19158,55 @@
     "source_name": "Game Developer",
     "category": "ue",
     "fetched_at": "2026-11-24T04:33:08.040852"
+  },
+  "eaaa75bc4736": {
+    "id": "eaaa75bc4736",
+    "title": "Discover BOT VFX’s hybrid AI VFX pipeline for Young Washington",
+    "link": "https://www.cgchannel.com/2026/11/discover-bot-vfxs-hybrid-ai-vfx-pipeline-for-young-washington/",
+    "summary": "Discover how the studio blended AI models like FLUX.2 Klein and Wan with a traditional Maya-Nuke pipeline for the historical drama.",
+    "published": "Tue, 24 Nov 2026 15:45:42 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-24T19:15:52.031122"
+  },
+  "2771d1883f97": {
+    "id": "2771d1883f97",
+    "title": "Choosing a Game Engine Before You Hire: A Decision Sheet for Funded Founders in India",
+    "link": "https://gamedev.net/blogs/entry/2298722-choosing-a-game-engine-before-you-hire-a-decision-sheet-for-funded-founders-in-india",
+    "summary": "A common pattern with newly funded game start-ups in India goes like this: the round closes, the founders post job ads for \"Unity developer\" or \"Unreal developer\" within the week, and only later discover that the engine was chosen by whoever they happened to interview first. The engine decides who you can hire, what your build pipeline looks like, which devices you can realistically support and how expensive a change of direction becomes. It is worth an afternoon of structured thinking before the first offer letter goes out. This is the one-page decision sheet we suggest founders fill in before …",
+    "published": "Tue, 24 Nov 2026 14:48:21 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-11-24T19:15:59.685750"
+  },
+  "e3e7f560e6bb": {
+    "id": "e3e7f560e6bb",
+    "title": "Game VFX UV Modifier for 3ds Max | Speed Up Your Workflow with UVFX",
+    "link": "https://realtimevfx.com/t/game-vfx-uv-modifier-for-3ds-max-speed-up-your-workflow-with-uvfx/32186",
+    "summary": "Game VFX tool | UVFX for 3ds Max（1） 2 posts - 1 participant Read full topic",
+    "published": "Tue, 24 Nov 2026 16:26:24 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-24T19:15:53.184249"
+  },
+  "c1c9f5c35bff": {
+    "id": "c1c9f5c35bff",
+    "title": "[Available] Jan Micka - VFX artist searching for a vfx related job",
+    "link": "https://realtimevfx.com/t/available-jan-micka-vfx-artist-searching-for-a-vfx-related-job/32183",
+    "summary": "Hello! My name is Jan and I am currently on search for paid VFX jobs. I am also open to freelance order. I have 10 years of experience in the industry and I welcome any kind of a vfx challenge! Just a note I am a Realtime VFX so I am searching mainly for game dev, not film industry. feel free to reach out to me on LinkedIn or email shinobimicka@gmail.com Here are my links: https://www.linkedin.com/in/janmicka/ Jan Micka VFX Reel - NDA ArtStation Menoa Realtime VFX Artist - Looking for new opportunities Thank you for your time! Cheers, Jan Micka 1 post - 1 participant Read full topic",
+    "published": "Tue, 24 Nov 2026 15:51:20 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-24T19:15:53.184289"
+  },
+  "64562a2d7c1f": {
+    "id": "64562a2d7c1f",
+    "title": "Opinion: Grand Theft Auto VI and World of Warcraft: Forever show that mundanity is having a moment",
+    "link": "https://www.gamedeveloper.com/design/grand-theft-auto-vi-and-world-of-warcraft-forever-show-that-mundanity-is-having-a-moment",
+    "summary": "Two of the year's biggest hits tell us that downtime and doldrums can be as compelling as dungeons and dragons.",
+    "published": "Tue, 24 Nov 2026 15:42:06 GMT",
+    "source_name": "Game Developer",
+    "category": "multiplat",
+    "fetched_at": "2026-11-24T19:16:02.327716"
   }
 }
