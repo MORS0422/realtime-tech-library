@@ -19208,5 +19208,35 @@
     "source_name": "Game Developer",
     "category": "multiplat",
     "fetched_at": "2026-11-24T19:16:02.327716"
+  },
+  "aa78cc460825": {
+    "id": "aa78cc460825",
+    "title": "Looking for Rocket League Players – RLM Community",
+    "link": "https://gamedev.net/blogs/entry/2298724-looking-for-rocket-league-players-rlm-community",
+    "summary": "Looking for Rocket League Players! Welcome to RLM | ROCKET LEAGUE. We're building a community for Rocket League players from ALL versions, old and new! What we offer: - Find teammates - Play together - Create teams - Community tournaments - Meet Rocket League fans We're looking for our first 10 active players! Join us: https://discord.gg/dVMYqQfuk Let's build something great together!",
+    "published": "Wed, 25 Nov 2026 00:45:10 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-25T03:17:14.500300"
+  },
+  "830a4f4726d0": {
+    "id": "830a4f4726d0",
+    "title": "In over my head",
+    "link": "https://gamedev.net/forums/topic/720903-in-over-my-head",
+    "summary": "So I've been a \"gamer\" for many years but I'm not a computer guy, techie etc. I've had an idea for a game for awhile now and after using ChatGPT for a few things {yes I'm new to AI} I thought I'd see if it could help me make my game. I asked if it could and it said yes so we started chatting about it and began down the road making a game. Now after many hours of painstaking work the game is quite a ways along but..... it seems this Ai has gotten to a point where it's …",
+    "published": "Wed, 25 Nov 2026 02:49:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-25T03:17:14.500326"
+  },
+  "bf2907642cdd": {
+    "id": "bf2907642cdd",
+    "title": "ShaderStory: free Technical Art library on shaders and real-time rendering (WIP thread)",
+    "link": "https://realtimevfx.com/t/shaderstory-free-technical-art-library-on-shaders-and-real-time-rendering-wip-thread/32188",
+    "summary": "Hi all. I’m building ShaderStory, a free library of shader techniques and real-time rendering concepts, and I’ll keep this thread updated as it grows. What’s in it so far: Lighting models: Lambertian, Half-Lambertian, Blinn-Phong, Minnaert, ambient and hemi lighting, matcap, Fresnel, banded, image-based lighting (IBL), lookup tables (LUT), halftone, toon lighting Noise patterns explained Shapes, patterns and more common functions, plus a patterns cheat sheet with HLSL snippets Common functions and derivatives Vertex animation: introduction, coordinate spaces, data sources, matrices Time: time wrapping, easing functions, phase offset Masks: procedural, authored, runtime Gameplay-driven motion Motion patterns: sine wave offset, Gerstner waves, normals reconstruction, controlled irregularity The ideas are engine-agnostic. The practical examples are in Unity (6.0+, URP 17.0+), and I plan to add other engines and implementations over time. It’s for developers who want to understand the rendering side, artists who want the logic behind shader workflows, and technical artists who want a foundation to build on. Free, no signup: Repository DeGGeD/ShaderStory GitHub - DeGGeD/ShaderStory: Unity URP Shaders &amp; Graphics Programming - Free... Unity URP Shaders &amp; Graphics Programming - Free Technical Art Resources Library I’ll post each new batch of articles as a reply here, so this first post stays as the index. If it helps you, a star on the repo helps others find it. 1 post - 1 participant Read full topic",
+    "published": "Tue, 24 Nov 2026 19:56:01 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-25T03:17:07.717951"
   }
 }
