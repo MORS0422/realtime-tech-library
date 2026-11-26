@@ -19268,5 +19268,25 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-11-25T18:20:24.240777"
+  },
+  "7a07651a6135": {
+    "id": "7a07651a6135",
+    "title": "Adding Capacity From India: Staff Augmentation or a Dedicated Game Team?",
+    "link": "https://gamedev.net/blogs/entry/2298735-adding-capacity-from-india-staff-augmentation-or-a-dedicated-game-team",
+    "summary": "When a studio decides to add capacity from India, the first real decision is not which vendor to call. It is which engagement model you actually need: staff augmentation, where individual developers or artists join your team and work inside your process, or a full dedicated team, where a self-contained unit with its own lead takes ownership of a slice of the game. Both work. They fail in different ways, and most of the pain we see comes from picking one model while expecting the behaviour of the other. Here is how we suggest thinking it through before you write …",
+    "published": "Wed, 25 Nov 2026 23:46:55 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-26T02:35:14.873648"
+  },
+  "583e11f8b790": {
+    "id": "583e11f8b790",
+    "title": "Where is the most effective position to place the Game Objects origin?",
+    "link": "https://gamedev.net/forums/topic/720900-where-is-the-most-effective-position-to-place-the-game-objects-origin",
+    "summary": "I'm currently hunting down an exotic bug that happens every 3sec. I just need to introduce friction and it is done as far as I care, but I'm tired of physics lol May we chat about something else????? This topic arisen when reading through the physics simulation book, it recommends that the origin of all rigid bodies (the point that represents its position in the world) to be its center of mass. The author justifies this claim by saying you can ignore window orientation and build complex composed game objects (made of several parts, smaller sprites, etc) by just saving …",
+    "published": "Wed, 25 Nov 2026 20:25:53 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-26T02:35:14.873666"
   }
 }
