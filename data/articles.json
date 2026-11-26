@@ -19288,5 +19288,45 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-11-26T02:35:14.873666"
+  },
+  "b39c150adbe5": {
+    "id": "b39c150adbe5",
+    "title": "Running a Two-Week Character Style Test Before You Commit to Stylised or Realistic",
+    "link": "https://gamedev.net/blogs/entry/2298739-running-a-two-week-character-style-test-before-you-commit-to-stylised-or-realistic",
+    "summary": "Many small UK teams settle the \"stylised or realistic\" question in a single meeting, often based on a mood board and whichever reference the loudest voice likes. The choice then shapes hiring, tools, performance budgets and the publisher pitch for the rest of the project. A short, deliberate style test before full production is a cheaper way to decide. This is the two-week structure we suggest for an indie or mid-sized team working out its character direction. 1. Write down what the test has to answer Before anyone opens a sculpting tool, agree three or four questions the test must …",
+    "published": "Thu, 26 Nov 2026 10:41:29 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-26T18:01:30.253911"
+  },
+  "c89673638fed": {
+    "id": "c89673638fed",
+    "title": "Procedural City Architect — UE5 City Generator with Editable Roads, Buildings & Interiors",
+    "link": "https://gamedev.net/forums/topic/720859-procedural-city-architect-ue5-city-generator-with-editable-roads-buildings-interiors",
+    "summary": "",
+    "published": "Thu, 26 Nov 2026 16:47:48 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "ue",
+    "fetched_at": "2026-11-26T18:01:30.253922"
+  },
+  "d1da98a8909b": {
+    "id": "d1da98a8909b",
+    "title": "OVO: Sketch #70 Ghostly",
+    "link": "https://realtimevfx.com/t/ovo-sketch-70-ghostly/32200",
+    "summary": "Hey guys, Im participating in the event and hopefully ill impress some of you ** Concept** I just sketched everything to get a rough idea and then make revisions that make sense. The main Idea is fundementally a game concept, you play as death and you can either use your ghost powers to scare humans and gain resources from that or use the same ghost powers on evil spirits that actually do damage. In that I’ll try to mix realism with a stylized style, a bit like Looney Tunes movies? **Progress ** PS. I wanted to make Death have a personality similar to Death from Soul eater, so heavy inspo on that! 2 posts - 1 participant Read full topic",
+    "published": "Thu, 26 Nov 2026 12:18:33 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-26T18:01:25.093833"
+  },
+  "74178d486b34": {
+    "id": "74178d486b34",
+    "title": "Hologram Project",
+    "link": "https://realtimevfx.com/t/hologram-project/32199",
+    "summary": "1 post - 1 participant Read full topic",
+    "published": "Thu, 26 Nov 2026 09:21:36 +0000",
+    "source_name": "Realtime VFX",
+    "category": "ta-render",
+    "fetched_at": "2026-11-26T18:01:25.093851"
   }
 }
