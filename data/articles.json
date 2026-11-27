@@ -19348,5 +19348,65 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-11-27T02:35:12.151038"
+  },
+  "de7973e5a609": {
+    "id": "de7973e5a609",
+    "title": "Turn 360° footage into Gaussian Splats with KIRI Engine 4.4",
+    "link": "https://www.cgchannel.com/2026/11/turn-your-360-footage-into-gaussian-splats-with-kiri-engine-4-4/",
+    "summary": "[Sponsored] 3D scanning app for iOS, Android and web now turns 360° video into 3DGS data. Save 50% on the Pro edition through Cyber Week.",
+    "published": "Fri, 27 Nov 2026 15:30:57 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-27T17:46:15.694130"
+  },
+  "9afcf3ee05fd": {
+    "id": "9afcf3ee05fd",
+    "title": "OctaneStudio+ 2027 launches with Greyscalegorilla x KitBash3D",
+    "link": "https://www.cgchannel.com/2026/11/octanestudio-2027-launches-with-greyscalegorilla-x-kitbash3d-and-more/",
+    "summary": "[Sponsored] Discover the amazing software, assets and cloud credits available with subscriptions to the Octane renderer this Black Friday.",
+    "published": "Fri, 27 Nov 2026 07:23:37 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-27T17:46:15.694172"
+  },
+  "87bd850a77a6": {
+    "id": "87bd850a77a6",
+    "title": "Nekki releases Cascadeur 2026.3 and offers 40% off for Black Friday",
+    "link": "https://www.cgchannel.com/2026/11/nekki-releases-cascadeur-2026-3-and-offers-40-off-for-black-friday/",
+    "summary": "[Sponsored] Discover the new facial animation and creature rigging tools in the AI-assisted animation app - and buy it at a Black Friday discount.",
+    "published": "Thu, 26 Nov 2026 15:00:34 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-27T17:46:15.694182"
+  },
+  "1491e8cddd91": {
+    "id": "1491e8cddd91",
+    "title": "Tutorial: Introduction to Marvelous Designer",
+    "link": "https://www.cgchannel.com/2026/11/tutorial-introduction-to-marvelous-designer-2/",
+    "summary": "Get started with the games and VFX-industry-standard 3D clothing design software with The Gnomon Workshop's beginners' guide.",
+    "published": "Thu, 26 Nov 2026 04:30:38 +0000",
+    "source_name": "CG Channel",
+    "category": "ta",
+    "fetched_at": "2026-11-27T17:46:15.694191"
+  },
+  "a08a6300dccc": {
+    "id": "a08a6300dccc",
+    "title": "Running a Fair Art Test Before You Sign an Outsourced Art Studio in India",
+    "link": "https://gamedev.net/blogs/entry/2298745-running-a-fair-art-test-before-you-sign-an-outsourced-art-studio-in-india",
+    "summary": "Before a studio signs a long art contract, it usually asks the candidate partner for an art test. Done well, a test tells you how a team reads a brief, handles feedback and delivers files your pipeline can use. Done badly, it rewards whoever spends the most unpaid hours on a single pretty image, and tells you very little about month three of production. This is a practical outline for running a fair pre-production art test, written with one common setup in mind: a publisher or studio evaluating an outsourced art team in India, working across a time-zone gap. Most …",
+    "published": "Fri, 27 Nov 2026 14:44:22 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-27T17:46:22.173022"
+  },
+  "c10ff4f9db82": {
+    "id": "c10ff4f9db82",
+    "title": "WonderLang Beyond: an RPG for intermediate language learners — Kickstarter live, 80% funded",
+    "link": "https://gamedev.net/forums/topic/720740-wonderlang-beyond-an-rpg-for-intermediate-language-learners-kickstarter-live-80-funded",
+    "summary": "Hi everyone, I’m Jonathan, the creator of WonderLang. After releasing and expanding the original beginner-focused game, I’m working with freelance contributors on WonderLang Beyond, a standalone adventure for intermediate learners. The design question is how to give players a reason to spend more time with their target language while helping them understand and remember it. In Beyond, you follow NPC conversations, look up unfamiliar words, replay lines and open sentence explanations. You also form replies by picking words, typing with visual keyboards or speaking. Words encountered in dialogue return in spaced-repetition battle reviews. Correct answers power attacks. Mini-games offer different …",
+    "published": "Fri, 27 Nov 2026 14:42:35 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-27T17:46:22.173052"
   }
 }
