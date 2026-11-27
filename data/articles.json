@@ -19328,5 +19328,25 @@
     "source_name": "Realtime VFX",
     "category": "ta-render",
     "fetched_at": "2026-11-26T18:01:25.093851"
+  },
+  "a8306ebd9757": {
+    "id": "a8306ebd9757",
+    "title": "From 3DGS to physical models: preserving detail through mesh conversion",
+    "link": "https://gamedev.net/blogs/entry/2298741-from-3dgs-to-physical-models-preserving-detail-through-mesh-conversion",
+    "summary": "I’m sharing this from the Mugen3D team. We’re researching how image-derived 3D Gaussian Splatting (3DGS) assets can become full-color physical models. This project covers animals, portrait busts, and stylized characters, and follows their conversion from a rendering representation to geometry prepared for fabrication. The work centers on a familiar concern for anyone reviewing a 3D asset: which features actually define its appearance? Overall form matters, but so do the local layers, protruding parts, and color patterns that make a subject recognizable. Here, we examine those features in physical prints alongside the input images and digital previews. Different routes from digital …",
+    "published": "Fri, 27 Nov 2026 02:00:43 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-27T02:35:12.150997"
+  },
+  "3eb51a7c484a": {
+    "id": "3eb51a7c484a",
+    "title": "I made a one-finger balance game where most first runs end in under 3 seconds (free, Android)",
+    "link": "https://gamedev.net/forums/topic/720909-i-made-a-one-finger-balance-game-where-most-first-runs-end-in-under-3-seconds-free-android",
+    "summary": "Hi all, I'm the developer of Upright, a small arcade game for Android, and I'd love people to try it and tell me what they think. You're a street performer in a lantern-lit night market with a bamboo pole standing on one fingertip. Drag anywhere to keep your hand under it. Every second it stays up is a foot of height, and every second it gets harder to hold. It's free to play Google Play: https://play.google.com/store/apps/details?id=com.zerojumpapps.upright&amp;referrer=utm_source%3Dforum008%26utm_medium%3Dforum%26utm_campaign%3Dupright_forums Trailer: https://www.youtube.com/watch?v=u3nALcT9V3w How it's made Before writing any code, I did research on how the physics of balancing a stick actually work. myPhysicsLab ( …",
+    "published": "Fri, 27 Nov 2026 02:20:13 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-27T02:35:12.151038"
   }
 }
