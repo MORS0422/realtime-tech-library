@@ -19408,5 +19408,25 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-11-27T17:46:22.173052"
+  },
+  "63dbca638cae": {
+    "id": "63dbca638cae",
+    "title": "Handing a Game Port to a Team in India: An Eight-Point Handover Checklist",
+    "link": "https://gamedev.net/blogs/entry/2298748-handing-a-game-port-to-a-team-in-india-an-eight-point-handover-checklist",
+    "summary": "Handing a port to an outside team is one of the most common ways smaller studios get a game onto another platform without pausing work on the original. It is also one of the easiest projects to underestimate, because the receiving team starts with none of the context the original developers carry in their heads. This is a handover checklist for one common setup: a studio passing a PC or mobile game to a porting team in India, working across a time-zone gap. Most of it applies to any external porting partner, and it deliberately avoids figures, because effort depends …",
+    "published": "Fri, 27 Nov 2026 23:48:15 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-28T02:26:16.894446"
+  },
+  "d3e998102061": {
+    "id": "d3e998102061",
+    "title": "[Steam] Save the Red Box - Minimalist Platformer",
+    "link": "https://gamedev.net/forums/topic/720767-steam-save-the-red-box-minimalist-platformer",
+    "summary": "https://store.steampowered.com/app/5393820/Save_the_Red_Box/ Save the Red Box is a precise, minimalist platformer. You must play each level twice: first in normal mode, and then in chaos mode. In chaos mode, not only does the difficulty increase, but the entire atmosphere shifts—everything is rendered as a silhouette. New traps appear while others vanish; new paths open up, while existing ones may close off. Areas that were safe to traverse in normal mode might become dangerous in chaos mode, and the music and sound effects take on a distorted, glitchy quality. Additionally, there are jump/dash orbs scattered throughout; collecting one grants you an extra …",
+    "published": "Fri, 27 Nov 2026 21:46:27 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-28T02:26:16.894484"
   }
 }
