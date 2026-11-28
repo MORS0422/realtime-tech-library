@@ -19428,5 +19428,15 @@
     "source_name": "GameDev.net - Multiplatform",
     "category": "multiplat",
     "fetched_at": "2026-11-28T02:26:16.894484"
+  },
+  "2892788722a5": {
+    "id": "2892788722a5",
+    "title": "Two low-frame-rate bugs we only found by recording our 3D game on a slow computer",
+    "link": "https://gamedev.net/blogs/entry/2298754-two-low-frame-rate-bugs-we-only-found-by-recording-our-3d-game-on-a-slow-computer",
+    "summary": "I build Amplify, an AI builder for browser games. Last week I recorded a real build of a small 3D game, Paper River (steer a paper boat down a river, dodge rocks, collect stars), on a machine with no GPU. It rendered in software at about 3 to 5 frames per second. That made the recording look bad, but it also exposed two real bugs in the shared game runtime. Both are general lessons, so here they are. Auto-quality that changes resolution mid-play The runtime had an auto-quality rule: if the frame rate stayed under 45 fps for about 4 …",
+    "published": "Sat, 28 Nov 2026 15:21:14 +0000",
+    "source_name": "GameDev.net - Multiplatform",
+    "category": "multiplat",
+    "fetched_at": "2026-11-28T16:33:06.007751"
   }
 }
